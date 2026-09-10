@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <defs>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CCFF00"/>
+      <stop offset="100%" stop-color="#00FFA3"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+  <!-- Background badge icon -->
+  <g transform="translate(10, 10)">
+    <rect width="60" height="60" rx="14" fill="#121316" stroke="#2A2D37" stroke-width="2"/>
+    <path d="M18 18 H42 V34 H28 V52 H18 Z" fill="url(#neonGrad)" />
+    <polygon points="34,26 44,26 40,42 30,42" fill="url(#goldGrad)" />
+    <circle cx="44" cy="46" r="3.5" fill="#CCFF00" />
+  </g>
+  <!-- Brand text -->
+  <text x="82" y="38" font-family="'Syne', 'Arial Black', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="1">PUERTO</text>
+  <text x="210" y="38" font-family="'Syne', 'Arial Black', sans-serif" font-weight="900" font-size="28" fill="url(#neonGrad)" letter-spacing="1">HYPE</text>
+  <!-- Subtitle badge -->
+  <rect x="82" y="46" width="168" height="18" rx="4" fill="#1A1C23" stroke="#2A2D37" stroke-width="1" />
+  <text x="90" y="59" font-family="'Inter', sans-serif" font-weight="700" font-size="9" fill="#F59E0B" letter-spacing="2">MAYOREO STREETWEAR</text>
+  <circle cx="238" cy="55" r="3" fill="#00FFA3" />
+</svg>
