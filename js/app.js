@@ -127959,7 +127959,8 @@ if (btnPreorderSports) {
     btnPreorder.style.color = 'var(--text-secondary)';
     btnPreorder.style.border = '2px solid var(--bg-card-border)';
     
-    if (preorderBanner) preorderBanner.style.display = 'block';
+    const preorderBanner = document.getElementById('preorder-banner');
+        if (preorderBanner) preorderBanner.style.display = 'block';
     if (sectionTag) sectionTag.textContent = 'POR PEDIDO DE 15 A 20 DÍAS - DEPORTES ⚽️🏀⚾️🏎️🏈';
     if (sectionTitle) sectionTitle.textContent = 'CATÁLOGO DEPORTES';
     
