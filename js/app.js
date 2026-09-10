@@ -4,6 +4,8 @@
 // ==========================================================================
 
 // Catálogo de Productos (Stock y Preorder)
+const SPORTS_PRODUCTS = [];
+
 const STOCK_PRODUCTS = [
   {
     "id": "stock-001",
@@ -127719,7 +127721,10 @@ function renderProducts() {
   const container = document.getElementById('products-grid');
   if (!container) return;
 
-  const currentProducts = AppState.currentMode === 'stock' ? STOCK_PRODUCTS : PREORDER_PRODUCTS;
+  let currentProducts = STOCK_PRODUCTS;
+if (AppState.currentMode === 'preorder') currentProducts = PREORDER_PRODUCTS;
+if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCTS;
+
 
   const filtered = currentProducts.filter(prod => {
     const matchesCategory = AppState.currentFilter === 'all' || 
@@ -127799,6 +127804,7 @@ function setupEventListeners() {
       AppState.currentFilter = 'all';
       
       btnStock.style.background = 'var(--neon-lime)';
+      if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#12141a'; document.getElementById('btn-preorder-sports').style.color = 'var(--text-secondary)'; document.getElementById('btn-preorder-sports').style.border = '2px solid var(--bg-card-border)'; }
       btnStock.style.color = 'var(--text-dark)';
       btnStock.style.border = '2px solid var(--neon-lime)';
       
@@ -127826,6 +127832,7 @@ function setupEventListeners() {
       AppState.currentFilter = 'all';
       
       btnPreorder.style.background = 'var(--neon-lime)';
+      if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#12141a'; document.getElementById('btn-preorder-sports').style.color = 'var(--text-secondary)'; document.getElementById('btn-preorder-sports').style.border = '2px solid var(--bg-card-border)'; }
       btnPreorder.style.color = 'var(--text-dark)';
       btnPreorder.style.border = '2px solid var(--neon-lime)';
       
@@ -127847,6 +127854,38 @@ function setupEventListeners() {
       
       renderProducts();
     });
+const btnPreorderSports = document.getElementById('btn-preorder-sports');
+if (btnPreorderSports) {
+  btnPreorderSports.addEventListener('click', () => {
+    AppState.currentMode = 'preorder-sports';
+    AppState.currentFilter = 'all';
+    
+    btnPreorderSports.style.background = 'var(--neon-lime)';
+    btnPreorderSports.style.color = 'var(--text-dark)';
+    btnPreorderSports.style.border = '2px solid var(--neon-lime)';
+    
+    btnStock.style.background = '#12141a';
+    btnStock.style.color = 'var(--text-secondary)';
+    btnStock.style.border = '2px solid var(--bg-card-border)';
+    
+    btnPreorder.style.background = '#12141a';
+    btnPreorder.style.color = 'var(--text-secondary)';
+    btnPreorder.style.border = '2px solid var(--bg-card-border)';
+    
+    if (preorderBanner) preorderBanner.style.display = 'block';
+    if (sectionTag) sectionTag.textContent = 'POR PEDIDO DE 15 A 20 DÍAS - DEPORTES ⚽️🏀⚾️🏎️🏈';
+    if (sectionTitle) sectionTitle.textContent = 'CATÁLOGO DEPORTES';
+    
+    // Reset active filter logic
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.classList.remove('active');
+      if (btn.dataset.filter === 'all') btn.classList.add('active');
+    });
+    
+    renderProducts();
+  });
+}
+
   }
 
   // Filtros de categoría
