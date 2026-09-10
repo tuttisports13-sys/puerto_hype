@@ -4,7 +4,85 @@
 // ==========================================================================
 
 // Catálogo de Productos (Stock y Preorder)
-const SPORTS_PRODUCTS = [];
+const SPORTS_PRODUCTS = [
+  {
+    "id": "sports-001",
+    "name": "Liga MX Catálogo 1",
+    "category": "deportes",
+    "section": "preorder-sports",
+    "image": "data:image/svg+xml;utf8,<svg width=\"400\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"%2312141a\"/><text x=\"50%\" y=\"50%\" font-size=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\">🇲🇽⚽️</text></svg>",
+    "badge": "LIGA MX",
+    "badgeType": "badge-hot",
+    "password": "Contraseña: 888999",
+    "link": "https://huihui234.x.yupoo.com/"
+  },
+  {
+    "id": "sports-002",
+    "name": "Liga MX Catálogo 2",
+    "category": "deportes",
+    "section": "preorder-sports",
+    "image": "data:image/svg+xml;utf8,<svg width=\"400\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"%2312141a\"/><text x=\"50%\" y=\"50%\" font-size=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\">🇲🇽⚽️</text></svg>",
+    "badge": "LIGA MX",
+    "badgeType": "badge-hot",
+    "password": "Contraseña: 147258",
+    "link": "https://tcc918-q.x.yupoo.com/categories/4879861"
+  },
+  {
+    "id": "sports-003",
+    "name": "Liga MX Catálogo 3",
+    "category": "deportes",
+    "section": "preorder-sports",
+    "image": "data:image/svg+xml;utf8,<svg width=\"400\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"%2312141a\"/><text x=\"50%\" y=\"50%\" font-size=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\">🇲🇽⚽️</text></svg>",
+    "badge": "LIGA MX",
+    "badgeType": "badge-hot",
+    "password": "Sin contraseña",
+    "link": "https://hrtz522.x.yupoo.com/albums/197076918?uid=1"
+  },
+  {
+    "id": "sports-004",
+    "name": "NBA Catálogo 1",
+    "category": "deportes",
+    "section": "preorder-sports",
+    "image": "data:image/svg+xml;utf8,<svg width=\"400\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"%2312141a\"/><text x=\"50%\" y=\"50%\" font-size=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\">🏀🔥</text></svg>",
+    "badge": "NBA",
+    "badgeType": "badge-preorder",
+    "password": "Sin contraseña",
+    "link": "https://qiuqi-sports.x.yupoo.com/"
+  },
+  {
+    "id": "sports-005",
+    "name": "NBA Catálogo 2",
+    "category": "deportes",
+    "section": "preorder-sports",
+    "image": "data:image/svg+xml;utf8,<svg width=\"400\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"%2312141a\"/><text x=\"50%\" y=\"50%\" font-size=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\">🏀🔥</text></svg>",
+    "badge": "NBA",
+    "badgeType": "badge-preorder",
+    "password": "Sin contraseña",
+    "link": "https://lan-xing.x.yupoo.com/"
+  },
+  {
+    "id": "sports-006",
+    "name": "NBA Catálogo 3",
+    "category": "deportes",
+    "section": "preorder-sports",
+    "image": "data:image/svg+xml;utf8,<svg width=\"400\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"%2312141a\"/><text x=\"50%\" y=\"50%\" font-size=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\">🏀🔥</text></svg>",
+    "badge": "NBA",
+    "badgeType": "badge-preorder",
+    "password": "Sin contraseña",
+    "link": "https://xingkong-sports.x.yupoo.com/"
+  },
+  {
+    "id": "sports-007",
+    "name": "NBA Catálogo 4",
+    "category": "deportes",
+    "section": "preorder-sports",
+    "image": "data:image/svg+xml;utf8,<svg width=\"400\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"%2312141a\"/><text x=\"50%\" y=\"50%\" font-size=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\">🏀🔥</text></svg>",
+    "badge": "NBA",
+    "badgeType": "badge-preorder",
+    "password": "Sin contraseña",
+    "link": "https://94nbaqiuyi.x.yupoo.com/"
+  }
+];
 
 const STOCK_PRODUCTS = [
   {
@@ -127763,24 +127841,33 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
         <h3 class="product-name">${product.name}</h3>
 <div class="product-sizes" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
   ${product.sizes && product.sizes.length > 0 ? 'Talla: ' + product.sizes.join(', ') : ''}
+  ${product.password ? '<span style="color:var(--neon-lime); display:block; margin-top:5px;">' + product.password + '</span>' : ''}
 </div>
 
-        ${product.section === 'preorder' ? '' : `
+${product.section === 'preorder' || product.section === 'preorder-sports' ? '' : `
 <div class="product-pricing">
   <span class="price-wholesale">$${product.price} MXN</span>
-  
 </div>
 `}
-        <div class="product-actions">
-          <button class="btn-add-cart" onclick="addToCart('${product.id}')">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="9" cy="21" r="1"></circle>
-              <circle cx="20" cy="21" r="1"></circle>
-              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-            </svg>
-            AGREGAR
-          </button>
-        </div>
+
+<div class="product-actions">
+  ${product.section === 'preorder-sports' ? `
+    <a href="${product.link}" target="_blank" class="btn-add-cart" style="text-decoration: none; display: flex; justify-content: center; align-items: center; gap: 8px; width: 100%; box-sizing: border-box;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      VER CATÁLOGO
+    </a>
+  ` : `
+    <button class="btn-add-cart" onclick="addToCart('${product.id}')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="21" r="1"></circle>
+        <circle cx="20" cy="21" r="1"></circle>
+        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+      </svg>
+      AGREGAR
+    </button>
+  `}
+</div>
+
       </div>
     </article>
   `).join('');
