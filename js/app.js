@@ -15,36 +15,6 @@ const SPORTS_PRODUCTS = [
   "section": "preorder-sports"
 },
 {
-  "id": "nba-80107667",
-  "name": "Camiseta Rcd Espanyol Visitante 2024-2025",
-  "category": "nba",
-  "isProductInsideFolder": true,
-  "section": "preorder-sports",
-  "price": 750,
-  "badge": "15-20 DÍAS",
-  "badgeType": "badge-preorder",
-  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-    "image": "https://imbictoz.pe/wp-content/uploads/2024/11/camiseta-RCD-Espanyol-segunda-equipacion-2024-2025.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2024/11/camiseta-RCD-Espanyol-segunda-equipacion-2024-2025.jpg"
-  ]
-},
-{
-  "id": "nba-99743110",
-  "name": "Camiseta Al Nassr Blanca Tercera Equipación 2023/2024 Versión Jugador",
-  "category": "nba",
-  "isProductInsideFolder": true,
-  "section": "preorder-sports",
-  "price": 750,
-  "badge": "15-20 DÍAS",
-  "badgeType": "badge-preorder",
-  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-    "image": "https://imbictoz.pe/wp-content/uploads/2024/02/camiseta-al-nassr-blanca-wpp1707338522506.jpeg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2024/02/camiseta-al-nassr-blanca-wpp1707338522506.jpeg"
-  ]
-},
-{
   "id": "nba-25824718",
   "name": "Camiseta Chicago Bulls Roja Edición City",
   "category": "nba",
