@@ -6,6 +6,17 @@
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
 {
+  "id": "sports-folder-mls",
+  "name": "MLS - Temporada 25/26",
+  "category": "mls_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/mls_cover.png",
+  "badge": "52 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "mls"
+},
+{
   "id": "sports-folder-ligamx",
   "name": "Liga MX - Temporada 24/25",
   "category": "liga_mx_folder",
@@ -28094,6 +28105,1456 @@ const SPORTS_PRODUCTS = [
       "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ad443bac-min.webp",
       "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8023e2db-min.webp",
       "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3fcdc441-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  }
+
+,
+
+  {
+    "id": "mls-5716",
+    "name": "Inter de Miami 2025/26 - Visita - Jugador",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/10700c73.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/10700c73.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/5c073f5d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/9e1a112c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-6913",
+    "name": "Inter de Miami 2025/26 - Visita - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5281eafa-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5281eafa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ccbd6ada-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__21bb70fa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__6b12594d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-7180",
+    "name": "Inter de Miami 2025/26 – Local – Jugador - Manga Larga",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__dbc47384-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__dbc47384-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__69992b70-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__8a6d7b3c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__30e398d2-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-7177",
+    "name": "Inter de Miami (Messi/10) 2025/26 - Local - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-46-min-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-46-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__fe1016d9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ee602b2f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3abc06df-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-2279",
+    "name": "Inter de Miami 2024/25 - Local - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/1f5ce62a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/1f5ce62a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/87996f3e-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__ab82e314-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/9ccf45e9-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-5481",
+    "name": "Inter de Miami 2023/24 - Conjunto Chándal Entrenamiento",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/a6c1a304-min.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/a6c1a304-min.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "mls-11743",
+    "name": "Inter de Miami 2025/26 – Alternativa – Jugador - Manga Larga",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__26514290.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__26514290.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b145a79e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__105232f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__d59b6d11.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-7060",
+    "name": "Inter de Miami 2025/26 - Local - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3abc06df-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3abc06df-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__fe1016d9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ee602b2f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a0abcad4-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-9371",
+    "name": "Inter de Miami 2025/26 - Ed. Especial (Rosa) - Jugador",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__1592f81e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__1592f81e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b84fa857-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__3117f4ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c241a336-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-2289",
+    "name": "Inter de Miami (Messi/10) 2024/25 - Local - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/Diseno-sin-titulo-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/Diseno-sin-titulo-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/1f5ce62a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__ab82e314-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/9ccf45e9-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-2765",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Local - Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-1.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raaqin1b9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Screenshot-2024-11-01-224327-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__ab82e314-1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-6798",
+    "name": "Inter de Miami 2025/26 - Visita - Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__c13183b0-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__c13183b0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__004c3670-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__094d67ae-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__10b8d8bd-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-3126",
+    "name": "Inter de Miami 2023/24 - Rompevientos Doble Vista",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3dccc511-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3dccc511-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7147daba-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/84654934-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "mls-3137",
+    "name": "Inter de Miami 2023/24 - Rompevientos",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/87671cf2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/87671cf2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1937bb1f-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/59915892-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c9f32f0d-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "mls-4552",
+    "name": "Inter de Miami (Messi/10) 2022/23 - Hoodie Negro",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1100,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-2-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-2-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-1-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-3143",
+    "name": "Inter de Miami 2023/24 - »Jugador» Rompevientos",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1ee3bb50-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1ee3bb50-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8797cbd8-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/05dcec55.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7fd5667d.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "mls-9134",
+    "name": "Inter de Miami 2025/26 - Alternativa - Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__aed3510f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__aed3510f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ad118ff9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9e6813a7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__88ac978b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-5043",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Visita - Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-19-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-19-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0d5f5924-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e9500a6a-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7cb31944-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-2748",
+    "name": "Inter de Miami 2024/25 - Local - Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raaqin1b9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raaqin1b9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raatbrx4b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Screenshot-2024-11-01-224327-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raayy1pa1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-5028",
+    "name": "Inter de Miami 2024/25 - Visita - Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0d5f5924-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0d5f5924-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e9500a6a-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7cb31944-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c81d0283-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15992",
+    "name": "Charlotte FC 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a15540cd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a15540cd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__01260f5e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3e8945f6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78878754.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15986",
+    "name": "Washington D.C. United 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8bb6d20d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8bb6d20d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__733644f9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b63f575.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aa46d736.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-6814",
+    "name": "Inter de Miami 2025/26 - Local - Jugador",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__4c85e3a8-3c9e-457a-b005-c83520ca85fc-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__4c85e3a8-3c9e-457a-b005-c83520ca85fc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3204a1b4-4582-4335-8ae6-2adf40d4acdf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__c41eada3-b39c-40c7-a80b-84fcb4cc88a1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__1fe7a164-ed2d-40fe-86bf-28e35f0f4b50-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15955",
+    "name": "Inter miami - 2025/26 - Special Edition - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b9959336.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b9959336.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__764468b1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6ced69ec.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__23f17232.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-7843",
+    "name": "Inter de Miami 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6997ed75-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6997ed75-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9f0dc84c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7faa9d93-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b0ceb715-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15948",
+    "name": "Portland Timbers 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__93f12a76.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__93f12a76.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3792e587.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8a30136b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__49276820.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15998",
+    "name": "Montreal 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3ff74f90.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3ff74f90.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__786065bc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__67eafbb7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bc9c8740.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-3131",
+    "name": "Inter de Miami 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/898a7f2f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/898a7f2f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bf3b8df4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/98e5b432-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/68900bdc-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-9128",
+    "name": "Inter de Miami 2025/26 - Alternativa - Jugador",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f3e96862-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f3e96862-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__73266cd7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8bb82a94-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e48f94b6-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15969",
+    "name": "Inter miami 2025/26 Special Edition - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__591996e6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__591996e6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ede11e1e-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fe7515cc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e7e7d34d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15942",
+    "name": "Vancouver Whitecaps FC 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b343ae55.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b343ae55.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2f33332f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3069de69.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a0ef99a5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15930",
+    "name": "San Jose Earthquakes 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a0202587.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a0202587.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0ff022ea.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fc59e39b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9564350e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15900",
+    "name": "Bohemians 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ed5ac8a4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ed5ac8a4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__658b41a5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__153229b4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b65f8dc9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15912",
+    "name": "Girona 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__39970f8b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__39970f8b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/1b6c7c25.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/25deee88.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/be1d0888.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-14693",
+    "name": "Inter de Miami 2025/26 - Ed. Ciudad y Playa - Jugador",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/4051e759-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/4051e759-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/ae959e35-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__938aea20-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/61f9bbef-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15918",
+    "name": "New England Revolution 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d85bf71a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d85bf71a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__329789ca.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e7bb4f2a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e604e9c3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-14687",
+    "name": "Inter de Miami 2025/26 - Casual - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__00a7196d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__00a7196d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f1ecc06f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__eda5b6ba.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a8fc4e1b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15924",
+    "name": "San Diego FC 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a19e733d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a19e733d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1c3dc8d5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2c9a73f9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5e79b9c9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15906",
+    "name": "Aberdeen F.C. 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd4d3829.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd4d3829.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6cd088ed.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c673f9b7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__884400b3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-15936",
+    "name": "Toronto FC 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0be396d6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0be396d6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b6fcb8c7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__71c51fb4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6c068998.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-16016",
+    "name": "New York City - 2025/26 - Local - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b55e6e66.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b55e6e66.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3f062ff5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c6b4e588.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4f73ea84.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-16177",
+    "name": "Estados Unidos 2025/26 – Local – Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7262b55b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7262b55b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8bf54eb1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__14f19a6d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ee1444d1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-18671",
+    "name": "Inter de Miami 2026/27 - Alternativa - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/5719de5b-8105-4f7e-a21e-34268a89240e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/5719de5b-8105-4f7e-a21e-34268a89240e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3eca4cf4-9111-4f1d-ae4b-95221c776715.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-9434",
+    "name": "Inter de Miami 2025/26 - Visita - Aficionado - Hombre - Manga Larga",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d3438015-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d3438015-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ccbd6ada-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__21bb70fa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__37493aa6-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-3108",
+    "name": "Inter de Miami 2024/25 - »Especial Edition» - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e4ddb070-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e4ddb070-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec224719-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c132232e-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ca453bac-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-16171",
+    "name": "Estados Unidos 2025/26 – Visita – Infantil",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__12733fe0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__12733fe0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__265c151e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2054315b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6aaf48f3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-2982",
+    "name": "Inter de Miami 2024/25 - Visita - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e25d5f0b-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e25d5f0b-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d1373ddb-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6cb1cd69-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7c25aa59-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-3114",
+    "name": "Inter de Miami 2024/25 - »International Champion» - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f5074b1a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f5074b1a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/020eedda-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/acb2753e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1863777f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-16028",
+    "name": "Austin 2025/26 - Local - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19238149.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19238149.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3ec21557.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b7d78015.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__619d83dc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-3120",
+    "name": "Inter de Miami 2024/25 - »Flame Edition» - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/087cc78f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/087cc78f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f2f36724-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/57fb9e0d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1e15e45b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-16004",
+    "name": "Orlando 2025/26 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a257b838.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a257b838.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a2b5e6ae.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e3b925c4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__72611d33.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "mls-16010",
+    "name": "Columbus Crew 2025/2026 - Aficionado - Hombre",
+    "category": "mls",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__17799f01.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__17799f01.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2da5c4fb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__202d542c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__137e7a6c.webp",
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
