@@ -35701,9 +35701,9 @@ const SPORTS_PRODUCTS = [
     "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+    "image": "images/stock/francia_local_ml.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+      "images/stock/francia_local_ml.jpg"
     ],
     "sizes": [
       "S",
