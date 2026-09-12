@@ -5,17 +5,17 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
-{
-  "id": "sports-folder-ninos",
-  "name": "Niños",
-  "category": "ninos_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/ninos_cover.png",
-  "badge": "160 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "ninos"
-},
+  {
+    "id": "sports-folder-ninos",
+    "name": "Niños",
+    "category": "ninos_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/ninos_cover.png",
+    "badge": "160 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "ninos"
+  },
   {
     "id": "sports-folder-arabe",
     "name": "LIGA ARABE & AL NASSR",
@@ -979,7 +979,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "bun-9108",
-    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "name": "Bayern Munchen 2025/26 - Portero - Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -994,19 +994,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "bun-9115",
-    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "name": "Bayern Munchen 2025/26 - Portero - Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -1021,13 +1021,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -1140,7 +1140,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "bun-7033",
-    "name": "Bayern Munchen 2024/25 - Local - Infantil",
+    "name": "Bayern Munchen 2024/25 - Local - Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -1155,19 +1155,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "bun-3074",
-    "name": "Bayern Munchen 2023/24 - Local - Infantil",
+    "name": "Bayern Munchen 2023/24 - Local - Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -1182,13 +1182,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -1611,7 +1611,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "bun-14168",
-    "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Infantil",
+    "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -1626,13 +1626,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -1994,7 +1994,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "bun-9574",
-    "name": "Bayern Munchen 2025/26 - Local - Infantil",
+    "name": "Bayern Munchen 2025/26 - Local - Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -2009,13 +2009,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -2280,7 +2280,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "bun-16585",
-    "name": "Borussia Mönchengladbach 2025/26 - Local - Infantil",
+    "name": "Borussia Mönchengladbach 2025/26 - Local - Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -2295,13 +2295,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -2960,7 +2960,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "bun-16353",
-    "name": "Hamburgo 2024/25 – Prematch – Infantil",
+    "name": "Hamburgo 2024/25 – Prematch – Niños",
     "category": "bundesliga",
     "section": "preorder-sports",
     "price": 650,
@@ -2975,13 +2975,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -3474,7 +3474,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-8234",
-    "name": "Barcelona 2025/26 - Local - Infantil",
+    "name": "Barcelona 2025/26 - Local - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -3490,13 +3490,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -4305,7 +4305,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-8216",
-    "name": "Real Madrid 2025/26 - Local - Infantil",
+    "name": "Real Madrid 2025/26 - Local - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -4321,13 +4321,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -4883,7 +4883,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-9365",
-    "name": "Real Madrid 2006/07 - Local - Infantil - Retro",
+    "name": "Real Madrid 2006/07 - Local - Niños - Retro",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -4899,11 +4899,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -4965,7 +4967,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-6498",
-    "name": "Real Madrid 2017/18 - Visita - Infantil - Retro",
+    "name": "Real Madrid 2017/18 - Visita - Niños - Retro",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -4981,11 +4983,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -5017,7 +5021,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-8773",
-    "name": "Real Betis 2025/26 - »Naruto» - Infantil",
+    "name": "Real Betis 2025/26 - »Naruto» - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -5033,13 +5037,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -5294,7 +5298,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-6456",
-    "name": "Atlético de Madrid 2024/25 – Visita – Infantil",
+    "name": "Atlético de Madrid 2024/25 – Visita – Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -5310,13 +5314,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -6220,7 +6224,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-18705",
-    "name": "Real Madrid 2026/27 - Alternativa - Infantil",
+    "name": "Real Madrid 2026/27 - Alternativa - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -6235,13 +6239,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -6439,7 +6443,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-6492",
-    "name": "Real Madrid 2014/15 - Local - Infantil - Retro",
+    "name": "Real Madrid 2014/15 - Local - Niños - Retro",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -6455,11 +6459,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -7091,7 +7097,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-9586",
-    "name": "Barcelona 2024/25 - (Travis Scott Skeleton) - Infantil",
+    "name": "Barcelona 2024/25 - (Travis Scott Skeleton) - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -7107,13 +7113,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -7231,7 +7237,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-6468",
-    "name": "Real Madrid 2014/15 - Visita - Infantil - Retro",
+    "name": "Real Madrid 2014/15 - Visita - Niños - Retro",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -7247,11 +7253,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -7391,7 +7399,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-2177",
-    "name": "Real Madrid 2023/24 - Local - Infantil",
+    "name": "Real Madrid 2023/24 - Local - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -7407,13 +7415,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -7986,7 +7994,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-9269",
-    "name": "Real Madrid 2025/26 - Portero - Infantil",
+    "name": "Real Madrid 2025/26 - Portero - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -8002,13 +8010,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -8092,7 +8100,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-11368",
-    "name": "Barcelona 2025/26 - Portero - Infantil",
+    "name": "Barcelona 2025/26 - Portero - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -8108,13 +8116,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -8174,7 +8182,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-15514",
-    "name": "Real Madrid 2025/26 - Portero »Naranja» - Infantil",
+    "name": "Real Madrid 2025/26 - Portero »Naranja» - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -8190,13 +8198,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -8471,7 +8479,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-11218",
-    "name": "Barcelona 2025/26 - Visita - Infantil",
+    "name": "Barcelona 2025/26 - Visita - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -8487,13 +8495,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -8899,7 +8907,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-9541",
-    "name": "Barcelona 2025/26 - Polo »Modernista» - Infantil",
+    "name": "Barcelona 2025/26 - Polo »Modernista» - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -8915,13 +8923,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -9224,7 +9232,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-9171",
-    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Infantil",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -9240,13 +9248,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -9440,7 +9448,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-14954",
-    "name": "Real Betis 2025/26 - Ed. Negra - Infantil",
+    "name": "Real Betis 2025/26 - Ed. Negra - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -9456,13 +9464,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -9576,7 +9584,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-14988",
-    "name": "Real Betis 2023/24 - Local - Infantil",
+    "name": "Real Betis 2023/24 - Local - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -9592,13 +9600,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -9740,7 +9748,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-8222",
-    "name": "Real Madrid 2024/25 - Alternativa - Infantil",
+    "name": "Real Madrid 2024/25 - Alternativa - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -9756,13 +9764,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -9824,7 +9832,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-2727",
-    "name": "Real Madrid 2024/25 - Local - Infantil",
+    "name": "Real Madrid 2024/25 - Local - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -9840,13 +9848,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -9905,7 +9913,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-3043",
-    "name": "Real Madrid 2024/25 - Visita - Infantil",
+    "name": "Real Madrid 2024/25 - Visita - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -9921,13 +9929,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -10015,7 +10023,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-2689",
-    "name": "Barcelona 2024/25 - Local - Infantil",
+    "name": "Barcelona 2024/25 - Local - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -10031,13 +10039,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -10175,7 +10183,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-2873",
-    "name": "Barcelona 2024/25 - Alternativa - Infantil",
+    "name": "Barcelona 2024/25 - Alternativa - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -10191,13 +10199,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -10252,7 +10260,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "liga-2867",
-    "name": "Barcelona 2024/25 - Visita - Infantil",
+    "name": "Barcelona 2024/25 - Visita - Niños",
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -10268,13 +10276,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -10628,7 +10636,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-8886",
-    "name": "Spurs 2025/26 - Local - Infantil",
+    "name": "Spurs 2025/26 - Local - Niños",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -10644,19 +10652,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "premier-6316",
-    "name": "Chelsea 2011/12 - Local - Infantil - Retro",
+    "name": "Chelsea 2011/12 - Local - Niños - Retro",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -10672,11 +10680,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -10924,7 +10934,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-13649",
-    "name": "Chelsea 2012/13 - Local - Infantil - Retro",
+    "name": "Chelsea 2012/13 - Local - Niños - Retro",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -10940,11 +10950,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -11362,7 +11374,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-11212",
-    "name": "Manchester City 2025/26 – Visita – Infantil",
+    "name": "Manchester City 2025/26 – Visita – Niños",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -11378,13 +11390,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -11856,7 +11868,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-8755",
-    "name": "Arsenal 2025/26 - Local - Infantil",
+    "name": "Arsenal 2025/26 - Local - Niños",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -11872,13 +11884,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -11940,7 +11952,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-4985",
-    "name": "Manchester United 2007/08 – Local – Infantil – Retro",
+    "name": "Manchester United 2007/08 – Local – Niños – Retro",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -11956,11 +11968,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -11992,7 +12006,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-6516",
-    "name": "Chelsea 2008/09 - Local - Infantil - Retro",
+    "name": "Chelsea 2008/09 - Local - Niños - Retro",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -12008,11 +12022,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -13786,7 +13802,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-13343",
-    "name": "Arsenal 2005/06 - Local - Infantil - Retro",
+    "name": "Arsenal 2005/06 - Local - Niños - Retro",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -13802,11 +13818,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -14053,7 +14071,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-8172",
-    "name": "Manchester City 2025/26 – Local – Infantil",
+    "name": "Manchester City 2025/26 – Local – Niños",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -14069,13 +14087,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -14187,7 +14205,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-3940",
-    "name": "Chelsea 2024/25 - Local - Infantil",
+    "name": "Chelsea 2024/25 - Local - Niños",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -14203,13 +14221,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -15584,7 +15602,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-6504",
-    "name": "Manchester United 2009/10 – Local – Infantil – Retro",
+    "name": "Manchester United 2009/10 – Local – Niños – Retro",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -15600,11 +15618,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -16187,7 +16207,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-13741",
-    "name": "Manchester City 2024/25 – Visita – Infantil",
+    "name": "Manchester City 2024/25 – Visita – Niños",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -16203,13 +16223,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -16846,7 +16866,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "premier-5049",
-    "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Infantil – Retro",
+    "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Niños – Retro",
     "category": "premier",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -16862,11 +16882,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -17552,7 +17574,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-13466",
-    "name": "Napoli 2025/26 - Local- Infantil",
+    "name": "Napoli 2025/26 - Local- Niños",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -17568,13 +17590,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -17912,7 +17934,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-16591",
-    "name": "Juventus 2025/26 - Visita - Infantil",
+    "name": "Juventus 2025/26 - Visita - Niños",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -17928,13 +17950,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -18292,7 +18314,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-8154",
-    "name": "Juventus 2025/26 – Local – Infantil",
+    "name": "Juventus 2025/26 – Local – Niños",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -18308,13 +18330,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -18485,7 +18507,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-6462",
-    "name": "Juventus 2024/25 – Visita – Infantil",
+    "name": "Juventus 2024/25 – Visita – Niños",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -18501,13 +18523,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -18596,7 +18618,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-3966",
-    "name": "AC Milán 2024/25 - Local - Infantil",
+    "name": "AC Milán 2024/25 - Local - Niños",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -18612,13 +18634,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -18680,7 +18702,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-14793",
-    "name": "AS Roma 2025/26 – Local – Infantil",
+    "name": "AS Roma 2025/26 – Local – Niños",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -18696,13 +18718,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -18792,7 +18814,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-16317",
-    "name": "Inter de Milán 2009/10 - Local - Infantil - Retro",
+    "name": "Inter de Milán 2009/10 - Local - Niños - Retro",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -18808,11 +18830,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -19090,7 +19114,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-3946",
-    "name": "AC Milán 2006/07 - Local - Infantil - Retro",
+    "name": "AC Milán 2006/07 - Local - Niños - Retro",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -19106,11 +19130,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -19800,7 +19826,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "seriea-14781",
-    "name": "AS Roma 2001/02 - Local - Infantil - Retro",
+    "name": "AS Roma 2001/02 - Local - Niños - Retro",
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -19816,11 +19842,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -21401,7 +21429,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-17181",
-    "name": "Pumas 2025/26 - Local - Infantil",
+    "name": "Pumas 2025/26 - Local - Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -21415,13 +21443,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -24016,7 +24044,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-19378",
-    "name": "Cruz Azul 2026/27 – Local »Azul» – Infantil",
+    "name": "Cruz Azul 2026/27 – Local »Azul» – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -24030,13 +24058,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -24474,7 +24502,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-18452",
-    "name": "Club América 2026/27 – Local – Infantil",
+    "name": "Club América 2026/27 – Local – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -24488,13 +24516,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -24845,7 +24873,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-19383",
-    "name": "Chivas de Guadalajara 2026/27 – Local – Infantil",
+    "name": "Chivas de Guadalajara 2026/27 – Local – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -24861,13 +24889,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -26880,7 +26908,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-19387",
-    "name": "Chivas de Guadalajara 2026/27 – Visita »Blanco» – Infantil",
+    "name": "Chivas de Guadalajara 2026/27 – Visita »Blanco» – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -26896,13 +26924,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -26962,7 +26990,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-3029",
-    "name": "Chivas de Guadalajara 2024/25 – Local – Infantil",
+    "name": "Chivas de Guadalajara 2024/25 – Local – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -26978,13 +27006,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -27178,7 +27206,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-16759",
-    "name": "Chivas de Guadalajara 2025/26 – Alternativa – Infantil",
+    "name": "Chivas de Guadalajara 2025/26 – Alternativa – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -27192,13 +27220,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -27230,7 +27258,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-7173",
-    "name": "Club León 2024/25 - Visita - Infantil",
+    "name": "Club León 2024/25 - Visita - Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -27244,13 +27272,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -27282,7 +27310,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-18628",
-    "name": "Club América 2026/27 – Visita »Negra» – Infantil",
+    "name": "Club América 2026/27 – Visita »Negra» – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -27298,13 +27326,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -27441,7 +27469,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-10737",
-    "name": "Cruz Azul 2025/26 – Visita – Infantil",
+    "name": "Cruz Azul 2025/26 – Visita – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -27457,13 +27485,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -27495,7 +27523,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-7169",
-    "name": "Club León 2024/25 - Local - Infantil",
+    "name": "Club León 2024/25 - Local - Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -27509,13 +27537,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -27574,7 +27602,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-9177",
-    "name": "Club Monterrey 2025/26 – Mundial de Clubes – Infantil",
+    "name": "Club Monterrey 2025/26 – Mundial de Clubes – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -27590,13 +27618,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -27893,7 +27921,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-5688",
-    "name": "Monterrey 2024/25 – Local – Infantil",
+    "name": "Monterrey 2024/25 – Local – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -27909,13 +27937,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -28106,7 +28134,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "ligamx-10727",
-    "name": "Cruz Azul 2025/26 – Local – Infantil",
+    "name": "Cruz Azul 2025/26 – Local – Niños",
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -28122,13 +28150,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -28410,7 +28438,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "mls-2765",
-    "name": "Inter de Miami (Messi/10) 2024/25 – Local - Infantil",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Local - Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -28426,19 +28454,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "mls-6798",
-    "name": "Inter de Miami 2025/26 - Visita - Infantil",
+    "name": "Inter de Miami 2025/26 - Visita - Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -28454,13 +28482,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -28575,7 +28603,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "mls-9134",
-    "name": "Inter de Miami 2025/26 - Alternativa - Infantil",
+    "name": "Inter de Miami 2025/26 - Alternativa - Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -28591,19 +28619,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "mls-5043",
-    "name": "Inter de Miami (Messi/10) 2024/25 – Visita - Infantil",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Visita - Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -28619,19 +28647,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "mls-2748",
-    "name": "Inter de Miami 2024/25 - Local - Infantil",
+    "name": "Inter de Miami 2024/25 - Local - Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -28647,19 +28675,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "mls-5028",
-    "name": "Inter de Miami 2024/25 - Visita - Infantil",
+    "name": "Inter de Miami 2024/25 - Visita - Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -28675,13 +28703,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -29275,7 +29303,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "mls-16177",
-    "name": "Estados Unidos 2025/26 – Local – Infantil",
+    "name": "Estados Unidos 2025/26 – Local – Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -29291,13 +29319,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -29385,7 +29413,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "mls-16171",
-    "name": "Estados Unidos 2025/26 – Visita – Infantil",
+    "name": "Estados Unidos 2025/26 – Visita – Niños",
     "category": "mls",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -29401,13 +29429,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -29944,7 +29972,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "arabe-2761",
-    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Local - Infantil",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Local - Niños",
     "category": "arabe",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -29960,19 +29988,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "arabe-5920",
-    "name": "Al-Nassr 2024/25 (Ronaldo/7) – Visita – Infantil",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) – Visita – Niños",
     "category": "arabe",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -29988,19 +30016,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "arabe-13368",
-    "name": "Al-Nassr 2025/26 - Local - Infantil",
+    "name": "Al-Nassr 2025/26 - Local - Niños",
     "category": "arabe",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30016,19 +30044,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "arabe-5003",
-    "name": "Al-Nassr 2024/25 – Alternativa – Infantil",
+    "name": "Al-Nassr 2024/25 – Alternativa – Niños",
     "category": "arabe",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30044,19 +30072,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "arabe-5917",
-    "name": "Al-Nassr 2024/25 – Visita – Infantil",
+    "name": "Al-Nassr 2024/25 – Visita – Niños",
     "category": "arabe",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30072,19 +30100,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "arabe-2755",
-    "name": "Al-Nassr 2024/25 - Local - Infantil",
+    "name": "Al-Nassr 2024/25 - Local - Niños",
     "category": "arabe",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30100,13 +30128,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -30280,7 +30308,7 @@ const SPORTS_PRODUCTS = [
   },
   {
     "id": "arabe-10019",
-    "name": "Al-Nassr 2025/26 - Alternativa - Infantil",
+    "name": "Al-Nassr 2025/26 - Alternativa - Niños",
     "category": "arabe",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30296,13 +30324,13 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
@@ -30471,12 +30499,10 @@ const SPORTS_PRODUCTS = [
       "4XL"
     ],
     "customizable": true
-  }
-,
-
+  },
   {
     "id": "ninos-16591",
-    "name": "Juventus 2025/26 - Visita - Infantil",
+    "name": "Juventus 2025/26 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30492,19 +30518,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8154",
-    "name": "Juventus 2025/26 – Local – Infantil",
+    "name": "Juventus 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30520,19 +30546,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16177",
-    "name": "Estados Unidos 2025/26 – Local – Infantil",
+    "name": "Estados Unidos 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30548,19 +30574,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6439",
-    "name": "Brasil 2024/25 – Visita – Infantil",
+    "name": "Brasil 2024/25 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30576,19 +30602,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6316",
-    "name": "Chelsea 2011/12 - Local - Infantil - Retro",
+    "name": "Chelsea 2011/12 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30604,17 +30630,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16161",
-    "name": "Atlanta United 2025/26 - Local - Infantil",
+    "name": "Atlanta United 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30630,19 +30658,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-10538",
-    "name": "Argentina 2024/25 - Visita »MILO J» - Infantil",
+    "name": "Argentina 2024/25 - Visita »MILO J» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30657,19 +30685,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6359",
-    "name": "España 2012/13 - Local - Infantil - Retro",
+    "name": "España 2012/13 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30685,17 +30713,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3029",
-    "name": "Chivas de Guadalajara 2024/25 – Local – Infantil",
+    "name": "Chivas de Guadalajara 2024/25 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30711,19 +30741,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16171",
-    "name": "Estados Unidos 2025/26 – Visita – Infantil",
+    "name": "Estados Unidos 2025/26 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30739,19 +30769,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16353",
-    "name": "Hamburgo 2024/25 – Prematch – Infantil",
+    "name": "Hamburgo 2024/25 – Prematch – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30767,19 +30797,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-17791",
-    "name": "Real Madrid 2026/27 - Local - Infantil",
+    "name": "Real Madrid 2026/27 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30795,19 +30825,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16887",
-    "name": "México 2025/26 - Local »Mundial» - Infantil",
+    "name": "México 2025/26 - Local »Mundial» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30823,19 +30853,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8234",
-    "name": "Barcelona 2025/26 - Local - Infantil",
+    "name": "Barcelona 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30851,19 +30881,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-17428",
-    "name": "México 2025/26 - Visita »Mundial» - Infantil",
+    "name": "México 2025/26 - Visita »Mundial» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30879,19 +30909,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9008",
-    "name": "Portugal 2025/26 – Local – Infantil – Manga Larga",
+    "name": "Portugal 2025/26 – Local – Niños – Manga Larga",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30907,19 +30937,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13649",
-    "name": "Chelsea 2012/13 - Local - Infantil - Retro",
+    "name": "Chelsea 2012/13 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30935,17 +30965,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8216",
-    "name": "Real Madrid 2025/26 - Local - Infantil",
+    "name": "Real Madrid 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30961,19 +30993,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-18452",
-    "name": "Club América 2026/27 – Local – Infantil",
+    "name": "Club América 2026/27 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -30987,19 +31019,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-17434",
-    "name": "México 2025/26 - Alternativa »Mundial» - Infantil",
+    "name": "México 2025/26 - Alternativa »Mundial» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31015,19 +31047,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13466",
-    "name": "Napoli 2025/26 - Local- Infantil",
+    "name": "Napoli 2025/26 - Local- Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31043,19 +31075,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9108",
-    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "name": "Bayern Munchen 2025/26 - Portero - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31071,19 +31103,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16759",
-    "name": "Chivas de Guadalajara 2025/26 – Alternativa – Infantil",
+    "name": "Chivas de Guadalajara 2025/26 – Alternativa – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31097,19 +31129,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14061",
-    "name": "España 2025/26 - Local «Mundial» - Infantil",
+    "name": "España 2025/26 - Local «Mundial» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31125,19 +31157,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14836",
-    "name": "Francia 1998/99 - Visita - Infantil - Retro",
+    "name": "Francia 1998/99 - Visita - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31153,17 +31185,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8795",
-    "name": "Alemania 2025/26 – 125th Aniversario – Infantil",
+    "name": "Alemania 2025/26 – 125th Aniversario – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31177,19 +31211,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6286",
-    "name": "Argentina 1994/95 - Local - Infantil - Retro",
+    "name": "Argentina 1994/95 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31205,17 +31239,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15284",
-    "name": "Inglaterra 1998/99 - Local - Infantil - Retro",
+    "name": "Inglaterra 1998/99 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31231,17 +31267,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13553",
-    "name": "España 2010/11 - Local - Infantil - Retro",
+    "name": "España 2010/11 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31257,17 +31295,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6516",
-    "name": "Chelsea 2008/09 - Local - Infantil - Retro",
+    "name": "Chelsea 2008/09 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31283,17 +31323,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-18705",
-    "name": "Real Madrid 2026/27 - Alternativa - Infantil",
+    "name": "Real Madrid 2026/27 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31308,19 +31350,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-18628",
-    "name": "Club América 2026/27 – Visita »Negra» – Infantil",
+    "name": "Club América 2026/27 – Visita »Negra» – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31336,19 +31378,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-19383",
-    "name": "Chivas de Guadalajara 2026/27 – Local – Infantil",
+    "name": "Chivas de Guadalajara 2026/27 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31364,19 +31406,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14941",
-    "name": "Real Betis 2025/26 - Ed. Graffiti - Infantil",
+    "name": "Real Betis 2025/26 - Ed. Graffiti - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31392,19 +31434,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3966",
-    "name": "AC Milán 2024/25 - Local - Infantil",
+    "name": "AC Milán 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31420,19 +31462,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14988",
-    "name": "Real Betis 2023/24 - Local - Infantil",
+    "name": "Real Betis 2023/24 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31448,19 +31490,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6486",
-    "name": "Real Madrid 2013/14 - Local - Infantil - Retro",
+    "name": "Real Madrid 2013/14 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31476,17 +31518,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-4985",
-    "name": "Manchester United 2007/08 – Local – Infantil – Retro",
+    "name": "Manchester United 2007/08 – Local – Niños – Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31502,17 +31546,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3934",
-    "name": "Argentina 2024/25 - Local - Infantil",
+    "name": "Argentina 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31528,19 +31574,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-19378",
-    "name": "Cruz Azul 2026/27 – Local »Azul» – Infantil",
+    "name": "Cruz Azul 2026/27 – Local »Azul» – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31554,19 +31600,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15453",
-    "name": "Barcelona 2025/26 - Portero «Morado»- Infantil",
+    "name": "Barcelona 2025/26 - Portero «Morado»- Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31582,19 +31628,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-11218",
-    "name": "Barcelona 2025/26 - Visita - Infantil",
+    "name": "Barcelona 2025/26 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31610,19 +31656,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-11368",
-    "name": "Barcelona 2025/26 - Portero - Infantil",
+    "name": "Barcelona 2025/26 - Portero - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31638,19 +31684,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2689",
-    "name": "Barcelona 2024/25 - Local - Infantil",
+    "name": "Barcelona 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31666,19 +31712,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2873",
-    "name": "Barcelona 2024/25 - Alternativa - Infantil",
+    "name": "Barcelona 2024/25 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31694,19 +31740,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9171",
-    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Infantil",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31722,19 +31768,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2867",
-    "name": "Barcelona 2024/25 - Visita - Infantil",
+    "name": "Barcelona 2024/25 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31750,19 +31796,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15459",
-    "name": "Barcelona 2025/26 - Portero - Infantil",
+    "name": "Barcelona 2025/26 - Portero - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31778,19 +31824,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15894",
-    "name": "Real Madrid 2025/26 - PreMatch »Marvel» - Infantil",
+    "name": "Real Madrid 2025/26 - PreMatch »Marvel» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31806,19 +31852,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9541",
-    "name": "Barcelona 2025/26 - Polo »Modernista» - Infantil",
+    "name": "Barcelona 2025/26 - Polo »Modernista» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31834,19 +31880,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14168",
-    "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Infantil",
+    "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31862,19 +31908,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13937",
-    "name": "Italia 2025/26 – Visita – Infantil",
+    "name": "Italia 2025/26 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31888,19 +31934,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13362",
-    "name": "Inglaterra 2025/26 - Local «Mundial» - Infantil",
+    "name": "Inglaterra 2025/26 - Local «Mundial» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31916,19 +31962,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14623",
-    "name": "River Plate 2025/26 – Local – Infantil",
+    "name": "River Plate 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31944,19 +31990,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15514",
-    "name": "Real Madrid 2025/26 - Portero »Naranja» - Infantil",
+    "name": "Real Madrid 2025/26 - Portero »Naranja» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -31972,19 +32018,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13203",
-    "name": "Alemania 2025/26 – Local «Mundial» – Infantil",
+    "name": "Alemania 2025/26 – Local «Mundial» – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32000,19 +32046,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13898",
-    "name": "Holanda 1988/89 - Local - Infantil - Retro",
+    "name": "Holanda 1988/89 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32028,17 +32074,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8755",
-    "name": "Arsenal 2025/26 - Local - Infantil",
+    "name": "Arsenal 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32054,19 +32102,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13197",
-    "name": "Alemania 2025/26 – Visita «Mundial» – Infantil",
+    "name": "Alemania 2025/26 – Visita «Mundial» – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32082,19 +32130,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13453",
-    "name": "Arsenal 2025/26 - Alternativa - Infantil",
+    "name": "Arsenal 2025/26 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32110,19 +32158,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2968",
-    "name": "Francia 2024/25 - Visita - Infantil",
+    "name": "Francia 2024/25 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32138,19 +32186,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14781",
-    "name": "AS Roma 2001/02 - Local - Infantil - Retro",
+    "name": "AS Roma 2001/02 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32166,17 +32214,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3074",
-    "name": "Bayern Munchen 2023/24 - Local - Infantil",
+    "name": "Bayern Munchen 2023/24 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32192,19 +32242,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-7033",
-    "name": "Bayern Munchen 2024/25 - Local - Infantil",
+    "name": "Bayern Munchen 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32220,19 +32270,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-10321",
-    "name": "Inglaterra 2024/25 - Visita - Infantil",
+    "name": "Inglaterra 2024/25 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32248,19 +32298,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6480",
-    "name": "Italia 2024/25 – Visita – Infantil",
+    "name": "Italia 2024/25 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32276,19 +32326,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8886",
-    "name": "Spurs 2025/26 - Local - Infantil",
+    "name": "Spurs 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32304,19 +32354,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6462",
-    "name": "Juventus 2024/25 – Visita – Infantil",
+    "name": "Juventus 2024/25 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32332,19 +32382,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9586",
-    "name": "Barcelona 2024/25 - (Travis Scott Skeleton) - Infantil",
+    "name": "Barcelona 2024/25 - (Travis Scott Skeleton) - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32360,19 +32410,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-10313",
-    "name": "Inglaterra 2024/25 - Local - Infantil",
+    "name": "Inglaterra 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32388,19 +32438,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3940",
-    "name": "Chelsea 2024/25 - Local - Infantil",
+    "name": "Chelsea 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32416,19 +32466,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3946",
-    "name": "AC Milán 2006/07 - Local - Infantil - Retro",
+    "name": "AC Milán 2006/07 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32444,17 +32494,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6504",
-    "name": "Manchester United 2009/10 – Local – Infantil – Retro",
+    "name": "Manchester United 2009/10 – Local – Niños – Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32470,17 +32522,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14793",
-    "name": "AS Roma 2025/26 – Local – Infantil",
+    "name": "AS Roma 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32496,19 +32550,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13741",
-    "name": "Manchester City 2024/25 – Visita – Infantil",
+    "name": "Manchester City 2024/25 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32524,19 +32578,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6474",
-    "name": "Real Madrid 2015/16 - Local - Infantil - Retro",
+    "name": "Real Madrid 2015/16 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32552,17 +32606,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6510",
-    "name": "Real Madrid 2014/15 - Alternativa - Infantil - Retro",
+    "name": "Real Madrid 2014/15 - Alternativa - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32578,17 +32634,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5694",
-    "name": "Real Madrid 2024/25 - Portero - Infantil",
+    "name": "Real Madrid 2024/25 - Portero - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32604,19 +32662,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9365",
-    "name": "Real Madrid 2006/07 - Local - Infantil - Retro",
+    "name": "Real Madrid 2006/07 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32632,17 +32690,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6498",
-    "name": "Real Madrid 2017/18 - Visita - Infantil - Retro",
+    "name": "Real Madrid 2017/18 - Visita - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32658,17 +32718,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15066",
-    "name": "Portugal 2025/26 – Visita – Infantil",
+    "name": "Portugal 2025/26 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32684,19 +32746,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13191",
-    "name": "Manchester City 2025/26 – Cuarta Equipación – Infantil",
+    "name": "Manchester City 2025/26 – Cuarta Equipación – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32712,19 +32774,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6492",
-    "name": "Real Madrid 2014/15 - Local - Infantil - Retro",
+    "name": "Real Madrid 2014/15 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32740,17 +32802,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5917",
-    "name": "Al-Nassr 2024/25 – Visita – Infantil",
+    "name": "Al-Nassr 2024/25 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32766,19 +32830,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5920",
-    "name": "Al-Nassr 2024/25 (Ronaldo/7) – Visita – Infantil",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32794,19 +32858,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2177",
-    "name": "Real Madrid 2023/24 - Local - Infantil",
+    "name": "Real Madrid 2023/24 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32822,19 +32886,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9115",
-    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "name": "Bayern Munchen 2025/26 - Portero - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32850,19 +32914,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13183",
-    "name": "Portugal 2025/26 – Visita «Mundial» – Infantil",
+    "name": "Portugal 2025/26 – Visita «Mundial» – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32878,19 +32942,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6468",
-    "name": "Real Madrid 2014/15 - Visita - Infantil - Retro",
+    "name": "Real Madrid 2014/15 - Visita - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32906,17 +32970,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5083",
-    "name": "Brasil 2024/25 – Cristo Redentor – Infantil",
+    "name": "Brasil 2024/25 – Cristo Redentor – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32932,19 +32998,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15471",
-    "name": "Portugal 2025/26 – Local – Infantil",
+    "name": "Portugal 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32960,19 +33026,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13548",
-    "name": "España 2025/26 - Visita - Infantil",
+    "name": "España 2025/26 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -32986,19 +33052,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8172",
-    "name": "Manchester City 2025/26 – Local – Infantil",
+    "name": "Manchester City 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33014,19 +33080,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13343",
-    "name": "Arsenal 2005/06 - Local - Infantil - Retro",
+    "name": "Arsenal 2005/06 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33042,17 +33108,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5701",
-    "name": "Brasil 2004/05 – Local – Infantil – Retro",
+    "name": "Brasil 2004/05 – Local – Niños – Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33068,17 +33136,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9359",
-    "name": "Brasil 2004/05 – Visita – Infantil – Retro",
+    "name": "Brasil 2004/05 – Visita – Niños – Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33094,17 +33164,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8259",
-    "name": "Chelsea 2025/26 - Local - Infantil",
+    "name": "Chelsea 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33120,19 +33192,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-10519",
-    "name": "Argentina 2024/25 - Visita - Infantil",
+    "name": "Argentina 2024/25 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33148,19 +33220,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14441",
-    "name": "Boca Juniors 2025/26 – Local – Infantil",
+    "name": "Boca Juniors 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33176,19 +33248,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15082",
-    "name": "Portugal 2025/26 – Entrenamiento – Infantil",
+    "name": "Portugal 2025/26 – Entrenamiento – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33204,19 +33276,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15108",
-    "name": "Portugal 2025/26 – Visita – Infantil – Manga Larga",
+    "name": "Portugal 2025/26 – Visita – Niños – Manga Larga",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33232,19 +33304,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16585",
-    "name": "Borussia Mönchengladbach 2025/26 - Local - Infantil",
+    "name": "Borussia Mönchengladbach 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33260,19 +33332,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13123",
-    "name": "Argentina 1986/87 - Local - Infantil - Retro",
+    "name": "Argentina 1986/87 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33288,17 +33360,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-4965",
-    "name": "Francia 1998/99 - Local - Infantil - Retro",
+    "name": "Francia 1998/99 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33314,17 +33388,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5052",
-    "name": "Barcelona (Messi/10) 2010/11 – Local – Infantil – Retro",
+    "name": "Barcelona (Messi/10) 2010/11 – Local – Niños – Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33340,17 +33416,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-11212",
-    "name": "Manchester City 2025/26 – Visita – Infantil",
+    "name": "Manchester City 2025/26 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33366,19 +33444,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8228",
-    "name": "México 2025/26 - Alternativa - Infantil",
+    "name": "México 2025/26 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33394,19 +33472,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13216",
-    "name": "Colombia 2025/26 – Local – Infantil",
+    "name": "Colombia 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33422,19 +33500,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6353",
-    "name": "Colombia 2024/25 – »100 Aniversario» – Infantil",
+    "name": "Colombia 2024/25 – »100 Aniversario» – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33450,19 +33528,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16317",
-    "name": "Inter de Milán 2009/10 - Local - Infantil - Retro",
+    "name": "Inter de Milán 2009/10 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33478,17 +33556,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6541",
-    "name": "México 1998/99 - Local - Infantil - Retro",
+    "name": "México 1998/99 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33504,17 +33584,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-7173",
-    "name": "Club León 2024/25 - Visita - Infantil",
+    "name": "Club León 2024/25 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33528,19 +33610,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14677",
-    "name": "Inter de Miami 2025/26 – Local – Infantil",
+    "name": "Inter de Miami 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33556,19 +33638,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-7169",
-    "name": "Club León 2024/25 - Local - Infantil",
+    "name": "Club León 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33582,19 +33664,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5688",
-    "name": "Monterrey 2024/25 – Local – Infantil",
+    "name": "Monterrey 2024/25 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33610,19 +33692,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14115",
-    "name": "Italia 2024/25 – Local – Infantil",
+    "name": "Italia 2024/25 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33638,19 +33720,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5707",
-    "name": "Barcelona 2014/15 - Local - Infantil - Retro",
+    "name": "Barcelona 2014/15 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33666,17 +33748,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-10727",
-    "name": "Cruz Azul 2025/26 – Local – Infantil",
+    "name": "Cruz Azul 2025/26 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33692,19 +33776,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9177",
-    "name": "Club Monterrey 2025/26 – Mundial de Clubes – Infantil",
+    "name": "Club Monterrey 2025/26 – Mundial de Clubes – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33720,19 +33804,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9464",
-    "name": "Atlético de Madrid 2025/26 - Local - Infantil",
+    "name": "Atlético de Madrid 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33748,19 +33832,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-15501",
-    "name": "Atlético de Madrid 2025/26 - Portero - Infantil",
+    "name": "Atlético de Madrid 2025/26 - Portero - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33776,19 +33860,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2755",
-    "name": "Al-Nassr 2024/25 - Local - Infantil",
+    "name": "Al-Nassr 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33804,19 +33888,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2761",
-    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Local - Infantil",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33832,19 +33916,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5003",
-    "name": "Al-Nassr 2024/25 – Alternativa – Infantil",
+    "name": "Al-Nassr 2024/25 – Alternativa – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33860,19 +33944,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8222",
-    "name": "Real Madrid 2024/25 - Alternativa - Infantil",
+    "name": "Real Madrid 2024/25 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33888,19 +33972,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2796",
-    "name": "Portugal 2024/25 – Local – Infantil",
+    "name": "Portugal 2024/25 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33916,19 +34000,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2727",
-    "name": "Real Madrid 2024/25 - Local - Infantil",
+    "name": "Real Madrid 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33944,19 +34028,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9452",
-    "name": "Real Madrid 2025/26 - Alternativa - Infantil",
+    "name": "Real Madrid 2025/26 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -33972,19 +34056,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-10737",
-    "name": "Cruz Azul 2025/26 – Visita – Infantil",
+    "name": "Cruz Azul 2025/26 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34000,19 +34084,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5089",
-    "name": "Brasil 2024/25 – Cristo Redentor – Infantil",
+    "name": "Brasil 2024/25 – Cristo Redentor – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34028,19 +34112,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3043",
-    "name": "Real Madrid 2024/25 - Visita - Infantil",
+    "name": "Real Madrid 2024/25 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34056,19 +34140,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-19590",
-    "name": "Olympiacos FC (Hormiga/34) 2026/27 – Local – Infantil",
+    "name": "Olympiacos FC (Hormiga/34) 2026/27 – Local – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34082,19 +34166,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5046",
-    "name": "Santos de Brasil (NeymarJR/11) 2011/12 – Local - Infantil - Retro",
+    "name": "Santos de Brasil (NeymarJR/11) 2011/12 – Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34110,17 +34194,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5049",
-    "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Infantil – Retro",
+    "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Niños – Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34136,17 +34222,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-4973",
-    "name": "Santos de Brasil 2011/12 – Local – Infantil – Retro",
+    "name": "Santos de Brasil 2011/12 – Local – Niños – Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34162,17 +34250,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9269",
-    "name": "Real Madrid 2025/26 - Portero - Infantil",
+    "name": "Real Madrid 2025/26 - Portero - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34188,19 +34278,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-3682",
-    "name": "Real Madrid 2017/18 - Alternativa - Infantil",
+    "name": "Real Madrid 2017/18 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34216,19 +34306,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-19387",
-    "name": "Chivas de Guadalajara 2026/27 – Visita »Blanco» – Infantil",
+    "name": "Chivas de Guadalajara 2026/27 – Visita »Blanco» – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34244,19 +34334,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9353",
-    "name": "Barcelona 2015/16 - Local - Infantil - Retro",
+    "name": "Barcelona 2015/16 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34272,17 +34362,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9574",
-    "name": "Bayern Munchen 2025/26 - Local - Infantil",
+    "name": "Bayern Munchen 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34298,19 +34390,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16421",
-    "name": "Fulham 2024/25 - Local - Infantil",
+    "name": "Fulham 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34326,19 +34418,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-4979",
-    "name": "Barcelona 2010/11 - Local - Infantil - Retro",
+    "name": "Barcelona 2010/11 - Local - Niños - Retro",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34354,17 +34446,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-16080",
-    "name": "Newcastle United 2025/26 – Alternativa – Infantil",
+    "name": "Newcastle United 2025/26 – Alternativa – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34380,19 +34474,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9134",
-    "name": "Inter de Miami 2025/26 - Alternativa - Infantil",
+    "name": "Inter de Miami 2025/26 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34408,19 +34502,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-10019",
-    "name": "Al-Nassr 2025/26 - Alternativa - Infantil",
+    "name": "Al-Nassr 2025/26 - Alternativa - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34436,19 +34530,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5043",
-    "name": "Inter de Miami (Messi/10) 2024/25 – Visita - Infantil",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34464,19 +34558,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-14954",
-    "name": "Real Betis 2025/26 - Ed. Negra - Infantil",
+    "name": "Real Betis 2025/26 - Ed. Negra - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34492,19 +34586,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2748",
-    "name": "Inter de Miami 2024/25 - Local - Infantil",
+    "name": "Inter de Miami 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34520,19 +34614,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-9317",
-    "name": "Real Madrid 2025/26 (Ronaldo/7) - Especial - Infantil",
+    "name": "Real Madrid 2025/26 (Ronaldo/7) - Especial - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34548,19 +34642,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-17181",
-    "name": "Pumas 2025/26 - Local - Infantil",
+    "name": "Pumas 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34574,19 +34668,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-17569",
-    "name": "Corea del Sur 2025/26 - Local »Mundial» - Infantil",
+    "name": "Corea del Sur 2025/26 - Local »Mundial» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34602,19 +34696,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6456",
-    "name": "Atlético de Madrid 2024/25 – Visita – Infantil",
+    "name": "Atlético de Madrid 2024/25 – Visita – Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34630,19 +34724,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2765",
-    "name": "Inter de Miami (Messi/10) 2024/25 – Local - Infantil",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34658,19 +34752,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-5028",
-    "name": "Inter de Miami 2024/25 - Visita - Infantil",
+    "name": "Inter de Miami 2024/25 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34686,19 +34780,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-13368",
-    "name": "Al-Nassr 2025/26 - Local - Infantil",
+    "name": "Al-Nassr 2025/26 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34714,19 +34808,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-6798",
-    "name": "Inter de Miami 2025/26 - Visita - Infantil",
+    "name": "Inter de Miami 2025/26 - Visita - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34742,19 +34836,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-8773",
-    "name": "Real Betis 2025/26 - »Naruto» - Infantil",
+    "name": "Real Betis 2025/26 - »Naruto» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34770,19 +34864,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-17574",
-    "name": "Corea del Sur 2025/26 - Visita »Mundial» - Infantil",
+    "name": "Corea del Sur 2025/26 - Visita »Mundial» - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34798,19 +34892,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-17447",
-    "name": "México 2025/26 – Portero »Mundial»– Infantil",
+    "name": "México 2025/26 – Portero »Mundial»– Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34824,19 +34918,19 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   },
   {
     "id": "ninos-2972",
-    "name": "Francia 2024/25 - Local - Infantil",
+    "name": "Francia 2024/25 - Local - Niños",
     "category": "ninos",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
@@ -34852,17 +34946,16 @@ const SPORTS_PRODUCTS = [
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
+      "2-3 años",
+      "3-4 años",
+      "4-5 años",
+      "6-7 años",
+      "8-9 años",
+      "10-11 años",
+      "12-13 años"
     ],
     "customizable": true
   }
-
 ];
 
 const STOCK_PRODUCTS = [
