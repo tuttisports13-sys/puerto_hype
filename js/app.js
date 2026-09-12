@@ -3083,6 +3083,7462 @@ const SPORTS_PRODUCTS = [
     "customizable": true
   }
 
+,
+
+  {
+    "id": "liga-18175",
+    "name": "Barcelona 2026/27 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ccec9222.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ccec9222.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3644ba53.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/4e859704.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8485",
+    "name": "Real Madrid (Modric/10) 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T104250.594-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T104250.594-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b0ad6bd3-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__07db66c9-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/39f26e79-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18313",
+    "name": "Barcelona (Lamine Yamal/10) 2026/27 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-71-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-71-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/4193f4f7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/704548d1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e383da60.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9645",
+    "name": "Real Madrid 2025/26 - US Pack Shirt - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__12f6042a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__12f6042a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__627375b4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__22491cba-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__74f9403b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-17156",
+    "name": "Barcelona (Olivia Rodrigo) 2025/26 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/05/b6d3e70f-6233-4947-a0f6-fd03c3133e90.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/b6d3e70f-6233-4947-a0f6-fd03c3133e90.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d884b52-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1a647b13-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__52d26d01-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12123",
+    "name": "Barcelona (Karol G) »Rosa» 2025/26 - Especial - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T203929.005.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T203929.005.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T211155.604.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2847",
+    "name": "Barcelona (Messi/10) 2010/11 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e04b10dc.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e04b10dc.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec6fec6d.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c298566c.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f0ffd419.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4016",
+    "name": "Barcelona (NeymarJR/11) 2014/15 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fda28e43-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fda28e43-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1769cd45-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5b163fa5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__68a20cc3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2913",
+    "name": "Barcelona (Messi/10) 2013/14 – Alternativa - Aficionado – Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bca2365a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bca2365a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__4a5da439-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__7ea0f44f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/745f72ac-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7045",
+    "name": "Real Madrid 2025/26 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f5e92395-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f5e92395-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__caf86b99-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3f9dc204-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__cd638e66-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-17783",
+    "name": "Barcelona 2026/27 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e383da60.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e383da60.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/4193f4f7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/704548d1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/6f91121f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18108",
+    "name": "Real Madrid 2026/27 - Local - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/7e668f2b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/7e668f2b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/240a1c3b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/2929998c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d223c3cc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8234",
+    "name": "Barcelona 2025/26 - Local - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__549e4790-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__549e4790-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__612174ce-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__53e8d561-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3906494d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8083",
+    "name": "Barcelona 2025/26 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__980ebada-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__980ebada-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d884b52-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1a647b13-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__52d26d01-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18120",
+    "name": "Real Madrid 2026/27 - Local - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/549856a0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/549856a0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a4cb38d7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/89f679aa.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b415176e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-17371",
+    "name": "Real Madrid 2026/27 - Primera equipación - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-52.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/a64c5794.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/724fd69a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-53.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10804",
+    "name": "Barcelona 2025/26 - Polo »Modernista» - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e742d58.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e742d58.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fd359963.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__67bc9569.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__221c565e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11136",
+    "name": "Real Madrid 2025/26 - Alternativa - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__504db6fc.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__504db6fc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__e285d2ad.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__9f034921.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__fd602b83.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9311",
+    "name": "Real Madrid 2025/26 - Local - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__aeb03f33-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__aeb03f33-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__3178ef57-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0ce10228-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__32aa8ceb-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11665",
+    "name": "Real Madrid 2025/26 - Edición Vikingo - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__5ed01758-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__5ed01758-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b6b29659-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__e69c5805-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__4551f128-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9067",
+    "name": "Real Madrid 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__82494940-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__82494940-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4ed12a69-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b5c6f548-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6a510fb5-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9863",
+    "name": "Real Madrid 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__515729b5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__515729b5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c00e381b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4f161779-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9e59f2a3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4907",
+    "name": "Real Madrid (Bellingham/5) 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-11-min-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-11-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ff8cb5cf-2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/77da347a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10835",
+    "name": "Barcelona 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a52b4837.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a52b4837.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0bc5b2ce-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0cb782d2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__dd5703c9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8935",
+    "name": "Real Madrid 2025/26 - Local - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__665687d4-cb35-4b49-b0a4-02dc483725be-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__665687d4-cb35-4b49-b0a4-02dc483725be-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__fa7be830-fe93-4060-940b-1b526ba3145a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__63fc5e26-8026-4489-8c5b-00e8e159684b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__53995d2f-1a8f-4943-bee4-b92f471996ca-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3538",
+    "name": "Real Madrid 2016/17 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__501bd844-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__501bd844-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__497c5546-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__07bd3311-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3f94d4b4-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7323",
+    "name": "Real Madrid 2025/26 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__fdd5e089-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__fdd5e089-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__517bd8cd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__1e2d383c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__197619d8-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13317",
+    "name": "Barcelona 2025/26 - Alternativa - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3df31dd2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3df31dd2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5510907a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__45116391.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b43b1b77.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11179",
+    "name": "Real Madrid (Mbappé/10) 2025/26 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-30T201549.335.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-30T201549.335.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__fdd5e089-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__517bd8cd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__1e2d383c-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11458",
+    "name": "Barcelona (Rels B) 2025/26 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002540.223.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002540.223.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__2f7e1462.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002534.271.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10765",
+    "name": "Barcelona 2025/26 - Local - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__18a91c60-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__18a91c60-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__eeec9032-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1d1fef44-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0f4886c5-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-16395",
+    "name": "Deportivo Alaves 2025/26 – Visita – Aficionado",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__97835dee.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__97835dee.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6210b97c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7cca6ad1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b0cc773.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12101",
+    "name": "Barcelona (Ed Sheeran) »Play» 2025/26 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T145701.228.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T145701.228.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d884b52-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1a647b13-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__52d26d01-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9323",
+    "name": "Real Madrid 2025/26 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__44f2ec43-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__44f2ec43-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__99709849-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__55e6952d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5bc6de7f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6021",
+    "name": "Barcelona (Messi/10) 2011/12 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6ea3170a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__babcf1bf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d60f5fa9-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11182",
+    "name": "Real Madrid (Mbappé/10) 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-30T201829.269.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-30T201829.269.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__82494940-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4ed12a69-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b5c6f548-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-16401",
+    "name": "Deportivo Alaves 2025/26 – Local – Aficionado",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__04d9cd7f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__04d9cd7f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0717b6cb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b5a664dc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__cb6f5769.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8481",
+    "name": "Real Madrid (Modric/10) 2024/25 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T104051.002-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T104051.002-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/0157393a-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6bc5af7b-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/59d7d998-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11176",
+    "name": "Real Madrid (Mbappé/10) 2025/26 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-30T201157.067.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-30T201157.067.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f5e92395-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3f9dc204-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__caf86b99-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7356",
+    "name": "Real Madrid (Ronaldo/7) 2014/15 - Alternativa - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T002040.298-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T002040.298-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/56cedfc1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/69ea06ca.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__ee440ba4-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18102",
+    "name": "Real Madrid 2026/27 - Especial »Chanel» - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1ae878cb.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1ae878cb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/711e3f25.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/6305bd90.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fe0753c2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8181",
+    "name": "Barcelona (Travis Scott) 2024/25 - Ed. Blanco - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-15T175342.086-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-15T175342.086-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__45e27b21-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8216",
+    "name": "Real Madrid 2025/26 - Local - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7ecd670b-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7ecd670b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__53f90330-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__658eafac-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0ac15606-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4866",
+    "name": "Real Madrid 2000/01 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__86e3b628-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__86e3b628-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60507c7c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__56083f78-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4ae65c14-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14500",
+    "name": "Barcelona 2025/26 - Ed. Noche Carmesí- Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4bafe643.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4bafe643.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__455d87eb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__56261dc4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__28a9ea7a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8062",
+    "name": "Barcelona 2025/26 - Ed. Especial (Naranja) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9c36af8e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9c36af8e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e14772c7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ba7d8478-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__de967f2d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12707",
+    "name": "Atlético de Madrid 2025/26 - Alternativa - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3a063ccc.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3a063ccc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__31127d5d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4d382aad.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10008403.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8080",
+    "name": "Barcelona (Travis Scott) 2024/25 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-13T011615.442-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-13T011615.442-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d4329210-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-13T014600.676-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b952b27e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8107",
+    "name": "Barcelona 2025/26 - Ed. Especial (Flores/Estrellas) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__dea32403-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__dea32403-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__61a29786-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7483",
+    "name": "Real Madrid (Ronaldo/7) 2017/18 – Alternativa – Aficionado – Retro – Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-48-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-48-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__777ebc0f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__dc53ff19-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__699d6c8a-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11454",
+    "name": "Barcelona (Rels B) 2025/26 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002949.170.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002949.170.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d884b52-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1a647b13-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002835.719.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9902",
+    "name": "Barcelona 2025/26 - Local - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__df97badf-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__df97badf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9fd056b0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a1dbfb96-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a094fb13-6919-49d2-b897-0533bfe0a0a0.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5435",
+    "name": "Real Madrid (Zidane/5) 2005/06 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-21-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-21-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6a293984-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3a4e1095-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d3faa4a1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10988",
+    "name": "Barcelona 2025/26 - Alternativa - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__787b0628.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__787b0628.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__4a30f178.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__3713bdc9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__3fdf051c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8709",
+    "name": "Real Madrid 2025/26 - Local - (Sin sponsor) - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d77cec86-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d77cec86-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a01c28d2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__8f939d53-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b2ed9be7-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7509",
+    "name": "Barcelona 2025/26 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__8e282ebc-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__8e282ebc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__d9059362-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__324e030f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__b7e0170f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8076",
+    "name": "Barcelona (Travis Scott Black) 2024/25 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d8da2cbb-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d8da2cbb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b5906493-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f81f7e02-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b952b27e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14549",
+    "name": "Real Madrid 2025/26 - Entrenamiento «Marvel» - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ca808a2f346e49840933c363.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ca808a2f346e49840933c363.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__13bbaa822dbb59193b867d3c-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ae629e889b7b4bceefe9a3b4-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bb040fc2180743916310a056.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13242",
+    "name": "Barcelona 2025/26 - Alternativa - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/3.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/4.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/2.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5499",
+    "name": "Barcelona 2024/25 - Rompevientos",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1f17ddf1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1f17ddf1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ea8e469c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-18282",
+    "name": "Barcelona 2026/27 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d1280fd7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d1280fd7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/8a500ecb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d92ff78b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/583d49ef.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7126",
+    "name": "Real Madrid (ViniJR./7) 2024/25 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-48-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-48-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/0157393a-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6bc5af7b-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/59d7d998-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3693",
+    "name": "Barcelona 2024/25 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__293aaf22-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__293aaf22-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d4329210-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d2b74440-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b952b27e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9365",
+    "name": "Real Madrid 2006/07 - Local - Infantil - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ccedb17-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ccedb17-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ae9a6e3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__86308788-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__bd8b7ed1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7821",
+    "name": "Real Madrid 2024/25 - Especial Dragón Amarillo - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__51ce4e9f-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__51ce4e9f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d9cac45a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__350bf707-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9636b49b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2271",
+    "name": "Real Madrid 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ff8cb5cf-2-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ff8cb5cf-2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/77da347a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/8bda19f8-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6498",
+    "name": "Real Madrid 2017/18 - Visita - Infantil - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mnjh-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mnjh-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tgbvrf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__bhtg-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__njh-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3834",
+    "name": "Barcelona 2005/06 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f4342b67-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f4342b67-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4c6fbfec-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__56795c61-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6a4b9cee-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8773",
+    "name": "Real Betis 2025/26 - »Naruto» - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__11f4fb31-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__11f4fb31-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0fc6e078-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__05af45cc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f24e133c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12457",
+    "name": "Real Madrid 2025/26 - Entrenamiento - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__bb51dbf4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__bb51dbf4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__da21e817.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__165e8b5c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__28e440a3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3900",
+    "name": "Real Madrid 2024/25 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a9302095-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a9302095-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/77da347a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7ffee3e1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2733",
+    "name": "Real Madrid 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/39f26e79-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/39f26e79-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b0ad6bd3-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__07db66c9-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1ae1f044-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2623",
+    "name": "Barcelona 2024/25 - Rompevientos Doble Vista",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/96e541f8-min-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/96e541f8-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/151d3a6d-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c1f96abf-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-8050",
+    "name": "Barcelona 2024/25 - Polo »Lamine Yamal» 304 (Blanco) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b0c03fd2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b0c03fd2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f18d0b6e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__14b95c10-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1163ab2b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-15669",
+    "name": "Barcelona 2025/26 »Lamine Yamal» Especial - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__89f45b4e8909d37e44d5afc4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__89f45b4e8909d37e44d5afc4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__93a28a3f636ddf2fe41dff44.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0a6349bdfeeb12caa3846469.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1e4f9abb08ab9319f4ca31da.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14052",
+    "name": "Real Madrid 2025/26 - Originals LFSTLR - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-2-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-2-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-2-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5521",
+    "name": "Barcelona 2020/21 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-22-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-22-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0547c0d0-7be9-4d52-8aec-ee4d0dea5596-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6c7cca0a-b0c1-4e19-9b26-ef9ca114957a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fe366b54-ba3e-4b83-8c0b-b5635ad77a3c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13580",
+    "name": "Real Madrid 2025/26 - «Kappah Azul» - Rompevientos",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__af59b06c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__af59b06c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0cb689a6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a768cca8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__12f88843.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-6456",
+    "name": "Atlético de Madrid 2024/25 – Visita – Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__altef-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__altef-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__atlem-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__atlelo-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__atletb-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8767",
+    "name": "Real Madrid 2002/03 - Portero - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3065c0e5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3065c0e5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__99103f80-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4bedf956-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0ab97080-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12068",
+    "name": "Barcelona 2025/26 - Alternativa - Aficionado - Dama",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-13T231422.288.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-13T231422.288.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__0e8d9313.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__ad41aeed.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-13T231408.545.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4009",
+    "name": "Barcelona (Messi/10) 2014/15 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8729ddf8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8729ddf8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1769cd45-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5b163fa5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__68a20cc3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5224",
+    "name": "Barcelona 2024/25 - Especial Azul - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4dbbda2c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4dbbda2c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b8b239df-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__78ccaced-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__695cefc8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13568",
+    "name": "Real Madrid 2025/26 - «Kappah ByN» - Rompevientos",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1cc460c0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1cc460c0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4e087861.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c45b9029.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__62733868.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-11843",
+    "name": "Barcelona 1998/99 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__d292a419-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__d292a419-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__087bf7f6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__477d8ef2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__72a059bc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10839",
+    "name": "Sevilla 2025/26 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__966bd214-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__966bd214-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__16ed5d2e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1b6ab1a0-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e8288d6-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11186",
+    "name": "Sevilla 2025/26 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__b23a3b15-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__b23a3b15-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__1617916e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__1dce3ce6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__74544e65-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2995",
+    "name": "Barcelona 2008/09 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4479907c-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4479907c-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1131d83f-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/307a8ddc-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a6a85524-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5199",
+    "name": "Real Madrid 2024/25 - Especial LV - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__98876323-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__98876323-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__8ea7fd15-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0b7f1a48-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fa4b6ed3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8478",
+    "name": "Real Madrid (Modric/10) 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T103719.894-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T103719.894-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ff8cb5cf-2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/77da347a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13998",
+    "name": "Barcelona 2025/26 «Bicolor»- Rompevientos",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f73d1617.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f73d1617.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__618448e9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-7786",
+    "name": "Real Madrid 2025/26 - Serpiente Violeta - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__86dc2ccf-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__86dc2ccf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d4866b5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__21f2467f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5af0c3ff-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11652",
+    "name": "Barcelona 2025/26 - Ed. Especial (Black/Carbón) - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b4de61bb-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b4de61bb-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__982f4104.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__64dc831a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__2fe6385f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11675",
+    "name": "Atlético de Madrid 2025/26 - »Mujer maravilla/Wonder woman» - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__31720878-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__31720878-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1ae9298e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__17e2f4ed-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__c6c91edb-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2360",
+    "name": "Real Madrid (Mbappé/9) 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/e3f7a6c6-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/e3f7a6c6-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ff8cb5cf-2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/77da347a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5424",
+    "name": "Real Madrid 2024/25 - Rompevientos Doble Vista",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9369c0c8-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9369c0c8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__22705a97-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6c6d8f07-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-5567",
+    "name": "Real Madrid 2017/18 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ce3788b2-min-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ce3788b2-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__984c0eae-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__801ad79e-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2375b4ae-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-19141",
+    "name": "Real Madrid (Bellingham/5) 2026/27 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-26.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-26.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/a64c5794.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/724fd69a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8009",
+    "name": "Real Madrid 1984/85 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a0e67dad-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a0e67dad-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__73532935-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7897d6f0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__103d3ac0-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-19147",
+    "name": "Real Madrid (Yan Diomande/25) 2026/27 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-28.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-28.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/a64c5794.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/724fd69a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3641",
+    "name": "Barcelona 1998/99 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eb8c5341-min-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eb8c5341-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5777096f-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__993a3ff0-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__309428fb-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18715",
+    "name": "Real Madrid 2026/27 - Alternativa »Rosa» - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/ae93fa62.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/ae93fa62.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/03634adf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/c422e5d6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5527",
+    "name": "Barcelona 2019/20 - Cuarta equipación - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__826c50b9-d415-4504-8513-db2479e08a67-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__826c50b9-d415-4504-8513-db2479e08a67-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b8f383d1-7e6a-4c66-a678-be9502d5301e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c32ecf43-12c2-403a-bda2-a2f1c847329f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-21-min-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18721",
+    "name": "Real Madrid 2026/27 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/d4e7e7d7-beaa-45cb-b936-e7d9682d6f77.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/d4e7e7d7-beaa-45cb-b936-e7d9682d6f77.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/88a22b92.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3e582631.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/483ce6d2-0789-4a64-964e-9e6870110098.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18700",
+    "name": "Real Madrid 2026/27 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-24.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-24.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/ab9e2946-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/2a3222c2-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4607",
+    "name": "Real Madrid 2018/19 - Digital - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2842f334-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2842f334-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ba0c8241-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__89fb5b26-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c9c9e83f-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12076",
+    "name": "Barcelona 2025/26 - Visita - Aficionado - Dama",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-13T231824.347.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-13T231824.347.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__94dc1a26.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__7c607446.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-13T231841.656.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-19144",
+    "name": "Real Madrid (Cucurella/17) 2026/27 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-27.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-27.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/a64c5794.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/724fd69a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-19150",
+    "name": "Real Madrid (Vini Jr./7) 2026/27 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-29.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-29.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/a64c5794.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/724fd69a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18710",
+    "name": "Real Madrid 2026/27 - Alternativa - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/4cad08be.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/4cad08be.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/b36f09b7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/cf495f1f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5668",
+    "name": "Barcelona 2005/06 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0af1076d-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0af1076d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__20fbaeed-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e4486f26-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2243e433-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4854",
+    "name": "Real Madrid 1994/95 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e787bb05-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e787bb05-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d80a595a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ac33249c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bb762da2-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18705",
+    "name": "Real Madrid 2026/27 - Alternativa - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/46ce5939.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/46ce5939.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/b120e754.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3a3f2563.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-18727",
+    "name": "Real Madrid 2026/27 - Local - Aficionado - Dama",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/c7cbcb26-a061-41c1-81b8-76c91f313633.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/c7cbcb26-a061-41c1-81b8-76c91f313633.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/107db5c7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/c78984b8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/1375d8a2-b6b9-4d54-9e88-3500c39a8eb5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-19138",
+    "name": "Real Madrid (Mbappé/10) 2026/27 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-25-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-25-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/a64c5794.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/724fd69a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7976",
+    "name": "Real Madrid 1984/85 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__48e718f1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__48e718f1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__456a58f3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6f38122f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__33aaf216-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2146",
+    "name": "Real Madrid 2023/24 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2023/11/b8ccf7c8-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/b8ccf7c8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/5040566a-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/AnyConv.com__d0f3fdd0-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/ebf83084-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10711",
+    "name": "Barcelona 2025/26 - Local »NO SPONSOR» - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__71db037c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__71db037c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__88484377-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3a949603-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e621b870.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5842",
+    "name": "Real Madrid 2024/25 - Especial Negro - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6814c0b5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6814c0b5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f82716d1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__10dfcd18-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1657b0f9-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4331",
+    "name": "Barcelona 2010/11 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__727f7260-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__727f7260-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f1bed3f7-min-e1731995103154.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__735e7e1a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a35cfa5b-min-e1731995085428.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6492",
+    "name": "Real Madrid 2014/15 - Local - Infantil - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munytb-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munytb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__vgbh-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__rv-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__bvgf-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3563",
+    "name": "Real Madrid 2015/16 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fa67d406-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fa67d406-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__94e85acf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3075314d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b894341e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7993",
+    "name": "Real Madrid 2017/18 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f891b494-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f891b494-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/da892693.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/3cd78483.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__76a617f5-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8828",
+    "name": "Barcelona (Travis Scott Skeleton) 2024/25 – Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e467bc84-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e467bc84-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__75ef8424-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__329dd0e3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f19a0478-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5858",
+    "name": "Real Madrid 2024/25 - Especial Negro - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__402e0020-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__402e0020-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a4355156-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b0fb62d9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9cad9e84-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4226",
+    "name": "Real Madrid 2023/24 - Conjunto Chándal Gris Oscuro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1afff695-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1afff695-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__02bd9e02-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__01bebfda-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fbebe0d4-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-5306",
+    "name": "Real Madrid 2005/06 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6e4faada-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6e4faada-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e0291a13-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b3c006e0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__933d2dae-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2375",
+    "name": "Barcelona (La Rosalía) 2022/23 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/b8c2a1a2-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/b8c2a1a2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/90d7f0f1-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/3155c48e-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/38066eba-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3813",
+    "name": "Barcelona 2023/24 - Cuarta equipación - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__843e119f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__843e119f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2a8fb1d1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e304c3d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__751910e6-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4286",
+    "name": "Barcelona 2019/20 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ca4ea727-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ca4ea727-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fa18995e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__46f3e45e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7556f469-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9398",
+    "name": "Real Madrid 2025/26 - Entrenamiento - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e7e6c20a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e7e6c20a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e271d4b8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7d4edb53-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__66f11195-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7131",
+    "name": "Real Madrid (ViniJR./7) 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-46-min-2-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-46-min-2-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b0ad6bd3-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__07db66c9-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/39f26e79-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8703",
+    "name": "Real Madrid 2025/26 - Ed. Especial (Dorado Metálico) - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3c87db42-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3c87db42-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__19d8a7d4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6ebbbc1f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ecde3201-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5533",
+    "name": "Barcelona (Messi/10) 2019/20 - Cuarta equipación - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__880d6e7b-64ed-4707-9213-718f7a845eb9-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__880d6e7b-64ed-4707-9213-718f7a845eb9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__826c50b9-d415-4504-8513-db2479e08a67-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c32ecf43-12c2-403a-bda2-a2f1c847329f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b8f383d1-7e6a-4c66-a678-be9502d5301e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8022",
+    "name": "Real Madrid 2007/08 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ac83e687-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ac83e687-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__372e60fb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5b6ae249-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6f83cc8d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13236",
+    "name": "Real Madrid 2025/26 - Ed. Terrance - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/2-1.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/2-1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/3-1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/4-1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-1.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4056",
+    "name": "Barcelona 2024/25 - Camiseta Polo Azul",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/704aa1bd-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/704aa1bd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/74a070a3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/3abf1c04-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/9fd4e439-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7679",
+    "name": "Real Madrid (Rels B) 2024/25 – Local – Aficionado – Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-27T211953.879-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-27T211953.879-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/77da347a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-27T211754.323-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4068",
+    "name": "Barcelona 2001/02 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2d0bd5bf-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2d0bd5bf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c6a34485-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0e4d09fd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__724b681e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5205",
+    "name": "Real Madrid 2024/25 - Especial Neón - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__35ea7efe-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__35ea7efe-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4ba6039a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__318f6972-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a828cfdd-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5294",
+    "name": "Real Madrid 2006/07 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__91bdc196-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__91bdc196-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__173356d3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__538704dd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bd3383ff-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13831",
+    "name": "España 2025/26 - Local «Mundial» - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8779",
+    "name": "Real Madrid 2025/26 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__39480efa-1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__39480efa-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__eab0dba9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3f9dc204-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__baa2d6bd-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6000",
+    "name": "Barcelona 2008/09 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ee093ed0-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ee093ed0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a3688c0e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f2814766-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d9e03eeb-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9586",
+    "name": "Barcelona 2024/25 - (Travis Scott Skeleton) - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__50484a4c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__50484a4c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ac2bf0c1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__cd3d37b5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c45484d0-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9960",
+    "name": "Real Madrid 2025/26 - Alternativa - Aficionado - Dama",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__223ce223-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__223ce223-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d5bc7008-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e1773962-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d495fd13-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8784",
+    "name": "Real Madrid 2025/26 - Visita - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__421f4eba-1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__421f4eba-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__517bd8cd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a3695333-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__01bf5d8a-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-13574",
+    "name": "Barcelona 2025/26 «Kappah ByN»- Rompevientos",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__489e1914.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__489e1914.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ef343108.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8038c5a5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1d3e8d66.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-11293",
+    "name": "Barcelona 2025/26 - Cuarta equipación - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/5ba50d3b03ba1d38cc6c93b7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/5ba50d3b03ba1d38cc6c93b7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/1f63fd1fe9baf29e254d6cd2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/d1858023a1713fe3f7dff1ba.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/667cdf7223f4c39e55f648a6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6468",
+    "name": "Real Madrid 2014/15 - Visita - Infantil - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tbtf-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tbtf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tvtr-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dfs-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__htrbv-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4619",
+    "name": "Real Madrid 2010/11 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1658e76c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1658e76c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f9d635ac-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6f19aca4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e2566da-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2880",
+    "name": "Real Madrid 2014/15 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e09003d3.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e09003d3.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/56cedfc1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/69ea06ca.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6688bcb3.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8103",
+    "name": "Barcelona 2025/26 - Ed. Especial (Blanca/Azulgrana) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__369897fb-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__369897fb-min.webp",
+      "images/stock/guia_tallas.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__86280c7f-min.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8685",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2c41ea40-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2c41ea40-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__64939cc6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__8adf1567-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__bc550f7a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5852",
+    "name": "Real Madrid 2024/25 - Especial Rojo - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3f01672c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3f01672c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e0704e98-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__696f33b5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ca973c54-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2177",
+    "name": "Real Madrid 2023/24 - Local - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2023/11/ce5a0619-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/ce5a0619-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/AnyConv.com__d0f3fdd0-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/AnyConv.com__83ddb06d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/AnyConv.com__5040566a-min-1-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8099",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa/Blanco) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9f95cb47-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9f95cb47-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9a54b64b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12733",
+    "name": "Atlético de Madrid 2010/11 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__375b5639-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__375b5639-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ce8a9e20.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__78685768.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__72ca950e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-15520",
+    "name": "Atlético de Madrid 2002/03 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__902f5edb-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__902f5edb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__84540a22-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fdfa3e27-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__96e74f52-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12831",
+    "name": "Atlético de Madrid 1999/00 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__676f69f8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__676f69f8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7fff9b5b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__72dccc67.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b21d1f8c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9035",
+    "name": "Atlético de Madrid 2025/26 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__54cf2843-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__54cf2843-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4c37abbb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__392e9dcb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__de1b642c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11166",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa/Turquesa) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__f7e612aa.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__f7e612aa.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__0b3f88a2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__ec905746.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__fd332a57.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6967",
+    "name": "Barcelona (Rels B) 2024/25 - Local - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-19T212407.188-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-19T212407.188-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e3dfea36-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__99fc80b8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-19T212606.937-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10759",
+    "name": "Atlético de Madrid 2013/14 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e8ce128-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e8ce128-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b31bd77d-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__367fe600-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fb39e16a-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5022",
+    "name": "Atlético de Madrid 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bdbf6650-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bdbf6650-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1f9143b6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__663a42b5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__be8a9bf9-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8892",
+    "name": "Atlético de Madrid 2025/26 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5f4d5abd-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5f4d5abd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a46ffa39-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__09e1cbff-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__fe67d927-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3653",
+    "name": "Barcelona (Coldplay) 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7df95b6b-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7df95b6b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4bcf2956-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__12f45852-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a7cb783c-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10051",
+    "name": "Atlético de Madrid 2025/26 - Local - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a36bb3eb-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a36bb3eb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c9f61bed-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ebded738-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__53f2620d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12685",
+    "name": "Atlético de Madrid 1996/97 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0de08e36.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0de08e36.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__443b0570.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__814a7d26.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9fe8a6bc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8089",
+    "name": "Barcelona 2025/26 - Ed. Especial (Blanca) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d005b9a-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d005b9a-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7a2a6a16-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7f637587-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7289",
+    "name": "Real Betis 2025/26 - »Naruto» - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__dbe35a4c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__dbe35a4c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__736edbdd-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-15676",
+    "name": "Atlético de Madrid 2011/12 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d317e62d1509a22078a58765.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d317e62d1509a22078a58765.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__32c3fc4e016a98764551d2ea.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2f6d97563b7835840f511a33.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__40bc693fe941a333246eaa40.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6958",
+    "name": "Barcelona (Rels B) 2024/25 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-19T195135.266-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-19T195135.266-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__1f51d463-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-19T195811.788-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12451",
+    "name": "Atlético de Madrid 2002/03 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__34ffe31d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__34ffe31d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9fe7a775.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c8570b8c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9194a8ae.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8730",
+    "name": "Barcelona 2025/26 - Ed. Especial »Mamba» Kobe (Amarillo) - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1c4a8764-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1c4a8764-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d1fc2aca-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a1e321fa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f034d279-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6136",
+    "name": "Barcelona 2024/25 - Local - Jugador - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__749364a7-1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__749364a7-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__8feff609-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__c4e53354-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4721",
+    "name": "Real Madrid (Mbappé/9) 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-7-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b0ad6bd3-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__07db66c9-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/39f26e79-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9269",
+    "name": "Real Madrid 2025/26 - Portero - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9a1ddb2f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9a1ddb2f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2ed83f59-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__44eaa1fe-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__558a534f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2891",
+    "name": "Barcelona 2015/16 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a1190985-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a1190985-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/efb82b9c-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/32380982-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/30544741-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12642",
+    "name": "Real Madrid 2002/03 - Reversible - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10ef52ef.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10ef52ef.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d07c54d3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__adecaef4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ed2d684f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5985",
+    "name": "Barcelona 2016/17 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e6b4800a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e6b4800a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a23ece41-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c85454f7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d68f2327-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11368",
+    "name": "Barcelona 2025/26 - Portero - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/Screenshot-2025-09-06-004117.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/Screenshot-2025-09-06-004117.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/d7b81ec8df4aa2d8b42bf91e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/6f277002c425730094446a7b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/ef3db72db75ee8df3aae6115.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5592",
+    "name": "Barcelona 2004/05 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/c99d5887-1-min.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/c99d5887-1-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a9e6e873-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9440502a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2fbee47a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4546",
+    "name": "Real Madrid 2022/23 - Conjunto Chándal Blanco",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/24b3e67c-min.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/24b3e67c-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/546dc700-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/2fb4b3bd-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/84f0120d-min.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-15514",
+    "name": "Real Madrid 2025/26 - Portero »Naranja» - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1eb1d04e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1eb1d04e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f95d31d8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c35cbbfc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b047dc5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2628",
+    "name": "Real Madrid 2024/25 - Rompevientos Doble Vista",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3c4f0a68-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3c4f0a68-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b4c05ea8-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/01544152-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-7394",
+    "name": "Real Madrid (Ronaldo/7) 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T195253.525-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T195253.525-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ff8cb5cf-2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/77da347a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4325",
+    "name": "Barcelona 2024/25 - Visita - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/0e9c4cc8-min.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/0e9c4cc8-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/7988b5e6-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/a6f297ad-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/4731e468-min.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2841",
+    "name": "Real Madrid (Ronaldo/7) 2016/17 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8fd0d33a.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8fd0d33a.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b99c8c65.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/906a755f.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/714c4789.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7833",
+    "name": "Barcelona 2017/18 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7a5779fc-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7a5779fc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6c03acc5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__21c343c6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d4c194d1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6043",
+    "name": "Real Madrid 2024/25 - Alternativa - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0fbc5581-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0fbc5581-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9516f536-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c33fb6b2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6035",
+    "name": "Real Madrid 2024/25 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4ec8bf28-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4ec8bf28-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f01f4810-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__85b01420-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7076",
+    "name": "Barcelona 2009/10 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/9fa5bcbe-min-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/9fa5bcbe-min-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/f2aace6a-min-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/85e2613b-min-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/801b6e07-min-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3565",
+    "name": "Real Madrid 2014/15 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6c4c0ac5-min-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6c4c0ac5-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1f4563c9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8e23d9e9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3ac576b9-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9896",
+    "name": "Barcelona 2025/26 - Local - Aficionado - Dama",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__51a64401-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__51a64401-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c86fd941-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c50dc9ca-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5b6174c4-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11218",
+    "name": "Barcelona 2025/26 - Visita - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__af57e4f6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__af57e4f6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__484cfe0c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__532ae774-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__25e361e8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4194",
+    "name": "Real Madrid 2011/12 - Portero - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__13104d55-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__13104d55-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__99ba6304-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__472e20ab-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4d66b54d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5882",
+    "name": "Real Madrid 2012/13 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a750aa5a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a750aa5a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__afc36200-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e0e5394c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__038a95e9-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5598",
+    "name": "Barcelona 2011/12 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__120ed868-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__120ed868-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__da356b98-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__dfff70ff-min-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7ded896f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11863",
+    "name": "Barcelona 2006/07 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__c90033f4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__c90033f4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__edb015da.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__484fcb86.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__f4df4b16.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4038",
+    "name": "Barcelona 2010/11 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bc5fc053-scaled-e1731553554798.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bc5fc053-scaled-e1731553554798.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7adbc604-scaled-e1731553999312.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d0b38e49-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__06c8aad9-scaled-e1731553593216.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4718",
+    "name": "Real Madrid (Mbappé/9) 2024/25 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-6-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-6-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/0157393a-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6bc5af7b-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/59d7d998-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4188",
+    "name": "Real Madrid 2011/12 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2b681362-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2b681362-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__48e9b831-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__74f954e8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__06e18188-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11874",
+    "name": "Barcelona 1996/97 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9d9f8788-1-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9d9f8788-1-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__098a2c64-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__78e6f701-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__301f47ff-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4161",
+    "name": "Real Madrid 2013/14 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cf09bb05-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cf09bb05-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__06d41b60-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e09fa1a0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__30c9e5aa-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4097",
+    "name": "Barcelona 2024/25 - Local - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__30aa516a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__30aa516a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e3dfea36-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__99fc80b8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9cf97515-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6011",
+    "name": "Real Madrid 2010/11 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__36a9694a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__36a9694a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bfcc3701-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__84a4ecb2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9c31c99d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2470",
+    "name": "Barcelona 2024/25 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/25cdfc24-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/25cdfc24-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ac8173cb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/44dd27c7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/84c19f50-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9562",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosada y Blanco) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6ea282d5-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6ea282d5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a92c15a9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7083e151-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__171ad95e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5300",
+    "name": "Real Madrid 2005/06 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6a293984-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6a293984-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3a4e1095-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d3faa4a1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__dacdddc5-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12767",
+    "name": "España 2025/26 - Entrenamiento - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b8d0eb4d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b8d0eb4d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__780c71ef.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6e33ce5c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6070f6ae.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9541",
+    "name": "Barcelona 2025/26 - Polo »Modernista» - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a681a816-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a681a816-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__307b7aaf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__df826e7e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ce9a0129-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7412",
+    "name": "Barcelona 2016/17 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__62d6f049-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__62d6f049-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__4bb2a6ae-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__6b9e59b2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__9590dc3d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5395",
+    "name": "Real Madrid 2024/25 - Especial Dragón - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__994ab509-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__994ab509-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4ba524ae-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__47d6b5eb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__807de33d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-6023",
+    "name": "Real Madrid 2024/25 - Local - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/dfa256a3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/dfa256a3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/9f02af8e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/e87f5c49.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/922337e1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3764",
+    "name": "Barcelona 2024/25 - Coldplay Hoodie Rojo",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-3-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5957",
+    "name": "Real Madrid 2017/18 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/9968cb5b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/9968cb5b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/da892693.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/3cd78483.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/2a960c33.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11436",
+    "name": "Barcelona 2005/06 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__4d9e4324-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__4d9e4324-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__a48fd721.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__e9221857.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__acbcd6f3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8194",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-16T014116.954-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-16T014116.954-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-16T014535.808-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-16T014513.889-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-16T014640.158-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8698",
+    "name": "Barcelona 2025/26 - Ed. Especial (Negro/Naranja) - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7078c920-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7078c920-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3219fcf6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__aec222ea-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__eb1c6f24-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11466",
+    "name": "Real Madrid (Rels B) 2025/26 – Visita – Aficionado – Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002059.725.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002059.725.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__1e2d383c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__517bd8cd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-10T002051.888.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4256",
+    "name": "Real Madrid 2008/09 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c0dff57a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c0dff57a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9037d42b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9b4c1c21-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f2bf4fa8-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4724",
+    "name": "Barcelona (Lamine Yamal/19) 2024/25 - Visita - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ac8173cb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/44dd27c7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/25cdfc24-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9171",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4aca5c8c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4aca5c8c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__318afb6d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d0899681-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__89d77e7c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2675",
+    "name": "Barcelona 2013/14 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d7c3757b-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d7c3757b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7c467511-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b2d5225e-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4b508c85-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4305",
+    "name": "Real Madrid 2024/25 - Conjunto Chándal Rosa Claro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__44e5ae4f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__44e5ae4f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__af30c0ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c9ff1310-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1161452a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-5369",
+    "name": "Real Madrid 2023/24 - Rompevientos",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b3b2869c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b3b2869c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__59c175c6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3d680aca-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__129f8cc5-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-7939",
+    "name": "Barcelona 2025/26 - Rosa Claro - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e4851752-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e4851752-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e5285f5c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9c7db515-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ec4a6c4e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3876",
+    "name": "Real Madrid 2013/14 - Alternativa - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e7c5a28-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e7c5a28-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4e0c1ffb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2cd4c626-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0b558303-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8736",
+    "name": "Barcelona 2025/26 - Ed. Especial (Vino tinto) - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f3a57a74-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f3a57a74-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ff71a84d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__51d42faa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1eef21fe-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10614",
+    "name": "Atlético de Madrid 2004/05 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__25906131-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__25906131-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__adfb2080-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14954",
+    "name": "Real Betis 2025/26 - Ed. Negra - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e6631d81.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e6631d81.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3ab40c7b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__71b23e86.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__d940493b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8040",
+    "name": "Barcelona 2025/26 - Polo »Modernista» - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__044c35cc-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__044c35cc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__20ee4eae-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__64253fc9-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5270",
+    "name": "Real Madrid 2024/25 - Especial Rosa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__95ee8b93-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__95ee8b93-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__edc269a0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a8142b3c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2160c4b3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12432",
+    "name": "Atlético de Madrid 2016/17 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c6f17336-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c6f17336-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__bd9295e9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__602a35c4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c19d300b-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2182",
+    "name": "Real Madrid 2023/24 - Local - Aficionado - Dama",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2023/11/abe9f05c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/abe9f05c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/47abb595-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/73e18015-7ae8-4289-bfc1-058fc2bb6a9e.d4e2930e4eeae5f4f8f3f4f204040e47.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14988",
+    "name": "Real Betis 2023/24 - Local - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__88ecc267-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__88ecc267-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1196b380-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__9ad98a78-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__811a9b90-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10218",
+    "name": "Barcelona 2025/26 - Ed. Especial (Luffy) - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__324053a7-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__324053a7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1195612b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a02f521b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__cc4ba163-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14911",
+    "name": "Real Betis 2025/26 - Ed. Graffiti - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__8b46b152-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__8b46b152-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__0b2bbe0b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__80926884-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bc840d37-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12088",
+    "name": "Barcelona 2025/26 - Portero - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9f7bd6fb.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9f7bd6fb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__5a8ca6ff.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__b2995712.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__81e838b9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14966",
+    "name": "Real Betis 2025/26 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__50b52175-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__50b52175-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__cfd0602c-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8789",
+    "name": "Real Betis 1999/00 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f61b0a46-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f61b0a46-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4c0b6ee7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__8b1dae87-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__773d0dbf-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-8222",
+    "name": "Real Madrid 2024/25 - Alternativa - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7cc8cb80-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7cc8cb80-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__717d3e92-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__41dbc8d9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2ce253fc-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-15048",
+    "name": "Real Betis 2023/24 - Visita - Jugador",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__fd946f75.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__fd946f75.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3c813259.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__91e74b90.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7f966102.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-14982",
+    "name": "Real Betis 2025/26 - Entrenamiento «Calavera» - Aficionado - Hombre - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-17.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-17.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4-16.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3-17.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2-18.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2727",
+    "name": "Real Madrid 2024/25 - Local - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec0ff2ed-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec0ff2ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/5571f5fd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/297366df-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/eba82f43-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11148",
+    "name": "Barcelona 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/fb2a140f-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/fb2a140f-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/d58fbf3d-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__e72e96c8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__6c275d42-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5478",
+    "name": "Real Madrid 2024/25 - Conjunto Chándal Entrenamiento",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__de0d9b46-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__de0d9b46-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-3043",
+    "name": "Real Madrid 2024/25 - Visita - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1f661500.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1f661500.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/545d3197.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c144c617.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e37c5e96.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7805",
+    "name": "Lionel Messi - Camiseta Conmemorativa »All Teams» - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1a2526ce-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1a2526ce-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6c5b6158-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62d6436d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__84caf947-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5389",
+    "name": "Real Madrid 2024/25 - Entrenamiento - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ef9b8863-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ef9b8863-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__56611f2e-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__91d36875-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3da0af37-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3531",
+    "name": "Real Madrid (Ronaldo/7) 2016/17 - Alternativa - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-1-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__501bd844-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__07bd3311-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__497c5546-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2689",
+    "name": "Barcelona 2024/25 - Local - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec3a41d1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec3a41d1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/69f16132-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4aa6d5c1-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bce0d405-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3008",
+    "name": "Real Madrid (Ronaldo/7) 2016/17 - Local - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/426d94d7.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/426d94d7.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ad1d4cb1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/dbbfdacc.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/dbc6e4c9.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7399",
+    "name": "Barcelona (Taylor Swift) 2024/25 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T221211.319-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T221211.319-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__5c915de1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__28c912da-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__498304ae-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7368",
+    "name": "Real Madrid (Ronaldo/7) 2012/13 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T024907.328-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T024907.328-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__0c4d3348-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__784b4747-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__bfad8b55-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7997",
+    "name": "Real Madrid 1988/89 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__32c83453-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__32c83453-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__cd40e96d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__fc849275-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__34f7cda6-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11142",
+    "name": "Barcelona 1998/99 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__67c43118-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__67c43118-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__2f8990b2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__b4c0fe5f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__1cb36c68-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-2873",
+    "name": "Barcelona 2024/25 - Alternativa - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/fa03ae44.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/fa03ae44.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/dce95399.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/05bd0bdd.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/38d3605e.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-11856",
+    "name": "Barcelona 2016/17 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__8b1f7460-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__8b1f7460-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__76d161d8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__2b3d120e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__7389a0c9-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10206",
+    "name": "Real Madrid 2025/26 - Conjunto Chándal Entrenamiento (Estilo Retro Blanco)",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/4a6e5ccf.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/4a6e5ccf.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-2867",
+    "name": "Barcelona 2024/25 - Visita - Infantil",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b5a6ac15-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b5a6ac15-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c7b80eea-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/026dabb4-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4653780c-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10199",
+    "name": "Real Madrid 2025/26 - Conjunto Chándal Entrenamiento (Blanco)",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/2a316c30.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/2a316c30.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-7527",
+    "name": "Barcelona 2025/26 - Polo »Modernista» - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/1253-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/1253-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/1253-3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/1253.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/1253-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4991",
+    "name": "Barcelona 2024/25 - Polo »Lamine Yamal» 304 - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c4a9929d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c4a9929d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__eefcc370-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__29352694-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__64d69294-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-9377",
+    "name": "Barcelona 2025/26 - Graffiti - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2f06b501-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2f06b501-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6f359977-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ab957fca-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a83d15ed-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4292",
+    "name": "Barcelona 2024/25 - Prematch - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1fd5ece0-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1fd5ece0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__88d076fa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__af277008-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5de6f76a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-7374",
+    "name": "Real Madrid (Ronaldo/7) 2013/14 - Alternativa - Aficionado - Retro - Manga Larga",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T025143.245-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T025143.245-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__7e7c5a28-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__2cd4c626-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__4e0c1ffb-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-10202",
+    "name": "Real Madrid 2025/26 - Conjunto Chándal Entrenamiento (Estilo Retro)",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/fd1be327.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/fd1be327.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "liga-6208",
+    "name": "Real Madrid 2002/03 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/ac11b2cf-min.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/ac11b2cf-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/cf803b3d-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/d6e1e21a-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/9672d1e5-min.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-5218",
+    "name": "Barcelona 2024/25 - Especial Rojo - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fc235d6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fc235d6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__db5d0a00-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2b283786-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5198523f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-4103",
+    "name": "Barcelona 2023/24 - Local - Aficionado - Hombre",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__02ef0927-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__02ef0927-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/2a4334f6-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/e523451f-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/7013bde9-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-3555",
+    "name": "Real Madrid (Ronaldo/7) 2015/16 - Local - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fa67d406-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3075314d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__94e85acf-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "liga-12837",
+    "name": "Barcelona 1982/83 - Visita - Aficionado - Retro",
+    "category": "laliga",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e1d7c1ca-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e1d7c1ca-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__22a1eb84-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__926dd8ff-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8337d684-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  }
+
 ];
 
 const STOCK_PRODUCTS = [
