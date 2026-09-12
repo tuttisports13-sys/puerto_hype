@@ -34976,9 +34976,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068817952574-2_pactvpfe1wjlag1q-bf12fa4d54e093b18617760184577639-1024-1024.webp",
+    "image": "images/stock/qatar_visita.png",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068817952574-2_pactvpfe1wjlag1q-bf12fa4d54e093b18617760184577639-1024-1024.webp"
+      "images/stock/qatar_visita.png"
     ],
     "sizes": [
       "S",
