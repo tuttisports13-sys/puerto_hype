@@ -131245,48 +131245,53 @@ function toggleCart(isOpen) {
 
 // Agregar producto al carrito
 // Agregar producto al carrito
-function addToCart(productId, customization = null, customPriceAdd = 0) {
+function addToCart(productId, customization = null, customPriceAdd = 0, selectedSize = null) {
   const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId) || SPORTS_PRODUCTS.find(p => p.id === productId);
 
   if (!product) return;
 
-  const existing = AppState.cart.find(item => item.id === productId);
+  const existing = AppState.cart.find(item => item.id === productId && JSON.stringify(item.customization) === JSON.stringify(customization));
   if (existing) {
     existing.quantity += 1;
   } else {
     AppState.cart.push({
+      cartItemId: Date.now().toString() + Math.random().toString(),
       id: product.id,
       name: product.name,
       price: product.section === 'preorder' ? 0 : product.price,
       retailPrice: product.section === 'preorder' ? 0 : product.retailPrice,
       image: product.image,
-      size: product.sizes[0] || 'Unitalla',
-      quantity: 1
+      size: selectedSize || (product.sizes ? (product.sizes[0] || 'Unitalla') : 'Unitalla'),
+      quantity: 1,
+      customization: customization,
+      customPriceAdd: customPriceAdd,
+      finalPrice: (product.section === 'preorder' ? 0 : product.price) + customPriceAdd
     });
   }
 
   saveCart();
   updateCartUI();
   showToast(`¡${product.name} agregado al carrito!`);
+  toggleCart(true); // Abre el carrito automáticamente
 }
 
 // Modificar cantidad
 function updateQuantity(cartItemId, delta) {
-  const item = AppState.cart.find(i => i.id === productId);
+  const item = AppState.cart.find(i => i.cartItemId === cartItemId);
   if (!item) return;
 
   item.quantity += delta;
   if (item.quantity <= 0) {
-    AppState.cart = AppState.cart.filter(i => i.id !== productId);
+    removeFromCart(cartItemId);
+  } else {
+    saveCart();
+    updateCartUI();
   }
-
-  saveCart();
-  updateCartUI();
 }
 
 // Eliminar producto
 function removeFromCart(cartItemId) {
-  AppState.cart = AppState.cart.filter(i => i.id !== productId);
+  AppState.cart = AppState.cart.filter(item => item.cartItemId !== cartItemId);
   saveCart();
   updateCartUI();
 }
@@ -131532,7 +131537,13 @@ function addToCartFromModal() {
     customPriceAdd += (30 * customization.patches);
   }
   
-  addToCart(currentQvProductId, customization, customPriceAdd);
+  let selectedSize = 'Unitalla';
+const activeSizeBtn = document.querySelector('.qv-size-btn.active');
+if (activeSizeBtn) {
+  selectedSize = activeSizeBtn.dataset.size;
+}
+
+addToCart(currentQvProductId, customization, customPriceAdd, selectedSize);
   closeQuickView();
 }
 
@@ -131547,6 +131558,19 @@ function openQuickView(productId) {
   const thumbContainer = document.getElementById('qv-thumbnails');
   
   title.textContent = product.name;
+// Render Sizes
+const sizeContainer = document.getElementById('qv-sizes');
+if (sizeContainer && product.sizes && product.sizes.length > 0) {
+  sizeContainer.innerHTML = product.sizes.map((s, i) => `
+    <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1px solid var(--border-color); background: var(--bg-body); color: white; border-radius: 4px; cursor: pointer; font-size: 0.85rem;">
+      ${s}
+    </button>
+  `).join('');
+  document.getElementById('qv-size-container').style.display = 'block';
+} else if (sizeContainer) {
+  document.getElementById('qv-size-container').style.display = 'none';
+}
+
   price.textContent = product.section === 'preorder' ? 'Por cotizar' : `$${product.price} MXN`;
   
   currentGallery = product.gallery && product.gallery.length > 0 ? product.gallery : [product.image];
@@ -131571,6 +131595,19 @@ function setQVImage(index) {
   document.getElementById('qv-main-img').src = currentGallery[index];
   document.querySelectorAll('.qv-thumb').forEach((el, i) => {
     el.classList.toggle('active', i === index);
+  });
+}
+
+function selectQvSize(btn) {
+  document.querySelectorAll('.qv-size-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  btn.style.borderColor = 'var(--neon-lime)';
+  btn.style.color = 'var(--neon-lime)';
+  
+  // reset others visually
+  document.querySelectorAll('.qv-size-btn:not(.active)').forEach(b => {
+    b.style.borderColor = 'var(--border-color)';
+    b.style.color = 'white';
   });
 }
 
