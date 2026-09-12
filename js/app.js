@@ -18,7 +18,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/2/1/21353c07a1f3804e.jpg",
   "gallery": [
@@ -39,7 +39,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/b/7/b764f3a6762ed13c.jpg",
   "gallery": [
@@ -60,7 +60,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/c/9/c92f66c8ca53181b.jpg",
   "gallery": [
@@ -81,7 +81,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/d/7/d7b9af69f02fcc2a.jpg",
   "gallery": [
@@ -102,7 +102,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/5/0/50b8cf3c8c1e6b7d.jpg",
   "gallery": [
@@ -123,7 +123,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/b/5/b5dd7c093929ac87.jpg",
   "gallery": [
@@ -144,7 +144,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/a/d/ad1f22204383bf3e.jpg",
   "gallery": [
@@ -165,7 +165,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/0/1/01b9a0f10b2984be.jpg",
   "gallery": [
@@ -186,7 +186,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/4/3/43050268954f846c.jpg",
   "gallery": [
@@ -207,7 +207,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/08/28/1/b/1bb48c979b81dd23.jpg",
   "gallery": [
@@ -228,7 +228,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/30/6/f/6fa1fb8cb4f617f0.jpg",
   "gallery": [
@@ -249,7 +249,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/5/1/51e0c1231ddcfbed.jpg",
   "gallery": [
@@ -270,7 +270,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/b/5/b5f78a5b9a0a99b4.jpg",
   "gallery": [
@@ -291,7 +291,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/d/6/d6f676d9a1764df8.jpg",
   "gallery": [
@@ -312,7 +312,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/1/a17cee2262b9bffa.jpg",
   "gallery": [
@@ -333,7 +333,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/8/1/8142b9a12b1b2bee.jpg",
   "gallery": [
@@ -354,7 +354,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/6/a/6a1dd49215f5aba1.jpg",
   "gallery": [
@@ -375,7 +375,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/8/a/8a2fff2908d764f4.jpg",
   "gallery": [
@@ -396,7 +396,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/d/b/db39a34d3665c4c5.jpg",
   "gallery": [
@@ -417,7 +417,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/0/7/0715b72561c18850.jpg",
   "gallery": [
@@ -438,7 +438,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/2/a2fdb49a7e900793.jpg",
   "gallery": [
@@ -459,7 +459,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/7/0/70ba2ce14a0e0ab4.jpg",
   "gallery": [
@@ -480,7 +480,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/4/7/470ccf26c35aa08e.jpg",
   "gallery": [
@@ -501,7 +501,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/3/9/39671698e47fd088.jpg",
   "gallery": [
@@ -522,7 +522,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/a/aa051cffc32d07b6.jpg",
   "gallery": [
@@ -543,7 +543,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/3/7/3761aa221cd1020c.jpg",
   "gallery": [
@@ -564,7 +564,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/5/f/5f93f9677be52724.jpg",
   "gallery": [
@@ -585,7 +585,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/e/3/e3c81e8027499159.jpg",
   "gallery": [
@@ -606,7 +606,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/9/b/9b146294e35bc4c3.jpg",
   "gallery": [
@@ -627,7 +627,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/10/31/0/5/0557f61cd4a5db2c.jpg",
   "gallery": [
@@ -648,7 +648,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/a/f/af1976bb9a9de101.jpg",
   "gallery": [
@@ -669,7 +669,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/f/4/f455be94cf81e843.jpg",
   "gallery": [
@@ -690,7 +690,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/e/a/ea34c53e66f54a0d.jpg",
   "gallery": [
@@ -711,7 +711,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/3/e/3e48137c7bd80324.jpg",
   "gallery": [
@@ -732,7 +732,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/0/1/01ec70c79d9f0bb4.jpg",
   "gallery": [
@@ -753,7 +753,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/09/09/2/8/28d56de818d406ba.jpg",
   "gallery": [
@@ -774,7 +774,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/09/09/d/f/df02b98af71124fc.jpg",
   "gallery": [
@@ -795,7 +795,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/09/09/b/3/b3bdf61269de3263.jpg",
   "gallery": [
@@ -816,7 +816,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/e/8e1219cad0118769.jpg",
   "gallery": [
@@ -837,7 +837,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/0/8018d9c63bd09ab8.jpg",
   "gallery": [
@@ -858,7 +858,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/4/848001d777a438b7.jpg",
   "gallery": [
@@ -879,7 +879,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/e/c/ec335348fc7b5c60.jpg",
   "gallery": [
@@ -900,7 +900,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/2/5/25333260c9ea63d8.jpg",
   "gallery": [
@@ -921,7 +921,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/a/3/a3bf92b948d36516.png",
   "gallery": [
@@ -942,7 +942,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/6/c/6c1c935ea401095f.png",
   "gallery": [
@@ -963,7 +963,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/2/2/22b2dac551597b8b.png",
   "gallery": [
@@ -984,7 +984,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/7/4/747cebf9db7b5a69.png",
   "gallery": [
@@ -1005,7 +1005,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/c/5/c5711c87db588652.jpg",
   "gallery": [
@@ -1026,7 +1026,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/5/2/528eff43824c6e28.jpg",
   "gallery": [
@@ -1047,7 +1047,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/1/c/1c45e55509404600.jpg",
   "gallery": [
@@ -1068,7 +1068,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/7/2/72f421991f4606a6.png",
   "gallery": [
@@ -1089,7 +1089,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/a/e/aef9c6ab4cfbe7e1.jpg",
   "gallery": [
@@ -1110,7 +1110,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/d/3/d36ad21e3192c6bc.png",
   "gallery": [
@@ -1131,7 +1131,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2023/08/04/b/c/bccf55690368addb.jpg",
   "gallery": [
@@ -1153,7 +1153,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/09/09/1/b/1b4e08ab1f784bc6.jpg",
   "gallery": [
@@ -1174,7 +1174,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/09/09/7/8/78246c5e3c0a1768.jpg",
   "gallery": [
@@ -1195,7 +1195,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/09/03/1/7/17c79e44ac61df8e.jpg",
   "gallery": [
@@ -1216,7 +1216,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/22/a/a/aafae7bca2e99607.jpg",
   "gallery": [
@@ -1237,7 +1237,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/22/3/7/378c85fff7e2123d.jpg",
   "gallery": [
@@ -1258,7 +1258,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/e/be0f54b34288b67e.jpg",
   "gallery": [
@@ -1279,7 +1279,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/d/7dc18f29eb5162c1.jpg",
   "gallery": [
@@ -1300,7 +1300,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/8/3/838d040cfacfed89.jpg",
   "gallery": [
@@ -1321,7 +1321,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/f/ffd322fb41d09b62.jpg",
   "gallery": [
@@ -1342,7 +1342,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/c/0/c027d6eae5511361.jpg",
   "gallery": [
@@ -1363,7 +1363,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/f/0f15fef5f66462c0.jpg",
   "gallery": [
@@ -1384,7 +1384,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/5/554cfd7ea39c6fd5.jpg",
   "gallery": [
@@ -1405,7 +1405,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/8/d/8d86e57efc98c7e4.jpg",
   "gallery": [
@@ -1426,7 +1426,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/a/d/ad65261a6a545b00.jpg",
   "gallery": [
@@ -1447,7 +1447,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/6/a/6a3e698a5616f74d.jpg",
   "gallery": [
@@ -1468,7 +1468,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/5/b5f81eed52f0a7be.jpg",
   "gallery": [
@@ -1489,7 +1489,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/f/7f9db8b73f9a315d.jpg",
   "gallery": [
@@ -1510,7 +1510,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/1/5/15b580d366094adc.jpg",
   "gallery": [
@@ -1531,7 +1531,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/6/5/657833e3a2d196f1.jpg",
   "gallery": [
@@ -1552,7 +1552,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/a/a/aad4cedf720d56d7.jpg",
   "gallery": [
@@ -1573,7 +1573,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/e/3ef0d01fd8853eb8.jpg",
   "gallery": [
@@ -1594,7 +1594,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/e/5/e5527014badb3e46.jpg",
   "gallery": [
@@ -1615,7 +1615,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/7/77837d26249fd7fe.jpg",
   "gallery": [
@@ -1636,7 +1636,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/f/3f3553e7d98aa65c.jpg",
   "gallery": [
@@ -1657,7 +1657,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/a/fae32bd4087a5a25.jpg",
   "gallery": [
@@ -1678,7 +1678,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/1/0/101b925685214fe4.jpg",
   "gallery": [
@@ -1699,7 +1699,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/f/0f6184090fcca56a.jpg",
   "gallery": [
@@ -1720,7 +1720,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/c/7c65b00792ea4277.jpg",
   "gallery": [
@@ -1741,7 +1741,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/8/b892d24d6bc13fed.jpg",
   "gallery": [
@@ -1762,7 +1762,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/2/8/289ea045157e5802.jpg",
   "gallery": [
@@ -1783,7 +1783,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/2/9/2951a140407c5f74.jpg",
   "gallery": [
@@ -1804,7 +1804,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/3/33faa35a0a88f70c.jpg",
   "gallery": [
@@ -1825,7 +1825,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/8/08af3e041ab7cb7a.jpg",
   "gallery": [
@@ -1846,7 +1846,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/c/7/c7a26b94e4b57efc.jpg",
   "gallery": [
@@ -1867,7 +1867,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/8/f847be63df3b3549.jpg",
   "gallery": [
@@ -1888,7 +1888,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/2/52e4601cd15c345b.jpg",
   "gallery": [
@@ -1909,7 +1909,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/6/56504fdffa0c9b34.jpg",
   "gallery": [
@@ -1930,7 +1930,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/05/13/0/a/0ab6477ca8d7d455.jpg",
   "gallery": [
@@ -1951,7 +1951,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/04/17/5/8/58c786a9d517afbb.jpg",
   "gallery": [
@@ -1972,7 +1972,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/04/17/3/2/327144b46b213a61.jpg",
   "gallery": [
@@ -1993,7 +1993,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/04/17/6/d/6d5bee972891d888.jpg",
   "gallery": [
@@ -2014,7 +2014,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/4/e/4e5e2d2899238c9d.jpg",
   "gallery": [
@@ -2035,7 +2035,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/8/7/87579cd026cc83e7.jpg",
   "gallery": [
@@ -2056,7 +2056,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/f/4/f4786b23bee4eb30.jpg",
   "gallery": [
@@ -2077,7 +2077,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/6/c/6cf917c2c487b9be.jpg",
   "gallery": [
@@ -2098,7 +2098,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/1/6/166688931b4120d6.jpg",
   "gallery": [
@@ -2119,7 +2119,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/8/f/8f0c2b0e597f75eb.jpg",
   "gallery": [
@@ -2140,7 +2140,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/0/5/055ef195c5a490ed.jpg",
   "gallery": [
@@ -2161,7 +2161,7 @@ const SPORTS_PRODUCTS = [
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
-  "price": 650,
+  "price": 1200,
   "hasVersionSelector": false,
   "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/c/2/c238bf18bc01569c.jpg",
   "gallery": [
