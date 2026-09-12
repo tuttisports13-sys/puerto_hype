@@ -166418,7 +166418,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     } catch (error) {
       removeTyping(typingId);
-      appendMessage('bot', 'Ups, hermano. Tuvimos un problema conectando con el sistema. Intenta de nuevo más tarde o mándanos WhatsApp.');
+      appendMessage('bot', 'Ups, hermano. Tuve una pequeña desconexión con mi servidor cerebral. ¿Me puedes volver a enviar tu pregunta? Si el problema persiste, mándanos WhatsApp directo: [📲 Escribir a WhatsApp](https://wa.me/5212294135613)');
       console.error(error);
     }
   };
