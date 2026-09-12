@@ -169480,6 +169480,39 @@ const AppState = {
 };
 
 // Inicialización cuando el DOM está listo
+// --- AUTO-CATEGORIZATION & SIZES FOR PREORDER ---
+const streetwearBrands = ['Hellstar', 'Godspeed', 'Gallery Dept', 'Essentials', 'Stussy', 'Bape', 'Amiri', 'Boss', 'Denim Tears', 'Sp5der', 'Purple Brand', 'Acne Studios', 'Off White', 'Duaa', 'BKYS', 'First Row', 'Majestik', 'Life Hustle', 'Supply', 'Rough Play', 'Harmony', 'Saint', 'Casa Blanca', 'Balenciaga', 'Galazgod', 'Nike', 'Adidas', 'Mixed Emotion', 'Valley', 'Alo', 'Van'];
+const sandalBrands = ['Crocs']; 
+const backpackBrands = ['Sprayground'];
+const jewelryBrands = ['Van Cleef', 'Chrome Hearts'];
+
+PREORDER_PRODUCTS.forEach(p => {
+  const nameLow = p.name.toLowerCase();
+  if (backpackBrands.includes(p.brand)) {
+    p.category = 'mochilas';
+    p.customizable = false;
+  } else if (sandalBrands.includes(p.brand) || nameLow.includes('slide') || nameLow.includes('foam rnnr') || nameLow.includes('sandal')) {
+    p.category = 'chanclas';
+    p.sizes = ['24', '25', '26', '27', '28', '29'];
+    p.customizable = true;
+  } else if (jewelryBrands.includes(p.brand)) {
+    p.category = 'pulseras';
+    p.customizable = false;
+  } else if (streetwearBrands.includes(p.brand)) {
+    p.category = 'playeras';
+    p.sizes = ['S', 'M', 'L', 'XL'];
+    p.customizable = true;
+  } else if (p.brand === 'Gorras') {
+    p.customizable = false;
+  } else {
+    p.category = 'playeras';
+    p.sizes = ['S', 'M', 'L', 'XL'];
+    p.customizable = true;
+  }
+});
+// ------------------------------------------------
+
+
 document.addEventListener('DOMContentLoaded', () => {
   renderProducts();
   setupEventListeners();
