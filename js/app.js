@@ -169253,7 +169253,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
 
 
   const filtered = currentProducts.filter(prod => {
-    if (AppState.currentFilter === 'all' && prod.isProductInsideFolder) return false;
+    if (AppState.currentFilter === 'all' && !prod.isFolder && !prod.category.endsWith('_folder')) return false;
     const matchesCategory = AppState.currentFilter === 'all' || 
                             prod.category === AppState.currentFilter || 
                             prod.brand === AppState.currentFilter;
