@@ -165607,7 +165607,7 @@ const PREORDER_PRODUCTS = [
 // Add mode to AppState
 const AppState = {
   currentMode: 'stock', // 'stock' or 'preorder'
-  cart: JSON.parse(localStorage.getItem('puerto_hype_cart') || '[]'),
+  cart: JSON.parse(localStorage.getItem('puerto_hype_cart') || '[]').map(item => ({ ...item, cartItemId: item.cartItemId || Date.now().toString() + Math.random().toString() })),
   currentFilter: 'all',
   searchQuery: '',
   whatsappNumber: '5212294135613'

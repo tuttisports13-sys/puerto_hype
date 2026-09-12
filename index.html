@@ -2180,12 +2180,29 @@ h1, h2, h3, h4, .font-heading {
     </div>
 
     <!-- Barra de progreso para meta de mayoreo -->
-    <div class="wholesale-progress-box">
-      <div class="progress-label">
-        <span id="wholesale-progress-text">Llevas 0 / 5 piezas para activar precio mayoreo</span>
-      </div>
-      <div class="progress-bar-bg">
-        <div id="wholesale-progress-fill" class="progress-bar-fill" style="width: 0%;"></div>
+    <div class="cart-animated-banner" style="overflow: hidden; background: var(--neon-lime); padding: 8px 0; margin-bottom: 15px; border-radius: 4px; display: flex; align-items: center; white-space: nowrap;">
+      <style>
+        .cart-marquee {
+          display: inline-block;
+          animation: marquee 15s linear infinite;
+          font-family: var(--font-display);
+          font-weight: 800;
+          font-size: 0.8rem;
+          color: #000;
+          letter-spacing: 1px;
+        }
+        @keyframes marquee {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+      </style>
+      <div style="width: 200%; display: flex;">
+        <div class="cart-marquee">
+          🔥 ESTÁS A UN PASO DE ESTRENAR 🔥 CALIDAD PREMIUM GARANTIZADA 📦 ENVÍO SEGURO A TODO MÉXICO 🔥 ESTÁS A UN PASO DE ESTRENAR 🔥 CALIDAD PREMIUM GARANTIZADA 📦 ENVÍO SEGURO A TODO MÉXICO&nbsp;
+        </div>
+        <div class="cart-marquee">
+          🔥 ESTÁS A UN PASO DE ESTRENAR 🔥 CALIDAD PREMIUM GARANTIZADA 📦 ENVÍO SEGURO A TODO MÉXICO 🔥 ESTÁS A UN PASO DE ESTRENAR 🔥 CALIDAD PREMIUM GARANTIZADA 📦 ENVÍO SEGURO A TODO MÉXICO&nbsp;
+        </div>
       </div>
     </div>
 
