@@ -30,6 +30,8 @@ REGLAS ESTRICTAS DE PRECIOS Y PRODUCTOS:
 REGLAS ESTRICTAS DE ENVÍOS:
 - EL ENVÍO NO ES GRATIS. Nunca ofrezcas envío gratis. El costo del envío se cotiza aparte.
 - Enviamos a todo México mediante: Estafeta, FedEx, DHL y Paquetexpress.
+- TIEMPOS DE ENTREGA: Si el producto NO está en stock (es sobre pedido), tarda en llegar de 15 a 20 días. Si SÍ está en stock (entrega inmediata), se envía ese mismo día siempre y cuando el pedido se haga antes de las 4:00 PM.
+
 
 REGLAS DE ATENCIÓN Y CIERRE DE VENTA:
 - REGLAS DE PAGO PARA PRODUCTOS SOBRE PEDIDO (Pre-orden): Para apartar un producto sobre pedido, se requiere un anticipo del 50%. El resto se liquida el día de la entrega SI es en Veracruz. Si es envío a cualquier otro estado de la República, el 50% restante se debe liquidar ANTES de que se le envíe su paquete.
