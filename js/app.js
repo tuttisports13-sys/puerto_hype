@@ -165353,7 +165353,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
 
 ${product.isFolder || product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
 <div class="product-pricing">
-  <span class="price-wholesale">$${product.price} MXN</span>
+  <span class="price-wholesale">${product.hasVersionSelector ? '$550 - $650 MXN' : '$' + product.price + ' MXN'}</span>
 </div>
 `}
 
@@ -165846,9 +165846,43 @@ function showToast(text) {
 let currentGallery = [];
 let currentGalleryIndex = 0;
 
-let currentQvProductId = null;
-let currentQvVersionBasePrice = 0;
-let currentQvSelectedVersion = "";
+var currentQvProductId = null;
+var currentQvVersionBasePrice = 0;
+var currentQvSelectedVersion = "";
+
+function selectQvVersion(btn, basePrice) {
+  document.querySelectorAll('.version-btn').forEach(b => {
+    b.classList.remove('active');
+    b.style.background = 'transparent';
+    b.style.color = 'white';
+    b.style.borderColor = 'var(--border-color)';
+  });
+  btn.classList.add('active');
+  btn.style.background = 'var(--neon-lime)';
+  btn.style.color = '#000';
+  btn.style.borderColor = 'var(--neon-lime)';
+  
+  currentQvVersionBasePrice = basePrice;
+  currentQvSelectedVersion = btn.getAttribute('data-version') === 'jugador' ? 'Jugador' : 'Fan';
+  
+  updateQvPriceDisplay();
+}
+
+function updateQvPriceDisplay() {
+  if (!currentQvProductId) return;
+  const product = STOCK_PRODUCTS.find(p => p.id === currentQvProductId) || PREORDER_PRODUCTS.find(p => p.id === currentQvProductId) || SPORTS_PRODUCTS.find(p => p.id === currentQvProductId);
+  if (!product) return;
+  
+  let base = product.hasVersionSelector ? currentQvVersionBasePrice : product.price;
+  
+  let extra = 0;
+  if (document.getElementById('qv-check-name') && document.getElementById('qv-check-name').checked) extra += 50;
+  if (document.getElementById('qv-check-patch') && document.getElementById('qv-check-patch').checked) {
+    extra += (30 * parseInt(document.getElementById('qv-patch-select').value));
+  }
+  
+  document.getElementById('qv-price').textContent = `$${base + extra} MXN`;
+}
 
 function toggleNameInput() {
   if(typeof updateQvPriceDisplay === 'function') updateQvPriceDisplay();
