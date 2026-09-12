@@ -38,6 +38,17 @@ const SPORTS_PRODUCTS = [
   "isFolder": true,
   "targetFilter": "premier"
 },
+{
+  "id": "sports-folder-seriea",
+  "name": "Serie A - Temporada 25/26",
+  "category": "seriea_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/seriea_cover.png",
+  "badge": "134 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "seriea"
+},
   {
     "id": "sports-001",
     "name": "Liga MX Catálogo 1",
@@ -17189,6 +17200,3625 @@ const SPORTS_PRODUCTS = [
       "2XL",
       "3XL",
       "4XL"
+    ],
+    "customizable": true
+  }
+
+,
+
+  {
+    "id": "seriea-6632",
+    "name": "AC Milán (Gimenez/7) 2024/25 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-24.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-24.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__aa30ebfa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3d715d42-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1cba7423-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11234",
+    "name": "AS Roma 2025/26 - Alternativa - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__cf2f3cc2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__cf2f3cc2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__3ea957d9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__29bab0ac.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__5c6e775a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-10070",
+    "name": "AC Milán 2025/26 - Visita - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T153336.722-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T153336.722-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T153417.336-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T153453.024-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T153357.266-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-7883",
+    "name": "Inter de Milán 2025/26 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__14009c1c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__14009c1c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__420c5949-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6664062c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d27d220e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-10741",
+    "name": "AC Milán 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2ff97f9c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2ff97f9c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__69cc8f0f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c5fc6698-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d1e13d30-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-18316",
+    "name": "Inter de Milán 2026/27 - Local - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/26b964ea.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/26b964ea.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/6a7081ec.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1a64a526.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-4655",
+    "name": "Juventus (Ronaldo/7) 2019/20 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87f0370a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a9229c62-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__01e561db-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11228",
+    "name": "AS Roma 2025/26 - Visita - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__392f8d7f-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__392f8d7f-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__19ce2a84.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__cc2ea199-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__7bf7b5f8-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-10065",
+    "name": "AC Milán 2025/26 - Visita - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__933ac0c4-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__933ac0c4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d17ab79e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1f4cc263-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__36821919-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-18526",
+    "name": "AC Milán 2026/27 - Alternativa - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/9433882e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/9433882e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/0584d50b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/dfb96384.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/8f060dbd.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-8148",
+    "name": "Juventus 2025/26 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/7e48d470-b04f15dd27b8af299a17447384672157-640-0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/7e48d470-b04f15dd27b8af299a17447384672157-640-0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/d023c65a-71423620605281143817447384670717-640-0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/7a2d5749-61d6aa0d4a9b34851e17447384672400-640-0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/40f3b5c8-8019d0306e8f55cf9817447384672667-640-0.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-13466",
+    "name": "Napoli 2025/26 - Local- Infantil",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__62c14a21.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__62c14a21.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c12bdeda-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f5e87516.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9c791f3d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-18013",
+    "name": "AC Milán 2026/27 - Cuarta Equipación - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/7fada0d0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/7fada0d0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/06d18822.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/08414115.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/afa4f3a3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-18007",
+    "name": "AC Milán 2026/27 - Visita - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/86f51472.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/86f51472.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/8fb1aa87.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b5f3c307.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/63243af2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-18520",
+    "name": "AC Milán 2026/27 - »Slam Jam» - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1d36ec52.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1d36ec52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/9307c42f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/11717d2b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d7dac9f4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11006",
+    "name": "Juventus 2025/26 - US Pack Shirt - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__5b311e88.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__5b311e88.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__5f1421a2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__0181a5f6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__5aed2915.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-18442",
+    "name": "Juventus 2026/27 - Local - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/21e552e3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/21e552e3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ea7e1f2f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/97eee79a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/4a30cd33.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-8501",
+    "name": "AC Milán 2025/26 - Local - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__faaaebae-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__faaaebae-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d5dba8a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__48e7ee08-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__08b8d509-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-9202",
+    "name": "Inter de Milán 2025/26 - Visita - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5d1082b9-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5d1082b9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__fa947f92-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4960af0f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__3f5c321c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-15731",
+    "name": "Juventus 2025/26 – Alternativa – Jugador - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b9a03bf.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b9a03bf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5843931b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d6f42359.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a3cf6766.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14737",
+    "name": "AS Roma 1991/92 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__680fd0c9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__680fd0c9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__721d07c7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__0288768e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__99cccfbc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-15688",
+    "name": "Juventus 2013/14 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ca8e83cd877cf0e9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ca8e83cd877cf0e9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0e25d4ce0cb25fdb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__11d7751736949e1b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__20c2f85b864baeb0.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-9233",
+    "name": "Juventus 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__22eca4c6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__22eca4c6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9c36c15f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4ed2fee9-6e30-422e-89e3-da0b5c4f2077-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0d14c247-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12484",
+    "name": "Inter de Milán 2025/26 - Alternativa - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__42911a10.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__42911a10.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c45754d9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9b0e47c5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__74e09b26.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16591",
+    "name": "Juventus 2025/26 - Visita - Infantil",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aac51e65c67edddb71ddb325.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aac51e65c67edddb71ddb325.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a33d77a5de0c2db1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4d0a6d2890c73a8a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__773d2a36a9099d46-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-6840",
+    "name": "AC Milán 2024/25 - Portero - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a1cc69a2-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a1cc69a2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3880086b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5859d862-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ab4cec02-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-5503",
+    "name": "AC Milán 2024/25 - Rompevientos",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bbf60d9e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bbf60d9e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7a53d2f7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9c30cd8e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c172e917-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "seriea-6828",
+    "name": "AC Milán 2024/25 - Visita - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d942d73c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d942d73c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__12a733f1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f8689b65-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__92d23c3c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-7871",
+    "name": "Inter de Milán 2022/23 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__329019ed-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__329019ed-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d38da230-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5f345827-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e0766084-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16629",
+    "name": "Juventus 2011/12 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__397601c042acd3306118b919.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__397601c042acd3306118b919.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__81b652bece39211d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8ed516b5d836fe42.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1f241f6e6a15a788.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16623",
+    "name": "Juventus 2001/02 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__40a1e8b39ea5c208236ffd94.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__40a1e8b39ea5c208236ffd94.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3a9a9e307f2bee3c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__105fe0c821598aaf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__453c9b6ff23d2b99.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14767",
+    "name": "AS Roma 1992/93 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__77f66970-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__77f66970-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4a7eff27-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__64c7719b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__18e24776-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16635",
+    "name": "Juventus 2012/13 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ffd500e2e3416a1e9cf6d80c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ffd500e2e3416a1e9cf6d80c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__08d54ca39398a411.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7d31062990e7318d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c70ce3274d5d0971.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14799",
+    "name": "AS Roma 2017/18 - Local - Aficionado - Retro - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7bc6dc49-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7bc6dc49-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__32b9fca6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1219f983-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__24eadf2c-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-6834",
+    "name": "AC Milán 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a0ca61ac-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a0ca61ac-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__7fab406d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__33f9cd91-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__7d44285f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3954",
+    "name": "AC Milán 2024/25 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1cba7423-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1cba7423-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ee906a24-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__aa30ebfa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3d715d42-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-10078",
+    "name": "AS Roma 2025/26 - Local - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T154927.235-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T154927.235-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T155125.411-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T155050.985-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T155019.310-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16617",
+    "name": "Juventus 1998/99 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1f24e130aab0d28171755965.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1f24e130aab0d28171755965.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__cf1cab996a076f8c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__522aa7ab28f5759f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a9baea30d44469a6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-8154",
+    "name": "Juventus 2025/26 – Local – Infantil",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/70d62009.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/70d62009.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/8a389096.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/909e684b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/e1ae561f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-6846",
+    "name": "AC Milán 2024/25 - Red Off White - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__bc80b2c8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__bc80b2c8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__592f6f1e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__aac3fd1d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9b4b2f62-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-7877",
+    "name": "Inter de Milán (Cruz Cafuné) 2023/24 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__186a160b-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__186a160b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2d424913-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__828d1051-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__cb01acbe-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-6852",
+    "name": "AC Milán 2024/25 - Black Off White - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ff92dc7b-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ff92dc7b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__7af4c9e1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__b81e23e3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__ef3fa77e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12988",
+    "name": "Venezia 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__253cbef2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__253cbef2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__749069d1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f2038ac4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bf61cfb5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14016",
+    "name": "AC Milán 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__eb092481.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__eb092481.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2eb62029.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-4129",
+    "name": "AC Milán 2024/25 - Rompevientos Doble Vista",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__db08f119-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__db08f119-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__414082dd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1cb7351e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "seriea-6462",
+    "name": "Juventus 2024/25 – Visita – Infantil",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__sdcds-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__sdcds-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__frsasc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__yhgs-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dedwcs-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-8945",
+    "name": "Inter de Milán 2025/26 - Local - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d13c6c6c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d13c6c6c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a601ee18-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__03cd3c8f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e2931f24-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-13586",
+    "name": "Juventus 2024/25 - «Azul Marino» - Rompevientos",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ec1b6bf9-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ec1b6bf9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__272d0d9f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5afbeb4c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7194b2c9-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "seriea-7866",
+    "name": "Inter de Milán 2024/25 - Visita - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__bd44f1b9-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__bd44f1b9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f7c0d74e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__54dbf914-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3966",
+    "name": "AC Milán 2024/25 - Local - Infantil",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__67283578-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__67283578-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b5726252-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6ff8d8ea-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87101870-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-9335",
+    "name": "Juventus 2025/26 - Local - Jugador - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__60ffa30a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__60ffa30a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__82fb6ba9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__85ed9fa4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__cab0d1e3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14248",
+    "name": "Napoli 2025/26 - Ed. Negra - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3aae947f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3aae947f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ced48973.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6ac4b9be.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__19448699.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14793",
+    "name": "AS Roma 2025/26 – Local – Infantil",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__71d2cab3-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__71d2cab3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c80d2a6c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bea2dfe4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__185a4db9-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-7889",
+    "name": "Inter de Milán 2024/25 - Visita - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0c76a7a3-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0c76a7a3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__bfa62fa7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__fc8572b3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a5babf8d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-8954",
+    "name": "Inter de Milán 2025/26 - Local - Jugador - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7b51b9ed-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7b51b9ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e2931f24-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__535a9c55-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f63c6232-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-15724",
+    "name": "Juventus 2025/26 – Alternativa (Sin Sponsor) – Jugador - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__565e0fc5.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__565e0fc5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f54b5919.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__937f2458.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aea28304.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16317",
+    "name": "Inter de Milán 2009/10 - Local - Infantil - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8d7bdce7-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8d7bdce7-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4e7e962a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__de7d190d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__810eae36-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12740",
+    "name": "AC Milán 2025/26 - Entrenamiento - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6495c6c9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6495c6c9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__01af6385.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d1807a69.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0f617f30.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-10994",
+    "name": "Napoli 2025/26 - Visita - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__8f28ffb8-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__8f28ffb8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__9233f333-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__2fe33e41-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__53ac2657-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-7860",
+    "name": "Inter de Milán 2024/25 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__09d58d4d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__09d58d4d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__28748254-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ceed4518-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7e028961-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14235",
+    "name": "Napoli 1987/88 - Local - Aficionado - Retro - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2b64b09-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2b64b09-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2208aa1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2322e90e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__61fcc533-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12724",
+    "name": "AC Milán 1999/00 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6eb8d76a-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6eb8d76a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5b66d5f6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c2548d19-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5a211e23-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16210",
+    "name": "AC Milan 2013/14 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4407053c-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4407053c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9f37d957-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6a15d73e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__762f38fa-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12782",
+    "name": "AC Milán 2012/13 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cf11ae58-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cf11ae58-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8e920a12-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d5ffa08f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3c14cf7a-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-9331",
+    "name": "Inter de Milán 2025/26 - Local - Aficionado - Hombre (Betsson)",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c8d347c0-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c8d347c0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__420c5949-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6664062c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5551b57f-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-9705",
+    "name": "Inter de Milán 2025/26 – Local – Aficionado – Dama",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e75037aa-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e75037aa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f450f946-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8742c3dd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c4c98ef0-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-5610",
+    "name": "Venezia 2024/25 - Visita - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1034226e-1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1034226e-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c18bc459-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__94513cba-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__8639c5a9-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3946",
+    "name": "AC Milán 2006/07 - Local - Infantil - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b85369e7-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b85369e7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a0aadd19-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e5e89a8f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d5ecd6ab-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12654",
+    "name": "AC Milán 1997/98 - Ed. Especial - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__04b0654d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__04b0654d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0cbf26dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__17ee5a81.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ec3bfcea.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-9227",
+    "name": "Juventus 2025/26 - Visita - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__13b407c0-dc15-45fe-ab17-9b2dd31647f8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__13b407c0-dc15-45fe-ab17-9b2dd31647f8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4ed2fee9-6e30-422e-89e3-da0b5c4f2077-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4bdea18e-3467-498d-86e7-46e54c004348-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9a46517e-c5d5-4ecb-a323-c4c0872fa2e6-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-7896",
+    "name": "AC Milán 2006/07 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2b0be328-3d8f-45a9-ac07-782f6be28bfa-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2b0be328-3d8f-45a9-ac07-782f6be28bfa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__45d97899-600x600-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4a6a919c-600x600-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4eddcc83-600x600-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-4643",
+    "name": "Juventus 2014/15 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__415e0bd1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__415e0bd1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a2d9c104-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da53bcf6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__88f16751-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-8160",
+    "name": "Juventus 2025/26 - Local - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__c60c48e2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__c60c48e2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-14T225028.032-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-14T225058.975-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-14T225045.084-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16329",
+    "name": "Inter de Milán 2025/26 - Ed. Especial »Rojo» - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e85327c9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e85327c9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8d1cbf96.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ac79f4e8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d6eb06a5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16220",
+    "name": "AC Milan 2009/10 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__08755243-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__08755243-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8d42c640-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__97dd5668-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__38b43d27-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-4884",
+    "name": "AC Milán 2006/07 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eab9e3bf-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eab9e3bf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__17b934e3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__518f2d93-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__502025f7-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-5647",
+    "name": "Inter de Milán 2009/10 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb48df2e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb48df2e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__104cb1d2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e1bf5b84-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d8d201bc-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16288",
+    "name": "Inter de Milán 2004/05 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c78993fc-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c78993fc-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__051b21ae-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__31967028-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4ad34fb8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16323",
+    "name": "Inter de Milán 1998/99 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c404bba9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c404bba9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0b0d0336.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__85c5f3d6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6e322e28.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16275",
+    "name": "Inter de Milán 1994/95 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78f03490.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78f03490.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__28b9d15e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__508f6593.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9ccd2d08.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16281",
+    "name": "Inter de Milán 2002/03 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1050d7d5-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1050d7d5-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1aea3b27-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ade1bae9-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e1aa5cb5-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16245",
+    "name": "AC Milan 1993/94 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__90bd9cfd4102f42e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__90bd9cfd4102f42e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d77d8173216e3447.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ea26e715c699d029.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e8c4c78354d19163.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3852",
+    "name": "AC Milán 2011/12 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4574b638-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4574b638-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f98b1a1c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d31ab0ab-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__885a00f0-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16302",
+    "name": "Inter de Milán 2009/10 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__68964715-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__68964715-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__261fcaf1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__793b6b26-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__86e91e3a-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16257",
+    "name": "AC Milan 2004/05 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e5ad26c253e6b3de-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e5ad26c253e6b3de-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__007978d51985116f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__658c5c21b5548a8a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__89d4100d43b1afde-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16239",
+    "name": "AC Milan 2007/08 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__06b67031-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__06b67031-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c4444287-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__560a6cba-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5e98ef5f-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16124",
+    "name": "AC Milan 2016/17 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__744080b5-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__744080b5-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e4f74e53-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aba44743-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9e9256e8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16296",
+    "name": "Inter de Milán 2007/08 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d2b84d2c-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d2b84d2c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4e7307a5-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2979d3fc-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1d92ff66-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16251",
+    "name": "AC Milan 1999/00 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ae893fa648e11280.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ae893fa648e11280.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b16c7e430e99ceb5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6b2f009a1d5080cf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b81a874428497b46.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-7853",
+    "name": "Inter de Milán 2001/02 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d633b226-min-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d633b226-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__83d44806-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6921d1fe-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3cc7d5b3-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12874",
+    "name": "Napoli 2025/26 - Portero - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3aaff3a2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3aaff3a2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__200a56f9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4f2566ec.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8c316679.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11991",
+    "name": "Inter de Milán 2004/05 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__aff53c3c-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__aff53c3c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__b72b0d47-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__6519966a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__3ceceb79-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3846",
+    "name": "AC Milán 2012/13 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bd634fc7-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bd634fc7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__99252549-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0e2d347d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__98135f2e-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16313",
+    "name": "Inter de Milán 1999/00 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6cba1f7a-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6cba1f7a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__df8e69bc-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__77149246-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ae6e4b43-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14781",
+    "name": "AS Roma 2001/02 - Local - Infantil - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__567d3b6e-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__567d3b6e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__eabb9450-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a5b9b4cb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2ce0ced3-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16144",
+    "name": "AC Milan 1992/94 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__218a88f0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__218a88f0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d8f94746.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c8cbd24e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__10756181.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16195",
+    "name": "AC Milan 2002/03 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__934059af-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__934059af-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__cffd8e79-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2cfb8ff5-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__201814d4-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3980",
+    "name": "Juventus 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__45a1c45d-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__45a1c45d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__546b114d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8d4f891a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0924203f-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16138",
+    "name": "AC Milan 2014/15 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8664a8ad-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8664a8ad-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7c99bc51-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fc5683e8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__242413f1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16131",
+    "name": "AC Milan 2000/01 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8c608f68-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8c608f68-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bb236a4b-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6a90839f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__292fef4b-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3406",
+    "name": "Juventus 2024/25 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__bdfdbe78-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__bdfdbe78-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__a45c1238-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__4e5e8749-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__402952ac-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11708",
+    "name": "Venezia 2025/26 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/7a2ec00f7776c1db9349323d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/7a2ec00f7776c1db9349323d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/2e429bbcf1112eb5d4d1de84.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/b384ef62de86332ce86075ff.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/bcda7ae81388185fa8544b21.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14755",
+    "name": "AS Roma 1997/98 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bd0b5b4b-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bd0b5b4b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__03edc6a6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__584b0003-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a04e468b-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14773",
+    "name": "AS Roma 2000/01 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__70f1b96b-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__70f1b96b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__520f1b14-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a5c4fca4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__44655690-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12827",
+    "name": "Napoli 2025/26 - Ed. Esqueleto - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ffe789240c705c5ba3f99c57.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ffe789240c705c5ba3f99c57.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3c20206cd3b1350c8f283b8a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3e43a4bdfa7945b5f2670b2c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c6acd7017694d119190ea24b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11720",
+    "name": "Venezia 2025/26 - Visita - Aficionado - Hombre - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-22-233155.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-22-233155.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/d55e94b604fa82a02433b8e8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/f8af128d02acd37ec7fc653c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/a086dd59ced6da5bccfaf16e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11714",
+    "name": "Venezia 2025/26 - Visita - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/72244ef04abd3d182328d888.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/72244ef04abd3d182328d888.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/4ba3173cb884402c865880ce.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/7b79314b142ed1cb3fd51fd4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/c77e21d323b85b6f638d505d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12823",
+    "name": "Napoli 2025/26 - Ed. Halloween - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3b918f2e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3b918f2e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a4ffd5a7.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-5604",
+    "name": "Venezia 2024/25 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e3201ee8-1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e3201ee8-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c83dcc68-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__daef5dd8-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3ce6e36c-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11045",
+    "name": "Napoli 2025/26 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__90d7b8cf-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__90d7b8cf-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__ce7d0cac-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__cc44de60-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__cc4540cc-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-10333",
+    "name": "AS Roma 2025/26 - Local - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0a205371-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0a205371-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e5ee896-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b2aef20a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8140cf96-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-11726",
+    "name": "Juventus 2025/26 - Alternativa - Jugador",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-23-002612.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-23-002612.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-23-002600.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-23-002533.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-23-002543.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14761",
+    "name": "AS Roma 2000/01 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__df5c6a26-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__df5c6a26-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__059788e3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__cb80ffcb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__0bbab1e7-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14743",
+    "name": "AS Roma 1992/93 - visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e8371a30.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e8371a30.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2efb8ada.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c2b49f53.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__d97cd1ec.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14787",
+    "name": "AS Roma 1999/00 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__08b3783d-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__08b3783d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3c077e04-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__18c89cb9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__08be547b-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-4464",
+    "name": "AC Milán 2007/08 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2f8516f8-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2f8516f8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__09d71b80-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9b42622d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a0e2f30a-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16604",
+    "name": "Juventus 2010/11 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aca678bc92d16ad14af1cde4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aca678bc92d16ad14af1cde4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__49f9c0cad93d37a6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2eaf19025836223b-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19ade74552c06e02.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14725",
+    "name": "AS Roma 2025/26 - Ed. Terrace - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4-7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3-8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2-9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-3972",
+    "name": "AC Milán 1998/99 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c28fd5d8-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c28fd5d8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a1c98be3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b68b961f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f550d625-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16233",
+    "name": "AC Milan 2013/14 - Local - Aficionado - Retro - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7c72f973-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7c72f973-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0eda3651-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__003736c4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3ab54d41-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-5444",
+    "name": "AC Milán (Kaká/22) 2006/07 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/sg-11134201-7qvfi-lk287lejs50r21.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/sg-11134201-7qvfi-lk287lejs50r21.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__668a24c2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c1c6e23b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b6d074f0-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-4458",
+    "name": "AC Milán 1998/99 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87f9ef32-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87f9ef32-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ece835aa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ee722050-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2fa23de2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16227",
+    "name": "AC Milan 2009/10 - Local - Aficionado - Retro - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__54c7cfb5-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__54c7cfb5-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f45449c6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__41dadc9b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__90bf928b-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12726",
+    "name": "AC Milán 1998/99 - Cuarta Equipación - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d567bf16.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d567bf16.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ddaa4785.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10916d6a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a0a5f5ed.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14731",
+    "name": "AS Roma 2004/05 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__6893f042-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__6893f042-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__93ac4dc5-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__48468c23-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__766cafcd-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12537",
+    "name": "AC Milán 1997/98 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2801e094.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2801e094.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8e034b82.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a93a6de9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__514382ac.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-5438",
+    "name": "AC Milán 2006/07 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b6d074f0-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b6d074f0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__668a24c2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c1c6e23b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ac97c8d7-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14242",
+    "name": "Napoli 2025/26 - Ed. Negra - Aficionado - Hombre",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__38bc3272-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__38bc3272-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8d823335-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__90617cd2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__925f08b1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16598",
+    "name": "Juventus 2005/06 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd5cdd589419b75cb796773c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd5cdd589419b75cb796773c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__97e2d5a7b034a4bf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ef7074611767b4a1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__566d1e1bad3940ca.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-14749",
+    "name": "AS Roma 1999/00 - Visita - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__cb541c75-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__cb541c75-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3c7ba341-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ff50655a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e789224d-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-4452",
+    "name": "AC Milán 2001/02 - Local - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e4ae779e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e4ae779e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__47608c11-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e168878a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e8996ec2-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-5338",
+    "name": "AC Milán 1999/00 - Local - Aficionado - Retro - Manga Larga",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d86fe61b-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d86fe61b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__62f766b6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/0639631d-min-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-12648",
+    "name": "AC Milán 1997/98 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ab7fbec3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ab7fbec3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__480e6156.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3c1098e1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2caccdf3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "seriea-16611",
+    "name": "Juventus 2015/16 - Alternativa - Aficionado - Retro",
+    "category": "seriea",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bced65e9b1ce17db.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bced65e9b1ce17db.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__065e6f06ff26d450.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ec44be6f22263717.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6781295486884d69.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
     ],
     "customizable": true
   }
