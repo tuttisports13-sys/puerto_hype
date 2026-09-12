@@ -35526,9 +35526,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/bdf83fca3aed-54b88890cc47947e3d17760635583645-1024-1024.webp",
+    "image": "images/stock/australia_visita.png",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/bdf83fca3aed-54b88890cc47947e3d17760635583645-1024-1024.webp"
+      "images/stock/australia_visita.png"
     ],
     "sizes": [
       "S",
