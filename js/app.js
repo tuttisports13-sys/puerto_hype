@@ -14,7 +14,7 @@ const SPORTS_PRODUCTS = [
   },
 {
   "id": "sp-f1-49",
-  "name": "2025 F1 Mercedes Black Polo Racing Suit(有领)",
+  "name": "2025 F1 Mercedes Negro Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -35,7 +35,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-50",
-  "name": "2025 Red Bull White Motorcycle Racing Suit",
+  "name": "2025 Red Bull Blanco Chamarra Biker",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -56,7 +56,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-51",
-  "name": "2025 F1 Ferrari Blue T-Shirts Racing Suit (圆领)",
+  "name": "2025 F1 Ferrari Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -77,7 +77,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-52",
-  "name": "2025 F1 Ferrari Polo Racing Suit (有领)",
+  "name": "2025 F1 Ferrari Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -98,7 +98,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-53",
-  "name": "2025 F1 Mercedes Red White T-Shirts Racing Suit(圆领)",
+  "name": "2025 F1 Mercedes Rojo Blanco Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -119,7 +119,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-54",
-  "name": "2025 F1 Red Bull White Polo Racing Suit(有领)",
+  "name": "2025 F1 Red Bull Blanco Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -140,7 +140,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-55",
-  "name": "2025 YAMaHA SDD Polo Blue Racing Suit(有领)",
+  "name": "2025 YAMaHA SDD Polo Azul Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -161,7 +161,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-56",
-  "name": "2025 F1 Mercedes Black T-Shirts Racing Suit(圆领)",
+  "name": "2025 F1 Mercedes Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -182,7 +182,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-57",
-  "name": "2025 YAMaHA SDD Blue T-Shirts Racing Suit (圆领)",
+  "name": "2025 YAMaHA SDD Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -203,7 +203,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-58",
-  "name": "2025 Ferrari Red Windbreaker",
+  "name": "2025 Ferrari Rojo Rompevientos",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -224,7 +224,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-59",
-  "name": "2025 F1 Ferrari White T-Shirts Racing Suit (圆领)",
+  "name": "2025 F1 Ferrari Blanco Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -245,7 +245,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-60",
-  "name": "2025 F1 Aston Martin Polo Green Racing Suit(有领)",
+  "name": "2025 F1 Aston Martin Polo Verde Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -266,7 +266,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-61",
-  "name": "2025 F1 Mercedes White T-Shirts Racing Suit(圆领)",
+  "name": "2025 F1 Mercedes Blanco Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -287,7 +287,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-62",
-  "name": "2025 F1 Red Bull Black T-Shirts Racing Suit(圆领)",
+  "name": "2025 F1 Red Bull Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -308,7 +308,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-63",
-  "name": "2025 F1 Mercedes White Polo Racing Suit(有领)",
+  "name": "2025 F1 Mercedes Blanco Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -329,7 +329,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-64",
-  "name": "2025 F1 Red Bull Black Polo Racing Suit(有领)",
+  "name": "2025 F1 Red Bull Negro Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -350,7 +350,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-65",
-  "name": "2025 McLaren Yellow Polo Racing Suit (有领)",
+  "name": "2025 McLaren Amarillo Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -371,7 +371,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-66",
-  "name": "2025 F1 Mercedes Black Polo Racing Suit(有领)",
+  "name": "2025 F1 Mercedes Negro Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -392,7 +392,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-67",
-  "name": "2025 F1 Mercedes Black Hoody(有帽卫衣)",
+  "name": "2025 F1 Mercedes Negro Sudadera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -413,7 +413,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-68",
-  "name": "2025 F1 Ferrari Red Hoody(有帽卫衣)",
+  "name": "2025 F1 Ferrari Rojo Sudadera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -434,7 +434,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-69",
-  "name": "2025 F1 Ferrari Red T-Shirts Racing Suit (圆领)",
+  "name": "2025 F1 Ferrari Rojo Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -455,7 +455,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-70",
-  "name": "2025 McLaren NORRIS #4 Black Racing Suit (圆领)",
+  "name": "2025 McLaren NORRIS #4 Negro Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -476,7 +476,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-71",
-  "name": "2024 F1 Aston Martin T-Shirts Racing Suit (圆领)",
+  "name": "2024 F1 Aston Martin Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -497,7 +497,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-72",
-  "name": "2025 McLaren NORRIS #4 Yellow Racing Suit (圆领)",
+  "name": "2025 McLaren NORRIS #4 Amarillo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -518,7 +518,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-73",
-  "name": "2025 F1 Ferrari Polo Racing Suit (有领)",
+  "name": "2025 F1 Ferrari Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -539,7 +539,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-74",
-  "name": "2025 McLaren NORRIS #4 Polo Yellow Racing Suit (有领)",
+  "name": "2025 McLaren NORRIS #4 Polo Amarillo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -560,7 +560,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-75",
-  "name": "2025 McLaren Black T-Shirts Racing Suit (圆领)",
+  "name": "2025 McLaren Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -581,7 +581,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-76",
-  "name": "2024 F1 Aston Martin #14 Green Racing Suit (圆领)",
+  "name": "2024 F1 Aston Martin #14 Verde Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -602,7 +602,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-77",
-  "name": "2025 F1 Ferrari Red T-Shirts Racing Suit (圆领)",
+  "name": "2025 F1 Ferrari Rojo Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -623,7 +623,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-78",
-  "name": "2024 AME Black Grey Motorcycle Racing Suit",
+  "name": "2024 AME Negro Gris Chamarra Biker",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -644,7 +644,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-79",
-  "name": "2024 Toyota GR Black Motorcycle Racing Suit",
+  "name": "2024 Toyota GR Negro Chamarra Biker",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -665,7 +665,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-80",
-  "name": "2024 McLaren LANDO#4 Polo Yellow Racing Suit (有领)",
+  "name": "2024 McLaren LANDO#4 Polo Amarillo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -686,7 +686,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-81",
-  "name": "2024 YAMaHA SDD Blue Motorcycle Racing Suit",
+  "name": "2024 YAMaHA SDD Azul Chamarra Biker",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -707,7 +707,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-82",
-  "name": "2024 DUCATI Grey Motorcycle Racing Suit",
+  "name": "2024 DUCATI Gris Chamarra Biker",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -728,7 +728,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-83",
-  "name": "2024 DUCATI Blue Motorcycle Racing Suit",
+  "name": "2024 DUCATI Azul Chamarra Biker",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -749,7 +749,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-84",
-  "name": "2024 F1 Ferrari Black Racing Suit",
+  "name": "2024 F1 Ferrari Negro Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -770,7 +770,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-85",
-  "name": "2024 F1 Red Bull Royal Blue T-Shirts Racing Suit (圆领)银牛",
+  "name": "2024 F1 Red Bull Azul Rey Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -791,7 +791,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-86",
-  "name": "2024 F1 Red Bull Royal Blue Polo Racing Suit(有领) 银牛",
+  "name": "2024 F1 Red Bull Azul Rey Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -812,7 +812,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-87",
-  "name": "2024 McLaren Black T-Shirts Racing Suit (圆领)",
+  "name": "2024 McLaren Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -833,7 +833,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-88",
-  "name": "2024 McLaren Yellow Polo Racing Suit (有领)",
+  "name": "2024 McLaren Amarillo Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -854,7 +854,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-89",
-  "name": "2024 McLaren Yellow T-Shirts Racing Suit (圆领)",
+  "name": "2024 McLaren Amarillo Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -875,7 +875,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-90",
-  "name": "2024 F1 Ferrari #55 Red Racing Suit (圆领)",
+  "name": "2024 F1 Ferrari #55 Rojo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -896,7 +896,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-91",
-  "name": "2024 F1 Ferrari #16 Red Racing Suit (圆领)",
+  "name": "2024 F1 Ferrari #16 Rojo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -917,7 +917,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-92",
-  "name": "2024 McLaren #4 Polo Yellow Black Racing Suit (有领)",
+  "name": "2024 McLaren #4 Polo Amarillo Negro Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -938,7 +938,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-93",
-  "name": "2024 Formula One McLaren #4 Black Yellow Racing Suit (圆领)",
+  "name": "2024 Formula One McLaren #4 Negro Amarillo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -959,7 +959,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-94",
-  "name": "2024 F1 Red Bull #11 Polo Royal Blue Racing Suit (有领)",
+  "name": "2024 F1 Red Bull #11 Polo Azul Rey Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -980,7 +980,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-95",
-  "name": "2024 F1 Red Bull #1 Polo Royal Blue Racing Suit (有领)",
+  "name": "2024 F1 Red Bull #1 Polo Azul Rey Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1001,7 +1001,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-96",
-  "name": "2024 Ferrari Red T-Shirts Racing Suit (圆领)",
+  "name": "2024 Ferrari Rojo Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1022,7 +1022,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-97",
-  "name": "2024 F1 Ferrari #55 Red Racing Suit (圆领)",
+  "name": "2024 F1 Ferrari #55 Rojo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1043,7 +1043,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-98",
-  "name": "2024 F1 Ferrari Red Special Edition Racing Suit (圆领)",
+  "name": "2024 F1 Ferrari Rojo Edición Especial Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1064,7 +1064,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-99",
-  "name": "2024 Ferrari Red Polo Racing Suit (有领)",
+  "name": "2024 Ferrari Rojo Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1085,7 +1085,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-100",
-  "name": "2024 F1 Red Bull Royal Blue Polo Racing Suit(有领)",
+  "name": "2024 F1 Red Bull Azul Rey Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1106,7 +1106,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-101",
-  "name": "2024 F1 Ferrari #16 Red Racing Suit (圆领)",
+  "name": "2024 F1 Ferrari #16 Rojo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1127,7 +1127,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-102",
-  "name": "F1 Ferrari Retro Edition Red Racing Suit",
+  "name": "F1 Ferrari Edición Retro Rojo Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1149,7 +1149,7 @@ const SPORTS_PRODUCTS = [
 
 {
   "id": "sp-f1-0",
-  "name": "2026 Audi Black T-Shirts Racing Suit",
+  "name": "2026 Audi Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1170,7 +1170,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-1",
-  "name": "2026 Mercedes Blue T-Shirts Racing Suit",
+  "name": "2026 Mercedes Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1191,7 +1191,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-2",
-  "name": "2026 Red Bull White T-Shirts Racing Suit",
+  "name": "2026 Red Bull Blanco Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1212,7 +1212,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-3",
-  "name": "2026 Cadillac Black Polo Racing Suit",
+  "name": "2026 Cadillac Negro Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1233,7 +1233,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-4",
-  "name": "2026 Audi Green T-Shirts Racing Suit",
+  "name": "2026 Audi Verde Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1254,7 +1254,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-5",
-  "name": "2026 Red Bull Blue T-Shirts Racing Suit",
+  "name": "2026 Red Bull Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1275,7 +1275,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-6",
-  "name": "2026 F1 Ferrari Red Polo Racing Suit",
+  "name": "2026 F1 Ferrari Rojo Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1296,7 +1296,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-7",
-  "name": "2026 Mercedes Black T-Shirts Racing Suit",
+  "name": "2026 Mercedes Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1317,7 +1317,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-8",
-  "name": "2026 Alpine Blue T-Shirts Racing Suit",
+  "name": "2026 Alpine Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1338,7 +1338,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-9",
-  "name": "2026 Mercedes Blue Slim T-Shirts Racing Suit",
+  "name": "2026 Mercedes Azul Slim Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1359,7 +1359,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-10",
-  "name": "2026 Audi Gray T-Shirts Racing Suit",
+  "name": "2026 Audi Gris Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1380,7 +1380,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-11",
-  "name": "2026 McLaren Black Yellow T-Shirts",
+  "name": "2026 McLaren Negro Amarillo Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1401,7 +1401,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-12",
-  "name": "2026 Ferrari Red T-Shirts Racing Suit",
+  "name": "2026 Ferrari Rojo Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1422,7 +1422,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-13",
-  "name": "2026 Ferrari Red Blue T-Shirts",
+  "name": "2026 Ferrari Rojo Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1443,7 +1443,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-14",
-  "name": "2026 Audi Gray T-Shirts Racing Suit",
+  "name": "2026 Audi Gris Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1464,7 +1464,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-15",
-  "name": "2026 F1 Haas Black Polo Racing Suit",
+  "name": "2026 F1 Haas Negro Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1485,7 +1485,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-16",
-  "name": "2026 Cadillac White T-Shirts Racing Suit",
+  "name": "2026 Cadillac Blanco Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1506,7 +1506,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-17",
-  "name": "2026 Ferrari Red white T-Shirts",
+  "name": "2026 Ferrari Rojo Blanco Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1527,7 +1527,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-18",
-  "name": "2026 Williams Black Blue Polo Racing Suit",
+  "name": "2026 Williams Negro Azul Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1548,7 +1548,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-19",
-  "name": "2026 Mercedes Black T-Shirts Wolf",
+  "name": "2026 Mercedes Negro Playera Wolf",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1569,7 +1569,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-20",
-  "name": "2026 F1 Ferrari Red white Polo",
+  "name": "2026 F1 Ferrari Rojo Blanco Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1590,7 +1590,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-21",
-  "name": "2026 Mercedes Black Polo Racing Suit",
+  "name": "2026 Mercedes Negro Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1611,7 +1611,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-22",
-  "name": "2026 Red Bull Blue Polo Racing Suit",
+  "name": "2026 Red Bull Azul Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1632,7 +1632,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-23",
-  "name": "2026 McLaren Yellow Polo Racing Suit",
+  "name": "2026 McLaren Amarillo Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1653,7 +1653,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-24",
-  "name": "2026 Williams Black Red Polo",
+  "name": "2026 Williams Negro Rojo Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1674,7 +1674,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-25",
-  "name": "2026 McLaren Yellow T-Shirts Racing Suit",
+  "name": "2026 McLaren Amarillo Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1695,7 +1695,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-26",
-  "name": "2026 Aston Martin Green Polo",
+  "name": "2026 Aston Martin Verde Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1716,7 +1716,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-27",
-  "name": "2026 Aston Martin Green T-Shirts",
+  "name": "2026 Aston Martin Verde Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1737,7 +1737,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-28",
-  "name": "2026 Mercedes White T-Shirts Slim",
+  "name": "2026 Mercedes Blanco Playera Slim",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1758,7 +1758,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-29",
-  "name": "2026 Williams Black Blue T-Shirts",
+  "name": "2026 Williams Negro Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1779,7 +1779,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-30",
-  "name": "2026 Cadillac White Polo Racing Suit",
+  "name": "2026 Cadillac Blanco Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1800,7 +1800,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-31",
-  "name": "2026 Haas Black T-Shirts Racing Suit",
+  "name": "2026 Haas Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1821,7 +1821,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-32",
-  "name": "2026 Mercedes White Polo Racing Suit",
+  "name": "2026 Mercedes Blanco Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1842,7 +1842,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-33",
-  "name": "2026 Williams Blue T-Shirts Racing Suit",
+  "name": "2026 Williams Azul Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1863,7 +1863,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-34",
-  "name": "2026 Alpine Blue Polo Racing Suit",
+  "name": "2026 Alpine Azul Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1884,7 +1884,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-35",
-  "name": "2026 Mercedes Black T-Shirts Slim",
+  "name": "2026 Mercedes Negro Playera Slim",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1905,7 +1905,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-36",
-  "name": "2026 Cadillac Black T-Shirts Racing Suit",
+  "name": "2026 Cadillac Negro Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1926,7 +1926,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-37",
-  "name": "2026 McLaren Royal blue Racing suit",
+  "name": "2026 McLaren Azul Rey Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1947,7 +1947,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-38",
-  "name": "2026 F1 Mercedes Black Racing suit",
+  "name": "2026 F1 Mercedes Negro Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1968,7 +1968,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-39",
-  "name": "2026 F1 Aston Martin Green Racing suit",
+  "name": "2026 F1 Aston Martin Verde Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -1989,7 +1989,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-40",
-  "name": "2026 Red Bull Royal blue Racing suit",
+  "name": "2026 Red Bull Azul Rey Jersey",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2010,7 +2010,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-41",
-  "name": "25-26 F1 Ferrari Red Casual Polo",
+  "name": "25-26 F1 Ferrari Rojo Polo Casual",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2031,7 +2031,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-42",
-  "name": "2025 Red Bull Royal blue Polo",
+  "name": "2025 Red Bull Azul Rey Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2052,7 +2052,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-43",
-  "name": "25-26 F1 Ferrari Red Casual T-Shirts",
+  "name": "25-26 F1 Ferrari Rojo Casual Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2073,7 +2073,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-44",
-  "name": "25-26 F1 Ferrari White Casual T-Shirts",
+  "name": "25-26 F1 Ferrari Blanco Casual Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2094,7 +2094,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-45",
-  "name": "25-26 F1 Ferrari White Casual Polo",
+  "name": "25-26 F1 Ferrari Blanco Polo Casual",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2115,7 +2115,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-46",
-  "name": "25-26 F1 Ferrari Black Casual T-Shirts",
+  "name": "25-26 F1 Ferrari Negro Casual Playera",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2136,7 +2136,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-47",
-  "name": "25-26 F1 Ferrari Black Casual Polo",
+  "name": "25-26 F1 Ferrari Negro Polo Casual",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -2157,7 +2157,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "sp-f1-48",
-  "name": "2025 F1 Mercedes White Polo",
+  "name": "2025 F1 Mercedes Blanco Polo",
   "brand": "F1",
   "section": "preorder-sports",
   "category": "f1",
@@ -3404,7 +3404,7 @@ const SPORTS_PRODUCTS = [
 },
 {
   "id": "nba-40241645",
-  "name": "Camiseta Mitchellness Kings N°. 55 White Chocolate Williams Retro Mesh",
+  "name": "Camiseta Mitchellness Kings N°. 55 Blanco Chocolate Williams Retro Mesh",
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
