@@ -1849,7 +1849,7 @@ h1, h2, h3, h4, .font-heading {
           <span class="section-tag">HISTORIAS DE ÉXITO</span>
           <h2 class="section-title" style="margin: 0;">COMUNIDAD MAYORISTA</h2>
         </div>
-        <a href="https://wa.me/522294970057?text=Hola,%20quiero%20dejar%20mi%20rese%C3%B1a%20con%20fotos!" target="_blank" class="btn-primary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; padding: 10px 16px;">
+        <a href="javascript:void(0)" onclick="openReviewModal()" target="_blank" class="btn-primary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; padding: 10px 16px;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
           </svg>
@@ -2085,6 +2085,34 @@ h1, h2, h3, h4, .font-heading {
 <div id="lightbox-modal" class="qv-modal" style="z-index: 10001; background: rgba(0,0,0,0.95);" onclick="closeLightbox()">
   <button class="qv-close" style="font-size: 35px; top: 20px; right: 25px; color: #fff;" onclick="closeLightbox()">&times;</button>
   <img id="lightbox-img" src="" style="max-width: 95%; max-height: 90vh; border-radius: 8px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+</div>
+
+<!-- Review Modal -->
+<div id="review-modal" class="qv-modal" onclick="if(event.target===this) closeReviewModal()">
+  <div class="qv-content" style="max-height: 90vh; overflow-y: auto;">
+    <button class="qv-close" onclick="closeReviewModal()">&times;</button>
+    <h3 style="margin-top: 0; color: #fff; text-align: center;">Déjanos tu Reseña</h3>
+    
+    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Tu Nombre:</label>
+    <input type="text" id="review-name" placeholder="Ej. Juan Pérez" style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-body); color: #fff;">
+    
+    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Calificación:</label>
+    <div id="review-stars" style="display: flex; gap: 10px; margin-top: 5px; font-size: 24px; cursor: pointer;">
+      <span class="star" data-val="1" style="color: #ffd700;">★</span>
+      <span class="star" data-val="2" style="color: #ffd700;">★</span>
+      <span class="star" data-val="3" style="color: #ffd700;">★</span>
+      <span class="star" data-val="4" style="color: #ffd700;">★</span>
+      <span class="star" data-val="5" style="color: #ffd700;">★</span>
+    </div>
+    
+    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Tu Opinión:</label>
+    <textarea id="review-text" rows="4" placeholder="¿Qué te pareció tu pedido?" style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-body); color: #fff; resize: none;"></textarea>
+    
+    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Agregar una Foto (Opcional):</label>
+    <input type="file" id="review-image" accept="image/*" style="width: 100%; margin-top: 5px; color: #ccc;">
+    
+    <button id="btn-submit-review" class="btn btn-primary" style="width: 100%; margin-top: 25px; padding: 15px; font-weight: bold;" onclick="submitReview()">PUBLICAR RESEÑA</button>
+  </div>
 </div>
 
 <!-- Footer -->

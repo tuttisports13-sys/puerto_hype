@@ -170353,3 +170353,138 @@ function closeLightbox() {
     modal.classList.remove('open');
   }
 }
+
+
+// --- SISTEMA DE RESEÑAS NATIVO ---
+let currentReviewStars = 5;
+
+function initReviews() {
+  const stars = document.querySelectorAll('#review-stars .star');
+  stars.forEach(star => {
+    star.addEventListener('click', (e) => {
+      currentReviewStars = parseInt(e.target.getAttribute('data-val'));
+      stars.forEach(s => {
+        if (parseInt(s.getAttribute('data-val')) <= currentReviewStars) {
+          s.style.color = '#ffd700'; // filled
+        } else {
+          s.style.color = '#555'; // empty
+        }
+      });
+    });
+  });
+  
+  loadReviews();
+}
+
+async function loadReviews() {
+  const container = document.getElementById('reviews-container');
+  if (!container) return;
+  
+  try {
+    const res = await fetch('/api/get-reviews');
+    if (!res.ok) throw new Error('Error al cargar reseñas');
+    const reviews = await res.json();
+    
+    if (reviews.length === 0) {
+      container.innerHTML = '<p style="color: var(--text-muted); grid-column: 1 / -1; text-align: center;">Sé el primero en dejar una reseña.</p>';
+      return;
+    }
+    
+    container.innerHTML = reviews.map(r => `
+      <div style="background: var(--bg-card); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; flex-direction: column;">
+        <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 15px;">
+          <div style="width: 50px; height: 50px; background: var(--neon-lime); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #000; font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">
+            ${r.name.charAt(0).toUpperCase()}
+          </div>
+          <div>
+            <h4 style="margin: 0; color: #fff;">${r.name}</h4>
+            <div style="color: #ffd700; font-size: 0.8rem; margin-top: 4px;">${'★'.repeat(r.stars)}${'☆'.repeat(5 - r.stars)}</div>
+          </div>
+          <div style="margin-left: auto; color: var(--text-muted); font-size: 0.75rem;">
+            ${r.date}
+          </div>
+        </div>
+        <p style="color: #ccc; font-size: 0.9rem; line-height: 1.5; flex: 1;">"${r.text}"</p>
+        ${r.image ? `<img src="${r.image}" onclick="openLightbox(this.src)" style="margin-top: 15px; width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; cursor: pointer; border: 1px solid var(--border-color);">` : ''}
+      </div>
+    `).join('');
+  } catch (error) {
+    console.error(error);
+    container.innerHTML = '<p style="color: #ff6b6b; grid-column: 1 / -1; text-align: center;">Error al cargar las reseñas.</p>';
+  }
+}
+
+function openReviewModal() {
+  const modal = document.getElementById('review-modal');
+  if (modal) modal.classList.add('open');
+}
+
+function closeReviewModal() {
+  const modal = document.getElementById('review-modal');
+  if (modal) modal.classList.remove('open');
+}
+
+async function submitReview() {
+  const name = document.getElementById('review-name').value.trim();
+  const text = document.getElementById('review-text').value.trim();
+  const fileInput = document.getElementById('review-image');
+  const btn = document.getElementById('btn-submit-review');
+  
+  if (!name || !text) {
+    showToast('Por favor, ingresa tu nombre y opinión.');
+    return;
+  }
+  
+  btn.disabled = true;
+  btn.textContent = 'PUBLICANDO...';
+  
+  try {
+    let imageBase64 = "";
+    if (fileInput.files && fileInput.files[0]) {
+      const file = fileInput.files[0];
+      if (file.size > 5 * 1024 * 1024) { // 5MB limit
+        showToast('La imagen es demasiado pesada (Máximo 5MB).');
+        btn.disabled = false;
+        btn.textContent = 'PUBLICAR RESEÑA';
+        return;
+      }
+      imageBase64 = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+      });
+    }
+    
+    const res = await fetch('/api/submit-review', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, stars: currentReviewStars, text, imageBase64 })
+    });
+    
+    if (!res.ok) throw new Error('Error en el servidor');
+    
+    showToast('¡Reseña publicada con éxito!');
+    closeReviewModal();
+    
+    // Clear form
+    document.getElementById('review-name').value = '';
+    document.getElementById('review-text').value = '';
+    fileInput.value = '';
+    currentReviewStars = 5;
+    
+    // Reload reviews
+    loadReviews();
+    
+  } catch(e) {
+    console.error(e);
+    showToast('Hubo un error al publicar la reseña.');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'PUBLICAR RESEÑA';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initReviews();
+});
