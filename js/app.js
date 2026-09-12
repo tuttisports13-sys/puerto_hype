@@ -35226,9 +35226,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_09380e3c-d75f-46b3-b517-521dddb010a8_4134318_4287588-8bad3c9a807d932c2a17760620707974-1024-1024.webp",
+    "image": "images/stock/brasil_visita.png",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_09380e3c-d75f-46b3-b517-521dddb010a8_4134318_4287588-8bad3c9a807d932c2a17760620707974-1024-1024.webp"
+      "images/stock/brasil_visita.png"
     ],
     "sizes": [
       "S",
