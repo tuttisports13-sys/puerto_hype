@@ -800,7 +800,7 @@ const SPORTS_PRODUCTS = [
     "name": "Bayern Munchen 2025/26 - US Pack Shirt - Aficionado - Hombre",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__106c0ffd.webp",
@@ -3049,7 +3049,7 @@ const SPORTS_PRODUCTS = [
     "name": "Bayern Munchen 2025/26 – Edición Diamante - Jugador",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 650,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e471623f-scaled.webp",
@@ -131386,7 +131386,7 @@ function openQuickView(productId) {
   const sizeContainer = document.getElementById('qv-sizes');
   if (sizeContainer && product.sizes && product.sizes.length > 0) {
     sizeContainer.innerHTML = product.sizes.map((s, i) => `
-      <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1px solid var(--border-color); background: var(--bg-body); color: white; border-radius: 4px; cursor: pointer; font-size: 0.85rem;">
+      <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1px solid ${i === 0 ? 'var(--neon-lime)' : 'var(--border-color)'}; background: ${i === 0 ? 'var(--neon-lime)' : 'transparent'}; color: ${i === 0 ? '#000' : 'white'}; font-weight: ${i === 0 ? 'bold' : 'normal'}; border-radius: 4px; cursor: pointer; font-size: 0.85rem;">
         ${s}
       </button>
     `).join('');
@@ -131447,13 +131447,19 @@ function setQVImage(index) {
 function selectQvSize(btn) {
   document.querySelectorAll('.qv-size-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
+  
+  // Make active button a solid green box
+  btn.style.backgroundColor = 'var(--neon-lime)';
   btn.style.borderColor = 'var(--neon-lime)';
-  btn.style.color = 'var(--neon-lime)';
+  btn.style.color = '#000';
+  btn.style.fontWeight = 'bold';
   
   // reset others visually
   document.querySelectorAll('.qv-size-btn:not(.active)').forEach(b => {
+    b.style.backgroundColor = 'transparent';
     b.style.borderColor = 'var(--border-color)';
     b.style.color = 'white';
+    b.style.fontWeight = 'normal';
   });
 }
 
