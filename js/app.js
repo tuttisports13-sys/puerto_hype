@@ -5,6 +5,17 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
+{
+  "id": "sports-folder-ninos",
+  "name": "Niños",
+  "category": "ninos_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/ninos_cover.png",
+  "badge": "160 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "ninos"
+},
   {
     "id": "sports-folder-arabe",
     "name": "LIGA ARABE & AL NASSR",
@@ -30461,6 +30472,4397 @@ const SPORTS_PRODUCTS = [
     ],
     "customizable": true
   }
+,
+
+  {
+    "id": "ninos-16591",
+    "name": "Juventus 2025/26 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aac51e65c67edddb71ddb325.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aac51e65c67edddb71ddb325.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a33d77a5de0c2db1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4d0a6d2890c73a8a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__773d2a36a9099d46-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8154",
+    "name": "Juventus 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/70d62009.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/70d62009.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/8a389096.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/909e684b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/e1ae561f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16177",
+    "name": "Estados Unidos 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7262b55b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7262b55b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8bf54eb1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__14f19a6d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ee1444d1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6439",
+    "name": "Brasil 2024/25 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__zzz-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__zzz-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__zzz2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__zzz3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__zzz1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6316",
+    "name": "Chelsea 2011/12 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchfront-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchfront-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchmanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchlogo-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchback-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16161",
+    "name": "Atlanta United 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__924c484c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__924c484c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1afee567.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f9149a28.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__43cd763b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-10538",
+    "name": "Argentina 2024/25 - Visita »MILO J» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-57-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-57-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__020cfdba-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-58-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6359",
+    "name": "España 2012/13 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__spainfront-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__spainfront-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__spainlogo-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__spainmanga-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__spainback-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3029",
+    "name": "Chivas de Guadalajara 2024/25 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7ea35fbd.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7ea35fbd.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d9d60989.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7b20e1a6.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/20e1b888.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16171",
+    "name": "Estados Unidos 2025/26 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__12733fe0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__12733fe0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__265c151e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2054315b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6aaf48f3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16353",
+    "name": "Hamburgo 2024/25 – Prematch – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b0c2634.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b0c2634.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2b1f8857.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ee518332.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b2f8dea.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-17791",
+    "name": "Real Madrid 2026/27 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3-RIOS-13.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3-RIOS-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c69d62ac.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/59516e2f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3-RIOS-14.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16887",
+    "name": "México 2025/26 - Local »Mundial» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__1-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__4-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__3-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__2-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8234",
+    "name": "Barcelona 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__549e4790-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__549e4790-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__612174ce-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__53e8d561-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3906494d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-17428",
+    "name": "México 2025/26 - Visita »Mundial» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/5a6cfa5d-fb10-4ce8-8bee-cfa3d6718cca.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/5a6cfa5d-fb10-4ce8-8bee-cfa3d6718cca.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/2c81f812.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/68597b1c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/43e726cd-ec73-4d55-91be-6a8c23883684.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9008",
+    "name": "Portugal 2025/26 – Local – Infantil – Manga Larga",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__887d12e9-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__887d12e9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__684b1c86-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c7573026-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__681fd588-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13649",
+    "name": "Chelsea 2012/13 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5049023a-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5049023a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0fe0da1d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c887eecf-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9926b49c-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8216",
+    "name": "Real Madrid 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7ecd670b-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7ecd670b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__53f90330-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__658eafac-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0ac15606-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-18452",
+    "name": "Club América 2026/27 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/658bf8e1-5c35-4fcc-81f2-930a06290ebe.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/658bf8e1-5c35-4fcc-81f2-930a06290ebe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/5ce80d7b-8646-44d0-aaa4-fc607f5c5fd7.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-17434",
+    "name": "México 2025/26 - Alternativa »Mundial» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/a7490a74-667c-4f3b-bf6f-1314982f31f4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/a7490a74-667c-4f3b-bf6f-1314982f31f4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/d6466e44.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/608c6637.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/8351ed62-0b19-428a-90bd-b8e074b7458b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13466",
+    "name": "Napoli 2025/26 - Local- Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__62c14a21.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__62c14a21.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c12bdeda-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f5e87516.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9c791f3d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9108",
+    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2edb1fb5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2edb1fb5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__dbd5ed9f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__22f48831-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__64bed0c8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16759",
+    "name": "Chivas de Guadalajara 2025/26 – Alternativa – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T204832.773.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T204832.773.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T205653.117.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14061",
+    "name": "España 2025/26 - Local «Mundial» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d7921dfd-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d7921dfd-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6aa2708e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__990c2cca-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bd485732-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14836",
+    "name": "Francia 1998/99 - Visita - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__076daa4e-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__076daa4e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e6ad5676-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e4086a1b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ab7ced88-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8795",
+    "name": "Alemania 2025/26 – 125th Aniversario – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__177d3cdc-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__177d3cdc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f12447eb-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6286",
+    "name": "Argentina 1994/95 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__argentinafrontal-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__argentinafrontal-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__argentinamanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__argentinalogo-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__argentinatrasera-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15284",
+    "name": "Inglaterra 1998/99 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f4dda78d-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f4dda78d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__21f558f2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__986059b9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ef83cea1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13553",
+    "name": "España 2010/11 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a4b435fe-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a4b435fe-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3963d2e8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__33c9b52b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4844e826-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6516",
+    "name": "Chelsea 2008/09 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mjnh-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mjnh-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__oli-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ew-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__rfed-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-18705",
+    "name": "Real Madrid 2026/27 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/46ce5939.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/46ce5939.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/b120e754.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3a3f2563.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-18628",
+    "name": "Club América 2026/27 – Visita »Negra» – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f27a6f8b-f512-4c4e-aea8-fbfaa9edd2fd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f27a6f8b-f512-4c4e-aea8-fbfaa9edd2fd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3688390a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/006962f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/22f4deeb-0a1c-4de9-8c94-424cdf295852.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-19383",
+    "name": "Chivas de Guadalajara 2026/27 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/697711b1-d62b-4f06-9c81-30cfe62af32b-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/697711b1-d62b-4f06-9c81-30cfe62af32b-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b7c7ae63-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4f72a072-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/44c22194-b9c0-4943-b137-125bc1a800d9-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14941",
+    "name": "Real Betis 2025/26 - Ed. Graffiti - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__658e6afd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__658e6afd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2d8db653.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__5aaed95a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f905f888.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3966",
+    "name": "AC Milán 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__67283578-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__67283578-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b5726252-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6ff8d8ea-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87101870-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14988",
+    "name": "Real Betis 2023/24 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__88ecc267-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__88ecc267-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1196b380-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__9ad98a78-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__811a9b90-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6486",
+    "name": "Real Madrid 2013/14 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__iujnhb-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__iujnhb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ijuhy-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__poiu-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gf-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-4985",
+    "name": "Manchester United 2007/08 – Local – Infantil – Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5b4ad273-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__25415a3a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c57ec925-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3934",
+    "name": "Argentina 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a328aa75-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a328aa75-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__41f825ca-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2104bbe3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b60f710d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-19378",
+    "name": "Cruz Azul 2026/27 – Local »Azul» – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7c27bbe2-8e59-484c-8cdc-b16f808eb76b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7c27bbe2-8e59-484c-8cdc-b16f808eb76b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/a4b0fe22-70e6-4f13-8bde-e182763dccdf.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15453",
+    "name": "Barcelona 2025/26 - Portero «Morado»- Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__429abefd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__429abefd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__80a6883a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fdce734d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c0b3c14a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-11218",
+    "name": "Barcelona 2025/26 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__af57e4f6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__af57e4f6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__484cfe0c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__532ae774-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__25e361e8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-11368",
+    "name": "Barcelona 2025/26 - Portero - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/Screenshot-2025-09-06-004117.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/Screenshot-2025-09-06-004117.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/d7b81ec8df4aa2d8b42bf91e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/6f277002c425730094446a7b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/ef3db72db75ee8df3aae6115.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2689",
+    "name": "Barcelona 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec3a41d1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec3a41d1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/69f16132-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4aa6d5c1-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bce0d405-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2873",
+    "name": "Barcelona 2024/25 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/fa03ae44.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/fa03ae44.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/dce95399.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/05bd0bdd.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/38d3605e.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9171",
+    "name": "Barcelona 2025/26 - Ed. Especial (Rosa fuerte) - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4aca5c8c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4aca5c8c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__318afb6d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d0899681-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__89d77e7c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2867",
+    "name": "Barcelona 2024/25 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b5a6ac15-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b5a6ac15-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c7b80eea-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/026dabb4-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4653780c-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15459",
+    "name": "Barcelona 2025/26 - Portero - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__74f37776.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__74f37776.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__84aa6079.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__55d17e2b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3937c47a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15894",
+    "name": "Real Madrid 2025/26 - PreMatch »Marvel» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3fd5561a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3fd5561a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__80ff148d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ed40ab04.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e42d86f1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9541",
+    "name": "Barcelona 2025/26 - Polo »Modernista» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a681a816-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a681a816-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__307b7aaf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__df826e7e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ce9a0129-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14168",
+    "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-13.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-13.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13937",
+    "name": "Italia 2025/26 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4f4f0f48-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4f4f0f48-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6774ca48-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13362",
+    "name": "Inglaterra 2025/26 - Local «Mundial» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__333c104c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__333c104c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0c596783.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d5891150.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b80d9866.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14623",
+    "name": "River Plate 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__21e5710e-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__21e5710e-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bc50190c-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f319e7ea-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__d96b330f-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15514",
+    "name": "Real Madrid 2025/26 - Portero »Naranja» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1eb1d04e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1eb1d04e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f95d31d8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c35cbbfc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b047dc5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13203",
+    "name": "Alemania 2025/26 – Local «Mundial» – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d23be8a2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d23be8a2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__04abc984.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__70aea5c2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e7afe1f7.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13898",
+    "name": "Holanda 1988/89 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__89e534bf-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__89e534bf-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2efddaf7-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__29f8002b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8d041d4c-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8755",
+    "name": "Arsenal 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ed71e2d5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ed71e2d5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__589a2dba-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__dfd3ec9a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__59d936a8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13197",
+    "name": "Alemania 2025/26 – Visita «Mundial» – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b890ff67.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b890ff67.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b1e89191.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__371d14fa.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__98c9182f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13453",
+    "name": "Arsenal 2025/26 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2fa2ecfe.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2fa2ecfe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bafc0fd0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__60342c8e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2c070eb.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2968",
+    "name": "Francia 2024/25 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a0e4bb88-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a0e4bb88-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6dd8a1a4.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/df4da41f.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bd2fa87b-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14781",
+    "name": "AS Roma 2001/02 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__567d3b6e-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__567d3b6e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__eabb9450-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a5b9b4cb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2ce0ced3-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3074",
+    "name": "Bayern Munchen 2023/24 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/01816f89-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/01816f89-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3a401c83-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__e07402f8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__37932b6c-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-7033",
+    "name": "Bayern Munchen 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d8f14450-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d8f14450-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__51aca408-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__fe32f9e4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__b85f0f97-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-10321",
+    "name": "Inglaterra 2024/25 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b9f44955-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b9f44955-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f321e3aa-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__628f9dfb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__05572d54-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6480",
+    "name": "Italia 2024/25 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__unjbhgv-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__unjbhgv-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__KJYH-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__IUNBG-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__nyrht-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8886",
+    "name": "Spurs 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ee79ce4e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ee79ce4e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__540123d4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6c60e1c6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__efa104fb-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6462",
+    "name": "Juventus 2024/25 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__sdcds-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__sdcds-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__frsasc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__yhgs-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dedwcs-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9586",
+    "name": "Barcelona 2024/25 - (Travis Scott Skeleton) - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__50484a4c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__50484a4c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ac2bf0c1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__cd3d37b5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c45484d0-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-10313",
+    "name": "Inglaterra 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__49b78978-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__49b78978-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e4069d06-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1bc1d0f2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e899a437-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3940",
+    "name": "Chelsea 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cba92a6b-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cba92a6b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__27d96ad5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bafde7cb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6f23b3e8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3946",
+    "name": "AC Milán 2006/07 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b85369e7-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b85369e7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a0aadd19-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e5e89a8f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d5ecd6ab-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6504",
+    "name": "Manchester United 2009/10 – Local – Infantil – Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gfs-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gfs-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__lokiuj-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tht-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dnhg-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14793",
+    "name": "AS Roma 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__71d2cab3-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__71d2cab3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c80d2a6c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bea2dfe4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__185a4db9-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13741",
+    "name": "Manchester City 2024/25 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__dbf64980.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__dbf64980.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f960797c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10f32707.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e00c1d15.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6474",
+    "name": "Real Madrid 2015/16 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munjyb-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munjyb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__jnyhbtgvrf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__fecd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__rfvcd-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6510",
+    "name": "Real Madrid 2014/15 - Alternativa - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__vgfd-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__vgfd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gtr-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__btg-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__eddf-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5694",
+    "name": "Real Madrid 2024/25 - Portero - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__39722e33-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__39722e33-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e47b06d2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a2db631-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__eb6c0ea2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9365",
+    "name": "Real Madrid 2006/07 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ccedb17-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ccedb17-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ae9a6e3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__86308788-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__bd8b7ed1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6498",
+    "name": "Real Madrid 2017/18 - Visita - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mnjh-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mnjh-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tgbvrf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__bhtg-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__njh-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15066",
+    "name": "Portugal 2025/26 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c875b36c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c875b36c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2e53ea9e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__cfb2f061.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__d2550b55.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13191",
+    "name": "Manchester City 2025/26 – Cuarta Equipación – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6eac9c9d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6eac9c9d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ff09b91f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a2b73d09.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3c74290c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6492",
+    "name": "Real Madrid 2014/15 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munytb-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munytb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__vgbh-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__rv-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__bvgf-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5917",
+    "name": "Al-Nassr 2024/25 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__60e285b2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__60e285b2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__884e6c25-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fc3d379-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9cb67722-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5920",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__884e6c25-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fc3d379-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__60e285b2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2177",
+    "name": "Real Madrid 2023/24 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2023/11/ce5a0619-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/ce5a0619-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/AnyConv.com__d0f3fdd0-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/AnyConv.com__83ddb06d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/AnyConv.com__5040566a-min-1-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9115",
+    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__36c45faf-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__36c45faf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__170a24c5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__952297ad-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b1fd5f4a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13183",
+    "name": "Portugal 2025/26 – Visita «Mundial» – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__38fea70f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__38fea70f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c2d151c0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9a940649.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f13bbc97.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6468",
+    "name": "Real Madrid 2014/15 - Visita - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tbtf-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tbtf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tvtr-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dfs-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__htrbv-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5083",
+    "name": "Brasil 2024/25 – Cristo Redentor – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a0fe3b86-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a0fe3b86-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f7484be8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3920ac3c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b24b5223-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15471",
+    "name": "Portugal 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/2bb96597.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/2bb96597.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/e23b7b89.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/7d1d151a.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/7cb20f83.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13548",
+    "name": "España 2025/26 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b34fdf04-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b34fdf04-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__44f22c11-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8172",
+    "name": "Manchester City 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62c76451-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62c76451-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a59fabd5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ff447ef9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__441fa353-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13343",
+    "name": "Arsenal 2005/06 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5040256e-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5040256e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a6c6f7c6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ba68056e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a7aaa8a8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5701",
+    "name": "Brasil 2004/05 – Local – Infantil – Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5952c6e3-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5952c6e3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__abca930d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7c2c93b0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__46d5c3aa-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9359",
+    "name": "Brasil 2004/05 – Visita – Infantil – Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4892bf05-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4892bf05-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__28a61d01-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__e3fd6c31-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d0e22136-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8259",
+    "name": "Chelsea 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__476a359f-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__476a359f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__07831827-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7ccad6f5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a993c001-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-10519",
+    "name": "Argentina 2024/25 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e2ce0a6b-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e2ce0a6b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__020cfdba-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f4c8d15f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a6231ec6-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14441",
+    "name": "Boca Juniors 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f6ce5f7c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f6ce5f7c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9384460a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__72686192.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ab3d65ac.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15082",
+    "name": "Portugal 2025/26 – Entrenamiento – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ae850c50-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ae850c50-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__17bf98e2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__9a94bb46-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__835dbfed-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15108",
+    "name": "Portugal 2025/26 – Visita – Infantil – Manga Larga",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__dd682d14.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__dd682d14.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__5bad53f8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__140a2ea0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a69870ca.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16585",
+    "name": "Borussia Mönchengladbach 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__695c46e3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__695c46e3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5fffc3dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__84c9ac35.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f6b55314.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13123",
+    "name": "Argentina 1986/87 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7616a2ad-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7616a2ad-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__04eb83e7-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0540ba78-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c385670d-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-4965",
+    "name": "Francia 1998/99 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__70055478-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__70055478-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__07b53f06-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__23c72083-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c8915107-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5052",
+    "name": "Barcelona (Messi/10) 2010/11 – Local – Infantil – Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-18-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-18-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a9e088c5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b32e3527-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__cff8c8e9-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-11212",
+    "name": "Manchester City 2025/26 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9ad27fd6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9ad27fd6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9e21007d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__c7f3f95b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__aafd6bc3-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8228",
+    "name": "México 2025/26 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__56d7c1f0-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__56d7c1f0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b406f08a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e3108b0e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6dd876af-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13216",
+    "name": "Colombia 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-2.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-2.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/3-2.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/4-2.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/2-2.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6353",
+    "name": "Colombia 2024/25 – »100 Aniversario» – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__colofron111-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__colofron111-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__colomaga-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__colologos-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__colofront-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16317",
+    "name": "Inter de Milán 2009/10 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8d7bdce7-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8d7bdce7-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4e7e962a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__de7d190d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__810eae36-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6541",
+    "name": "México 1998/99 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__thf-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__thf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ihj-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__5r-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tdgf-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-7173",
+    "name": "Club León 2024/25 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__02ec0726-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__02ec0726-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__1e06b453-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14677",
+    "name": "Inter de Miami 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e639d3a4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e639d3a4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__33b2dd18.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__b1167528.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__dd1f8f19.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-7169",
+    "name": "Club León 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__d2b940b2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__d2b940b2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__d5acc923-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5688",
+    "name": "Monterrey 2024/25 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c4f4da24-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c4f4da24-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0de9522e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a12721d6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__600775c0-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14115",
+    "name": "Italia 2024/25 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5707",
+    "name": "Barcelona 2014/15 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__00966b22-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__00966b22-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__71c7605e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fef5fec3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__95ab5bcf-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-10727",
+    "name": "Cruz Azul 2025/26 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d7c2e9c2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d7c2e9c2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ad443bac-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8023e2db-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3fcdc441-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9177",
+    "name": "Club Monterrey 2025/26 – Mundial de Clubes – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9216c19f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9216c19f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6f23cbc9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__de119c39-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c487178a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9464",
+    "name": "Atlético de Madrid 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6e313178-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6e313178-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c5323ef2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__67fbd72f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__acdbfb99-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-15501",
+    "name": "Atlético de Madrid 2025/26 - Portero - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1fc6d9f6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1fc6d9f6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f9a02069.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__03e02993.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b911645e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2755",
+    "name": "Al-Nassr 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a7475e7b.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a7475e7b.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3dea40f6.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/584715a8.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/nuevo.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2761",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3dea40f6.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/584715a8.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a7475e7b-1.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5003",
+    "name": "Al-Nassr 2024/25 – Alternativa – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7f07f822-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7f07f822-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5c6a8e35-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e8c16b94-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a1ff6b52-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8222",
+    "name": "Real Madrid 2024/25 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7cc8cb80-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7cc8cb80-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__717d3e92-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__41dbc8d9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2ce253fc-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2796",
+    "name": "Portugal 2024/25 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c8b20d04.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c8b20d04.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ab3f1371.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4c05056b.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/fcbd689a.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2727",
+    "name": "Real Madrid 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec0ff2ed-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ec0ff2ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/5571f5fd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/297366df-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/eba82f43-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9452",
+    "name": "Real Madrid 2025/26 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0a666a3f-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0a666a3f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__3c64511e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0337f058-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5d60e9c9-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-10737",
+    "name": "Cruz Azul 2025/26 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d31ebe22-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d31ebe22-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__24641704-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f055ad91-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__444d355c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5089",
+    "name": "Brasil 2024/25 – Cristo Redentor – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__05aec110-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__05aec110-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4510118e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__eb884724-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2d5a7807-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3043",
+    "name": "Real Madrid 2024/25 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1f661500.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1f661500.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/545d3197.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c144c617.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e37c5e96.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-19590",
+    "name": "Olympiacos FC (Hormiga/34) 2026/27 – Local – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-32.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-32.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/db7b3546-71f7-44e0-8ffa-5bc2809ccb61.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5046",
+    "name": "Santos de Brasil (NeymarJR/11) 2011/12 – Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-16-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-16-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__582a8afc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9d746e4e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__72496e76-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5049",
+    "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Infantil – Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-17-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-17-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5b4ad273-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__25415a3a-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-4973",
+    "name": "Santos de Brasil 2011/12 – Local – Infantil – Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__582a8afc-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__582a8afc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9d746e4e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__72496e76-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__96cc3432-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9269",
+    "name": "Real Madrid 2025/26 - Portero - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9a1ddb2f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9a1ddb2f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2ed83f59-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__44eaa1fe-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__558a534f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-3682",
+    "name": "Real Madrid 2017/18 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60a68bd6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60a68bd6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c5e12bd4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ef6bf4f8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d3e70dc4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-19387",
+    "name": "Chivas de Guadalajara 2026/27 – Visita »Blanco» – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/a92e7a33-15f4-4016-8ee7-95715d225da3-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/a92e7a33-15f4-4016-8ee7-95715d225da3-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/542d7cb6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/73ddaecb-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7f6ec6ac-86b6-4fcf-b38f-eb484182df85-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9353",
+    "name": "Barcelona 2015/16 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f19cc5b6-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f19cc5b6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8e0dcf97-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__36e4f94e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__10c563c1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9574",
+    "name": "Bayern Munchen 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6f1e4239-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6f1e4239-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ba25668c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a94e9c6b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__596ec259-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16421",
+    "name": "Fulham 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1911e747.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1911e747.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f62fbc60.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__058e7e42.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5e3a88f0.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-4979",
+    "name": "Barcelona 2010/11 - Local - Infantil - Retro",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a9e088c5-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a9e088c5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b32e3527-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__cff8c8e9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b9ac753b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-16080",
+    "name": "Newcastle United 2025/26 – Alternativa – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__93479ce8-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__93479ce8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aef4fa4e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0a0c76ac-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4bbcb717-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9134",
+    "name": "Inter de Miami 2025/26 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__aed3510f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__aed3510f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ad118ff9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9e6813a7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__88ac978b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-10019",
+    "name": "Al-Nassr 2025/26 - Alternativa - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__156efbdc-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__156efbdc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7bdadc47-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__eac4b47b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8d56d47e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5043",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-19-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-19-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0d5f5924-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e9500a6a-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7cb31944-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-14954",
+    "name": "Real Betis 2025/26 - Ed. Negra - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e6631d81.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e6631d81.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3ab40c7b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__71b23e86.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__d940493b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2748",
+    "name": "Inter de Miami 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raaqin1b9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raaqin1b9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raatbrx4b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Screenshot-2024-11-01-224327-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raayy1pa1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-9317",
+    "name": "Real Madrid 2025/26 (Ronaldo/7) - Especial - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a5b848e3-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a5b848e3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__14002398-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__60bb6437-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d0317e76-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-17181",
+    "name": "Pumas 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-36-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-36-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-37.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-17569",
+    "name": "Corea del Sur 2025/26 - Local »Mundial» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/b8fe0827.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/b8fe0827.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/773d61e8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/414596d8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/0c7a6edc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6456",
+    "name": "Atlético de Madrid 2024/25 – Visita – Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__altef-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__altef-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__atlem-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__atlelo-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__atletb-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2765",
+    "name": "Inter de Miami (Messi/10) 2024/25 – Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-1.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cn-11134207-7r98o-ltm27raaqin1b9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Screenshot-2024-11-01-224327-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__ab82e314-1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-5028",
+    "name": "Inter de Miami 2024/25 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0d5f5924-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0d5f5924-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e9500a6a-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7cb31944-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c81d0283-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-13368",
+    "name": "Al-Nassr 2025/26 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__aad9f3f3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__aad9f3f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ff7ec203.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__36192a25.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__169c9abb.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-6798",
+    "name": "Inter de Miami 2025/26 - Visita - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__c13183b0-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__c13183b0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__004c3670-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__094d67ae-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__10b8d8bd-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-8773",
+    "name": "Real Betis 2025/26 - »Naruto» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__11f4fb31-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__11f4fb31-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0fc6e078-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__05af45cc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f24e133c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-17574",
+    "name": "Corea del Sur 2025/26 - Visita »Mundial» - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/39227f6a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/39227f6a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/aba41c85.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/620c1a67.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/3857e43c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-17447",
+    "name": "México 2025/26 – Portero »Mundial»– Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/5a1a2bf7-a969-4c09-94f1-27c52166e8bd-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/5a1a2bf7-a969-4c09-94f1-27c52166e8bd-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/06/70627a70-b912-4c09-b54c-0f7a5c12a54a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ninos-2972",
+    "name": "Francia 2024/25 - Local - Infantil",
+    "category": "ninos",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/23d1554c-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/23d1554c-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1bf9d305-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/fa6a3ee9-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f0a8716d-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  }
+
 ];
 
 const STOCK_PRODUCTS = [
