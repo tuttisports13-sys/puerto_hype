@@ -169972,9 +169972,9 @@ function sendOrderViaWhatsApp() {
   const summary = calculateWholesaleSummary();
   if (AppState.cart.length === 0) return;
 
-  let message = `🔥 *PEDIDO MAYORISTA - PUERTO HYPE* 🔥\n`;
+  let message = `🔥 *NUEVO PEDIDO - PUERTO HYPE* 🔥\n`;
   message += `━━━━━━━━━━━━━━━━━━━━━\n`;
-  message += `Hola! Quiero cotizar y apartar las siguientes piezas para mi negocio:\n\n`;
+  message += `Hola! Quiero cotizar y apartar las siguientes piezas:\n\n`;
 
   AppState.cart.forEach((item, index) => {
     const itemPrice = item.id.startsWith("po-") ? "Por cotizar" : ("$" + (item.price * item.quantity) + " MXN"); const finalItemPrice = item.id.startsWith("po-") ? "Por cotizar" : ("$" + ((item.finalPrice || item.price) * item.quantity) + " MXN");
@@ -169984,18 +169984,13 @@ function sendOrderViaWhatsApp() {
 
   message += `\n━━━━━━━━━━━━━━━━━━━━━\n`;
   message += `📦 *Total de piezas:* ${summary.totalPieces} pzas\n`;
-  message += `💰 *Subtotal Mayoreo:* $${summary.subtotal.toLocaleString()} MXN\n`;
+  message += `💰 *Subtotal:* $${summary.subtotal.toLocaleString()} MXN\n`;
   if (summary.extraDiscountPercent > 0) {
     message += `🏷️ *Descuento por volumen (-${summary.extraDiscountPercent}%):* -$${summary.discountAmount.toLocaleString()} MXN\n`;
   }
   message += `💳 *TOTAL FINAL ESTIMADO:* $${summary.total.toLocaleString()} MXN\n\n`;
   
-  if (!summary.isWholesaleQualified) {
-    message += `⚠️ *Nota:* Aún no llego al mínimo de 5 piezas, favor de asesorarme sobre precios y opciones de envío.\n\n`;
-  } else {
-    message += `✅ *Estatus:* Califica para precios de mayoreo con envío prioritario.\n\n`;
-  }
-
+  
   message += `¿Tienen disponibilidad en estas tallas para pago y envío hoy mismo? Gracias!`;
 
   const url = `https://wa.me/${AppState.whatsappNumber}?text=${encodeURIComponent(message)}`;
