@@ -170159,7 +170159,7 @@ if (versionContainer) {
   // Handle Customization UI
   const qvCustomization = document.getElementById('qv-customization');
   if (qvCustomization) {
-    if (product.customizable && product.category !== 'nba') {
+    if (product.customizable && product.category !== 'nba' && product.category !== 'balones') {
       qvCustomization.style.display = 'block';
       document.getElementById('qv-check-name').checked = false;
       document.getElementById('qv-check-patch').checked = false;
@@ -170338,3 +170338,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (el) el.remove();
   }
 });
+
+function openLightbox(src) {
+  const modal = document.getElementById('lightbox-modal');
+  const img = document.getElementById('lightbox-img');
+  if (modal && img) {
+    img.src = src;
+    modal.classList.add('open');
+  }
+}
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.classList.remove('open');
+  }
+}
