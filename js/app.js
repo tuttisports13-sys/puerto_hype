@@ -36376,9 +36376,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_e6d69e9f-387a-4534-9acb-5e1059803d3a_4134318_4287588-c652715b3e5fbdf8af17760619621982-1024-1024.webp",
+    "image": "images/stock/canada_local.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_e6d69e9f-387a-4534-9acb-5e1059803d3a_4134318_4287588-c652715b3e5fbdf8af17760619621982-1024-1024.webp"
+      "images/stock/canada_local.jpg"
     ],
     "sizes": [
       "S",
