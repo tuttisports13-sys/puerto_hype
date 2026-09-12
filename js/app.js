@@ -16,6 +16,17 @@ const SPORTS_PRODUCTS = [
   "isFolder": true,
   "targetFilter": "bundesliga"
 },
+{
+  "id": "sports-folder-laliga",
+  "name": "La Liga - Temporada 25/26",
+  "category": "laliga_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/laliga_cover.png",
+  "badge": "274 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "laliga"
+},,
 
   {
     "id": "sports-001",
