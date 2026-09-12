@@ -827,7 +827,7 @@ const SPORTS_PRODUCTS = [
     "name": "Bayern Munchen 2025/26 – Visita – Aficionado – Dama",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bf11bc03-min-1.webp",
@@ -836,7 +836,7 @@ const SPORTS_PRODUCTS = [
       "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b353047e-min-1.webp",
       "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6c4f7152-min-1.webp",
       "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6e5dcea6-min-1.webp",
-      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/DAMA.jpg"
+      "images/stock/guia_tallas.png"
     ],
     "sizes": [
       "S",
@@ -1411,7 +1411,7 @@ const SPORTS_PRODUCTS = [
     "name": "Bayern Munchen 2023/24 - »Icon» - Aficionado - Hombre",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__b760dca8-1-min-scaled.webp",
