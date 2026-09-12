@@ -37518,11 +37518,15 @@ const SPORTS_PRODUCTS = [
     "hasVersionSelector": true
   },
   {
-    "id": "balones-folder",
+    "id": "sports-folder-balones",
     "name": "BALONES",
     "isFolder": true,
-    "category": "balones",
-    "image": "images/stock/balones_cover.png"
+    "category": "balones_folder",
+    "image": "images/stock/balones_cover.png",
+    "section": "preorder-sports",
+    "badge": "22 MODELOS",
+    "badgeType": "badge-hot",
+    "targetFilter": "balones"
   },
   {
     "id": "balon-338426822",
