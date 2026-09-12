@@ -5,7 +5,129 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
-  {
+{
+  "id": "sports-folder-nba",
+  "name": "NBA",
+  "category": "nba_folder",
+  "image": "images/stock/nba_cover.png",
+  "targetFilter": "nba",
+  "isFolder": true,
+  "section": "preorder-sports"
+},
+{
+  "id": "nba-98761679",
+  "name": "Camiseta Atlanta Hawks Amarilla City Edición 75Th Aniversario",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-atlanta-amarilla-1-wpp1707886147666.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-atlanta-amarilla-1-wpp1707886147666.jpg"
+  ]
+},
+{
+  "id": "nba-22997419",
+  "name": "Camiseta Chicago Bulls Roja Edición City",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-chicago-bulls-roja.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-chicago-bulls-roja.jpg"
+  ]
+},
+{
+  "id": "nba-26405160",
+  "name": "Camiseta Detroit Pistons Azul 75Th Aniversario Nba",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-pistons-azul.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-pistons-azul.jpg"
+  ]
+},
+{
+  "id": "nba-82451304",
+  "name": "Camiseta Toronto Raptors Blanca Nba",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-blanca.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-blanca.jpg"
+  ]
+},
+{
+  "id": "nba-95452348",
+  "name": "Camiseta Toronto Raptors Morada Nba",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-morada.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-morada.jpg"
+  ]
+},
+{
+  "id": "nba-77069102",
+  "name": "Camiseta Toronto Raptors Negra Y Dorada Edición City 2022",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-negra-y-dorada-wpp1708050050516.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-negra-y-dorada-wpp1708050050516.jpg"
+  ]
+},
+{
+  "id": "nba-31427374",
+  "name": "Camiseta Utah Jazz Degradado En Naranja 2019-Nba",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-jazz-degradado-naranja.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-jazz-degradado-naranja.jpg"
+  ]
+},
+{
+  "id": "nba-16365766",
+  "name": "Camiseta Miami Heat Negra Nba",
+  "category": "nba",
+  "isProductInsideFolder": true,
+  "section": "preorder-sports",
+  "price": 850,
+  "badge": "15-20 DÍAS",
+  "badgeType": "badge-preorder",
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-miami-heat-wpp1708490050333.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-miami-heat-wpp1708490050333.jpg"
+  ]
+},
+
+{
     "id": "sports-folder-selecciones",
     "name": "SELECCIONES",
     "category": "selecciones_folder",
