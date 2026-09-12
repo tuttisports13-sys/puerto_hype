@@ -105,6 +105,17 @@ const SPORTS_PRODUCTS = [
     "targetFilter": "seriea"
   },
   {
+    "id": "sports-folder-balones",
+    "name": "BALONES",
+    "isFolder": true,
+    "category": "balones_folder",
+    "image": "images/stock/balones_cover.png",
+    "section": "preorder-sports",
+    "badge": "22 MODELOS",
+    "badgeType": "badge-hot",
+    "targetFilter": "balones"
+  },
+  {
     "id": "sports-001",
     "name": "Liga MX Catálogo 1",
     "category": "deportes",
@@ -37516,17 +37527,6 @@ const SPORTS_PRODUCTS = [
     ],
     "customizable": true,
     "hasVersionSelector": true
-  },
-  {
-    "id": "sports-folder-balones",
-    "name": "BALONES",
-    "isFolder": true,
-    "category": "balones_folder",
-    "image": "images/stock/balones_cover.png",
-    "section": "preorder-sports",
-    "badge": "22 MODELOS",
-    "badgeType": "badge-hot",
-    "targetFilter": "balones"
   },
   {
     "id": "balon-338426822",
