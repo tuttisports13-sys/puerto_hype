@@ -5,6 +5,17 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
+{
+  "id": "sports-folder-ligamx",
+  "name": "Liga MX - Temporada 24/25",
+  "category": "liga_mx_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/ligamx_folder_cover.png",
+  "badge": "269 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "liga_mx"
+},
   {
     "id": "sports-folder-bundesliga",
     "name": "Bundesliga - Temporada 25/26",
@@ -20819,6 +20830,7280 @@ const SPORTS_PRODUCTS = [
       "L",
       "XL",
       "2XL"
+    ],
+    "customizable": true
+  }
+
+,
+
+  {
+    "id": "ligamx-19262",
+    "name": "Atlante 2026/27 – Local »Azul» – Jugador – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c09d41ec-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c09d41ec-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/8ca88f50.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c6fc47e0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/atlante-2026-27-local-azul-jugador-hombre-espalda.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7112",
+    "name": "Club León 2024/25 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__5550be4c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__5550be4c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__77aa5c99-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__93d565f4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__cc4c4462-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18208",
+    "name": "Pumas 2026/27 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/cb8d747e-7f91-4ba6-8dca-5c6ba8ccd834.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/cb8d747e-7f91-4ba6-8dca-5c6ba8ccd834.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/39b1c2f4-723a-4238-a1ac-548f845318e8.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18035",
+    "name": "Club América 2026/27 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/48ebabe5-da08-4e1f-813a-9748a21d562b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/48ebabe5-da08-4e1f-813a-9748a21d562b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/6007b59b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/ca788d25.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/0da2809d-d63c-42dc-bd2f-d0ae309eff5b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14271",
+    "name": "Cruz Azul 2008/09 - Local - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-2-1.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-2-1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/2-2-1.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18597",
+    "name": "Toluca 2026/27 - Local »Rojo» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-10.13.02-PM.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-10.13.02-PM.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-10.34.02-PM.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11478",
+    "name": "Tigres 2025/26 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__3f30c696.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__3f30c696.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1457e7be.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__f6da6705.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__7bb8012f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19497",
+    "name": "Xolos de Tijuana (G.Mora/10) 2026/27 – Local – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-25-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-25-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c74a00eb-f8ed-4cac-b7ec-ec375b96367a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18356",
+    "name": "Cruz Azul 2026/27 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/9969a42d-8541-44a6-b95e-43ae9ae0d504.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/9969a42d-8541-44a6-b95e-43ae9ae0d504.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3-RIOS-17.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3-RIOS-18.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/08f1034a-917d-4072-9933-35121ff73c49.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12701",
+    "name": "Club Monterrey 2025/26 - Ed. Zigzag - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c2051a63.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c2051a63.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__110e7210.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__34b34051.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__20dc04e7.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9869",
+    "name": "Pachuca 2025/26 - Local »Mundial de Clubes» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7b6c8b62-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7b6c8b62-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4af76d98-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4ed3e51f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c4c5f460-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19470",
+    "name": "Club América 2026/27 - »Stadium Azul Marino» - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7b5d2bc6-aafa-4721-904a-5e2da9b4ef3d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7b5d2bc6-aafa-4721-904a-5e2da9b4ef3d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3a26e206-3f67-4cce-83d1-7746bb8efbf4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19270",
+    "name": "Atlante 2026/27 – Visita »Blanca» – Jugador – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/atlante-2026-27-visitante-blanco-jugador-hombre-frente.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/atlante-2026-27-visitante-blanco-jugador-hombre-frente.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/atlante-2026-27-visitante-blanco-jugador-hombre-espalda.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18056",
+    "name": "Club América 2026/27 - Visita »Negro» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fe412ffc-1f2f-4928-a39b-198281f0991e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fe412ffc-1f2f-4928-a39b-198281f0991e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3688390a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/006962f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/49aef70f-ce65-4948-a684-26e79dda7885.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18462",
+    "name": "Cruz Azul 2026/27 - Visita »Blanco» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e3c86394-d440-4aff-a33c-7e3888b59658.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e3c86394-d440-4aff-a33c-7e3888b59658.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/4413c36c-6c42-4908-b14d-0dbe8f0b2011.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18606",
+    "name": "Toluca 2026/27 - Visita »Blanco» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-10.33.25-PM-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-10.33.25-PM-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-10.33.25-PM.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10139",
+    "name": "Club Monterrey 2025/26 – »80 Aniversario» – Hombre - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f72eb162-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f72eb162-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5ef2970f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9529",
+    "name": "Cruz Azul 2025/26 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234352.030-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234352.030-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234456.417-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234438.563-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234417.639-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19297",
+    "name": "Chivas de Guadalajara 2026/27 – Local »Rojiblanca» – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/chivas-de-guadalajara-2026-27-local-rojo-aficionado-hombre-frente.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/chivas-de-guadalajara-2026-27-local-rojo-aficionado-hombre-frente.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b7c7ae63-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4f72a072-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/chivas-de-guadalajara-2026-27-local-rojo-aficionado-hombre-espalda.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/tallas-1.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8306",
+    "name": "Club Monterrey 2025/26 - Mundial de Clubes - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/36292064-600x600-1.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/36292064-600x600-1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/6339c01a-600x600-1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/2d6bc396-600x600-1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/b006c307-600x600-1.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-17181",
+    "name": "Pumas 2025/26 - Local - Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-36-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-36-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-37.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9523",
+    "name": "Tigres 2025/26 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234128.275-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234128.275-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234236.760-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234306.064-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-19T234203.640-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10662",
+    "name": "Pumas 2025/26 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__80e54f23-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__80e54f23-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__294be162-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__92d541e6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c02717f9-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4932",
+    "name": "Cruz Azul 2024/25 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb238687-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb238687-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__365e399a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2f8142dd-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9405",
+    "name": "Tigres 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7458f8a0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7458f8a0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9a635fe0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ff317cf8.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3997",
+    "name": "Cruz Azul 2024/25 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7c7070f2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7c7070f2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e01cbd6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0659b5e6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/7854b453-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11374",
+    "name": "Club León 2025/26 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Screenshot-2025-09-06-004343.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Screenshot-2025-09-06-004343.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Screenshot-2025-09-06-004542.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Screenshot-2025-09-06-004521.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Screenshot-2025-09-06-004452.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14324",
+    "name": "Club Monterrey 1999/00 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-1-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-1-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-1-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-1-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8648",
+    "name": "Toluca 2024/25 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-26T111308.316-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-26T111308.316-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-26T111341.254-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2612",
+    "name": "Tigres 2024/25 - Rompevientos Doble Vista",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/55ef37e4-min.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/55ef37e4-min.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d811cde4-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c9450edf-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "ligamx-9438",
+    "name": "Club Monterrey 2025/26 - Visita »Mundial de Clubes» »Kidsuper» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235516.108-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235516.108-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235542.220-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9442",
+    "name": "Club Monterrey 2025/26 - Alternativa »Mundial de Clubes» »Kidsuper» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__224cb9ca-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__224cb9ca-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0beeddc3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a916f069-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6715143e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2464",
+    "name": "Club Monterrey 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__3d1e5aab-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__3d1e5aab-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/39f48e57-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ada49d80-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/a6993b99-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4143",
+    "name": "Tigres 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b98074c9-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b98074c9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8292b059-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8b7996fe-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bfac1877-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2458",
+    "name": "Cruz Azul 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__99b71fc2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__99b71fc2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__f8c55364-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__e69ab6f1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__64639152-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9857",
+    "name": "Pachuca 2025/26 - Visita »Mundial de Clubes» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0e57854a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0e57854a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__dd569387-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0c6b9331-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b62cefd2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9384",
+    "name": "Cruz Azul 2025/26 - Homenaje »Miguel Marín» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T215123.772-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T215123.772-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T215152.887-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8642",
+    "name": "Toluca 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Screenshot-2025-09-06-003832.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Screenshot-2025-09-06-003832.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Screenshot-2025-09-06-003939.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Screenshot-2025-09-06-003855.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Screenshot-2025-09-06-003910.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5536",
+    "name": "Club Monterrey 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__564f27b1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__564f27b1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__96571b5e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a04829e4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a8c8cca9-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18280",
+    "name": "Chivas de Guadalajara «Ed. 120 Aniversario» – Aficionado - Retro - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a83fabd6-ce9b-487f-b5d4-3f3e65e7f013.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a83fabd6-ce9b-487f-b5d4-3f3e65e7f013.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-74.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/cbe60abb-6355-42c4-b4c8-1ef2d73aa343.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18321",
+    "name": "Chivas de Guadalajara 2019/20 - Visita – Aficionado - Retro - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-72-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-72-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-74-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-75.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-73-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11524",
+    "name": "Club León 2025/26 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-10-204451.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-10-204451.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-10-204532.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-10-204502.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-10-204514.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-6111",
+    "name": "Chivas de Guadalajara 2002/03 - Alternativa – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__7987f228-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__7987f228-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__7b1dc920-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__14de359b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__b8f14952-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10656",
+    "name": "Chivas de Guadalajara 2025/26 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e33c3cc-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e33c3cc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__cddc9407-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f837432b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3cd87cb0-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18043",
+    "name": "Club América 2026/27 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fdf7fae8-8061-4d14-b96a-9303a34b68ee.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fdf7fae8-8061-4d14-b96a-9303a34b68ee.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b7c0f938-e47c-4de7-ae96-8fc76355033d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/48696c9c-dcd7-427b-b82a-0664863a1b16-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/55d16a36-3747-46b9-9d44-b5e9543d2ed5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10509",
+    "name": "Santos Laguna 2025/26 - Rompevientos Doble Vista",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5fea4d40-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5fea4d40-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a84e7e9d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__129a8b12-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "ligamx-11303",
+    "name": "Club América 2025/26 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-01-224138.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-01-224138.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-01-224219.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-01-224203.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Captura-de-pantalla-2025-09-01-224151.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9999",
+    "name": "Club Monterrey 2025/26 – Visita »Mundial de Clubes» »Kidsuper» – Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c0eef8ed-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c0eef8ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ee4e0e92-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ac59854d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bcffa86f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11033",
+    "name": "Pumas 2025/26 - Ed. Especial (Negro) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__738099d9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__738099d9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__a29960e7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__2b273a13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__1e47e5ad.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18235",
+    "name": "Club América 2026/27 - Ed. Especial »Azul Marino» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a8a70eabcea34cc1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a8a70eabcea34cc1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d2caf49eb8f1f7c3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/743dff079b364e7c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c9494f3377bb98ac.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10674",
+    "name": "Club Monterrey 2025/26 – Mundial de Clubes – Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1418d55d-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1418d55d-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__51d92ff8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9bc9a53d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5da6a311-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10149",
+    "name": "Club América 2025/26 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d8b071c9-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d8b071c9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__61a0c7f9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3d2503ef-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__05607ca0-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8432",
+    "name": "Club América 2025/26 - Ed. Especial (Amarilla) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__8dfe76a4-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__8dfe76a4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1ae97a8d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4f39a755-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__47bd5b2f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16183",
+    "name": "Chivas de Guadalajara 2017/18 – Local «Ed. 110 Aniversario» – Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b7e5fc8e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b7e5fc8e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__564e053e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2fbaa767.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__07e8a351.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10084",
+    "name": "Club Monterrey 2025/26 - Visita »Mundial de Clubes» »Kidsuper» - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T153610.390-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T153610.390-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/Diseno-sin-titulo-2025-07-09T153655.901-min.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14298",
+    "name": "Chivas de Guadalajara 2017/18 - «Ed. 110 Aniversario» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-3-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-4-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-4-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-6123",
+    "name": "Chivas de Guadalajara 2002/03 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__a8b92135-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__a8b92135-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2e71b55e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__8123b2ee-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__012ca0db-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5763",
+    "name": "Chivas de Guadalajara 2024/25 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5203b833-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5203b833-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c5462ded-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__66042b02-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9936",
+    "name": "Chivas de Guadalajara 2025/26 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9a389a16-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9a389a16-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0d20c42c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4b3cbcb2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a344fb22-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7578",
+    "name": "Santos Laguna 2007/08 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T201136.555-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T201136.555-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T201451.821-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T201239.399-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T201402.617-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5725",
+    "name": "Club América 2024/25 - Alternativa - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/cn-11134207-7ras8-m0faap0f3ioe43.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/cn-11134207-7ras8-m0faap0f3ioe43.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/cn-11134207-7ras8-m0faap0f6chz7e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7106",
+    "name": "Club León 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__08bab934-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__08bab934-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__2d68c5a2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__9d1ce8fc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__0e59165e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11591",
+    "name": "Cruz Azul 2025/26 - Portero - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-12T211309.339.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-12T211309.339.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-12T213034.665.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18050",
+    "name": "Club América 2026/27 - Visita »Negro» - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/20a4fa58-85d9-42d5-bf87-5c27900f8d3d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/20a4fa58-85d9-42d5-bf87-5c27900f8d3d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/de6c1ecc-b022-4bb7-a835-e3953248cc5c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/79c3d7ef-88d8-431d-9257-304f360a1026.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/968a77c9-7031-4135-b874-961d02d446bf.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14046",
+    "name": "Chivas de Guadalajara 1994/95 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-1-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-1-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4674",
+    "name": "Chivas de Guadalajara 1997/98 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__92d18c28-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__92d18c28-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__70af266f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8e8b2f89-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1c7c122a-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12862",
+    "name": "Chivas de Guadalajara 2025/26 - Alternativa - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__12f72f99.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__12f72f99.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cf145b2f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f05ffb99.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b4a19034.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3023",
+    "name": "Club América 2023/24 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/9538b9b7-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/9538b9b7-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c8f1ed0a-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/17121801-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4b9409ec-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7572",
+    "name": "Santos Laguna 2007/08 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T194228.113-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T194228.113-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/Diseno-sin-titulo-2025-04-13T195226.908-min.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T195139.601-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T195054.691-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5818",
+    "name": "Club América 2023/24 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__28cc80c9-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__28cc80c9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4ea105ac-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2134a3b7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6e4e34fb-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7594",
+    "name": "Club Pachuca 2001/02 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011758.407-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011758.407-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012014.002-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011940.358-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011904.168-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8404",
+    "name": "Club América 2024/25 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a72f23d2-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a72f23d2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3bc0cc26-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2280a98b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6e05f92f-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4920",
+    "name": "Cruz Azul 1996/97 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bd9d98f5-a813-4f20-8023-a8b4a924d8b8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bd9d98f5-a813-4f20-8023-a8b4a924d8b8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4249479c-4f07-4802-8ec8-7ed9eed1eacc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2a7f6797-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-14-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11564",
+    "name": "Club Monterrey 2025/26 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/66c681125ee8d0858c6085d8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/66c681125ee8d0858c6085d8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/2b7272fbc939baeaa0cfe11c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/290def81e35cee000887a251.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/689600bf342e826b1f35e61e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10061",
+    "name": "Club Monterrey 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/d3dc440aa95c83f090deb5bc.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/d3dc440aa95c83f090deb5bc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/b5e1a4efcc573b36fa3621c0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/1789022bc5994a501a0ce5a4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/7c6d7661bf266282ce64618c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4926",
+    "name": "Cruz Azul 1996/97 - Visita – Alternativa – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a6197bc3-faf9-44b0-9b25-5647618285ac-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a6197bc3-faf9-44b0-9b25-5647618285ac-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d685e08a-c454-4683-93d4-2854620faa48-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d1c61648-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6c3ea31a-ae61-4bf0-9dc8-2b7064d6cceb-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3167",
+    "name": "Club América 2022/23 - Alternativa - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/db4009ff-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/db4009ff-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c722b1b9-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6821e69f-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/08784a15-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4914",
+    "name": "Cruz Azul 1996/97 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/00fce840-f1b4-4464-8353-1b922a211e68-min.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/00fce840-f1b4-4464-8353-1b922a211e68-min.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__042cdb8d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__02a4f116-6359-44e1-a69a-48469fc4bf99-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d8c2affe-fd27-479b-8242-e3fa83772293-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-6082",
+    "name": "Chivas de Guadalajara 2024/25 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__057dcde8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__057dcde8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__9465106a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__110fbcbd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__e1189f80-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8451",
+    "name": "Club América 2023/24 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9791879c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9791879c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1a02b026-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9150c019-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d0a21872-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2382",
+    "name": "Chivas de Guadalajara 2024/25 - Visitante - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m20rbm3hd0ss06.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m20rbm3hd0ss06.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m20rbm3hftxo2b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m20rbm3hefija7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m20rbm3hd0y3e8.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4943",
+    "name": "Cruz Azul 2024/25 - Portero - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__68191e98-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__68191e98-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f5e654f1-min-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__8dd4315b-min-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ea6fa11c-min-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7552",
+    "name": "Pumas UNAM 2008/09 - Alternativa – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164348.613-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164348.613-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164517.347-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164650.992-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164448.071-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7547",
+    "name": "Pumas UNAM 2004/05 - Local – Aficionado – Retro - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164047.375-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164047.375-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162501.864-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164238.058-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164203.063-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7123",
+    "name": "Club León (James/10) 2024/25 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-47-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__Diseno-sin-titulo-47-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__77aa5c99-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__93d565f4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__5550be4c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12180",
+    "name": "Pumas 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/25-26-Pumas-UNAM-Home-Jersey-8-600x600-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/25-26-Pumas-UNAM-Home-Jersey-8-600x600-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/25-26-Pumas-UNAM-Home-Jersey-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/25-26-Pumas-UNAM-Home-Jersey-4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/25-26-Pumas-UNAM-Home-Jersey-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9833",
+    "name": "Club Monterrey 2025/26 - »80 Aniversario» - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__21961966-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__21961966-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__87ecb8e3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__36f23c9b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__77e5cb1d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-13992",
+    "name": "Toluca 2025/26 - Alternativa - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3fbac418.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3fbac418.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3eda8328.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1604fe70.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__df0b29e1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16749",
+    "name": "Chivas de Guadalajara 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T183746.942.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T183746.942.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T190831.726.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10088",
+    "name": "Club Monterrey 2025/26 - Alternativa »Mundial de Clubes» »Kidsuper» - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T160321.011.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T160321.011.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-09T160414.537.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7091",
+    "name": "Chivas de Guadalajara 2006/07 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/asdsdf.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/asdsdf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/fgdg.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/dfgdfgd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/sdfsdfs.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4681",
+    "name": "Chivas de Guadalajara 2002/03 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2baa4892-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2baa4892-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0f792d79-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4c9e92d9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__88be8a40-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7558",
+    "name": "Pumas UNAM 2008/09 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164751.188-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164751.188-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164920.713-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165036.183-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164854.118-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9183",
+    "name": "Pumas 2022/23 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__tercera-camiseta-negra-pumas-unam-2024-2025-nike-1-f7e81e9748b6f7014717344906764659-1024-1024-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__tercera-camiseta-negra-pumas-unam-2024-2025-nike-1-f7e81e9748b6f7014717344906764659-1024-1024-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__tercera-camiseta-negra-pumas-unam-2024-2025-nike-2-82b15684c889bf73bc17344906763675-1024-1024-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__tercera-camiseta-negra-pumas-unam-2024-2025-nike-3-52646cbbe6258337e117344906761490-1024-1024-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__tercera-camiseta-negra-pumas-unam-2024-2025-nike-4-624123daea856b7beb17344906764437-1024-1024-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5737",
+    "name": "Club América 2022/23 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d2ba8b98-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d2ba8b98-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__cc5b5fc9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__900b5cf1-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__da5fc692-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10814",
+    "name": "Club América 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3b4ac8bd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3b4ac8bd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4cb105d6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1e1ad95e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4625",
+    "name": "Club América 2023/24 - Visita Dia de Muertos - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__53587d72-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__53587d72-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__17197e28-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__15f1b4bd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f6597917-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5467",
+    "name": "Pumas 2024/25 - Local - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1e4aca86-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1e4aca86-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4919024e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__47244faf-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14276",
+    "name": "Pumas 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__Diseno-sin-titulo-15.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__Diseno-sin-titulo-15.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__Diseno-sin-titulo-14.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5729",
+    "name": "Club América 2024/25 - Local - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/ded8077d-ef22-4a4e-be69-364ebf7c69f1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-28-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3991",
+    "name": "Club de Cuervos 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7f823d6a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7f823d6a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ca74f813-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bfed2d62-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/6584c58f-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4937",
+    "name": "Cruz Azul 2024/25 - Portero - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a1d7a0e7-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a1d7a0e7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ddfe5089-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e1d40868-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__8c9b646a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11626",
+    "name": "Pumas 2025/26 - Portero - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T220131.502.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T220131.502.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T220012.452.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10504",
+    "name": "Chivas de Guadalajara 2025/26 - Rompevientos Doble Vista",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f705b085-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f705b085-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5e3d29b3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__69cf6d80-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "ligamx-10514",
+    "name": "Chivas de Guadalajara 2025/26 - Rompevientos Doble Vista (Estilo Local)",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0ec45129-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0ec45129-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bfad8215-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__59808852-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "ligamx-5790",
+    "name": "Cruz Azul 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c638d8a5-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c638d8a5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c5b7d16f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__010689a9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9cff3e38-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2341",
+    "name": "Chivas de Guadalajara 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__ab418686-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__ab418686-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/5d08f8a4-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/2ba7f393-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/4f1c353b-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5778",
+    "name": "Club Monterrey 2024/25 - Local - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__40368bc4-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__40368bc4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4dd35d79-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__eb1cb40b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d0de812b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9446",
+    "name": "Pumas 2024/25 - Alternativa - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235351.725-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235351.725-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235432.619-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235418.345-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T235406.021-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-17008",
+    "name": "Club América 2026/27 - Cuello Polo - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-31-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-31-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__814cd5d6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__99ba79cc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-32-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5457",
+    "name": "Pumas 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5772",
+    "name": "Chivas de Guadalajara 2024/25 - Local - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__38501a59-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__38501a59-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ca85f56f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f24d703a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__233819ac-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4631",
+    "name": "Club América 2023/24 - Local Dia de Muertos - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c6d88658-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c6d88658-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c2b8e800-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b7c2147f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e8d51a81-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7120",
+    "name": "Club León (James/10) 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/Diseno-sin-titulo-46-min-2.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/Diseno-sin-titulo-46-min-2.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__2d68c5a2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__9d1ce8fc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__08bab934-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5824",
+    "name": "Club América 2023/24 - Entrenamiento - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__dc129c6d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__dc129c6d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__74177f30-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c03b3d05-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1299d7bb-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5830",
+    "name": "Club América 2021/22 - Prematch - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2f7f91ac-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2f7f91ac-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__15fbaf96-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__26889073-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4e6e9c85-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19378",
+    "name": "Cruz Azul 2026/27 – Local »Azul» – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7c27bbe2-8e59-484c-8cdc-b16f808eb76b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7c27bbe2-8e59-484c-8cdc-b16f808eb76b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/a4b0fe22-70e6-4f13-8bde-e182763dccdf.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18193",
+    "name": "Pumas 2026/27 - Local »Polo» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/5ac8a0e1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/5ac8a0e1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/8abc4056.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/9f445813.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c1322e04.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14284",
+    "name": "Tigres 2025/26 - Local - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-1-1.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-1-1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/2-1-1.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19287",
+    "name": "Chivas de Guadalajara 2026/27 – Visitante »Blanca» – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/chivas-de-guadalajara-2026-27-visitante-blanco-aficionado-hombre-frente.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/chivas-de-guadalajara-2026-27-visitante-blanco-aficionado-hombre-frente.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/542d7cb6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/73ddaecb-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/chivas-de-guadalajara-2026-27-visitante-blanco-aficionado-hombre-espalda.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/tallas-1.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7621",
+    "name": "Club América 2013/14 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/2.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/2.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/3.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/4.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18561",
+    "name": "Pumas 2026/27 - Visita »Blanco» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/03e325b7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/03e325b7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/1cf70c19.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/74db56d2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/4a336eb5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19403",
+    "name": "Chivas de Guadalajara 2026/27 – Portero »Azul» – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3fa61c9e-2a63-4489-a75a-385890a2f06a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3fa61c9e-2a63-4489-a75a-385890a2f06a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/044bc452-e8ee-4e6f-81db-f03eba842e69.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/tallas-1.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2647",
+    "name": "Club América 1998/99 - Visita - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e58a5f5d-min.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e58a5f5d-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/2f374070-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/fb4509c2-min.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a6805794-min.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-17002",
+    "name": "Club América 2026/27 - Ed. Especial »Azulcrema» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-31.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-31.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__e47ea560.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__db5ae904.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-32.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19463",
+    "name": "Club América 2026/27 - Local »Amarilla» - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c64b29ac-f4f6-4913-b98a-10b981671503.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c64b29ac-f4f6-4913-b98a-10b981671503.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/ca788d25.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/6007b59b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/cc68b1e3-174b-44c0-9898-788d53e647ec.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7926",
+    "name": "Club América 2025/26 - Especial en Blanco - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__aff0db1a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__aff0db1a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6790235f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__dbeb1119-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2843674b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19395",
+    "name": "Chivas de Guadalajara 2026/27 - Local »Rojiblanco» - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3cf726da-3ad1-44cf-b8d5-8043638b63f8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3cf726da-3ad1-44cf-b8d5-8043638b63f8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4f72a072-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b7c7ae63-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/5b85ca43-3bf4-41dd-a3c3-9eea01ba6df7.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-6152",
+    "name": "Club América 2014/15 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2e267529-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2e267529-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__f9a104fa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__40770573-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__5b28f2c3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7501",
+    "name": "Club América 2025/26 - Ed. Especial (Azul Marino) - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__585c849a-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__585c849a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__83eba9ff-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__8ed96cbc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__14731f24-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19475",
+    "name": "Club América 2026/27 - Portero - Aficionado - Hombre - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/207b911f-aa68-4792-885d-c4200c9f731f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/207b911f-aa68-4792-885d-c4200c9f731f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c0bcc39d-abf4-4e56-9549-99c02d81aca1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18252",
+    "name": "Chivas de Guadalajara 2026/27 - Local »Rojiblanco» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/46a8c906-0d71-452c-9b8a-8e6d7063d34b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/46a8c906-0d71-452c-9b8a-8e6d7063d34b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b66fdd6e-750f-4700-9c45-0edb0bc45ff9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4950",
+    "name": "Club América (Corteiz) 1995/96 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b2d7765b-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b2d7765b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__4c6f8b7a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1bb1292d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1a5b2f1a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18452",
+    "name": "Club América 2026/27 – Local – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/658bf8e1-5c35-4fcc-81f2-930a06290ebe.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/658bf8e1-5c35-4fcc-81f2-930a06290ebe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/5ce80d7b-8646-44d0-aaa4-fc607f5c5fd7.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18619",
+    "name": "Club América 2026/27 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f3aa037d-c20a-4940-9c8b-788a2668a829.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f3aa037d-c20a-4940-9c8b-788a2668a829.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/6007b59b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/ca788d25.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/1af5dfb7-0628-46a8-88c2-5a8d43252c59.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7097",
+    "name": "Chivas de Guadalajara 2006/07 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__ee215bed-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__ee215bed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/cn-11134207-7qukw-lhydq2s7filfbe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/cn-11134207-7qukw-lhydq2s7736rbf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/cn-11134207-7r98o-lowafftouel862.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8380",
+    "name": "Club América 2025/26 - Ed. Especial (Amarilla) - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__88e7dfe7-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__88e7dfe7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__633987ba-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1b49689d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0a5b7947-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18229",
+    "name": "Club América 2026/27 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1fcd6003ed8b9f2f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1fcd6003ed8b9f2f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/cc519607d1f778a1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3247bc9d56ed1c4a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/8b712c2970ba6423.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18632",
+    "name": "Club América »110 Aniversario» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/48dd2c1f-9c9e-451b-bb85-e0e18c3118b6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/48dd2c1f-9c9e-451b-bb85-e0e18c3118b6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-22.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3035",
+    "name": "Chivas de Guadalajara 1906/2006 – »Centenario» - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d1a624bd-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d1a624bd-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f59f22a9-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d3277bde-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d98215e9-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11051",
+    "name": "Club América 2025/26 - Portero - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-18T230952.395.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-18T230952.395.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-2025-08-18T231040.994.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18272",
+    "name": "Chivas de Guadalajara «Ed. 120 Aniversario» – Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-71.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-71.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-73.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-72.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7584",
+    "name": "Club Pachuca 2001/02 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011428.316-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011428.316-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011640.521-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011608.874-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011531.205-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7541",
+    "name": "Pumas UNAM 2004/05 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162214.511-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162214.511-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162501.864-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162417.765-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162310.251-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-6610",
+    "name": "Club Monterrey (Ramos/93) 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__Diseno-sin-titulo-46-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__Diseno-sin-titulo-46-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__3d1e5aab-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__39f48e57-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ada49d80-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7600",
+    "name": "Club Pachuca 1999/00 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012117.993-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012117.993-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012248.315-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012327.700-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012214.354-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-6117",
+    "name": "Chivas de Guadalajara 2002/03 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__33f8f5fe-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__33f8f5fe-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__8342eaf9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__e322d7cf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__086b09ae-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19383",
+    "name": "Chivas de Guadalajara 2026/27 – Local – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/697711b1-d62b-4f06-9c81-30cfe62af32b-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/697711b1-d62b-4f06-9c81-30cfe62af32b-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b7c7ae63-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4f72a072-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/44c22194-b9c0-4943-b137-125bc1a800d9-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4706",
+    "name": "Chivas de Guadalajara 2000/01 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8f39b143-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8f39b143-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6cf323ef-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6fa5ed27-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__630cc052-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9252",
+    "name": "Club América 2025/26 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__596485e7-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__596485e7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__11066ec9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a758ab93-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__1eb78355-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18352",
+    "name": "Cruz Azul 2026/27 - Local »Azul» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1f8e8707-5e42-44ce-b824-c441c28c5399.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1f8e8707-5e42-44ce-b824-c441c28c5399.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e8d923d8-3460-4c77-adf9-8e75c4f76917.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18466",
+    "name": "Club Monterrey 2026/27 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1053e575-a1df-4294-9bca-d8a824797b52.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1053e575-a1df-4294-9bca-d8a824797b52.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a9ceb24f-d9e2-4ad9-985b-3c5fa0e8592d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7564",
+    "name": "Pumas UNAM 2008/09 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165129.582-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165129.582-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165415.850-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165220.442-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165344.969-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19391",
+    "name": "Chivas de Guadalajara 2026/27 - Visita »Blanca» - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/255d80db-82d8-453a-a63f-bb5b3599348b-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/255d80db-82d8-453a-a63f-bb5b3599348b-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/73ddaecb-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/542d7cb6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/5944881f-186f-4e77-9a9a-8c39668feaed-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8392",
+    "name": "Club América 2025/26 - Ed. Especial (Estadio Azteca) - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f5d124ee-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f5d124ee-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__617b2192-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5ede31b4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__816c9591-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14311",
+    "name": "Club Monterrey 1999/00 - Visita - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-3-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-3-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-2-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19484",
+    "name": "Xolos de Tijuana 2026/27 - »De La Frontera Pal Mundo» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c4ea9864-4cc0-455a-8024-2d9befc693e6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c4ea9864-4cc0-455a-8024-2d9befc693e6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/738bbad0-e316-426e-a78f-97d2ba2bb84e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19493",
+    "name": "Xolos de Tijuana 2026/27 - Visita »Blanca» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4e6661a5-f5fc-4726-9290-43d8bbbec2f6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4e6661a5-f5fc-4726-9290-43d8bbbec2f6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c4067adf-42fa-4f28-a9db-2b8af4abeb5d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19252",
+    "name": "Club América 2026/27 – PreMatch »Café» – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/club-america-2026-27-local-cafe-aficionado-hombre-frente.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/club-america-2026-27-local-cafe-aficionado-hombre-frente.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/club-america-2026-27-local-cafe-aficionado-hombre-espalda.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/tallas-1.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10057",
+    "name": "Cruz Azul 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-14T232703.607-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-14T232703.607-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-14T232753.161-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-14T232738.025-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-14T232720.271-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5462",
+    "name": "Pumas 2024/25 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__884e61b9-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__884e61b9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__cca832b5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e47ed484-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5803",
+    "name": "Club Monterrey 2024/25 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2c39a79d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2c39a79d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__29e683f4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ce3c47ce-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c5b74094-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14317",
+    "name": "Club Monterrey 1999/00 - Local - Aficionado - Retro - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-2-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-2-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-1-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11937",
+    "name": "Toluca 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-8.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11770",
+    "name": "Toluca 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-26T005746.291.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-26T005746.291.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-26T010031.886.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-26T005106.354.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10133",
+    "name": "Club Monterrey 2025/26 - »80 Aniversario» - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__53d09a04-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__53d09a04-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0cf38684-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a520a199-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fce80fb6-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10173",
+    "name": "Cruz Azul 2025/26 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__69a304f6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__69a304f6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4ed4841e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ad6135e5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__46553839-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19606",
+    "name": "Club América 2026/27 - »Colores Estelares» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4e9666b5-4996-4477-bb1f-8ab09f986318.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4e9666b5-4996-4477-bb1f-8ab09f986318.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/6f47dcb4-7e33-4151-b488-b5b56a20994b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5809",
+    "name": "Club Pachuca 2024/25 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-28-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14260",
+    "name": "Cruz Azul 2025/26 - Ed. Maquina Roja - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8341e177.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8341e177.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__224a4fac.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b2c3cbd9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f0bab014.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5814",
+    "name": "Club Pachuca 2024/25 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-28-min-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11281",
+    "name": "Tigres 2025/26 - Originals »65 Aniversario» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/612c106e838707e34c7850d9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/612c106e838707e34c7850d9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/b01f1c7499d08d754901be3a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/a788284c4bd255cfc132228a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/c3c0b38dec074e8a555a821d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4700",
+    "name": "Chivas de Guadalajara 1998/99 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60ab8851-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60ab8851-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2126f3d5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ac647d01-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__82909725-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19601",
+    "name": "Club América 2026/27 - »Galaxia y Estrellas» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/9f728fd0-097e-4f6c-807e-c75ef867bd24.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/9f728fd0-097e-4f6c-807e-c75ef867bd24.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/06b33962-f4a7-4f4c-8211-c248799a1e39.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c091763e-df9d-48dc-98ed-23ea4071ae0b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8398",
+    "name": "Club América 2025/26 - Ed. Especial - Jugador (Águila emplumada)",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a6b1e110-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a6b1e110-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9f50156d-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__43073b76-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__45f1cd4c-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8414",
+    "name": "Club América 2024/25 - Portero - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d53f6f92-min-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d53f6f92-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1ccd529a-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4ec3c582-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__300683f1-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16978",
+    "name": "Chivas de Guadalajara 2026/27 - Primera camiseta - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__71c7e5ce-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__71c7e5ce-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__3799ac18-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__5befcbea-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__1f7a3f1d-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5797",
+    "name": "Chivas de Guadalajara 2024/25 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__43fb72b5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__43fb72b5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3d1796d1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6a28ca5f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__659f5761-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12037",
+    "name": "Club América 2025/26 - Local - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-12.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-12.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98OKWwAAFGdS.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98QaXcAAWVqZ.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-13.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16754",
+    "name": "Chivas de Guadalajara 2025/26 - Alternativa - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T201405.713.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T201405.713.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T202521.499.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8386",
+    "name": "Club América 2025/26 - Ed. Especial (Azul) - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4a560a3e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4a560a3e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__69852266-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__73232a62-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0c0456d2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12713",
+    "name": "Chivas de Guadalajara 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__df42c3dd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__df42c3dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9fc897fa.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b86fa274.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__30c69308.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8426",
+    "name": "Club América 2025/26 - Ed. Especial (Luxury) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a52e1b3d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a52e1b3d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d9a2947c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__bf786e48-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a5c2e592-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14280",
+    "name": "Club América 2025/26 - Ed. «Crema» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-27.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-27.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-27.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-29.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-26.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18095",
+    "name": "Toluca 2026/27 - Ed. Especial »Negro» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ac961529.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ac961529.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b40ea6cd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b51ed1dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3a36fbf6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4697",
+    "name": "Chivas de Guadalajara 1996/97 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de692094-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de692094-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9638a812-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ee612eea-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2c8f7e54-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10717",
+    "name": "Club América 2025/26 - Local - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9d0cb886.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9d0cb886.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f334a268.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ab6a0fb4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e46ef76c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18060",
+    "name": "Club América 2026/27 - Visita »Negra» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/aeba70d1-540a-460a-aaca-7e6c1f66485d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/aeba70d1-540a-460a-aaca-7e6c1f66485d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ee37369c-fe95-4cd4-994e-ac298745c818.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/de6c1ecc-b022-4bb7-a835-e3953248cc5c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/f8677d42-30eb-46f1-b155-5a8925d0bab0.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16102",
+    "name": "Cruz Azul 2025/26 – Alternativa – Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__25dc1b68-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__25dc1b68-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__603b7d2e-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c7f5a435-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a367ad2c-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7932",
+    "name": "Club América 2025/26 - Ed. Especial (Azulcrema) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6fd6a229-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6fd6a229-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__77ca9c97-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__076fd1ad-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b74cb371-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8420",
+    "name": "Club América 2025/26 - Ed. Especial (Azul) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0290c2ed-1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0290c2ed-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3968e214-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ad088c3c-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__81263a42-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-17014",
+    "name": "Chivas de Guadalajara (Hormiga/34) 2025/26 – Local – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-33.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-33.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-2025-07-21T225116.404-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-34.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9492",
+    "name": "Chivas de Guadalajara 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-07-21T225004.748-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-07-21T225004.748-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-07-21T225116.404-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-07-21T225051.689-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-13855",
+    "name": "Club América 2025/26 «Azul»- Rompevientos",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "ligamx-12967",
+    "name": "Club América (Maxi/97) »PacMan» 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__Diseno-sin-titulo-2025-11-06T235521.490.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__Diseno-sin-titulo-2025-11-06T235521.490.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98NNWwAAufgg-1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98OKWwAAFGdS.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98QaXcAAWVqZ.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-17067",
+    "name": "Chivas de Guadalajara 2004/05 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-35-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-35-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-36-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18611",
+    "name": "Club América 2026/27 - Prematch - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-11.05.01-PM.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-11.05.01-PM.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-11.04.54-PM-2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4668",
+    "name": "Club América 2000/01 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0461f746-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0461f746-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7cf9e5fc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6b46926a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4c5fa637-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3017",
+    "name": "Club América 2023/24 - Visita - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/54045b6e-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/54045b6e-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/71b95e7e-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/996cf387-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/9aaa7d73-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2316",
+    "name": "Club América 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__d39e8ff8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__d39e8ff8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__911c0772-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__e5cbad50-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__c16a93fa-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14335",
+    "name": "Tigres 2023/24 - Alternativa - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__descarga-6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__descarga-6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__descarga-4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__descarga-5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9568",
+    "name": "Pumas 2025/26 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b15484fe-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b15484fe-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__04c5f478-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5ee1d889-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__66c0413d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8460",
+    "name": "Club América (Fidalgo/8) »PacMan» 2024/25 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-21T234727.472-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-21T234727.472-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__e5cbad50-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__911c0772-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__d39e8ff8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4213",
+    "name": "Club America 2023/24 - Conjunto Chándal Gris",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__77b6c040-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__77b6c040-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__91cf18ad-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0f70631a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bf2082b5-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "ligamx-18245",
+    "name": "Club América 2026/27 - Local - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/bee13d8b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/bee13d8b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/743cac0b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/107b21da.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/427a1a1e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2404",
+    "name": "Club América 2024/25 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__cb4da614-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__cb4da614-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__e4b615f8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__2eaa32a0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__44272f4b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19500",
+    "name": "Xolos de Tijuana (G.Mora/10) 2026/27 – Visita – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-26-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-26-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4e6661a5-f5fc-4726-9290-43d8bbbec2f6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10434",
+    "name": "Chivas de Guadalajara 2025/26 - Visita - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a7d0fcc5-095a-456d-87cc-7c784aa10aff-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a7d0fcc5-095a-456d-87cc-7c784aa10aff-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f6b81e8b-70a1-4216-b3fc-c4fbcdf6a964-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__03ec2330-6ef9-438c-b081-914afa0dcd7a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__41f051f3-4674-430d-bd10-5aff70d708ba-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2423",
+    "name": "Club América 2024/25 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m0faap053xzb92.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m0faap053xzb92.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/sg-11134201-7rd5l-lx0wf6tpga1625.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cn-11134207-7ras8-m0faap053xam33.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18082",
+    "name": "Pumas 2026/27 - Alternativa »Azul Marino» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/79636219.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/79636219.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fac6e0c4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/9831b2dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/2ff9de09.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3743",
+    "name": "Club América 1995/96 - Visita - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__be86b62c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__be86b62c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__80304b53-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2f2d9151-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__72a51195-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11012",
+    "name": "Club Monterrey 2025/26 – Local – Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__44e08081.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__44e08081.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__dfdfc776.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__bcac5ec6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__2a2c20e4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19503",
+    "name": "Xolos de Tijuana (G.Mora/10) 2026/27 – »De la Frontera Pal Mundo» – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-29-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-29-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/c4ea9864-4cc0-455a-8024-2d9befc693e6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18223",
+    "name": "Chivas de Guadalajara 2026/27 - Visita »Blanca» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3447c481-5faa-4539-952f-6f3f38e63805.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/3447c481-5faa-4539-952f-6f3f38e63805.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/33845c6a-794a-4732-a5c5-fffddd3c8389.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e22ef7e7-5c61-4316-b545-24b351d1cd72.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e1244703-4b53-4be4-9e10-bba3f42a31a0.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18266",
+    "name": "Tigres 2026/27 - Visita »Azul Marino» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a89bd45a-5d41-42d4-aa95-08099c7e83a9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a89bd45a-5d41-42d4-aa95-08099c7e83a9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/16a62ad3-79e9-49d1-bd24-892958aeb09a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14040",
+    "name": "Chivas de Guadalajara 1997/98 - Visita – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18551",
+    "name": "Chivas de Guadalajara 2026/27 - Entrenamiento »Multicolor» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-07-31-at-10.43.16-AM.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-07-31-at-10.43.16-AM.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-07-31-at-10.43.18-AM-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-07-31-at-10.43.16-AM-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-07-31-at-10.43.18-AM.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18615",
+    "name": "Club América 2026/27 - Portero »Azul» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-11.04.54-PM-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-11.04.54-PM-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-03-at-11.04.54-PM.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12001",
+    "name": "Club América 2025/26 - Entrenamiento - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T213234.835.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T213234.835.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T213131.646.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9254",
+    "name": "Club América 2025/26 - Alternativa - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4c39b9fd-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4c39b9fd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__96de7de8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__3ebbc745-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ead4c388-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18640",
+    "name": "Atlas 2026/27 - Local »Rojinegra» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/0be517ff-313d-4553-8820-0415eb7493c0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/0be517ff-313d-4553-8820-0415eb7493c0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/e8f4d244-06d7-4e18-829b-d244d3ebc375.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4687",
+    "name": "Chivas de Guadalajara 1995/96 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de3eaf14-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de3eaf14-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b81ef40b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9edbc73e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1030732a-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19387",
+    "name": "Chivas de Guadalajara 2026/27 – Visita »Blanco» – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/a92e7a33-15f4-4016-8ee7-95715d225da3-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/a92e7a33-15f4-4016-8ee7-95715d225da3-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/542d7cb6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/73ddaecb-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7f6ec6ac-86b6-4fcf-b38f-eb484182df85-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18262",
+    "name": "Tigres 2026/27 - Visita »Azul Marino» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c30424ec-a892-43c1-a43e-0b92124ca695.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c30424ec-a892-43c1-a43e-0b92124ca695.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/6972bbda-58a3-4c39-8782-f1113bed1acd.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14888",
+    "name": "Club América 2025/26 - Ed. Día de Muertos Amarillo - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-14.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-14.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2-15.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3-14.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3029",
+    "name": "Chivas de Guadalajara 2024/25 – Local – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7ea35fbd.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7ea35fbd.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d9d60989.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7b20e1a6.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/20e1b888.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16189",
+    "name": "Chivas de Guadalajara 2017/18 – Local «Ed. 110 Aniversario» – Aficionado - Retro - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19c59049.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19c59049.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__82294672.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c1b340f1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3a42e1f3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18256",
+    "name": "Tigres 2026/27 - Local »Amarillo» - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/0037aecb-1f87-42be-8e50-03ab8668cb65.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/0037aecb-1f87-42be-8e50-03ab8668cb65.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d54849f16f095a8d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/66a1bcbefc9ea3a6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/2e9fd721-c0c6-4c01-bbbe-02a0ed060fb3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16971",
+    "name": "Chivas de Guadalajara 2025/26 - Blanco »Ed. Especial» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-29.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-29.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__61f8a6e8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__92a0f04a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/04/AnyConv.com__Diseno-sin-titulo-30.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11608",
+    "name": "Club América 2025/26 - Entrenamiento »Los Ángeles» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203351.960.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203351.960.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203418.426.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9388",
+    "name": "Cruz Azul 2025/26 - Homenaje »Miguel Marín» - Aficionado - Hombre - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T215220.972-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T215220.972-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-16T215306.933-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-3858",
+    "name": "Chivas de Guadalajara 1999/00 - Local – Aficionado – Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e5769afe-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e5769afe-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1eeb4ea3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cf028d45-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d61711d8-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-14882",
+    "name": "Club América 2025/26 - Ed. Día de Muertos - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3-13.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__3-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4-12.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2-14.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-16759",
+    "name": "Chivas de Guadalajara 2025/26 – Alternativa – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T204832.773.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T204832.773.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/03/AnyConv.com__Diseno-sin-titulo-2026-03-08T205653.117.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12186",
+    "name": "Atlas 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-18T175416.723.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-18T175416.723.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-18T175057.842.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7173",
+    "name": "Club León 2024/25 - Visita - Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__02ec0726-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__02ec0726-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__1e06b453-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-6130",
+    "name": "Club América 2000/01 - Visita - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2cdea849-1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2cdea849-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__a728c668-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__51213a5c-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__54ec58ab-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18628",
+    "name": "Club América 2026/27 – Visita »Negra» – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f27a6f8b-f512-4c4e-aea8-fbfaa9edd2fd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f27a6f8b-f512-4c4e-aea8-fbfaa9edd2fd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3688390a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/006962f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/22f4deeb-0a1c-4de9-8c94-424cdf295852.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12005",
+    "name": "Club América 2017/18 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T215540.904.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T215540.904.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T221821.696.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18369",
+    "name": "Xolos de Tijuana 2026/27 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c74a00eb-f8ed-4cac-b7ec-ec375b96367a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c74a00eb-f8ed-4cac-b7ec-ec375b96367a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/336e0eef-a978-431b-bc7a-0f041dfc5174.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19479",
+    "name": "Chivas de Guadalajara 2026/27 - Local »Rojiblanco» - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b0998bfa-2681-4bf5-8c6b-7b196d024696.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b0998bfa-2681-4bf5-8c6b-7b196d024696.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/841aef5d-644c-49fc-b78c-58dc372e6ab9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/341ef790-a5c8-4039-9aba-88c93d496de6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9800",
+    "name": "Club América 2025/26 - Local - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__46198181-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__46198181-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__eef81c4c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__35bfcf27-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e06db945-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19421",
+    "name": "Chivas de Guadalajara 2026/27 – Portero »Negro» – Aficionado – Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/40a2c431-625c-47b0-a6d9-62dadcd4ba8c-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/40a2c431-625c-47b0-a6d9-62dadcd4ba8c-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/8576ac1c-3c8a-47c2-935a-38f0aa4b1cc1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/tallas-1.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10737",
+    "name": "Cruz Azul 2025/26 – Visita – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d31ebe22-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d31ebe22-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__24641704-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f055ad91-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__444d355c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18212",
+    "name": "Pumas 2026/27 - Visita »Blanco» - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/31c45d1c-0899-41c7-902e-6be37007e471.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/31c45d1c-0899-41c7-902e-6be37007e471.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/671d53ab-e6b6-48a6-b790-aa1f001d54cc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7169",
+    "name": "Club León 2024/25 - Local - Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__d2b940b2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__d2b940b2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__d5acc923-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-18623",
+    "name": "Club América »95 Aniversario» - Aficionado - Retro - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/bc9fb290-5dc9-4fae-96f0-9e44e588b71b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/bc9fb290-5dc9-4fae-96f0-9e44e588b71b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-23.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3e5cc5b5-eb2f-4b1e-a8a8-2ca70004fb19.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19431",
+    "name": "Chivas de Guadalajara 2026/27 - Visita »Blanco» - Jugador - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/162d5fa2-b6de-4212-9a80-2347a089beb9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/162d5fa2-b6de-4212-9a80-2347a089beb9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/8db57d7dc322f810.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b525892bdb80deca.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-04-at-2.30.36-AM.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9177",
+    "name": "Club Monterrey 2025/26 – Mundial de Clubes – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9216c19f-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9216c19f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6f23cbc9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__de119c39-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c487178a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19451",
+    "name": "Club América 2026/27 - Visita »Negro» - Aficionado - Dama",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/af89d32c-c411-4099-ba24-438f8ef93041.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/af89d32c-c411-4099-ba24-438f8ef93041.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3688390a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/006962f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/9c088020-b370-4c77-9035-068f58fa907e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-19399",
+    "name": "Chivas de Guadalajara 2026/27 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/591d836d-796a-4653-8db5-40a7fd540152.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/591d836d-796a-4653-8db5-40a7fd540152.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/4f72a072-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/b7c7ae63-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7c84c7a8-f20d-4391-80ae-72ff03c2e0b4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9476",
+    "name": "Club América 2012/13 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-17T190151.622-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-17T190151.622-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-17T190708.085-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9808",
+    "name": "Club América 2025/26 - Local - Aficionado - Hombre",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98NNWwAAufgg-1.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98NNWwAAufgg-1.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98OKWwAAFGdS.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98QaXcAAWVqZ.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/GvC98Q1WIAA3Kwp.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-7617",
+    "name": "Club América 2012/13 - Alternativa - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T210601.433-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T210601.433-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T224815.406-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-4956",
+    "name": "Club América (Corteiz) 1995/96 - Visita - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0b7e3acd-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0b7e3acd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e165717e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5b4acda7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9c60ef2b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10982",
+    "name": "Club América 2025/26 - Ed. Especial (Tres colores) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__979e94f9.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__979e94f9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__e0e50c47.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__83bed129.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__9d8063ec.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11612",
+    "name": "Club América 1988/89 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203457.236.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203457.236.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203550.005.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5743",
+    "name": "Club América - ÁMAME MÁ5",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb2b9675-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb2b9675-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2eb0c338-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9a5fbd50-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__df557ba4-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8445",
+    "name": "Club América 2001/02 - Visita - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__81403baa-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__81403baa-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e5c5f273-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__cee1e7ba-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a6e3027f-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-2416",
+    "name": "Club America 2024/25 - Rompevientos Doble Vista",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/81aeab3e-1-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/81aeab3e-1-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/3abe75c4-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/e440d610-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "ligamx-5688",
+    "name": "Monterrey 2024/25 – Local – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c4f4da24-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c4f4da24-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0de9522e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a12721d6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__600775c0-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-8438",
+    "name": "Club América 2001/02 - Local - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62d188e2-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62d188e2-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b74b478a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f8048c6a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9c1dae7c-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11160",
+    "name": "Club América 2025/26 - Camiseta Tipo Polo - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__8730f28c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__8730f28c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__087fc195.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__f12b56b3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__9e114499.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9486",
+    "name": "Club América 2025/26 - Ed. Especial (Azul Marino) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5bcc933a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5bcc933a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5f38637c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b9c4c7ce-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6e3b35af-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-11616",
+    "name": "Club América 2017/18 - Cuarta equipación - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T222921.346.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T222921.346.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T223005.729.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-12010",
+    "name": "Club América 1997/98 - »Garcis» - Aficionado - Retro",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T224838.516.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T224838.516.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T230859.297.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-9238",
+    "name": "Club América 2025/26 - Ed. Especial (Amarillo) - Jugador",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__60d5746e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__60d5746e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c8cca9cb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__91303941-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__55694b2f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-5749",
+    "name": "Club América - CAMPEÓN",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__040ec28e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__040ec28e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fca9aa62-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0d4f16b0-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "ligamx-10727",
+    "name": "Cruz Azul 2025/26 – Local – Infantil",
+    "category": "liga_mx",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d7c2e9c2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d7c2e9c2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ad443bac-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8023e2db-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3fcdc441-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
     ],
     "customizable": true
   }
