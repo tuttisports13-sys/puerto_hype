@@ -170424,6 +170424,43 @@ function closeReviewModal() {
   if (modal) modal.classList.remove('open');
 }
 
+async function compressImage(file, maxWidth = 800, maxHeight = 800, quality = 0.7) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = event => {
+      const img = new Image();
+      img.src = event.target.result;
+      img.onload = () => {
+        let width = img.width;
+        let height = img.height;
+        
+        if (width > maxWidth || height > maxHeight) {
+          if (width > height) {
+            height = Math.round((height *= maxWidth / width));
+            width = maxWidth;
+          } else {
+            width = Math.round((width *= maxHeight / height));
+            height = maxHeight;
+          }
+        }
+        
+        const canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+        
+        // Use jpeg to ensure it's small, fallback if unsupported but jpeg is safe
+        const compressedBase64 = canvas.toDataURL('image/jpeg', quality);
+        resolve(compressedBase64);
+      };
+      img.onerror = error => reject(error);
+    };
+    reader.onerror = error => reject(error);
+  });
+}
+
 async function submitReview() {
   const name = document.getElementById('review-name').value.trim();
   const text = document.getElementById('review-text').value.trim();
@@ -170442,18 +170479,9 @@ async function submitReview() {
     let imageBase64 = "";
     if (fileInput.files && fileInput.files[0]) {
       const file = fileInput.files[0];
-      if (file.size > 5 * 1024 * 1024) { // 5MB limit
-        showToast('La imagen es demasiado pesada (Máximo 5MB).');
-        btn.disabled = false;
-        btn.textContent = 'PUBLICAR RESEÑA';
-        return;
-      }
-      imageBase64 = await new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = () => resolve(reader.result);
-        reader.onerror = error => reject(error);
-      });
+      
+      // Remove 5MB check to allow client-side compression to handle large files
+      imageBase64 = await compressImage(file, 800, 800, 0.7);
     }
     
     const res = await fetch('/api/submit-review', {
