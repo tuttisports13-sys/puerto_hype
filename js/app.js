@@ -26,7 +26,7 @@ const SPORTS_PRODUCTS = [
   "badgeType": "badge-hot",
   "isFolder": true,
   "targetFilter": "laliga"
-},,
+},
 
   {
     "id": "sports-001",
