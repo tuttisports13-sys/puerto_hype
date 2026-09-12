@@ -1773,7 +1773,13 @@ h1, h2, h3, h4, .font-heading {
     <button class="filter-pill" data-filter="Saint">SAINT</button>
   </div>
 
-  <!-- Cuadrícula de productos -->
+        <div id="filters-sports" style="display: none; justify-content: center; gap: 10px; margin-bottom: 30px; flex-wrap: wrap;">
+        <button class="filter-btn filter-pill active" data-filter="all">TODOS</button>
+        <button class="filter-btn filter-pill" data-filter="liga_mx">LIGA MX</button>
+        <button class="filter-btn filter-pill" data-filter="nba">NBA</button>
+        <button class="filter-btn filter-pill" data-filter="bundesliga">BUNDESLIGA</button>
+      </div>
+<!-- Cuadrícula de productos -->
   <div id="products-grid" class="products-grid">
     <!-- Renderizado dinámico vía app.js -->
   </div>
@@ -2217,6 +2223,33 @@ h1, h2, h3, h4, .font-heading {
       <h3 id="qv-title"></h3>
       <div id="qv-size" style="color: #aaa; font-size: 0.9rem; margin-bottom: 5px;"></div>
         <div id="qv-price" class="qv-price"></div>
+      <!-- Opciones de Personalización (Solo si aplica) -->
+      <div id="qv-customization" style="display: none; margin-top: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+        <h4 style="margin-bottom: 10px; font-size: 0.95rem;">Personalización</h4>
+        
+        <label style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; margin-bottom: 8px; cursor: pointer;">
+          <input type="checkbox" id="qv-check-name" onchange="toggleNameInput()">
+          Personalizar Nombre y Número (+$50)
+        </label>
+        <div id="qv-name-input-container" style="display: none; margin-bottom: 15px; margin-left: 20px;">
+          <input type="text" id="qv-name-input" placeholder="Ej: GARCIA 10" style="width: 100%; max-width: 200px; padding: 8px; border-radius: 4px; border: 1px solid var(--border-color); background: var(--bg-body); color: white; font-size: 0.8rem;">
+        </div>
+
+        <label style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; margin-bottom: 8px; cursor: pointer;">
+          <input type="checkbox" id="qv-check-patch" onchange="togglePatchInput()">
+          Agregar Parches de Liga/Copa (+$30 c/u)
+        </label>
+        <div id="qv-patch-input-container" style="display: none; margin-left: 20px; margin-bottom: 15px;">
+          <select id="qv-patch-select" style="padding: 8px; border-radius: 4px; border: 1px solid var(--border-color); background: var(--bg-body); color: white; font-size: 0.8rem;">
+            <option value="1">1 Parche (+$30)</option>
+            <option value="2">2 Parches (+$60)</option>
+            <option value="3">3 Parches (+$90)</option>
+          </select>
+        </div>
+        
+        <button id="qv-add-cart-btn" class="btn btn-primary" style="width: 100%; margin-top: 10px;" onclick="addToCartFromModal()">AGREGAR AL CARRITO</button>
+      </div>
+
     </div>
   </div>
 </div>

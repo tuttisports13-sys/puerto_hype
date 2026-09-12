@@ -82,6 +82,330 @@ const SPORTS_PRODUCTS = [
     "password": "Sin contraseña",
     "link": "https://94nbaqiuyi.x.yupoo.com/"
   }
+, 
+  {
+    "id": "bun-10045",
+    "name": "Bayern Munchen 2025/26 - Local - Jugador - Manga Larga",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__491caa9f-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__491caa9f-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__637f172f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__dd5bc29d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__46a854f4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9275",
+    "name": "Bayern Munchen 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c88c2e8a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c88c2e8a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9027b49c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__5b7667cc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7dbf0468-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-12230",
+    "name": "Borussia Dortmund 2025/26 - Visita - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__e175ec41.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__e175ec41.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__b26613e8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__1c95914c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__410c4ee4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9029",
+    "name": "Bayern Munchen 2025/26 – Local - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d8b27635-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__d8b27635-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__94d48eb3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__17adf2e7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9d91bab7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-11964",
+    "name": "Bayern Munchen 2025/26 – Alternativa - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9e095ad3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9e095ad3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__56e32d93.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__7183b942.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__b1452879.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-10721",
+    "name": "Borussia Dortmund 2025/26 - Local »Kidsuper» - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fd968ef9-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fd968ef9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1d965d8d-min-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2cbbfd98-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__06009550-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-12519",
+    "name": "Bayern Munchen 2025/26 – Version «Oktoberfest» - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2041891d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2041891d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6ee9108e-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6878b04e-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__28e32174-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6988",
+    "name": "Bayern Munchen 2025/26 - 125th Anniversary - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__169e449c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__169e449c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__28f65b4e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3e264bb9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__6c1f30a3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-12194",
+    "name": "Borussia Dortmund 2025/26 - Portero »Kidsuper» - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-18T185132.112.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-18T185132.112.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-18T185224.197.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__unnamed-6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-13837",
+    "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Aficionado - Hombre - Manga Larga",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14149",
+    "name": "Hamburgo 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6cc0791d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6cc0791d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__27c538be.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__95a69031.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__80a1257d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9875",
+    "name": "Borussia Dortmund 2025/26 - Local »STUSSY» »Kidsuper» - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2259c396-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2259c396-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__49005c63-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__cee3faaf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d696b769-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  }
 ];
 
 const STOCK_PRODUCTS = [
@@ -127857,7 +128181,7 @@ ${product.section === 'preorder' || product.section === 'preorder-sports' ? '' :
       VER CATÁLOGO
     </a>
   ` : `
-    <button class="btn-add-cart" onclick="addToCart('${product.id}')">
+    <button class="btn-add-cart" onclick="${product.customizable ? `openQuickView('${product.id}')` : `addToCart('${product.id}')`}">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="9" cy="21" r="1"></circle>
         <circle cx="20" cy="21" r="1"></circle>
@@ -127941,6 +128265,15 @@ function setupEventListeners() {
       
       renderProducts();
     });
+document.querySelectorAll('#filters-sports .filter-pill').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    document.querySelectorAll('#filters-sports .filter-pill').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    AppState.currentFilter = e.target.dataset.filter;
+    renderProducts();
+  });
+});
+
 const btnPreorderSports = document.getElementById('btn-preorder-sports');
 if (btnPreorderSports) {
   btnPreorderSports.addEventListener('click', () => {
@@ -128055,7 +128388,7 @@ function toggleCart(isOpen) {
 
 // Agregar producto al carrito
 // Agregar producto al carrito
-function addToCart(productId) {
+function addToCart(productId, customization = null, customPriceAdd = 0) {
   const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId);
 
   if (!product) return;
@@ -128081,7 +128414,7 @@ function addToCart(productId) {
 }
 
 // Modificar cantidad
-function updateQuantity(productId, delta) {
+function updateQuantity(cartItemId, delta) {
   const item = AppState.cart.find(i => i.id === productId);
   if (!item) return;
 
@@ -128095,7 +128428,7 @@ function updateQuantity(productId, delta) {
 }
 
 // Eliminar producto
-function removeFromCart(productId) {
+function removeFromCart(cartItemId) {
   AppState.cart = AppState.cart.filter(i => i.id !== productId);
   saveCart();
   updateCartUI();
@@ -128109,7 +128442,7 @@ function saveCart() {
 // Calcular totales y escala de descuentos
 function calculateWholesaleSummary() {
   const totalPieces = AppState.cart.reduce((sum, item) => sum + item.quantity, 0);
-  const subtotal = AppState.cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+  const subtotal = AppState.cart.reduce((sum, item) => sum + ((item.finalPrice || item.price) * item.quantity), 0);
 
   // Escala de descuentos por volumen adicional
   let extraDiscountPercent = 0;
@@ -128198,10 +128531,10 @@ function updateCartUI() {
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 6px;">
               <span class="cart-item-price">${item.id.startsWith('po-') ? '<span style="color:var(--neon-lime)">Cotizar</span>' : '$' + (item.price * item.quantity) + ' MXN'}</span>
               <div class="cart-item-qty">
-                <button class="qty-btn" onclick="updateQuantity('${item.id}', -1)">-</button>
+                <button class="qty-btn" onclick="updateQuantity('${item.cartItemId}', -1)">-</button>
                 <span class="qty-val">${item.quantity}</span>
-                <button class="qty-btn" onclick="updateQuantity('${item.id}', 1)">+</button>
-                <button class="btn-remove-item" onclick="removeFromCart('${item.id}')" title="Eliminar">✕</button>
+                <button class="qty-btn" onclick="updateQuantity('${item.cartItemId}', 1)">+</button>
+                <button class="btn-remove-item" onclick="removeFromCart('${item.cartItemId}')" title="Eliminar">✕</button>
               </div>
             </div>
           </div>
@@ -128252,7 +128585,9 @@ function sendOrderViaWhatsApp() {
   message += `Hola! Quiero cotizar y apartar las siguientes piezas para mi negocio:\n\n`;
 
   AppState.cart.forEach((item, index) => {
-    const itemPrice = item.id.startsWith("po-") ? "Por cotizar" : ("$" + (item.price * item.quantity) + " MXN"); message += `• *${item.quantity}x* ${item.name} (${item.size}) — *${itemPrice}*\n`;
+    const itemPrice = item.id.startsWith("po-") ? "Por cotizar" : ("$" + (item.price * item.quantity) + " MXN"); const finalItemPrice = item.id.startsWith("po-") ? "Por cotizar" : ("$" + ((item.finalPrice || item.price) * item.quantity) + " MXN");
+    message += `• *${item.quantity}x* ${item.name} ${item.sizes && item.sizes.length > 0 ? '(' + item.sizes[0] + ')' : ''} — *${finalItemPrice}*\n`;
+    if (item.customization) { message += `  > Personalizado: ${item.customization.name || ''} ${item.customization.patches ? '| Parches: ' + item.customization.patches : ''}\n`; }
   });
 
   message += `\n━━━━━━━━━━━━━━━━━━━━━\n`;
@@ -128304,6 +128639,45 @@ function showToast(text) {
 // Quick View Modal Logic
 let currentGallery = [];
 let currentGalleryIndex = 0;
+
+let currentQvProductId = null;
+
+function toggleNameInput() {
+  const isChecked = document.getElementById('qv-check-name').checked;
+  document.getElementById('qv-name-input-container').style.display = isChecked ? 'block' : 'none';
+}
+
+function togglePatchInput() {
+  const isChecked = document.getElementById('qv-check-patch').checked;
+  document.getElementById('qv-patch-input-container').style.display = isChecked ? 'block' : 'none';
+}
+
+function addToCartFromModal() {
+  if (!currentQvProductId) return;
+  
+  const hasName = document.getElementById('qv-check-name').checked;
+  const nameText = document.getElementById('qv-name-input').value;
+  const hasPatch = document.getElementById('qv-check-patch').checked;
+  const patchCount = document.getElementById('qv-patch-select').value;
+  
+  let customization = null;
+  let customPriceAdd = 0;
+  
+  if (hasName && nameText.trim() !== '') {
+    customization = customization || {};
+    customization.name = nameText.trim();
+    customPriceAdd += 50;
+  }
+  
+  if (hasPatch) {
+    customization = customization || {};
+    customization.patches = parseInt(patchCount);
+    customPriceAdd += (30 * customization.patches);
+  }
+  
+  addToCart(currentQvProductId, customization, customPriceAdd);
+  closeQuickView();
+}
 
 function openQuickView(productId) {
   const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId);
