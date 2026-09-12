@@ -166439,6 +166439,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Quick and dirty markdown-like bold parsing
     let htmlText = text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
     htmlText = htmlText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    // Markdown link parsing
+    htmlText = htmlText.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" style="color:var(--neon-lime); text-decoration:underline; font-weight:bold;">$1</a>');
     htmlText = htmlText.replace(/\n/g, '<br>');
     
     bubble.innerHTML = htmlText;
