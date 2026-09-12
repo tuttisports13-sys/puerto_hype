@@ -5,6 +5,17 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
+{
+  "id": "sports-folder-selecciones",
+  "name": "SELECCIONES",
+  "category": "selecciones_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/selecciones_cover.png",
+  "badge": "210 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "selecciones"
+},
   {
     "id": "sports-folder-ninos",
     "name": "Niños",
@@ -34956,6 +34967,5049 @@ const SPORTS_PRODUCTS = [
     ],
     "customizable": true
   }
+,
+
+  {
+    "id": "rbf-fan-336545038",
+    "name": "Jersey Qatar Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068817952574-2_pactvpfe1wjlag1q-bf12fa4d54e093b18617760184577639-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068817952574-2_pactvpfe1wjlag1q-bf12fa4d54e093b18617760184577639-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336545038",
+    "name": "Jersey Qatar Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068817952574-2_pactvpfe1wjlag1q-bf12fa4d54e093b18617760184577639-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068817952574-2_pactvpfe1wjlag1q-bf12fa4d54e093b18617760184577639-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-358809401",
+    "name": "Jersey Portugal Local Edición Especial Fase de Grupos - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_8973e647-c72f-4ba7-8fdd-73d4a80bae72_4134318_4287588-507e8baefd61eab6c917855693313538-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_8973e647-c72f-4ba7-8fdd-73d4a80bae72_4134318_4287588-507e8baefd61eab6c917855693313538-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-358809401",
+    "name": "Jersey Portugal Local Edición Especial Fase de Grupos - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_8973e647-c72f-4ba7-8fdd-73d4a80bae72_4134318_4287588-507e8baefd61eab6c917855693313538-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_8973e647-c72f-4ba7-8fdd-73d4a80bae72_4134318_4287588-507e8baefd61eab6c917855693313538-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-350022819",
+    "name": "Jersey Egipto Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162354846-1_purmu72sehtrkczr-4db2e65c5b63ca800217834409868780-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162354846-1_purmu72sehtrkczr-4db2e65c5b63ca800217834409868780-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-350022819",
+    "name": "Jersey Egipto Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162354846-1_purmu72sehtrkczr-4db2e65c5b63ca800217834409868780-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162354846-1_purmu72sehtrkczr-4db2e65c5b63ca800217834409868780-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342063215",
+    "name": "Jersey Senegal Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348944-1_66ggjdxmqvz451h8-95fa3c6d9417eefd9e17788316403937-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348944-1_66ggjdxmqvz451h8-95fa3c6d9417eefd9e17788316403937-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342063215",
+    "name": "Jersey Senegal Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348944-1_66ggjdxmqvz451h8-95fa3c6d9417eefd9e17788316403937-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348944-1_66ggjdxmqvz451h8-95fa3c6d9417eefd9e17788316403937-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342060275",
+    "name": "Jersey Suiza Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470904-1_sko3nolzfo9xnxdc-29e706059c7f22feef17788315325893-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470904-1_sko3nolzfo9xnxdc-29e706059c7f22feef17788315325893-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342060275",
+    "name": "Jersey Suiza Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470904-1_sko3nolzfo9xnxdc-29e706059c7f22feef17788315325893-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470904-1_sko3nolzfo9xnxdc-29e706059c7f22feef17788315325893-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342059928",
+    "name": "Jersey Suiza Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470348-1_wd26najkb98vfm1p-426ea76472c3f110e217788315133243-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470348-1_wd26najkb98vfm1p-426ea76472c3f110e217788315133243-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342059928",
+    "name": "Jersey Suiza Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470348-1_wd26najkb98vfm1p-426ea76472c3f110e217788315133243-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162470348-1_wd26najkb98vfm1p-426ea76472c3f110e217788315133243-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342059484",
+    "name": "Jersey Austria Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337658-1_r6xhfy2lrlidb3up-00fd367105bca2bcbc17788314729512-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337658-1_r6xhfy2lrlidb3up-00fd367105bca2bcbc17788314729512-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342059484",
+    "name": "Jersey Austria Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337658-1_r6xhfy2lrlidb3up-00fd367105bca2bcbc17788314729512-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337658-1_r6xhfy2lrlidb3up-00fd367105bca2bcbc17788314729512-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544246",
+    "name": "Jersey Argelia Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815622783-1-bddb8c1501e35de48517760162275015-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815622783-1-bddb8c1501e35de48517760162275015-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544246",
+    "name": "Jersey Argelia Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815622783-1-bddb8c1501e35de48517760162275015-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815622783-1-bddb8c1501e35de48517760162275015-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337893208",
+    "name": "Jersey Japon Portero Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/198322421631-1_ddn8f5x6towgc1lk-3447dffd371fa6892b17761512321603-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/198322421631-1_ddn8f5x6towgc1lk-3447dffd371fa6892b17761512321603-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337893208",
+    "name": "Jersey Japon Portero Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/198322421631-1_ddn8f5x6towgc1lk-3447dffd371fa6892b17761512321603-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/198322421631-1_ddn8f5x6towgc1lk-3447dffd371fa6892b17761512321603-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-341906826",
+    "name": "Jersey Portugal Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759771-2-54158722ce0bcc0aeb17788313804687-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759771-2-54158722ce0bcc0aeb17788313804687-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-341906826",
+    "name": "Jersey Portugal Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759771-2-54158722ce0bcc0aeb17788313804687-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759771-2-54158722ce0bcc0aeb17788313804687-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337420968",
+    "name": "Jersey Brasil Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_09380e3c-d75f-46b3-b517-521dddb010a8_4134318_4287588-8bad3c9a807d932c2a17760620707974-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_09380e3c-d75f-46b3-b517-521dddb010a8_4134318_4287588-8bad3c9a807d932c2a17760620707974-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337420968",
+    "name": "Jersey Brasil Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_09380e3c-d75f-46b3-b517-521dddb010a8_4134318_4287588-8bad3c9a807d932c2a17760620707974-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_09380e3c-d75f-46b3-b517-521dddb010a8_4134318_4287588-8bad3c9a807d932c2a17760620707974-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-335875827",
+    "name": "Jersey Alemania Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815786195-1_0an3fcbyss0uqvmf-c24b44d414d99cae6817760153933270-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815786195-1_0an3fcbyss0uqvmf-c24b44d414d99cae6817760153933270-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-335875827",
+    "name": "Jersey Alemania Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815786195-1_0an3fcbyss0uqvmf-c24b44d414d99cae6817760153933270-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815786195-1_0an3fcbyss0uqvmf-c24b44d414d99cae6817760153933270-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-351349776",
+    "name": "Jersey para Niños Mexico Local Copa del Mundo 2026 2026/2027 - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_49367aa9-16cb-4009-a7d8-3e720fc49ced_4134318_4287588-0a3b4a04cb7466f69e17818217176655-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_49367aa9-16cb-4009-a7d8-3e720fc49ced_4134318_4287588-0a3b4a04cb7466f69e17818217176655-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-351349776",
+    "name": "Jersey para Niños Mexico Local Copa del Mundo 2026 2026/2027 - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_49367aa9-16cb-4009-a7d8-3e720fc49ced_4134318_4287588-0a3b4a04cb7466f69e17818217176655-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_49367aa9-16cb-4009-a7d8-3e720fc49ced_4134318_4287588-0a3b4a04cb7466f69e17818217176655-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337423104",
+    "name": "Jersey Turquia Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/bafca0fbf2c4-f569124a9d8ba62f3c17760634855968-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/bafca0fbf2c4-f569124a9d8ba62f3c17760634855968-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337423104",
+    "name": "Jersey Turquia Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/bafca0fbf2c4-f569124a9d8ba62f3c17760634855968-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/bafca0fbf2c4-f569124a9d8ba62f3c17760634855968-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-349027081",
+    "name": "Jersey para Niños Portugal Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_9534bbc9-d09b-41ef-8061-a1856e9ccdb3_4134318_4287588-41cca9b1dd8eeb3b3e17809021948213-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_9534bbc9-d09b-41ef-8061-a1856e9ccdb3_4134318_4287588-41cca9b1dd8eeb3b3e17809021948213-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-349027081",
+    "name": "Jersey para Niños Portugal Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_9534bbc9-d09b-41ef-8061-a1856e9ccdb3_4134318_4287588-41cca9b1dd8eeb3b3e17809021948213-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_9534bbc9-d09b-41ef-8061-a1856e9ccdb3_4134318_4287588-41cca9b1dd8eeb3b3e17809021948213-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-347926432",
+    "name": "Jersey para Niños Mexico Alternativa Copa del Mundo 2026 2026/2027 - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_ccb9db95-a10e-4288-81d2-a5f3def810cc_4134318_4287588-0aa7a46fdd48df686c17803707155546-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_ccb9db95-a10e-4288-81d2-a5f3def810cc_4134318_4287588-0aa7a46fdd48df686c17803707155546-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-347926432",
+    "name": "Jersey para Niños Mexico Alternativa Copa del Mundo 2026 2026/2027 - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_ccb9db95-a10e-4288-81d2-a5f3def810cc_4134318_4287588-0aa7a46fdd48df686c17803707155546-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_ccb9db95-a10e-4288-81d2-a5f3def810cc_4134318_4287588-0aa7a46fdd48df686c17803707155546-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344598535",
+    "name": "Jersey España Local Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815650649-1-7659a4befdccb55b6917794978050609-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815650649-1-7659a4befdccb55b6917794978050609-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344598535",
+    "name": "Jersey España Local Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815650649-1-7659a4befdccb55b6917794978050609-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815650649-1-7659a4befdccb55b6917794978050609-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544122",
+    "name": "Jersey Suecia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818752678-1_iwkttzelu7epsvhe-de66377468143c8a8d17760161402915-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818752678-1_iwkttzelu7epsvhe-de66377468143c8a8d17760161402915-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544122",
+    "name": "Jersey Suecia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818752678-1_iwkttzelu7epsvhe-de66377468143c8a8d17760161402915-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818752678-1_iwkttzelu7epsvhe-de66377468143c8a8d17760161402915-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336276103",
+    "name": "Jersey Suecia Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815620260-1_rnonfrvxexuc6tqq-fb98d8262a2f6d796317760160619868-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815620260-1_rnonfrvxexuc6tqq-fb98d8262a2f6d796317760160619868-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336276103",
+    "name": "Jersey Suecia Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815620260-1_rnonfrvxexuc6tqq-fb98d8262a2f6d796317760160619868-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815620260-1_rnonfrvxexuc6tqq-fb98d8262a2f6d796317760160619868-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342060873",
+    "name": "Jersey Marruecos Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162296177-1_wmbyuemmckeh2wuj-2c7beef84066dc93ee17788315610617-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162296177-1_wmbyuemmckeh2wuj-2c7beef84066dc93ee17788315610617-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342060873",
+    "name": "Jersey Marruecos Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162296177-1_wmbyuemmckeh2wuj-2c7beef84066dc93ee17788315610617-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162296177-1_wmbyuemmckeh2wuj-2c7beef84066dc93ee17788315610617-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-356521604",
+    "name": "Jersey España Local Edición Campeón - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000113565-9c95453bec9604d3f517845832720642-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000113565-9c95453bec9604d3f517845832720642-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-356521604",
+    "name": "Jersey España Local Edición Campeón - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000113565-9c95453bec9604d3f517845832720642-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000113565-9c95453bec9604d3f517845832720642-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337423266",
+    "name": "Jersey Turquia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/6a84dd45f6f4-5a879a3e39259c124f17760635022022-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/6a84dd45f6f4-5a879a3e39259c124f17760635022022-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337423266",
+    "name": "Jersey Turquia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/6a84dd45f6f4-5a879a3e39259c124f17760635022022-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/6a84dd45f6f4-5a879a3e39259c124f17760635022022-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337423943",
+    "name": "Jersey Australia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/bdf83fca3aed-54b88890cc47947e3d17760635583645-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/bdf83fca3aed-54b88890cc47947e3d17760635583645-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337423943",
+    "name": "Jersey Australia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/bdf83fca3aed-54b88890cc47947e3d17760635583645-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/bdf83fca3aed-54b88890cc47947e3d17760635583645-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544331",
+    "name": "Jersey Argelia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818745014-1_yte7ggo5jswampyh-3ea40464d9115a329617760162823829-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818745014-1_yte7ggo5jswampyh-3ea40464d9115a329617760162823829-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544331",
+    "name": "Jersey Argelia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818745014-1_yte7ggo5jswampyh-3ea40464d9115a329617760162823829-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818745014-1_yte7ggo5jswampyh-3ea40464d9115a329617760162823829-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-347871503",
+    "name": "Jersey para Niños Colombia Visita Copa del Mundo 2026 2026/2027 - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d739a5eb-f485-439f-80dd-eba1bb99760a_4134318_4287588-380420557817e6aea617803532147555-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d739a5eb-f485-439f-80dd-eba1bb99760a_4134318_4287588-380420557817e6aea617803532147555-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-347871503",
+    "name": "Jersey para Niños Colombia Visita Copa del Mundo 2026 2026/2027 - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d739a5eb-f485-439f-80dd-eba1bb99760a_4134318_4287588-380420557817e6aea617803532147555-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d739a5eb-f485-439f-80dd-eba1bb99760a_4134318_4287588-380420557817e6aea617803532147555-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342055778",
+    "name": "Jersey Austria Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337528-1_h7i5yym5nfolwr90-56f4ac950e6320420517788314562624-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337528-1_h7i5yym5nfolwr90-56f4ac950e6320420517788314562624-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342055778",
+    "name": "Jersey Austria Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337528-1_h7i5yym5nfolwr90-56f4ac950e6320420517788314562624-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162337528-1_h7i5yym5nfolwr90-56f4ac950e6320420517788314562624-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544963",
+    "name": "Jersey Qatar Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818394731-1_qkh5amgy7teei5po-391cd5d67f943f64e417760184089913-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818394731-1_qkh5amgy7teei5po-391cd5d67f943f64e417760184089913-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544963",
+    "name": "Jersey Qatar Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818394731-1_qkh5amgy7teei5po-391cd5d67f943f64e417760184089913-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818394731-1_qkh5amgy7teei5po-391cd5d67f943f64e417760184089913-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544958",
+    "name": "Jersey Arabia Saudita Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887912-1_7gtdgzfxx5pnlb9k-f64258e822d03cc2cb17760168318988-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887912-1_7gtdgzfxx5pnlb9k-f64258e822d03cc2cb17760168318988-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544958",
+    "name": "Jersey Arabia Saudita Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887912-1_7gtdgzfxx5pnlb9k-f64258e822d03cc2cb17760168318988-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887912-1_7gtdgzfxx5pnlb9k-f64258e822d03cc2cb17760168318988-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-358750085",
+    "name": "Jersey Argentina Visita Edición Especial Semifinales - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000117355-13691eb4486d2f330d17855361037992-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000117355-13691eb4486d2f330d17855361037992-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-358750085",
+    "name": "Jersey Argentina Visita Edición Especial Semifinales - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000117355-13691eb4486d2f330d17855361037992-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000117355-13691eb4486d2f330d17855361037992-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-352608783",
+    "name": "Jersey Francia Local Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-352608783",
+    "name": "Jersey Francia Local Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344598158",
+    "name": "Jersey Argentina Visita Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344598158",
+    "name": "Jersey Argentina Visita Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342065019",
+    "name": "Jersey Ghana Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162329127-1_givjsz55djxjxraq-ec4f65233a17acff9617788317007786-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162329127-1_givjsz55djxjxraq-ec4f65233a17acff9617788317007786-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342065019",
+    "name": "Jersey Ghana Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162329127-1_givjsz55djxjxraq-ec4f65233a17acff9617788317007786-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162329127-1_givjsz55djxjxraq-ec4f65233a17acff9617788317007786-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342064535",
+    "name": "Jersey Costa de Marfil Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162260567-1_rgyyf0nfotk4nmsf-9fe40bfd788f850e2a17788316858632-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162260567-1_rgyyf0nfotk4nmsf-9fe40bfd788f850e2a17788316858632-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342064535",
+    "name": "Jersey Costa de Marfil Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162260567-1_rgyyf0nfotk4nmsf-9fe40bfd788f850e2a17788316858632-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162260567-1_rgyyf0nfotk4nmsf-9fe40bfd788f850e2a17788316858632-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-347870452",
+    "name": "Jersey para Niños Portugal Visita Copa del Mundo 2026 2026/2027 - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_5c9e0c91-abfe-4569-a735-63211f96f911_4134318_4287588-770a344eda6bd7af2717803531858483-480-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_5c9e0c91-abfe-4569-a735-63211f96f911_4134318_4287588-770a344eda6bd7af2717803531858483-480-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-347870452",
+    "name": "Jersey para Niños Portugal Visita Copa del Mundo 2026 2026/2027 - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_5c9e0c91-abfe-4569-a735-63211f96f911_4134318_4287588-770a344eda6bd7af2717803531858483-480-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_5c9e0c91-abfe-4569-a735-63211f96f911_4134318_4287588-770a344eda6bd7af2717803531858483-480-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342048016",
+    "name": "Jersey Portugal Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162114136-2_ilzrwowqihjleaqm-094052b1873259340c17788314245796-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162114136-2_ilzrwowqihjleaqm-094052b1873259340c17788314245796-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342048016",
+    "name": "Jersey Portugal Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162114136-2_ilzrwowqihjleaqm-094052b1873259340c17788314245796-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162114136-2_ilzrwowqihjleaqm-094052b1873259340c17788314245796-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-353133340",
+    "name": "Set Mini Balones Copa Del Mundo Coleccionables - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-353133340",
+    "name": "Set Mini Balones Copa Del Mundo Coleccionables - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344596787",
+    "name": "Jersey Portugal Local Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759849-1_oipczcxiptgq6zbl-1829ef98214be49c4b17794976083904-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759849-1_oipczcxiptgq6zbl-1829ef98214be49c4b17794976083904-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344596787",
+    "name": "Jersey Portugal Local Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759849-1_oipczcxiptgq6zbl-1829ef98214be49c4b17794976083904-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162759849-1_oipczcxiptgq6zbl-1829ef98214be49c4b17794976083904-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337422268",
+    "name": "Jersey Croacia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/f2a85d7fe187-6ff9e0a11ba7e5c52017760634252268-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/f2a85d7fe187-6ff9e0a11ba7e5c52017760634252268-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337422268",
+    "name": "Jersey Croacia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/f2a85d7fe187-6ff9e0a11ba7e5c52017760634252268-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/f2a85d7fe187-6ff9e0a11ba7e5c52017760634252268-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337421180",
+    "name": "Jersey Uruguay Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1f118165c04e-18141aba369a277a8e17760633622153-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1f118165c04e-18141aba369a277a8e17760633622153-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337421180",
+    "name": "Jersey Uruguay Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1f118165c04e-18141aba369a277a8e17760633622153-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1f118165c04e-18141aba369a277a8e17760633622153-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337419293",
+    "name": "Jersey Estado Unidos Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_f7e15ff2-6705-4e50-8ca3-1f1e526e9393_4134318_4287588-e830406164d4bc5c2217760188395561-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_f7e15ff2-6705-4e50-8ca3-1f1e526e9393_4134318_4287588-e830406164d4bc5c2217760188395561-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337419293",
+    "name": "Jersey Estado Unidos Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_f7e15ff2-6705-4e50-8ca3-1f1e526e9393_4134318_4287588-e830406164d4bc5c2217760188395561-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_f7e15ff2-6705-4e50-8ca3-1f1e526e9393_4134318_4287588-e830406164d4bc5c2217760188395561-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337419966",
+    "name": "Jersey Estado Unidos Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_31697ca9-2743-49b9-a9c2-0b46a667c427_4134318_4287588-b73ec9fb2cbf2b0fe317760191391875-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_31697ca9-2743-49b9-a9c2-0b46a667c427_4134318_4287588-b73ec9fb2cbf2b0fe317760191391875-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337419966",
+    "name": "Jersey Estado Unidos Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_31697ca9-2743-49b9-a9c2-0b46a667c427_4134318_4287588-b73ec9fb2cbf2b0fe317760191391875-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_31697ca9-2743-49b9-a9c2-0b46a667c427_4134318_4287588-b73ec9fb2cbf2b0fe317760191391875-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342061351",
+    "name": "Jersey Marruecos Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162299406-1_f9j2rm4itcnbaly1-4f49ba90505449971b17788315903190-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162299406-1_f9j2rm4itcnbaly1-4f49ba90505449971b17788315903190-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342061351",
+    "name": "Jersey Marruecos Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162299406-1_f9j2rm4itcnbaly1-4f49ba90505449971b17788315903190-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162299406-1_f9j2rm4itcnbaly1-4f49ba90505449971b17788315903190-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337422999",
+    "name": "Jersey Holanda Países Bajos Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/c5ddeba14645-aa0e2f4349f1cbf76317760634684825-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/c5ddeba14645-aa0e2f4349f1cbf76317760634684825-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337422999",
+    "name": "Jersey Holanda Países Bajos Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/c5ddeba14645-aa0e2f4349f1cbf76317760634684825-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/c5ddeba14645-aa0e2f4349f1cbf76317760634684825-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337421447",
+    "name": "Jersey Inglaterra Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7f6e721d-c4b0-4211-9284-59b201e0bb2c_4134318_4287588-5344152161a87bdd4317760621660156-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7f6e721d-c4b0-4211-9284-59b201e0bb2c_4134318_4287588-5344152161a87bdd4317760621660156-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337421447",
+    "name": "Jersey Inglaterra Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7f6e721d-c4b0-4211-9284-59b201e0bb2c_4134318_4287588-5344152161a87bdd4317760621660156-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7f6e721d-c4b0-4211-9284-59b201e0bb2c_4134318_4287588-5344152161a87bdd4317760621660156-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337420513",
+    "name": "Jersey Canada Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0df8a251-b8bb-4029-8325-ca7fee3fbfc3_4134318_4287588-15ff444ccb141ff58c17760619911264-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0df8a251-b8bb-4029-8325-ca7fee3fbfc3_4134318_4287588-15ff444ccb141ff58c17760619911264-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337420513",
+    "name": "Jersey Canada Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0df8a251-b8bb-4029-8325-ca7fee3fbfc3_4134318_4287588-15ff444ccb141ff58c17760619911264-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0df8a251-b8bb-4029-8325-ca7fee3fbfc3_4134318_4287588-15ff444ccb141ff58c17760619911264-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544865",
+    "name": "Jersey Sudáfrica Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995184276-2_8bidn79asoicuveo-b3ffaf7975954e328417760164433767-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995184276-2_8bidn79asoicuveo-b3ffaf7975954e328417760164433767-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544865",
+    "name": "Jersey Sudáfrica Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995184276-2_8bidn79asoicuveo-b3ffaf7975954e328417760164433767-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995184276-2_8bidn79asoicuveo-b3ffaf7975954e328417760164433767-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-335875720",
+    "name": "Jersey Colombia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068821241480-2_jckezyb4jsquxgr6-b9ead8ac40e20bde6417759374030719-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068821241480-2_jckezyb4jsquxgr6-b9ead8ac40e20bde6417759374030719-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-335875720",
+    "name": "Jersey Colombia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068821241480-2_jckezyb4jsquxgr6-b9ead8ac40e20bde6417759374030719-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068821241480-2_jckezyb4jsquxgr6-b9ead8ac40e20bde6417759374030719-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-305622750",
+    "name": "Jersey Belgica Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815470001-1_jr6slrrcwd41qnkg-168f2635fcae50a08f17625675844510-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815470001-1_jr6slrrcwd41qnkg-168f2635fcae50a08f17625675844510-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-305622750",
+    "name": "Jersey Belgica Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815470001-1_jr6slrrcwd41qnkg-168f2635fcae50a08f17625675844510-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815470001-1_jr6slrrcwd41qnkg-168f2635fcae50a08f17625675844510-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-349706187",
+    "name": "Jersey para Niños Argentina Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_3036f4ab-1d32-410b-80ee-8c75946e6837_4134318_4287588-56f350b9effc44ac0017811190323778-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_3036f4ab-1d32-410b-80ee-8c75946e6837_4134318_4287588-56f350b9effc44ac0017811190323778-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-349706187",
+    "name": "Jersey para Niños Argentina Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_3036f4ab-1d32-410b-80ee-8c75946e6837_4134318_4287588-56f350b9effc44ac0017811190323778-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_3036f4ab-1d32-410b-80ee-8c75946e6837_4134318_4287588-56f350b9effc44ac0017811190323778-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344599544",
+    "name": "Jersey Alemania Visita Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815683128-1_yr5mhtoi8qicb0ze-a8d6d9747c54cd502017794979268884-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815683128-1_yr5mhtoi8qicb0ze-a8d6d9747c54cd502017794979268884-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344599544",
+    "name": "Jersey Alemania Visita Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815683128-1_yr5mhtoi8qicb0ze-a8d6d9747c54cd502017794979268884-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815683128-1_yr5mhtoi8qicb0ze-a8d6d9747c54cd502017794979268884-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337893237",
+    "name": "Jersey Escocia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_079d28b7-6e95-4629-8ac1-9d0b40331ebd_4134318_4287588-5460cf874d95dd8bfa17801210650967-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_079d28b7-6e95-4629-8ac1-9d0b40331ebd_4134318_4287588-5460cf874d95dd8bfa17801210650967-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337893237",
+    "name": "Jersey Escocia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_079d28b7-6e95-4629-8ac1-9d0b40331ebd_4134318_4287588-5460cf874d95dd8bfa17801210650967-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_079d28b7-6e95-4629-8ac1-9d0b40331ebd_4134318_4287588-5460cf874d95dd8bfa17801210650967-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337422187",
+    "name": "Jersey Croacia Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/39066d73c5be-13cc1678bb44bbf32017760634135280-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/39066d73c5be-13cc1678bb44bbf32017760634135280-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337422187",
+    "name": "Jersey Croacia Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/39066d73c5be-13cc1678bb44bbf32017760634135280-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/39066d73c5be-13cc1678bb44bbf32017760634135280-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337421077",
+    "name": "Jersey Uruguay Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7af75707-256f-411a-836d-50a2d2baa3a2_4134318_4287588-fa39052f060a9793ce17760620960531-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7af75707-256f-411a-836d-50a2d2baa3a2_4134318_4287588-fa39052f060a9793ce17760620960531-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337421077",
+    "name": "Jersey Uruguay Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7af75707-256f-411a-836d-50a2d2baa3a2_4134318_4287588-fa39052f060a9793ce17760620960531-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7af75707-256f-411a-836d-50a2d2baa3a2_4134318_4287588-fa39052f060a9793ce17760620960531-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344599267",
+    "name": "Jersey Alemania Local Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815728478-1_y0lmblov81znwpkq-06019d529f6484820817794978910308-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815728478-1_y0lmblov81znwpkq-06019d529f6484820817794978910308-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344599267",
+    "name": "Jersey Alemania Local Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815728478-1_y0lmblov81znwpkq-06019d529f6484820817794978910308-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815728478-1_y0lmblov81znwpkq-06019d529f6484820817794978910308-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342066299",
+    "name": "Jersey Ghana Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162330222-1_awtaczxusfzdbjii-94c2d3cb1490b380c017788317156942-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162330222-1_awtaczxusfzdbjii-94c2d3cb1490b380c017788317156942-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342066299",
+    "name": "Jersey Ghana Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162330222-1_awtaczxusfzdbjii-94c2d3cb1490b380c017788317156942-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162330222-1_awtaczxusfzdbjii-94c2d3cb1490b380c017788317156942-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342061785",
+    "name": "Jersey Senegal Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348302-1_mf1aaawlebnoyzlg-4397b3a988912ffe1e17788316119315-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348302-1_mf1aaawlebnoyzlg-4397b3a988912ffe1e17788316119315-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342061785",
+    "name": "Jersey Senegal Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348302-1_mf1aaawlebnoyzlg-4397b3a988912ffe1e17788316119315-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162348302-1_mf1aaawlebnoyzlg-4397b3a988912ffe1e17788316119315-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337893196",
+    "name": "Jersey España Portero Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815589390-1-df1bc9684ebc175d2217761512178607-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815589390-1-df1bc9684ebc175d2217761512178607-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337893196",
+    "name": "Jersey España Portero Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815589390-1-df1bc9684ebc175d2217761512178607-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815589390-1-df1bc9684ebc175d2217761512178607-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337420356",
+    "name": "Jersey Canada Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_e6d69e9f-387a-4534-9acb-5e1059803d3a_4134318_4287588-c652715b3e5fbdf8af17760619621982-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_e6d69e9f-387a-4534-9acb-5e1059803d3a_4134318_4287588-c652715b3e5fbdf8af17760619621982-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337420356",
+    "name": "Jersey Canada Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_e6d69e9f-387a-4534-9acb-5e1059803d3a_4134318_4287588-c652715b3e5fbdf8af17760619621982-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_e6d69e9f-387a-4534-9acb-5e1059803d3a_4134318_4287588-c652715b3e5fbdf8af17760619621982-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544788",
+    "name": "Jersey Sudáfrica Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995219084-2_yj3fkxdl5kj0okby-d0777b36f8e8d2b8be17760164221907-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995219084-2_yj3fkxdl5kj0okby-d0777b36f8e8d2b8be17760164221907-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544788",
+    "name": "Jersey Sudáfrica Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995219084-2_yj3fkxdl5kj0okby-d0777b36f8e8d2b8be17760164221907-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995219084-2_yj3fkxdl5kj0okby-d0777b36f8e8d2b8be17760164221907-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-304670965",
+    "name": "Balón Copa del Mundo Mexico-USA-Canada 2026 &quot;Trionda&quot; - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068811391447-2_2ujcrjcrgjiy9hfj-660bd7c4144284564817627347914205-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068811391447-2_2ujcrjcrgjiy9hfj-660bd7c4144284564817627347914205-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-304670965",
+    "name": "Balón Copa del Mundo Mexico-USA-Canada 2026 &quot;Trionda&quot; - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068811391447-2_2ujcrjcrgjiy9hfj-660bd7c4144284564817627347914205-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068811391447-2_2ujcrjcrgjiy9hfj-660bd7c4144284564817627347914205-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-358759785",
+    "name": "Jersey Inglaterra Local Edición Especial Cuartos de Final - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7e744f59-0263-4b65-a4b0-1d9ed0b7b578_4134318_4287588-bd28790ed64adbbf9717855362702039-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7e744f59-0263-4b65-a4b0-1d9ed0b7b578_4134318_4287588-bd28790ed64adbbf9717855362702039-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-358759785",
+    "name": "Jersey Inglaterra Local Edición Especial Cuartos de Final - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7e744f59-0263-4b65-a4b0-1d9ed0b7b578_4134318_4287588-bd28790ed64adbbf9717855362702039-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7e744f59-0263-4b65-a4b0-1d9ed0b7b578_4134318_4287588-bd28790ed64adbbf9717855362702039-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344597689",
+    "name": "Jersey Argentina Local Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815541305-1_u0fma1wdipjxvv1x-9b0c64545432b645e117794976690282-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815541305-1_u0fma1wdipjxvv1x-9b0c64545432b645e117794976690282-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344597689",
+    "name": "Jersey Argentina Local Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815541305-1_u0fma1wdipjxvv1x-9b0c64545432b645e117794976690282-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815541305-1_u0fma1wdipjxvv1x-9b0c64545432b645e117794976690282-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344597188",
+    "name": "Jersey Portugal Visita Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162120649-1_bsocc6tvey8d8iul-69975d50b3ab390bb317794976408616-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162120649-1_bsocc6tvey8d8iul-69975d50b3ab390bb317794976408616-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344597188",
+    "name": "Jersey Portugal Visita Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162120649-1_bsocc6tvey8d8iul-69975d50b3ab390bb317794976408616-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162120649-1_bsocc6tvey8d8iul-69975d50b3ab390bb317794976408616-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337423814",
+    "name": "Jersey Australia Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/fa2c800cfe6e-f231401fbd5dd91ce217760635425993-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/fa2c800cfe6e-f231401fbd5dd91ce217760635425993-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337423814",
+    "name": "Jersey Australia Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/fa2c800cfe6e-f231401fbd5dd91ce217760635425993-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/fa2c800cfe6e-f231401fbd5dd91ce217760635425993-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-336544935",
+    "name": "Jersey Arabia Saudita Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575492-1_qelnetygts0j6jio-1-ee99487d5765bb124717760168054579-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575492-1_qelnetygts0j6jio-1-ee99487d5765bb124717760168054579-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-336544935",
+    "name": "Jersey Arabia Saudita Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575492-1_qelnetygts0j6jio-1-ee99487d5765bb124717760168054579-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575492-1_qelnetygts0j6jio-1-ee99487d5765bb124717760168054579-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-357174965",
+    "name": "Jersey Argentina Visita Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000114564-6d3f49d5498e037ef317847862167813-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000114564-6d3f49d5498e037ef317847862167813-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-357174965",
+    "name": "Jersey Argentina Visita Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000114564-6d3f49d5498e037ef317847862167813-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000114564-6d3f49d5498e037ef317847862167813-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-347872759",
+    "name": "Jersey para Niños Inglaterra Local Copa del Mundo 2026 2026/2027 - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_1942b56c-51ff-4b91-8771-18eee7f3d6cf_4134318_4287588-0d5453e2dce69567fb17803532491491-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_1942b56c-51ff-4b91-8771-18eee7f3d6cf_4134318_4287588-0d5453e2dce69567fb17803532491491-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-347872759",
+    "name": "Jersey para Niños Inglaterra Local Copa del Mundo 2026 2026/2027 - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_1942b56c-51ff-4b91-8771-18eee7f3d6cf_4134318_4287588-0d5453e2dce69567fb17803532491491-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_1942b56c-51ff-4b91-8771-18eee7f3d6cf_4134318_4287588-0d5453e2dce69567fb17803532491491-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-342063837",
+    "name": "Jersey Costa de Marfil Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162275622-1_ejnn8ljsffm6agx0-a6dd963cc79d447d5a17788316592587-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162275622-1_ejnn8ljsffm6agx0-a6dd963cc79d447d5a17788316592587-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-342063837",
+    "name": "Jersey Costa de Marfil Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162275622-1_ejnn8ljsffm6agx0-a6dd963cc79d447d5a17788316592587-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162275622-1_ejnn8ljsffm6agx0-a6dd963cc79d447d5a17788316592587-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337893120",
+    "name": "Jersey Alemania Portero Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815709064-1_8fskfigcyxyqfbv3-84614c6b661115a7a617761511639385-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815709064-1_8fskfigcyxyqfbv3-84614c6b661115a7a617761511639385-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337893120",
+    "name": "Jersey Alemania Portero Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815709064-1_8fskfigcyxyqfbv3-84614c6b661115a7a617761511639385-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815709064-1_8fskfigcyxyqfbv3-84614c6b661115a7a617761511639385-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337426816",
+    "name": "Jersey Mexico Alternativa - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/screenshot_20260412_175041_instagram-bc4c1116a618a50bf517760386691597-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/screenshot_20260412_175041_instagram-bc4c1116a618a50bf517760386691597-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337426816",
+    "name": "Jersey Mexico Alternativa - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/screenshot_20260412_175041_instagram-bc4c1116a618a50bf517760386691597-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/screenshot_20260412_175041_instagram-bc4c1116a618a50bf517760386691597-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-305620775",
+    "name": "Jersey Mexico Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000196863-83cec9c8febea807b917624911547986-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000196863-83cec9c8febea807b917624911547986-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-305620775",
+    "name": "Jersey Mexico Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000196863-83cec9c8febea807b917624911547986-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000196863-83cec9c8febea807b917624911547986-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-335875944",
+    "name": "Jersey Mexico Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814696631-1_xwy9z6ocnah3pdbt-1-452101a4b5db1f881a17760158839463-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814696631-1_xwy9z6ocnah3pdbt-1-452101a4b5db1f881a17760158839463-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-335875944",
+    "name": "Jersey Mexico Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814696631-1_xwy9z6ocnah3pdbt-1-452101a4b5db1f881a17760158839463-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814696631-1_xwy9z6ocnah3pdbt-1-452101a4b5db1f881a17760158839463-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-351371404",
+    "name": "Jersey Mexico Alternativa Edición Especial Juego - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000101441-2d28702582cb0d200617818353205084-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000101441-2d28702582cb0d200617818353205084-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-351371404",
+    "name": "Jersey Mexico Alternativa Edición Especial Juego - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000101441-2d28702582cb0d200617818353205084-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000101441-2d28702582cb0d200617818353205084-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-352388436",
+    "name": "Jersey Mexico Visita Edición Especial Juego - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_35359253-3d3b-4b41-bc8e-822c14c6a5f4_4134318_4287588-246fbf15768312c2a217823582748470-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_35359253-3d3b-4b41-bc8e-822c14c6a5f4_4134318_4287588-246fbf15768312c2a217823582748470-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-352388436",
+    "name": "Jersey Mexico Visita Edición Especial Juego - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_35359253-3d3b-4b41-bc8e-822c14c6a5f4_4134318_4287588-246fbf15768312c2a217823582748470-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_35359253-3d3b-4b41-bc8e-822c14c6a5f4_4134318_4287588-246fbf15768312c2a217823582748470-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337422593",
+    "name": "Jersey Noruega Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_fa3538d8-1c9b-4361-9761-9bbeb26d7793_4134318_4287588-f16a878a812eb917f617760622011852-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_fa3538d8-1c9b-4361-9761-9bbeb26d7793_4134318_4287588-f16a878a812eb917f617760622011852-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337422593",
+    "name": "Jersey Noruega Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_fa3538d8-1c9b-4361-9761-9bbeb26d7793_4134318_4287588-f16a878a812eb917f617760622011852-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_fa3538d8-1c9b-4361-9761-9bbeb26d7793_4134318_4287588-f16a878a812eb917f617760622011852-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337422772",
+    "name": "Jersey Noruega Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/820c2f365a9c-f6726efdf05333648017760634407821-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/820c2f365a9c-f6726efdf05333648017760634407821-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337422772",
+    "name": "Jersey Noruega Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/820c2f365a9c-f6726efdf05333648017760634407821-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/820c2f365a9c-f6726efdf05333648017760634407821-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-338426822",
+    "name": "Jersey Mujer Mexico Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815555951-1_9tdd1dhtsty25os9-21191fbdd5ac4d4eb317763002265943-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815555951-1_9tdd1dhtsty25os9-21191fbdd5ac4d4eb317763002265943-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-338426822",
+    "name": "Jersey Mujer Mexico Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815555951-1_9tdd1dhtsty25os9-21191fbdd5ac4d4eb317763002265943-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815555951-1_9tdd1dhtsty25os9-21191fbdd5ac4d4eb317763002265943-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-352782105",
+    "name": "Jersey Mexico Alternativa Manga Larga Edición Especial Juego - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dff280fb-57ec-43e5-8667-f80c94d6f6f3_4134318_4287588-649558250b0bc63c7f17825172246201-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dff280fb-57ec-43e5-8667-f80c94d6f6f3_4134318_4287588-649558250b0bc63c7f17825172246201-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-352782105",
+    "name": "Jersey Mexico Alternativa Manga Larga Edición Especial Juego - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dff280fb-57ec-43e5-8667-f80c94d6f6f3_4134318_4287588-649558250b0bc63c7f17825172246201-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dff280fb-57ec-43e5-8667-f80c94d6f6f3_4134318_4287588-649558250b0bc63c7f17825172246201-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-335875901",
+    "name": "Jersey España Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819025405-1_fk0a6doq9o7gxric-1-81130b3dbb7bd9904517760157899119-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819025405-1_fk0a6doq9o7gxric-1-81130b3dbb7bd9904517760157899119-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-335875901",
+    "name": "Jersey España Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819025405-1_fk0a6doq9o7gxric-1-81130b3dbb7bd9904517760157899119-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819025405-1_fk0a6doq9o7gxric-1-81130b3dbb7bd9904517760157899119-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-305622573",
+    "name": "Jersey Japon Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815633871-1_fkawp7mcw595yk9k-fbcd2812d8de7a523417625675380937-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815633871-1_fkawp7mcw595yk9k-fbcd2812d8de7a523417625675380937-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-305622573",
+    "name": "Jersey Japon Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815633871-1_fkawp7mcw595yk9k-fbcd2812d8de7a523417625675380937-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815633871-1_fkawp7mcw595yk9k-fbcd2812d8de7a523417625675380937-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344595444",
+    "name": "Jersey Mexico Alternativa Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814495593-1_phdva6uokrx45usa-3f705cc2e04be6824917794975748484-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814495593-1_phdva6uokrx45usa-3f705cc2e04be6824917794975748484-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344595444",
+    "name": "Jersey Mexico Alternativa Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814495593-1_phdva6uokrx45usa-3f705cc2e04be6824917794975748484-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068814495593-1_phdva6uokrx45usa-3f705cc2e04be6824917794975748484-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-335875728",
+    "name": "Jersey Japon Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887738-2_miwmcq4tdr3d0nsa-03f59b373044782cbb17759375068304-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887738-2_miwmcq4tdr3d0nsa-03f59b373044782cbb17759375068304-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-335875728",
+    "name": "Jersey Japon Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887738-2_miwmcq4tdr3d0nsa-03f59b373044782cbb17759375068304-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887738-2_miwmcq4tdr3d0nsa-03f59b373044782cbb17759375068304-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337893184",
+    "name": "Jersey Mexico Portero Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/grn4scuo_tln2-0549c4edf8fc5316b117761512051924-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/grn4scuo_tln2-0549c4edf8fc5316b117761512051924-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337893184",
+    "name": "Jersey Mexico Portero Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/grn4scuo_tln2-0549c4edf8fc5316b117761512051924-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/grn4scuo_tln2-0549c4edf8fc5316b117761512051924-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344594881",
+    "name": "Jersey Mexico Visita Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000099327-fd1ac46e1f3bf4cbcf17814198890236-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000099327-fd1ac46e1f3bf4cbcf17814198890236-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344594881",
+    "name": "Jersey Mexico Visita Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000099327-fd1ac46e1f3bf4cbcf17814198890236-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000099327-fd1ac46e1f3bf4cbcf17814198890236-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-343718136",
+    "name": "Jersey Mujer Mexico Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7c21d031-cc0b-4d15-916a-15e70cd61d27_4134318_4287588-a74ea0097dc449f27017787189129655-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7c21d031-cc0b-4d15-916a-15e70cd61d27_4134318_4287588-a74ea0097dc449f27017787189129655-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-343718136",
+    "name": "Jersey Mujer Mexico Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7c21d031-cc0b-4d15-916a-15e70cd61d27_4134318_4287588-a74ea0097dc449f27017787189129655-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_7c21d031-cc0b-4d15-916a-15e70cd61d27_4134318_4287588-a74ea0097dc449f27017787189129655-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337423729",
+    "name": "Jersey Corea del Sur Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_46a46e6e-32d7-4915-9f25-4d2a2e20a4b4_4134318_4287588-7dddc8b0de8de4da0717760622385155-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_46a46e6e-32d7-4915-9f25-4d2a2e20a4b4_4134318_4287588-7dddc8b0de8de4da0717760622385155-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337423729",
+    "name": "Jersey Corea del Sur Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_46a46e6e-32d7-4915-9f25-4d2a2e20a4b4_4134318_4287588-7dddc8b0de8de4da0717760622385155-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_46a46e6e-32d7-4915-9f25-4d2a2e20a4b4_4134318_4287588-7dddc8b0de8de4da0717760622385155-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337423427",
+    "name": "Jersey Corea del Sur Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/b9133dde29a3-f57e85d117e2ada8df17760635277360-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/b9133dde29a3-f57e85d117e2ada8df17760635277360-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337423427",
+    "name": "Jersey Corea del Sur Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/b9133dde29a3-f57e85d117e2ada8df17760635277360-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/b9133dde29a3-f57e85d117e2ada8df17760635277360-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-347926678",
+    "name": "Jersey Mujer Mexico Alternativa - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_26bc2b04-f392-48a2-a12c-49dbdbc796ef_4134318_4287588-ce9911d3583106720d17803708663774-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_26bc2b04-f392-48a2-a12c-49dbdbc796ef_4134318_4287588-ce9911d3583106720d17803708663774-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-347926678",
+    "name": "Jersey Mujer Mexico Alternativa - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_26bc2b04-f392-48a2-a12c-49dbdbc796ef_4134318_4287588-ce9911d3583106720d17803708663774-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_26bc2b04-f392-48a2-a12c-49dbdbc796ef_4134318_4287588-ce9911d3583106720d17803708663774-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-305622247",
+    "name": "Jersey España Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815662215-1-3b74d3cef166f3cfd617752918371625-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815662215-1-3b74d3cef166f3cfd617752918371625-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-305622247",
+    "name": "Jersey España Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815662215-1-3b74d3cef166f3cfd617752918371625-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815662215-1-3b74d3cef166f3cfd617752918371625-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337421555",
+    "name": "Jersey Francia Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/cb4e5b6ac073-0c0b28984b59ca9d1917760633839299-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/cb4e5b6ac073-0c0b28984b59ca9d1917760633839299-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337421555",
+    "name": "Jersey Francia Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/cb4e5b6ac073-0c0b28984b59ca9d1917760633839299-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/cb4e5b6ac073-0c0b28984b59ca9d1917760633839299-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-353483111",
+    "name": "Jersey Mexico Local Edición Especial 16vos de Final - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000106059-7c44185b9ddda2291817829497048031-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000106059-7c44185b9ddda2291817829497048031-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-353483111",
+    "name": "Jersey Mexico Local Edición Especial 16vos de Final - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000106059-7c44185b9ddda2291817829497048031-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000106059-7c44185b9ddda2291817829497048031-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-354112627",
+    "name": "Jersey Mexico Local Edición Especial 8vos de Final - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000108313-e1389a402751bef20717834097376005-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000108313-e1389a402751bef20717834097376005-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-354112627",
+    "name": "Jersey Mexico Local Edición Especial 8vos de Final - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000108313-e1389a402751bef20717834097376005-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000108313-e1389a402751bef20717834097376005-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344592060",
+    "name": "Jersey Mexico Local Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815503211-1_pdipf1fojkv2mr16-a419dedc4bcd9f96f917794974803892-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815503211-1_pdipf1fojkv2mr16-a419dedc4bcd9f96f917794974803892-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344592060",
+    "name": "Jersey Mexico Local Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815503211-1_pdipf1fojkv2mr16-a419dedc4bcd9f96f917794974803892-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815503211-1_pdipf1fojkv2mr16-a419dedc4bcd9f96f917794974803892-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-305621992",
+    "name": "Jersey Argentina Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575959-2_z4enfcdtgsvq3zje-d3fc05d53608014a0317625674388913-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575959-2_z4enfcdtgsvq3zje-d3fc05d53608014a0317625674388913-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-305621992",
+    "name": "Jersey Argentina Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575959-2_z4enfcdtgsvq3zje-d3fc05d53608014a0317625674388913-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575959-2_z4enfcdtgsvq3zje-d3fc05d53608014a0317625674388913-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-347867319",
+    "name": "Jersey para Niños Noruega Local Copa del Mundo 2026 2026/2027 - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d65bcb68-7774-4d08-bff2-5518df07b431_4134318_4287588-aeae1ccbb17e321c6a17803531565456-480-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d65bcb68-7774-4d08-bff2-5518df07b431_4134318_4287588-aeae1ccbb17e321c6a17803531565456-480-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-347867319",
+    "name": "Jersey para Niños Noruega Local Copa del Mundo 2026 2026/2027 - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d65bcb68-7774-4d08-bff2-5518df07b431_4134318_4287588-aeae1ccbb17e321c6a17803531565456-480-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d65bcb68-7774-4d08-bff2-5518df07b431_4134318_4287588-aeae1ccbb17e321c6a17803531565456-480-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-335875694",
+    "name": "Jersey Belgica Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819017004-1_er4rwnjmgmqtp20b-bf929e5e10772e36f017759371356842-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819017004-1_er4rwnjmgmqtp20b-bf929e5e10772e36f017759371356842-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-335875694",
+    "name": "Jersey Belgica Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819017004-1_er4rwnjmgmqtp20b-bf929e5e10772e36f017759371356842-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819017004-1_er4rwnjmgmqtp20b-bf929e5e10772e36f017759371356842-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-305622083",
+    "name": "Jersey Alemania Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815701402-1_w4ivtzfunkaipckz-6bf2dfa67e8841df5117625674698798-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815701402-1_w4ivtzfunkaipckz-6bf2dfa67e8841df5117625674698798-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-305622083",
+    "name": "Jersey Alemania Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815701402-1_w4ivtzfunkaipckz-6bf2dfa67e8841df5117625674698798-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815701402-1_w4ivtzfunkaipckz-6bf2dfa67e8841df5117625674698798-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337420837",
+    "name": "Jersey Brasil Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_b19a8387-635c-4da8-bb26-cade01cbc690_4134318_4287588-5b68eac81e85791c0817760620254024-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_b19a8387-635c-4da8-bb26-cade01cbc690_4134318_4287588-5b68eac81e85791c0817760620254024-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337420837",
+    "name": "Jersey Brasil Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_b19a8387-635c-4da8-bb26-cade01cbc690_4134318_4287588-5b68eac81e85791c0817760620254024-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_b19a8387-635c-4da8-bb26-cade01cbc690_4134318_4287588-5b68eac81e85791c0817760620254024-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-335875835",
+    "name": "Jersey Argentina Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819094302-1_ybl5whkdben8ibqb-1-8952fc3aa1acbdd00217760154661145-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819094302-1_ybl5whkdben8ibqb-1-8952fc3aa1acbdd00217760154661145-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-335875835",
+    "name": "Jersey Argentina Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819094302-1_ybl5whkdben8ibqb-1-8952fc3aa1acbdd00217760154661145-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819094302-1_ybl5whkdben8ibqb-1-8952fc3aa1acbdd00217760154661145-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-305622681",
+    "name": "Jersey Colombia Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815524346-1_n5lh9lk6dgsnlpya-929c7f1480b7bbf67517625675519826-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815524346-1_n5lh9lk6dgsnlpya-929c7f1480b7bbf67517625675519826-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-305622681",
+    "name": "Jersey Colombia Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815524346-1_n5lh9lk6dgsnlpya-929c7f1480b7bbf67517625675519826-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815524346-1_n5lh9lk6dgsnlpya-929c7f1480b7bbf67517625675519826-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-353935031",
+    "name": "Jersey Cabo Verde Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0d00db23-99e4-499b-8042-d4d6d7d49910_4134318_4287588-ab91aa6a8f34a6552717831319657842-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0d00db23-99e4-499b-8042-d4d6d7d49910_4134318_4287588-ab91aa6a8f34a6552717831319657842-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-353935031",
+    "name": "Jersey Cabo Verde Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0d00db23-99e4-499b-8042-d4d6d7d49910_4134318_4287588-ab91aa6a8f34a6552717831319657842-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_0d00db23-99e4-499b-8042-d4d6d7d49910_4134318_4287588-ab91aa6a8f34a6552717831319657842-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-344598781",
+    "name": "Jersey España Visita Manga Larga - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819052555-1_5vbta151f5spnhtk-bf32b9b92e7d9bf28417794978316245-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819052555-1_5vbta151f5spnhtk-bf32b9b92e7d9bf28417794978316245-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-344598781",
+    "name": "Jersey España Visita Manga Larga - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819052555-1_5vbta151f5spnhtk-bf32b9b92e7d9bf28417794978316245-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068819052555-1_5vbta151f5spnhtk-bf32b9b92e7d9bf28417794978316245-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337421318",
+    "name": "Jersey Inglaterra Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_82efbf4f-be39-46ba-92d8-37ffcf50841a_4134318_4287588-e693324b8e71775d6817760621341158-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_82efbf4f-be39-46ba-92d8-37ffcf50841a_4134318_4287588-e693324b8e71775d6817760621341158-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337421318",
+    "name": "Jersey Inglaterra Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_82efbf4f-be39-46ba-92d8-37ffcf50841a_4134318_4287588-e693324b8e71775d6817760621341158-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_82efbf4f-be39-46ba-92d8-37ffcf50841a_4134318_4287588-e693324b8e71775d6817760621341158-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337422861",
+    "name": "Jersey Holanda Países Bajos Local - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/9e507fd2f088-09397df8060607db8f17760634543075-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/9e507fd2f088-09397df8060607db8f17760634543075-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337422861",
+    "name": "Jersey Holanda Países Bajos Local - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/9e507fd2f088-09397df8060607db8f17760634543075-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/9e507fd2f088-09397df8060607db8f17760634543075-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-fan-337421796",
+    "name": "Jersey Francia Visita - Versión Fan",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/ee0492ef693a-4dc3d467bf7015bfc517760634015294-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/ee0492ef693a-4dc3d467bf7015bfc517760634015294-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "rbf-jugador-337421796",
+    "name": "Jersey Francia Visita - Versión Jugador",
+    "category": "selecciones",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/ee0492ef693a-4dc3d467bf7015bfc517760634015294-50-0.webp",
+    "gallery": [
+      "//acdn-us.mitiendanube.com/stores/004/134/318/products/ee0492ef693a-4dc3d467bf7015bfc517760634015294-50-0.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  }
+
 ];
 
 const STOCK_PRODUCTS = [
