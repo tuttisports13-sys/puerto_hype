@@ -169480,8 +169480,10 @@ const AppState = {
 };
 
 // Inicialización cuando el DOM está listo
+
 // --- AUTO-CATEGORIZATION & SIZES FOR PREORDER ---
-const streetwearBrands = ['Hellstar', 'Godspeed', 'Gallery Dept', 'Essentials', 'Stussy', 'Bape', 'Amiri', 'Boss', 'Denim Tears', 'Sp5der', 'Purple Brand', 'Acne Studios', 'Off White', 'Duaa', 'BKYS', 'First Row', 'Majestik', 'Life Hustle', 'Supply', 'Rough Play', 'Harmony', 'Saint', 'Casa Blanca', 'Balenciaga', 'Galazgod', 'Nike', 'Adidas', 'Mixed Emotion', 'Valley', 'Alo', 'Van'];
+const streetwearBrands = ['Hellstar', 'Godspeed', 'Gallery Dept', 'Essentials', 'Stussy', 'Bape', 'Boss', 'Sp5der', 'Acne Studios', 'Off White', 'Duaa', 'Majestik', 'Life Hustle', 'Supply', 'Rough Play', 'Harmony', 'Saint', 'Casa Blanca', 'Balenciaga', 'Galazgod', 'Nike', 'Adidas', 'Mixed Emotion', 'Valley', 'Alo', 'Van'];
+const jeansBrands = ['Purple Brand', 'Denim Tears', 'Amiri', 'First Row', 'BKYS'];
 const sandalBrands = ['Crocs']; 
 const backpackBrands = ['Sprayground'];
 const jewelryBrands = ['Van Cleef', 'Chrome Hearts'];
@@ -169498,6 +169500,10 @@ PREORDER_PRODUCTS.forEach(p => {
   } else if (jewelryBrands.includes(p.brand) || nameLow.includes('van cleef') || p.brand.toLowerCase().includes('van cleef')) {
     p.category = 'pulseras';
     p.customizable = false;
+  } else if (jeansBrands.includes(p.brand)) {
+    p.category = 'jeans';
+    p.sizes = ['28', '30', '32', '34', '36'];
+    p.customizable = true;
   } else if (streetwearBrands.includes(p.brand)) {
     p.category = 'playeras';
     p.sizes = ['S', 'M', 'L', 'XL'];
