@@ -20,10 +20,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/camiseta-RCD-Espanyol-segunda-equipacion-2024-2025.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/11/camiseta-RCD-Espanyol-segunda-equipacion-2024-2025.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/11/camiseta-RCD-Espanyol-segunda-equipacion-2024-2025.jpg"
   ]
@@ -34,10 +35,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/02/camiseta-al-nassr-blanca-wpp1707338522506.jpeg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/02/camiseta-al-nassr-blanca-wpp1707338522506.jpeg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/02/camiseta-al-nassr-blanca-wpp1707338522506.jpeg"
   ]
@@ -48,10 +50,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-chicago-bulls-roja.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-chicago-bulls-roja.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-chicago-bulls-roja.jpg"
   ]
@@ -62,10 +65,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-atlanta-amarilla-1-wpp1707886147666.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-atlanta-amarilla-1-wpp1707886147666.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-atlanta-amarilla-1-wpp1707886147666.jpg"
   ]
@@ -76,10 +80,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-blanca.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-blanca.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-blanca.jpg"
   ]
@@ -90,10 +95,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-morada.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-morada.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-morada.jpg"
   ]
@@ -104,10 +110,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-negra-y-dorada-wpp1708050050516.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-negra-y-dorada-wpp1708050050516.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-raptors-negra-y-dorada-wpp1708050050516.jpg"
   ]
@@ -118,10 +125,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-jazz-degradado-naranja.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-jazz-degradado-naranja.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-jazz-degradado-naranja.jpg"
   ]
@@ -132,10 +140,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-pistons-azul.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-pistons-azul.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-pistons-azul.jpg"
   ]
@@ -146,10 +155,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-negra-75-aniversario-wpp1708539909518.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-negra-75-aniversario-wpp1708539909518.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-negra-75-aniversario-wpp1708539909518.jpg"
   ]
@@ -160,10 +170,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-negra-city.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-negra-city.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-negra-city.jpg"
   ]
@@ -174,10 +185,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-blanca.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-blanca.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-blanca.jpg"
   ]
@@ -188,10 +200,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-morada.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-morada.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-kings-morada.jpg"
   ]
@@ -202,10 +215,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-oklahoma-city-blanca.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-oklahoma-city-blanca.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-oklahoma-city-blanca.jpg"
   ]
@@ -216,10 +230,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-gris.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-gris.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-gris.jpg"
   ]
@@ -230,10 +245,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-blanca.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-blanca.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-blanca.jpg"
   ]
@@ -244,10 +260,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-azul-city-wpp1707147859441.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-azul-city-wpp1707147859441.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-hornets-azul-city-wpp1707147859441.jpg"
   ]
@@ -258,10 +275,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-negra-y-morada.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-negra-y-morada.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-negra-y-morada.jpg"
   ]
@@ -272,10 +290,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-verde-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-verde-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-verde-1.jpg"
   ]
@@ -286,10 +305,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-blanco.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-blanco.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-blanco.jpg"
   ]
@@ -300,10 +320,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-azul.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-azul.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-azul.jpg"
   ]
@@ -314,10 +335,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-celeste-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-celeste-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-timberwolves-celeste-1.jpg"
   ]
@@ -328,10 +350,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-retro-timberwolves.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-retro-timberwolves.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-retro-timberwolves.jpg"
   ]
@@ -342,10 +365,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-rockets-azul.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-rockets-azul.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-rockets-azul.jpg"
   ]
@@ -356,10 +380,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cleveland-gris.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cleveland-gris.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cleveland-gris.jpg"
   ]
@@ -370,10 +395,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cleverland-cavaliers-azul.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cleverland-cavaliers-azul.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cleverland-cavaliers-azul.jpg"
   ]
@@ -384,10 +410,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cavaliers-rojo.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cavaliers-rojo.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-cavaliers-rojo.jpg"
   ]
@@ -398,10 +425,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/Camiseta-Azul-Marino-de-los-Knicks.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/Camiseta-Azul-Marino-de-los-Knicks.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/Camiseta-Azul-Marino-de-los-Knicks.jpg"
   ]
@@ -412,10 +440,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-new-york-knicks-azul.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-new-york-knicks-azul.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-new-york-knicks-azul.jpg"
   ]
@@ -426,10 +455,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-new-york-knicks-wpp1708709107100.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-new-york-knicks-wpp1708709107100.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-new-york-knicks-wpp1708709107100.jpg"
   ]
@@ -440,10 +470,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-blanca-Bucks-wpp1707797081458.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-blanca-Bucks-wpp1707797081458.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-blanca-Bucks-wpp1707797081458.jpg"
   ]
@@ -454,10 +485,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-Memphis-grizzlies.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-Memphis-grizzlies.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-Memphis-grizzlies.jpg"
   ]
@@ -468,10 +500,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-miami-heat-wpp1708490050333.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-miami-heat-wpp1708490050333.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-negra-miami-heat-wpp1708490050333.jpg"
   ]
@@ -482,10 +515,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-blanca-miami-heat.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-blanca-miami-heat.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2024/01/camiseta-blanca-miami-heat.jpg"
   ]
@@ -496,10 +530,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-verde-dorado-wpp1707971783225.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-verde-dorado-wpp1707971783225.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-verde-dorado-wpp1707971783225.jpg"
   ]
@@ -510,10 +545,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-gris-wpp1706993337534.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-gris-wpp1706993337534.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-gris-wpp1706993337534.jpg"
   ]
@@ -524,10 +560,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-verde.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-verde.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-boston-celtics-verde.jpg"
   ]
@@ -538,10 +575,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-negra-edicon-mexicana.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-negra-edicon-mexicana.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-negra-edicon-mexicana.jpg"
   ]
@@ -552,10 +590,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-gris.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-gris.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-gris.jpg"
   ]
@@ -566,10 +605,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-negra-wpp1707971112357.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-negra-wpp1707971112357.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-golden-state-warriors-negra-wpp1707971112357.jpg"
   ]
@@ -580,10 +620,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/Camiseta-Brooklyn-Nets-gris-wpp1708571472411.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/Camiseta-Brooklyn-Nets-gris-wpp1708571472411.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/Camiseta-Brooklyn-Nets-gris-wpp1708571472411.jpg"
   ]
@@ -594,10 +635,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-all-star-amarillo.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-all-star-amarillo.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-all-star-amarillo.jpg"
   ]
@@ -608,10 +650,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-negro-wpp1708382603872.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-negro-wpp1708382603872.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-negro-wpp1708382603872.jpg"
   ]
@@ -622,10 +665,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-rojo.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-rojo.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-rojo.jpg"
   ]
@@ -636,10 +680,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-celeste-wpp1708216794310.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-celeste-wpp1708216794310.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-chicago-bulls-celeste-wpp1708216794310.jpg"
   ]
@@ -650,10 +695,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-blanco-retro-night.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-blanco-retro-night.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-blanco-retro-night.jpg"
   ]
@@ -664,10 +710,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-celeste.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-celeste.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-celeste.jpg"
   ]
@@ -678,10 +725,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-blanca-wpp1706963593580.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-blanca-wpp1706963593580.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-blanca-wpp1706963593580.jpg"
   ]
@@ -692,10 +740,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-westbrook.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-westbrook.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/12/camiseta-lakers-westbrook.jpg"
   ]
@@ -706,10 +755,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2023/02/camiseta-lakers-kobe-bryant.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2023/02/camiseta-lakers-kobe-bryant.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2023/02/camiseta-lakers-kobe-bryant.jpg"
   ]
@@ -720,10 +770,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Washington-Wizards-White-Edition-adelante.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Washington-Wizards-White-Edition-adelante.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Washington-Wizards-White-Edition-adelante.jpg"
   ]
@@ -734,10 +785,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Washington-Wizards-Red-Edition-adelante.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Washington-Wizards-Red-Edition-adelante.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Washington-Wizards-Red-Edition-adelante.jpg"
   ]
@@ -748,10 +800,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Los-Angeles-Clippers-City-Edition-Blue-pecho.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Los-Angeles-Clippers-City-Edition-Blue-pecho.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Los-Angeles-Clippers-City-Edition-Blue-pecho.jpg"
   ]
@@ -762,10 +815,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Boston-Celtics-Teltes-City-Edition-Green.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Boston-Celtics-Teltes-City-Edition-Green.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2022/04/Camiseta-Boston-Celtics-Teltes-City-Edition-Green.jpg"
   ]
@@ -776,10 +830,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Memphis-Grizzlies-City-Edition-Royal-Blue-9-wpp1707946015426.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Memphis-Grizzlies-City-Edition-Royal-Blue-9-wpp1707946015426.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Memphis-Grizzlies-City-Edition-Royal-Blue-9-wpp1707946015426.jpg"
   ]
@@ -790,10 +845,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Spurs-City-Edition-White-16-wpp1708443896191.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Spurs-City-Edition-White-16-wpp1708443896191.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Spurs-City-Edition-White-16-wpp1708443896191.jpg"
   ]
@@ -804,10 +860,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Detroit-Pistons-75th-Anniversary-City-Edition-White-23.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Detroit-Pistons-75th-Anniversary-City-Edition-White-23.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Detroit-Pistons-75th-Anniversary-City-Edition-White-23.jpg"
   ]
@@ -818,10 +875,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Chicago-Bulls-75th-Anniversary-White-edition-1-wpp1708214648877.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Chicago-Bulls-75th-Anniversary-White-edition-1-wpp1708214648877.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Chicago-Bulls-75th-Anniversary-White-edition-1-wpp1708214648877.jpg"
   ]
@@ -832,10 +890,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-City-Edition-White-and-Green-9.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-City-Edition-White-and-Green-9.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-City-Edition-White-and-Green-9.jpg"
   ]
@@ -846,10 +905,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Brooklyn-Nets-75th-Anniversary-City-Edition-Royal-Blue-14.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Brooklyn-Nets-75th-Anniversary-City-Edition-Royal-Blue-14.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Brooklyn-Nets-75th-Anniversary-City-Edition-Royal-Blue-14.jpg"
   ]
@@ -860,10 +920,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Brooklyn-Nets-75th-Anniversary-City-Edition-Royal-Blue-11.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Brooklyn-Nets-75th-Anniversary-City-Edition-Royal-Blue-11.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Brooklyn-Nets-75th-Anniversary-City-Edition-Royal-Blue-11.jpg"
   ]
@@ -874,10 +935,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Los-Angeles-Lakers-75th-Anniversary-City-Edition-Purple-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Los-Angeles-Lakers-75th-Anniversary-City-Edition-Purple-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Los-Angeles-Lakers-75th-Anniversary-City-Edition-Purple-1.jpg"
   ]
@@ -888,10 +950,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Sacramento-Kings-Blue-Edition-1-wpp1708477366882.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Sacramento-Kings-Blue-Edition-1-wpp1708477366882.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Sacramento-Kings-Blue-Edition-1-wpp1708477366882.jpg"
   ]
@@ -902,10 +965,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Sacramento-Kings-City-Edition-Black-6.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Sacramento-Kings-City-Edition-Black-6.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Sacramento-Kings-City-Edition-Black-6.jpg"
   ]
@@ -916,10 +980,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Cavaliers-Cavaliers-White-Edition-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Cavaliers-Cavaliers-White-Edition-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Cavaliers-Cavaliers-White-Edition-1.jpg"
   ]
@@ -930,10 +995,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/camiseta-atlanta-blanca.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/camiseta-atlanta-blanca.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/camiseta-atlanta-blanca.jpg"
   ]
@@ -944,10 +1010,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/camiseta-atlanta-roja.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/camiseta-atlanta-roja.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/camiseta-atlanta-roja.jpg"
   ]
@@ -958,10 +1025,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Nuggets-Navy-Blue-Edition-11.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Nuggets-Navy-Blue-Edition-11.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Nuggets-Navy-Blue-Edition-11.jpg"
   ]
@@ -972,10 +1040,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Nuggets-Limited-White-Edition-11.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Nuggets-Limited-White-Edition-11.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Nuggets-Limited-White-Edition-11.jpg"
   ]
@@ -986,10 +1055,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Golden-State-Warriors-Chinese-Dragon-Robe-Yellow-11.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Golden-State-Warriors-Chinese-Dragon-Robe-Yellow-11.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Golden-State-Warriors-Chinese-Dragon-Robe-Yellow-11.jpg"
   ]
@@ -1000,10 +1070,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Charlotte-Hornets-Purple-Edition-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Charlotte-Hornets-Purple-Edition-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Charlotte-Hornets-Purple-Edition-1.jpg"
   ]
@@ -1014,10 +1085,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Portland-Trail-Blazers-Jordan-Red-Edition-11.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Portland-Trail-Blazers-Jordan-Red-Edition-11.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Portland-Trail-Blazers-Jordan-Red-Edition-11.jpg"
   ]
@@ -1028,10 +1100,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Miami-Heat-City-Edition-Black-11.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Miami-Heat-City-Edition-Black-11.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Miami-Heat-City-Edition-Black-11.jpg"
   ]
@@ -1042,10 +1115,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Oklahoma-City-Thunder-Edition-Black-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Oklahoma-City-Thunder-Edition-Black-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Oklahoma-City-Thunder-Edition-Black-1.jpg"
   ]
@@ -1056,10 +1130,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-Big-Bull-Head-Black-Edition-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-Big-Bull-Head-Black-Edition-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-Big-Bull-Head-Black-Edition-1.jpg"
   ]
@@ -1070,10 +1145,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Chicago-Bulls-City-Edition-Red-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Chicago-Bulls-City-Edition-Red-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Chicago-Bulls-City-Edition-Red-1.jpg"
   ]
@@ -1084,10 +1160,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-Blue-Edition-9.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-Blue-Edition-9.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Lone-Ranger-Blue-Edition-9.jpg"
   ]
@@ -1098,10 +1175,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Golden-State-Warriors-Bonus-Edition-9.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Golden-State-Warriors-Bonus-Edition-9.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Golden-State-Warriors-Bonus-Edition-9.jpg"
   ]
@@ -1112,10 +1190,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Kings-N°.-55-White-Chocolate-Williams-Retro-Mesh-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Kings-N°.-55-White-Chocolate-Williams-Retro-Mesh-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Kings-N°.-55-White-Chocolate-Williams-Retro-Mesh-1.jpg"
   ]
@@ -1126,10 +1205,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-09-Season-All-Star-Game-N°.-3-Iverson-Retro-Mesh-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-09-Season-All-Star-Game-N°.-3-Iverson-Retro-Mesh-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-09-Season-All-Star-Game-N°.-3-Iverson-Retro-Mesh-1.jpg"
   ]
@@ -1140,10 +1220,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Yellow-N°.-34-ONeial-Retro-Mesh-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Yellow-N°.-34-ONeial-Retro-Mesh-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Yellow-N°.-34-ONeial-Retro-Mesh-1.jpg"
   ]
@@ -1154,10 +1235,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Bulls-Red-N°.-33-Pippen-Retro-Mesh-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Bulls-Red-N°.-33-Pippen-Retro-Mesh-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Bulls-Red-N°.-33-Pippen-Retro-Mesh-1.jpg"
   ]
@@ -1168,10 +1250,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Red-N°.-3-Iverson-Retro-Mesh-1-wpp1708126753491.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Red-N°.-3-Iverson-Retro-Mesh-1-wpp1708126753491.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Red-N°.-3-Iverson-Retro-Mesh-1-wpp1708126753491.jpg"
   ]
@@ -1182,10 +1265,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-White-N°.-1-McGrady-Retro-Mesh-4.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-White-N°.-1-McGrady-Retro-Mesh-4.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-White-N°.-1-McGrady-Retro-Mesh-4.jpg"
   ]
@@ -1196,10 +1280,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-Black-N°.-1-McGrady-Retro-Mesh-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-Black-N°.-1-McGrady-Retro-Mesh-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-Black-N°.-1-McGrady-Retro-Mesh-1.jpg"
   ]
@@ -1210,10 +1295,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Purple-N°.-32-Johnson-Retro-1-wpp1708662457479.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Purple-N°.-32-Johnson-Retro-1-wpp1708662457479.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Purple-N°.-32-Johnson-Retro-1-wpp1708662457479.jpg"
   ]
@@ -1224,10 +1310,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Blue-N°.-3-Iverson-Retro-Mesh-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Blue-N°.-3-Iverson-Retro-Mesh-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Blue-N°.-3-Iverson-Retro-Mesh-1.jpg"
   ]
@@ -1238,10 +1325,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Purple-N°.-8-BRYANT-Retro-Mesh-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Purple-N°.-8-BRYANT-Retro-Mesh-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Purple-N°.-8-BRYANT-Retro-Mesh-1.jpg"
   ]
@@ -1252,10 +1340,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Black-N°.-3-Iverson-Retro-Mesh-6.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Black-N°.-3-Iverson-Retro-Mesh-6.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-76ers-Black-N°.-3-Iverson-Retro-Mesh-6.jpg"
   ]
@@ -1266,10 +1355,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Yellow-N°.-8-BRYANT-Retro-Mesh-1-wpp1706937072697.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Yellow-N°.-8-BRYANT-Retro-Mesh-1-wpp1706937072697.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Lakers-Yellow-N°.-8-BRYANT-Retro-Mesh-1-wpp1706937072697.jpg"
   ]
@@ -1280,10 +1370,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Celtics-Green-N°.-33-Bird-Retro-Mesh-9.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Celtics-Green-N°.-33-Bird-Retro-Mesh-9.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Celtics-Green-N°.-33-Bird-Retro-Mesh-9.jpg"
   ]
@@ -1294,10 +1385,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Bulls-Red-N°.-23-Jordan-Retro-Mesh-6.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Bulls-Red-N°.-23-Jordan-Retro-Mesh-6.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Bulls-Red-N°.-23-Jordan-Retro-Mesh-6.jpg"
   ]
@@ -1308,10 +1400,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-Blue-N°.-1-Penny-Hardaway-Retro-Mesh-5.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-Blue-N°.-1-Penny-Hardaway-Retro-Mesh-5.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/12/Camiseta-Mitchellness-Magic-Blue-N°.-1-Penny-Hardaway-Retro-Mesh-5.jpg"
   ]
@@ -1322,10 +1415,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/d924cc0b-300x300-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/d924cc0b-300x300-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/d924cc0b-300x300-1.jpg"
   ]
@@ -1336,10 +1430,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Golden-State-Warriors-75th-Anniversary-Blue-Edition-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Golden-State-Warriors-75th-Anniversary-Blue-Edition-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Golden-State-Warriors-75th-Anniversary-Blue-Edition-1.jpg"
   ]
@@ -1350,10 +1445,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Toronto-Raptors-Bonus-Edition-Purple-and-Black-1-wpp1708104695459.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Toronto-Raptors-Bonus-Edition-Purple-and-Black-1-wpp1708104695459.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Toronto-Raptors-Bonus-Edition-Purple-and-Black-1-wpp1708104695459.jpg"
   ]
@@ -1364,10 +1460,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Oklahoma-City-Thunder-Blue-Stripes-12.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Oklahoma-City-Thunder-Blue-Stripes-12.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Oklahoma-City-Thunder-Blue-Stripes-12.jpg"
   ]
@@ -1378,10 +1475,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-New-York-Knicks-Anniversary-White-Edition-11-wpp1706679489244.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-New-York-Knicks-Anniversary-White-Edition-11-wpp1706679489244.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-New-York-Knicks-Anniversary-White-Edition-11-wpp1706679489244.jpg"
   ]
@@ -1392,10 +1490,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Brooklyn-Nets-graffiti-White-Edition-12.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Brooklyn-Nets-graffiti-White-Edition-12.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Brooklyn-Nets-graffiti-White-Edition-12.jpg"
   ]
@@ -1406,10 +1505,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Oklahoma-City-Thunder-Jordan-Orange-Edition-12-wpp1707884069484.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Oklahoma-City-Thunder-Jordan-Orange-Edition-12-wpp1707884069484.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Oklahoma-City-Thunder-Jordan-Orange-Edition-12-wpp1707884069484.jpg"
   ]
@@ -1420,10 +1520,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Houston-Rockets-Retro-Red-9.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Houston-Rockets-Retro-Red-9.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/Camiseta-Houston-Rockets-Retro-Red-9.jpg"
   ]
@@ -1434,10 +1535,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/b6f7e2fb.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/b6f7e2fb.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/b6f7e2fb.jpg"
   ]
@@ -1448,10 +1550,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/4a2f5344-300x300-1-wpp1706759890932.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/4a2f5344-300x300-1-wpp1706759890932.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/4a2f5344-300x300-1-wpp1706759890932.jpg"
   ]
@@ -1462,10 +1565,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/d80c8281-wpp1706792046597.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/d80c8281-wpp1706792046597.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/d80c8281-wpp1706792046597.jpg"
   ]
@@ -1476,10 +1580,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/10/32278b95-300x300-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/10/32278b95-300x300-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/10/32278b95-300x300-1.jpg"
   ]
@@ -1490,10 +1595,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/7dd3e126-wpp1706936664145.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/09/7dd3e126-wpp1706936664145.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/09/7dd3e126-wpp1706936664145.jpg"
   ]
@@ -1504,10 +1610,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/6f2cbcd2.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/09/6f2cbcd2.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/09/6f2cbcd2.jpg"
   ]
@@ -1518,10 +1625,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/f52722bb.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/09/f52722bb.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/09/f52722bb.jpg"
   ]
@@ -1532,10 +1640,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/bd30de1a.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/09/bd30de1a.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/09/bd30de1a.jpg"
   ]
@@ -1546,10 +1655,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/0ccb787a-300x300-1-wpp1708134240378.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/09/0ccb787a-300x300-1-wpp1708134240378.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/09/0ccb787a-300x300-1-wpp1708134240378.jpg"
   ]
@@ -1560,10 +1670,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/849c89ce.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/849c89ce.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/849c89ce.jpg"
   ]
@@ -1574,10 +1685,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/d18aaa80-wpp1708726086717.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/d18aaa80-wpp1708726086717.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/d18aaa80-wpp1708726086717.jpg"
   ]
@@ -1588,10 +1700,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/fcbf5cc4-wpp1708136387402.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/fcbf5cc4-wpp1708136387402.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/fcbf5cc4-wpp1708136387402.jpg"
   ]
@@ -1602,10 +1715,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/2e496758.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/2e496758.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/2e496758.jpg"
   ]
@@ -1616,10 +1730,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/ad70b2cc.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/ad70b2cc.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/ad70b2cc.jpg"
   ]
@@ -1630,10 +1745,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/bc5e7477.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/bc5e7477.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/bc5e7477.jpg"
   ]
@@ -1644,10 +1760,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/5ef9c724-wpp1706847414622.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/5ef9c724-wpp1706847414622.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/5ef9c724-wpp1706847414622.jpg"
   ]
@@ -1658,10 +1775,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/84904d0c-wpp1708559131320.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/08/84904d0c-wpp1708559131320.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/08/84904d0c-wpp1708559131320.jpg"
   ]
@@ -1672,10 +1790,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/e247a073.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/e247a073.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/e247a073.jpg"
   ]
@@ -1686,10 +1805,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/14ecc7f5.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/14ecc7f5.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/14ecc7f5.jpg"
   ]
@@ -1700,10 +1820,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/7ab766bc-wpp1708127642239.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/7ab766bc-wpp1708127642239.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/7ab766bc-wpp1708127642239.jpg"
   ]
@@ -1714,10 +1835,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/92a31d54.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/92a31d54.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/92a31d54.jpg"
   ]
@@ -1728,10 +1850,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/75bfd7db.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/75bfd7db.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/75bfd7db.jpg"
   ]
@@ -1742,10 +1865,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/91f207d1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/91f207d1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/91f207d1.jpg"
   ]
@@ -1756,10 +1880,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/398fe10d.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/398fe10d.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/398fe10d.jpg"
   ]
@@ -1770,10 +1895,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/camiseta-atlanta-negra.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/camiseta-atlanta-negra.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/camiseta-atlanta-negra.jpg"
   ]
@@ -1784,10 +1910,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/64f8b34f.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/64f8b34f.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/64f8b34f.jpg"
   ]
@@ -1798,10 +1925,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/07/160f7b40.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/07/160f7b40.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/07/160f7b40.jpg"
   ]
@@ -1812,10 +1940,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/6f320471.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/6f320471.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/6f320471.jpg"
   ]
@@ -1826,10 +1955,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/91c9c809.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/91c9c809.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/91c9c809.jpg"
   ]
@@ -1840,10 +1970,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/73e4b3a8.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/73e4b3a8.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/73e4b3a8.jpg"
   ]
@@ -1854,10 +1985,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1f385ea9.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1f385ea9.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/1f385ea9.jpg"
   ]
@@ -1868,10 +2000,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/20c74639-wpp1708208143771.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/20c74639-wpp1708208143771.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/20c74639-wpp1708208143771.jpg"
   ]
@@ -1882,10 +2015,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a722337b.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a722337b.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/a722337b.jpg"
   ]
@@ -1896,10 +2030,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/90293ad1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/90293ad1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/90293ad1.jpg"
   ]
@@ -1910,10 +2045,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f4eb2de7.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f4eb2de7.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/f4eb2de7.jpg"
   ]
@@ -1924,10 +2060,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/b922d597.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/b922d597.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/b922d597.jpg"
   ]
@@ -1938,10 +2075,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/ddc7d702.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/ddc7d702.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/ddc7d702.jpg"
   ]
@@ -1952,10 +2090,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/73ddb95a.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/73ddb95a.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/73ddb95a.jpg"
   ]
@@ -1966,10 +2105,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f29f0561-wpp1707794467952.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f29f0561-wpp1707794467952.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/f29f0561-wpp1707794467952.jpg"
   ]
@@ -1980,10 +2120,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/c0b27c3d.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/c0b27c3d.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/c0b27c3d.jpg"
   ]
@@ -1994,10 +2135,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d37dea00-wpp1707751012444.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d37dea00-wpp1707751012444.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/d37dea00-wpp1707751012444.jpg"
   ]
@@ -2008,10 +2150,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/997d0960.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/997d0960.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/997d0960.jpg"
   ]
@@ -2022,10 +2165,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/4c6476eb.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/4c6476eb.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/4c6476eb.jpg"
   ]
@@ -2036,10 +2180,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f1db45be.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f1db45be.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/f1db45be.jpg"
   ]
@@ -2050,10 +2195,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/239da87f-wpp1706680418504.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/239da87f-wpp1706680418504.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/239da87f-wpp1706680418504.jpg"
   ]
@@ -2064,10 +2210,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/87b8360a.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/87b8360a.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/87b8360a.jpg"
   ]
@@ -2078,10 +2225,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d707962f.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d707962f.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/d707962f.jpg"
   ]
@@ -2092,10 +2240,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/b3a9a3ff-wpp1707710199557.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/b3a9a3ff-wpp1707710199557.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/b3a9a3ff-wpp1707710199557.jpg"
   ]
@@ -2106,10 +2255,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a5a39756-wpp1707182165558.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a5a39756-wpp1707182165558.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/a5a39756-wpp1707182165558.jpg"
   ]
@@ -2120,10 +2270,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/56ed8424-wpp1707450353619.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/56ed8424-wpp1707450353619.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/56ed8424-wpp1707450353619.jpg"
   ]
@@ -2134,10 +2285,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9aee1f23-wpp1706936414655.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9aee1f23-wpp1706936414655.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/9aee1f23-wpp1706936414655.jpg"
   ]
@@ -2148,10 +2300,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9cb51e9c.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9cb51e9c.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/9cb51e9c.jpg"
   ]
@@ -2162,10 +2315,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/64e17052-wpp1707360166490.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/64e17052-wpp1707360166490.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/64e17052-wpp1707360166490.jpg"
   ]
@@ -2176,10 +2330,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/4a60fdee.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/4a60fdee.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/4a60fdee.jpg"
   ]
@@ -2190,10 +2345,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/3a61f947-wpp1707585729499.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/3a61f947-wpp1707585729499.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/3a61f947-wpp1707585729499.jpg"
   ]
@@ -2204,10 +2360,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f36e3d86-wpp1707791207167.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/f36e3d86-wpp1707791207167.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/f36e3d86-wpp1707791207167.jpg"
   ]
@@ -2218,10 +2375,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1237596a.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1237596a.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/1237596a.jpg"
   ]
@@ -2232,10 +2390,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/2cff52e1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/2cff52e1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/2cff52e1.jpg"
   ]
@@ -2246,10 +2405,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d1f4eb56.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d1f4eb56.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/d1f4eb56.jpg"
   ]
@@ -2260,10 +2420,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/afcd0f0a-wpp1706960860110.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/afcd0f0a-wpp1706960860110.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/afcd0f0a-wpp1706960860110.jpg"
   ]
@@ -2274,10 +2435,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9285b755.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9285b755.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/9285b755.jpg"
   ]
@@ -2288,10 +2450,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/3856af0d.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/3856af0d.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/3856af0d.jpg"
   ]
@@ -2302,10 +2465,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/8531289a.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/8531289a.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/8531289a.jpg"
   ]
@@ -2316,10 +2480,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d771738a.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/d771738a.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/d771738a.jpg"
   ]
@@ -2330,10 +2495,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/c447b638.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/c447b638.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/c447b638.jpg"
   ]
@@ -2344,10 +2510,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a007ffc4.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a007ffc4.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/a007ffc4.jpg"
   ]
@@ -2358,10 +2525,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/e38b8ae4.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/e38b8ae4.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/e38b8ae4.jpg"
   ]
@@ -2372,10 +2540,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/63ee1cee.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/63ee1cee.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/63ee1cee.jpg"
   ]
@@ -2386,10 +2555,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a0fc2afa.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/a0fc2afa.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/a0fc2afa.jpg"
   ]
@@ -2400,10 +2570,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9a76035c-wpp1706961541180.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9a76035c-wpp1706961541180.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/9a76035c-wpp1706961541180.jpg"
   ]
@@ -2414,10 +2585,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9ff3405b.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/9ff3405b.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/9ff3405b.jpg"
   ]
@@ -2428,10 +2600,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1d26c975.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1d26c975.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/1d26c975.jpg"
   ]
@@ -2442,10 +2615,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/0d2dcbe5.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/0d2dcbe5.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/0d2dcbe5.jpg"
   ]
@@ -2456,10 +2630,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/6b15b8a8.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/6b15b8a8.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/6b15b8a8.jpg"
   ]
@@ -2470,10 +2645,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/e8ad0faa-wpp1706809290959.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/e8ad0faa-wpp1706809290959.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/e8ad0faa-wpp1706809290959.jpg"
   ]
@@ -2484,10 +2660,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1a0ec441-wpp1706932189879.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/1a0ec441-wpp1706932189879.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/1a0ec441-wpp1706932189879.jpg"
   ]
@@ -2498,10 +2675,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/eb5c9e52.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/06/eb5c9e52.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/06/eb5c9e52.jpg"
   ]
@@ -2512,10 +2690,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/aa9b3095.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/aa9b3095.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/aa9b3095.jpg"
   ]
@@ -2526,10 +2705,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/3fe8a1bc.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/3fe8a1bc.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/3fe8a1bc.jpg"
   ]
@@ -2540,10 +2720,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/ab1eefb8.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/ab1eefb8.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/ab1eefb8.jpg"
   ]
@@ -2554,10 +2735,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/cc32c652.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/cc32c652.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/cc32c652.jpg"
   ]
@@ -2568,10 +2750,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/6271c7f7.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/6271c7f7.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/6271c7f7.jpg"
   ]
@@ -2582,10 +2765,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/42f77a3c.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/42f77a3c.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/42f77a3c.jpg"
   ]
@@ -2596,10 +2780,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/7323f92d.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/7323f92d.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/7323f92d.jpg"
   ]
@@ -2610,10 +2795,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/030e9fc5.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/030e9fc5.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/030e9fc5.jpg"
   ]
@@ -2624,10 +2810,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/f151149e-wpp1706738790402.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/f151149e-wpp1706738790402.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/f151149e-wpp1706738790402.jpg"
   ]
@@ -2638,10 +2825,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/7696b130.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/7696b130.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/7696b130.jpg"
   ]
@@ -2652,10 +2840,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/0ef0bf0f.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/0ef0bf0f.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/0ef0bf0f.jpg"
   ]
@@ -2666,10 +2855,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/b7d0dcdb.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/b7d0dcdb.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/b7d0dcdb.jpg"
   ]
@@ -2680,10 +2870,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/69262950-wpp1707766742139.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/69262950-wpp1707766742139.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/69262950-wpp1707766742139.jpg"
   ]
@@ -2694,10 +2885,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/fd669419.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/fd669419.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/fd669419.jpg"
   ]
@@ -2708,10 +2900,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/a1c394bf.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/a1c394bf.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/a1c394bf.jpg"
   ]
@@ -2722,10 +2915,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/00d51c70.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/00d51c70.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/00d51c70.jpg"
   ]
@@ -2736,10 +2930,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/8f080920.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/8f080920.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/8f080920.jpg"
   ]
@@ -2750,10 +2945,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/262fff44.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/262fff44.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/262fff44.jpg"
   ]
@@ -2764,10 +2960,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/510869a7.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/510869a7.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/510869a7.jpg"
   ]
@@ -2778,10 +2975,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/2e948b03-wpp1706652175537.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/2e948b03-wpp1706652175537.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/2e948b03-wpp1706652175537.jpg"
   ]
@@ -2792,10 +2990,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/camiseta-all-star-amarillo-copia.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/camiseta-all-star-amarillo-copia.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/camiseta-all-star-amarillo-copia.jpg"
   ]
@@ -2806,10 +3005,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/fda39269-wpp1706889385448.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/fda39269-wpp1706889385448.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/fda39269-wpp1706889385448.jpg"
   ]
@@ -2820,10 +3020,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/edb4f452.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/edb4f452.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/edb4f452.jpg"
   ]
@@ -2834,10 +3035,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/8f0edd04-wpp1707868843686.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/8f0edd04-wpp1707868843686.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/8f0edd04-wpp1707868843686.jpg"
   ]
@@ -2848,10 +3050,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/8f417d02.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/8f417d02.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/8f417d02.jpg"
   ]
@@ -2862,10 +3065,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/39c9385e-wpp1707966927743.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/05/39c9385e-wpp1707966927743.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/05/39c9385e-wpp1707966927743.jpg"
   ]
@@ -2876,10 +3080,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/ffa79dd6.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/ffa79dd6.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/ffa79dd6.jpg"
   ]
@@ -2890,10 +3095,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/782ffcab.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/782ffcab.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/782ffcab.jpg"
   ]
@@ -2904,10 +3110,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/241ee131.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/241ee131.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/241ee131.jpg"
   ]
@@ -2918,10 +3125,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/e383ccba-wpp1708560834832.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/e383ccba-wpp1708560834832.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/e383ccba-wpp1708560834832.jpg"
   ]
@@ -2932,10 +3140,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/all-star-azul.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/all-star-azul.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/all-star-azul.jpg"
   ]
@@ -2946,10 +3155,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/9cec64af-wpp1707363832449.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/9cec64af-wpp1707363832449.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/9cec64af-wpp1707363832449.jpg"
   ]
@@ -2960,10 +3170,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/a76085d8.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/a76085d8.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/a76085d8.jpg"
   ]
@@ -2974,10 +3185,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/7d58fdc5.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/7d58fdc5.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/7d58fdc5.jpg"
   ]
@@ -2988,10 +3200,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/c0414c91.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/c0414c91.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/c0414c91.jpg"
   ]
@@ -3002,10 +3215,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/d16c04cd.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/d16c04cd.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/d16c04cd.jpg"
   ]
@@ -3016,10 +3230,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/b5647968.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/b5647968.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/b5647968.jpg"
   ]
@@ -3030,10 +3245,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/8d7f41b2.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/8d7f41b2.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/8d7f41b2.jpg"
   ]
@@ -3044,10 +3260,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/1bf7ad0a.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/1bf7ad0a.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/1bf7ad0a.jpg"
   ]
@@ -3058,10 +3275,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/3e20fb3e.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/3e20fb3e.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/3e20fb3e.jpg"
   ]
@@ -3072,10 +3290,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/3cbe9562-wpp1708706926161.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/3cbe9562-wpp1708706926161.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/3cbe9562-wpp1708706926161.jpg"
   ]
@@ -3086,10 +3305,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/89047e29.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/89047e29.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/89047e29.jpg"
   ]
@@ -3100,10 +3320,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/319d8579-wpp1707779578757.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/319d8579-wpp1707779578757.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/319d8579-wpp1707779578757.jpg"
   ]
@@ -3114,10 +3335,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/d23eecb1-wpp1707007891944.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/d23eecb1-wpp1707007891944.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/d23eecb1-wpp1707007891944.jpg"
   ]
@@ -3128,10 +3350,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/95c3a17b-1-wpp1707446499890.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/04/95c3a17b-1-wpp1707446499890.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/04/95c3a17b-1-wpp1707446499890.jpg"
   ]
@@ -3142,10 +3365,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/c54a3098.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/c54a3098.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/c54a3098.jpg"
   ]
@@ -3156,10 +3380,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/fa1215d6-wpp1707780915222.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/fa1215d6-wpp1707780915222.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/fa1215d6-wpp1707780915222.jpg"
   ]
@@ -3170,10 +3395,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/821e9137-wpp1707268180955.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/821e9137-wpp1707268180955.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/821e9137-wpp1707268180955.jpg"
   ]
@@ -3184,10 +3410,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/639a594f.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/639a594f.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/639a594f.jpg"
   ]
@@ -3198,10 +3425,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/20650991-wpp1708128643463.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/20650991-wpp1708128643463.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/20650991-wpp1708128643463.jpg"
   ]
@@ -3212,10 +3440,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/08e54389-1.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/08e54389-1.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/08e54389-1.jpg"
   ]
@@ -3226,10 +3455,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/94282b3d.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/94282b3d.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/94282b3d.jpg"
   ]
@@ -3240,10 +3470,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/73b4e74f-1-wpp1706674724695.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/73b4e74f-1-wpp1706674724695.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/73b4e74f-1-wpp1706674724695.jpg"
   ]
@@ -3254,10 +3485,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/3c7ac829.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/3c7ac829.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/3c7ac829.jpg"
   ]
@@ -3268,10 +3500,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/08e54389-wpp1707354093322.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/08e54389-wpp1707354093322.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/08e54389-wpp1707354093322.jpg"
   ]
@@ -3282,10 +3515,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/6ab85112.jpeg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2021/03/6ab85112.jpeg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2021/03/6ab85112.jpeg"
   ]
@@ -3296,10 +3530,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/11/96e0e7ce-wpp1707624489965.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/11/96e0e7ce-wpp1707624489965.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/11/96e0e7ce-wpp1707624489965.jpg"
   ]
@@ -3310,10 +3545,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/11/b26b2384.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/11/b26b2384.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/11/b26b2384.jpg"
   ]
@@ -3324,10 +3560,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/11/9a12e778.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/11/9a12e778.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/11/9a12e778.jpg"
   ]
@@ -3338,10 +3575,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/11/aca17ee3-wpp1706962919164.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/11/aca17ee3-wpp1706962919164.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/11/aca17ee3-wpp1706962919164.jpg"
   ]
@@ -3352,10 +3590,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/88b7e775-wpp1706935793461.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/88b7e775-wpp1706935793461.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/88b7e775-wpp1706935793461.jpg"
   ]
@@ -3366,10 +3605,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/1be93ea4.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/1be93ea4.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/1be93ea4.jpg"
   ]
@@ -3380,10 +3620,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/b2f85f04.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/b2f85f04.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/b2f85f04.jpg"
   ]
@@ -3394,10 +3635,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/c33015ff.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/c33015ff.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/c33015ff.jpg"
   ]
@@ -3408,10 +3650,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/4e5aa55d.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/4e5aa55d.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/4e5aa55d.jpg"
   ]
@@ -3422,10 +3665,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/025eca6a-wpp1707145787678.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/025eca6a-wpp1707145787678.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/025eca6a-wpp1707145787678.jpg"
   ]
@@ -3436,10 +3680,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/bc9ba6f6.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/bc9ba6f6.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/bc9ba6f6.jpg"
   ]
@@ -3450,10 +3695,11 @@ const SPORTS_PRODUCTS = [
   "category": "nba",
   "isProductInsideFolder": true,
   "section": "preorder-sports",
-  "price": 850,
+  "price": 750,
   "badge": "15-20 DÍAS",
   "badgeType": "badge-preorder",
-  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/76d96207.jpg",
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "image": "https://imbictoz.pe/wp-content/uploads/2020/10/76d96207.jpg",
   "gallery": [
     "https://imbictoz.pe/wp-content/uploads/2020/10/76d96207.jpg"
   ]
