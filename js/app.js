@@ -131246,7 +131246,7 @@ function toggleCart(isOpen) {
 // Agregar producto al carrito
 // Agregar producto al carrito
 function addToCart(productId, customization = null, customPriceAdd = 0) {
-  const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId);
+  const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId) || SPORTS_PRODUCTS.find(p => p.id === productId);
 
   if (!product) return;
 
@@ -131537,7 +131537,7 @@ function addToCartFromModal() {
 }
 
 function openQuickView(productId) {
-  const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId);
+  const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId) || SPORTS_PRODUCTS.find(p => p.id === productId);
   if (!product) return;
   
   const modal = document.getElementById('quickview-modal');
