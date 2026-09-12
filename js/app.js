@@ -35501,9 +35501,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/6a84dd45f6f4-5a879a3e39259c124f17760635022022-1024-1024.webp",
+    "image": "images/stock/turquia_visita.png",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/6a84dd45f6f4-5a879a3e39259c124f17760635022022-1024-1024.webp"
+      "images/stock/turquia_visita.png"
     ],
     "sizes": [
       "S",
