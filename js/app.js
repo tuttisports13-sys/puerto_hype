@@ -169495,7 +169495,7 @@ PREORDER_PRODUCTS.forEach(p => {
     p.category = 'chanclas';
     p.sizes = ['24', '25', '26', '27', '28', '29'];
     p.customizable = true;
-  } else if (jewelryBrands.includes(p.brand)) {
+  } else if (jewelryBrands.includes(p.brand) || nameLow.includes('van cleef') || p.brand.toLowerCase().includes('van cleef')) {
     p.category = 'pulseras';
     p.customizable = false;
   } else if (streetwearBrands.includes(p.brand)) {
