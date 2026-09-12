@@ -6,6 +6,17 @@
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
 {
+  "id": "sports-folder-arabe",
+  "name": "LIGA ARABE & AL NASSR",
+  "category": "arabe_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/arabe_cover.png",
+  "badge": "32 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "arabe"
+},
+{
   "id": "sports-folder-mls",
   "name": "MLS & INTER MIAMI",
   "category": "mls_folder",
@@ -29555,6 +29566,902 @@ const SPORTS_PRODUCTS = [
       "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2da5c4fb.webp",
       "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__202d542c.webp",
       "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__137e7a6c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  }
+
+,
+
+  {
+    "id": "arabe-13382",
+    "name": "Al-Nassr 2025/26 - Visita - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__59b8c5a7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__59b8c5a7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5f491bb7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e35d7400.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__20b17e02.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-10167",
+    "name": "Al-Nassr 2025/26 - Alternativa - Jugador",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0b230742-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0b230742-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4e03a799-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2dc39740-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__eece4f21-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-10668",
+    "name": "Al-Nassr 2025/26 - Local - Jugador",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1b005baf-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1b005baf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c0a8e31a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__94d9fa83-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fdd77887-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-10976",
+    "name": "Al-Nassr 2025/26 - Local - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__b4cec582-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__b4cec582-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__ef0fd5b6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__0a78c996-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-5905",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Alternativa - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-24-min-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-24-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__683fd112-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__303d5bd8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7aec9f8d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-9942",
+    "name": "Al-Nassr 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ccda185d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ccda185d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__af5b773d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__061c46cb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fd02ec0e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-10012",
+    "name": "Al Hilal 2025/26 - Local »Mundial de Clubes» - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9ee69b54-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9ee69b54-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1ea5abf5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bea377ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4fe1e4d8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-9159",
+    "name": "Al Hilal 2025/26 - Local - Jugador",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__39f0fbe8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__39f0fbe8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__984ded11-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a757835d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b2958888-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-2356",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Local - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/950ea939-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ffeb257c-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cc49cbbc-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-2348",
+    "name": "Al-Nassr 2024/25 - Local - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/950ea939-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/950ea939-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/cc49cbbc-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/ffeb257c-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/Diseno-sin-titulo-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-5914",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Visita - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-25-min-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-25-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__816f56ae-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d7df014b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__19929a94-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-18019",
+    "name": "Al Nassr 2026/27 - Local - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/13436aef-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/13436aef-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/01fd39ed.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fe367d66.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/0acc7175.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-10005",
+    "name": "Al-Hilal 2024/25 - »70 Aniversario» - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b08c211a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b08c211a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ccc493cd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e54fa5ce-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ce5a1ccc-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-2761",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) - Local - Infantil",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3dea40f6.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/584715a8.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a7475e7b-1.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-5920",
+    "name": "Al-Nassr 2024/25 (Ronaldo/7) – Visita – Infantil",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__884e6c25-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fc3d379-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__60e285b2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-13368",
+    "name": "Al-Nassr 2025/26 - Local - Infantil",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__aad9f3f3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__aad9f3f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ff7ec203.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__36192a25.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__169c9abb.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-5003",
+    "name": "Al-Nassr 2024/25 – Alternativa – Infantil",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7f07f822-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7f07f822-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5c6a8e35-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e8c16b94-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a1ff6b52-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-5917",
+    "name": "Al-Nassr 2024/25 – Visita – Infantil",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__60e285b2-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__60e285b2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__884e6c25-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fc3d379-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9cb67722-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-2755",
+    "name": "Al-Nassr 2024/25 - Local - Infantil",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a7475e7b.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a7475e7b.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3dea40f6.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/584715a8.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/nuevo.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-15718",
+    "name": "Al-Nassr 2025/26 - Ed. Especial - Jugador",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1c9638c4-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1c9638c4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ac625307-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aba17ef9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ff850469.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-3227",
+    "name": "Al-Hilal 2024/25 - Visita - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7138ae43.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7138ae43.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/83cf54f8.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/35cbcd9a.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/00c81712.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-4175",
+    "name": "Al-Nassr 2024/25 - Visita - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__19929a94-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__19929a94-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__816f56ae-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d7df014b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ffc96769-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-3256",
+    "name": "Al-Hilal (NeymarJR/10) 2024/25 - Visita - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-31.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-31.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7138ae43.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/83cf54f8.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/35cbcd9a.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-4250",
+    "name": "Al-Nassr 2023/24 - Conjunto Chándal Amarillo",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__88307cfa-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__88307cfa-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8b5c7303-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ccb3e189-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a1427ec5-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "arabe-3233",
+    "name": "Al-Hilal 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7e452a4b.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7e452a4b.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/2a208519.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/93cca924.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7643a5d6.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-10019",
+    "name": "Al-Nassr 2025/26 - Alternativa - Infantil",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__156efbdc-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__156efbdc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7bdadc47-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__eac4b47b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8d56d47e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-2539",
+    "name": "Al-Nassr 2023/24 - Rompevientos Doble Vista",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/a1d239c2-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/a1d239c2-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/297c5103-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/4a1d916c-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/131856e6-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "arabe-14026",
+    "name": "Al-Ittihad 2025/26 - Local - Jugador",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a582059d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a582059d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7d00a13a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-4112",
+    "name": "Al-Nassr 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7aec9f8d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7aec9f8d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__683fd112-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__303d5bd8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2a857372-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-3253",
+    "name": "Al-Hilal (NeymarJR/10) 2024/25 - Local - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-30.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-30.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/88daa04b.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e2973045.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c1a542a8.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-3220",
+    "name": "Al-Hilal 2024/25 - Local - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/88daa04b.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/88daa04b.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c1a542a8.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e2973045.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/14dd1d8c.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "arabe-3259",
+    "name": "Al-Hilal (NeymarJR/10) 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "arabe",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-32.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/Diseno-sin-titulo-32.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7e452a4b.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/2a208519.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/93cca924.jpg",
       "images/stock/guia_tallas.png"
     ],
     "sizes": [
