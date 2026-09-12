@@ -169836,23 +169836,9 @@ function calculateWholesaleSummary() {
   const totalPieces = AppState.cart.reduce((sum, item) => sum + item.quantity, 0);
   const subtotal = AppState.cart.reduce((sum, item) => sum + ((item.finalPrice || item.price) * item.quantity), 0);
 
-  // Escala de descuentos por volumen adicional
+  // Descuentos por volumen eliminados según solicitud
   let extraDiscountPercent = 0;
-  let tierLabel = 'Menudeo (No califica aún)';
-
-  if (totalPieces >= 50) {
-    extraDiscountPercent = 25; // Distribuidor VIP
-    tierLabel = 'Distribuidor VIP (-25% extra)';
-  } else if (totalPieces >= 24) {
-    extraDiscountPercent = 18;
-    tierLabel = 'Mayorista Alto (-18% extra)';
-  } else if (totalPieces >= 12) {
-    extraDiscountPercent = 10;
-    tierLabel = 'Mayorista Medio (-10% extra)';
-  } else if (totalPieces >= 5) {
-    extraDiscountPercent = 0;
-    tierLabel = 'Precio Mayoreo Base (Mínimo cumplido)';
-  }
+  let tierLabel = 'Precio Mayoreo';
 
   const discountAmount = Math.round(subtotal * (extraDiscountPercent / 100));
   const total = subtotal - discountAmount;
