@@ -166360,3 +166360,112 @@ function selectQvSize(btn) {
 function closeQuickView() {
   document.getElementById('quickview-modal').classList.remove('open');
 }
+
+// --- AI Chatbot Logic ---
+document.addEventListener('DOMContentLoaded', () => {
+  const chatToggle = document.getElementById('ai-chat-toggle');
+  const chatWindow = document.getElementById('ai-chat-window');
+  const chatClose = document.getElementById('ai-chat-close');
+  const chatMessages = document.getElementById('ai-chat-messages');
+  const chatInput = document.getElementById('ai-chat-input');
+  const chatSend = document.getElementById('ai-chat-send');
+
+  if (!chatToggle) return;
+
+  let chatHistory = [];
+
+  // Toggle chat
+  chatToggle.addEventListener('click', () => {
+    chatWindow.classList.remove('hidden');
+    chatInput.focus();
+  });
+
+  chatClose.addEventListener('click', () => {
+    chatWindow.classList.add('hidden');
+  });
+
+  // Handle send message
+  const sendMessage = async () => {
+    const text = chatInput.value.trim();
+    if (!text) return;
+
+    // Add user message to UI
+    appendMessage('user', text);
+    chatInput.value = '';
+
+    // Show typing indicator
+    const typingId = showTyping();
+
+    try {
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: text, history: chatHistory })
+      });
+
+      removeTyping(typingId);
+
+      if (!response.ok) {
+        throw new Error('Error en el servidor');
+      }
+
+      const data = await response.json();
+      appendMessage('bot', data.reply);
+      
+      // Update history
+      chatHistory.push({ role: 'user', content: text });
+      chatHistory.push({ role: 'bot', content: data.reply });
+
+    } catch (error) {
+      removeTyping(typingId);
+      appendMessage('bot', 'Ups, hermano. Tuvimos un problema conectando con el sistema. Intenta de nuevo más tarde o mándanos WhatsApp.');
+      console.error(error);
+    }
+  };
+
+  chatSend.addEventListener('click', sendMessage);
+  chatInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') sendMessage();
+  });
+
+  function appendMessage(role, text) {
+    const msgDiv = document.createElement('div');
+    msgDiv.className = `chat-msg ${role}`;
+    // Linkify urls in text safely, or just set innerText
+    // We will just use textContent to avoid XSS, but parse newlines
+    const bubble = document.createElement('div');
+    bubble.className = 'msg-bubble';
+    
+    // Quick and dirty markdown-like bold parsing
+    let htmlText = text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    htmlText = htmlText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    htmlText = htmlText.replace(/\n/g, '<br>');
+    
+    bubble.innerHTML = htmlText;
+    msgDiv.appendChild(bubble);
+    chatMessages.appendChild(msgDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  function showTyping() {
+    const id = 'typing-' + Date.now();
+    const msgDiv = document.createElement('div');
+    msgDiv.className = 'chat-msg bot';
+    msgDiv.id = id;
+    msgDiv.innerHTML = `
+      <div class="msg-bubble" style="padding: 12px 14px;">
+        <div class="typing-indicator">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    `;
+    chatMessages.appendChild(msgDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+    return id;
+  }
+
+  function removeTyping(id) {
+    const el = document.getElementById(id);
+    if (el) el.remove();
+  }
+});
