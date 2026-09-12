@@ -169493,6 +169493,7 @@ PREORDER_PRODUCTS.forEach(p => {
   if (backpackBrands.includes(p.brand)) {
     p.category = 'mochilas';
     p.customizable = false;
+    p.sizes = [];
   } else if (sandalBrands.includes(p.brand) || nameLow.includes('slide') || nameLow.includes('foam rnnr') || nameLow.includes('sandal')) {
     p.category = 'chanclas';
     p.sizes = ['24', '25', '26', '27', '28', '29'];
@@ -169500,6 +169501,7 @@ PREORDER_PRODUCTS.forEach(p => {
   } else if (jewelryBrands.includes(p.brand) || nameLow.includes('van cleef') || p.brand.toLowerCase().includes('van cleef')) {
     p.category = 'pulseras';
     p.customizable = false;
+    p.sizes = [];
   } else if (jeansBrands.includes(p.brand)) {
     p.category = 'jeans';
     p.sizes = ['28', '30', '32', '34', '36'];
