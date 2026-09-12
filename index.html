@@ -2238,7 +2238,17 @@ h1, h2, h3, h4, .font-heading {
   </div>
 </div>
 
-        <!-- Opciones de Personalización (Solo si aplica) -->
+<!-- Selección de Versión (Fan/Jugador) -->
+<div id="qv-version-container" style="display: none; margin-top: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+  <h4 style="margin-bottom: 10px; font-size: 0.95rem;">Selecciona Versión</h4>
+  <div style="display: flex; gap: 10px;">
+    <button class="version-btn active" data-version="fan" onclick="selectQvVersion(this, 550)" style="flex: 1; padding: 10px; border: 1px solid var(--neon-lime); background: var(--neon-lime); color: #000; font-weight: bold; border-radius: 4px; cursor: pointer;">Versión Fan ($550)</button>
+    <button class="version-btn" data-version="jugador" onclick="selectQvVersion(this, 650)" style="flex: 1; padding: 10px; border: 1px solid var(--border-color); background: transparent; color: white; border-radius: 4px; cursor: pointer;">Versión Jugador ($650)</button>
+  </div>
+</div>
+
+<!-- Opciones de Personalización (Solo si aplica) -->
+
       <div id="qv-customization" style="display: none; margin-top: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
         <h4 style="margin-bottom: 10px; font-size: 0.95rem;">Personalización</h4>
         
