@@ -37251,9 +37251,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575959-2_z4enfcdtgsvq3zje-d3fc05d53608014a0317625674388913-1024-1024.webp",
+    "image": "images/stock/argentina_local.png",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068815575959-2_z4enfcdtgsvq3zje-d3fc05d53608014a0317625674388913-1024-1024.webp"
+      "images/stock/argentina_local.png"
     ],
     "sizes": [
       "S",
