@@ -82,7 +82,8 @@ const SPORTS_PRODUCTS = [
     "password": "Sin contraseña",
     "link": "https://94nbaqiuyi.x.yupoo.com/"
   }
-, 
+,
+
   {
     "id": "bun-10045",
     "name": "Bayern Munchen 2025/26 - Local - Jugador - Manga Larga",
@@ -405,7 +406,2726 @@ const SPORTS_PRODUCTS = [
       "4XL"
     ],
     "customizable": true
+  },
+  {
+    "id": "bun-11889",
+    "name": "Bayern Munchen 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__054f68f6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__054f68f6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__3b6949c8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__e593b675-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__097dc4ed-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-11985",
+    "name": "Wolfsburgo 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__67b89d33.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__67b89d33.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__fb4cd369.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__2ac543f4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__2b07d7f9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14139",
+    "name": "Wolfsburgo 2025/26 - «Ed. 80° Aniversario - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8a207dc2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8a207dc2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e8dd0690.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6f1ecfe8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3f6cd0ca.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-7701",
+    "name": "Bayern Munchen 2025/26 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__c33b5c63-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__c33b5c63-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3c0fab14-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2b10a002-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__535a98e0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9023",
+    "name": "Bayern Munchen 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__42a01101-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__42a01101-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__126aa1ba-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6d75df87-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0b25b32c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-11274",
+    "name": "Borussia Dortmund 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__324f7d26-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__324f7d26-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__ab5ec27e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__06ab1d3b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__6251034e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-12117",
+    "name": "Bayern Munchen 2025/26 - »Oktoberfest» - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c5807cf4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c5807cf4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__0f62a554.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__0d04f1b7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__e6b84422.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-13311",
+    "name": "Bayern Munchen 2025/26 - Portero - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b0bc5c40.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b0bc5c40.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6a91b381.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__542d9680.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f1565465.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-11268",
+    "name": "Borussia Dortmund 2025/26 - Local »Cup-Trikot» - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__0c13554d-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__0c13554d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__3d12bd9c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__5aa280ee-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__aa53d6b7-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-8914",
+    "name": "Bayern Munchen 2025/26 - Portero - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f6988285-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f6988285-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__73e9025a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__39a84aa4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7dcc434e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-12525",
+    "name": "Borussia Dortmund 2025/26 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__59272d00.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__59272d00.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8da19c93.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b7e47a98.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4443f777.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9165",
+    "name": "Borussia Dortmund 2025/26 - Local »Kidsuper» - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ce1aca67-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ce1aca67-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a9477a38-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__53b5f349-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__85ad1a11-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-12691",
+    "name": "Bayern Munchen 1993/94 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6677a045-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6677a045-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__small.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__small-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__69f2a0a9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-12843",
+    "name": "Bayern Munchen 2025/26 - Aniversario 125 - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e8a44d55-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e8a44d55-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__01efab40-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__047ac4c9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__83bdb787-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-11000",
+    "name": "Bayern Munchen 2025/26 - US Pack Shirt - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__106c0ffd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__106c0ffd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__0aed0c26.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__bd9aa143.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__45859bc8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9827",
+    "name": "Bayern Munchen 2025/26 – Visita – Aficionado – Dama",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bf11bc03-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bf11bc03-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b353047e-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6c4f7152-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6e5dcea6-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/DAMA.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14155",
+    "name": "Leipzig 2025/26 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__82649a47.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__82649a47.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__dead2a0d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__555aa9d8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f523a96f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6877",
+    "name": "Bayern Munchen 2024/25 - Oktoberfest - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__978fb687-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__978fb687-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9b71f2b1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5e2e1f5b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__afc82ad0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9108",
+    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2edb1fb5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2edb1fb5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__dbd5ed9f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__22f48831-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__64bed0c8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9115",
+    "name": "Bayern Munchen 2025/26 - Portero - Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__36c45faf-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__36c45faf-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__170a24c5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__952297ad-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b1fd5f4a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-7023",
+    "name": "Bayern Munchen 2024/25 – Local - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__7ff582a4-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__7ff582a4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__13448abc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5195984f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-2497",
+    "name": "Bayern Munchen 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__26dcba51-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__26dcba51-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__cd8eb348-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__1af9173b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__a94e2937-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-2640",
+    "name": "Borussia Dortmund 2024/25 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__4e05367e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__4e05367e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__5073561e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__accf077c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__fe43de19-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6883",
+    "name": "Bayern Munchen 2022/23 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__97cc4bbc-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__97cc4bbc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__28fe11be-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3b18b41a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9964f9cf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-7033",
+    "name": "Bayern Munchen 2024/25 - Local - Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d8f14450-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d8f14450-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__51aca408-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__fe32f9e4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__b85f0f97-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3074",
+    "name": "Bayern Munchen 2023/24 - Local - Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/01816f89-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/01816f89-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3a401c83-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__e07402f8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__37932b6c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6580",
+    "name": "Borussia Dortmund 2023/24 - Alternativa - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__yhgt-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__yhgt-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kmjhg-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__vfgh-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__jh-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3055",
+    "name": "Bayern Munchen 2023/24 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f499dcff-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/f499dcff-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/78d2c0e8-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/23b3e044-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3993e22e-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3067",
+    "name": "Bayern Munchen 2023/24 - Local - Aficionado - Hombre (Manga Larga)",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c4835f15-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c4835f15-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/66b08030-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/23b3e044-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3dbd12cd-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6273",
+    "name": "Borussia Dortmund 2011/12 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dortmundfrontal-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dortmundfrontal-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dortmundmanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dortmundlogo-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dortmundtrasera-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3061",
+    "name": "Bayern Munchen 2023/24 - Local - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/326ef22e-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/326ef22e-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/db08472a-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/03cc0190-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b1af9c08-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-7007",
+    "name": "Bayern Munchen 2013/14 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__31cbb5dd-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__31cbb5dd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9cd9ef13-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__b138a33a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3d9a9777-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3091",
+    "name": "Bayern Munchen 2023/24 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__d595bf66-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__d595bf66-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d394eca2-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/7ec4d113-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bd7b1b9a-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14174",
+    "name": "Borussia Dortmund 1996/97 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d6d1740-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d6d1740-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cb4d1f4f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c08ac497-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4b041af4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-10525",
+    "name": "Borussia Dortmund 2019/20 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bdaacd0c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bdaacd0c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__503bfdf7-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b61f9898-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__88aebe90-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6871",
+    "name": "Bayern Munchen 2024/25 - Entrenamiento - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5a66f779-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5a66f779-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d2aa41a3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d9184780-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__68d0229a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-7028",
+    "name": "Bayern Munchen 2024/25 – Visita - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3d1e538a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3d1e538a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__8e9ab719-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__50ab84b4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3080",
+    "name": "Bayern Munchen 2023/24 - »Icon» - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__b760dca8-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__b760dca8-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/884cb287-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/5bf299da-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/cf2af4a9-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9496",
+    "name": "Bayern Munchen 2005/06 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9295571a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9295571a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__3a2ff2dc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__de3cda3e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__63b41099-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14223",
+    "name": "Bayern Munchen 2000/01 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4b5a0042.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4b5a0042.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__36dea26e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d82f60ed.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10e6c9a1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-2484",
+    "name": "Bayern Munchen 2024/25 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__c1e75439-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__c1e75439-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/616690e4-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/64efc3c3-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/b8fbe4f8-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14217",
+    "name": "Bayern Munchen 2000/01 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9586355b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9586355b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__17ace7af.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__76cb68ed.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f00fa08c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14168",
+    "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-13.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-13.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14211",
+    "name": "Bayern Munchen 1998/99 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ca57a58e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ca57a58e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0cd0328b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f946725f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6cc13141.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14229",
+    "name": "Bayern Munchen 1993/94 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e3e7658b.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e3e7658b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0273f6a2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__22495610.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7d0287f6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9883",
+    "name": "Borussia Dortmund 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f3f2d9b6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f3f2d9b6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__728c5e69-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__264f7ad4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__29096546-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14180",
+    "name": "Borussia Dortmund 1996/97 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__85fdd6e8-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__85fdd6e8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__11376bd2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__52e9fb5c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a8097e03-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14193",
+    "name": "Borussia Dortmund 1994/95 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0d4b61fd-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0d4b61fd-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b9b4c1dd-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c7d9d6b4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2771e204-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14186",
+    "name": "Borussia Dortmund 1995/96 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d1918b26-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d1918b26-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8714110b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3d0b84b8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e8ce5327-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9503",
+    "name": "Bayern Munchen 2007/08 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6c84c9da-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6c84c9da-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0280d03e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b1dd00d7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__14683c14-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6951",
+    "name": "Bayern Munchen 1996/97 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9b8b0864-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9b8b0864-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f649ea4f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__5676992a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__54c60819-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-5586",
+    "name": "Bayern Munchen 1998/99 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__78fb15ac-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__78fb15ac-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__18715fa0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b5b27e90-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6b13db05-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-6944",
+    "name": "Bayern Munchen 2004/05 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f908ac29-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f908ac29-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__e66a6727-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__03c0a2c3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__72716a5c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-4149",
+    "name": "Bayern Munchen 2014/15 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b832cc80-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b832cc80-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__70333449-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8974d9c8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6be94f72-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-10823",
+    "name": "Bayern Munchen 2017/18 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__966c0a2a-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__966c0a2a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8bf6cbf3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8c1f3a7a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f915cf93-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-2490",
+    "name": "Bayern Munchen 2024/25 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__6e9bc6e5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__6e9bc6e5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__508d9515-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__0130241b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__a9603010-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-10829",
+    "name": "Bayern Munchen 2025/26 - Portero - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2c6831a1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2c6831a1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e2fecee3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__92991cd9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d9f932fe-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9574",
+    "name": "Bayern Munchen 2025/26 - Local - Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6f1e4239-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6f1e4239-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ba25668c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a94e9c6b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__596ec259-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-9889",
+    "name": "Borussia Dortmund 2024/25 – »Aniversario» – Aficionado – Hombre - Manga Larga",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f557e98e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f557e98e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f6c94ba2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8c889d7b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5db82b93-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14199",
+    "name": "Borussia Dortmund 2012/13 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2afd88fa-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2afd88fa-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6f2bff54-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__57a242ba-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14205",
+    "name": "Borussia Dortmund 1998/99 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d999e3a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d999e3a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__192f477f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9b32313e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5c1bad3b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3102",
+    "name": "Bayern Munchen 2024/25 - Rompevientos Doble Vista",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__eda8902f-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__eda8902f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e121aafb-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/9c36a1ca-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-11-at-11.20.51-PM.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-3097",
+    "name": "Bayern Munchen 2023/24 - Rompevientos Doble Vista",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__24f2a4da-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__24f2a4da-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/0534ce56-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c9eb8288-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-11-at-11.20.51-PM.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-10209",
+    "name": "Bayern Munchen 2025/26 - Conjunto Chándal Entrenamiento",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/40c13fbd.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/40c13fbd.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-11-at-11.20.51-PM.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-4366",
+    "name": "Borussia Dortmund 2024/25 - Rompevientos",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5fd87cfd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5fd87cfd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__efe7940c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b3e93184.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__01a0258f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-11-at-11.20.51-PM.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-7039",
+    "name": "Bayern Munchen 2024/25 - Rompevientos",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__0d1a7b31-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__0d1a7b31-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__79d39b6b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__dbb92067-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__0a6b309b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-11-at-11.20.51-PM.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-18478",
+    "name": "Bayern Munchen 2026/27 - Local - Jugador - Manga Larga",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/875088f8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/875088f8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/dac40fc3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/45067ae5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1aebd33c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg.webp"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-17233",
+    "name": "Bayern Munchen 2026/27 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-41.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-41.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-42.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16585",
+    "name": "Borussia Mönchengladbach 2025/26 - Local - Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__695c46e3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__695c46e3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5fffc3dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__84c9ac35.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f6b55314.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16579",
+    "name": "Borussia Mönchengladbach 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__721e64a2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__721e64a2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1a8ab813.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7ccef4fb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0f37bda6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16577",
+    "name": "Borussia Mönchengladbach 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f681b106.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f681b106.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__92f17687.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c7c2b04a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bd8cb34f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16566",
+    "name": "Borussia Mönchengladbach 2025/26 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b14dba85.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b14dba85.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b3b6ddfa.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__745068d9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__baddccf7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16560",
+    "name": "Bayern Leverkusen 2025/26 - Visita - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c8929bd8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c8929bd8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7168c05a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a0db912f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__971163b8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16554",
+    "name": "Bayern Leverkusen 2001/02 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__031a2c4b-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__031a2c4b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a01e9623-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__98a558c1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f1ce5741-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16547",
+    "name": "Bayern Leverkusen 2000/01 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d0726a57.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d0726a57.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__95b340d2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5b6ae106.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fc03b48c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16541",
+    "name": "Bayern Leverkusen 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e3ed6b2c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e3ed6b2c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2ecd9227.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4c2168d4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__27e6cec1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16535",
+    "name": "Bayern Leverkusen 2025/26 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1a02e2df.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1a02e2df.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__67dbce2f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__415bc56f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2b99f9c7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16529",
+    "name": "Bayern Leverkusen 2024/25 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__93c59ded-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__93c59ded-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b1e406a9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__22ad3f68-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f9e01627-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16521",
+    "name": "Schalke 04 2001/02 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19174cfb-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19174cfb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5eeeef6e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ef363ef8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e805f00c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16515",
+    "name": "Schalke 04 2011/12 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1374d886-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1374d886-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b0760246-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__adc2b7be-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__34df93c7-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16509",
+    "name": "Schalke 04 2011/12 - Visita - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__626f8f13-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__626f8f13-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5932719f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__03f17350-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d2d7f869-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16503",
+    "name": "Schalke 04 2025/26 - Local (Sin sponsor) - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__26a9dd2c-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__26a9dd2c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bcad6553-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__266b01a5-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9bb43f99-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16496",
+    "name": "Schalke 04 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7774580d-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7774580d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c9c2a6f8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__27a0e022-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8d50debf-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16486",
+    "name": "Schalke 04 2025/26 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aa3eaffc-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aa3eaffc-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c09a46fa-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/e3d3dfb3-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4f719663-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16480",
+    "name": "Schalke 04 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f094bce8-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f094bce8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__13cd622a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c14f26a3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e0fa10a3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16469",
+    "name": "Frankfurt 2025/26 - Visita - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__34e85608.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__34e85608.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7c89b96a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8f70b8a9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2ae275ec.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16463",
+    "name": "Frankfurt 2025/26 - Local »Champions» - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d8f00981.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d8f00981.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c2d5f9bd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3b5f85eb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3081b654.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16457",
+    "name": "Frankfurt 2025/26 - Local - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e7e8f009-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e7e8f009-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dc2f4f8e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__48bb2cb4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__00032d7c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16389",
+    "name": "Frankfurt 1998/00 - Local - Aficionado - Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__383a96c1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__383a96c1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ee0d4f8c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fbd4d724-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dd9e0675-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16383",
+    "name": "Hamburgo 1984/85 – Local – Aficionado – Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9d381021-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9d381021-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b730afc6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__49b97d69-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__56857d2c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16377",
+    "name": "Hamburgo 1988/89 – Local – Aficionado – Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__100749e4-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__100749e4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__32969d87-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c193e11e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b6f2e79-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16371",
+    "name": "Hamburgo 1980/81 – Local – Aficionado – Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b96269ab.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b96269ab.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4de8fde9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8a2beaa7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4a02ccad.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16365",
+    "name": "Hamburgo 2000/01 – Local – Aficionado – Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1de2600f-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1de2600f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ac3ce31a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__81892a8e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__347b8b21-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16359",
+    "name": "Hamburgo 2000/01 – Visita – Aficionado – Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5c8851dd-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5c8851dd-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2255531e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f76b4d80-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4aef8214-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16353",
+    "name": "Hamburgo 2024/25 – Prematch – Infantil",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b0c2634.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7b0c2634.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2b1f8857.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ee518332.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b2f8dea.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Infantil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16347",
+    "name": "Hamburgo 2024/25 – Prematch – Aficionado – Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c070a631.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c070a631.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8a65bf80.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__90ac6f5d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6cb51226.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16341",
+    "name": "Hamburgo 2025/26 – Visita – Aficionado – Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__29d156a1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__29d156a1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e6e74176.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9f3bcf39.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__793f58a9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-16335",
+    "name": "Wolfsburgo 2008/09 – Local – Aficionado – Retro",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__52e7ad4d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__52e7ad4d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dab1e924.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bb5cc8b0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__85a13fa7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-15694",
+    "name": "Bayern Munchen 2025/26 - Prematch - Aficionado - Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fb5bbec6c396b5808f3b4b6a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fb5bbec6c396b5808f3b4b6a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6061471c6a941ddf93ac8267.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1db9c4858a8c50b5c5e50a5c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ecd80c41f81915776a5ceee0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-15495",
+    "name": "Wolfsburgo 2025/26 – Visita – Aficionado – Hombre",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/94983c9f.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/94983c9f.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/8177942c.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/befcf1b6.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/f5e9ad7f.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "bun-14506",
+    "name": "Bayern Munchen 2025/26 – Edición Diamante - Jugador",
+    "category": "bundesliga",
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e471623f-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e471623f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a843ad58-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7a3ffe87-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ed7202d4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/02858b32-b3ab-403d-b5ba-b51d941718e5.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
   }
+
 ];
 
 const STOCK_PRODUCTS = [
@@ -128168,14 +130888,14 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
   ${product.password ? '<span style="color:var(--neon-lime); display:block; margin-top:5px;">' + product.password + '</span>' : ''}
 </div>
 
-${product.section === 'preorder' || product.section === 'preorder-sports' ? '' : `
+${product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
 <div class="product-pricing">
   <span class="price-wholesale">$${product.price} MXN</span>
 </div>
 `}
 
 <div class="product-actions">
-  ${product.section === 'preorder-sports' ? `
+  ${product.section === 'preorder-sports' && product.link ? `
     <a href="${product.link}" target="_blank" class="btn-add-cart" style="text-decoration: none; display: flex; justify-content: center; align-items: center; gap: 8px; width: 100%; box-sizing: border-box;">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       VER CATÁLOGO
