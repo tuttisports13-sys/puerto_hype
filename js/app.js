@@ -35726,9 +35726,9 @@ const SPORTS_PRODUCTS = [
     "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+    "image": "images/stock/argentina_visita_ml.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+      "images/stock/argentina_visita_ml.jpg"
     ],
     "sizes": [
       "S",
@@ -36601,9 +36601,9 @@ const SPORTS_PRODUCTS = [
     "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000114564-6d3f49d5498e037ef317847862167813-1024-1024.webp",
+    "image": "images/stock/argentina_visita_ml.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/1000114564-6d3f49d5498e037ef317847862167813-1024-1024.webp"
+      "images/stock/argentina_visita_ml.jpg"
     ],
     "sizes": [
       "S",
