@@ -35801,34 +35801,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_5c9e0c91-abfe-4569-a735-63211f96f911_4134318_4287588-770a344eda6bd7af2717803531858483-480-0.webp",
+    "image": "images/stock/portugal_visita.png",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_5c9e0c91-abfe-4569-a735-63211f96f911_4134318_4287588-770a344eda6bd7af2717803531858483-480-0.webp"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "customizable": true,
-    "hasVersionSelector": true
-  },
-  {
-    "id": "rbf-342048016",
-    "name": "Jersey Portugal Visita",
-    "category": "selecciones",
-    "isProductInsideFolder": true,
-    "section": "preorder-sports",
-    "price": 550,
-    "badge": "15-20 DÍAS",
-    "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162114136-2_ilzrwowqihjleaqm-094052b1873259340c17788314245796-1024-1024.webp",
-    "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069162114136-2_ilzrwowqihjleaqm-094052b1873259340c17788314245796-1024-1024.webp"
+      "images/stock/portugal_visita.png"
     ],
     "sizes": [
       "S",
