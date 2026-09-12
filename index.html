@@ -2353,30 +2353,73 @@ h1, h2, h3, h4, .font-heading {
   </div>
 </div>
 
-<!-- Escudo Anti-Copias -->
+<!-- Escudo Anti-Copias EXTREMO -->
+<style>
+  /* Bloquear selección de texto y toque prolongado en móviles */
+  body {
+    -webkit-touch-callout: none; /* Bloquea el menú de guardar imagen en iPhone */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  img {
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+  }
+</style>
 <script>
-  // Bloquear Clic Derecho
+  // 1. Bloquear Clic Derecho estricto en toda la pantalla
   document.addEventListener('contextmenu', event => event.preventDefault());
-  
-  // Bloquear Arrastre de Imágenes
-  document.addEventListener('dragstart', event => {
-    if (event.target.tagName.toLowerCase() === 'img') {
-      event.preventDefault();
-    }
+
+  // 2. Bloquear arrastre de imágenes y elementos
+  document.addEventListener('dragstart', event => event.preventDefault());
+
+  // 3. Bloquear "Copiar" al portapapeles
+  document.addEventListener('copy', event => {
+    event.preventDefault();
+    alert("Copia deshabilitada por seguridad.");
   });
-  
-  // Bloquear atajos de teclado (F12, Ctrl+U, Ctrl+Shift+I, Command+Option+I)
+
+  // 4. Bloquear Atajos (Guardar, Imprimir, Ver Código, Inspeccionar)
   document.addEventListener('keydown', event => {
-    if (event.key === 'F12' || 
-       (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.key === 'C')) || 
-       (event.ctrlKey && event.key === 'U') ||
-       (event.metaKey && event.altKey && (event.key === 'I' || event.key === 'J' || event.key === 'C')) || 
-       (event.metaKey && event.key === 'U')) {
+    const forbiddenKeys = ['F12', 'F11', 's', 'S', 'p', 'P', 'u', 'U', 'c', 'C', 'x', 'X', 'i', 'I', 'j', 'J'];
+    if (
+      event.key === 'F12' || 
+      (event.ctrlKey && forbiddenKeys.includes(event.key)) || 
+      (event.metaKey && forbiddenKeys.includes(event.key)) ||
+      (event.ctrlKey && event.shiftKey) || 
+      (event.metaKey && event.altKey)
+    ) {
       event.preventDefault();
       return false;
     }
   });
+
+  // 5. Bomba Anti-Inspectores (Debugger Freeze Loop)
+  // Congela la pestaña si abren las herramientas de desarrollador
+  setInterval(function() {
+    const start = new Date();
+    debugger; // Si la consola está abierta, el navegador se pausa aquí
+    // Si pasaron más de 100ms, significa que el debugger se activó y lo pausó el usuario
+    if (new Date() - start > 100) {
+       document.body.innerHTML = "<h1 style='color:red; text-align:center; margin-top:20vh; font-family:sans-serif;'>🛑 ACCESO DENEGADO.<br><br>Intento de robo de código detectado.</h1>";
+       window.location.href = "about:blank";
+    }
+  }, 1000);
+
+  // 6. Alarma en Consola
+  setInterval(() => {
+    console.clear();
+    console.log("%c¡ALTO AHÍ!", "color: red; font-size: 50px; font-weight: bold; text-shadow: 2px 2px 0 #000;");
+    console.log("%cEl código, imágenes e inventario de Puerto Hype están protegidos bajo estrictas medidas de seguridad y cifrado. Cualquier intento de extracción de datos está siendo monitoreado.", "color: white; background: #12141a; font-size: 16px; padding: 10px; border: 2px solid #b3ff00; border-radius: 5px;");
+  }, 2000);
 </script>
+
 
   <!-- AI Chatbot UI -->
   <div id="ai-chat-widget">
