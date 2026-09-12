@@ -170386,12 +170386,17 @@ async function loadReviews() {
     const reviews = await res.json();
     
     if (reviews.length === 0) {
-      container.innerHTML = '<p style="color: var(--text-muted); grid-column: 1 / -1; text-align: center;">Sé el primero en dejar una reseña.</p>';
+      container.innerHTML = '<p style="color: var(--text-muted); text-align: center; width: 100%;">Sé el primero en dejar una reseña.</p>';
       return;
     }
     
-    container.innerHTML = reviews.map(r => `
-      <div style="background: var(--bg-card); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; flex-direction: column;">
+    // Duplicate reviews to create a seamless infinite scrolling marquee
+    let repeatedReviews = [...reviews];
+    while(repeatedReviews.length < 12) { repeatedReviews = [...repeatedReviews, ...reviews]; }
+    repeatedReviews = [...repeatedReviews, ...repeatedReviews]; // Ensure it doubles the full set for perfect seamless loop
+    
+    container.innerHTML = repeatedReviews.map(r => `
+      <div class="review-card" style="background: var(--bg-card); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; flex-direction: column;">
         <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 15px;">
           <div style="width: 50px; height: 50px; background: var(--neon-lime); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #000; font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">
             ${r.name.charAt(0).toUpperCase()}
@@ -170410,7 +170415,7 @@ async function loadReviews() {
     `).join('');
   } catch (error) {
     console.error(error);
-    container.innerHTML = '<p style="color: #ff6b6b; grid-column: 1 / -1; text-align: center;">Error al cargar las reseñas.</p>';
+    container.innerHTML = '<p style="color: #ff6b6b; text-align: center; width: 100%;">Error al cargar las reseñas.</p>';
   }
 }
 
