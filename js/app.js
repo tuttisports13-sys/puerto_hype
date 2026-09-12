@@ -36401,9 +36401,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995219084-2_yj3fkxdl5kj0okby-d0777b36f8e8d2b8be17760164221907-1024-1024.webp",
+    "image": "images/stock/sudafrica_local.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4069995219084-2_yj3fkxdl5kj0okby-d0777b36f8e8d2b8be17760164221907-1024-1024.webp"
+      "images/stock/sudafrica_local.jpg"
     ],
     "sizes": [
       "S",
