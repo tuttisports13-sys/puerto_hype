@@ -7,7 +7,7 @@
 const SPORTS_PRODUCTS = [
 {
   "id": "sports-folder-mls",
-  "name": "MLS - Temporada 25/26",
+  "name": "MLS & INTER MIAMI",
   "category": "mls_folder",
   "section": "preorder-sports",
   "image": "images/stock/mls_cover.png",
