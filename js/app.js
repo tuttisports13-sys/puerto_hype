@@ -35576,9 +35576,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d739a5eb-f485-439f-80dd-eba1bb99760a_4134318_4287588-380420557817e6aea617803532147555-1024-1024.webp",
+    "image": "images/stock/colombia_visita.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_d739a5eb-f485-439f-80dd-eba1bb99760a_4134318_4287588-380420557817e6aea617803532147555-1024-1024.webp"
+      "images/stock/colombia_visita.jpg"
     ],
     "sizes": [
       "S",
@@ -36079,31 +36079,6 @@ const SPORTS_PRODUCTS = [
     "image": "images/stock/sudafrica_visita.jpg",
     "gallery": [
       "images/stock/sudafrica_visita.jpg"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "customizable": true,
-    "hasVersionSelector": true
-  },
-  {
-    "id": "rbf-335875720",
-    "name": "Jersey Colombia Visita",
-    "category": "selecciones",
-    "isProductInsideFolder": true,
-    "section": "preorder-sports",
-    "price": 550,
-    "badge": "15-20 DÍAS",
-    "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068821241480-2_jckezyb4jsquxgr6-b9ead8ac40e20bde6417759374030719-1024-1024.webp",
-    "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068821241480-2_jckezyb4jsquxgr6-b9ead8ac40e20bde6417759374030719-1024-1024.webp"
     ],
     "sizes": [
       "S",
