@@ -2027,7 +2027,7 @@ const SPORTS_PRODUCTS = [
     "name": "Bayern Munchen 2024/25 - Rompevientos Doble Vista",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 1200,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__eda8902f-min-scaled.webp",
@@ -2046,14 +2046,14 @@ const SPORTS_PRODUCTS = [
       "3XL",
       "4XL"
     ],
-    "customizable": true
+    "customizable": false
   },
   {
     "id": "bun-3097",
     "name": "Bayern Munchen 2023/24 - Rompevientos Doble Vista",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 1200,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__24f2a4da-min-scaled.webp",
@@ -2072,14 +2072,14 @@ const SPORTS_PRODUCTS = [
       "3XL",
       "4XL"
     ],
-    "customizable": true
+    "customizable": false
   },
   {
     "id": "bun-10209",
     "name": "Bayern Munchen 2025/26 - Conjunto Chándal Entrenamiento",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 1200,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/40c13fbd.jpg",
@@ -2096,14 +2096,14 @@ const SPORTS_PRODUCTS = [
       "3XL",
       "4XL"
     ],
-    "customizable": true
+    "customizable": false
   },
   {
     "id": "bun-4366",
     "name": "Borussia Dortmund 2024/25 - Rompevientos",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 1200,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5fd87cfd.webp",
@@ -2123,14 +2123,14 @@ const SPORTS_PRODUCTS = [
       "3XL",
       "4XL"
     ],
-    "customizable": true
+    "customizable": false
   },
   {
     "id": "bun-7039",
     "name": "Bayern Munchen 2024/25 - Rompevientos",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 1200,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__0d1a7b31-min.webp",
@@ -2150,7 +2150,7 @@ const SPORTS_PRODUCTS = [
       "3XL",
       "4XL"
     ],
-    "customizable": true
+    "customizable": false
   },
   {
     "id": "bun-18478",
