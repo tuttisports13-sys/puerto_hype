@@ -131551,6 +131551,8 @@ function openQuickView(productId) {
   const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId) || SPORTS_PRODUCTS.find(p => p.id === productId);
   if (!product) return;
   
+  currentQvProductId = productId;
+  
   const modal = document.getElementById('quickview-modal');
   const title = document.getElementById('qv-title');
   const price = document.getElementById('qv-price');
@@ -131558,19 +131560,42 @@ function openQuickView(productId) {
   const thumbContainer = document.getElementById('qv-thumbnails');
   
   title.textContent = product.name;
-// Render Sizes
-const sizeContainer = document.getElementById('qv-sizes');
-if (sizeContainer && product.sizes && product.sizes.length > 0) {
-  sizeContainer.innerHTML = product.sizes.map((s, i) => `
-    <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1px solid var(--border-color); background: var(--bg-body); color: white; border-radius: 4px; cursor: pointer; font-size: 0.85rem;">
-      ${s}
-    </button>
-  `).join('');
-  document.getElementById('qv-size-container').style.display = 'block';
-} else if (sizeContainer) {
-  document.getElementById('qv-size-container').style.display = 'none';
-}
+  
+  // Render Sizes
+  const sizeContainer = document.getElementById('qv-sizes');
+  if (sizeContainer && product.sizes && product.sizes.length > 0) {
+    sizeContainer.innerHTML = product.sizes.map((s, i) => `
+      <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1px solid var(--border-color); background: var(--bg-body); color: white; border-radius: 4px; cursor: pointer; font-size: 0.85rem;">
+        ${s}
+      </button>
+    `).join('');
+    document.getElementById('qv-size-container').style.display = 'block';
+  } else if (sizeContainer) {
+    document.getElementById('qv-size-container').style.display = 'none';
+  }
 
+  // Handle Customization UI
+  const qvCustomization = document.getElementById('qv-customization');
+  if (qvCustomization) {
+    if (product.customizable) {
+      qvCustomization.style.display = 'block';
+      document.getElementById('qv-check-name').checked = false;
+      document.getElementById('qv-check-patch').checked = false;
+      document.getElementById('qv-name-input').value = '';
+      document.getElementById('qv-patch-select').value = '1';
+      toggleNameInput();
+      togglePatchInput();
+    } else {
+      qvCustomization.style.display = 'none';
+    }
+  }
+
+  // Ensure "AGREGAR AL CARRITO" button is always visible even if not customizable
+  // Wait, the button is INSIDE the qv-customization div in index.html!
+  // If it's inside, setting qvCustomization to display:none hides the button too!
+  // Let me move the button outside of qvCustomization inside this script.
+  // Actually, I can just do it in JS: if not customizable, we still need a button to add to cart!
+  
   price.textContent = product.section === 'preorder' ? 'Por cotizar' : `$${product.price} MXN`;
   
   currentGallery = product.gallery && product.gallery.length > 0 ? product.gallery : [product.image];
