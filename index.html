@@ -2254,5 +2254,30 @@ h1, h2, h3, h4, .font-heading {
   </div>
 </div>
 
+<!-- Escudo Anti-Copias -->
+<script>
+  // Bloquear Clic Derecho
+  document.addEventListener('contextmenu', event => event.preventDefault());
+  
+  // Bloquear Arrastre de Imágenes
+  document.addEventListener('dragstart', event => {
+    if (event.target.tagName.toLowerCase() === 'img') {
+      event.preventDefault();
+    }
+  });
+  
+  // Bloquear atajos de teclado (F12, Ctrl+U, Ctrl+Shift+I, Command+Option+I)
+  document.addEventListener('keydown', event => {
+    if (event.key === 'F12' || 
+       (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.key === 'C')) || 
+       (event.ctrlKey && event.key === 'U') ||
+       (event.metaKey && event.altKey && (event.key === 'I' || event.key === 'J' || event.key === 'C')) || 
+       (event.metaKey && event.key === 'U')) {
+      event.preventDefault();
+      return false;
+    }
+  });
+</script>
+
 </body>
 </html>
