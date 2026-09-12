@@ -36593,31 +36593,6 @@ const SPORTS_PRODUCTS = [
     "hasVersionSelector": true
   },
   {
-    "id": "rbf-357174965",
-    "name": "Jersey Argentina Visita Manga Larga",
-    "category": "selecciones",
-    "isProductInsideFolder": true,
-    "section": "preorder-sports",
-    "price": 750,
-    "badge": "15-20 DÍAS",
-    "badgeType": "badge-preorder",
-    "image": "images/stock/argentina_visita_ml.jpg",
-    "gallery": [
-      "images/stock/argentina_visita_ml.jpg"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "customizable": true,
-    "hasVersionSelector": false
-  },
-  {
     "id": "rbf-347872759",
     "name": "Jersey para Niños Inglaterra Local Copa del Mundo 2026 2026/2027",
     "category": "selecciones",
