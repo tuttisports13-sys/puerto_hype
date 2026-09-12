@@ -169893,9 +169893,15 @@ function saveCart() {
 // Calcular totales y escala de descuentos
 function calculateWholesaleSummary() {
   const totalPieces = AppState.cart.reduce((sum, item) => sum + item.quantity, 0);
-  const subtotal = AppState.cart.reduce((sum, item) => sum + ((item.finalPrice || item.price) * item.quantity), 0);
+  
+  // Exclude 'po-' items from the numeric sum because they are "POR COTIZAR"
+  const subtotal = AppState.cart.reduce((sum, item) => {
+    if (item.id.startsWith('po-')) return sum; // Cotizar = $0 en el cálculo automático
+    return sum + ((item.finalPrice || item.price) * item.quantity);
+  }, 0);
 
-  // Descuentos por volumen eliminados según solicitud
+  const hasPreorderItems = AppState.cart.some(item => item.id.startsWith('po-'));
+
   let extraDiscountPercent = 0;
   let tierLabel = 'Precio Mayoreo';
 
@@ -169909,6 +169915,7 @@ function calculateWholesaleSummary() {
     discountAmount,
     total,
     tierLabel,
+    hasPreorderItems,
     isWholesaleQualified: totalPieces >= 5
   };
 }
@@ -170027,13 +170034,20 @@ function sendOrderViaWhatsApp() {
     if (item.customization) { message += `  > Personalizado: ${item.customization.name || ''} ${item.customization.patches ? '| Parches: ' + item.customization.patches : ''}\n`; }
   });
 
+  let totalTextWA = `$${summary.total.toLocaleString()} MXN`;
+  if (summary.hasPreorderItems && summary.total === 0) {
+    totalTextWA = 'POR COTIZAR';
+  } else if (summary.hasPreorderItems && summary.total > 0) {
+    totalTextWA = `$${summary.total.toLocaleString()} MXN + Artículos por Cotizar`;
+  }
+
   message += `\n━━━━━━━━━━━━━━━━━━━━━\n`;
   message += `📦 *Total de piezas:* ${summary.totalPieces} pzas\n`;
-  message += `💰 *Subtotal:* $${summary.subtotal.toLocaleString()} MXN\n`;
+  message += `💰 *Subtotal:* ${totalTextWA}\n`;
   if (summary.extraDiscountPercent > 0) {
     message += `🏷️ *Descuento por volumen (-${summary.extraDiscountPercent}%):* -$${summary.discountAmount.toLocaleString()} MXN\n`;
   }
-  message += `💳 *TOTAL FINAL ESTIMADO:* $${summary.total.toLocaleString()} MXN\n\n`;
+  message += `💳 *TOTAL FINAL ESTIMADO:* ${totalTextWA}\n\n`;
   
   
   message += `¿Tienen disponibilidad en estas tallas para pago y envío hoy mismo? Gracias!`;
