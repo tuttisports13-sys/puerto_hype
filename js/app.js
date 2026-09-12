@@ -36951,9 +36951,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887738-2_miwmcq4tdr3d0nsa-03f59b373044782cbb17759375068304-1024-1024.webp",
+    "image": "images/stock/japon_visita.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/4068818887738-2_miwmcq4tdr3d0nsa-03f59b373044782cbb17759375068304-1024-1024.webp"
+      "images/stock/japon_visita.jpg"
     ],
     "sizes": [
       "S",
