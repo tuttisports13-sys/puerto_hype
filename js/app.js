@@ -27,6 +27,17 @@ const SPORTS_PRODUCTS = [
     "isFolder": true,
     "targetFilter": "laliga"
   },
+{
+  "id": "sports-folder-premier",
+  "name": "Premier League - Temporada 25/26",
+  "category": "premier_folder",
+  "section": "preorder-sports",
+  "image": "images/stock/premier_cover.png",
+  "badge": "246 MODELOS",
+  "badgeType": "badge-hot",
+  "isFolder": true,
+  "targetFilter": "premier"
+},
   {
     "id": "sports-001",
     "name": "Liga MX Catálogo 1",
@@ -10532,6 +10543,6656 @@ const SPORTS_PRODUCTS = [
     ],
     "customizable": true
   }
+,
+
+  {
+    "id": "premier-4896",
+    "name": "Manchester City 2024/25 - Cuarta equipación - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__581388b6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__581388b6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__afc03a2f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__22e48264-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5c851c2e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8886",
+    "name": "Spurs 2025/26 - Local - Infantil",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ee79ce4e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ee79ce4e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__540123d4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6c60e1c6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__efa104fb-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6316",
+    "name": "Chelsea 2011/12 - Local - Infantil - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchfront-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchfront-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchmanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchlogo-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchback-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13971",
+    "name": "Chelsea 2025/26 «Entrenamiento»- Rompevientos",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c9b6703e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c9b6703e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d52c0100.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "premier-10179",
+    "name": "Manchester United 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__982e3756-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__982e3756-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f249d2ab-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d125e89c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__83cac836-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10489",
+    "name": "Spurs (Kim/11) 2025/26 – Local – Aficionado – Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-18T114410.172-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-18T114410.172-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0a217f99-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ceef1432-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__71be9b9a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15648",
+    "name": "Chelsea 2003/05 - Visita - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8b7abd8b2e286de0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8b7abd8b2e286de0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/545c79db9d665b8a.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/2a88d8124657b279.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/bebcf2b201ac5c02.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4712",
+    "name": "Manchester United (Ronaldo/7) 2007/08 - Alternativa - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f8c2e3c4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0dfad986-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13621",
+    "name": "Chelsea 2005/06 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bf9fc9b0-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bf9fc9b0-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__01893932-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b206ae6b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1d1049da-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11472",
+    "name": "Manchester United 2025/26 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__2c438597-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__2c438597-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__748e8e93-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__5eb1311c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__e131ebb3-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12047",
+    "name": "Manchester United 2025/26 - Alternativa - Aficionado - Dama",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__d92d0625.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__d92d0625.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8f40ac60.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__601a06c4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__7c4c5787.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7463",
+    "name": "Manchester United (Ronaldo/7) 2002/04 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__24b11526-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__aae96123-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__82a6f7a8-1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13649",
+    "name": "Chelsea 2012/13 - Local - Infantil - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5049023a-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5049023a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0fe0da1d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c887eecf-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9926b49c-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10590",
+    "name": "Aston Villa (Ozzy/9) 2025/26 – Local – Aficionado – Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-57-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-57-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/640-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/640-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/640.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11208",
+    "name": "Chelsea 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__539996082_122168774006434018_1515962199132240081_n.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__539996082_122168774006434018_1515962199132240081_n.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__540389118_122168774000434018_3501458944553722582_n.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10574",
+    "name": "Arsenal 2025/26 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__791468e3-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__791468e3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__31643a3a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8f36e3e7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__da632750-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8265",
+    "name": "Chelsea 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__364b91cb-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__364b91cb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d2249480-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3d6a8728-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__682dac86-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12976",
+    "name": "Chelsea 2013/14 - Alternativa- Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c432055a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c432055a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d71d8fba.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a64927e9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__adf256bc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11646",
+    "name": "Manchester United 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__220d157a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__220d157a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1bcb7461.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__8dd70c8e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b3915799.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18764",
+    "name": "Manchester City 2026/27 - Local - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/514dec7e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/514dec7e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/424e5110.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/cdc676ce.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/c12bfa54.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18770",
+    "name": "Manchester City 2026/27 - Local - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/48f75e0a-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/48f75e0a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/1565c4cb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/016eadf5-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/b6960bfa-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18748",
+    "name": "Manchester City 2026/27 - Local »Azul y blanco» - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-25.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/3-RIOS-25.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/4c070fcf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/daeade1a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/27cf10de-a0be-42cc-bdaf-c8d9d36338f6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6310",
+    "name": "Chelsea 2008/09 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chfront-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chfront-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chmanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chlogo-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chback-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18130",
+    "name": "Liverpool 2026/27 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/f67db6e5-e3df-49d6-83bb-861ff368b485-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/f67db6e5-e3df-49d6-83bb-861ff368b485-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ba134ac9-7237-4366-906f-a7baf42f6cab.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/35b114ce-374b-4ec4-a406-f2196c710429.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/edd44973-8910-4741-be0e-c509a0bbce72.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6298",
+    "name": "Chelsea 2012/13 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__eeeeee-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__eeeeee-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelseamanga-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelsealogo-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelseatrasera-min-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18490",
+    "name": "Liverpool 2026/27 - Local - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/5c06f940.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/5c06f940.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/405b4b9c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/67bb046a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d57d6ab3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18163",
+    "name": "Manchester United 2026/27 - Local - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/158daa8f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/158daa8f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/eafe4273.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/fe4e31a9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/7e653fa4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15772",
+    "name": "Manchester United 2025/26 - Especial (Azul marino) - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9ea8acb1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9ea8acb1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9c829bdf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__94d1b09b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c36871f5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11212",
+    "name": "Manchester City 2025/26 – Visita – Infantil",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9ad27fd6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9ad27fd6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9e21007d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__c7f3f95b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__aafd6bc3-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11952",
+    "name": "Manchester City 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__fbd7fe4c-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__fbd7fe4c-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__eed274a0-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__0c460318-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__7f463354-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18532",
+    "name": "Arsenal 2026/27 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c56635a8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c56635a8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/f4d01dc2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/1073172f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/25574ab3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15765",
+    "name": "Manchester United 2025/26 - Especial - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a574a4a6.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a574a4a6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__30105e27.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__650e3a73.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b8afd11a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4761",
+    "name": "Manchester United 2007/08 - Portero - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1b644e6d-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1b644e6d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a4219de0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3482a0eb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c208acef-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13329",
+    "name": "Arsenal 2025/26 - Portero - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3b56ae71-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3b56ae71-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__85756039-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__37e20620-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9c3b4545-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18776",
+    "name": "Manchester City 2026/27 - Visita - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/201e3b69.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/201e3b69.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/61ce61ea.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/c428ee44.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/5a805f3a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18758",
+    "name": "Manchester City 2026/27 - Visita »Negro» - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f68f2ac7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/f68f2ac7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/24f10c2a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/87c634dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/a443320e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18754",
+    "name": "Manchester City 2026/27 - Visita »Negra» - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/2ba65a58-0199-49b3-a316-a1b9d54d5aa3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/2ba65a58-0199-49b3-a316-a1b9d54d5aa3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/6b358260-60a7-45de-970a-d6cedcfcc107.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7740",
+    "name": "Arsenal 1998/99 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d3ae0010-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d3ae0010-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__04184ea8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1b9e6c63-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d418eaa2-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18484",
+    "name": "Liverpool 2026/27 - Local - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e7aa9889-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e7aa9889-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b9636ef8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/f099fb62-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a46a92a9-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12892",
+    "name": "Nottingham Forest 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ed75efe7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ed75efe7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8e04a9ea.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__40b0ac43.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b9136302.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12982",
+    "name": "Nottingham Forest 2025/26 - Entrenamiento - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d69d6bed.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d69d6bed.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__40d372b1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7e5a40c4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__972a1c8b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15642",
+    "name": "Chelsea 2003/05 - Visita - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__247769be050a5d83.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__247769be050a5d83.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5560abf43e5a0c94.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8dcf56977d1daf50.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__daa4958ffa27cfec.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13711",
+    "name": "Manchester City 2024/25 - Ed. Dragon blanco - Aficionado - Hombre - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__efdfe80e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__efdfe80e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9eba6db5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3a21bed7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8eb1d948.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13825",
+    "name": "Arsenal 2023/24 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__730acdfb-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__730acdfb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fa632263-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b3e62bcb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__95997152-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9821",
+    "name": "Chelsea 2025/26 – Local – Aficionado – Dama",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__da8945d4-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__da8945d4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b6525cfc-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e5b7d5c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a9ddb0c0-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15636",
+    "name": "Chelsea 2012/13 - Alternativa - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/37fe0d4724da29bf-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/37fe0d4724da29bf-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/c301aac40736bf31-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/ba18c8a896974391-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/81c51f8eac143ed3-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8755",
+    "name": "Arsenal 2025/26 - Local - Infantil",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ed71e2d5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ed71e2d5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__589a2dba-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__dfd3ec9a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__59d936a8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13337",
+    "name": "Arsenal 2025/26 - Ed. Rayo Azul - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8799242c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8799242c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6fd4c0c6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9f4481fe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c0566158-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10692",
+    "name": "Manchester City 2025/26 - Visita »Kidsuper» - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__32967226-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__32967226-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bbd6e112-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0d201023-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7f3c7481-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4985",
+    "name": "Manchester United 2007/08 – Local – Infantil – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5b4ad273-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__25415a3a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c57ec925-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2327",
+    "name": "Manchester United 2012/13 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__c757be1a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__c757be1a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__4facc289-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__6561cfc0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__0dee2ad7-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6516",
+    "name": "Chelsea 2008/09 - Local - Infantil - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mjnh-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mjnh-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__oli-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ew-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__rfed-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6932",
+    "name": "Manchester United 2003/04 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__229e4a3a-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__229e4a3a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__24ea230d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__e64d1679-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__eea038d3-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11915",
+    "name": "Liverpool 2025/26 - Local - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__ecaea0fe.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__ecaea0fe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__268d419c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9527d3bc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__061e3a59.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15852",
+    "name": "Aston Villa 1993/95 - Visita - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c069b80f-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c069b80f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__45747467-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f7242e49-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ca97f260-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4741",
+    "name": "Manchester United (Ronaldo/7) 2007/08 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-14-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-14-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__33a5745e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6d13f4ad-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7529093d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15654",
+    "name": "Chelsea 1998/00 - Visita - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f04eb4717d85b77e-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f04eb4717d85b77e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__55098a0bc68e1422-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3d6f1059428965c8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__cfefad55067e0a7b-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-3721",
+    "name": "Manchester United 2007/08 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__33a5745e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__33a5745e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7d826e25-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7529093d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__74132296-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2807",
+    "name": "Arsenal 2024/25 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/dd8fcd3e-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/dd8fcd3e-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/54fba02d-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/029bc515-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/b23bc8e7-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12849",
+    "name": "Arsenal 2024/25 - Entrenamiento - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__457941b2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__457941b2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__832932d7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__728f1bf4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__64c1fe98.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8672",
+    "name": "Liverpool 1996 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10399",
+    "name": "Spurs 1997/99 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f959568c-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f959568c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6ea48693-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fdcabb97-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7f97be6b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10531",
+    "name": "Spurs 2009/10 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9f233236-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9f233236-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5296516b-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9aae08ee-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__29a39c28-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12868",
+    "name": "Manchester City 2026/27 - Ed. Año del caballo - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__738da45d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__738da45d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3d821f08.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1e08a1fe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__86a287ff-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6327",
+    "name": "Manchester City 2011/12 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__manchfront-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__manchfront-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__manchmanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__manchlogo-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__manchback-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-14533",
+    "name": "Manchester City 2012/13 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a6cd6ca4-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a6cd6ca4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__46495fb4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__999942bd-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__9210e752-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10405",
+    "name": "Spurs 1994/95 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a44c13d6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a44c13d6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9f88dc82-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a574e558-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__73671946-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5281",
+    "name": "Liverpool 1993/94 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a89b0de5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a89b0de5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__582146ac-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__64e4f8d3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3c54e359-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13735",
+    "name": "Manchester City 2024/25 - Ed. Cuadros Grises - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ec5340c7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ec5340c7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c5d739c1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b605ee99.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1af9d4a6.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8662",
+    "name": "Liverpool 1984 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/f937938a087a67f4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/f937938a087a67f4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/36a62748ad770fc4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/dd89602f68af32e2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16084",
+    "name": "Aston Villa 2025/26 – Local – Aficionado – Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__144dd271.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__144dd271.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1801c50b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5d95293f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__315a0417.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7473",
+    "name": "Manchester United (Ronaldo/7) 2003/05 - Visita- Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__5f219998-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__ee029aeb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__6e56dcab-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15876",
+    "name": "Aston Villa 1993/95 - Local - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78a18a38719d9ecd-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78a18a38719d9ecd-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e120a7c92099bb91-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0f3ae5bd61e1f840-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c616aaa268ae7e9b-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7013",
+    "name": "Manchester United 2011/12 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__aea13f8d-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__aea13f8d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__3316bdaa-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__53542c70-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__8f825f28-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2813",
+    "name": "Arsenal 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1cdf7a48.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1cdf7a48.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/017ee37c.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/27c142f3.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/729d471c.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8667",
+    "name": "Liverpool 2006/07 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__88-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__88-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__89-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__90-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8656",
+    "name": "Liverpool 1993/95 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/cf62c5057ab6dcb5608ee0294c603660.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/cf62c5057ab6dcb5608ee0294c603660.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/aec657c212f900eea2871ba4ac0c534f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/aedbc4371a3682180777cc7b87790ca3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/4b4c2c71fa16942ec7979a26f3bbf765.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9948",
+    "name": "Manchester United 2025/26 - Local - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5b956969-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5b956969-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bb59367e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6c6f2073-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b5e3c095-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18072",
+    "name": "Chelsea 2026/27 - Visita »Negro» - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/0f8f74ff-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/0f8f74ff-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/b9011082.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/c5650919-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/d501b663-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2835",
+    "name": "Manchester United (Ronaldo/7) 2008 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/56d0b080-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/56d0b080-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ba812582-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6d13f4ad-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4feb33ed-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4715",
+    "name": "Manchester United (Ronaldo/7) 2007/08 - Alternativa - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0dfad986-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da9339dc-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9954",
+    "name": "Manchester United 2025/26 - Local - Aficionado - Dama",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9a58b1b6-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9a58b1b6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2f8edec9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__cf892808-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__49a367de-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-17240",
+    "name": "Arsenal 2026/27 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-47.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-47.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/Diseno-sin-titulo-48.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18066",
+    "name": "Chelsea 2026/27 - Local »Polo» - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/f6a73103-1018-4854-ac9a-99e4fd3c7d70.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/f6a73103-1018-4854-ac9a-99e4fd3c7d70.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/73274bd0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/7848ec7f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/ee635db5-6c80-4c1f-9042-ad9d80367fff.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-3882",
+    "name": "Arsenal 2002/03 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5bc9c15d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5bc9c15d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7069f353-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__870386a2-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__611ef2ef-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10143",
+    "name": "Arsenal 2011/12 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__89e76ff8-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__89e76ff8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f4e91651-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3f58a28f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__3f9dfa41-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6334",
+    "name": "Manchester City 2007/08 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mcfront-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mcfront-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mclogo-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mcmanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mcback-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-14518",
+    "name": "Manchester City 2025/26 - Ed. Planetas - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__aa90361e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__aa90361e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1f1c2440.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bf8ab5c7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7794e240.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11702",
+    "name": "Liverpool 2025/26 - Alternativa - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9ee39312.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9ee39312.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__a039c768.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__fd7f780d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__3d3d00da.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8471",
+    "name": "Arsenal 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__54f403aa-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__54f403aa-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T010625.259-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T010610.728-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b05c8a56-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-17252",
+    "name": "Manchester United 2026/27 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/05/d5327a7d.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/d5327a7d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/6178c272.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/e836bb2e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/05/f2f3eaba.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8142",
+    "name": "Manchester City 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9c3dd4ce-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9c3dd4ce-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ea56d5bf-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__adb3b66e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__86588940-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-17995",
+    "name": "Arsenal 2026/27 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a2049750.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a2049750.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/7ea77263.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/67c07916.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e6aa7d90.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10608",
+    "name": "Manchester City 2025/26 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1dbb0c3e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1dbb0c3e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a2be14c8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7af9987f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b80798fd-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7728",
+    "name": "Arsenal 2007/08 - Alternativa - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__08f39d66-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__08f39d66-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__c38be631-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__fb29cd35-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__6b24f382-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11362",
+    "name": "Chelsea 2025/26 - »125 Aniversario» - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/adf60bab517b1092d0707870.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/adf60bab517b1092d0707870.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/13b0b019a7fb65538a1f9e20.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/5dc904e4e3eaab3a9fcb3509.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/3c2bf1736c8284456efa0581.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13681",
+    "name": "Manchester City 2024/25 - Ed. Naranja - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__457e6050.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__457e6050.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2ee49470.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3ec39789.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f7329202.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15793",
+    "name": "West Ham 2025/26 - Visita - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ea03d7a1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ea03d7a1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aea207db.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fe74a5cd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7a658b8a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7734",
+    "name": "Arsenal 2007/08 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a5797d83-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a5797d83-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1f7c50ed-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d79c231d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5d90164a-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13783",
+    "name": "Arsenal 1993/94 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6b0c903b-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6b0c903b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__68fc897a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__93597134-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0ea8814c-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13675",
+    "name": "Manchester City 2015/16 - visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cd5eef1e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cd5eef1e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d97f9bc8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ee2ccb42.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b543c27c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13819",
+    "name": "Arsenal 2024/25 - Alternativa - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8a15452a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8a15452a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__dec70f74.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e927f375.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4168",
+    "name": "Chelsea 2011/12 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__abfc1e69-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__abfc1e69-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4dcb98a8-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d92a768e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ff5757eb-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13807",
+    "name": "Arsenal 1991/92 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b9ecaee9-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b9ecaee9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__29eb1240-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__22067d49-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__802251fa-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4658",
+    "name": "Manchester United 2007/08 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9eb06439-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9eb06439-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d68ad0a0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f964a57e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e377cae-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12672",
+    "name": "Arsenal 2014/15 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__27e091d7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__27e091d7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__49dfb089.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d837abc2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__af1eb8b4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10462",
+    "name": "Manchester United 2025/26 - Visita - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6b68ce9a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6b68ce9a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__c87bc55d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__b5a36a3d.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13747",
+    "name": "Manchester City 2024/25 - Ed. Dragón Blanco - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ddd3eacb-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ddd3eacb-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c6e402ce-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__774daaac-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c1b3797e-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7652",
+    "name": "Manchester United 2008/09 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__97233926-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__97233926-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__673a35d5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__3a684e01-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__0561174b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6141",
+    "name": "Chelsea 2024/25 - Rompevientos",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__25906daa-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__25906daa-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__1a302a68-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__c6d90780-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__f5890bfc-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "premier-13667",
+    "name": "Chelsea 2009/10 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__21a4103a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__21a4103a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0d5da052.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b35056e8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e1026a42.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10473",
+    "name": "Spurs 2025/26 – Visita »Stray Kids» – Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-18T004843.054-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-18T004843.054-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-2025-07-18T004932.467-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13631",
+    "name": "Chelsea 2025/26 - Entrenamiento - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a93c8aef.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a93c8aef.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__66a0ec61.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__63afb0ec.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5819c900.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13388",
+    "name": "West Ham United 2025/26 - Visita - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ea03d7a1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ea03d7a1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7da0c07d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__57323fc2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7a658b8a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5322",
+    "name": "Manchester United 1993/94 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fa31d85-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fa31d85-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b1c24cf9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ddcbe0fb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b0021053-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12082",
+    "name": "Manchester United 2025/26 - Visita - Aficionado - Dama",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T000019.289.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T000019.289.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__f7216554.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8efa0937.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-14T000057.419.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13627",
+    "name": "Chelsea 1995/96 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fc53a2ad-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fc53a2ad-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f2313317-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2572",
+    "name": "Manchester City 2024/25 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__dc5a1ba9-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__dc5a1ba9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/84f15c38-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/0348d9e6-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/481e0c8f-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13343",
+    "name": "Arsenal 2005/06 - Local - Infantil - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5040256e-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5040256e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a6c6f7c6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ba68056e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a7aaa8a8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5330",
+    "name": "Manchester United 2002/03 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__82a6f7a8-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__82a6f7a8-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__24b11526-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__aae96123-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ae87f596-1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13400",
+    "name": "Spurs 2025/26 - Local - Aficionado - Dama",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4c218d19.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4c218d19.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5ac08ebf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f0aea9ac.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c2675e26.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13641",
+    "name": "Chelsea 1997/98 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8bb057dd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8bb057dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5b48c665.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__08a56330.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fe87116b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13655",
+    "name": "Chelsea 2011/12 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2d356b1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2d356b1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8f116697.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f8dded94-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a6a780d1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13604",
+    "name": "Manchester United 1998/99 - Negro - Rompevientos",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__787dbbc5.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__787dbbc5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__93bfbf30.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0f2f47ff.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__520b49b1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "premier-11448",
+    "name": "Chelsea 2011/12 - Alternativa - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1c994ea6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1c994ea6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__f693c0e9-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__fe4665c1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1d6ed311-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10427",
+    "name": "Spurs 2025/26 - Visita »Stray Kids» - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-48-min-1-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-48-min-1-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-49-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__Diseno-sin-titulo-53-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6099",
+    "name": "Chelsea 2024/25 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__a3517e7d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__a3517e7d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__686c44b1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__10d31f82-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__d3ae4def-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5675",
+    "name": "Arsenal 2005/06 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f9395b42-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f9395b42-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__dcb1a4e4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__394ee2e3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e01567a1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8172",
+    "name": "Manchester City 2025/26 – Local – Infantil",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62c76451-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62c76451-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a59fabd5-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ff447ef9-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__441fa353-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12794",
+    "name": "Manchester City 2013/14 - visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__30a9be19-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__30a9be19-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0df4ed45-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2f1f5bc1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2fb2eee4-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13661",
+    "name": "Chelsea 2009/10 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__58894237.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__58894237.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f2b43bdf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__984cc525.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6ee129e2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10155",
+    "name": "Arsenal 2016/17 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__58aa4fc8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__58aa4fc8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f0f18f8e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4817f2dd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__530c4838-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5251",
+    "name": "Manchester United 2024/25 - Originals - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__8359f7d5-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__8359f7d5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__2620edf1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__87fce123-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__9cd8051d-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-3940",
+    "name": "Chelsea 2024/25 - Local - Infantil",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cba92a6b-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cba92a6b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__27d96ad5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bafde7cb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6f23b3e8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4738",
+    "name": "Manchester United (Ronaldo/7) 2007/08 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-15-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-15-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/d8e6ed8b-min-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6d13f4ad-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7529093d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15508",
+    "name": "Aston Villa 2025/26 - Alternativa - Aficionado - Hombre - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__39b60d39.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__39b60d39.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ea803969.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e1a67d46.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dee45839.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-14010",
+    "name": "Manchester United 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a8f199b4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a8f199b4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__83695f81.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8166",
+    "name": "Manchester City 2025/26 - Local - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__45251810-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__45251810-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5c6a6aeb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__8e89d89c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d796a000-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-14524",
+    "name": "Manchester City 2002/03 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e7304fb3-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e7304fb3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__534562f1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c57915bc-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f0042f32-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16072",
+    "name": "Newcastle United 2004/05 – Visita – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd3d68a6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd3d68a6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__49148d39-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f9eaa59b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ecd7fd88-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-14002",
+    "name": "Arsenal 2025/26 - Alternativa - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3d3d2a1c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3d3d2a1c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6a62435a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__04892f28.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a0aef3bb.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12105",
+    "name": "Newcastle United 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__255052b8-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__255052b8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__9b33f18a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__bc811e3a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__5ce9172c-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16409",
+    "name": "Fulham 2024/25 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__88bc60dd.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__88bc60dd.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7681c268.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1484ceae.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2a1e1046.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16433",
+    "name": "Spurs 2025/26 - Alternativa - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b604a957.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b604a957.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2846035e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4cd9ef7c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8b1c0270.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4744",
+    "name": "Manchester United 2007/08 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__32b5c9f0-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__32b5c9f0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7d826e25-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7529093d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__74132296-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5682",
+    "name": "Arsenal 2005/06 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__350b86a7-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__350b86a7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__63b0e3a4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f7b7a049-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d5ef4d80-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15749",
+    "name": "Arsenal 2011/12 - Local »125 Aniversario» - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6914a2b7.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6914a2b7.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__04184ea8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__088bdf46.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aee08265.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15882",
+    "name": "Aston Villa 2009/10 - Local - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2df15e2a3154c74bc4563aa4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2df15e2a3154c74bc4563aa4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f8a65d4876e5d34f102e3167.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ea5db0fbd86ba6770bfbd9bf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__0f54d529775f1f910413fede.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-3888",
+    "name": "Manchester United 2007/08 - Alternativa - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f8c2e3c4-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f8c2e3c4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0dfad986-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a6ab4e44-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-3870",
+    "name": "Manchester United 2007/08 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a6245d95-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a6245d95-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d68ad0a0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f964a57e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__266d4d31-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2580",
+    "name": "Manchester City 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__aa6c0829-min-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__aa6c0829-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__ddeded93-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__1954c2ec-min-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__363914fb-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16427",
+    "name": "Fulham 2024/25 - Entrenamiento - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78ce9320-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78ce9320-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9a24c088-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__867dbbb2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__765d64d8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8650",
+    "name": "Liverpool 2006/07 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/324-min.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/324-min.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/1231234-min.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/5687-min.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/5lsofx3tklp.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-14030",
+    "name": "Manchester United 2025/26 - Alternativa - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__266ae4f5.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__266ae4f5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5fea2245.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7dd1c43e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fa1a8c9f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6304",
+    "name": "Chelsea 2012/13 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelfront-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelfront-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelmanga-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chellogo-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelback-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16121",
+    "name": "Newcastle United 1995/96 – Visita – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b29ad65.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b29ad65.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e494bb2b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9e0bc570.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aeb79c0b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11262",
+    "name": "Liverpool 2025/26 – Visita – Aficionado – Hombre - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/a853953cb73e917897a66416.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/a853953cb73e917897a66416.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/0abb5bf7077d1b7123035eae.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/5d503425b75a5f33122e4b82.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/2a1a6a253999f37b98d19f7a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4755",
+    "name": "Manchester United 2006/07 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3a655e17-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3a655e17-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cad6343a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ab492bfd-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__031b4c1b-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12531",
+    "name": "Manchester United 2025/26 - US Pack Shirt - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fa62ef5a-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fa62ef5a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6a34668e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__aac69151-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d301d672-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16074",
+    "name": "Newcastle United 2005/06 – Visita – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dd501716-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dd501716-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5f18ba54-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b46729b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ea85e415-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10867",
+    "name": "Liverpool 2025/26 - Local - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/24764af586fb6069_720x-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/24764af586fb6069_720x-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/5e11fe4afd6090ea_720x-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12561",
+    "name": "Manchester City 2013/14 - Local- Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8cd7e0f3.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8cd7e0f3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__dd2fda95.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f006f356.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__19d8a38f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4749",
+    "name": "Manchester United 2006/07 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__71a55134-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__71a55134-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d413d3ff-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5f779245-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__70023ec5-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15846",
+    "name": "Aston Villa 1995/96 - Visita - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e8d8c0cb.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e8d8c0cb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5055fe0b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4f1c3c2e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e81f78a4.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-3161",
+    "name": "Liverpool 2024/25 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c3aaacb1.png",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c3aaacb1.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/0786132f.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/50129a67.png",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/26aa9c39.png",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8911",
+    "name": "Spurs 2025/26 - Local - Jugador (AIA)",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__57760122-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__57760122-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f950c2a6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__755ba776-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0a550505-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16076",
+    "name": "Newcastle United 1998/99 – Visita – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b82cc565-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b82cc565-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd9577c3-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ca3a3b9a-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ed65be30-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13795",
+    "name": "Arsenal 1992/93 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8e678e6c-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8e678e6c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ea4b007e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__115650ac-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ed50dc9e-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15840",
+    "name": "Aston Villa 1994/95 - Alternativa - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9e50d896.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9e50d896.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a5fa3bea.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d600c868.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f8f042d5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4639",
+    "name": "Manchester United 2007/08 - Alternativa - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da9339dc-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da9339dc-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0dfad986-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4f4f6847-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13789",
+    "name": "Arsenal 2019/20 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6431c57e-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6431c57e-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5ec707de-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__90e63aa8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__88d955ed-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11256",
+    "name": "Liverpool 2025/26 – Local – Aficionado – Hombre - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/538665abcb7fe5522d04cc99.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/538665abcb7fe5522d04cc99.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/8e4664aee8565d95dae4fa31.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/d07fbff9197b6ab021e4f7e5.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/26532b9af277c7b8ae34b788.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16078",
+    "name": "Newcastle United 1999/00 – Visita – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f5cdea07.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f5cdea07.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ccb6e1a2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__59ec45b8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2078a6e3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12555",
+    "name": "Manchester City 2013/14 - Alternativa - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f49ad062.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f49ad062.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__898370e3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ef26df75.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__91e820cd.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11101",
+    "name": "Aston Villa 2011/12 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__ed15477e-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__ed15477e-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__158adb17-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__e7ce1960-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2565",
+    "name": "Chelsea 2024/25 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__21035f4c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__21035f4c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__8445224a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__9c4cf4b3-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__af2cb794-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9966",
+    "name": "Manchester City 2019/20 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__be636311-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__be636311-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a1f7aff6-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8559e78a-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__303449ea-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2587",
+    "name": "Manchester United 2024/25 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6f4b8813-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/6f4b8813-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8ac36ddb-1-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/ab9b1e05-1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/64b7bc5b-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11018",
+    "name": "Liverpool 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__49375133.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__49375133.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__a48dbc7b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__967bcecf.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__178e836b.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9778",
+    "name": "Chelsea 2025/26 - Local »CENTRAL CEE» - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-27T110711.864-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-27T110711.864-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d2249480-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3d6a8728-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-27T110828.787-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10747",
+    "name": "Manchester City 2025/26 - Local - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e8bcb2d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e8bcb2d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__63feaac0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fca7a157-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__6d0e27ea-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8898",
+    "name": "Arsenal 2025/26 - Local - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__37aa36f4-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__37aa36f4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__16970a5f-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a7413162-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__37854e1a-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11659",
+    "name": "Arsenal 2025/26 - Local - Aficionado - Dama",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b14e5ff8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b14e5ff8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__4b1d90ff.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__3357bba1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__3d02a719.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2819",
+    "name": "Manchester United 2024/25 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3374b50e-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/3374b50e-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/00dbcec0-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/eb4fafb0-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a4be332b-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10861",
+    "name": "Liverpool 2025/26 - Visita - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-59.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-59.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__Diseno-sin-titulo-60.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6504",
+    "name": "Manchester United 2009/10 – Local – Infantil – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gfs-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gfs-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__lokiuj-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tht-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dnhg-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13813",
+    "name": "Arsenal 1991/92 - Visita - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ae87d703-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ae87d703-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__eaeecedc-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ef0ecec8-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8aecafb1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8805",
+    "name": "Premier League 2025/26 - »No Room For Racism» - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2776a7ce-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2776a7ce-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__58254b66-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__bcd14d3f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__9670031f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11198",
+    "name": "Brighton Albion 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__43f4d75d-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__43f4d75d-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__9b632ba2-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__856996f4-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__95c8f35d-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8880",
+    "name": "Spurs 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0a217f99-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__0a217f99-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ceef1432-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__71be9b9a-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__3b1a5208-1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-8253",
+    "name": "Chelsea 2025/26 - Local - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a2f0b7a7-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a2f0b7a7-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5f517e24-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__521739f9-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3d71f06f-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13801",
+    "name": "Arsenal 2004/05 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6146c64c-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6146c64c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c38f3596-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__96a6a9ee-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__76377125-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7467",
+    "name": "Manchester United 2003/05 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__5f219998-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__5f219998-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__6e56dcab-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__ee029aeb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__5946574b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10301",
+    "name": "Arsenal 2025/26 - US Pack Shirt - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5509613d-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__5509613d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1e4229b5-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a0e555e1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__4f059287-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10857",
+    "name": "Liverpool 2025/26 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/e743bdb1cc8cd2fbd4e71419.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/e743bdb1cc8cd2fbd4e71419.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/a653491c5b3287cde617b603.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/ab7e0625db3d4db095099592.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/08/488f63f895176bcf91deb8eb.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6365",
+    "name": "Manchester United 2024/25 - Prematch - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__rrrrr-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__rrrrr-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__yyyy-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__uuuu-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tttttt-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16086",
+    "name": "Aston Villa 2025/26 – Ed. Especial – Aficionado – Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__112c4688-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__112c4688-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e34e7e08.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__20d922ab-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__89dab585.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6804",
+    "name": "Manchester United 2024/25 - Especial - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a3a3cacb-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a3a3cacb-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__a84f9d75-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__26fafd04-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d19ca1ed-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15608",
+    "name": "Liverpool 1996/97 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a2011201805d69c8e83dbc1c.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a2011201805d69c8e83dbc1c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__287b9e7b12eac7dc.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d83d91ba9dc45402.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c7825ac01014fac7.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-6371",
+    "name": "Manchester United 2023/24 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__aaaaa-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__aaaaa-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ddddd-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ffffff-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ssssss-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15579",
+    "name": "Liverpool 1998/99 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9fc91b1b78489b022f754d26.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9fc91b1b78489b022f754d26.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__45959450f908be8a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f51d1de8649426fe.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__421ef453b8ea77cc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10686",
+    "name": "Manchester City 2025/26 - Local - Aficionado - Dama",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7ff40a69-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__7ff40a69-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e88cc8a1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f6d31cc0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fc9a3fb7-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9190",
+    "name": "Chelsea 2025/26 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6e66ed41-min-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6e66ed41-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__db59041e-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__eb0ee067-min-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__7ab32ae9-min-1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16070",
+    "name": "West Ham 2025/26 – Iron Maiden ‘’50 Aniversario’’ – Aficionado – Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__91d647bb.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__91d647bb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2b730755.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5997dbc3.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bb958145.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10585",
+    "name": "Arsenal 2025/26 - Visita - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1251ac57-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1251ac57-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__60a89ce6-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__366506ca-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16082",
+    "name": "Aston Villa 2025/26 – Visita – Aficionado – Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__de82d165.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__de82d165.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__90a0f374.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f98e8f51.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f780ca96.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-16088",
+    "name": "West Ham 2025/26 – Local – Aficionado – Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f53d35b50fdd46b4707c1716.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f53d35b50fdd46b4707c1716.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dc337fb541c9cb162ddf8478.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a5d47fbe8854f836a2558052.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__70f264328a35a455ebf64f94.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13741",
+    "name": "Manchester City 2024/25 – Visita – Infantil",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__dbf64980.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__dbf64980.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f960797c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10f32707.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e00c1d15.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15606",
+    "name": "Liverpool 1981/84 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6031007669a14ee1d9209142.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6031007669a14ee1d9209142.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3e97c4fee045538e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__95ff4d544faa6750.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e55d28f407eb5457.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15489",
+    "name": "Manchester United 2018/19 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9a849c5b-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9a849c5b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ec23ba29-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3d1bc406-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__3f72ec73-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-14067",
+    "name": "Arsenal 2025/26 - Ed. Multicolor - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4-3-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-3-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2-3-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15554",
+    "name": "Liverpool 2013/14 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f511f5253027f27b37ff6bf4-1.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f511f5253027f27b37ff6bf4-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__70d9d43e3b625911-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e5ba9976368d4742-1.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__28fe6becd7d15b68-1.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13323",
+    "name": "Arsenal 2002/03 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3456f68f-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3456f68f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__98cf4a7b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__aeb46718-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__355de2e8-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-18783",
+    "name": "Manchester City 2025/26 - Alternativa - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/7a1aaf0e.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/7a1aaf0e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/1ba4d96b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/0edc74de.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/08/ba791dbc.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-15619",
+    "name": "Liverpool 2014/15 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__549c49efe768c080-1-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__549c49efe768c080-1-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f783cab26c24bcfa-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9179cd73f848ff0b-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__080242730b2167fe-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12408",
+    "name": "Spurs 2025/26 - Entrenamiento - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__1b046043.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__1b046043.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c86db7c9.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__be773d2e.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__28b61db5.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10189",
+    "name": "Nottingham Forest 2025/26 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ad57e122-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__ad57e122-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__88cf7980-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__db761bc4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9e6c0c36-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-2830",
+    "name": "Manchester United 2024/25 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/5287dd61-scaled.jpeg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/5287dd61-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/25bc1cbb-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8b5464ff-scaled.jpeg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1e37c328-scaled.jpeg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11246",
+    "name": "Liverpool 2025/26 - US Pack Shirt - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/8267532110a1354daf2fa4d8.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/8267532110a1354daf2fa4d8.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/711a2611a22b4ab5ea8c118b.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/8b35694e76beacd3a2c922f6.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/51ac94ae9ecdbbd68737547f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10393",
+    "name": "Spurs 2025/26 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fc0323b0-1-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__fc0323b0-1-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__0ba1284e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a9b5ffcb-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__d0f736aa-1-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11732",
+    "name": "Chelsea 2025/26 - Alternativa - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__554e9a6a.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__554e9a6a.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__a436eb04.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__a3f56875.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__6ae7024f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7746",
+    "name": "Arsenal 2024/25 - Rompevientos Doble Vista",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3d13766e-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3d13766e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__55360363-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__c00cb21b-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "premier-6926",
+    "name": "Manchester United 2024/25 - Portero - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__19e1779e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__19e1779e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__20a8b400-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__4bc54a2b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f23321b1-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12856",
+    "name": "Nottingham Forest 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b62afec0.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b62afec0.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__67920edb.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3d057372.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__82e5f6c9.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-4890",
+    "name": "Manchester City 2024/25 - Visita - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__47caab6c-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__47caab6c-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4a8ef1af-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1c476b8d-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cc949aa2-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9293",
+    "name": "Chelsea 2025/26 - Visita - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4545ab1e-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4545ab1e-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6e924e37-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__2bd4455f-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ac0bfedc-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12904",
+    "name": "Leicester City 2025/26 - Local - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3ea08f0f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3ea08f0f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cd11e28d.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__09d19009.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__368902c2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-11287",
+    "name": "Arsenal 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/5133457e7921b420d1811f6f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/5133457e7921b420d1811f6f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/3b597a00323515c4c8246a60.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/0520d48ff8eb174b6a1a1706.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/09/99ff20d4cd46dd5c01ffb95e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12817",
+    "name": "Aston Villa 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3eb6ef12.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3eb6ef12.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__28f89398.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5bdb9f6f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__424def0c.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-3727",
+    "name": "Manchester United 2007/08 - Local - Aficionado - Retro - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 820,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/d8e6ed8b-min-scaled.jpg",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/d8e6ed8b-min-scaled.jpg",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7d826e25-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7529093d-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/11/ce128655-min-scaled.jpg",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12402",
+    "name": "Newcastle United 2025/26 - Portero - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__5adce823.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__5adce823.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__6f71868f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__1d878582.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__6501873f.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5049",
+    "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Infantil – Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-17-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-17-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5b4ad273-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__25415a3a-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9287",
+    "name": "Spurs 2025/26 - Local - Jugador - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__fe6d78f0-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__fe6d78f0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__1b80a74e-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__1b92b04c-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__576d4df6-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10602",
+    "name": "Manchester City 2025/26 - Visita - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/CITY-2.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/CITY-2.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/CITY.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/CITY-4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/CITY-3.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-12507",
+    "name": "Spurs 2025/26 - Alternativa - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__730ed7d4.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__730ed7d4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__70ab85e4.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__28196463.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7d75cf4a.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13705",
+    "name": "Manchester City 1997/98 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3459a7f6-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3459a7f6-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__005f5b66-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2709a93f-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2237d4d1-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5245",
+    "name": "Manchester United 2018/19 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7c2112d8-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7c2112d8-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e87a2ff4-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5159c207-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__024d27d8-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-5490",
+    "name": "Arsenal 2024/25 - Conjunto Chándal Azul Marino",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7a55df60-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7a55df60-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "premier-13693",
+    "name": "Manchester City 2008/09 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7eb9814f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7eb9814f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0d316a9c.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cfc31500.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f6529521.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13380",
+    "name": "Newcastle 2025/26 - Local - Aficionado - Hombre - Manga Larga",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ffba3904.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ffba3904.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0b08f02e.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-9509",
+    "name": "Manchester United 2010/11 - Visita - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__07be4555-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__07be4555-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__61e30bfe-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__b838031b-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__c54fba9d-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-10387",
+    "name": "Spurs 2025/26 - Visita - Jugador",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 650,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__389f69e1-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__389f69e1-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1ec515e0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__e71ba405-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__1c9dcd3c-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-13699",
+    "name": "Manchester City 2007/08 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f9a5312f.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f9a5312f.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4ffd3160.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__96e16981-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6932afb2.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7751",
+    "name": "Arsenal 2024/25 - Rompevientos",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 1200,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b1fe3021-min.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b1fe3021-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__93fb2a30-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__be2e12b0-min.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__71aa565e-min.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": false
+  },
+  {
+    "id": "premier-13687",
+    "name": "Manchester City 2001/02 - Local - Aficionado - Retro",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 750,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__77652e00-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__77652e00-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bd37ecfe-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d4f8530c-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2b0c8f04-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "customizable": true
+  },
+  {
+    "id": "premier-7163",
+    "name": "Arsenal FC 2024/25 - Full White/Blanco - Aficionado - Hombre",
+    "category": "premier",
+    "isProductInsideFolder": true,
+    "section": "preorder-sports",
+    "price": 550,
+    "badge": "15-20 DÍAS",
+    "badgeType": "badge-preorder",
+    "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__c4c65ee0-min-scaled.webp",
+    "gallery": [
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__c4c65ee0-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__d9fb11a4-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__85048201-min-scaled.webp",
+      "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__130c9be5-min-scaled.webp",
+      "images/stock/guia_tallas.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "customizable": true
+  }
+
 ];
 
 const STOCK_PRODUCTS = [
