@@ -5,6 +5,13 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
+  {
+    id: "sp-f1-folder",
+    name: "F1",
+    isFolder: true,
+    targetFilter: "f1",
+    image: "images/f1_logo.png"
+  },
 {
   "id": "sports-folder-nba",
   "name": "NBA",
