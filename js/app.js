@@ -35752,31 +35752,6 @@ const SPORTS_PRODUCTS = [
     "hasVersionSelector": true
   },
   {
-    "id": "rbf-353133340",
-    "name": "Set Mini Balones Copa Del Mundo Coleccionables",
-    "category": "selecciones",
-    "isProductInsideFolder": true,
-    "section": "preorder-sports",
-    "price": 550,
-    "badge": "15-20 DÍAS",
-    "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-1024-1024.webp",
-    "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-1024-1024.webp"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL",
-      "4XL"
-    ],
-    "customizable": true,
-    "hasVersionSelector": true
-  },
-  {
     "id": "rbf-344596787",
     "name": "Jersey Portugal Local Manga Larga",
     "category": "selecciones",
@@ -37450,29 +37425,6 @@ const SPORTS_PRODUCTS = [
     ],
     "customizable": true,
     "hasVersionSelector": true
-  },
-  {
-    "id": "balon-338426822",
-    "name": "Set Mini Balones Copa Del Mundo Coleccionables",
-    "category": "balones",
-    "isProductInsideFolder": true,
-    "section": "preorder-sports",
-    "price": 850,
-    "badge": "15-20 DÍAS",
-    "badgeType": "badge-preorder",
-    "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-1024-1024.webp",
-    "gallery": [
-      "https://acdn-us.mitiendanube.com/stores/004/134/318/products/9edc0ec1-f9620040ae685ba03d17827715673451-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/004/134/318/products/62ab1634-b9fb2ed4e02ccb265b17827715673543-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/004/134/318/products/ce50f5a4-1707c82e8a71fdf6bd17827715675890-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/004/134/318/products/20260730_143331-1-78caed471b01d673f117854793039741-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/004/134/318/products/20260730_142648-1-0091113e0aa493ff9217854793041348-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/004/134/318/products/20260730_144851-bc129e994d6404d57d17854793044125-1024-1024.webp"
-    ],
-    "sizes": [
-      "No. 5"
-    ],
-    "customizable": false
   },
   {
     "id": "balon-196811112",
