@@ -5,29 +5,28 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
-{
-  "id": "sports-folder-bundesliga",
-  "name": "Bundesliga - Temporada 25/26",
-  "category": "bundesliga_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/bundesliga_cover.png",
-  "badge": "113 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "bundesliga"
-},
-{
-  "id": "sports-folder-laliga",
-  "name": "La Liga - Temporada 25/26",
-  "category": "laliga_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/laliga_cover.png",
-  "badge": "274 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "laliga"
-},
-
+  {
+    "id": "sports-folder-bundesliga",
+    "name": "Bundesliga - Temporada 25/26",
+    "category": "bundesliga_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/bundesliga_cover.png",
+    "badge": "113 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "bundesliga"
+  },
+  {
+    "id": "sports-folder-laliga",
+    "name": "La Liga - Temporada 25/26",
+    "category": "laliga_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/laliga_cover.png",
+    "badge": "274 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "laliga"
+  },
   {
     "id": "sports-001",
     "name": "Liga MX Catálogo 1",
@@ -104,9 +103,7 @@ const SPORTS_PRODUCTS = [
     "badgeType": "badge-preorder",
     "password": "Sin contraseña",
     "link": "https://94nbaqiuyi.x.yupoo.com/"
-  }
-,
-
+  },
   {
     "id": "bun-10045",
     "name": "Bayern Munchen 2025/26 - Local - Jugador - Manga Larga",
@@ -354,7 +351,7 @@ const SPORTS_PRODUCTS = [
     "name": "Bayern Munchen 2025/26 - «Oktoberfest» - Aficionado - Hombre - Manga Larga",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-2.webp",
@@ -1188,7 +1185,7 @@ const SPORTS_PRODUCTS = [
     "name": "Bayern Munchen 2023/24 - Local - Aficionado - Hombre (Manga Larga)",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/c4835f15-scaled.jpg",
@@ -1961,7 +1958,7 @@ const SPORTS_PRODUCTS = [
     "name": "Borussia Dortmund 2024/25 – »Aniversario» – Aficionado – Hombre - Manga Larga",
     "category": "bundesliga",
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f557e98e-min.webp",
@@ -3081,10 +3078,7 @@ const SPORTS_PRODUCTS = [
       "4XL"
     ],
     "customizable": true
-  }
-
-,
-
+  },
   {
     "id": "liga-18175",
     "name": "Barcelona 2026/27 - Alternativa - Aficionado - Hombre",
@@ -4031,7 +4025,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-2.webp",
@@ -4169,7 +4163,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T002040.298-min.webp",
@@ -4277,7 +4271,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__86e3b628-min-scaled.webp",
@@ -4441,7 +4435,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-48-min-1.webp",
@@ -4689,7 +4683,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1.png",
@@ -4935,7 +4929,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f4342b67-min-scaled.webp",
@@ -5017,7 +5011,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a9302095-min.webp",
@@ -5100,7 +5094,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 650,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__b0c03fd2-min.webp",
@@ -5865,7 +5859,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/ae93fa62.webp",
@@ -5918,7 +5912,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/d4e7e7d7-beaa-45cb-b936-e7d9682d6f77.webp",
@@ -6112,7 +6106,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0af1076d-min-scaled.webp",
@@ -6138,7 +6132,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e787bb05-min-scaled.webp",
@@ -6435,7 +6429,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f891b494-min-scaled.webp",
@@ -6817,7 +6811,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/704aa1bd-min-scaled.webp",
@@ -6981,7 +6975,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__39480efa-1-min.webp",
@@ -7009,7 +7003,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ee093ed0-min-scaled.webp",
@@ -7091,7 +7085,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__421f4eba-1-min.webp",
@@ -8010,7 +8004,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e6b4800a-min.webp",
@@ -8201,7 +8195,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/0e9c4cc8-min.jpg",
@@ -8229,7 +8223,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8fd0d33a.jpg",
@@ -8255,7 +8249,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7a5779fc-min-scaled.webp",
@@ -8627,7 +8621,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9d9f8788-1-1-scaled.webp",
@@ -8843,7 +8837,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 650,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a681a816-min-scaled.webp",
@@ -8953,7 +8947,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 1100,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-3-min.webp",
@@ -9306,7 +9300,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e7c5a28-min-scaled.webp",
@@ -9412,7 +9406,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 650,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__044c35cc-min.webp",
@@ -9632,7 +9626,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__50b52175-scaled.webp",
@@ -9740,7 +9734,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-17.webp",
@@ -9987,7 +9981,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/426d94d7.jpg",
@@ -10249,7 +10243,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/1253-2.webp",
@@ -10277,7 +10271,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 550,
+    "price": 750,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__c4a9929d-min.webp",
@@ -10361,7 +10355,7 @@ const SPORTS_PRODUCTS = [
     "category": "laliga",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 650,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T025143.245-min.webp",
@@ -10538,7 +10532,6 @@ const SPORTS_PRODUCTS = [
     ],
     "customizable": true
   }
-
 ];
 
 const STOCK_PRODUCTS = [
@@ -10580,8 +10573,7 @@ const STOCK_PRODUCTS = [
     "sizes": [
       "26.5 cm"
     ]
-  }
-,
+  },
   {
     "id": "stock-003",
     "name": "Hoka Clifton",
@@ -10601,8 +10593,7 @@ const STOCK_PRODUCTS = [
     "sizes": [
       "26.5 cm"
     ]
-  }
-,
+  },
   {
     "id": "stock-004",
     "name": "Jordan 1 Low",
@@ -10622,8 +10613,7 @@ const STOCK_PRODUCTS = [
     "sizes": [
       "7.5 MX"
     ]
-  }
-,
+  },
   {
     "id": "stock-005",
     "name": "Reebok x Joker",
