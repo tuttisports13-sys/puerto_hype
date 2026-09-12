@@ -13,6 +13,1141 @@ const SPORTS_PRODUCTS = [
     image: "images/f1_logo.png"
   },
 {
+  "id": "sp-f1-49",
+  "name": "2025 F1 Mercedes Black Polo Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/2/1/21353c07a1f3804e.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/10/12/2/1/21353c07a1f3804e.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-50",
+  "name": "2025 Red Bull White Motorcycle Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/b/7/b764f3a6762ed13c.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/10/12/b/7/b764f3a6762ed13c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-51",
+  "name": "2025 F1 Ferrari Blue T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/c/9/c92f66c8ca53181b.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/10/12/c/9/c92f66c8ca53181b.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-52",
+  "name": "2025 F1 Ferrari Polo Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/d/7/d7b9af69f02fcc2a.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/09/09/d/7/d7b9af69f02fcc2a.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-53",
+  "name": "2025 F1 Mercedes Red White T-Shirts Racing Suit(圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/5/0/50b8cf3c8c1e6b7d.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/09/09/5/0/50b8cf3c8c1e6b7d.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-54",
+  "name": "2025 F1 Red Bull White Polo Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/b/5/b5dd7c093929ac87.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/09/09/b/5/b5dd7c093929ac87.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-55",
+  "name": "2025 YAMaHA SDD Polo Blue Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/a/d/ad1f22204383bf3e.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/09/09/a/d/ad1f22204383bf3e.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-56",
+  "name": "2025 F1 Mercedes Black T-Shirts Racing Suit(圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/0/1/01b9a0f10b2984be.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/09/09/0/1/01b9a0f10b2984be.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-57",
+  "name": "2025 YAMaHA SDD Blue T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/09/09/4/3/43050268954f846c.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/09/09/4/3/43050268954f846c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-58",
+  "name": "2025 Ferrari Red Windbreaker",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/08/28/1/b/1bb48c979b81dd23.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/08/28/1/b/1bb48c979b81dd23.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-59",
+  "name": "2025 F1 Ferrari White T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/30/6/f/6fa1fb8cb4f617f0.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/30/6/f/6fa1fb8cb4f617f0.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-60",
+  "name": "2025 F1 Aston Martin Polo Green Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/5/1/51e0c1231ddcfbed.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/5/1/51e0c1231ddcfbed.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-61",
+  "name": "2025 F1 Mercedes White T-Shirts Racing Suit(圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/b/5/b5f78a5b9a0a99b4.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/b/5/b5f78a5b9a0a99b4.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-62",
+  "name": "2025 F1 Red Bull Black T-Shirts Racing Suit(圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/d/6/d6f676d9a1764df8.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/d/6/d6f676d9a1764df8.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-63",
+  "name": "2025 F1 Mercedes White Polo Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/1/a17cee2262b9bffa.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/1/a17cee2262b9bffa.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-64",
+  "name": "2025 F1 Red Bull Black Polo Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/8/1/8142b9a12b1b2bee.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/8/1/8142b9a12b1b2bee.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-65",
+  "name": "2025 McLaren Yellow Polo Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/6/a/6a1dd49215f5aba1.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/6/a/6a1dd49215f5aba1.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-66",
+  "name": "2025 F1 Mercedes Black Polo Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/8/a/8a2fff2908d764f4.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/8/a/8a2fff2908d764f4.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-67",
+  "name": "2025 F1 Mercedes Black Hoody(有帽卫衣)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/d/b/db39a34d3665c4c5.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/d/b/db39a34d3665c4c5.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-68",
+  "name": "2025 F1 Ferrari Red Hoody(有帽卫衣)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/0/7/0715b72561c18850.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/0/7/0715b72561c18850.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-69",
+  "name": "2025 F1 Ferrari Red T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/2/a2fdb49a7e900793.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/2/a2fdb49a7e900793.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-70",
+  "name": "2025 McLaren NORRIS #4 Black Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/7/0/70ba2ce14a0e0ab4.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/7/0/70ba2ce14a0e0ab4.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-71",
+  "name": "2024 F1 Aston Martin T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/4/7/470ccf26c35aa08e.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/4/7/470ccf26c35aa08e.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-72",
+  "name": "2025 McLaren NORRIS #4 Yellow Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/3/9/39671698e47fd088.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/3/9/39671698e47fd088.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-73",
+  "name": "2025 F1 Ferrari Polo Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/a/aa051cffc32d07b6.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/a/a/aa051cffc32d07b6.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-74",
+  "name": "2025 McLaren NORRIS #4 Polo Yellow Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/3/7/3761aa221cd1020c.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/3/7/3761aa221cd1020c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-75",
+  "name": "2025 McLaren Black T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/5/f/5f93f9677be52724.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/5/f/5f93f9677be52724.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-76",
+  "name": "2024 F1 Aston Martin #14 Green Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/e/3/e3c81e8027499159.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/e/3/e3c81e8027499159.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-77",
+  "name": "2025 F1 Ferrari Red T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/03/08/9/b/9b146294e35bc4c3.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/03/08/9/b/9b146294e35bc4c3.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-78",
+  "name": "2024 AME Black Grey Motorcycle Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/10/31/0/5/0557f61cd4a5db2c.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/10/31/0/5/0557f61cd4a5db2c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-79",
+  "name": "2024 Toyota GR Black Motorcycle Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/a/f/af1976bb9a9de101.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/10/30/a/f/af1976bb9a9de101.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-80",
+  "name": "2024 McLaren LANDO#4 Polo Yellow Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/f/4/f455be94cf81e843.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/10/30/f/4/f455be94cf81e843.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-81",
+  "name": "2024 YAMaHA SDD Blue Motorcycle Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/e/a/ea34c53e66f54a0d.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/10/30/e/a/ea34c53e66f54a0d.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-82",
+  "name": "2024 DUCATI Grey Motorcycle Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/3/e/3e48137c7bd80324.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/10/30/3/e/3e48137c7bd80324.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-83",
+  "name": "2024 DUCATI Blue Motorcycle Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/10/30/0/1/01ec70c79d9f0bb4.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/10/30/0/1/01ec70c79d9f0bb4.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-84",
+  "name": "2024 F1 Ferrari Black Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/09/09/2/8/28d56de818d406ba.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/09/09/2/8/28d56de818d406ba.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-85",
+  "name": "2024 F1 Red Bull Royal Blue T-Shirts Racing Suit (圆领)银牛",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/09/09/d/f/df02b98af71124fc.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/09/09/d/f/df02b98af71124fc.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-86",
+  "name": "2024 F1 Red Bull Royal Blue Polo Racing Suit(有领) 银牛",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/09/09/b/3/b3bdf61269de3263.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/09/09/b/3/b3bdf61269de3263.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-87",
+  "name": "2024 McLaren Black T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/e/8e1219cad0118769.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/e/8e1219cad0118769.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-88",
+  "name": "2024 McLaren Yellow Polo Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/0/8018d9c63bd09ab8.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/0/8018d9c63bd09ab8.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-89",
+  "name": "2024 McLaren Yellow T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/4/848001d777a438b7.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/08/17/8/4/848001d777a438b7.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-90",
+  "name": "2024 F1 Ferrari #55 Red Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/e/c/ec335348fc7b5c60.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/08/17/e/c/ec335348fc7b5c60.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-91",
+  "name": "2024 F1 Ferrari #16 Red Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/08/17/2/5/25333260c9ea63d8.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/08/17/2/5/25333260c9ea63d8.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-92",
+  "name": "2024 McLaren #4 Polo Yellow Black Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/a/3/a3bf92b948d36516.png",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/05/22/a/3/a3bf92b948d36516.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-93",
+  "name": "2024 Formula One McLaren #4 Black Yellow Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/6/c/6c1c935ea401095f.png",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/05/22/6/c/6c1c935ea401095f.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-94",
+  "name": "2024 F1 Red Bull #11 Polo Royal Blue Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/2/2/22b2dac551597b8b.png",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/05/22/2/2/22b2dac551597b8b.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-95",
+  "name": "2024 F1 Red Bull #1 Polo Royal Blue Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/05/22/7/4/747cebf9db7b5a69.png",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/05/22/7/4/747cebf9db7b5a69.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-96",
+  "name": "2024 Ferrari Red T-Shirts Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/c/5/c5711c87db588652.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/03/21/c/5/c5711c87db588652.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-97",
+  "name": "2024 F1 Ferrari #55 Red Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/5/2/528eff43824c6e28.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/03/21/5/2/528eff43824c6e28.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-98",
+  "name": "2024 F1 Ferrari Red Special Edition Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/1/c/1c45e55509404600.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/03/21/1/c/1c45e55509404600.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-99",
+  "name": "2024 Ferrari Red Polo Racing Suit (有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/7/2/72f421991f4606a6.png",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/03/21/7/2/72f421991f4606a6.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-100",
+  "name": "2024 F1 Red Bull Royal Blue Polo Racing Suit(有领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/a/e/aef9c6ab4cfbe7e1.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/03/21/a/e/aef9c6ab4cfbe7e1.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-101",
+  "name": "2024 F1 Ferrari #16 Red Racing Suit (圆领)",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2024/03/21/d/3/d36ad21e3192c6bc.png",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2024/03/21/d/3/d36ad21e3192c6bc.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-102",
+  "name": "F1 Ferrari Retro Edition Red Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2023/08/04/b/c/bccf55690368addb.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2023/08/04/b/c/bccf55690368addb.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+
+{
   "id": "sp-f1-0",
   "name": "2026 Audi Black T-Shirts Racing Suit",
   "brand": "F1",
