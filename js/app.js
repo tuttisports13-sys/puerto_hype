@@ -5,39 +5,39 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
-{
-  "id": "sports-folder-arabe",
-  "name": "LIGA ARABE & AL NASSR",
-  "category": "arabe_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/arabe_cover.png",
-  "badge": "32 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "arabe"
-},
-{
-  "id": "sports-folder-mls",
-  "name": "MLS & INTER MIAMI",
-  "category": "mls_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/mls_cover.png",
-  "badge": "52 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "mls"
-},
-{
-  "id": "sports-folder-ligamx",
-  "name": "Liga MX - Temporada 24/25",
-  "category": "liga_mx_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/ligamx_folder_cover.png",
-  "badge": "269 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "liga_mx"
-},
+  {
+    "id": "sports-folder-arabe",
+    "name": "LIGA ARABE & AL NASSR",
+    "category": "arabe_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/arabe_cover.png",
+    "badge": "32 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "arabe"
+  },
+  {
+    "id": "sports-folder-mls",
+    "name": "MLS & INTER MIAMI",
+    "category": "mls_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/mls_cover.png",
+    "badge": "52 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "mls"
+  },
+  {
+    "id": "sports-folder-ligamx",
+    "name": "Liga MX - Temporada 24/25",
+    "category": "liga_mx_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/ligamx_folder_cover.png",
+    "badge": "269 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "liga_mx"
+  },
   {
     "id": "sports-folder-bundesliga",
     "name": "Bundesliga - Temporada 25/26",
@@ -60,28 +60,28 @@ const SPORTS_PRODUCTS = [
     "isFolder": true,
     "targetFilter": "laliga"
   },
-{
-  "id": "sports-folder-premier",
-  "name": "Premier League - Temporada 25/26",
-  "category": "premier_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/premier_cover.png",
-  "badge": "246 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "premier"
-},
-{
-  "id": "sports-folder-seriea",
-  "name": "Serie A - Temporada 25/26",
-  "category": "seriea_folder",
-  "section": "preorder-sports",
-  "image": "images/stock/seriea_cover.png",
-  "badge": "134 MODELOS",
-  "badgeType": "badge-hot",
-  "isFolder": true,
-  "targetFilter": "seriea"
-},
+  {
+    "id": "sports-folder-premier",
+    "name": "Premier League - Temporada 25/26",
+    "category": "premier_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/premier_cover.png",
+    "badge": "246 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "premier"
+  },
+  {
+    "id": "sports-folder-seriea",
+    "name": "Serie A - Temporada 25/26",
+    "category": "seriea_folder",
+    "section": "preorder-sports",
+    "image": "images/stock/seriea_cover.png",
+    "badge": "134 MODELOS",
+    "badgeType": "badge-hot",
+    "isFolder": true,
+    "targetFilter": "seriea"
+  },
   {
     "id": "sports-001",
     "name": "Liga MX Catálogo 1",
@@ -10586,9 +10586,7 @@ const SPORTS_PRODUCTS = [
       "2XL"
     ],
     "customizable": true
-  }
-,
-
+  },
   {
     "id": "premier-4896",
     "name": "Manchester City 2024/25 - Cuarta equipación - Aficionado - Hombre",
@@ -17235,10 +17233,7 @@ const SPORTS_PRODUCTS = [
       "4XL"
     ],
     "customizable": true
-  }
-
-,
-
+  },
   {
     "id": "seriea-6632",
     "name": "AC Milán (Gimenez/7) 2024/25 - Local - Aficionado - Hombre",
@@ -18154,7 +18149,7 @@ const SPORTS_PRODUCTS = [
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7bc6dc49-scaled.webp",
@@ -18900,7 +18895,7 @@ const SPORTS_PRODUCTS = [
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2b64b09-scaled.webp",
@@ -19302,7 +19297,7 @@ const SPORTS_PRODUCTS = [
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eab9e3bf-min-scaled.webp",
@@ -20470,7 +20465,7 @@ const SPORTS_PRODUCTS = [
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7c72f973-scaled.webp",
@@ -20548,7 +20543,7 @@ const SPORTS_PRODUCTS = [
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__54c7cfb5-scaled.webp",
@@ -20784,7 +20779,7 @@ const SPORTS_PRODUCTS = [
     "category": "seriea",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d86fe61b-min-scaled.webp",
@@ -20854,10 +20849,7 @@ const SPORTS_PRODUCTS = [
       "2XL"
     ],
     "customizable": true
-  }
-
-,
-
+  },
   {
     "id": "ligamx-19262",
     "name": "Atlante 2026/27 – Local »Azul» – Jugador – Hombre",
@@ -21920,7 +21912,7 @@ const SPORTS_PRODUCTS = [
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/a83fabd6-ce9b-487f-b5d4-3f3e65e7f013.webp",
@@ -21945,7 +21937,7 @@ const SPORTS_PRODUCTS = [
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-72-1.webp",
@@ -23115,7 +23107,7 @@ const SPORTS_PRODUCTS = [
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164047.375-min.webp",
@@ -25249,7 +25241,7 @@ const SPORTS_PRODUCTS = [
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2-2.webp",
@@ -26991,7 +26983,7 @@ const SPORTS_PRODUCTS = [
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19c59049.webp",
@@ -27522,7 +27514,7 @@ const SPORTS_PRODUCTS = [
     "category": "liga_mx",
     "isProductInsideFolder": true,
     "section": "preorder-sports",
-    "price": 750,
+    "price": 820,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
     "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/bc9fb290-5dc9-4fae-96f0-9e44e588b71b.webp",
@@ -28128,10 +28120,7 @@ const SPORTS_PRODUCTS = [
       "4XL"
     ],
     "customizable": true
-  }
-
-,
-
+  },
   {
     "id": "mls-5716",
     "name": "Inter de Miami 2025/26 - Visita - Jugador",
@@ -29578,10 +29567,7 @@ const SPORTS_PRODUCTS = [
       "4XL"
     ],
     "customizable": true
-  }
-
-,
-
+  },
   {
     "id": "arabe-13382",
     "name": "Al-Nassr 2025/26 - Visita - Aficionado - Hombre",
@@ -30475,7 +30461,6 @@ const SPORTS_PRODUCTS = [
     ],
     "customizable": true
   }
-
 ];
 
 const STOCK_PRODUCTS = [
