@@ -13,6 +13,1036 @@ const SPORTS_PRODUCTS = [
     image: "images/f1_logo.png"
   },
 {
+  "id": "sp-f1-0",
+  "name": "2026 Audi Black T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/09/09/1/b/1b4e08ab1f784bc6.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/09/09/1/b/1b4e08ab1f784bc6.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-1",
+  "name": "2026 Mercedes Blue T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/09/09/7/8/78246c5e3c0a1768.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/09/09/7/8/78246c5e3c0a1768.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-2",
+  "name": "2026 Red Bull White T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/09/03/1/7/17c79e44ac61df8e.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/09/03/1/7/17c79e44ac61df8e.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-3",
+  "name": "2026 Cadillac Black Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/22/a/a/aafae7bca2e99607.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/22/a/a/aafae7bca2e99607.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-4",
+  "name": "2026 Audi Green T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/22/3/7/378c85fff7e2123d.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/22/3/7/378c85fff7e2123d.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-5",
+  "name": "2026 Red Bull Blue T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/e/be0f54b34288b67e.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/e/be0f54b34288b67e.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-6",
+  "name": "2026 F1 Ferrari Red Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/d/7dc18f29eb5162c1.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/d/7dc18f29eb5162c1.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-7",
+  "name": "2026 Mercedes Black T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/8/3/838d040cfacfed89.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/8/3/838d040cfacfed89.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-8",
+  "name": "2026 Alpine Blue T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/f/ffd322fb41d09b62.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/f/ffd322fb41d09b62.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-9",
+  "name": "2026 Mercedes Blue Slim T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/c/0/c027d6eae5511361.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/c/0/c027d6eae5511361.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-10",
+  "name": "2026 Audi Gray T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/f/0f15fef5f66462c0.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/f/0f15fef5f66462c0.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-11",
+  "name": "2026 McLaren Black Yellow T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/5/554cfd7ea39c6fd5.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/5/554cfd7ea39c6fd5.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-12",
+  "name": "2026 Ferrari Red T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/8/d/8d86e57efc98c7e4.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/8/d/8d86e57efc98c7e4.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-13",
+  "name": "2026 Ferrari Red Blue T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/a/d/ad65261a6a545b00.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/a/d/ad65261a6a545b00.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-14",
+  "name": "2026 Audi Gray T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/6/a/6a3e698a5616f74d.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/6/a/6a3e698a5616f74d.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-15",
+  "name": "2026 F1 Haas Black Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/5/b5f81eed52f0a7be.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/5/b5f81eed52f0a7be.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-16",
+  "name": "2026 Cadillac White T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/f/7f9db8b73f9a315d.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/f/7f9db8b73f9a315d.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-17",
+  "name": "2026 Ferrari Red white T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/1/5/15b580d366094adc.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/1/5/15b580d366094adc.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-18",
+  "name": "2026 Williams Black Blue Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/6/5/657833e3a2d196f1.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/6/5/657833e3a2d196f1.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-19",
+  "name": "2026 Mercedes Black T-Shirts Wolf",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/a/a/aad4cedf720d56d7.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/a/a/aad4cedf720d56d7.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-20",
+  "name": "2026 F1 Ferrari Red white Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/e/3ef0d01fd8853eb8.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/e/3ef0d01fd8853eb8.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-21",
+  "name": "2026 Mercedes Black Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/e/5/e5527014badb3e46.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/e/5/e5527014badb3e46.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-22",
+  "name": "2026 Red Bull Blue Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/7/77837d26249fd7fe.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/7/77837d26249fd7fe.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-23",
+  "name": "2026 McLaren Yellow Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/f/3f3553e7d98aa65c.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/f/3f3553e7d98aa65c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-24",
+  "name": "2026 Williams Black Red Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/a/fae32bd4087a5a25.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/a/fae32bd4087a5a25.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-25",
+  "name": "2026 McLaren Yellow T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/1/0/101b925685214fe4.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/1/0/101b925685214fe4.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-26",
+  "name": "2026 Aston Martin Green Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/f/0f6184090fcca56a.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/f/0f6184090fcca56a.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-27",
+  "name": "2026 Aston Martin Green T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/c/7c65b00792ea4277.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/7/c/7c65b00792ea4277.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-28",
+  "name": "2026 Mercedes White T-Shirts Slim",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/8/b892d24d6bc13fed.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/b/8/b892d24d6bc13fed.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-29",
+  "name": "2026 Williams Black Blue T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/2/8/289ea045157e5802.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/2/8/289ea045157e5802.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-30",
+  "name": "2026 Cadillac White Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/2/9/2951a140407c5f74.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/2/9/2951a140407c5f74.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-31",
+  "name": "2026 Haas Black T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/3/33faa35a0a88f70c.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/3/3/33faa35a0a88f70c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-32",
+  "name": "2026 Mercedes White Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/8/08af3e041ab7cb7a.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/0/8/08af3e041ab7cb7a.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-33",
+  "name": "2026 Williams Blue T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/c/7/c7a26b94e4b57efc.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/c/7/c7a26b94e4b57efc.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-34",
+  "name": "2026 Alpine Blue Polo Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/8/f847be63df3b3549.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/f/8/f847be63df3b3549.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-35",
+  "name": "2026 Mercedes Black T-Shirts Slim",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/2/52e4601cd15c345b.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/2/52e4601cd15c345b.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-36",
+  "name": "2026 Cadillac Black T-Shirts Racing Suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/6/56504fdffa0c9b34.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/08/13/5/6/56504fdffa0c9b34.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-37",
+  "name": "2026 McLaren Royal blue Racing suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/05/13/0/a/0ab6477ca8d7d455.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/05/13/0/a/0ab6477ca8d7d455.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-38",
+  "name": "2026 F1 Mercedes Black Racing suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/04/17/5/8/58c786a9d517afbb.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/04/17/5/8/58c786a9d517afbb.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-39",
+  "name": "2026 F1 Aston Martin Green Racing suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/04/17/3/2/327144b46b213a61.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/04/17/3/2/327144b46b213a61.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-40",
+  "name": "2026 Red Bull Royal blue Racing suit",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/04/17/6/d/6d5bee972891d888.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/04/17/6/d/6d5bee972891d888.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-41",
+  "name": "25-26 F1 Ferrari Red Casual Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/4/e/4e5e2d2899238c9d.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/01/03/4/e/4e5e2d2899238c9d.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-42",
+  "name": "2025 Red Bull Royal blue Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/8/7/87579cd026cc83e7.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/01/03/8/7/87579cd026cc83e7.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-43",
+  "name": "25-26 F1 Ferrari Red Casual T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/f/4/f4786b23bee4eb30.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/01/03/f/4/f4786b23bee4eb30.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-44",
+  "name": "25-26 F1 Ferrari White Casual T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/6/c/6cf917c2c487b9be.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/01/03/6/c/6cf917c2c487b9be.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-45",
+  "name": "25-26 F1 Ferrari White Casual Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/1/6/166688931b4120d6.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/01/03/1/6/166688931b4120d6.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-46",
+  "name": "25-26 F1 Ferrari Black Casual T-Shirts",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/8/f/8f0c2b0e597f75eb.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/01/03/8/f/8f0c2b0e597f75eb.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-47",
+  "name": "25-26 F1 Ferrari Black Casual Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2026/01/03/0/5/055ef195c5a490ed.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2026/01/03/0/5/055ef195c5a490ed.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-f1-48",
+  "name": "2025 F1 Mercedes White Polo",
+  "brand": "F1",
+  "section": "preorder-sports",
+  "category": "f1",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://ssl.images-ssl-mars.com/92854/2025/10/12/c/2/c238bf18bc01569c.jpg",
+  "gallery": [
+    "https://ssl.images-ssl-mars.com/92854/2025/10/12/c/2/c238bf18bc01569c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+
+{
   "id": "sports-folder-nba",
   "name": "NBA",
   "category": "nba_folder",
@@ -170220,7 +171250,7 @@ if (versionContainer) {
   // Handle Customization UI
   const qvCustomization = document.getElementById('qv-customization');
   if (qvCustomization) {
-    if (product.customizable && product.category !== 'nba' && product.category !== 'balones' && product.section !== 'preorder') {
+    if (product.customizable && product.category !== 'nba' && product.category !== 'balones' && product.category !== 'f1' && product.section !== 'preorder') {
       qvCustomization.style.display = 'block';
       document.getElementById('qv-check-name').checked = false;
       document.getElementById('qv-check-patch').checked = false;
