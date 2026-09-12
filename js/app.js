@@ -169474,7 +169474,7 @@ const PREORDER_PRODUCTS = [
 const AppState = {
   currentMode: 'stock', // 'stock' or 'preorder'
   cart: JSON.parse(localStorage.getItem('puerto_hype_cart') || '[]').map(item => ({ ...item, cartItemId: item.cartItemId || Date.now().toString() + Math.random().toString() })),
-  currentFilter: 'all',
+  currentFilter: 'sneakers',
   searchQuery: '',
   whatsappNumber: '5212294135613'
 };
@@ -169641,7 +169641,7 @@ function setupEventListeners() {
   if (btnStock && btnPreorder) {
     btnStock.addEventListener('click', () => {
       AppState.currentMode = 'stock';
-      AppState.currentFilter = 'all';
+      AppState.currentFilter = 'sneakers';
       
       btnStock.style.background = 'var(--neon-lime)';
       if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#12141a'; document.getElementById('btn-preorder-sports').style.color = 'var(--text-secondary)'; document.getElementById('btn-preorder-sports').style.border = '2px solid var(--bg-card-border)'; }
@@ -169655,6 +169655,8 @@ function setupEventListeners() {
       filtersStock.style.display = 'flex';
       filtersPreorder.style.display = 'none';
       bannerPreorder.style.display = 'none';
+      const filtersSports = document.getElementById('filters-sports');
+      if(filtersSports) filtersSports.style.display = 'none';
       
       sectionTag.textContent = '🔥 HOT DE LA SEMANA';
       sectionTag.style.color = 'var(--neon-red)';
@@ -169662,14 +169664,14 @@ function setupEventListeners() {
       
       // Reset filters UI
       document.querySelectorAll('#filters-stock .filter-pill').forEach(b => b.classList.remove('active'));
-      document.querySelector('#filters-stock .filter-pill[data-filter="all"]').classList.add('active');
+      document.querySelector('#filters-stock .filter-pill[data-filter="sneakers"]').classList.add('active');
       
       renderProducts();
     });
 
     btnPreorder.addEventListener('click', () => {
       AppState.currentMode = 'preorder';
-      AppState.currentFilter = 'all';
+      AppState.currentFilter = 'Hellstar';
       
       btnPreorder.style.background = 'var(--neon-lime)';
       if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#12141a'; document.getElementById('btn-preorder-sports').style.color = 'var(--text-secondary)'; document.getElementById('btn-preorder-sports').style.border = '2px solid var(--bg-card-border)'; }
@@ -169683,6 +169685,8 @@ function setupEventListeners() {
       filtersStock.style.display = 'none';
       filtersPreorder.style.display = 'flex';
       bannerPreorder.style.display = 'block';
+      const filtersSports = document.getElementById('filters-sports');
+      if(filtersSports) filtersSports.style.display = 'none';
       
       sectionTag.textContent = '✈️ IMPORTACIÓN DIRECTA';
       sectionTag.style.color = 'var(--neon-lime)';
@@ -169690,7 +169694,7 @@ function setupEventListeners() {
       
       // Reset filters UI
       document.querySelectorAll('#filters-preorder .filter-pill').forEach(b => b.classList.remove('active'));
-      document.querySelector('#filters-preorder .filter-pill[data-filter="all"]').classList.add('active');
+      document.querySelector('#filters-preorder .filter-pill[data-filter="Hellstar"]').classList.add('active');
       
       renderProducts();
     });
@@ -169708,6 +169712,13 @@ if (btnPreorderSports) {
   btnPreorderSports.addEventListener('click', () => {
     AppState.currentMode = 'preorder-sports';
     AppState.currentFilter = 'all';
+    const filtersStock = document.getElementById('filters-stock');
+    const filtersPreorder = document.getElementById('filters-preorder');
+    if(filtersStock) filtersStock.style.display = 'none';
+    if(filtersPreorder) filtersPreorder.style.display = 'none';
+    const filtersSports = document.getElementById('filters-sports');
+    if(filtersSports) filtersSports.style.display = 'flex';
+
     
     btnPreorderSports.style.background = 'var(--neon-lime)';
     btnPreorderSports.style.color = 'var(--text-dark)';
