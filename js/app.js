@@ -169497,11 +169497,18 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
 
 
   const filtered = currentProducts.filter(prod => {
-    if (AppState.currentFilter === 'all' && !prod.isFolder && !prod.category.endsWith('_folder')) return false;
-    const matchesCategory = AppState.currentFilter === 'all' || 
+    const isSearching = AppState.searchQuery.trim().length > 0;
+    // Si NO está buscando, ocultar productos individuales en la vista principal 'all'
+    if (!isSearching && AppState.currentFilter === 'all' && !prod.isFolder && !prod.category.endsWith('_folder')) return false;
+    
+    // Si ESTÁ buscando, ignoramos el filtro de categoría para buscar en TODO el catálogo
+    const matchesCategory = isSearching || AppState.currentFilter === 'all' || 
                             prod.category === AppState.currentFilter || 
                             prod.brand === AppState.currentFilter;
+                            
+    // Validar nombre
     const matchesSearch = prod.name.toLowerCase().includes(AppState.searchQuery.toLowerCase());
+    
     return matchesCategory && matchesSearch;
   });
 
