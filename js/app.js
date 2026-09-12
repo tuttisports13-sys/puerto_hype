@@ -36976,9 +36976,9 @@ const SPORTS_PRODUCTS = [
     "price": 550,
     "badge": "15-20 DÍAS",
     "badgeType": "badge-preorder",
-    "image": "//acdn-us.mitiendanube.com/stores/004/134/318/products/grn4scuo_tln2-0549c4edf8fc5316b117761512051924-1024-1024.webp",
+    "image": "images/stock/mexico_portero_local.jpg",
     "gallery": [
-      "//acdn-us.mitiendanube.com/stores/004/134/318/products/grn4scuo_tln2-0549c4edf8fc5316b117761512051924-1024-1024.webp"
+      "images/stock/mexico_portero_local.jpg"
     ],
     "sizes": [
       "S",
