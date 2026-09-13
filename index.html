@@ -1494,7 +1494,73 @@ h1, h2, h3, h4, .font-heading {
 .qv-info h3 { margin: 0 0 5px 0; font-size: 1.2rem; }
 .qv-info .qv-price { color: var(--neon-lime); font-weight: bold; font-size: 1.1rem; }
 
-  </style>
+  .search-results-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  right: 0;
+  background: #12141a;
+  border: 1px solid var(--bg-card-border);
+  border-radius: var(--radius-md);
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 9999;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  display: flex;
+  flex-direction: column;
+}
+
+.search-results-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+.search-results-dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+.search-results-dropdown::-webkit-scrollbar-thumb {
+  background: var(--neon-lime);
+  border-radius: 4px;
+}
+
+.search-result-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+  color: white;
+}
+.search-result-item:last-child {
+  border-bottom: none;
+}
+.search-result-item:hover {
+  background: rgba(255,255,255,0.05);
+}
+.search-result-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.search-result-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.search-result-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.search-result-price {
+  font-size: 0.8rem;
+  color: var(--neon-lime);
+  font-weight: 700;
+}
+
+</style>
 </head>
 <body>
 
@@ -1547,11 +1613,12 @@ h1, h2, h3, h4, .font-heading {
       <div class="search-container">
         <input type="text" id="search-input" class="search-input" placeholder="Buscar tenis, sudaderas, combos...">
         <button id="search-btn" class="search-btn" title="Buscar">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-        </button>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle>
+    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</button>
+<div id="search-results-dropdown" class="search-results-dropdown" style="display: none;"></div>
       </div>
     </header>
 
