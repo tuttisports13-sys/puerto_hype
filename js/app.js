@@ -13,6 +13,52 @@ const SPORTS_PRODUCTS = [
   image: "images/psg_local_2627.jpg"
 },
 {
+  "id": "sp-rest-7",
+  "name": "JERSEY PSG LOCAL MANGA LARGA 2026/2027",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "images/psg_local_ml_2627.jpg",
+  "gallery": [
+    "images/psg_local_ml_2627.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL",
+    "4XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-rest-8",
+  "name": "JERSEY PSG VISITA MANGA LARGA 2026/2027",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "images/psg_visita_ml_2627.jpg",
+  "gallery": [
+    "images/psg_visita_ml_2627.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL",
+    "4XL"
+  ],
+  "customizable": true
+},
+{
   "id": "sp-rest-0",
   "name": "Jersey PSG Paris Saint Germain Local (2026/2027)",
   "brand": "Resto del Mundo",
