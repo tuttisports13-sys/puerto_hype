@@ -6,6 +6,6986 @@
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
 {
+  id: "sp-conj-folder",
+  name: "Conjunto de entrenamiento",
+  isFolder: true,
+  targetFilter: "conjunto-entrenamiento",
+  image: "images/conjunto_entrenamiento.png"
+},
+{
+  "id": "sp-conj-0",
+  "name": "Visitante Barcelona Version Jugador 2024-2025 &#8211; Negra",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/09/segunda-equipacion-barcelona-2024-2025-negra-version-jugador-300x319.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/09/segunda-equipacion-barcelona-2024-2025-negra-version-jugador-300x319.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-1",
+  "name": "Conjunto de entrenamiento real oviedo 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-de-entrenamiento-real-oviedo-2025-2026-300x313.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-de-entrenamiento-real-oviedo-2025-2026-300x313.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-2",
+  "name": "Conjunto de Entrenamiento Inter Miami 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-de-entrenamiento-inter-miami-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-de-entrenamiento-inter-miami-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-3",
+  "name": "Conjunto de Entrenamiento FC Barcelona 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/07/Conjunto-de-entrenamiento-FC-Barcelona-2024-2025-300x249.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/07/Conjunto-de-entrenamiento-FC-Barcelona-2024-2025-300x249.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-4",
+  "name": "Conjunto de entrenamiento del AC Milán 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/07/conjunto-de-entrenamiento-AC-milan-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/07/conjunto-de-entrenamiento-AC-milan-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-5",
+  "name": "Conjunto de Entrenamiento AC Milán Gris 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-de-entrenamiento-ac-milan-gris-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-de-entrenamiento-ac-milan-gris-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-6",
+  "name": "Conjunto de Entrenamiento AC Milán Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-de-entrenamiento-ac-milan-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-de-entrenamiento-ac-milan-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-7",
+  "name": "Conjunto de Entrenamiento AC Milán Blanco 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-de-entrenamiento-ac-milan-blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-de-entrenamiento-ac-milan-blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-8",
+  "name": "Conjunto Niño RC Lens Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-rc-lens-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-rc-lens-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-9",
+  "name": "Conjunto Niño RCD Mallorca Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rcd-mallorca-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rcd-mallorca-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-10",
+  "name": "Conjunto Buzo seleccion Alemania Rosa 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Alemania-Rosa-2024-2025-post-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Alemania-Rosa-2024-2025-post-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-11",
+  "name": "Conjunto Niño Flamengo Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-nino-flamengo-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-nino-flamengo-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-12",
+  "name": "Conjunto Niño Santos FC Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-santos-fc-segunda-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-santos-fc-segunda-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-13",
+  "name": "Conjunto Niño Canadá Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-canada-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-canada-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-14",
+  "name": "Conjunto Niño Vasco Da Gama Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-vasco-da-gama-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-vasco-da-gama-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-15",
+  "name": "Conjunto Niño AS Mónaco Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-as-monaco-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-as-monaco-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-16",
+  "name": "Conjunto Niño FC Barcelona Portero 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-fc-barcelona-portero-verde-2025-2026-300x400.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-fc-barcelona-portero-verde-2025-2026-300x400.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-17",
+  "name": "Conjunto Niño CA Osasuna Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-osasuna-primera-equipacion-2026-2027-300x294.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-osasuna-primera-equipacion-2026-2027-300x294.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-18",
+  "name": "Conjunto Niño Ecuador Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/camiseta-ecuador-primera-equipacion-mundial-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/camiseta-ecuador-primera-equipacion-mundial-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-19",
+  "name": "Camiseta de Entrenamiento Inter Miami 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-inter-miami-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-inter-miami-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-20",
+  "name": "Conjunto de Buzo Olympique Marsella Blanco 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Olympique-Marsella-Blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Olympique-Marsella-Blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-21",
+  "name": "Conjunto de Buzo Olympique Marsella Celeste 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Olympique-Masella-Celeste-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Olympique-Masella-Celeste-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-22",
+  "name": "Camiseta de Entrenamiento FC Barcelona x Kobe Bryant 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-fc-baarcelon-kobe-bryant-2025-2026-300x298.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-fc-baarcelon-kobe-bryant-2025-2026-300x298.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-23",
+  "name": "Camiseta de Entrenamiento Paris Saint Germain Version Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-de-entrenamiento-psg-version-jugador-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-de-entrenamiento-psg-version-jugador-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-24",
+  "name": "Conjunto Niño Deportivo de La Coruña visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-deportivo-de-la-coruna-segunda-equipacion-2026-2027-300x301.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-deportivo-de-la-coruna-segunda-equipacion-2026-2027-300x301.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-25",
+  "name": "Camiseta de Entrenamiento Previo al Partido Paris Saint Germain 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-de-entrenamiento-psg-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-de-entrenamiento-psg-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-26",
+  "name": "Conjunto Niño Celta de Vigo Tercera Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-celta-de-vigo-tercera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-celta-de-vigo-tercera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-27",
+  "name": "Conjunto Niño Sporting de Gijón Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-sporting-de-gijon-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-sporting-de-gijon-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-28",
+  "name": "Conjunto Niño Athletic de bilbao visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-athletic-bilbao-segunda-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-athletic-bilbao-segunda-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-29",
+  "name": "Conjunto Niño Celta de Vigo Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-celta-de-vigo-primera-equipacion-2025-2026-300x200.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-celta-de-vigo-primera-equipacion-2025-2026-300x200.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-30",
+  "name": "Conjunto Niño Athletic de Bilbao Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-athletic-bilbao-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-athletic-bilbao-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-31",
+  "name": "Conjunto de buzo Manchester United 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-buzo-Manchester-United-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-buzo-Manchester-United-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-32",
+  "name": "Conjunto de Buzo Paris Saint Germain Rosa 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Paris-Saint-Germain-Rosa-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Paris-Saint-Germain-Rosa-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-33",
+  "name": "Conjunto de Buzo Olympique Marsella 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Olympique-Marsella-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Olympique-Marsella-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-34",
+  "name": "Conjunto de Buzo Paris Saint Germain negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Paris-Saint-Germain-negro-2024-2025-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Paris-Saint-Germain-negro-2024-2025-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-35",
+  "name": "Conjunto de Buzo Paris Saint Germain 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Paris-Saint-Germain-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Paris-Saint-Germain-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-36",
+  "name": "Conjunto de Buzo Liverpool Gris 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Liverpool-Gris-2024-2025-300x375.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Liverpool-Gris-2024-2025-300x375.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-37",
+  "name": "Conjunto de Buzo Marsella Celeste 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Marsella-Celeste-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Marsella-Celeste-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-38",
+  "name": "Conjunto de Buzo FC Barcelona Azul 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-FC-Barcelona-Azul-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-FC-Barcelona-Azul-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-39",
+  "name": "Conjunto de Buzo Al Nassr Azul 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Al-Nassr-Azul-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Al-Nassr-Azul-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-40",
+  "name": "Camiseta de Entrenamiento Napoli 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-napoli-2025-2026-300x400.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-napoli-2025-2026-300x400.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-41",
+  "name": "Camiseta de Entrenamiento 2 Napoli 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-napoli-2-2025-2026-300x311.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-de-entrenamiento-napoli-2-2025-2026-300x311.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-42",
+  "name": "Conjunto Niño FC Barcelona Edicion Especial 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-edicion-especial-fc-barcelona-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-edicion-especial-fc-barcelona-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-43",
+  "name": "Conjunto Niño Aston Villa Portero 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-aston-villa-portero-2026-2027-300x292.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-aston-villa-portero-2026-2027-300x292.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-44",
+  "name": "Conjunto Niño Brasil Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-brasil-segunda-equipacion-mundial-2026-300x305.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-brasil-segunda-equipacion-mundial-2026-300x305.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-45",
+  "name": "Conjunto Niño Tenerife Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-tenerife-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-tenerife-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-46",
+  "name": "Conjunto Niño Albacete Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-albacete-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-albacete-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-47",
+  "name": "Conjunto Niño Paraguay Segunda Equipacion Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-paraguay-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-paraguay-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-48",
+  "name": "Conjunto Niño PSG Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-psg-primera-equipacion-2026-2027-300x299.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-psg-primera-equipacion-2026-2027-300x299.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-49",
+  "name": "Conjunto Niño Noruega Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-noruega-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-noruega-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-50",
+  "name": "Conjunto Niño Turquia Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-turquia-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-turquia-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-51",
+  "name": "Conjunto Niño Escocia Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-escocia-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-escocia-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-52",
+  "name": "Conjunto Niño Croacia Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-croacia-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-croacia-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-53",
+  "name": "Conjunto Niño Celtic FC Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-celtic-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-celtic-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-54",
+  "name": "Conjunto Niño Sao Paulo Local 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/conjunto-nino-sao-paulo-primera-equipacion-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/conjunto-nino-sao-paulo-primera-equipacion-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-55",
+  "name": "Conjunto Niño Como Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-como-primera-equipacion-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-como-primera-equipacion-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-56",
+  "name": "Conjunto Niño Athletic Bilbao Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/conjunto-nino-athletic-bilbao-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/conjunto-nino-athletic-bilbao-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-57",
+  "name": "Conjunto Niño Manchester City Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-manchester-city-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-manchester-city-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-58",
+  "name": "Conjunto Niño Mexico Visitante 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-mexico-segunda-equipacion-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-mexico-segunda-equipacion-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-59",
+  "name": "Conjunto Niño Marruecos Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-marruecos-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-marruecos-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-60",
+  "name": "Conjunto Niño Australia Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-austria-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-austria-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-61",
+  "name": "Conjunto Niño River Plate Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-river-plate-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-river-plate-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-62",
+  "name": "Conjunto Niño Ecuador Tercera Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-tercera-equipacion-ecuador-mundial-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-tercera-equipacion-ecuador-mundial-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-63",
+  "name": "Conjunto Niño FC Barcelona Edición Especial Rosa 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/Conjunto-nino-fc-barcelona-edicion-especial-rosado-2024-2025-300x305.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/Conjunto-nino-fc-barcelona-edicion-especial-rosado-2024-2025-300x305.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-64",
+  "name": "Conjunto Inter Miami niño kit 2024/2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/03/kit-inter-miami-2024-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/03/kit-inter-miami-2024-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-65",
+  "name": "Conjunto Niño Inter Milan Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-inter-milan-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-inter-milan-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-66",
+  "name": "Conjunto Niño Inter Milán Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-nino-inter-milan-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-nino-inter-milan-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-67",
+  "name": "Conjunto Niño Inter Miami Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-inter-miami-segunda-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-inter-miami-segunda-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-68",
+  "name": "Conjunto Niño Inter Miami Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-inter-miami-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-inter-miami-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-69",
+  "name": "Conjunto Niño Real Madrid Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-real-madrid-primera-equipacion-2026-2027-300x284.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-real-madrid-primera-equipacion-2026-2027-300x284.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-70",
+  "name": "Conjunto Niño Real Oviedo Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-real-oviedo-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-real-oviedo-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-71",
+  "name": "Conjunto Niño España 2 Estrellas Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-espana-segunda-equipacion-2-estrellas-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-espana-segunda-equipacion-2-estrellas-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-72",
+  "name": "Conjunto Niño Real Sociedad Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/04/conjunto-nino-real-sociedad-primera-equipacion-2025-2026-1-300x218.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/04/conjunto-nino-real-sociedad-primera-equipacion-2025-2026-1-300x218.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-73",
+  "name": "Conjunto Niño España Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-espana-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-espana-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-74",
+  "name": "Conjunto Niño Arsenal Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-arsenal-tercera-equipacion-2025-2026-300x169.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-arsenal-tercera-equipacion-2025-2026-300x169.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-75",
+  "name": "Conjunto Niño Napoli Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-napoli-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-napoli-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-76",
+  "name": "Conjunto de Buzo Niño Real Madrid Naranja 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Nino-Real-Madrid-Naranja-2024-2025-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Nino-Real-Madrid-Naranja-2024-2025-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-77",
+  "name": "Conjunto de Buzo Manchester United Blanco 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-United-Blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-United-Blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-78",
+  "name": "Conjunto Niño Real Madrid Entrenamiento 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/Conjunto-nino-real-madrid-entrenamiento-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/Conjunto-nino-real-madrid-entrenamiento-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-79",
+  "name": "Conjunto de Buzo Seleccion Italia Azul 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Italia-Azul-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Italia-Azul-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-80",
+  "name": "Conjunto de Buzo Manchester City verde 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-City-verde-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-City-verde-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-81",
+  "name": "Conjunto de Buzo Arsenal Purpura 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Arsenal-Purpura-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Arsenal-Purpura-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-82",
+  "name": "Conjunto de Buzo seleccion Italia Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Italia-Negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Italia-Negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-83",
+  "name": "Conjunto de Buzo Manchester United Gris 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-United-Gris-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-United-Gris-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-84",
+  "name": "Conjunto de Buzo Bayern Munich Rojo vino 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Bayern-Munich-Rojo-vino-2924-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Bayern-Munich-Rojo-vino-2924-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-85",
+  "name": "Conjunto de Buzo Seleccion Francia Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Francia-Negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Francia-Negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-86",
+  "name": "Conjunto de Buzo Manchester United Verde 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-United-Verde-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Manchester-United-Verde-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-87",
+  "name": "Conjunto Niño Holanda Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/03/conjunto-nino-holnada-primera-equipacion-mundial-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/03/conjunto-nino-holnada-primera-equipacion-mundial-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-88",
+  "name": "Conjunto Niño España Edicion Especial Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-espana-mundial-2026-primera-equipacion-300x231.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-espana-mundial-2026-primera-equipacion-300x231.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-89",
+  "name": "Conjunto Niño Real Betis Edicion Especial 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-real-betis-edicion-especial-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-real-betis-edicion-especial-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-90",
+  "name": "Conjunto Niño Aston Villa Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-aston-villa-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-aston-villa-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-91",
+  "name": "Conjunto Niño FC Barcelona Edicion Especial Turquesa 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-fc-barcelona-edicion-especial-turquesa-2025-2026-300x312.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-fc-barcelona-edicion-especial-turquesa-2025-2026-300x312.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-92",
+  "name": "Conjunto Niño Japón Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-japon-segunda-equipacion-mundial-2026-300x229.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-japon-segunda-equipacion-mundial-2026-300x229.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-93",
+  "name": "Conjunto Niño Boca Juniors Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-boca-juniors-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-boca-juniors-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-94",
+  "name": "Conjunto Niño FC Barcelona Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-nino-fc-barcelona-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-nino-fc-barcelona-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-95",
+  "name": "Conjunto Niño Chelsea Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-chelsea-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-chelsea-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-96",
+  "name": "Conjunto Niño Rangers Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-rangers-primera-equipacion-2025-2026-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-rangers-primera-equipacion-2025-2026-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-97",
+  "name": "Conjunto Niño Croacia Primera Equipacion Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-croacia-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-croacia-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-98",
+  "name": "Chaqueta de Invierno Real Madrid Entrenamiento Azul/Claro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/12/chaqueta-de-invierno-real-madrid-entrenamiento-azul-claro-2024-2025-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/12/chaqueta-de-invierno-real-madrid-entrenamiento-azul-claro-2024-2025-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-99",
+  "name": "Conjunto Sudadera con Capucha Manchester United 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/Conjunto-sudadera-con-capucha-manchester-united-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/Conjunto-sudadera-con-capucha-manchester-united-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-100",
+  "name": "Conjunto Brasil Cristo Redentor para niños 2024/2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-brasil-cristo-redentor-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-brasil-cristo-redentor-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-101",
+  "name": "Conjunto Niño Real Madrid Verde Portero 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-real-madrid-verde-2025-2026-1-300x356.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-real-madrid-verde-2025-2026-1-300x356.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-102",
+  "name": "Conjunto Buzo seleccion Brasil verde 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Brasil-verde-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Brasil-verde-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-103",
+  "name": "Conjunto Niño Argentina Calentamiento 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-argentina-calentamiento-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-argentina-calentamiento-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-104",
+  "name": "Conjunto de Entrenamiento Ajax 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-de-entrenamiento-ajax-2024-2025-300x271.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-de-entrenamiento-ajax-2024-2025-300x271.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-105",
+  "name": "Conjunto de Entrenamiento Tottenham 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/07/Conjunto-de-entrenamiento-tottenham-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/07/Conjunto-de-entrenamiento-tottenham-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-106",
+  "name": "Conjunto de Entrenamiento PSG Blanco 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/Conjunto-de-Entrenamiento-PSG-Blanco-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/Conjunto-de-Entrenamiento-PSG-Blanco-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-107",
+  "name": "Conjunto Niño España Local 2 Estrellas Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-espana-primera-equipacion-2-estrellas-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-espana-primera-equipacion-2-estrellas-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-108",
+  "name": "Conjunto Niño Peru Local 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-peru-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-peru-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-109",
+  "name": "Conjunto Niño West Ham Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-west-ham-primera-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-west-ham-primera-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-110",
+  "name": "Conjunto Niño Valencia Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-valencia-primera-equipacion-2025-2026-300x325.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-valencia-primera-equipacion-2025-2026-300x325.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-111",
+  "name": "Conjunto Argentina primera equipación niño 2024/2025 kit",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/04/kit-argentina-2024-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/04/kit-argentina-2024-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-112",
+  "name": "Conjunto Niño Canadá Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-canada-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-canada-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-113",
+  "name": "Conjunto Niño Porto local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-fc-porto-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-fc-porto-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-114",
+  "name": "Conjunto Niño Austria Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-austria-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-austria-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-115",
+  "name": "Conjunto Niño FC Barcelona Pre-Match 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/09/conjunto-nino-barcelona-pre-match-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/09/conjunto-nino-barcelona-pre-match-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-116",
+  "name": "Conjunto Niño España Portero Azul Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/04/conjunto-nino-espana-portero-azul-mundial-2026-300x215.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/04/conjunto-nino-espana-portero-azul-mundial-2026-300x215.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-117",
+  "name": "Conjunto de Buzo Inter de Milan Azul 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Chandal-Inter-de-Milan-Azul-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Chandal-Inter-de-Milan-Azul-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-118",
+  "name": "Conjunto de Buzo Real Madrid Rosa 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Real-Madrid-Rosa-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Real-Madrid-Rosa-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-119",
+  "name": "Conjunto de Buzo Real Madrid 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Real-Madrid-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Real-Madrid-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-120",
+  "name": "Conjunto de Buzo Arsenal Rosa 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Francia-Rosa-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Francia-Rosa-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-121",
+  "name": "Conjunto de Buzo AC Milan Rojo 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-AC-Milan-Rojo-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-AC-Milan-Rojo-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-122",
+  "name": "Conjunto de Buzo Manchester United Naranja 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Manchester-United-Naranja-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Manchester-United-Naranja-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-123",
+  "name": "Conjunto de Buzo Seleccion Argentina Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Argentina-Negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-Seleccion-Argentina-Negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-124",
+  "name": "Conjunto de Buzo Paris Saint Germain Blanco 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Paris-Saint-Germain-Blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-de-Buzo-Paris-Saint-Germain-Blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-125",
+  "name": "Conjunto de Entrenamiento Argentina Calentamiento 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-de-entrenamiento-argentina-calentamiento-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-de-entrenamiento-argentina-calentamiento-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-126",
+  "name": "Conjunto de Entrenamiento Atlético de Madrid 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-de-entrenamiento-atletico-de-madrid-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-de-entrenamiento-atletico-de-madrid-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-127",
+  "name": "Conjunto de entrenamiento FC Barcelona 2024-2025 Negro",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/08/chaleco-de-entrenamiento-fc-barcelona-2024-2025-negro-1-300x249.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/08/chaleco-de-entrenamiento-fc-barcelona-2024-2025-negro-1-300x249.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-128",
+  "name": "Conjunto de Entrenamiento Barcelona Negro/Purpura 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/conjunto-de-entrenamiento-fc-barcelona-sin-mangas-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/conjunto-de-entrenamiento-fc-barcelona-sin-mangas-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-129",
+  "name": "Conjunto de Entrenamiento Atlético de Madrid Rojo 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-de-entrenamiento-atletico-de-madrid-rojo-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-de-entrenamiento-atletico-de-madrid-rojo-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-130",
+  "name": "Conjunto de Entrenamiento FC Barcelona x Kobe Bryant 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-de-entrenamiento-fc-barcelona-kobe-bryant-2025-2026-300x271.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-de-entrenamiento-fc-barcelona-kobe-bryant-2025-2026-300x271.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-131",
+  "name": "Conjunto de Entrenamiento Brasil Gris/Azulada Cristo Redentor 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-de-entrenamiento-brasil-gris-azulada-manga-corta-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-de-entrenamiento-brasil-gris-azulada-manga-corta-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-132",
+  "name": "Conjunto Niño Inglaterra Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-segunda-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-segunda-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-133",
+  "name": "Conjunto Buzo seleccion Italia Blanco 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Italia-Blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/Chandal-seleccion-Italia-Blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-134",
+  "name": "Conjunto Niño PSG Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-psg-segunda-equipacion-2026-2027-300x286.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-psg-segunda-equipacion-2026-2027-300x286.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-135",
+  "name": "Conjunto Niño Alemania Visitante 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-alemania-segunda-equipacion-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-alemania-segunda-equipacion-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-136",
+  "name": "Conjunto Niño Suiza Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-suiza-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-suiza-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-137",
+  "name": "Conjunto Niño Rayo Vallecano Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rayo-vallecano-primera-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rayo-vallecano-primera-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-138",
+  "name": "Conjunto Niño Real Madrid Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/09/conjunto-nino-real-madrid-segunda-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/09/conjunto-nino-real-madrid-segunda-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-139",
+  "name": "Conjunto Niño Real Oviedo Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-real-oviedo-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-real-oviedo-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-140",
+  "name": "Chándal España Entrenamiento 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-entrenamiento-2026-2026-300x299.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-entrenamiento-2026-2026-300x299.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-141",
+  "name": "Pantalón Corto Real Betis Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-real-betis-primera-equipacion-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-real-betis-primera-equipacion-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-142",
+  "name": "Chándal Juventus Local Cremallera Baja 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-juventus-cremalla-baja-primera-equipacion-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-juventus-cremalla-baja-primera-equipacion-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-143",
+  "name": "Chandal Real Madrid 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-real-madrid-verde-lima-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-real-madrid-verde-lima-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-144",
+  "name": "Chandal Real Madrid 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-real-madrid-2024-2025-300x350.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-real-madrid-2024-2025-300x350.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-145",
+  "name": "Camiseta Edicion Especial Lionel Messi Argentina/Inter Miami/ Barcelona/PSG 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-edicion-especial-lionel-messi-argentina-inter-miami-barcelona-psg-2025-2026-300x400.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-edicion-especial-lionel-messi-argentina-inter-miami-barcelona-psg-2025-2026-300x400.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-146",
+  "name": "Camiseta Argentina Edicion Especial 50 Aniversario Portero 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/Camiseta-argentina-aniversario-estilo-retro-50-anos-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/Camiseta-argentina-aniversario-estilo-retro-50-anos-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-147",
+  "name": "Pantalón Corto AS Monaco Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-as-monaco-primera-equipacion-2026-2027-300x245.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-as-monaco-primera-equipacion-2026-2027-300x245.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-148",
+  "name": "Chandal Argentina Cremallera Baja Blanco 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-argentina-creamallera-baja-blanco-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-argentina-creamallera-baja-blanco-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-149",
+  "name": "Camiseta Visitante Napoli 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/08/Camiseta-segunda-equipacion-Napoli-2024-2025-completo-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/08/Camiseta-segunda-equipacion-Napoli-2024-2025-completo-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-150",
+  "name": "Camiseta Inter Milan Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-151",
+  "name": "Conjunto Niño Flamengo Segunda Equipacion 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-flamengo-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-flamengo-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-152",
+  "name": "Chandal PSG Rojo Entrenamiento 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-rojo-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-rojo-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-153",
+  "name": "Conjunto Niño Noruega Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-noruega-primera-equipacion-mundial-2026-300x303.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-noruega-primera-equipacion-mundial-2026-300x303.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-154",
+  "name": "Conjunto Niño Turquia Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-turquia-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-turquia-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-155",
+  "name": "Conjunto Niño Bélgica Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-belgica-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-belgica-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-156",
+  "name": "Conjunto niño Oporto Visitante 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-nino-Oporto-Visitante-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/01/Conjunto-nino-Oporto-Visitante-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-157",
+  "name": "Conjunto Niño Noruega Tercera Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-noruega-tercera-equipacion-mundial-2026-300x308.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-noruega-tercera-equipacion-mundial-2026-300x308.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-158",
+  "name": "Conjunto Niño FC Barcelona Visitante Kobe Bryant 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-barcelona-segunda-equipacion-kobe-bryant-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-barcelona-segunda-equipacion-kobe-bryant-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-159",
+  "name": "Conjunto Niño Chelsea Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/09/conjunto-nino-chelsea-segunda-equipacion-2026-2027-300x294.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/09/conjunto-nino-chelsea-segunda-equipacion-2026-2027-300x294.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-160",
+  "name": "Conjunto Niño Paraguay Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-paraguay-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-paraguay-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-161",
+  "name": "Conjunto Niño Chelsea Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-chelsea-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-chelsea-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-162",
+  "name": "Conjunto Niño Inter Milan Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-inter-milan-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-inter-milan-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-163",
+  "name": "Conjunto Niño Tigres UANL Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-tigres-uanl-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/conjunto-nino-tigres-uanl-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-164",
+  "name": "Conjunto Niño Colombia 100 Aniversario Edicion Especial Negro 2024/2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-edicion-especial-100-aniversario-2025-2026-300x400.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-edicion-especial-100-aniversario-2025-2026-300x400.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-165",
+  "name": "Chandal PSG Azul Entrenamiento 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-azul-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-azul-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-166",
+  "name": "Conjunto Niño Real Madrid Tercera Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-real-madrid-tercera-equipacion-2026-2027-300x292.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-real-madrid-tercera-equipacion-2026-2027-300x292.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-167",
+  "name": "Conjunto Niño Real Madrid Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-nino-real-madrid-tercera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-nino-real-madrid-tercera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-168",
+  "name": "Conjunto Niño RCD Mallorca Tercera Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rcd-mallorca-tercera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rcd-mallorca-tercera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-169",
+  "name": "Conjunto Niño Rayo Vallecano Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rayo-vallecano-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rayo-vallecano-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-170",
+  "name": "Conjunto Niño Manchester City Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-manchester-city-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-manchester-city-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-171",
+  "name": "Conjunto Niño Athletic Bilbao Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-Athletic-Bilbao-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-Athletic-Bilbao-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-172",
+  "name": "Chandal AC Milán Entrenamiento Gris 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ac-milan-gris-negro-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ac-milan-gris-negro-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-173",
+  "name": "Conjunto Niño Valencia Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-valencia-tercera-equipacion-2025-2026-300x310.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-valencia-tercera-equipacion-2025-2026-300x310.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-174",
+  "name": "Chandal Mexico Negro/Verde 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-mexico-cremallera-alta-negro-verde-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-mexico-cremallera-alta-negro-verde-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-175",
+  "name": "Camiseta España Visitante Manga Larga Version Jugador «DELLAFUENTE» 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/04/camiseta-espana-segunda-equipacion-manga-larga-version-jugador-dellafuente-mundial2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/04/camiseta-espana-segunda-equipacion-manga-larga-version-jugador-dellafuente-mundial2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-176",
+  "name": "Camiseta FC Barcelona Portero Manga Larga Verde 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-fc-barcelona-portero-2025-2026-300x413.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-fc-barcelona-portero-2025-2026-300x413.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-177",
+  "name": "Chándal Manchester City Cremallera Baja Verde 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-manchester-city-cremallera-baja-verde-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-manchester-city-cremallera-baja-verde-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-178",
+  "name": "Conjutno Niño Villarreal Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-villarreal-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-villarreal-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-179",
+  "name": "Pantalón Corto Inter Milan Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-inter-milnan-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-inter-milnan-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-180",
+  "name": "Chándal Boca Junior Cremallera Alta 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-boca-junior-cremallera-alta-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-boca-junior-cremallera-alta-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-181",
+  "name": "Chandal Arsenal Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-arsenal-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-arsenal-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-182",
+  "name": "Pantalón Corto Arsenal Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/pantalon-corto-arsenal-primera-equipacion-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/pantalon-corto-arsenal-primera-equipacion-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-183",
+  "name": "Pantalón Corto Arsenal Tercera Visitante Blanco 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/pantalon-corto-asenal-tercera-equipacion-blanco-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/pantalon-corto-asenal-tercera-equipacion-blanco-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-184",
+  "name": "Pantalón Corto España Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/pantalon-corto-espana-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/pantalon-corto-espana-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-185",
+  "name": "Camiseta Bayern de Munich Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-bayern-munich-tercera-equipacion-2025-2026-300x352.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-bayern-munich-tercera-equipacion-2025-2026-300x352.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-186",
+  "name": "Chandal España Cremallera Corta Negro Entrenamiento 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-entrenamiento-negro-cremallera-corta-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-entrenamiento-negro-cremallera-corta-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-187",
+  "name": "Camiseta Celta de Vigo Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-celta-de-vigo-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-celta-de-vigo-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-188",
+  "name": "Camiseta Sporting de Lisboa Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-sporting-de-lisboa-segunda-equipacion-2025-2026-300x376.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-sporting-de-lisboa-segunda-equipacion-2025-2026-300x376.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-189",
+  "name": "Camiseta Sporting de Lisboa Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-sporting-de-lisboa-primera-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-sporting-de-lisboa-primera-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-190",
+  "name": "Pantalón Corto Bayern de Múnich Local 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/pantalon-corto-bayern-munich-primera-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/pantalon-corto-bayern-munich-primera-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-191",
+  "name": "Cortaviento Bayern de Munich 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/ccortaviento-bayern-de-munich-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/ccortaviento-bayern-de-munich-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-192",
+  "name": "Camiseta Celta de Vigo Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-celta-de-vigo-primera-equipacion-2026-2027-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-celta-de-vigo-primera-equipacion-2026-2027-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-193",
+  "name": "Camiseta Liverpool Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-liverpool-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-liverpool-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-194",
+  "name": "Camiseta CA Osasuna Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-osasuna-primera-equipacion-2026-2027-300x420.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-osasuna-primera-equipacion-2026-2027-300x420.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-195",
+  "name": "Camiseta Holanda Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/03/camiseta-holanda-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/03/camiseta-holanda-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-196",
+  "name": "Camiseta Inglaterra Mujer Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/camiseta-inglaterra-primera-equipacion-mujer-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/camiseta-inglaterra-primera-equipacion-mujer-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-197",
+  "name": "Camiseta Chelsea Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camsieta-chelsea-segunda-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camsieta-chelsea-segunda-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-198",
+  "name": "Camiseta Chelsea Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-chelsea-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-chelsea-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-199",
+  "name": "Camiseta Arsenal Tercera Visitante Versión Jugador Manga Larga 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-arsenal-tercera-equipacion-manga-larga-version-jugador-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-arsenal-tercera-equipacion-manga-larga-version-jugador-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-200",
+  "name": "Camiseta FC Barcelona Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-fc-barcelona-primera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-fc-barcelona-primera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-201",
+  "name": "Camiseta Cruzeiro Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-cruzeiro-segunda-equipacion-2025-2026-300x380.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-cruzeiro-segunda-equipacion-2025-2026-300x380.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-202",
+  "name": "Chandal Paris Saint Germain 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/chandal-psg-vino-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/chandal-psg-vino-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-203",
+  "name": "Pantalón Corto Real Madrid Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/pantalon-corto-real-madrid-segunda-equipacion-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/pantalon-corto-real-madrid-segunda-equipacion-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-204",
+  "name": "Conjunto Niño Borussia Dortmund Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-nino-borussia-dortmund-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/conjunto-nino-borussia-dortmund-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-205",
+  "name": "Conjunto Niño FC Barcelona Local Cactus Jack 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-nino-fc-barcelona-cactus-jack-primera-equipacion-2024-2025-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-nino-fc-barcelona-cactus-jack-primera-equipacion-2024-2025-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-206",
+  "name": "Conjunto Niño Marruecos Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-marruecos-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-marruecos-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-207",
+  "name": "Conjunto Niño Botafogo Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-botafogo-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-botafogo-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-208",
+  "name": "Conjunto Niño AC Milan Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/conjunto-nino-ac-milan-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/conjunto-nino-ac-milan-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-209",
+  "name": "Conjunto Niño Valencia Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-valencia-segunda-equipacion-2025-2026-300x318.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-valencia-segunda-equipacion-2025-2026-300x318.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-210",
+  "name": "Conjunto Niño Liverpool Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-liverpool-segunda-equipacion-2026-2027-300x295.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-liverpool-segunda-equipacion-2026-2027-300x295.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-211",
+  "name": "Conjunto Niño Alemania Portero Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/camiseta-alemania-portero-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/camiseta-alemania-portero-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-212",
+  "name": "Conjunto Niño FC Barcelona Cuarta Visitante Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-fc-barcelona-cuarta-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/conjunto-nino-fc-barcelona-cuarta-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-213",
+  "name": "Conjunto Niño Bayern Munich Tercera Equipacion 2024/2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-bayern-munich-tercera-equipacion-2024-2025-300x225.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/conjunto-nino-bayern-munich-tercera-equipacion-2024-2025-300x225.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-214",
+  "name": "Conjunto Niño Real Betis Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-real-betis-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-real-betis-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-215",
+  "name": "Conjunto Niño Al Hilal Tercera Visitante 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/Conjunto-nino-al-hilal-tercera-equipacion-2024-2025-300x221.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/Conjunto-nino-al-hilal-tercera-equipacion-2024-2025-300x221.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-216",
+  "name": "Conjunto Niño Palmeiras Tercera Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-palmeiras-tercera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/conjunto-nino-palmeiras-tercera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-217",
+  "name": "Conjunto Niño Sao Paulo Tercera Visitante 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-nino-sao-paulo-tercera-equipacion-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-nino-sao-paulo-tercera-equipacion-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-218",
+  "name": "Camiseta conjunto para niño Visitante Tottenham 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/07/Camiseta-segunda-equipacion-ninos-2024-2025-conjunto-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/07/Camiseta-segunda-equipacion-ninos-2024-2025-conjunto-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-219",
+  "name": "Conjunto Niño Las Palmas Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/conjunto-nino-palmas-tercera-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/conjunto-nino-palmas-tercera-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-220",
+  "name": "Conjunto Niño FC Barcelona Edicion Especial One Piece Monkery D. Luffy 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-nino-fc-barcelona-edicion-especial-monkey-d-luffy-one-piece-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/conjunto-nino-fc-barcelona-edicion-especial-monkey-d-luffy-one-piece-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-221",
+  "name": "Camiseta Conjunto Niño Visitante Granada 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/07/Camiseta-segunda-equipacion-granada-2024-2025-conjunto-trasero-300x365.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/07/Camiseta-segunda-equipacion-granada-2024-2025-conjunto-trasero-300x365.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-222",
+  "name": "Conjunto Niño FC Barcelona Tercera Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-barcelona-tercera-equipacion-2026-2027-300x293.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/conjunto-nino-barcelona-tercera-equipacion-2026-2027-300x293.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-223",
+  "name": "Conjunto Niño FC Barcelona Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-fc-barcelona-tercera-equipacion-2025-2026-300x400.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/conjunto-nino-fc-barcelona-tercera-equipacion-2025-2026-300x400.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-224",
+  "name": "Conjunto Niño Rayo Vallecano Tercera Visitante 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rayo-vallecano-tercera-equipacion-2025-2026-300x251.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/conjunto-nino-rayo-vallecano-tercera-equipacion-2025-2026-300x251.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-225",
+  "name": "Camiseta Inter de Milán Edicion Especial Flor 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-flor-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-flor-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-226",
+  "name": "Camiseta Inter de Milán Edicion Especial Dragon 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-dragon-2025-2026-300x282.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-dragon-2025-2026-300x282.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-227",
+  "name": "Chandal Atlético de Madrid Cremallera Baja Negro/Rojo 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-atletico-de-madrid-rojo-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-atletico-de-madrid-rojo-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-228",
+  "name": "Camiseta Inter de Milán Edicion Especial Flor Verde 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-flor-verde-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-flor-verde-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-229",
+  "name": "Camiseta Sporting de Lisboa Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-sporting-de-lisboa-segunda-equipacion-version-jugador-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-sporting-de-lisboa-segunda-equipacion-version-jugador-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-230",
+  "name": "Camiseta Inter de Milán Edicion Especial 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-inter-milan-edicion-especial-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-231",
+  "name": "Chandal Atlético de Madrid Rojo 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-atletico-de-madrid-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-atletico-de-madrid-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-232",
+  "name": "Camiseta Sporting de Lisboa Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-sporting-de-lisboa-quinta-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-sporting-de-lisboa-quinta-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-233",
+  "name": "Camiseta Inter Milan Local Manga Larga 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-primera-equipacion-manga-larga-2026-2027-300x296.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-primera-equipacion-manga-larga-2026-2027-300x296.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-234",
+  "name": "Camiseta Fluminense Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-fluminense-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-fluminense-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-235",
+  "name": "Camiseta Real Betis Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-real-betis-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-real-betis-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-236",
+  "name": "Camiseta Inter Milan Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-segunda-equipacion-2026-2027-300x298.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-segunda-equipacion-2026-2027-300x298.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-237",
+  "name": "Chandal Manchester United Rojo 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-manchester-united-rojo-2024-2025-lateral-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-manchester-united-rojo-2024-2025-lateral-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-238",
+  "name": "Chandal Flamengo Azul 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-flamengo-azul-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-flamengo-azul-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-239",
+  "name": "Camiseta FC Barcelona Pre-Match 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/09/camiseta-fc-barcelona-pre-match-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/09/camiseta-fc-barcelona-pre-match-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-240",
+  "name": "Chandal Manchester United Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-united-negro-gris-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-united-negro-gris-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-241",
+  "name": "Camiseta Borussia Dortmund Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-borussia-dortmund-primera-equipacion-2025-2026-300x320.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-borussia-dortmund-primera-equipacion-2025-2026-300x320.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-242",
+  "name": "Camiseta Lyon Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-lyon-primera-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-lyon-primera-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-243",
+  "name": "Camiseta Santos FC Visitante Version Jugador 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-santos-fc-segunda-equipacion-version-jugador-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-santos-fc-segunda-equipacion-version-jugador-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-244",
+  "name": "Chándal Alemania Rojo Cremallera Baja 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-rojo-cremallera-baja-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-rojo-cremallera-baja-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-245",
+  "name": "Camiseta Gremio Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-gremio-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-gremio-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-246",
+  "name": "Camiseta Arsenal Visitante Versión Jugador Manga Larga 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-arsenal-segunda-equipacion-version-jugador-manga-larga-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-arsenal-segunda-equipacion-version-jugador-manga-larga-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-247",
+  "name": "Camiseta Arsenal Tercera Visitante Manga Larga 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-arsenal-tercera-equipacion-manga-larga-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-arsenal-tercera-equipacion-manga-larga-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-248",
+  "name": "Cortaviento FC Barcelona X Kobe Bryant 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/cortaviento-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/cortaviento-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-249",
+  "name": "Camiseta Manchester City Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-250",
+  "name": "Pantalón Corto Sao Paulo Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-sao-paulo-primera-equipacion-2025-2026-300x327.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-sao-paulo-primera-equipacion-2025-2026-300x327.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-251",
+  "name": "Pantalón Corto Palmeiras Local 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/pantalon-corto-palmeiras-primera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/pantalon-corto-palmeiras-primera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-252",
+  "name": "Camiseta Holanda Manga Larga Portero 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/camiseta-paises-bajos-manga-larga-portero-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/camiseta-paises-bajos-manga-larga-portero-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-253",
+  "name": "Chándal AC Milan Cremallera Baja 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-ac-milan-cremallera-baja-azulado-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-ac-milan-cremallera-baja-azulado-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-254",
+  "name": "Pantalón Corto Inter Miami Entrenamiento 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/Pantalon-corto-inter-miami-viaje-2025-2026-300x300.avif",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/Pantalon-corto-inter-miami-viaje-2025-2026-300x300.avif"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-255",
+  "name": "Camiseta Deportivo de La Coruña Local 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-deportivo-de-la-coruna-primera-equipacion-2026-2027-300x298.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/conjunto-nino-deportivo-de-la-coruna-primera-equipacion-2026-2027-300x298.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-256",
+  "name": "Chándal Atlético de Madrid Cremallera Alta 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-atletico-de-madrid-cremallera-alta-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-atletico-de-madrid-cremallera-alta-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-257",
+  "name": "Camiseta Inter Milan Visitante Version Jugador 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-segunda-equipacion-version-jugador-2026-2027-300x295.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-segunda-equipacion-version-jugador-2026-2027-300x295.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-258",
+  "name": "Pantalón Corto Local Version Jugador 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-inter-milan-primera-equipacion-version-jugador-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/pantalon-corto-inter-milan-primera-equipacion-version-jugador-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-259",
+  "name": "Camiseta AS Mónaco Tercera Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-as-monaco-tercera-equipacion-2026-2027-300x275.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-as-monaco-tercera-equipacion-2026-2027-300x275.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-260",
+  "name": "Camiseta Real Madrid Local Cucurella 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-real-madrid-primera-equipacion-cucurella-2026-2027-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-real-madrid-primera-equipacion-cucurella-2026-2027-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-261",
+  "name": "Camiseta Borussia Dortmund Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-borussia-dortmund-segunda-equipacion-2025-2026-300x322.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-borussia-dortmund-segunda-equipacion-2025-2026-300x322.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-262",
+  "name": "Camiseta Liverpool Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-liverpool-tercera-equipacion-2025-2026-1-300x393.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-liverpool-tercera-equipacion-2025-2026-1-300x393.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-263",
+  "name": "Chandal FC Barcelona Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-fc-barcelona-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-fc-barcelona-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-264",
+  "name": "Camiseta CA Osasuna Tercera Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-osasuna-tercera-equipacion-2026-2027-300x413.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-osasuna-tercera-equipacion-2026-2027-300x413.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-265",
+  "name": "Camiseta CA Osasuna Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-osasuna-tercera-equipacion-2025-2026-300x411.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-osasuna-tercera-equipacion-2025-2026-300x411.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-266",
+  "name": "Camiseta Real Betis Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-real-betis-tercera-equipacion-2025-2026-300x388.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-real-betis-tercera-equipacion-2025-2026-300x388.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-267",
+  "name": "Pantalon Corto Benfica Visitante 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/pantalon-corto-benfica-segunda-equipacion-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/pantalon-corto-benfica-segunda-equipacion-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-268",
+  "name": "Camiseta Inter Milan Local Version Jugador 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-primera-equipacion-version-jugador-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-milan-primera-equipacion-version-jugador-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-269",
+  "name": "Camiseta Chelsea Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-chelsea-segunda-equipacion-version-jugador-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-chelsea-segunda-equipacion-version-jugador-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-270",
+  "name": "Chaqueta con Capucha FC Barcelona 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/12/chaqueta-fc-barcelona-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/12/chaqueta-fc-barcelona-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-271",
+  "name": "Camiseta Manchester City Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-segunda-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-segunda-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-272",
+  "name": "Pantalón Corto Sao Paulo Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-sao-paulo-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-sao-paulo-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-273",
+  "name": "Camiseta Chelsea Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-chelsea-tercera-equipacion-2025-2026-300x390.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-chelsea-tercera-equipacion-2025-2026-300x390.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-274",
+  "name": "Camiseta Real Madrid Portero 2 Azul 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-real-madrid-portero-2-2026-2027-300x355.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-real-madrid-portero-2-2026-2027-300x355.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-275",
+  "name": "Camiseta Valencia Tercera Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-valencia-fc-tercera-equipacion-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-valencia-fc-tercera-equipacion-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-276",
+  "name": "Camiseta Argelia Local Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-algeria-primera-equipacion-mundial-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/camiseta-algeria-primera-equipacion-mundial-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-277",
+  "name": "Camiseta Inter Miami Tercera Visitante 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-miami-tercera-equipacion-2026-2027-300x376.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-inter-miami-tercera-equipacion-2026-2027-300x376.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-278",
+  "name": "Camiseta FC Barcelona Local Ed Sheeran 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-fc-barcelona-primera-equipacion-colaboracion-ed-sheeran-2025-2026-300x361.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-fc-barcelona-primera-equipacion-colaboracion-ed-sheeran-2025-2026-300x361.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-279",
+  "name": "Camiseta FC Barcelona Cuarta Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcelona-cuarta-equipacion-2025-2026-300x351.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcelona-cuarta-equipacion-2025-2026-300x351.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-280",
+  "name": "Camiseta Real Betis Edicion Especial Naruto Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-real-betis-edicion-especial-naruto-version-jugador-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-real-betis-edicion-especial-naruto-version-jugador-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-281",
+  "name": "Chandal Liverpool Negro/Rojo 2024/2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-liverpool-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-liverpool-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-282",
+  "name": "Camiseta FC Barcelona Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcela-tercera-equipacion-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcela-tercera-equipacion-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-283",
+  "name": "Chandal Manchester City Negro 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-284",
+  "name": "Camiseta AS Mónaco Local Version Jugador 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-as-monaco-primera-equipacion-version-jugador-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/08/camiseta-as-monaco-primera-equipacion-version-jugador-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-285",
+  "name": "Camiseta Liverpool Local Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-liverpool-primera-equipacion-version-jugador-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-liverpool-primera-equipacion-version-jugador-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-286",
+  "name": "Camiseta Liverpool Tercera Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/Camiseta-Liverpool-tercera-equipacion-2025-2026-2-300x292.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/Camiseta-Liverpool-tercera-equipacion-2025-2026-2-300x292.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-287",
+  "name": "Pantalón Corto Tottenham Hotspur Visitante 2025-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/pantalon-corto-tottenham-segunda-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/pantalon-corto-tottenham-segunda-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-288",
+  "name": "Camiseta Manchester City Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-tercera-equipacion-2025-2026-300x320.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-tercera-equipacion-2025-2026-300x320.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-289",
+  "name": "Chandal Borussia Dortmund Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-290",
+  "name": "Camiseta FC Barcelona Cuarta Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-fc-barcelona-cuarta-equipacion-version-jugador-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-fc-barcelona-cuarta-equipacion-version-jugador-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-291",
+  "name": "Camiseta Guatemala Tercera Equipacion 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-guatemala-tercera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-guatemala-tercera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-292",
+  "name": "Chándal España con Capucha 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-con-capucha-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-con-capucha-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-293",
+  "name": "Camiseta FC Barcelona Tercera Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcelona-tercera-equipacion-version-juagador-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcelona-tercera-equipacion-version-juagador-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-294",
+  "name": "Camiseta AC Milán Visitante Versión Jugador Manga Larga 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-ac-milan-segunda-equipacion-version-jugador-manga-larga-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-ac-milan-segunda-equipacion-version-jugador-manga-larga-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-295",
+  "name": "Camiseta Borussia Dortmund Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-borussia-dortmund-tercera-equipacion-2025-2026-300x395.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-borussia-dortmund-tercera-equipacion-2025-2026-300x395.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-296",
+  "name": "Camiseta FC Barcelona Edición Especial Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/camiseta-barcelona-edicion-especial-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/camiseta-barcelona-edicion-especial-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-297",
+  "name": "Chandal Paris Saint Germain Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-paris-saint-germain-negro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-paris-saint-germain-negro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-298",
+  "name": "Camiseta Real Betis Edicion Especial Arte Urbano Sevilla 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-real-betis-edicion-especial-2025-2026-300x417.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-real-betis-edicion-especial-2025-2026-300x417.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-299",
+  "name": "Chandal Chelsea Rosado 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-chelsea-rosado-2024-2024-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-chelsea-rosado-2024-2024-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-300",
+  "name": "Chandal Inter Milán Blanco/Azul 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-inter-milan-blanco-2025-2026-1-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-inter-milan-blanco-2025-2026-1-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-301",
+  "name": "Chaqueta Real Madrid Azul Marino 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/12/chaqueta-real-madrid-azul-marino-2024-2025-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/12/chaqueta-real-madrid-azul-marino-2024-2025-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-302",
+  "name": "Chandal PSG Blanco 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-paris-saint-germain-blanco-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-paris-saint-germain-blanco-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-303",
+  "name": "Chandal Manchester City Celeste/Azul 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-celeste-aazul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-celeste-aazul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-304",
+  "name": "Chandal AC Milán Blanco 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-305",
+  "name": "Chandal Tottenham Blanco 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/Chandal-tottenham-blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/Chandal-tottenham-blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-306",
+  "name": "Chandal Ajax Cremallera Blanco 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-ajax-chaqueta-blanco-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-ajax-chaqueta-blanco-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-307",
+  "name": "Chándal Alemania Cremallera Baja Blanco 2026/2027",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-blanco-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-blanco-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-308",
+  "name": "Chandal Alemania Cremallera Alta Blanco 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-alemania-blanco-cremallera-alta-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-alemania-blanco-cremallera-alta-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-309",
+  "name": "Chandal AC Milán Negro 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-310",
+  "name": "Pantalón Corto FC Barcelona Tercera Visitante 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-fc-barcelona-tercera-equipacion-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/pantalon-corto-fc-barcelona-tercera-equipacion-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-311",
+  "name": "Chandal FC Barcelona x Kobe Bryant 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chandal-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chandal-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-312",
+  "name": "Chandal Borussia Dortmund Amarillo 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-amarillo-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-amarillo-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-313",
+  "name": "Chandal Ajax Negro/Vino 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-chandal-ajax-2024-2025-conjunto-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-chandal-ajax-2024-2025-conjunto-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-314",
+  "name": "Camiseta Manchester City Tercera Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-tercera-equipacion-version-jugador-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-manchester-city-tercera-equipacion-version-jugador-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-315",
+  "name": "Chandal Ajax 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-316",
+  "name": "Chandal España Blanco Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-blanco-mundial-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-blanco-mundial-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-317",
+  "name": "Camiseta Tottenham Hotspur Tercera Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-tottenham-tercera-equipacion-version-jugador-2025-2026-300x356.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-tottenham-tercera-equipacion-version-jugador-2025-2026-300x356.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-318",
+  "name": "Camiseta Tottenham Hotspur Local Versión Jugador Manga Larga 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-tottenham-primera-equipacion-version-jugador-manga-larga-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-tottenham-primera-equipacion-version-jugador-manga-larga-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-319",
+  "name": "Chándal FC Barcelona Azul 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-fc-barcelona-azul-2025-2026-300x343.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-fc-barcelona-azul-2025-2026-300x343.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-320",
+  "name": "Camiseta Paris Saint Germain Tercera Visitante Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-psg-tercera-equipacion-version-jugador-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-psg-tercera-equipacion-version-jugador-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-321",
+  "name": "Camiseta Real Betis Multiples Equipos Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-real-betis-edicion-especial-multiples-equipos-version-jugador-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/camiseta-real-betis-edicion-especial-multiples-equipos-version-jugador-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-322",
+  "name": "Camiseta FC Barcelona Edicion Especial Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcelona-edicion-especial-version-jugador-2025-2026-300x400.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/camiseta-fc-barcelona-edicion-especial-version-jugador-2025-2026-300x400.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-323",
+  "name": "Chandal Alemania 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-alemania-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-alemania-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-324",
+  "name": "Chandal FC Barcelona Rosa/Azul 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-fc-barcelona-rosa-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-fc-barcelona-rosa-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-325",
+  "name": "Chandal River Plate Negro/Rojo 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-river-plate-rojo-negro-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-river-plate-rojo-negro-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-326",
+  "name": "Camiseta Tottenham Hotspur Edicion Especial Stray Kids Versión Jugador 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-tottenham-edicion-especial-stray-kids-2025-2026-300x368.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/camiseta-tottenham-edicion-especial-stray-kids-2025-2026-300x368.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-327",
+  "name": "Camiseta Borussia Dortmund Primera Equipacion 2025-26 Versión Jugador",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/Camiseta-Borussia-Dortmund-Primera-Equipacion-2025-26-Version-Jugador-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/Camiseta-Borussia-Dortmund-Primera-Equipacion-2025-26-Version-Jugador-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-328",
+  "name": "Chandal Brasil Azul 2025-2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-brasil-azul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-brasil-azul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-329",
+  "name": "Chandal España Cremallera Alta Mundial 2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-mundial-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-mundial-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-330",
+  "name": "Chándal Manchester City Cremallera Baja Celeste 2025/2026",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-manchester-city-cremallera-baja-celeste-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-manchester-city-cremallera-baja-celeste-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-conj-331",
+  "name": "Chandal Chelsea Azul 2024-2025",
+  "brand": "Conjuntos de Entrenamiento",
+  "section": "preorder-sports",
+  "category": "conjunto-entrenamiento",
+  "price": 750,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-chelsea-azul-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-chelsea-azul-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+
+{
   id: "sp-sudpant-folder",
   name: "Sudaderas y Pants",
   isFolder: true,
@@ -177748,7 +184728,7 @@ if (versionContainer) {
   // Handle Customization UI
   const qvCustomization = document.getElementById('qv-customization');
   if (qvCustomization) {
-    if (product.customizable && product.category !== 'nba' && product.category !== 'balones' && product.category !== 'f1' && product.category !== 'sudaderas' && product.section !== 'preorder') {
+    if (product.customizable && product.category !== 'nba' && product.category !== 'balones' && product.category !== 'f1' && product.category !== 'sudaderas' && product.category !== 'conjunto-entrenamiento' && product.section !== 'preorder') {
       qvCustomization.style.display = 'block';
       document.getElementById('qv-check-name').checked = false;
       document.getElementById('qv-check-patch').checked = false;
