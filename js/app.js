@@ -74,10 +74,8 @@ const SPORTS_PRODUCTS = [
   "category": "resto-del-mundo",
   "price": 650,
   "hasVersionSelector": false,
-  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_773c79f6-fcaa-4445-8f46-2832872f2824_4134318_4287588-af7bfa577b70b7fb4017864744977906-1024-0.webp",
-  "gallery": [
-    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_773c79f6-fcaa-4445-8f46-2832872f2824_4134318_4287588-af7bfa577b70b7fb4017864744977906-1024-0.webp"
-  ],
+  "image": "images/benfica_local_2627.jpg",
+  "gallery": [ "images/benfica_local_2627.jpg" ],
   "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
@@ -89,10 +87,8 @@ const SPORTS_PRODUCTS = [
   "category": "resto-del-mundo",
   "price": 650,
   "hasVersionSelector": false,
-  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_c11fab75-e51a-49dd-bd23-0e7751999c1b_4134318_4287588-284e4430cae753da3a17864744386689-1024-0.webp",
-  "gallery": [
-    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_c11fab75-e51a-49dd-bd23-0e7751999c1b_4134318_4287588-284e4430cae753da3a17864744386689-1024-0.webp"
-  ],
+  "image": "images/benfica_visita_2627.jpg",
+  "gallery": [ "images/benfica_visita_2627.jpg" ],
   "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
