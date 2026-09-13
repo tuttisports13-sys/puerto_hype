@@ -5457,7 +5457,7 @@ const SPORTS_PRODUCTS = [
   "brand": "Retro",
   "section": "sports",
   "category": "retro",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2842f334-min.webp",
   "gallery": [
@@ -8502,7 +8502,7 @@ const SPORTS_PRODUCTS = [
   "brand": "Retro",
   "section": "sports",
   "category": "retro",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60a68bd6.webp",
   "gallery": [
@@ -10959,7 +10959,7 @@ const SPORTS_PRODUCTS = [
   "brand": "Retro",
   "section": "sports",
   "category": "retro",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a0833e1e-min.webp",
   "gallery": [
@@ -12450,7 +12450,7 @@ const SPORTS_PRODUCTS = [
   "brand": "Retro",
   "section": "sports",
   "category": "retro",
-  "price": 650,
+  "price": 750,
   "hasVersionSelector": false,
   "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e85327c9.webp",
   "gallery": [
