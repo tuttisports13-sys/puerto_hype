@@ -190808,7 +190808,10 @@ function renderSearchDropdown(query) {
   }
 
   searchDropdown.innerHTML = matches.slice(0, 15).map(prod => {
-    const priceStr = prod.hasVersionSelector ? '$550 - $650' : (prod.price ? '$' + prod.price : 'Cotizar');
+    let priceStr = 'POR COTIZAR';
+if (prod.section !== 'preorder') {
+  priceStr = prod.hasVersionSelector ? '$550 - $650 MXN' : (prod.price ? '$' + prod.price + ' MXN' : 'POR COTIZAR');
+}
     
     let onClickAction = `openQuickView('${prod.id}')`;
     if (prod.isFolder) onClickAction = `openSportsFolder('${prod.targetFilter}')`;
