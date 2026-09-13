@@ -190788,23 +190788,65 @@ if (btnPreorderSports) {
 
   // Barra de búsqueda
   const searchInput = document.getElementById('search-input');
-  const searchBtn = document.getElementById('search-btn');
+const searchDropdown = document.getElementById('search-results-dropdown');
 
-  if (searchInput) {
-    searchInput.addEventListener('input', (e) => {
-      AppState.searchQuery = e.target.value.trim();
-      renderProducts();
-    });
+function renderSearchDropdown(query) {
+  if (!searchDropdown) return;
+  
+  if (query.length === 0) {
+    searchDropdown.style.display = 'none';
+    return;
   }
 
-  if (searchBtn && searchInput) {
-    searchBtn.addEventListener('click', () => {
-      AppState.searchQuery = searchInput.value.trim();
-      renderProducts();
-      // Scroll to products
-      document.getElementById('productos')?.scrollIntoView({ behavior: 'smooth' });
-    });
+  const allCatalogs = [...STOCK_PRODUCTS, ...PREORDER_PRODUCTS, ...SPORTS_PRODUCTS];
+  const matches = allCatalogs.filter(prod => prod.name.toLowerCase().includes(query.toLowerCase()));
+
+  if (matches.length === 0) {
+    searchDropdown.innerHTML = `<div style="padding: 15px; text-align: center; color: var(--text-muted); font-size: 0.9rem;">No se encontraron resultados</div>`;
+    searchDropdown.style.display = 'flex';
+    return;
   }
+
+  searchDropdown.innerHTML = matches.slice(0, 15).map(prod => {
+    const priceStr = prod.hasVersionSelector ? '$550 - $650' : (prod.price ? '$' + prod.price : 'Cotizar');
+    
+    let onClickAction = `openQuickView('${prod.id}')`;
+    if (prod.isFolder) onClickAction = `openSportsFolder('${prod.targetFilter}')`;
+    else if (prod.section === 'preorder-sports' && prod.link) onClickAction = `window.open('${prod.link}', '_blank')`;
+    else if (!prod.customizable) onClickAction = `addToCart('${prod.id}')`;
+    
+    return `
+      <div class="search-result-item" onclick="${onClickAction}; document.getElementById('search-results-dropdown').style.display='none';">
+        <img class="search-result-img" src="${prod.image}" onerror="this.src='https://images.unsplash.com/photo-1552346154-21d32810aba3?w=100&auto=format&fit=crop&q=80'" />
+        <div class="search-result-details">
+          <span class="search-result-title">${prod.name}</span>
+          ${!prod.isFolder ? `<span class="search-result-price">${priceStr}</span>` : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
+  
+  searchDropdown.style.display = 'flex';
+}
+
+if (searchInput) {
+  searchInput.addEventListener('input', (e) => {
+    renderSearchDropdown(e.target.value.trim());
+  });
+  
+  document.addEventListener('click', (e) => {
+    if (!searchInput.contains(e.target) && searchDropdown && !searchDropdown.contains(e.target)) {
+      searchDropdown.style.display = 'none';
+    }
+  });
+  
+  searchInput.addEventListener('focus', (e) => {
+    if (e.target.value.trim().length > 0) {
+      searchDropdown.style.display = 'flex';
+    }
+  });
+}
+
 
   // FAQ Accordions
   const faqItems = document.querySelectorAll('.faq-item');
@@ -191620,25 +191662,31 @@ window.resetView = function() {
   renderProducts();
 };
 
-window.showCategory = function(cat) {
-  AppState.currentMode = 'preorder-sports';
+window.showCategory = function(mode, cat) {
+  AppState.currentMode = mode;
   AppState.currentFilter = cat;
   AppState.searchQuery = '';
-  document.getElementById('search-input').value = '';
+  const searchInput = document.getElementById('search-input');
+  if(searchInput) searchInput.value = '';
   
-  // Ensure sports filter is visible and activate the button
-  const btnSports = document.getElementById('btn-preorder-sports');
-  if(btnSports) btnSports.click();
+  // Ensure the right main button is activated
+  let btnId = '';
+  if (mode === 'stock') btnId = 'btn-stock';
+  else if (mode === 'preorder') btnId = 'btn-preorder';
+  else if (mode === 'preorder-sports') btnId = 'btn-preorder-sports';
   
-  // Highlight the correct filter pill if it exists
-  document.querySelectorAll('.filter-pill').forEach(btn => {
-    if (btn.dataset.filter === cat) {
-      btn.classList.add('active');
-    } else {
-      btn.classList.remove('active');
-    }
-  });
-
-  renderProducts();
-  document.getElementById('productos')?.scrollIntoView({ behavior: 'smooth' });
+  if (btnId) {
+    const btn = document.getElementById(btnId);
+    if(btn) btn.click();
+    
+    // But since the button click will reset the filter, we need to override the filter AGAIN after the click
+    setTimeout(() => {
+      AppState.currentFilter = cat;
+      renderProducts();
+      document.getElementById('productos')?.scrollIntoView({ behavior: 'smooth' });
+    }, 10);
+  } else {
+    renderProducts();
+    document.getElementById('productos')?.scrollIntoView({ behavior: 'smooth' });
+  }
 };
