@@ -190557,9 +190557,15 @@ function renderProducts() {
   const container = document.getElementById('products-grid');
   if (!container) return;
 
-  let currentProducts = STOCK_PRODUCTS;
+let currentProducts = STOCK_PRODUCTS;
 if (AppState.currentMode === 'preorder') currentProducts = PREORDER_PRODUCTS;
 if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCTS;
+
+const isSearching = AppState.searchQuery && AppState.searchQuery.trim().length > 0;
+if (isSearching) {
+  // Buscador universal que combina todos los catálogos
+  currentProducts = [...STOCK_PRODUCTS, ...PREORDER_PRODUCTS, ...SPORTS_PRODUCTS];
+}
 
 
   const filtered = currentProducts.filter(prod => {
