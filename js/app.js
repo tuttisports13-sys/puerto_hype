@@ -6,6 +6,163 @@
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
 {
+  id: "sp-rest-folder",
+  name: "Resto del Mundo",
+  isFolder: true,
+  targetFilter: "resto-del-mundo",
+  image: "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_abea6f5c-4557-4454-a954-0eb91e4e7f92_4134318_4287588-8961f24c29ba01b19a17864748517382-1024-0.webp"
+},
+{
+  "id": "sp-rest-0",
+  "name": "Jersey PSG Paris Saint Germain Local (2026/2027)",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_abea6f5c-4557-4454-a954-0eb91e4e7f92_4134318_4287588-8961f24c29ba01b19a17864748517382-1024-0.webp",
+  "gallery": [
+    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_abea6f5c-4557-4454-a954-0eb91e4e7f92_4134318_4287588-8961f24c29ba01b19a17864748517382-1024-0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-rest-1",
+  "name": "Jersey PSG Paris Saint Germain Visita (2026/2027)",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dadc42a0-8660-44a7-acc6-60a57e359f69_4134318_4287588-17c7eef2f4bed1759717864747985406-1024-0.webp",
+  "gallery": [
+    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dadc42a0-8660-44a7-acc6-60a57e359f69_4134318_4287588-17c7eef2f4bed1759717864747985406-1024-0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-rest-2",
+  "name": "Jersey FC Porto Local (2026/2027)",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062225817-1_huvgnfndcp9kqgaa-cb2957dabbc243880f17863000694793-1024-0.webp",
+  "gallery": [
+    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062225817-1_huvgnfndcp9kqgaa-cb2957dabbc243880f17863000694793-1024-0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-rest-3",
+  "name": "Jersey FC Porto Visita (2026/2027)",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062224292-1_g5df83xflu1booh6-61ffb27feb6645752e17863000924081-1024-0.webp",
+  "gallery": [
+    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062224292-1_g5df83xflu1booh6-61ffb27feb6645752e17863000924081-1024-0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-rest-4",
+  "name": "Jersey Benfica Local (2026/2027)",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_773c79f6-fcaa-4445-8f46-2832872f2824_4134318_4287588-af7bfa577b70b7fb4017864744977906-1024-0.webp",
+  "gallery": [
+    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_773c79f6-fcaa-4445-8f46-2832872f2824_4134318_4287588-af7bfa577b70b7fb4017864744977906-1024-0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-rest-5",
+  "name": "Jersey Benfica Visita (2026/2027)",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_c11fab75-e51a-49dd-bd23-0e7751999c1b_4134318_4287588-284e4430cae753da3a17864744386689-1024-0.webp",
+  "gallery": [
+    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_c11fab75-e51a-49dd-bd23-0e7751999c1b_4134318_4287588-284e4430cae753da3a17864744386689-1024-0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-rest-6",
+  "name": "Jersey Olympiacos ''Hormiga González 34'' Playera Local 2026",
+  "brand": "Resto del Mundo",
+  "section": "sports",
+  "category": "resto-del-mundo",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-30-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/09/3-RIOS-30-1.webp",
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/09/e0e43c9d-c23a-45f6-9c62-8bc035bf5f68.webp",
+    "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+
+{
   id: "sp-conj-folder",
   name: "Conjunto de entrenamiento",
   isFolder: true,
