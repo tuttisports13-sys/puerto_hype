@@ -35,10 +35,8 @@ const SPORTS_PRODUCTS = [
   "category": "resto-del-mundo",
   "price": 650,
   "hasVersionSelector": false,
-  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dadc42a0-8660-44a7-acc6-60a57e359f69_4134318_4287588-17c7eef2f4bed1759717864747985406-1024-0.webp",
-  "gallery": [
-    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dadc42a0-8660-44a7-acc6-60a57e359f69_4134318_4287588-17c7eef2f4bed1759717864747985406-1024-0.webp"
-  ],
+  "image": "images/psg_visita_2627.jpg",
+  "gallery": [ "images/psg_visita_2627.jpg" ],
   "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
