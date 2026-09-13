@@ -13,27 +13,6 @@ const SPORTS_PRODUCTS = [
   image: "images/conjunto_entrenamiento.png"
 },
 {
-  "id": "sp-conj-0",
-  "name": "Visitante Barcelona Version Jugador 2024-2025 &#8211; Negra",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2024/09/segunda-equipacion-barcelona-2024-2025-negra-version-jugador-300x319.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2024/09/segunda-equipacion-barcelona-2024-2025-negra-version-jugador-300x319.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
   "id": "sp-conj-1",
   "name": "Conjunto de entrenamiento real oviedo 2025/2026",
   "brand": "Conjuntos de Entrenamiento",
@@ -525,132 +504,6 @@ const SPORTS_PRODUCTS = [
 
 
 
-{
-  "id": "sp-conj-140",
-  "name": "Chándal España Entrenamiento 2026/2027",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-entrenamiento-2026-2026-300x299.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-entrenamiento-2026-2026-300x299.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-142",
-  "name": "Chándal Juventus Local Cremallera Baja 2025/2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-juventus-cremalla-baja-primera-equipacion-2025-2026-300x300.webp",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-juventus-cremalla-baja-primera-equipacion-2025-2026-300x300.webp"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  "id": "sp-conj-177",
-  "name": "Chándal Manchester City Cremallera Baja Verde 2025/2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-manchester-city-cremallera-baja-verde-2025-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-manchester-city-cremallera-baja-verde-2025-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-
-{
-  "id": "sp-conj-180",
-  "name": "Chándal Boca Junior Cremallera Alta 2025/2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-boca-junior-cremallera-alta-2025-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-boca-junior-cremallera-alta-2025-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-191",
-  "name": "Cortaviento Bayern de Munich 2025-2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/ccortaviento-bayern-de-munich-2025-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2025/08/ccortaviento-bayern-de-munich-2025-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
 
 
 
@@ -672,174 +525,27 @@ const SPORTS_PRODUCTS = [
 
 
 
-{
-  "id": "sp-conj-244",
-  "name": "Chándal Alemania Rojo Cremallera Baja 2026/2027",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-rojo-cremallera-baja-2025-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-rojo-cremallera-baja-2025-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-248",
-  "name": "Cortaviento FC Barcelona X Kobe Bryant 2025-2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/cortaviento-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2025/09/cortaviento-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-253",
-  "name": "Chándal AC Milan Cremallera Baja 2025/2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-ac-milan-cremallera-baja-azulado-2025-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-ac-milan-cremallera-baja-azulado-2025-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-256",
-  "name": "Chándal Atlético de Madrid Cremallera Alta 2025/2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-atletico-de-madrid-cremallera-alta-2025-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-atletico-de-madrid-cremallera-alta-2025-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-292",
-  "name": "Chándal España con Capucha 2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-con-capucha-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-espana-con-capucha-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-307",
-  "name": "Chándal Alemania Cremallera Baja Blanco 2026/2027",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-blanco-2026-2027-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-alemania-blanco-2026-2027-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-319",
-  "name": "Chándal FC Barcelona Azul 2024-2025",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-fc-barcelona-azul-2025-2026-300x343.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-fc-barcelona-azul-2025-2026-300x343.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
-{
-  "id": "sp-conj-330",
-  "name": "Chándal Manchester City Cremallera Baja Celeste 2025/2026",
-  "brand": "Conjuntos de Entrenamiento",
-  "section": "preorder-sports",
-  "category": "conjunto-entrenamiento",
-  "price": 750,
-  "hasVersionSelector": false,
-  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-manchester-city-cremallera-baja-celeste-2025-2026-300x300.jpg",
-  "gallery": [
-    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-manchester-city-cremallera-baja-celeste-2025-2026-300x300.jpg"
-  ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
-  "customizable": true
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {
   id: "sp-sudpant-folder",
