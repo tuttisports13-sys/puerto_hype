@@ -10,7 +10,7 @@ const SPORTS_PRODUCTS = [
   name: "Resto del Mundo",
   isFolder: true,
   targetFilter: "resto-del-mundo",
-  image: "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_abea6f5c-4557-4454-a954-0eb91e4e7f92_4134318_4287588-8961f24c29ba01b19a17864748517382-1024-0.webp"
+  image: "images/psg_local_2627.jpg"
 },
 {
   "id": "sp-rest-0",
@@ -20,9 +20,9 @@ const SPORTS_PRODUCTS = [
   "category": "resto-del-mundo",
   "price": 650,
   "hasVersionSelector": false,
-  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_abea6f5c-4557-4454-a954-0eb91e4e7f92_4134318_4287588-8961f24c29ba01b19a17864748517382-1024-0.webp",
+  "image": "images/psg_local_2627.jpg",
   "gallery": [
-    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_abea6f5c-4557-4454-a954-0eb91e4e7f92_4134318_4287588-8961f24c29ba01b19a17864748517382-1024-0.webp"
+    "images/psg_local_2627.jpg"
   ],
   "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
