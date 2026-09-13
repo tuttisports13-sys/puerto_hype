@@ -5,6 +5,5369 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
+{
+  id: "sp-sudpant-folder",
+  name: "Sudaderas y Pants",
+  isFolder: true,
+  targetFilter: "sudaderas",
+  image: "images/sudaderas_y_pants.png"
+},
+{
+  "id": "sp-sudpant-0",
+  "name": "Chandal España Cremallera Corta Negro Entrenamiento 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-entrenamiento-negro-cremallera-corta-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-entrenamiento-negro-cremallera-corta-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-1",
+  "name": "Chandal Mexico Negro/Verde 2026/2027",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-mexico-cremallera-alta-negro-verde-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-mexico-cremallera-alta-negro-verde-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-2",
+  "name": "Chandal España Blanco Mundial 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-blanco-mundial-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-blanco-mundial-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-3",
+  "name": "Chandal España Cremallera Alta Mundial 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-mundial-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/07/chandal-espana-cremallera-alta-mundial-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-4",
+  "name": "Cortaviento Marruecos Reversible 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/06/cortaviento-marruecos-reversible-cremallera-alta-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/06/cortaviento-marruecos-reversible-cremallera-alta-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-5",
+  "name": "Cortaviento Croacia Reversible Azul 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/cortaviento-croacia-reversible-azul-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/cortaviento-croacia-reversible-azul-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-6",
+  "name": "Cortaviento Bayern Munich Gris 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/cortaaviento-bayern-munich-plateado-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/cortaaviento-bayern-munich-plateado-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-7",
+  "name": "Cortaviento España Cremallera Alta Blanco 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/cortaviento-espana-blanco-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/cortaviento-espana-blanco-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-8",
+  "name": "Cortaviento España Rojo 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/05/cortaviento-espana-rojo-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/05/cortaviento-espana-rojo-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-9",
+  "name": "Cortaviento Alemania Blanco 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-alemania-2023-2024-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-alemania-2023-2024-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-10",
+  "name": "Cortaviento con Capucha Alemania 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-con-capucha-alemania-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-con-capucha-alemania-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-11",
+  "name": "Cortaviento Alemania Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-alemania-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-alemania-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-12",
+  "name": "Cortaviento Alemania Blanco Estilo Vintage 1996",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-alemania-blanca-estilo-vintage-retro-19996-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/cortaviento-alemania-blanca-estilo-vintage-retro-19996-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-13",
+  "name": "Cortaviento Chelsea Verde 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-chelsea-verde-2025-2026-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-chelsea-verde-2025-2026-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-14",
+  "name": "Cortaviento Real Madrid Reversible Azul y Amarillo 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-reversible-azul-y-amarillo-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-reversible-azul-y-amarillo-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-15",
+  "name": "Cortaviento Borussia Dortmund Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-borussia-dortmund-reversible-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-borussia-dortmund-reversible-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-16",
+  "name": "Cortaviento Bayern Munich Rojo 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-bayern-munich-rojo-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-bayern-munich-rojo-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-17",
+  "name": "Cortaviento Bayern Munich Reversible Azul Marino 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-bayern-munich-2025-2026-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-bayern-munich-2025-2026-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-18",
+  "name": "Cortaviento España Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-espana-reversible-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-espana-reversible-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-19",
+  "name": "Cortaviento Ajax Carmesí 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-ajax-crimson-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-ajax-crimson-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-20",
+  "name": "Cortaviento Real Madrid Vengadores Negro 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-vengadores-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-vengadores-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-21",
+  "name": "Cortaviento Real Madrid Avengers Pre-Match 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-pre-match-avengers-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-pre-match-avengers-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-22",
+  "name": "Cortaviento Paris Saint Germain 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-psg-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-psg-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-23",
+  "name": "Cortaviento Napoli Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-napoli-blanco-2026-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-napoli-blanco-2026-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-24",
+  "name": "Chaqueta Cortaviento Real Madrid 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-real-madrid-1-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-real-madrid-1-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-25",
+  "name": "Chaqueta Cortaviento Bayern Munich 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-bayern-de-munich-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-bayern-de-munich-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-26",
+  "name": "Chaqueta Cortaviento Argentina 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-argentina-2025-2026-1-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-argentina-2025-2026-1-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-27",
+  "name": "Chaqueta Cortaviento Manchester United 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-manchester-united-2025-2026-2-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-manchester-united-2025-2026-2-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-28",
+  "name": "Chaqueta Cortaviento FC Barcelona 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-barcelona-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-barcelona-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-29",
+  "name": "Chaqueta Cortaviento Portugal 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-portugal-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-portugal-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-30",
+  "name": "Chaqueta Cortaviento Manchester united 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-manchester-united-1-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-manchester-united-1-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-31",
+  "name": "Chaqueta Cortaviento Nottingham Forest 2025-2206",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-nottingham-forest-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-nottingham-forest-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-32",
+  "name": "Cortaviento FC Barcelona X Kobe Bryant 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/cortaviento-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/cortaviento-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-33",
+  "name": "Cortaviento Bayern de Munich 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/ccortaviento-bayern-de-munich-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/ccortaviento-bayern-de-munich-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-34",
+  "name": "Chandal FC Barcelona x Kobe Bryant 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chandal-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chandal-fc-barcelona-kobe-bryant-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-35",
+  "name": "Chaqueta Cortaviento Santos 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-santos-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-santos-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-36",
+  "name": "Chaqueta Cortaviento Paris Saint Germain 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-psg-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-psg-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-37",
+  "name": "Chaqueta Cortaviento Francia 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-francia-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-francia-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-38",
+  "name": "Chaqueta Cortaviento Inglaterra 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-inglaterra-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-inglaterra-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-39",
+  "name": "Chaqueta Cortaviento Chelsea 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-chelsea-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-chelsea-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-40",
+  "name": "Chaqueta Cortaviento Newcastle 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-newcastle-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-newcastle-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-41",
+  "name": "Cortaviento Everton Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-everton-reversible-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-everton-reversible-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-42",
+  "name": "Cortaviento Arsenal Reversible Azul/Celeste 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-arsenal-reversible-azul-celeste-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-arsenal-reversible-azul-celeste-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-43",
+  "name": "Cortaviento Arsenal Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-arsenal-reversible-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-arsenal-reversible-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-44",
+  "name": "Cortaviento América 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-america-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-america-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-45",
+  "name": "Cortaviento Real Madrid 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-multicorlo-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-multicorlo-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-46",
+  "name": "Cortaviento América Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-america-reversible-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-america-reversible-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-47",
+  "name": "Cortaviento Real Madrid Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-blanco-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-blanco-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-48",
+  "name": "Cortaviento FC Porto Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fc-porto-reversible-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fc-porto-reversible-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-49",
+  "name": "Cortaviento Fluminense 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fluminense-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fluminense-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-50",
+  "name": "Cortaviento Chelsea 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-chelsea-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-chelsea-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-51",
+  "name": "Cortaviento Ajax 2025/2026 Negro/Vino",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/Cortaviento-Ajax-2025-2026-Carmesi-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/Cortaviento-Ajax-2025-2026-Carmesi-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-52",
+  "name": "Cortaviento Liverpool Negro 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/Cortaviento-Liverpool-Negro-2025-2026-frontal-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/Cortaviento-Liverpool-Negro-2025-2026-frontal-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-53",
+  "name": "Cortaviento Liverpool Beige 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/Cortavientos-Liverpool-Beige-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/Cortavientos-Liverpool-Beige-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-54",
+  "name": "Chandal Argentina Cremallera Baja Blanco 2026/2027",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-argentina-creamallera-baja-blanco-2026-2027-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/02/chandal-argentina-creamallera-baja-blanco-2026-2027-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-55",
+  "name": "Cortaviento Napoli Azul 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-napoli-azul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-napoli-azul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-56",
+  "name": "Cortaviento Paris Saint Germain Azul Oscuro 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-psg-negro-azul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-psg-negro-azul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-57",
+  "name": "Cortaviento Tottenham Hotspur Azul Marino 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-tottenham-hotspur-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-tottenham-hotspur-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-58",
+  "name": "Cortaviento Argentina Retro Blanco/Azul 2005/2006",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-argentina-retro-blanco-azul-2005-2006-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-argentina-retro-blanco-azul-2005-2006-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-59",
+  "name": "Cortaviento Liverpool Reversible Rojo/Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-liverpool-reversible-blanco-rojo-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-liverpool-reversible-blanco-rojo-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-60",
+  "name": "Cortaviento Palmeiras Verde 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-palmeiras-verde-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-palmeiras-verde-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-61",
+  "name": "Chandal FC Barcelona Rosa/Azul 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-fc-barcelona-rosa-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-fc-barcelona-rosa-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-62",
+  "name": "Chandal Real Madrid 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-real-madrid-verde-lima-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-real-madrid-verde-lima-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-63",
+  "name": "Chandal Manchester City Celeste/Azul 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-celeste-aazul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-celeste-aazul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-64",
+  "name": "Chandal Manchester City Negro 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-city-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-65",
+  "name": "Chandal Brasil Azul 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-brasil-azul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-brasil-azul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-66",
+  "name": "Chandal River Plate Negro/Rojo 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-river-plate-rojo-negro-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-river-plate-rojo-negro-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-67",
+  "name": "Chandal Atlético de Madrid Rojo 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-atletico-de-madrid-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-atletico-de-madrid-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-68",
+  "name": "Chandal Manchester United Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-united-negro-gris-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/09/chandal-manchester-united-negro-gris-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-69",
+  "name": "Caqueta Cortaviento Manchester United 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-manchester-united-2025-2026-1-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-manchester-united-2025-2026-1-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-70",
+  "name": "Chaqueta Cortaviento Arsenal 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-arsenal-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-arsenal-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-71",
+  "name": "Chaqueta Cortaviento Tottenham 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-tottenham-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-tottenham-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-72",
+  "name": "Chaqueta Cortaviento Boca Juniors 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-boca-juniors-2025-2026-1-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-boca-juniors-2025-2026-1-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-73",
+  "name": "chaqueta-cortaviento-bayern-munich-2025-2026-puño",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-bayern-munich-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-bayern-munich-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-74",
+  "name": "Chaqueta Cortaviento Liverpool 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-liverpool-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-liverpool-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-75",
+  "name": "Chaqueta Cortaviento España 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-espana-20225-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-espana-20225-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-76",
+  "name": "Chaqueta Cortaviento Boca Junior 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-boca-juniors-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-boca-juniors-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-77",
+  "name": "Chaqueta Cortaviento Alemania 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-alemania-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/cortaviento-alemania-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-78",
+  "name": "Chaqueta Cortaviento Juventus 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-juventus-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-juventus-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-79",
+  "name": "Chaqueta Cortaviento Grecia 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-grecia-2025-2026-300x300.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/08/chaqueta-cortaviento-grecia-2025-2026-300x300.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-80",
+  "name": "Chandal Arsenal Rojo/Negro 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/chandal-arsenal-rojo-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/chandal-arsenal-rojo-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-81",
+  "name": "Cortaviento Reversible Arsenal Verde/Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/Cortaviento-Reversible-Arsenal-Verde-Negro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/Cortaviento-Reversible-Arsenal-Verde-Negro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-82",
+  "name": "Chandal Paris Saint Germain 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/chandal-psg-vino-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/chandal-psg-vino-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-83",
+  "name": "Cortaviento Alemania 2024/2025 negro",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/06/Chandal-Alemania-2024-2025-COMPRAR-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/06/Chandal-Alemania-2024-2025-COMPRAR-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-84",
+  "name": "Chandal AC Milán Gris 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-gris-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-gris-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-85",
+  "name": "Chandal AC Milán Blanco 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-86",
+  "name": "Cortaviento FC Barcelona Celeste 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fc-barcelona-celeste-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fc-barcelona-celeste-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-87",
+  "name": "Cortaviento FC Barcelona Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-barcelona-blanco-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-barcelona-blanco-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-88",
+  "name": "Cortaviento Arsenal Negro/Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-arsenal-2025-2026-2-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-arsenal-2025-2026-2-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-89",
+  "name": "Cortaviento Arsenal 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-arsenal-2025-2026-1-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-arsenal-2025-2026-1-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-90",
+  "name": "Cortaviento Arsenal Rojo 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-arsenal-rojo-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-arsenal-rojo-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-91",
+  "name": "Cortaviento Benfica 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-bemfica-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-bemfica-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-92",
+  "name": "Cortaviento FC Barcelona Negro 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fc-barcelona-negro-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/cortaviento-fc-barcelona-negro-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-93",
+  "name": "Chandal PSG Rojo Entrenamiento 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-rojo-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-rojo-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-94",
+  "name": "Chandal PSG Azul Entrenamiento 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-azul-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-psg-azul-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-95",
+  "name": "Chandal PSG Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-paris-saint-germain-blanco-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-paris-saint-germain-blanco-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-96",
+  "name": "Chandal Ajax Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-blanco-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-blanco-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-97",
+  "name": "Chandal Ajax Beige 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-chaqueta-beige-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-chaqueta-beige-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-98",
+  "name": "Chandal Italia Cremallera Bicolor 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-italia-cremallera-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-italia-cremallera-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-99",
+  "name": "Chandal Ajax Cremallera Blanco 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-ajax-chaqueta-blanco-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/camiseta-ajax-chaqueta-blanco-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-100",
+  "name": "Chandal Manchester United Cremallera Azul 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-manchester-united-cremallera-azul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-manchester-united-cremallera-azul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-101",
+  "name": "Chandal Ajax 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ajax-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-102",
+  "name": "Chandal PSG Negro 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-paris-saint-germian-negro-2025-2026-300x299.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-paris-saint-germian-negro-2025-2026-300x299.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-103",
+  "name": "Chandal España Celeste 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-espana-2025-2026-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/10/chandal-espana-2025-2026-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-104",
+  "name": "Cortaviento Real Betis Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-betis-reversible-2025-2026-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-betis-reversible-2025-2026-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-105",
+  "name": "Cortaviento Sevilla Reversible Blanco/Rojo 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-sevilla-reversible-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-sevilla-reversible-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-106",
+  "name": "Cortaviento Inter Milán Tercera Visitante 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-inter-milan-tercera-equipacion-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-inter-milan-tercera-equipacion-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-107",
+  "name": "Cortaviento Chelsea Azul 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-chelsea-azul-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-chelsea-azul-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-108",
+  "name": "Cortaviento Chelsea Negro 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-chelsea-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-chelsea-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-109",
+  "name": "Cortaviento Real Madrid Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-reversible-2-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-real-madrid-reversible-2-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-110",
+  "name": "Cortaviento Inter Miami Reversible 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-inter-miami-reversible-2-2025-2026-copia-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/cortaviento-inter-miami-reversible-2-2025-2026-copia-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-111",
+  "name": "Chandal Atlético de Madrid Cremallera Baja Negro/Rojo 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-atletico-de-madrid-rojo-negro-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2026/01/chandal-atletico-de-madrid-rojo-negro-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-112",
+  "name": "Chandal Manchester United Cremallera Alta 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-manchester-united-cremallera-alta-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-manchester-united-cremallera-alta-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-113",
+  "name": "Chandal Argentina Cremallera Alta Negro 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-argentina-negro-cremallera-2025-2026-300x285.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-argentina-negro-cremallera-2025-2026-300x285.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-114",
+  "name": "Chandal España Prematch Mundial 2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-espana-Prematch-mundial-2026-300x375.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/12/chandal-espana-Prematch-mundial-2026-300x375.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-115",
+  "name": "Chandal AC Milán Entrenamiento Gris 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ac-milan-gris-negro-2025-2026-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-ac-milan-gris-negro-2025-2026-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-116",
+  "name": "Chandal Liverpool Negro/Rojo 2024/2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-liverpool-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-liverpool-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-117",
+  "name": "Chandal Inter Milán Blanco/Azul 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-inter-milan-blanco-2025-2026-1-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-inter-milan-blanco-2025-2026-1-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-118",
+  "name": "Chandal FC Barcelona Calentamiento Azul 2025/2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-fc-barcelona-azul-calentamiento-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/11/chandal-fc-barcelona-azul-calentamiento-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-119",
+  "name": "Chandal Real Madrid 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-real-madrid-2024-2025-300x350.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-real-madrid-2024-2025-300x350.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-120",
+  "name": "Chandal Paris Saint Germain Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-paris-saint-germain-negro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-paris-saint-germain-negro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-121",
+  "name": "Chandal Napoli Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-napoli-negro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-napoli-negro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-122",
+  "name": "Chandal Roma Blanco 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-roma-blanco-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-roma-blanco-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-123",
+  "name": "Chandal Manchester United Rojo 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-manchester-united-rojo-2024-2025-lateral-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-manchester-united-rojo-2024-2025-lateral-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-124",
+  "name": "Chandal Marsella Blanco 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-marsella-blanco-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-marsella-blanco-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-125",
+  "name": "Chandal AC Milán Negro/Rojo 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-ac-milan-negro-rojo-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-ac-milan-negro-rojo-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-126",
+  "name": "Chandal Alemania Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-alemania-negro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-alemania-negro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-127",
+  "name": "Chandal AC Milán Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/chandal-ac-milan-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-128",
+  "name": "Chandal Real Madrid Blanco 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/05/Conjunto-de-chandal-real-madrid-blanco-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/05/Conjunto-de-chandal-real-madrid-blanco-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-129",
+  "name": "Chandal Flamengo Azul 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-flamengo-azul-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-flamengo-azul-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-130",
+  "name": "Chandal Juventus 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-juventus-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-juventus-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-131",
+  "name": "Chandal Alemania 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-alemania-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/04/chandal-alemania-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-132",
+  "name": "Chandal Real Madrid Morado 2025-2026",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-real-madrid-2025-2026-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-real-madrid-2025-2026-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-133",
+  "name": "Chandal Chelsea Azul 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-chelsea-azul-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-chelsea-azul-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-134",
+  "name": "Chandal Chelsea Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-chelsea-negro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-chelsea-negro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-135",
+  "name": "Chandal Paris Saint Germain Rosa 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-psg-rosa-claro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-psg-rosa-claro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-136",
+  "name": "Chandal FC Barcelona beige y verde oscuro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-barca-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-barca-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-137",
+  "name": "Chandal Paris Saint Germain Morado y negro 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-psg-2023-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-psg-2023-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-138",
+  "name": "Chandal Marsella azul entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-marsella-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-marsella-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-139",
+  "name": "Chandal Arsenal rojo y negro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-arsenal-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-arsenal-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-140",
+  "name": "Chandal FC Barcelona verde oscuro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-fc-barcelona-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-fc-barcelona-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-141",
+  "name": "Chandal FC Barcelona celeste y negro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-barsa-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-barsa-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-142",
+  "name": "Chandal AC Milan negro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-milan-wpp1706763640173-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-milan-wpp1706763640173-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-143",
+  "name": "Chandal Juventus blanco y negro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-juventus-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-juventus-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-144",
+  "name": "Chandal Chelsea blanco y negro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-chelsea-wpp1708664455494-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-chelsea-wpp1708664455494-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-145",
+  "name": "Chandal Atletico de Madrid azul y rojo entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-atletico-de-madrid-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-atletico-de-madrid-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-146",
+  "name": "Chandal Inter de Milan Celeste y Negro 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-inter-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-inter-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-147",
+  "name": "Chandal Manchester City Rosado y negro 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-manchester-city-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-manchester-city-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-148",
+  "name": "Chandal Real Madrid Gris 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-real-madrid-gris-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-real-madrid-gris-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-149",
+  "name": "Chandals del FC Barcelona entrenamiento blanco 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-barcelona-entrenamiento-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-barcelona-entrenamiento-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-150",
+  "name": "Chandal Fc Barcelona 2023/2024 rojo oscuro",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/06/chandal-fc-barcelona-2024-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/06/chandal-fc-barcelona-2024-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-151",
+  "name": "Chandal Inter Milán 2022/2023 azul",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/06/chandal-inter-milan-2023-2-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/06/chandal-inter-milan-2023-2-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-152",
+  "name": "Chandal Manchester United 2022/2023 rojo",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/06/chandal-manchester-united-2023-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/06/chandal-manchester-united-2023-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-153",
+  "name": "Chaqueta cortavientos negra del Boca Juniors 2022/2023",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/03/Cortaviento-Boca-Juniors-2022-2023-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/03/Cortaviento-Boca-Juniors-2022-2023-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-154",
+  "name": "Chandal Bayern Munich Blanco y negro 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-bayern-de-munich-wpp1706673947887-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-bayern-de-munich-wpp1706673947887-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-155",
+  "name": "Chandal FC Barcelona Verde y azul 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-barcelona-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-barcelona-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-156",
+  "name": "Chandal Paris Saint Germain Verde 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-psg-jordan-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-psg-jordan-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-157",
+  "name": "Chandal Paris Saint Germain Azul 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/psg-chandals-wpp1706994288205-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/psg-chandals-wpp1706994288205-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-158",
+  "name": "Chandal Paris Saint Germain Beige 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-paris-saint-germain-diseno-7-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-paris-saint-germain-diseno-7-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-159",
+  "name": "Chandal Chelsea verde y negro 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-chelsea-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-chelsea-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-160",
+  "name": "Chandal Mánchester United blanco y negro 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-manchester-united-wpp1706735425584-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-manchester-united-wpp1706735425584-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-161",
+  "name": "Chandal Atletico de Madrid azul entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-atletico-de-madrid-diseno-5-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-del-atletico-de-madrid-diseno-5-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-162",
+  "name": "Chandal Bayern Múnich negro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-bayern-munich-diseno-7-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-bayern-munich-diseno-7-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-163",
+  "name": "Chandal FC Barcelona rojo 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-fc-barcelona-wpp1706676681247-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-fc-barcelona-wpp1706676681247-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-164",
+  "name": "Chandal FC Barcelona azul entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-azul-barcelona-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-azul-barcelona-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-165",
+  "name": "Chandal Real Madrid Azul Marino temporada 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-real-madrid-azul-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-real-madrid-azul-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-166",
+  "name": "Chandal FC Barcelona Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-fc-barcelona-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-fc-barcelona-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-167",
+  "name": "Chandal Tottenham Blanco 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/Chandal-tottenham-blanco-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/Chandal-tottenham-blanco-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-168",
+  "name": "Chandal Paris Saint-Germain 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/Conjunto-chandal-psg-inyeccion-de-tinta-azul-zafiro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/Conjunto-chandal-psg-inyeccion-de-tinta-azul-zafiro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-169",
+  "name": "Chandal Borussia Dortmund Amarillo 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-amarillo-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-amarillo-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-170",
+  "name": "Chandal Borussia Dortmund Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-Borussia-Dortmund-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-171",
+  "name": "Chandal Arsenal Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-arsenal-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/chandal-arsenal-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-172",
+  "name": "Chandal Real Madrid Negro 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/11/Chandal-real-madrid-negro-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/11/Chandal-real-madrid-negro-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-173",
+  "name": "Chandal Chelsea Rosado 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-chelsea-rosado-2024-2024-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/12/chandal-chelsea-rosado-2024-2024-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-174",
+  "name": "Chandal Arsenal Verde 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-arsenal-verde-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-arsenal-verde-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-175",
+  "name": "Chandal Marsella 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-marsella-2024-2025-2-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-marsella-2024-2025-2-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-176",
+  "name": "Chandal Italia 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-italia-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-italia-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-177",
+  "name": "Chandal Arsenal Multicolor 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-arsenal-multicolor-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-arsenal-multicolor-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-178",
+  "name": "Chandal Argentina Celeste 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-argentina-celeste-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-argentina-celeste-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-179",
+  "name": "Chandal Atlético de Madrid Rosa 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-atletico-de-madrid-rosa-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-atletico-de-madrid-rosa-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-180",
+  "name": "Chandal Napoli 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-napoli-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-napoli-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-181",
+  "name": "Chandal Borussia Dortmund con Capucha 2023-2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-borussia-dortmund-capucha-2023-2024-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-borussia-dortmund-capucha-2023-2024-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-182",
+  "name": "Chandal Borussia Dortmund 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-borussia-dortmund-2024-2025-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/03/chandal-borussia-dortmund-2024-2025-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-183",
+  "name": "Chandal Real Madrid Gris 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-real-madrid-gris-2024-2025-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-real-madrid-gris-2024-2025-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-184",
+  "name": "Chandal Bayern de Munich 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-bayern-de-munich-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-bayern-de-munich-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-185",
+  "name": "Chandal Colombia Azul 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-colombia-azul-oscuro-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/chandal-colombia-azul-oscuro-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-186",
+  "name": "Chandal Feyenoord Celeste 2020-2021",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-chandal-feyenoord-2020-2021-300x300.webp",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-chandal-feyenoord-2020-2021-300x300.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-187",
+  "name": "Chandal Ajax Negro/Vino 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-chandal-ajax-2024-2025-conjunto-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2025/02/conjunto-chandal-ajax-2024-2025-conjunto-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-188",
+  "name": "Chandal Real Madrid Azul/Blanco 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/09/chandal-real-madrid-azul-blanco-2024-2025-300x300.jpeg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/09/chandal-real-madrid-azul-blanco-2024-2025-300x300.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-189",
+  "name": "Chandal FC Barcelona 2024-2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/08/Chandal-FC-Barcelona-2024-2025-300x347.png",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/08/Chandal-FC-Barcelona-2024-2025-300x347.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-190",
+  "name": "Cortavientos FC Barcelona amarillo 2024/2025",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/04/cortavientos-barcelona-rotated-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/04/cortavientos-barcelona-rotated-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-191",
+  "name": "Cortavientos España azul oscuro",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2024/03/cortavientos-espana-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2024/03/cortavientos-espana-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-192",
+  "name": "Chandal Real Madrid negro entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-real-madrid-oficial-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-real-madrid-oficial-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-193",
+  "name": "Chandal Tottenham purpura y azul entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-tottenham-wpp1706684864718-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandal-tottenham-wpp1706684864718-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-194",
+  "name": "Chandal Tottenham azul entrenamiento 2023/2024",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-tottenham-wpp1706789320208-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2023/12/chandals-tottenham-wpp1706789320208-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-195",
+  "name": "Chandal crema del Chelsea 2022/23",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/11/conjunto-chandal-del-chelsea-color-crema-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/11/conjunto-chandal-del-chelsea-color-crema-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-196",
+  "name": "Cortaviento FC Barcelona negro",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/08/Cortaviento-del-FC-Barcelona-negro-frontal-wpp1707536865364-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/08/Cortaviento-del-FC-Barcelona-negro-frontal-wpp1707536865364-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-197",
+  "name": "Cortavientos Rojo y Blanco",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Rojo-y-Blanco-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Rojo-y-Blanco-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-198",
+  "name": "Chandal con Capucha Tottenham Hotspur 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Tottenham-Hotspur-202122-20-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Tottenham-Hotspur-202122-20-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-199",
+  "name": "Chandal con Capucha París Saint-Germain 2021/22 (2 colores)",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Paris-Saint-Germain-202122-2-colores-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Paris-Saint-Germain-202122-2-colores-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-200",
+  "name": "Chandal con Capucha Inter de Milán 202122",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Inter-de-Milan-202122-18-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Inter-de-Milan-202122-18-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-201",
+  "name": "Chandal con Capucha Liverpool 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-con-Capucha-Liverpool-202122-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-con-Capucha-Liverpool-202122-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-202",
+  "name": "Chandal con Capucha París Saint-Germain 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-con-Capucha-Paris-Saint-Germain-202122-1-wpp1708204578788-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-con-Capucha-Paris-Saint-Germain-202122-1-wpp1708204578788-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-203",
+  "name": "Chandal con Capucha Inter de Milán 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-con-Capucha-Inter-de-Milan-202122-20-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-con-Capucha-Inter-de-Milan-202122-20-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-204",
+  "name": "Cortavientos Brasil 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Nike-Brasil-202122-1-1-wpp1707191170639-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Nike-Brasil-202122-1-1-wpp1707191170639-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-205",
+  "name": "Cortavientos Blanca Boca Juniors 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Adidas-Boca-Juniors-202122-9-wpp1706679101811-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Adidas-Boca-Juniors-202122-9-wpp1706679101811-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-206",
+  "name": "Cortavientos Tottenham Hotspur 202122",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Nike-Tottenham-Hotspur-202122-1-wpp1707870815772-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Nike-Tottenham-Hotspur-202122-1-wpp1707870815772-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-207",
+  "name": "Cortavientos Manchester United 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Adidas-Manchester-United-202122-9-wpp1707191079297-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Cortavientos-Adidas-Manchester-United-202122-9-wpp1707191079297-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-208",
+  "name": "Chandal conjunto Real Madrid 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-Adidas-conjunto-Real-Madrid-202122-21-wpp1707871989583-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/11/Chandal-Adidas-conjunto-Real-Madrid-202122-21-wpp1707871989583-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-209",
+  "name": "Cortavientos JD París Saint-Germain Black City",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Jordan-Paris-Saint-Germain-Black-City-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Jordan-Paris-Saint-Germain-Black-City-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-210",
+  "name": "Cortavientos París Saint-Germain Red Purple Green",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Nike-Paris-Saint-Germain-Red-Purple-Green-1-wpp1707192398754-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Nike-Paris-Saint-Germain-Red-Purple-Green-1-wpp1707192398754-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-211",
+  "name": "Cortavientos París Saint-Germain Red Blue Classic Style",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Nike-Paris-Saint-Germain-Red-Blue-Classic-Style-1-wpp1707267292183-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Nike-Paris-Saint-Germain-Red-Blue-Classic-Style-1-wpp1707267292183-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-212",
+  "name": "Cortavientos Juventus 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Adidas-Juventus-1-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Adidas-Juventus-1-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-213",
+  "name": "Cortavientos Arsenal 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Adidas-Arsenal-9-wpp1707434296243-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/09/Cortavientos-Adidas-Arsenal-9-wpp1707434296243-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-214",
+  "name": "Cortavientos Negro",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Negro-wpp1707859319817-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Negro-wpp1707859319817-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-215",
+  "name": "Cortavientos Negro y Blanco",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Negro-y-Blanco-wpp1707536276647-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Negro-y-Blanco-wpp1707536276647-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-216",
+  "name": "Cortavientos Negro y Blanco Verde",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Negro-y-Blanco-Verde-wpp1707449164523-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Negro-y-Blanco-Verde-wpp1707449164523-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-217",
+  "name": "Cortavientos Beige Azul",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Beige-Azul-wpp1707625894897-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/08/Cortavientos-Nike-Beige-Azul-wpp1707625894897-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-218",
+  "name": "Chandal con Capucha FC Barcelona 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2022/04/Chandal-con-Capucha-FC-Barcelona-adelante-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2022/04/Chandal-con-Capucha-FC-Barcelona-adelante-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-219",
+  "name": "Chandal con Capucha Ajax de Bob Marley 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/chandal-con-capucha-del-ajax-bob-marley-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/chandal-con-capucha-del-ajax-bob-marley-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-220",
+  "name": "Chandal con Capucha Chelsea 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Chelsea-202122-19-wpp1708210762511-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/12/Chandal-con-Capucha-Chelsea-202122-19-wpp1708210762511-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-221",
+  "name": "Cortavientos Adidas Manchester United 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/06409edd-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/08/06409edd-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-222",
+  "name": "Cortavientos Real Madrid 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/f1e4e4da-wpp1707838671835-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/08/f1e4e4da-wpp1707838671835-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-223",
+  "name": "Cortavientos Liverpool 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/14e5efef-wpp1707782690229-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/08/14e5efef-wpp1707782690229-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-224",
+  "name": "Cortavientos Italia 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/f0fd51e9-wpp1707445994518-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/08/f0fd51e9-wpp1707445994518-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-225",
+  "name": "Cortavientos Alemania 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/08/c38c19f7-wpp1707862529811-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/08/c38c19f7-wpp1707862529811-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-226",
+  "name": "Cortavientos Tottenham Hotspur 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/c2d7c848-wpp1707538481262-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/06/c2d7c848-wpp1707538481262-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-227",
+  "name": "Cortavientos Adidas Real Madrid 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/06/4910c4cd-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/06/4910c4cd-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-228",
+  "name": "Cortavientos París Saint-Germain Black",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/1dedb9fc-wpp1707761488936-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/05/1dedb9fc-wpp1707761488936-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-229",
+  "name": "Cortavientos América 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/a1314546-wpp1707364443438-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/05/a1314546-wpp1707364443438-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-230",
+  "name": "Cortavientos camuflado Nike Liverpool 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/d716a3e8-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/05/d716a3e8-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-231",
+  "name": "Cortavientos Adidas Bayern Múnich 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/38dee899-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/05/38dee899-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-232",
+  "name": "Cortavientos Nike FC Barcelona 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/1f3d8515-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/05/1f3d8515-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-233",
+  "name": "Cortavientos camuflado Nike Inter de Milán",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/05/3c3fbb4e-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/05/3c3fbb4e-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-234",
+  "name": "Cortavientos FC Barcelona 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/d19c6744-wpp1706683885344-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/d19c6744-wpp1706683885344-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-235",
+  "name": "Cortavientos Nike Chelsea 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/00eedda4-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/00eedda4-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-236",
+  "name": "Cortavientos París Saint-Germain 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/36f25fd2-wpp1707756921105-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/36f25fd2-wpp1707756921105-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-237",
+  "name": "Cortavientos Adidas Bayern Múnich 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/6c55b9fc-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/6c55b9fc-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-238",
+  "name": "Cortavientos Adidas Ajax 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/5b6ae24e-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/5b6ae24e-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-239",
+  "name": "Cortavientos Manchester United 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/24a29d66-wpp1706960229894-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/24a29d66-wpp1706960229894-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-240",
+  "name": "Cortavientos Real Madrid 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/d49bc58d-wpp1707780199488-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/d49bc58d-wpp1707780199488-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-241",
+  "name": "Chandal con Capucha París Saint-Germain 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2020/10/f2c2b5c8-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2020/10/f2c2b5c8-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-242",
+  "name": "Cortavientos Liverpool Black Plaid 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/df8197b1-wpp1707836948687-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/df8197b1-wpp1707836948687-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-243",
+  "name": "Cortavientos Adidas Arsenal 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/ddafe72b-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/ddafe72b-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-244",
+  "name": "Cortavientos Nike AS Roma 2019/20",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/3eb7299c-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/3eb7299c-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-245",
+  "name": "Cortavientos Manchester United",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/61b7f1ae-wpp1707873628467-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/61b7f1ae-wpp1707873628467-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-246",
+  "name": "Cortavientos Arsenal 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/b693aedf-wpp1707540348665-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/b693aedf-wpp1707540348665-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-247",
+  "name": "Cortavientos Inter 2020/21",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/9ff4f5cd-wpp1707864304850-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/9ff4f5cd-wpp1707864304850-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-248",
+  "name": "Cortavientos AC Milán 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/d5adca92-wpp1706763224560-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/d5adca92-wpp1706763224560-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-249",
+  "name": "Cortavientos París Saint-Germain Classic Style",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/8ce34cb7-wpp1707872958716-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/8ce34cb7-wpp1707872958716-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-250",
+  "name": "Cortavientos París Saint-Germain",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/9a872edd-wpp1707780501578-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/9a872edd-wpp1707780501578-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-251",
+  "name": "Cortavientos Borussia Dortmund 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/3a1f2a5a-wpp1707861567736-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/3a1f2a5a-wpp1707861567736-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-252",
+  "name": "Cortavientos Manchester City 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/04/fc5f7a8a-wpp1707779855596-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/04/fc5f7a8a-wpp1707779855596-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-253",
+  "name": "Cortavientos Nike Liverpool 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/c1968230-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/c1968230-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-sudpant-254",
+  "name": "Cortavientos Juventus Black Phnom Penh 2021/22",
+  "brand": "Sudaderas y Pants",
+  "section": "preorder-sports",
+  "category": "sudaderas",
+  "price": 1200,
+  "hasVersionSelector": false,
+  "image": "https://imbictoz.pe/wp-content/uploads/2021/03/88a35827-wpp1708125255230-300x300.jpg",
+  "gallery": [
+    "https://imbictoz.pe/wp-content/uploads/2021/03/88a35827-wpp1708125255230-300x300.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+
   {
     id: "sp-f1-folder",
     name: "F1",
@@ -172385,7 +177748,7 @@ if (versionContainer) {
   // Handle Customization UI
   const qvCustomization = document.getElementById('qv-customization');
   if (qvCustomization) {
-    if (product.customizable && product.category !== 'nba' && product.category !== 'balones' && product.category !== 'f1' && product.section !== 'preorder') {
+    if (product.customizable && product.category !== 'nba' && product.category !== 'balones' && product.category !== 'f1' && product.category !== 'sudaderas' && product.section !== 'preorder') {
       qvCustomization.style.display = 'block';
       document.getElementById('qv-check-name').checked = false;
       document.getElementById('qv-check-patch').checked = false;
