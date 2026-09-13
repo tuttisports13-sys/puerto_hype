@@ -6,6 +6,13454 @@
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
 {
+  id: "sp-retro-folder",
+  name: "Retro",
+  isFolder: true,
+  targetFilter: "retro",
+  image: "images/retro_cover.png"
+},
+{
+  "id": "sp-retro-0",
+  "name": "Manchester United (Ronaldo/7) 2008 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/56d0b080.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/56d0b080.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-1",
+  "name": "Barcelona (Ronaldinho/10) 2005/06 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/aba21ba1.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/aba21ba1.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-2",
+  "name": "Francia (Zidane/10) 1998 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T005610.761-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__Diseno-sin-titulo-2025-05-22T005610.761-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-3",
+  "name": "Italia 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ecd5918e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ecd5918e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-4",
+  "name": "México 1998/99 – Alternativa «$ad Boyz» «Junior H» – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/109__68238.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/109__68238.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-5",
+  "name": "Francia (Zidane/10) 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__e955db22-1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__e955db22-1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-6",
+  "name": "Alemania 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__ff4e5249.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__ff4e5249.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-7",
+  "name": "Japón 1998/99 – »Bad Bunny» – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a905138d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a905138d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-8",
+  "name": "Holanda 1988/89 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__643c73eb.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__643c73eb.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-9",
+  "name": "Holanda 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__holafrontal-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__holafrontal-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-10",
+  "name": "Real Madrid (Zidane/5) 2005/06 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-21-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-21-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-11",
+  "name": "Alemania 1990/91 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8775638c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8775638c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-12",
+  "name": "Real Madrid (Ronaldo/7) 2017/18 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-48-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-48-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-13",
+  "name": "España 2011/12 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a9035684-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__a9035684-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-14",
+  "name": "Argentina 1986/87 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7616a2ad.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7616a2ad.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-15",
+  "name": "Francia 1988/89 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__21481b18-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__21481b18-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-16",
+  "name": "Inglaterra 1992/93 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f113e9e3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f113e9e3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-17",
+  "name": "Chivas de Guadalajara 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8f39b143-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8f39b143-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-18",
+  "name": "Alemania 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c11b2994.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c11b2994.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-19",
+  "name": "España 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f3589175.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f3589175.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-20",
+  "name": "Chelsea 2009/10 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__58894237.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__58894237.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-21",
+  "name": "Holanda 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d1d63058.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d1d63058.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-22",
+  "name": "Inglaterra 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__0ec82c1c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__0ec82c1c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-23",
+  "name": "Real Madrid 2000/01 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__86e3b628-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__86e3b628-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-24",
+  "name": "Italia 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-11.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-11.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-25",
+  "name": "Inglaterra 1992/93 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__059b74c9.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__059b74c9.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-26",
+  "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-14-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-14-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-27",
+  "name": "Argentina 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__83790e6d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__83790e6d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-28",
+  "name": "Argentina 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__997acbf4-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__997acbf4-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-29",
+  "name": "España 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1f62c729-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__1f62c729-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-30",
+  "name": "Alemania 1980/81 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__7f96ee4c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__7f96ee4c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-31",
+  "name": "Holanda 2004/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2f30173c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2f30173c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-32",
+  "name": "Chivas de Guadalajara 1994/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-1-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3-1-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-33",
+  "name": "Italia 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-5.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-5.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-34",
+  "name": "Inglaterra 2005/06 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4c44c2fc.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4c44c2fc.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-35",
+  "name": "España 2010/11 – Portero – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__d8733342-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__d8733342-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-36",
+  "name": "Italia 1995/96 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ff643c38-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__ff643c38-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-37",
+  "name": "Holanda 2014/15 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4b60b73c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4b60b73c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-38",
+  "name": "España 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6888d588.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6888d588.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-39",
+  "name": "Chivas de Guadalajara 1997/98 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-40",
+  "name": "Alemania 2008/09 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__54a9f862ddbdd895f19a5f1f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__54a9f862ddbdd895f19a5f1f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-41",
+  "name": "Francia 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__17714bea-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__17714bea-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-42",
+  "name": "Italia 2006/07 – Portero – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__5df419a6-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__5df419a6-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-43",
+  "name": "Chelsea 2012/13 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelfront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chelfront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-44",
+  "name": "Argentina 2006/07 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__0cb52add-1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__0cb52add-1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-45",
+  "name": "Manchester United (Ronaldo/7) 2002/04 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-46",
+  "name": "Alemania 1988/90 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8b1033eb.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__8b1033eb.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-47",
+  "name": "Italia 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1c7b521f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1c7b521f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-48",
+  "name": "Francia 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__11ec0509-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__11ec0509-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-49",
+  "name": "Chivas de Guadalajara 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60ab8851-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60ab8851-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-50",
+  "name": "Argentina 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__325dea1e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__325dea1e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-51",
+  "name": "Inglaterra 1982/83 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__565e24aa.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__565e24aa.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-52",
+  "name": "España 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1795841d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1795841d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-53",
+  "name": "Italia 1982/83 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3d32817f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3d32817f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-54",
+  "name": "Chivas de Guadalajara 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de692094-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de692094-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-55",
+  "name": "Chelsea 2008/09 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mjnh-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mjnh-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-56",
+  "name": "Brasil (Ronaldo/9) 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d6e8edf5-2-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__d6e8edf5-2-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-57",
+  "name": "Francia 2014/15 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5c13b273-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__5c13b273-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-58",
+  "name": "Argentina 1993/94 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__69e58f04.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__69e58f04.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-59",
+  "name": "Inglaterra 2005/06 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__05e7d80a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__05e7d80a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-60",
+  "name": "Chivas de Guadalajara 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__33f8f5fe-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__33f8f5fe-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-61",
+  "name": "Alemania 1984/85 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__81885d8b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__81885d8b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-62",
+  "name": "Club América 1997/98 – »Garcis» – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T224838.516.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T224838.516.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-63",
+  "name": "Argentina 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0ff20b03.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0ff20b03.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-64",
+  "name": "Chelsea 1997/98 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8bb057dd.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8bb057dd.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-65",
+  "name": "Italia 2000/01 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__51c20929.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__51c20929.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-66",
+  "name": "Italia 2004/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-4-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-67",
+  "name": "Alemania 1994/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__63db38a7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__63db38a7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-68",
+  "name": "Chelsea 2011/12 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1c994ea6.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__1c994ea6.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-69",
+  "name": "Argentina 2018/19 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c2ab9e93.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c2ab9e93.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-70",
+  "name": "Arsenal 2005/06 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5040256e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5040256e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-71",
+  "name": "Italia 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-10.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-10.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-72",
+  "name": "Chelsea 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__40ce735b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__40ce735b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-73",
+  "name": "Colombia 1990/91 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0fb5ae96.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0fb5ae96.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-74",
+  "name": "México 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2fc26a08-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2fc26a08-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-75",
+  "name": "Real Madrid 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/53388d84.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/53388d84.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-76",
+  "name": "Chelsea 2006/07 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__01e9be70.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__01e9be70.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-77",
+  "name": "México 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8bbc4a85.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8bbc4a85.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-78",
+  "name": "Manchester United 2007/08 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0a44b6c3-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-79",
+  "name": "Argentina 1994/95 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__argentinafrontal-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__argentinafrontal-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-80",
+  "name": "México 2014 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__bfcba8f7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__bfcba8f7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-81",
+  "name": "Colombia 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0a7b7a5e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0a7b7a5e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-82",
+  "name": "Real Madrid 2013/14 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__iujnhb-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__iujnhb-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-83",
+  "name": "Manchester United 2009/10 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gfs-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__gfs-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-84",
+  "name": "Holanda 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__33b9dd8f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__33b9dd8f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-85",
+  "name": "Italia 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c785d396.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c785d396.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-86",
+  "name": "Chivas de Guadalajara 1997/98 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__92d18c28-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__92d18c28-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-87",
+  "name": "Inglaterra 1998/99 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__887aecca-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__887aecca-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-88",
+  "name": "Francia 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__51922f1c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__51922f1c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-89",
+  "name": "Alemania 1984/85 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__5a8468a1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__5a8468a1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-90",
+  "name": "Francia 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ba80366d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ba80366d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-91",
+  "name": "Francia 1996/97 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__664dda14.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__664dda14.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-92",
+  "name": "Argentina 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d3e664d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d3e664d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-93",
+  "name": "Chelsea 2012/13 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5049023a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__5049023a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-94",
+  "name": "Inglaterra 1995/96 – Portero – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/c4ecd5c6-1-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/c4ecd5c6-1-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-95",
+  "name": "Alemania 1990/91 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8ab33197.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8ab33197.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-96",
+  "name": "Chelsea 2009/10 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__21a4103a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__21a4103a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-97",
+  "name": "Alemania 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__910a9a0c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__910a9a0c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-98",
+  "name": "Chelsea 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__abfc1e69-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__abfc1e69-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-99",
+  "name": "Chivas de Guadalajara 2002/03 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__7987f228-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__7987f228-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-100",
+  "name": "Argentina 2006/07 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__783ec0df-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__783ec0df-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-101",
+  "name": "Arsenal 2013/14 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f9014945.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f9014945.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-102",
+  "name": "Chelsea 2013/14 – Alternativa- Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c432055a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c432055a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-103",
+  "name": "España 1998/99 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__de41f8ba.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__de41f8ba.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-104",
+  "name": "Inglaterra 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c6103053.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c6103053.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-105",
+  "name": "Chivas de Guadalajara 1906/2006 – »Centenario» – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d1a624bd.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d1a624bd.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-106",
+  "name": "Chelsea 2010/11 – Visitante – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__3cad7aca-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__3cad7aca-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-107",
+  "name": "Francia 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__francia1998-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__francia1998-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-108",
+  "name": "España 2012/13 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__spainfront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__spainfront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-109",
+  "name": "Chivas de Guadalajara 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/asdsdf.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/03/asdsdf.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-110",
+  "name": "Argentina 2018/19 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__afd94c07.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__afd94c07.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-111",
+  "name": "España 2008/09 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__285fe90b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__285fe90b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-112",
+  "name": "Francia 2018/19 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__01b524f1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__01b524f1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-113",
+  "name": "Holanda 1988/89 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__89e534bf.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__89e534bf.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-114",
+  "name": "Argentina (Messi/10) 2014/15 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/adb6cdab.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/adb6cdab.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-115",
+  "name": "Colombia 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fc3173df-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fc3173df-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-116",
+  "name": "Chelsea 2011/12 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchfront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__kidchfront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-117",
+  "name": "Alemania 2016/17 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__f6b2b79f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__f6b2b79f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-118",
+  "name": "Chelsea 2005/06 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bf9fc9b0.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bf9fc9b0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-119",
+  "name": "Manchester United 2018/19 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9a849c5b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9a849c5b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-120",
+  "name": "Chivas de Guadalajara 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e5769afe-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e5769afe-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-121",
+  "name": "Francia 2018/19 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__francia2018frontal-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__francia2018frontal-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-122",
+  "name": "España 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8dad11af.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8dad11af.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-123",
+  "name": "Chelsea 2011/12 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2d356b1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2d356b1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-124",
+  "name": "Real Madrid 2016/17 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__501bd844-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__501bd844-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-125",
+  "name": "Francia 1998/99 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__70055478-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__70055478-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-126",
+  "name": "Chivas de Guadalajara 2002/03 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__a8b92135-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__a8b92135-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-127",
+  "name": "España 1994/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__espanafrontal-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__espanafrontal-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-128",
+  "name": "Alemania 2008/09 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b5f5fa7f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__b5f5fa7f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-129",
+  "name": "Arsenal 1998/99 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d3ae0010-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d3ae0010-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-130",
+  "name": "Francia 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__franciafrontal-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__franciafrontal-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-131",
+  "name": "Alemania 2018/19 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__27aec5fb.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__27aec5fb.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-132",
+  "name": "Inglaterra 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f019be35-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f019be35-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-133",
+  "name": "Inglaterra 1992/93 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6e7b944a-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6e7b944a-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-134",
+  "name": "Holanda 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__568e388a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__568e388a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-135",
+  "name": "Italia 1994/95 – Entrenamiento – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fda1b84c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fda1b84c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-136",
+  "name": "Argentina 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__9668f991-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__9668f991-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-137",
+  "name": "Barcelona (NeymarJR/11) 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fda28e43-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fda28e43-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-138",
+  "name": "Alemania 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__6721f149.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__6721f149.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-139",
+  "name": "Inglaterra 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__Camiseta-Retro-Inglaterra-2010-R.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__Camiseta-Retro-Inglaterra-2010-R.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-140",
+  "name": "España 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8fca7871.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8fca7871.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-141",
+  "name": "Italia 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f3ed5fbc.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f3ed5fbc.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-142",
+  "name": "Alemania 1986/87 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f6dcb648-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f6dcb648-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-143",
+  "name": "Francia 1988/89 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__63de310e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__63de310e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-144",
+  "name": "Alemania 1992/93 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3f753b10-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3f753b10-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-145",
+  "name": "México 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a89b031e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a89b031e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-146",
+  "name": "Club América 2017/18 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T215540.904.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__Diseno-sin-titulo-2025-10-09T215540.904.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-147",
+  "name": "México 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__66d4ec9d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__66d4ec9d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-148",
+  "name": "Chelsea 2012/13 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__eeeeee-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__eeeeee-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-149",
+  "name": "Club América 2017/18 – Cuarta equipación – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T222921.346.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T222921.346.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-150",
+  "name": "México (J. Campos/1) 1994/95 – Portero – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ec1dd745-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ec1dd745-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-151",
+  "name": "Manchester United 2007/08 – Portero – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1b644e6d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1b644e6d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-152",
+  "name": "Chelsea 2008/09 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chfront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__chfront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-153",
+  "name": "México 1995/96 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__04fcbff4-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__04fcbff4-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-154",
+  "name": "Chivas de Guadalajara 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__ee215bed-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/03/AnyConv.com__ee215bed-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-155",
+  "name": "Argentina 1998/99 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__da67e393-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__da67e393-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-156",
+  "name": "Alemania 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__22dc44f0.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__22dc44f0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-157",
+  "name": "España 2000/01 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1e2e2970.jpeg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1e2e2970.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-158",
+  "name": "España 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__11cfe380.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__11cfe380.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-159",
+  "name": "Chelsea 1995/96 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fc53a2ad.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fc53a2ad.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-160",
+  "name": "Inglaterra 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__5d30c03f-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__5d30c03f-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-161",
+  "name": "Chivas de Guadalajara 1995/96 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de3eaf14-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__de3eaf14-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-162",
+  "name": "México 1998/99 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__thf-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__thf-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-163",
+  "name": "Francia 1984/85 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__41a0973b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__41a0973b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-164",
+  "name": "España 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bd988cf4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bd988cf4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-165",
+  "name": "Chelsea 1989/90 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ac62e8ed.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ac62e8ed.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-166",
+  "name": "Napoli 1987/88 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2b64b09.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d2b64b09.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-167",
+  "name": "Manchester United 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__82a6f7a8-1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__82a6f7a8-1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-168",
+  "name": "México 2014 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__f5c4caeb.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__f5c4caeb.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-169",
+  "name": "Alemania 1996/97- Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__f164486d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__f164486d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-170",
+  "name": "España 2010/11 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a4b435fe.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a4b435fe.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-171",
+  "name": "México 1990/91 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__93beea58-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__93beea58-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-172",
+  "name": "Newell’s Old Boys 1993/94 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0f5f740c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0f5f740c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-173",
+  "name": "Real Madrid (Ronaldo/7) 2014/15 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T002040.298-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T002040.298-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-174",
+  "name": "Arsenal 2016/17 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__58aa4fc8-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__58aa4fc8-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-175",
+  "name": "Francia 1998/99 – Visita – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__076daa4e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__076daa4e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-176",
+  "name": "Inglaterra 1998/99 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f4dda78d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f4dda78d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-177",
+  "name": "México 2012/13 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__camiseta-lejos-del-equipo-de-futbol-de-la-mexico-2012-13-adidas.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__camiseta-lejos-del-equipo-de-futbol-de-la-mexico-2012-13-adidas.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-178",
+  "name": "Club América 1988/89 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203457.236.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__Diseno-sin-titulo-2025-09-14T203457.236.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-179",
+  "name": "Club América 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-17T190151.622-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__Diseno-sin-titulo-2025-06-17T190151.622-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-180",
+  "name": "Club América 2012/13 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T210601.433-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T210601.433-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-181",
+  "name": "Club América (Corteiz) 1995/96 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b2d7765b-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b2d7765b-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-182",
+  "name": "Club América (Corteiz) 1995/96 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0b7e3acd-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0b7e3acd-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-183",
+  "name": "Arsenal 1994/95 – Portero – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__004b97b2-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__004b97b2-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-184",
+  "name": "AS Roma 2001/02 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__567d3b6e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__567d3b6e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-185",
+  "name": "Club América 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/2.png",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/2.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-186",
+  "name": "Club América 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2e267529-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2e267529-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-187",
+  "name": "Club América 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e58a5f5d-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e58a5f5d-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-188",
+  "name": "Club América 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62d188e2-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62d188e2-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-189",
+  "name": "Club América 2001/02 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__81403baa-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__81403baa-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-190",
+  "name": "Chelsea 2012/13 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/37fe0d4724da29bf.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/37fe0d4724da29bf.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-191",
+  "name": "Real Madrid 2014/15 – Alternativa – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__vgfd-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__vgfd-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-192",
+  "name": "Arsenal 1991/92 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ae87d703.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ae87d703.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-193",
+  "name": "Chelsea 2003/05 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__247769be050a5d83.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__247769be050a5d83.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-194",
+  "name": "Chelsea 1998/00 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f04eb4717d85b77e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f04eb4717d85b77e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-195",
+  "name": "Real Madrid 2014/15 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munytb-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munytb-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-196",
+  "name": "Club Monterrey 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-1-2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-1-2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-197",
+  "name": "Real Madrid 2017/18 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f891b494-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f891b494-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-198",
+  "name": "Real Madrid 2014/15 – Visita – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tbtf-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__tbtf-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-199",
+  "name": "Brasil 2018/19 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a50e7d63.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a50e7d63.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-200",
+  "name": "Arsenal 2002/03 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3456f68f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3456f68f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-201",
+  "name": "AC Milán 2011/12 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4574b638-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4574b638-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-202",
+  "name": "Real Madrid 2011/12 – Portero – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a9731ec2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__a9731ec2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-203",
+  "name": "Real Madrid 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__737877ed-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__737877ed-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-204",
+  "name": "Real Madrid 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b4ec6f14-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b4ec6f14-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-205",
+  "name": "Bayern Munchen 1993/94 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e3e7658b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e3e7658b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-206",
+  "name": "Real Madrid (Ronaldo/7) 2016/17 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/426d94d7.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/426d94d7.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-207",
+  "name": "Manchester City 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f9a5312f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f9a5312f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-208",
+  "name": "Borussia Dortmund 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2afd88fa.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2afd88fa.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-209",
+  "name": "AC Milán 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bd634fc7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bd634fc7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-210",
+  "name": "Real Madrid (Ronaldo/7) 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T024907.328-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T024907.328-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-211",
+  "name": "Manchester City 1997/98 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3459a7f6.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3459a7f6.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-212",
+  "name": "Real Madrid 1988/89 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__32c83453-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__32c83453-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-213",
+  "name": "AC Milán 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2b0be328-3d8f-45a9-ac07-782f6be28bfa-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__2b0be328-3d8f-45a9-ac07-782f6be28bfa-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-214",
+  "name": "AC Milán 1999/00 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6eb8d76a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6eb8d76a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-215",
+  "name": "Brasil 2004/05 – Visita – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4892bf05-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__4892bf05-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-216",
+  "name": "Brasil 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c9492b49.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c9492b49.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-217",
+  "name": "AC Milán 2006/07 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b85369e7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b85369e7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-218",
+  "name": "AC Milán 2006/07 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eab9e3bf-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eab9e3bf-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-219",
+  "name": "Manchester United 2003/04 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__229e4a3a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__229e4a3a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-220",
+  "name": "Manchester United 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__c757be1a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__c757be1a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-221",
+  "name": "Brasil 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__18dfed62.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__18dfed62.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-222",
+  "name": "Portugal 2016/17 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4f651717.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__4f651717.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-223",
+  "name": "Arsenal 2007/08 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__08f39d66-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__08f39d66-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-224",
+  "name": "Portugal 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7c12c11f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7c12c11f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-225",
+  "name": "Francia 1998/99 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fd0bf2a1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fd0bf2a1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-226",
+  "name": "Real Madrid 2017/18 – Visita – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mnjh-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mnjh-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-227",
+  "name": "AC Milán (Kaká/22) 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/sg-11134201-7qvfi-lk287lejs50r21.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/sg-11134201-7qvfi-lk287lejs50r21.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-228",
+  "name": "Barcelona (Messi/10) 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e04b10dc.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e04b10dc.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-229",
+  "name": "AC Milán 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c28fd5d8-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c28fd5d8-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-230",
+  "name": "Santos de Brasil 2011/12 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__582a8afc-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__582a8afc-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-231",
+  "name": "Arsenal 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f52dbedf.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f52dbedf.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-232",
+  "name": "Bayern Munchen 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4b5a0042.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__4b5a0042.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-233",
+  "name": "AC Milán 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87f9ef32-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87f9ef32-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-234",
+  "name": "AC Milán 1999/00 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d86fe61b-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__d86fe61b-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-235",
+  "name": "Arsenal 1992/93 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8e678e6c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8e678e6c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-236",
+  "name": "AC Milán 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2f8516f8-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2f8516f8-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-237",
+  "name": "Spurs 1997/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f959568c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__f959568c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-238",
+  "name": "Real Madrid 2017/18 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__777ebc0f-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__777ebc0f-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-239",
+  "name": "Spurs 2009/10 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9f233236-1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__9f233236-1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-240",
+  "name": "Real Madrid (Ronaldo/7) 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-11-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-11-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-241",
+  "name": "Real Madrid (Ronaldo/7) 2011/12 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-10-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-10-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-242",
+  "name": "Liverpool 1993/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/cf62c5057ab6dcb5608ee0294c603660.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/cf62c5057ab6dcb5608ee0294c603660.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-243",
+  "name": "Bayern Munchen 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ca57a58e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ca57a58e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-244",
+  "name": "Portugal 2014/15 (Ronaldo/7) – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min-3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-27-min-3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-245",
+  "name": "Liverpool 1984 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/f937938a087a67f4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/f937938a087a67f4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-246",
+  "name": "Liverpool 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f511f5253027f27b37ff6bf4-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f511f5253027f27b37ff6bf4-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-247",
+  "name": "Liverpool 1981/84 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6031007669a14ee1d9209142.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6031007669a14ee1d9209142.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-248",
+  "name": "Real Madrid 1996/97 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__576a25f5-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__576a25f5-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-249",
+  "name": "Real Madrid 2015/16 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fa67d406-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fa67d406-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-250",
+  "name": "Real Madrid 2005/06 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6e4faada-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6e4faada-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-251",
+  "name": "Bayern Munchen 2000/01 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9586355b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9586355b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-252",
+  "name": "Real Madrid 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ac83e687-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ac83e687-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-253",
+  "name": "Real Madrid 2010/11 – Visita  – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1658e76c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1658e76c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-254",
+  "name": "Cruz Azul 2008/09 – Local  – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-2-1.png",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/1-2-1.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-255",
+  "name": "Borussia Dortmund 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d999e3a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d999e3a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-256",
+  "name": "Real Madrid 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__91bdc196-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__91bdc196-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-257",
+  "name": "Real Madrid 2002/03 – Portero – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3065c0e5-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__3065c0e5-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-258",
+  "name": "Real Madrid 2017/18 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ce3788b2-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ce3788b2-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-259",
+  "name": "Real Madrid 2018/19 – Digital – Aficionado – Hombre",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2842f334-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2842f334-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-260",
+  "name": "Portugal 2016/17 (Ronaldo/7) – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T191710.447-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T191710.447-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-261",
+  "name": "Brasil 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a8b58be0-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a8b58be0-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-262",
+  "name": "Real Madrid 1984/85 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__48e718f1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__48e718f1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-263",
+  "name": "Real Madrid 1994/95 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e787bb05-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e787bb05-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-264",
+  "name": "Real Madrid 1984/85 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a0e67dad-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a0e67dad-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-265",
+  "name": "Real Madrid 2014/15 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6c4c0ac5-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6c4c0ac5-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-266",
+  "name": "Real Madrid 2012/13 – Visita  – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a750aa5a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a750aa5a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-267",
+  "name": "Real Madrid 2013/14 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cf09bb05-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__cf09bb05-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-268",
+  "name": "Real Madrid 2005/06 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6a293984-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6a293984-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-269",
+  "name": "Real Madrid 2010/11 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__36a9694a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__36a9694a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-270",
+  "name": "Real Madrid 2011/12 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2b681362-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2b681362-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-271",
+  "name": "Francia 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__29222cf3-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__29222cf3-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-272",
+  "name": "Club América 2000/01 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2cdea849-1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__2cdea849-1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-273",
+  "name": "Brasil 1998/99 – Portero – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c42dc908.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__c42dc908.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-274",
+  "name": "Manchester United (Ronaldo/7) 2007/08 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-15-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-15-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-275",
+  "name": "Arsenal 2005/06 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f9395b42-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f9395b42-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-276",
+  "name": "Manchester City 2013/14 – visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__30a9be19.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__30a9be19.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-277",
+  "name": "Real Madrid (Ronaldo/7) 2017/18 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/3-ebc8e777c01490a1d717246453223895-1024-1024.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/3-ebc8e777c01490a1d717246453223895-1024-1024.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-278",
+  "name": "Brasil 2002/03 – Visita- Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__small-3-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__small-3-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-279",
+  "name": "Manchester United 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__07be4555-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__07be4555-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-280",
+  "name": "Manchester United 2018/19 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7c2112d8-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7c2112d8-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-281",
+  "name": "Brasil 2004/05 – Ed. Blanca – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2c2984f1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2c2984f1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-282",
+  "name": "AC Milán 2006/07 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__a2311ddc-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/09/AnyConv.com__a2311ddc-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-283",
+  "name": "Real Madrid (Ronaldo/7) 2016/17 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8fd0d33a.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/8fd0d33a.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-284",
+  "name": "Manchester City 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__77652e00.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__77652e00.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-285",
+  "name": "Manchester City 2013/14 – Local- Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8cd7e0f3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__8cd7e0f3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-286",
+  "name": "Arsenal 2019/20 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6431c57e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6431c57e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-287",
+  "name": "Juventus (Ronaldo/7) 2019/20 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-6-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-6-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-288",
+  "name": "AC Milán 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e4ae779e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e4ae779e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-289",
+  "name": "Portugal 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__74062262.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__74062262.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-290",
+  "name": "Inter de Milán 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d633b226-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d633b226-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-291",
+  "name": "Manchester City 2015/16 – visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cd5eef1e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cd5eef1e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-292",
+  "name": "Santos de Brasil (NeymarJR/11) 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-293",
+  "name": "Inter de Milán 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__aff53c3c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__aff53c3c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-294",
+  "name": "Manchester City 2008/09 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7eb9814f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__7eb9814f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-295",
+  "name": "Inter de Milán 2009/10 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb48df2e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fb48df2e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-296",
+  "name": "Arsenal 1991/92 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b9ecaee9.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b9ecaee9.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-297",
+  "name": "Manchester City 2019/20 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__be636311-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__be636311-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-298",
+  "name": "Juventus 2019/20 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87f0370a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__87f0370a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-299",
+  "name": "AC Milán 1997/98 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2801e094.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2801e094.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-300",
+  "name": "AC Milán 1997/98 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ab7fbec3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__ab7fbec3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-301",
+  "name": "Arsenal 2004/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6146c64c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6146c64c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-302",
+  "name": "AC Milán 1998/99 – Cuarta Equipación – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d567bf16.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d567bf16.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-303",
+  "name": "Manchester City 2013/14 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f49ad062.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f49ad062.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-304",
+  "name": "Real Madrid 2015/16 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munjyb-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__munjyb-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-305",
+  "name": "Barcelona 2008/09 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4479907c.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/4479907c.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-306",
+  "name": "Arsenal 1997/98 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bfe3c33c-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bfe3c33c-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-307",
+  "name": "AC Milán 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b6d074f0-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__b6d074f0-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-308",
+  "name": "Manchester City 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e7304fb3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e7304fb3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-309",
+  "name": "Manchester City 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__manchfront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__manchfront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-310",
+  "name": "Arsenal 2005/06 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__350b86a7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__350b86a7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-311",
+  "name": "Manchester United 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__aea13f8d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__aea13f8d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-312",
+  "name": "Manchester United (Ronaldo/7) 2003/05 – Visita- Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-46-min-2-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-313",
+  "name": "Borussia Dortmund 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d6d1740.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__2d6d1740.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-314",
+  "name": "Manchester City 2007/08 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mcfront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__mcfront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-315",
+  "name": "Borussia Dortmund 1995/96 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d1918b26.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d1918b26.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-316",
+  "name": "México 1985/86 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1903544a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1903544a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-317",
+  "name": "Arsenal 2011/12 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__89e76ff8-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__89e76ff8-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-318",
+  "name": "Arsenal 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5bc9c15d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5bc9c15d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-319",
+  "name": "Brasil 2004/05 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5952c6e3-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__5952c6e3-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-320",
+  "name": "Brasil 1997/98 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bc99bd4f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__bc99bd4f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-321",
+  "name": "Real Madrid (Ronaldo/7) 2016/17 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-1-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-1-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-322",
+  "name": "Portugal 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__5cb54508-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__5cb54508-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-323",
+  "name": "Real Madrid 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/ac11b2cf-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/ac11b2cf-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-324",
+  "name": "Real Madrid (Ronaldo/7) 2013/14 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T025143.245-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T025143.245-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-325",
+  "name": "Real Madrid (Ronaldo/7) 2015/16 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-326",
+  "name": "Borussia Dortmund 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__85fdd6e8.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__85fdd6e8.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-327",
+  "name": "Liverpool 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/324-min.png",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/324-min.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-328",
+  "name": "Real Madrid 2014/15 (Ronaldo/7) – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-31-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-31-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-329",
+  "name": "Aston Villa 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__ed15477e-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__ed15477e-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-330",
+  "name": "Real Madrid 2017/18 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c389d80f-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c389d80f-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-331",
+  "name": "Real Madrid 1989/90 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62851455-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__62851455-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-332",
+  "name": "Liverpool 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__88-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__88-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-333",
+  "name": "Real Madrid 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__84eb7983-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__84eb7983-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-334",
+  "name": "Spurs 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a44c13d6-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a44c13d6-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-335",
+  "name": "Borussia Dortmund 1994/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0d4b61fd.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0d4b61fd.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-336",
+  "name": "Real Madrid 1997/98 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3493281e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3493281e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-337",
+  "name": "Liverpool 1996 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-338",
+  "name": "Liverpool 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9fc91b1b78489b022f754d26.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9fc91b1b78489b022f754d26.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-339",
+  "name": "Liverpool 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a2011201805d69c8e83dbc1c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__a2011201805d69c8e83dbc1c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-340",
+  "name": "Liverpool 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__549c49efe768c080-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__549c49efe768c080-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-341",
+  "name": "Real Madrid 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/3c5700ed-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/3c5700ed-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-342",
+  "name": "Liverpool 1993/94 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a89b0de5-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a89b0de5-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-343",
+  "name": "Real Madrid 1997/98 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__4d5dbb50-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__4d5dbb50-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-344",
+  "name": "México 1985/86 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da3e38fa-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da3e38fa-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-345",
+  "name": "AC Milán 2012/13 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cf11ae58.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cf11ae58.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-346",
+  "name": "Real Madrid 2014/15 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e09003d3.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/e09003d3.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-347",
+  "name": "Manchester United 2008/09 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fda02482-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__fda02482-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-348",
+  "name": "Manchester City 2008/09 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__macifront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__macifront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-349",
+  "name": "Manchester United 1998/99 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Captura-de-pantalla-2025-02-18-094122-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Captura-de-pantalla-2025-02-18-094122-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-350",
+  "name": "Portugal 2012/13 (Ronaldo/7) – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-28-min-3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-28-min-3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-351",
+  "name": "Manchester United 2008/09 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__97233926-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__97233926-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-352",
+  "name": "Real Madrid 2006/07 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ccedb17-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__8ccedb17-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-353",
+  "name": "Manchester United 1993/94 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fa31d85-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__7fa31d85-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-354",
+  "name": "AC Milán 1997/98 – Ed. Especial – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__04b0654d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__04b0654d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-355",
+  "name": "Argentina 1986/87 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__00434a1a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__00434a1a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-356",
+  "name": "Real Madrid 2015/16 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7faac4bc-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7faac4bc-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-357",
+  "name": "Real Madrid 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/963aa351-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/963aa351-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-358",
+  "name": "Real Madrid 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0923f639-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0923f639-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-359",
+  "name": "Real Madrid 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/b6dc51d9-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/b6dc51d9-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-360",
+  "name": "Real Madrid 1998/99 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4c38bdb1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__4c38bdb1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-361",
+  "name": "Brasil 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__460e9309-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__460e9309-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-362",
+  "name": "Real Madrid 2001/02 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1a20e640.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1a20e640.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-363",
+  "name": "Real Madrid 2003/04 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/4344ce05-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/4344ce05-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-364",
+  "name": "Real Madrid 2009/10 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d1d6ab6a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d1d6ab6a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-365",
+  "name": "Real Madrid 1998/99 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e719f74c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__e719f74c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-366",
+  "name": "Manchester City 2012/13 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a6cd6ca4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__a6cd6ca4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-367",
+  "name": "Real Madrid 2009/10 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5ef415f4-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5ef415f4-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-368",
+  "name": "Portugal 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1bb5412b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1bb5412b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-369",
+  "name": "Portugal 1972/73 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__154424dd.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__154424dd.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-370",
+  "name": "Portugal 1992/93 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1831452c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1831452c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-371",
+  "name": "Arsenal 2007/08 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a5797d83-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__a5797d83-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-372",
+  "name": "Arsenal 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__27e091d7.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__27e091d7.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-373",
+  "name": "Club Monterrey 1999/00 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3-2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-3-2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-374",
+  "name": "Brasil 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1940bad2-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1940bad2-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-375",
+  "name": "Manchester United 2003/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__5f219998-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__5f219998-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-376",
+  "name": "Arsenal 1993/94 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6b0c903b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6b0c903b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-377",
+  "name": "Juventus 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__415e0bd1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__415e0bd1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-378",
+  "name": "Juventus 2013/14 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ca8e83cd877cf0e9.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ca8e83cd877cf0e9.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-379",
+  "name": "Barcelona 1998/99 – Local – Aficionado – Retro (Kappa)",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7b1c8ca9-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7b1c8ca9-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-380",
+  "name": "Barcelona 2017/18 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__40e1ea0d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__40e1ea0d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-381",
+  "name": "Barcelona 2016/17 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e6b4800a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__e6b4800a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-382",
+  "name": "Barcelona 2015/16 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a1190985.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/a1190985.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-383",
+  "name": "Barcelona (Messi/10) 2020/21 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-24-min-3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-24-min-3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-384",
+  "name": "Barcelona 2007/08 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6ee729ff-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__6ee729ff-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-385",
+  "name": "Barcelona 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eb8c5341-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__eb8c5341-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-386",
+  "name": "Barcelona 1995/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__013b58e1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__013b58e1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-387",
+  "name": "Brasil 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__228732d1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__228732d1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-388",
+  "name": "Atlético de Madrid 2003/04 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__3d757f3b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__3d757f3b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-389",
+  "name": "Barcelona 2015/16 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f2c7aa12-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f2c7aa12-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-390",
+  "name": "Bayern Munchen 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b832cc80-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b832cc80-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-391",
+  "name": "Barcelona 1996/97 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9d9f8788-1-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__9d9f8788-1-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-392",
+  "name": "Barcelona 2016/17 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1daf8141-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__1daf8141-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-393",
+  "name": "Barcelona 2009/10 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/9fa5bcbe-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/03/9fa5bcbe-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-394",
+  "name": "Barcelona 2012/13 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b2db731f-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b2db731f-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-395",
+  "name": "Brasil 2004/05 – Especial – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__qw-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__qw-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-396",
+  "name": "Barcelona 2005/06 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f4342b67-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f4342b67-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-397",
+  "name": "Barcelona 2005/06 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__4d9e4324-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__4d9e4324-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-398",
+  "name": "Barcelona 2020/21 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-22-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-22-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-399",
+  "name": "Atlético de Madrid 2013/14 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e8ce128-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__2e8ce128-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-400",
+  "name": "Barcelona 1991/92 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0433d2f2-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__0433d2f2-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-401",
+  "name": "Barcelona 2011/12 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6ea3170a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__6ea3170a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-402",
+  "name": "Bayern Munchen 2017/18 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__966c0a2a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__966c0a2a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-403",
+  "name": "Alemania 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1b6927f5.jpeg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/1b6927f5.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-404",
+  "name": "Real Madrid 2017/18 – Alternativa – Infantil",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60a68bd6.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__60a68bd6.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-405",
+  "name": "Colombia 1990/91 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fc81e192.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__fc81e192.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-406",
+  "name": "Real Madrid 2016 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d402ce58-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d402ce58-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-407",
+  "name": "Santos de Brasil 2011/12 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f9375464-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__f9375464-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-408",
+  "name": "Cruz Azul 1996/97 – Visita – Alternativa – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a6197bc3-faf9-44b0-9b25-5647618285ac-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a6197bc3-faf9-44b0-9b25-5647618285ac-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-409",
+  "name": "Real Madrid 2016 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e7317728-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__e7317728-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-410",
+  "name": "Real Madrid 2016/17 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f10ef1bb-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f10ef1bb-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-411",
+  "name": "Santos Laguna 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T194228.113-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T194228.113-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-412",
+  "name": "Estados Unidos 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__10e677b2-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__10e677b2-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-413",
+  "name": "Estados Unidos 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__eecd9cac.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__eecd9cac.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-414",
+  "name": "Cruz Azul 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bd9d98f5-a813-4f20-8023-a8b4a924d8b8-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__bd9d98f5-a813-4f20-8023-a8b4a924d8b8-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-415",
+  "name": "Bayern Munchen 2005/06 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9295571a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__9295571a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-416",
+  "name": "Bayern Munchen 1993/94 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6677a045.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6677a045.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-417",
+  "name": "Brasil 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__24e574aa.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__24e574aa.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-418",
+  "name": "Barcelona (Messi/10) 2016/17 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d8bcbad5-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__d8bcbad5-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-419",
+  "name": "Real Betis 1994/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2a8c8794.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__2a8c8794.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-420",
+  "name": "Real Betis 1995/96 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__b0bf8704.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__b0bf8704.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-421",
+  "name": "Real Betis 2003/04 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c8868171.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__c8868171.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-422",
+  "name": "Boca Juniors 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/09/0a07e154-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/09/0a07e154-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-423",
+  "name": "Boca Juniors 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__12bf5228.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__12bf5228.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-424",
+  "name": "Boca Juniors 2009/10 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__943fe7b5.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__943fe7b5.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-425",
+  "name": "Boca Juniors 2013/14 -Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9aa18849.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__9aa18849.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-426",
+  "name": "Boca Juniors 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3977af5e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3977af5e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-427",
+  "name": "Atlético de Madrid 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0de08e36.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__0de08e36.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-428",
+  "name": "Atlético de Madrid 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__375b5639-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__375b5639-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-429",
+  "name": "Atlético de Madrid 2011/12 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d317e62d1509a22078a58765.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d317e62d1509a22078a58765.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-430",
+  "name": "Atlético de Madrid 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__676f69f8.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__676f69f8.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-431",
+  "name": "Atlético de Madrid 2002/03 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__34ffe31d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__34ffe31d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-432",
+  "name": "Atlético de Madrid 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__902f5edb.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__902f5edb.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-433",
+  "name": "Portugal 2004/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4e7bed4f-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4e7bed4f-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-434",
+  "name": "Atlético de Madrid 2016/17 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a659742b-1-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__a659742b-1-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-435",
+  "name": "Atlético de Madrid 2016/17 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c6f17336.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__c6f17336.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-436",
+  "name": "Brasil 1993/94 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6d1905e1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6d1905e1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-437",
+  "name": "Real Betis 1999/00 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f61b0a46-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__f61b0a46-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-438",
+  "name": "Atlético de Madrid 2004/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__25906131-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__25906131-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-439",
+  "name": "Manchester United 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3a655e17-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__3a655e17-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-440",
+  "name": "Real Madrid 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__cd6a7c5c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__cd6a7c5c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-441",
+  "name": "Real Madrid (Ronaldo/9) 2009/10 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-04T235641.660-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-04T235641.660-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-442",
+  "name": "Real Madrid 1994/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__70f9f9d6-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__70f9f9d6-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-443",
+  "name": "Manchester United (Ronaldo/7) 2007/08 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-4-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-444",
+  "name": "Manchester United 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__32b5c9f0-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__32b5c9f0-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-445",
+  "name": "Real Madrid 1986/88 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d7085166-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__d7085166-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-446",
+  "name": "Real Madrid (Ronaldo/9) 2009/10 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T023230.337-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T023230.337-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-447",
+  "name": "Manchester United 2007/08 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da9339dc-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__da9339dc-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-448",
+  "name": "Portugal 2016/17 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__98e32fa2-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__98e32fa2-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-449",
+  "name": "Manchester United 2007/08 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/d8e6ed8b-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/d8e6ed8b-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-450",
+  "name": "Real Madrid (Ronaldo/7) 2015/16 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-451",
+  "name": "Real Madrid 2008/09 – Visita  – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c0dff57a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__c0dff57a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-452",
+  "name": "Real Madrid 2017/18 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/9968cb5b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/9968cb5b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-453",
+  "name": "Manchester United 2007/08 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f8c2e3c4-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__f8c2e3c4-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-454",
+  "name": "Real Madrid 2013/14 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e7c5a28-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7e7c5a28-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-455",
+  "name": "Manchester United 2007/08 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9eb06439-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9eb06439-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-456",
+  "name": "Real Madrid 2011/12 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b156ee37-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__b156ee37-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-457",
+  "name": "AS Roma 2000/01 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__70f1b96b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__70f1b96b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-458",
+  "name": "Manchester United (Ronaldo/7) 2007/08 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-5-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-5-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-459",
+  "name": "Real Madrid (Ronaldo/7) 2011/12 – Alternativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T024426.684-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-02T024426.684-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-460",
+  "name": "Real Madrid 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fbac80a9-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__fbac80a9-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-461",
+  "name": "Manchester United 2006/07 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__71a55134-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__71a55134-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-462",
+  "name": "Brasil 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5781b729-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5781b729-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-463",
+  "name": "Barcelona 2017/18 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__467b3a50-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__467b3a50-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-464",
+  "name": "Barcelona (Messi/10) 2019/20 – Cuarta equipación – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__880d6e7b-64ed-4707-9213-718f7a845eb9-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__880d6e7b-64ed-4707-9213-718f7a845eb9-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-465",
+  "name": "Bayern Munchen 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__78fb15ac-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__78fb15ac-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-466",
+  "name": "Barcelona 2008/09 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ee093ed0-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__ee093ed0-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-467",
+  "name": "Brasil 1970/71 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__07a4b693.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__07a4b693.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-468",
+  "name": "Barcelona 2016/17 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__8b1f7460-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__8b1f7460-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-469",
+  "name": "Barcelona (Messi/10) 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8729ddf8-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8729ddf8-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-470",
+  "name": "Barcelona 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2d0bd5bf-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2d0bd5bf-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-471",
+  "name": "Barcelona 2006/07 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__c90033f4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__c90033f4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-472",
+  "name": "Barcelona 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d7c3757b-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/d7c3757b-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-473",
+  "name": "Barcelona 2011/12 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__120ed868.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__120ed868.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-474",
+  "name": "Bayern Munchen 2004/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f908ac29-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__f908ac29-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-475",
+  "name": "Club América 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0461f746-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__0461f746-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-476",
+  "name": "Barcelona 1998/99 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__d292a419-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__d292a419-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-477",
+  "name": "Barcelona 2014/15 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2a8df6a7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__2a8df6a7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-478",
+  "name": "Brasil 1997/98 – Visita- Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1eb0421c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1eb0421c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-479",
+  "name": "Barcelona (NeymarJR/11) 2015/16 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-15T182259.005-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-2025-02-15T182259.005-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-480",
+  "name": "Barcelona 2019/20 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ca4ea727-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__ca4ea727-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-481",
+  "name": "Barcelona 2019/20 – Cuarta equipación – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__826c50b9-d415-4504-8513-db2479e08a67-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__826c50b9-d415-4504-8513-db2479e08a67-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-482",
+  "name": "Borussia Dortmund 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dortmundfrontal-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__dortmundfrontal-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-483",
+  "name": "Club América 1995/96 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__be86b62c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__be86b62c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-484",
+  "name": "Barcelona 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__727f7260-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__727f7260-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-485",
+  "name": "Barcelona 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bc5fc053-scaled-e1731553554798.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__bc5fc053-scaled-e1731553554798.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-486",
+  "name": "Barcelona 2005/06 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0af1076d-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__0af1076d-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-487",
+  "name": "Bayern Munchen 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__31cbb5dd-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__31cbb5dd-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-488",
+  "name": "Barcelona 2016/17 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__62d6f049-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__62d6f049-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-489",
+  "name": "Barcelona 2014/15 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__00966b22-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__00966b22-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-490",
+  "name": "Barcelona 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__73f76d24-scaled-e1731551500271.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__73f76d24-scaled-e1731551500271.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-491",
+  "name": "Bayern Munchen 1996/97 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9b8b0864-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__9b8b0864-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-492",
+  "name": "Brasil 2018/19 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__423c855e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__423c855e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-493",
+  "name": "Barcelona 1997/98 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__977f3b37-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__977f3b37-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-494",
+  "name": "Atlético de Madrid 1982/83 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__d1e6813c-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__d1e6813c-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-495",
+  "name": "Brasil 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d856f6f7.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__d856f6f7.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-496",
+  "name": "Barcelona 2004/05 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/c99d5887-1-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/c99d5887-1-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-497",
+  "name": "Atlético de Madrid 2004/05 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__e2e27a6e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__e2e27a6e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-498",
+  "name": "Barcelona 2017/18 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7a5779fc-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__7a5779fc-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-499",
+  "name": "Club Pachuca 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011758.407-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011758.407-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-500",
+  "name": "Pumas UNAM 2008/09 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164751.188-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164751.188-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-501",
+  "name": "Argentina 2014/15 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__1701b144-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__1701b144-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-502",
+  "name": "Ajax 2025/26 – 125 años conmemorativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__2691dab7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__2691dab7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-503",
+  "name": "Sporting de Lisboa 2001/02 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8455b949-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__8455b949-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-504",
+  "name": "Santos Laguna 2007/08 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T201136.555-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T201136.555-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-505",
+  "name": "Santos de Brasil 2008/09 – Local «Blanco»- Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8f607b41.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__8f607b41.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-506",
+  "name": "Santos de Brasil 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/c1cd93f3-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/c1cd93f3-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-507",
+  "name": "Santos de Brasil 2011/12 – Local «Rosa»- Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__fa967010.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/10/AnyConv.com__fa967010.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-508",
+  "name": "Cruz Azul 1996/97 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/00fce840-f1b4-4464-8353-1b922a211e68-min.png",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/00fce840-f1b4-4464-8353-1b922a211e68-min.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-509",
+  "name": "Pumas UNAM 2004/05 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164047.375-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164047.375-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-510",
+  "name": "Pumas UNAM 2008/09 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164348.613-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T164348.613-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-511",
+  "name": "Barcelona 1982/83 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e1d7c1ca.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e1d7c1ca.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-512",
+  "name": "Barcelona 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__01377d05-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__01377d05-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-513",
+  "name": "Barcelona 2013/14 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__00ea0857.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__00ea0857.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-514",
+  "name": "Barcelona 2014/15 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__b8c4bb22-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__b8c4bb22-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-515",
+  "name": "Barcelona 2015/16 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f19cc5b6-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__f19cc5b6-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-516",
+  "name": "Barcelona 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/28922ced-min.jpg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/28922ced-min.jpg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-517",
+  "name": "Barcelona 2010/11 – Local – Infantil – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a9e088c5-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__a9e088c5-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-518",
+  "name": "Barcelona 2008/09 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5e320f09-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__5e320f09-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-519",
+  "name": "Borussia Dortmund 2019/20 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bdaacd0c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/07/AnyConv.com__bdaacd0c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-520",
+  "name": "Barcelona 2003/04 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__8c10bd46.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/09/AnyConv.com__8c10bd46.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-521",
+  "name": "Barcelona 2021/22 – Visita – Aficionado",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a0833e1e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a0833e1e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-522",
+  "name": "Barcelona 2013/14 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ea231157-min-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/05/AnyConv.com__ea231157-min-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-523",
+  "name": "Boca Juniors 1990/91 -Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__687f4211.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__687f4211.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-524",
+  "name": "Boca Juniors 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3237e70e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__3237e70e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-525",
+  "name": "Boca Juniors 2009/10 – Ed. 100 Aniversario – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6c3511c2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__6c3511c2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-526",
+  "name": "Boca Juniors 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__688b7d81.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__688b7d81.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-527",
+  "name": "Boca Juniors 1995/96 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cee84bec.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__cee84bec.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-528",
+  "name": "Boca Juniors 1994/95 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__759635ec.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__759635ec.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-529",
+  "name": "Boca Juniors 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e008fd8c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__e008fd8c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-530",
+  "name": "River Plate 2003/04 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__00b1a73c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__00b1a73c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-531",
+  "name": "River Plate 1999/00 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ac27be1e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__ac27be1e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-532",
+  "name": "River Plate 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__be425a8f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__be425a8f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-533",
+  "name": "River Plate 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7901eba7.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7901eba7.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-534",
+  "name": "River Plate 2013/14 – 70 Aniversario – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__95b545ee.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__95b545ee.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-535",
+  "name": "Real Madrid (Ronaldo/7) 2017/18 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__Diseno-sin-titulo-min-2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-536",
+  "name": "Manchester United 2007/08 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a6245d95-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__a6245d95-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-537",
+  "name": "Brasil 1991/93 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ccccc-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__ccccc-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-538",
+  "name": "Portugal 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4b8664b7-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__4b8664b7-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-539",
+  "name": "Real Madrid 2002/03 – Reversible – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10ef52ef.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__10ef52ef.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-540",
+  "name": "Brasil 2002/03 – Portero – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__golfront-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__golfront-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-541",
+  "name": "AS Roma 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__df5c6a26.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__df5c6a26.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-542",
+  "name": "AS Roma 1992/93 – visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e8371a30.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__e8371a30.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-543",
+  "name": "AS Roma 1997/98 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bd0b5b4b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__bd0b5b4b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-544",
+  "name": "Brasil 1958/59 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__666f7103-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__666f7103-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-545",
+  "name": "Brasil 2014/15 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__brasilf-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/01/AnyConv.com__brasilf-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-546",
+  "name": "Bayern Munchen 2007/08 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6c84c9da-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/06/AnyConv.com__6c84c9da-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-547",
+  "name": "España 2010/11 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f2b0ee49.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__f2b0ee49.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-548",
+  "name": "AS Roma 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__08b3783d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__08b3783d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-549",
+  "name": "Portugal 2012/13 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9c404b3c-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__9c404b3c-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-550",
+  "name": "AS Roma 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__6893f042.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__6893f042.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-551",
+  "name": "Portugal 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7597fc4e-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__7597fc4e-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-552",
+  "name": "AS Roma 1999/00 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__cb541c75.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__cb541c75.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-553",
+  "name": "Barcelona 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__67c43118-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/08/AnyConv.com__67c43118-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-554",
+  "name": "Barcelona (Messi/10) 2011/12 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__Diseno-sin-titulo-26-min-2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-555",
+  "name": "Barcelona (Messi/10) 2013/14 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bca2365a-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bca2365a-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-556",
+  "name": "Barcelona 2005/06 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__842075b6-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/12/AnyConv.com__842075b6-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-557",
+  "name": "Barcelona 1989/92 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__340199eb-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2024/11/AnyConv.com__340199eb-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-558",
+  "name": "Club Pachuca 2001/02 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011428.316-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T011428.316-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-559",
+  "name": "Pumas UNAM 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162214.511-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T162214.511-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-560",
+  "name": "Pumas UNAM 2008/09 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165129.582-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-13T165129.582-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-561",
+  "name": "Club Pachuca 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012117.993-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__Diseno-sin-titulo-2025-04-14T012117.993-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-562",
+  "name": "Francia 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__18c6d6ba.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__18c6d6ba.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-563",
+  "name": "Francia 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-16.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__1-16.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-564",
+  "name": "Santos de Brasil (NeymarJR/11) 2011/12 – Black – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/03/Diseno-sin-titulo-2025-03-01T202321.962-min.png",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/03/Diseno-sin-titulo-2025-03-01T202321.962-min.png"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-565",
+  "name": "Sporting de Lisboa (C.Ronaldo/28) 2001/02 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-24-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/02/AnyConv.com__Diseno-sin-titulo-24-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-566",
+  "name": "Ajax 2025/26 – 125 años conmemorativa – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__36e763c2-min.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/04/AnyConv.com__36e763c2-min.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-567",
+  "name": "AS Roma 2017/18 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7bc6dc49.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__7bc6dc49.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-568",
+  "name": "Boca Juniors 2013/14 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b616a523.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__b616a523.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-569",
+  "name": "River Plate 2006/07 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f10dc8d1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__f10dc8d1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-570",
+  "name": "Inter de Milán 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6cba1f7a.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6cba1f7a.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-571",
+  "name": "Inter de Milán 2009/10 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__68964715.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__68964715.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-572",
+  "name": "Inter de Milán 2007/08 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d2b84d2c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d2b84d2c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-573",
+  "name": "Inter de Milán 2004/05 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c78993fc.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c78993fc.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-574",
+  "name": "Inter de Milán 2002/03 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1050d7d5-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1050d7d5-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-575",
+  "name": "Inter de Milán 1994/95 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78f03490.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78f03490.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-576",
+  "name": "Inter de Milán 1998/99 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/cf678c4e.jpeg",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/cf678c4e.jpeg"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-577",
+  "name": "AC Milan 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e5ad26c253e6b3de.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e5ad26c253e6b3de.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-578",
+  "name": "AC Milan 1999/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ae893fa648e11280.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ae893fa648e11280.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-579",
+  "name": "AC Milan 1993/94 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__90bd9cfd4102f42e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__90bd9cfd4102f42e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-580",
+  "name": "AC Milan 2007/08 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__06b67031.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__06b67031.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-581",
+  "name": "AC Milan 2013/14 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7c72f973.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__7c72f973.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-582",
+  "name": "Schalke 04 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19174cfb.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__19174cfb.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-583",
+  "name": "Schalke 04 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1374d886.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1374d886.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-584",
+  "name": "Schalke 04 2011/12 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__626f8f13.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__626f8f13.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-585",
+  "name": "Frankfurt 1998/00 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__383a96c1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__383a96c1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-586",
+  "name": "Hamburgo 1984/85 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9d381021.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9d381021.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-587",
+  "name": "Hamburgo 1988/89 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__100749e4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__100749e4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-588",
+  "name": "Hamburgo 1980/81 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b96269ab.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b96269ab.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-589",
+  "name": "Hamburgo 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1de2600f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1de2600f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-590",
+  "name": "Hamburgo 2000/01 – Visita  – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5c8851dd.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__5c8851dd.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-591",
+  "name": "Wolfsburgo 2008/09 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__52e7ad4d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__52e7ad4d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-592",
+  "name": "Inter de Milán 2025/26 – Ed. Especial »Rojo» – Jugador",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e85327c9.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e85327c9.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-593",
+  "name": "Inter de Milán 1998/99 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c404bba9.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c404bba9.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-594",
+  "name": "México 2002/03 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/1-rojo-mx.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/06/1-rojo-mx.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-595",
+  "name": "Chivas de Guadalajara 2004/05 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-35-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-35-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-596",
+  "name": "Club Monterrey 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-2026-04-08T225629.519.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/04/Diseno-sin-titulo-2026-04-08T225629.519.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-597",
+  "name": "Juventus 2012/13 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ffd500e2e3416a1e9cf6d80c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__ffd500e2e3416a1e9cf6d80c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-598",
+  "name": "Juventus 2011/12 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__397601c042acd3306118b919.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__397601c042acd3306118b919.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-599",
+  "name": "Juventus 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__40a1e8b39ea5c208236ffd94.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__40a1e8b39ea5c208236ffd94.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-600",
+  "name": "Juventus 1998/99 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1f24e130aab0d28171755965.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__1f24e130aab0d28171755965.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-601",
+  "name": "Juventus 2015/16 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bced65e9b1ce17db.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bced65e9b1ce17db.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-602",
+  "name": "Juventus 2010/11 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aca678bc92d16ad14af1cde4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__aca678bc92d16ad14af1cde4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-603",
+  "name": "Juventus 2005/06 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd5cdd589419b75cb796773c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd5cdd589419b75cb796773c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-604",
+  "name": "Bayern Leverkusen 2001/02 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__031a2c4b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__031a2c4b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-605",
+  "name": "Bayern Leverkusen 2000/01 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d0726a57.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__d0726a57.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-606",
+  "name": "Newcastle United 1999/00 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f5cdea07.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__f5cdea07.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-607",
+  "name": "Newcastle United 1998/99 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b82cc565.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b82cc565.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-608",
+  "name": "Newcastle United 2005/06 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dd501716.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__dd501716.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-609",
+  "name": "Newcastle United 2004/05 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd3d68a6.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__fd3d68a6.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-610",
+  "name": "Aston Villa 2009/10 – Local – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2df15e2a3154c74bc4563aa4.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__2df15e2a3154c74bc4563aa4.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-611",
+  "name": "Aston Villa 1993/95 – Local – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78a18a38719d9ecd.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__78a18a38719d9ecd.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-612",
+  "name": "Aston Villa 1993/95 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c069b80f.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__c069b80f.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-613",
+  "name": "Aston Villa 1995/96 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e8d8c0cb.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__e8d8c0cb.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-614",
+  "name": "Aston Villa 1994/95 – Alternativa – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9e50d896.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9e50d896.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-615",
+  "name": "Arsenal 2011/12 – Local »125 Aniversario» – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6914a2b7.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__6914a2b7.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-616",
+  "name": "AC Milan 2009/10 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__54c7cfb5.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__54c7cfb5.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-617",
+  "name": "AC Milan 2009/10 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__08755243.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__08755243.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-618",
+  "name": "AC Milan 2013/14 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4407053c.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__4407053c.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-619",
+  "name": "AC Milan 2009/10 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bcc1c456.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__bcc1c456.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-620",
+  "name": "AC Milan 2002/03 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__934059af.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__934059af.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-621",
+  "name": "Chivas de Guadalajara 2017/18 – Local  «Ed. 110 Aniversario» – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b7e5fc8e.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__b7e5fc8e.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-622",
+  "name": "México 1986/87 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__88312f94677be1fc-1.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__88312f94677be1fc-1.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-623",
+  "name": "AC Milan 1992/94 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__218a88f0.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__218a88f0.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-624",
+  "name": "AC Milan 2014/15 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8664a8ad.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8664a8ad.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-625",
+  "name": "AC Milan 2000/01 – Alternativa – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8c608f68.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__8c608f68.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-626",
+  "name": "AC Milan 2016/17 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__744080b5.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__744080b5.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-627",
+  "name": "Newcastle United 1995/96 – Visita – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b29ad65.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__9b29ad65.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-628",
+  "name": "River Plate 2013/14 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__294a04c8.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__294a04c8.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-629",
+  "name": "River Plate 2003/04 – Visita – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__73ad8ff3.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__73ad8ff3.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-630",
+  "name": "AS Roma 1991/92 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__680fd0c9.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__680fd0c9.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-631",
+  "name": "Club Monterrey 1999/00 – Local – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2-2.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/11/AnyConv.com__1-2-2.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-632",
+  "name": "AS Roma 1992/93 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__77f66970.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2025/12/AnyConv.com__77f66970.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-633",
+  "name": "Club América 2026/27 – »Stadium Azul Marino» – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7b5d2bc6-aafa-4721-904a-5e2da9b4ef3d.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/09/7b5d2bc6-aafa-4721-904a-5e2da9b4ef3d.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-634",
+  "name": "Club América »95 Aniversario» – Aficionado – Retro – Manga Larga",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/08/bc9fb290-5dc9-4fae-96f0-9e44e588b71b.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/08/bc9fb290-5dc9-4fae-96f0-9e44e588b71b.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-635",
+  "name": "Real Madrid 125 Aniversario – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/6b5ea3d7.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/07/6b5ea3d7.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-636",
+  "name": "Chivas de Guadalajara «Ed. 120 Aniversario» – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-71.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/07/Diseno-sin-titulo-71.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-637",
+  "name": "Alemania 1998/90 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e7a0ab27.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/07/e7a0ab27.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-638",
+  "name": "México 2002/03 – Visita – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/Captura-de-pantalla-2026-06-06-204604.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/06/Captura-de-pantalla-2026-06-06-204604.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+{
+  "id": "sp-retro-639",
+  "name": "México 2002/03 – Local – Aficionado – Retro",
+  "brand": "Retro",
+  "section": "sports",
+  "category": "retro",
+  "price": 650,
+  "hasVersionSelector": false,
+  "image": "https://www.jerseystrophy.com/wp-content/uploads/2026/06/Captura-de-pantalla-2026-06-06-203226.webp",
+  "gallery": [
+    "https://www.jerseystrophy.com/wp-content/uploads/2026/06/Captura-de-pantalla-2026-06-06-203226.webp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "customizable": true
+},
+
+{
   id: "sp-rest-folder",
   name: "Resto del Mundo",
   isFolder: true,
