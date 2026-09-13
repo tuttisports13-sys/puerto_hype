@@ -190497,9 +190497,9 @@ const PREORDER_PRODUCTS = [
 
 // Add mode to AppState
 const AppState = {
-  currentMode: 'stock', // 'stock' or 'preorder'
+  currentMode: 'none', // 'stock' or 'preorder'
   cart: JSON.parse(localStorage.getItem('puerto_hype_cart') || '[]').map(item => ({ ...item, cartItemId: item.cartItemId || Date.now().toString() + Math.random().toString() })),
-  currentFilter: 'sneakers',
+  currentFilter: 'none',
   searchQuery: '',
   whatsappNumber: '5212294135613'
 };
@@ -191600,3 +191600,45 @@ async function submitReview() {
 document.addEventListener('DOMContentLoaded', () => {
   initReviews();
 });
+
+window.resetView = function() {
+  AppState.currentMode = 'none';
+  AppState.currentFilter = 'none';
+  AppState.searchQuery = '';
+  document.getElementById('search-input').value = '';
+  
+  // Reset active button styles if any
+  ['btn-stock', 'btn-preorder', 'btn-preorder-sports'].forEach(id => {
+    const btn = document.getElementById(id);
+    if(btn) {
+      btn.style.background = '#12141a';
+      btn.style.color = 'var(--text-secondary)';
+      btn.style.border = '2px solid var(--bg-card-border)';
+    }
+  });
+  
+  renderProducts();
+};
+
+window.showCategory = function(cat) {
+  AppState.currentMode = 'preorder-sports';
+  AppState.currentFilter = cat;
+  AppState.searchQuery = '';
+  document.getElementById('search-input').value = '';
+  
+  // Ensure sports filter is visible and activate the button
+  const btnSports = document.getElementById('btn-preorder-sports');
+  if(btnSports) btnSports.click();
+  
+  // Highlight the correct filter pill if it exists
+  document.querySelectorAll('.filter-pill').forEach(btn => {
+    if (btn.dataset.filter === cat) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+
+  renderProducts();
+  document.getElementById('productos')?.scrollIntoView({ behavior: 'smooth' });
+};

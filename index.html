@@ -1560,6 +1560,57 @@ h1, h2, h3, h4, .font-heading {
   font-weight: 700;
 }
 
+/* Secondary Nav */
+.secondary-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-darker);
+  border-bottom: 1px solid var(--bg-card-border);
+  padding: 12px 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.secondary-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  color: var(--neon-lime);
+}
+
+.nav-links a svg {
+  width: 14px;
+  height: 14px;
+}
+
 </style>
 </head>
 <body>
@@ -1619,7 +1670,22 @@ h1, h2, h3, h4, .font-heading {
   </svg>
 </button>
 <div id="search-results-dropdown" class="search-results-dropdown" style="display: none;"></div>
-      </div>
+      </div> <!-- End search-container -->
+
+<!-- Top Navbar (Sports/Retro) -->
+<nav class="secondary-nav">
+  <ul class="nav-links">
+    <li><a href="#" onclick="resetView()"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a></li>
+    <li><a href="#">LIGAS <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></a></li>
+    <li><a href="#">PAÍSES <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></a></li>
+    <li><a href="#">JUGADORES <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></a></li>
+    <li><a href="#">EQUIPOS <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></a></li>
+    <li><a href="#">TENDENCIAS</a></li>
+    <li><a href="#" onclick="showCategory('retro')">RETRO</a></li>
+    <li><a href="#" onclick="showCategory('infantil')">INFANTILES</a></li>
+  </ul>
+</nav>
+
     </header>
 
     <!-- Hero Section Principal -->
@@ -1759,7 +1825,7 @@ h1, h2, h3, h4, .font-heading {
     <!-- Selector de Modo de Compra -->
 <section class="section" id="modo-compra">
   <div class="mode-switcher" style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <button id="btn-stock" class="btn btn-primary" style="flex: 1; padding: 12px; font-size: 0.8rem; border: 2px solid var(--neon-lime);">
+    <button id="btn-stock" class="btn" style="flex: 1; padding: 12px; font-size: 0.8rem; border: 2px solid var(--bg-card-border); color: var(--text-secondary); background: #12141a;">
       ⚡ EN STOCK (Envío Hoy)
     </button>
     <button id="btn-preorder" class="btn" style="flex: 1; padding: 12px; font-size: 0.8rem; background: #12141a; border: 2px solid var(--bg-card-border); color: var(--text-secondary);">
