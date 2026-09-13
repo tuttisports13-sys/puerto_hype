@@ -24,13 +24,7 @@ const SPORTS_PRODUCTS = [
   "gallery": [
     "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_abea6f5c-4557-4454-a954-0eb91e4e7f92_4134318_4287588-8961f24c29ba01b19a17864748517382-1024-0.webp"
   ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
 {
@@ -45,13 +39,7 @@ const SPORTS_PRODUCTS = [
   "gallery": [
     "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_dadc42a0-8660-44a7-acc6-60a57e359f69_4134318_4287588-17c7eef2f4bed1759717864747985406-1024-0.webp"
   ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
 {
@@ -66,13 +54,7 @@ const SPORTS_PRODUCTS = [
   "gallery": [
     "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062225817-1_huvgnfndcp9kqgaa-cb2957dabbc243880f17863000694793-1024-0.webp"
   ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
 {
@@ -87,13 +69,7 @@ const SPORTS_PRODUCTS = [
   "gallery": [
     "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062224292-1_g5df83xflu1booh6-61ffb27feb6645752e17863000924081-1024-0.webp"
   ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
 {
@@ -108,13 +84,7 @@ const SPORTS_PRODUCTS = [
   "gallery": [
     "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_773c79f6-fcaa-4445-8f46-2832872f2824_4134318_4287588-af7bfa577b70b7fb4017864744977906-1024-0.webp"
   ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
 {
@@ -129,13 +99,7 @@ const SPORTS_PRODUCTS = [
   "gallery": [
     "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_c11fab75-e51a-49dd-bd23-0e7751999c1b_4134318_4287588-284e4430cae753da3a17864744386689-1024-0.webp"
   ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
 {
@@ -152,13 +116,7 @@ const SPORTS_PRODUCTS = [
     "https://www.jerseystrophy.com/wp-content/uploads/2026/09/e0e43c9d-c23a-45f6-9c62-8bc035bf5f68.webp",
     "https://www.jerseystrophy.com/wp-content/uploads/2023/11/Varonil.jpeg"
   ],
-  "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "2XL"
-  ],
+  "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
 
