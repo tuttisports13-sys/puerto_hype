@@ -48,10 +48,8 @@ const SPORTS_PRODUCTS = [
   "category": "resto-del-mundo",
   "price": 650,
   "hasVersionSelector": false,
-  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062225817-1_huvgnfndcp9kqgaa-cb2957dabbc243880f17863000694793-1024-0.webp",
-  "gallery": [
-    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062225817-1_huvgnfndcp9kqgaa-cb2957dabbc243880f17863000694793-1024-0.webp"
-  ],
+  "image": "images/porto_local_2627.jpg",
+  "gallery": [ "images/porto_local_2627.jpg" ],
   "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
@@ -63,10 +61,8 @@ const SPORTS_PRODUCTS = [
   "category": "resto-del-mundo",
   "price": 650,
   "hasVersionSelector": false,
-  "image": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062224292-1_g5df83xflu1booh6-61ffb27feb6645752e17863000924081-1024-0.webp",
-  "gallery": [
-    "https://acdn-us.mitiendanube.com/stores/004/134/318/products/199062224292-1_g5df83xflu1booh6-61ffb27feb6645752e17863000924081-1024-0.webp"
-  ],
+  "image": "images/porto_visita_2627.jpg",
+  "gallery": [ "images/porto_visita_2627.jpg" ],
   "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
   "customizable": true
 },
