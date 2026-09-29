@@ -1,5 +1,25 @@
 [
   {
+    "id": "stock-1790654659736",
+    "name": "Puma Palace",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790654653833_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790654653833_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790654653833_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790654653833_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790654653833_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790654653833_4.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
     "id": "stock-1790653306497",
     "name": "Adidas supernova",
     "category": "sneakers",
