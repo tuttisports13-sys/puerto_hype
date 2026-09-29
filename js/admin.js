@@ -7,11 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const adminAlert = document.getElementById('admin-alert');
   const imagePreviewBox = document.getElementById('image-preview-box');
   const fileInput = document.getElementById('product-image');
-  const imagePreview = document.getElementById('image-preview');
   const imagePlaceholder = document.getElementById('image-placeholder');
   
   let currentToken = localStorage.getItem('admin_token');
-  let currentImageBase64 = null;
+  let currentImagesBase64 = []; // Array of base64 strings
 
   if (currentToken) {
     showAdmin();
@@ -60,16 +59,31 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   fileInput.addEventListener('change', () => {
-    const file = fileInput.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        currentImageBase64 = e.target.result;
-        imagePreview.src = currentImageBase64;
-        imagePreview.style.display = 'block';
-        imagePlaceholder.style.display = 'none';
-      };
-      reader.readAsDataURL(file);
+    const files = Array.from(fileInput.files);
+    if (files.length > 0) {
+      currentImagesBase64 = [];
+      // Remove all current images inside the box except the placeholder
+      const existingImgs = imagePreviewBox.querySelectorAll('img');
+      existingImgs.forEach(img => img.remove());
+      
+      imagePlaceholder.style.display = 'none';
+
+      files.forEach((file, index) => {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          currentImagesBase64.push(e.target.result);
+          const img = document.createElement('img');
+          img.src = e.target.result;
+          imagePreviewBox.appendChild(img);
+        };
+        reader.readAsDataURL(file);
+      });
+    } else {
+      // If user canceled selection
+      currentImagesBase64 = [];
+      const existingImgs = imagePreviewBox.querySelectorAll('img');
+      existingImgs.forEach(img => img.remove());
+      imagePlaceholder.style.display = 'block';
     }
   });
 
@@ -77,8 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
   productForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     
-    if (!currentImageBase64) {
-      showAlert('Por favor, selecciona una foto.', 'error');
+    if (currentImagesBase64.length === 0) {
+      showAlert('Por favor, selecciona al menos una foto.', 'error');
       return;
     }
 
@@ -101,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
           name,
           price,
           sizes,
-          imageBase64: currentImageBase64
+          imagesBase64: currentImagesBase64
         })
       });
 
@@ -110,8 +124,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (res.ok && data.success) {
         showAlert('¡Producto guardado exitosamente!', 'success');
         productForm.reset();
-        currentImageBase64 = null;
-        imagePreview.style.display = 'none';
+        currentImagesBase64 = [];
+        const existingImgs = imagePreviewBox.querySelectorAll('img');
+        existingImgs.forEach(img => img.remove());
         imagePlaceholder.style.display = 'block';
       } else {
         if (res.status === 401) {
