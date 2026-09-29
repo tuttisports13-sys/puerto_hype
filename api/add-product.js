@@ -47,7 +47,7 @@ export default async function handler(req, res) {
         throw new Error(`Error subiendo la imagen ${i+1} a GitHub`);
       }
       
-      imageUrls.push(`images/stock/${imgName}`);
+      imageUrls.push(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/images/stock/${imgName}`);
       
       // Small delay to prevent hitting GitHub abuse rate limits
       if (i < imagesBase64.length - 1) {
