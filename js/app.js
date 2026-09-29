@@ -190578,7 +190578,7 @@ PREORDER_PRODUCTS.forEach(p => {
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const res = await fetch('data/stock_products.json');
+    const res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
     if (res.ok) {
       STOCK_PRODUCTS = await res.json();
     }
