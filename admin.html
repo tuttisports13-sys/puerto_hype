@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Admin - Puerto Hype</title>
+  <link rel="stylesheet" href="css/admin.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Panel Admin</h1>
+
+  <div class="container" id="login-container">
+    <div id="login-alert" class="alert alert-error hidden"></div>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="email">Correo</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" required>
+      </div>
+      <button type="submit" id="btn-login">Entrar</button>
+    </form>
+  </div>
+
+  <div class="container hidden" id="admin-container">
+    <div id="admin-alert" class="alert hidden"></div>
+    <form id="product-form">
+      
+      <label>Foto del Producto</label>
+      <div class="image-preview-container" id="image-preview-box">
+        <span id="image-placeholder">Toca para subir foto<br>(Abrirá tu galería)</span>
+        <img id="image-preview" alt="Preview">
+      </div>
+      <input type="file" id="product-image" accept="image/*" required>
+
+      <div class="form-group">
+        <label for="product-name">Nombre del Producto</label>
+        <input type="text" id="product-name" placeholder="Ej: Jordan 1 Mid" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="product-price">Precio (MXN)</label>
+        <input type="number" id="product-price" placeholder="Ej: 1200" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="product-sizes">Tallas (Opcional, separadas por coma)</label>
+        <input type="text" id="product-sizes" placeholder="Ej: 26 cm, 27 cm, 28 cm">
+      </div>
+
+      <button type="submit" id="btn-save">Guardar Producto</button>
+    </form>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
