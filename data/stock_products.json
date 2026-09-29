@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1790655660577",
+    "name": "Mercurial Elite OG ",
+    "category": "sneakers",
+    "price": 3000,
+    "retailPrice": 4500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
     "id": "stock-1790653306497",
     "name": "Adidas supernova",
     "category": "sneakers",
