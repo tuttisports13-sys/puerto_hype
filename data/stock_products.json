@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1790653306497",
+    "name": "Adidas supernova",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "images/stock/stock_1790653299977_0.jpg",
+    "gallery": [
+      "images/stock/stock_1790653299977_0.jpg",
+      "images/stock/stock_1790653299977_1.jpg",
+      "images/stock/stock_1790653299977_2.jpg",
+      "images/stock/stock_1790653299977_3.jpg",
+      "images/stock/stock_1790653299977_4.jpg",
+      "images/stock/stock_1790653299977_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
     "id": "stock-001",
     "name": "On Cloud X",
     "category": "sneakers",
