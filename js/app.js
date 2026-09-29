@@ -191916,8 +191916,484 @@ const PREORDER_PRODUCTS = [
       "L",
       "XL"
     ]
+  },
+  {
+    "id": "po-boss-polo-2000",
+    "name": "Boss Polo #BOP-011",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/11/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2001",
+    "name": "Boss Polo #BOP-012",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/12/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2002",
+    "name": "Boss Polo #BOP-013",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/13/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2003",
+    "name": "Boss Polo #BOP-014",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/14/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2004",
+    "name": "Boss Polo #BOP-001",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/1/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2005",
+    "name": "Boss Polo #BOP-002",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/2/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2006",
+    "name": "Boss Polo #BOP-003",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/3/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2007",
+    "name": "Boss Polo #BOP-004",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/4/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2008",
+    "name": "Boss Polo #BOP-005",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/5/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2009",
+    "name": "Boss Polo #BOP-006",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/6/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2010",
+    "name": "Boss Polo #BOP-007",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/7/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2011",
+    "name": "Boss Polo #BOP-008",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/8/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2012",
+    "name": "Boss Polo #BOP-009",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/9/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2013",
+    "name": "Boss Polo #BOP-010",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/10/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2014",
+    "name": "Boss Polo #BOP-015",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/15/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2015",
+    "name": "Boss Polo #BOP-016",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/16/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2016",
+    "name": "Boss Polo #BOP-017",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/17/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2017",
+    "name": "Boss Polo #BOP-018",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/18/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2018",
+    "name": "Boss Polo #BOP-019",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/19/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2019",
+    "name": "Boss Polo #BOP-020",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/20/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2020",
+    "name": "Boss Polo #BOP-021",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/21/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2021",
+    "name": "Boss Polo #BOP-022",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/22/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2022",
+    "name": "Boss Polo #BOP-023",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/23/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2023",
+    "name": "Boss Polo #BOP-024",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/24/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-polo-2024",
+    "name": "Boss Polo #BOP-025",
+    "brand": "Boss Polo",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 450,
+    "retailPrice": 675,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/eyu/boss%20polo/25/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   }
 ];
+
 
 
 
