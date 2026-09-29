@@ -200,3 +200,87 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+
+  async function loadAdminProducts() {
+    const listContainer = document.getElementById('admin-product-list');
+    if (!listContainer) return;
+    
+    try {
+      const res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error('No se pudo cargar el inventario');
+      
+      const products = await res.json();
+      
+      if (products.length === 0) {
+        listContainer.innerHTML = '<p style="text-align: center; color: #999;">No hay productos en inventario.</p>';
+        return;
+      }
+      
+      listContainer.innerHTML = '';
+      
+      products.forEach(product => {
+        const item = document.createElement('div');
+        item.className = 'admin-product-item';
+        
+        let displayImg = product.image;
+        if (!displayImg.startsWith('http')) {
+            displayImg = `https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/${displayImg}`;
+        }
+        
+        item.innerHTML = `
+          <div class="admin-product-info">
+            <img src="${displayImg}" alt="${product.name}" class="admin-product-img">
+            <div class="admin-product-details">
+              <h4>${product.name}</h4>
+              <p>$${product.price} MXN</p>
+            </div>
+          </div>
+          <button class="btn-delete" data-id="${product.id}">Eliminar</button>
+        `;
+        listContainer.appendChild(item);
+      });
+      
+      // Add delete events
+      document.querySelectorAll('.btn-delete').forEach(btn => {
+        btn.addEventListener('click', async (e) => {
+          const productId = e.target.getAttribute('data-id');
+          if (confirm('¿Estás SEGURO de que deseas eliminar este producto permanentemente?')) {
+            await deleteProduct(productId, e.target);
+          }
+        });
+      });
+      
+    } catch (err) {
+      listContainer.innerHTML = '<p style="text-align: center; color: red;">Error al cargar productos.</p>';
+    }
+  }
+
+  async function deleteProduct(id, btnElement) {
+    const token = localStorage.getItem('adminToken');
+    btnElement.textContent = 'Borrando...';
+    btnElement.disabled = true;
+    
+    try {
+      const res = await fetch('/api/delete-product', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token, id })
+      });
+      
+      const data = await res.json();
+      
+      if (res.ok && data.success) {
+        showAlert('Producto eliminado exitosamente', 'success');
+        loadAdminProducts(); // Reload list
+      } else {
+        showAlert(data.error || 'Error al eliminar', 'error');
+        btnElement.textContent = 'Eliminar';
+        btnElement.disabled = false;
+      }
+    } catch (err) {
+      showAlert('Error de conexión al eliminar', 'error');
+      btnElement.textContent = 'Eliminar';
+      btnElement.disabled = false;
+    }
+  }
