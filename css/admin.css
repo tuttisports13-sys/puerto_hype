@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Syne', sans-serif;
+  color: #25d366;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #25d366;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+button:active {
+  background: #1ebd5a;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.image-preview-container {
+  width: 100%;
+  height: 200px;
+  border: 2px dashed #444;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  overflow: hidden;
+  position: relative;
+  background: #222;
+  cursor: pointer;
+}
+
+.image-preview-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+}
+
+.image-preview-container span {
+  color: #888;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.alert {
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.alert-error {
+  background: rgba(255, 59, 48, 0.2);
+  color: #ff3b30;
+  border: 1px solid #ff3b30;
+}
+
+.alert-success {
+  background: rgba(37, 211, 102, 0.2);
+  color: #25d366;
+  border: 1px solid #25d366;
+}
+
+.loader {
+  border: 3px solid rgba(0,0,0,0.1);
+  border-left-color: #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
