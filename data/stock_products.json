@@ -1,0 +1,99 @@
+[
+  {
+    "id": "stock-001",
+    "name": "On Cloud X",
+    "category": "sneakers",
+    "price": 1100,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2179.jpg",
+    "gallery": [
+      "images/stock/IMG_2179.jpg",
+      "images/stock/IMG_2180.jpg",
+      "images/stock/IMG_2181.jpg",
+      "images/stock/IMG_2182.jpg",
+      "images/stock/IMG_2183.jpg"
+    ],
+    "sizes": [
+      "28 cm"
+    ]
+  },
+  {
+    "id": "stock-002",
+    "name": "Puma",
+    "category": "sneakers",
+    "price": 650,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2244.jpg",
+    "gallery": [
+      "images/stock/IMG_2244.jpg",
+      "images/stock/IMG_2245.jpg",
+      "images/stock/IMG_2246.jpg",
+      "images/stock/IMG_2247.jpg",
+      "images/stock/IMG_2249.jpg",
+      "images/stock/IMG_2250.jpg"
+    ],
+    "sizes": [
+      "26.5 cm"
+    ]
+  },
+  {
+    "id": "stock-003",
+    "name": "Hoka Clifton",
+    "category": "sneakers",
+    "price": 1000,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2236.jpg",
+    "gallery": [
+      "images/stock/IMG_2236.jpg",
+      "images/stock/IMG_2237.jpg",
+      "images/stock/IMG_2238.jpg",
+      "images/stock/IMG_2240.jpg",
+      "images/stock/IMG_2242.jpg",
+      "images/stock/IMG_2243.jpg"
+    ],
+    "sizes": [
+      "26.5 cm"
+    ]
+  },
+  {
+    "id": "stock-004",
+    "name": "Jordan 1 Low",
+    "category": "sneakers",
+    "price": 1300,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2189.jpg",
+    "gallery": [
+      "images/stock/IMG_2189.jpg",
+      "images/stock/IMG_2190.jpg",
+      "images/stock/IMG_2191.jpg",
+      "images/stock/IMG_2192.jpg",
+      "images/stock/IMG_2193.jpg",
+      "images/stock/IMG_2194.jpg"
+    ],
+    "sizes": [
+      "7.5 MX"
+    ]
+  },
+  {
+    "id": "stock-005",
+    "name": "Reebok x Joker",
+    "category": "sneakers",
+    "price": 650,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2195.jpg",
+    "gallery": [
+      "images/stock/IMG_2195.jpg",
+      "images/stock/IMG_2196.jpg",
+      "images/stock/IMG_2197.jpg",
+      "images/stock/IMG_2198.jpg"
+    ],
+    "sizes": [
+      "6.5 MX"
+    ]
+  }
+]
