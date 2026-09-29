@@ -58,28 +58,66 @@ document.addEventListener('DOMContentLoaded', () => {
     fileInput.click();
   });
 
-  fileInput.addEventListener('change', () => {
+
+  function compressImage(file, maxWidth = 800, maxHeight = 800, quality = 0.7) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = event => {
+        const img = new Image();
+        img.src = event.target.result;
+        img.onload = () => {
+          let width = img.width;
+          let height = img.height;
+          
+          if (width > maxWidth || height > maxHeight) {
+            if (width > height) {
+              height = Math.round((height *= maxWidth / width));
+              width = maxWidth;
+            } else {
+              width = Math.round((width *= maxHeight / height));
+              height = maxHeight;
+            }
+          }
+          
+          const canvas = document.createElement('canvas');
+          canvas.width = width;
+          canvas.height = height;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, width, height);
+          
+          resolve(canvas.toDataURL('image/jpeg', quality));
+        };
+        img.onerror = reject;
+      };
+      reader.onerror = reject;
+    });
+  }
+
+  fileInput.addEventListener('change', async () => {
     const files = Array.from(fileInput.files);
     if (files.length > 0) {
       currentImagesBase64 = [];
-      // Remove all current images inside the box except the placeholder
       const existingImgs = imagePreviewBox.querySelectorAll('img');
       existingImgs.forEach(img => img.remove());
-      
       imagePlaceholder.style.display = 'none';
+      
+      imagePreviewBox.style.opacity = '0.5';
 
-      files.forEach((file, index) => {
-        const reader = new FileReader();
-        reader.onload = (e) => {
-          currentImagesBase64.push(e.target.result);
+      for (let i = 0; i < files.length; i++) {
+        try {
+          const compressed = await compressImage(files[i], 1000, 1000, 0.7);
+          currentImagesBase64.push(compressed);
           const img = document.createElement('img');
-          img.src = e.target.result;
+          img.src = compressed;
           imagePreviewBox.appendChild(img);
-        };
-        reader.readAsDataURL(file);
-      });
+        } catch (err) {
+          console.error("Error comprimiendo imagen", err);
+        }
+      }
+      
+      imagePreviewBox.style.opacity = '1';
     } else {
-      // If user canceled selection
       currentImagesBase64 = [];
       const existingImgs = imagePreviewBox.querySelectorAll('img');
       existingImgs.forEach(img => img.remove());
