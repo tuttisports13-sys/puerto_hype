@@ -191669,8 +191669,256 @@ const PREORDER_PRODUCTS = [
       "L",
       "XL"
     ]
+  },
+  {
+    "id": "po-boss-1000",
+    "name": "Boss #BO-385",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/1.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1001",
+    "name": "Boss #BO-386",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/2.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1002",
+    "name": "Boss #BO-387",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/3.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1003",
+    "name": "Boss #BO-388",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/4.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1004",
+    "name": "Boss #BO-389",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/5.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1005",
+    "name": "Boss #BO-390",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/6.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1006",
+    "name": "Boss #BO-391",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/7.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1007",
+    "name": "Boss #BO-392",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/8.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1008",
+    "name": "Boss #BO-393",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/9.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1009",
+    "name": "Boss #BO-394",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/10.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1010",
+    "name": "Boss #BO-395",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/11.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1011",
+    "name": "Boss #BO-396",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/12.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-boss-1012",
+    "name": "Boss #BO-397",
+    "brand": "Boss",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 260,
+    "retailPrice": 390,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/09/BOSS/13.png",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   }
 ];
+
 
 
 
