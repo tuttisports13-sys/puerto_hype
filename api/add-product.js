@@ -19,12 +19,14 @@ export default async function handler(req, res) {
     const repo = 'puerto_hype';
     const branch = 'main';
 
-    // 1. Upload all images in parallel
+    // 1. Upload all images sequentially to avoid GitHub rate limits
     const timestamp = Date.now();
-    const uploadPromises = imagesBase64.map(async (imgBase64, index) => {
-      const imgName = `stock_${timestamp}_${index}.jpg`;
+    let imageUrls = [];
+    
+    for (let i = 0; i < imagesBase64.length; i++) {
+      const imgName = `stock_${timestamp}_${i}.jpg`;
       const imgPath = `images/stock/${imgName}`;
-      const base64Data = imgBase64.replace(/^data:image\/\w+;base64,/, "");
+      const base64Data = imagesBase64[i].replace(/^data:image\/\w+;base64,/, "");
 
       const imgPutResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${imgPath}`, {
         method: 'PUT',
@@ -40,12 +42,18 @@ export default async function handler(req, res) {
       });
 
       if (!imgPutResponse.ok) {
-        throw new Error(`Error subiendo la imagen ${index+1} a GitHub`);
+        const errText = await imgPutResponse.text();
+        console.error("GitHub API Error on image", i, errText);
+        throw new Error(`Error subiendo la imagen ${i+1} a GitHub`);
       }
-      return `images/stock/${imgName}`;
-    });
-
-    const imageUrls = await Promise.all(uploadPromises);
+      
+      imageUrls.push(`images/stock/${imgName}`);
+      
+      // Small delay to prevent hitting GitHub abuse rate limits
+      if (i < imagesBase64.length - 1) {
+        await new Promise(r => setTimeout(r, 300)); 
+      }
+    }
 
     // 2. Fetch current stock_products.json
     const getStockResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/data/stock_products.json`, {
