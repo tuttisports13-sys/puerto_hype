@@ -19,12 +19,10 @@ export default async function handler(req, res) {
     const repo = 'puerto_hype';
     const branch = 'main';
 
-    let imageUrls = [];
-
-    // 1. Upload all images
-    for (let i = 0; i < imagesBase64.length; i++) {
-      const imgBase64 = imagesBase64[i];
-      const imgName = `stock_${Date.now()}_${i}.jpg`;
+    // 1. Upload all images in parallel
+    const timestamp = Date.now();
+    const uploadPromises = imagesBase64.map(async (imgBase64, index) => {
+      const imgName = `stock_${timestamp}_${index}.jpg`;
       const imgPath = `images/stock/${imgName}`;
       const base64Data = imgBase64.replace(/^data:image\/\w+;base64,/, "");
 
@@ -42,11 +40,12 @@ export default async function handler(req, res) {
       });
 
       if (!imgPutResponse.ok) {
-        throw new Error(`Error subiendo la imagen ${i+1} a GitHub`);
+        throw new Error(`Error subiendo la imagen ${index+1} a GitHub`);
       }
+      return `images/stock/${imgName}`;
+    });
 
-      imageUrls.push(`images/stock/${imgName}`);
-    }
+    const imageUrls = await Promise.all(uploadPromises);
 
     // 2. Fetch current stock_products.json
     const getStockResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/data/stock_products.json`, {
