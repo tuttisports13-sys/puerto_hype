@@ -4,46 +4,49 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { token, name, price, sizes, imageBase64 } = req.body;
+    const { token, name, price, sizes, imagesBase64 } = req.body;
     
-    // Very basic auth validation
     if (token !== 'admin-authorized-token') {
       return res.status(401).json({ error: 'No autorizado' });
     }
 
-    if (!name || !price || !imageBase64) {
+    if (!name || !price || !imagesBase64 || imagesBase64.length === 0) {
       return res.status(400).json({ error: 'Faltan campos obligatorios' });
     }
 
-    // Hardcoded PAT token that is already used in submit-review.js
     const ghToken = String.fromCharCode(103,104,112,95,98,54,121,54,67,116,76,98,118,71,68,89,99,70,112,114,121,105,88,111,52,76,80,99,86,55,97,107,112,78,52,80,54,72,103,71);
     const owner = 'tuttisports13-sys';
     const repo = 'puerto_hype';
     const branch = 'main';
 
-    // 1. Upload image
-    const imgName = `stock_${Date.now()}.jpg`;
-    const imgPath = `images/stock/${imgName}`;
-    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, "");
+    let imageUrls = [];
 
-    const imgPutResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${imgPath}`, {
-      method: 'PUT',
-      headers: {
-        'Authorization': `Bearer ${ghToken}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        message: `Add new stock image ${imgName}`,
-        content: base64Data,
-        branch: branch
-      })
-    });
+    // 1. Upload all images
+    for (let i = 0; i < imagesBase64.length; i++) {
+      const imgBase64 = imagesBase64[i];
+      const imgName = `stock_${Date.now()}_${i}.jpg`;
+      const imgPath = `images/stock/${imgName}`;
+      const base64Data = imgBase64.replace(/^data:image\/\w+;base64,/, "");
 
-    if (!imgPutResponse.ok) {
-      throw new Error('Error subiendo la imagen a GitHub');
+      const imgPutResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${imgPath}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${ghToken}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: `Add new stock image ${imgName}`,
+          content: base64Data,
+          branch: branch
+        })
+      });
+
+      if (!imgPutResponse.ok) {
+        throw new Error(`Error subiendo la imagen ${i+1} a GitHub`);
+      }
+
+      imageUrls.push(`images/stock/${imgName}`);
     }
-
-    const imageUrl = `images/stock/${imgName}`;
 
     // 2. Fetch current stock_products.json
     const getStockResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/data/stock_products.json`, {
@@ -70,13 +73,13 @@ export default async function handler(req, res) {
     const newProduct = {
       id: `stock-${Date.now()}`,
       name: name,
-      category: "sneakers", // default or we can allow picking later
+      category: "sneakers",
       price: parsedPrice,
-      retailPrice: Math.round(parsedPrice * 1.5), // Example logic from their old script
+      retailPrice: Math.round(parsedPrice * 1.5),
       badge: "NUEVO",
       badgeType: "badge-hot",
-      image: imageUrl,
-      gallery: [imageUrl],
+      image: imageUrls[0], // Main image is the first one
+      gallery: imageUrls,  // All images
       sizes: sizes ? sizes.split(',').map(s => s.trim()) : ["Unitalla"]
     };
 
