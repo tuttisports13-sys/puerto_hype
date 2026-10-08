@@ -196857,12 +196857,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/\u5c3a\u7801\u8868.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -196878,12 +196881,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/a47def18-a3db-4637-b36c-a30ad031d024.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -196899,12 +196905,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/1/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -196920,12 +196929,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/2/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -196941,12 +196953,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/3/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -196962,12 +196977,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/4/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -196983,12 +197001,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/5/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197004,12 +197025,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/6/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197025,12 +197049,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/7/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197046,12 +197073,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/8/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197067,12 +197097,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/9/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197088,12 +197121,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/10/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197109,12 +197145,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/11/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197130,12 +197169,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/12/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197151,12 +197193,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/13/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197172,12 +197217,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/14/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197193,12 +197241,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/15/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197214,12 +197265,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/16/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197235,12 +197289,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/17/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197256,12 +197313,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/18/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197277,12 +197337,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/19/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197298,12 +197361,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/20/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197319,12 +197385,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/21/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197340,12 +197409,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/22/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197361,12 +197433,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/23/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197382,12 +197457,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/24/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197403,12 +197481,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/25/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197424,12 +197505,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/26/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197445,12 +197529,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/27/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197466,12 +197553,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/28/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197487,12 +197577,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/29/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197508,12 +197601,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/30/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197529,12 +197625,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/31/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197550,12 +197649,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/32/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197571,12 +197673,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/33/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197592,12 +197697,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/34/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197613,12 +197721,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/35/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197634,12 +197745,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/36/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197655,12 +197769,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/37/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197676,12 +197793,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/38/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197697,12 +197817,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/39/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197718,12 +197841,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/40/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197739,12 +197865,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/41/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197760,12 +197889,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/42/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197781,12 +197913,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/43/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197802,12 +197937,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/44/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197823,12 +197961,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/45/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197844,12 +197985,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/46/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197865,12 +198009,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/47/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197886,12 +198033,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/48/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197907,12 +198057,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/49/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197928,12 +198081,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/50/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197949,12 +198105,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/51/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197970,12 +198129,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/52/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -197991,12 +198153,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/53/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198012,12 +198177,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/54/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198033,12 +198201,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/55/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198054,12 +198225,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/56/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198075,12 +198249,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/57/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198096,12 +198273,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/58/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198117,12 +198297,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/59/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198138,12 +198321,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/60/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198159,12 +198345,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/61/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198180,12 +198369,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/62/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198201,12 +198393,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/63/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198222,12 +198417,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/64/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198243,12 +198441,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/65/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198264,12 +198465,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/66/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198285,12 +198489,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/67/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198306,12 +198513,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/68/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198327,12 +198537,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/69/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198348,12 +198561,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/70/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198369,12 +198585,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/71/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198390,12 +198609,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/72/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198411,12 +198633,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/73/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198432,12 +198657,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/74/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198453,12 +198681,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/75/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198474,12 +198705,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/76/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198495,12 +198729,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/77/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198516,12 +198753,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/78/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198537,12 +198777,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/79/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198558,12 +198801,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/80/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198579,12 +198825,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/81/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198600,12 +198849,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/82/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198621,12 +198873,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/83/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198642,12 +198897,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/84/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198663,12 +198921,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/85/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198684,12 +198945,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/86/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198705,12 +198969,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/87/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198726,12 +198993,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/88/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198747,12 +199017,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/89/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198768,12 +199041,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/90/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198789,12 +199065,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/91/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198810,12 +199089,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/92/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198831,12 +199113,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/93/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198852,12 +199137,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/94/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198873,12 +199161,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/95/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198894,12 +199185,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/96/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198915,12 +199209,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/97/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198936,12 +199233,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/98/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198957,12 +199257,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/99/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198978,12 +199281,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/100/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -198999,12 +199305,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/101/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199020,12 +199329,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/102/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199041,12 +199353,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/103/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199062,12 +199377,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/104/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199083,12 +199401,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/105/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199104,12 +199425,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/106/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199125,12 +199449,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/107/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199146,12 +199473,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/108/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199167,12 +199497,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/109/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199188,12 +199521,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/110/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199209,12 +199545,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/111/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199230,12 +199569,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/112/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199251,12 +199593,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/113/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199272,12 +199617,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/114/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199293,12 +199641,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/115/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199314,12 +199665,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/116/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199335,12 +199689,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/117/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199356,12 +199713,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/118/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199377,12 +199737,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/119/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199398,12 +199761,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/120/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199419,12 +199785,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/121/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199440,12 +199809,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/122/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199461,12 +199833,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/123/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199482,12 +199857,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/124/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199503,12 +199881,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/125/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199524,12 +199905,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/126/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199545,12 +199929,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/127/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199566,12 +199953,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/128/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199587,12 +199977,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/129/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199608,12 +200001,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/130/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199629,12 +200025,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/131/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199650,12 +200049,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/132/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199671,12 +200073,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/133/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199692,12 +200097,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/134/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199713,12 +200121,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/135/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199734,12 +200145,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/136/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199755,12 +200169,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/137/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199776,12 +200193,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/138/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199797,12 +200217,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/139/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199818,12 +200241,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/140/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199839,12 +200265,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/141/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199860,12 +200289,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/142/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199881,12 +200313,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/143/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199902,12 +200337,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/144/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199923,12 +200361,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/145/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199944,12 +200385,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/146/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199965,12 +200409,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/147/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -199986,12 +200433,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/148/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200007,12 +200457,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/149/1.jpg",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200028,12 +200481,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/\u5c3a\u7801\u8868.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200049,12 +200505,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/ON\u603b1/9e514b0d-c5f7-4e43-9050-e1645d8e6059.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200070,12 +200529,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/1.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200091,12 +200553,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/2.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200112,12 +200577,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/3.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200133,12 +200601,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/4.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200154,12 +200625,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/5.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200175,12 +200649,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/6.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200196,12 +200673,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/7.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200217,12 +200697,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/8.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200238,12 +200721,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/9.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200259,12 +200745,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/10.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200280,12 +200769,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/11.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200301,12 +200793,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/12.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200322,12 +200817,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/13.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200343,12 +200841,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/14.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200364,12 +200865,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/15.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200385,12 +200889,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/16.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200406,12 +200913,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/17.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200427,12 +200937,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/18.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200448,12 +200961,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/19.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200469,12 +200985,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/20.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200490,12 +201009,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/21.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200511,12 +201033,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/22.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200532,12 +201057,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/23.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200553,12 +201081,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/24.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200574,12 +201105,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/25.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200595,12 +201129,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/26.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200616,12 +201153,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/27.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200637,12 +201177,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/28.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200658,12 +201201,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/29.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200679,12 +201225,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/30.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200700,12 +201249,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/31.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200721,12 +201273,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/32.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200742,12 +201297,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/33.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200763,12 +201321,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/34.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200784,12 +201345,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/35.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200805,12 +201369,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/36.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200826,12 +201393,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/37.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200847,12 +201417,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/38.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200868,12 +201441,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/39.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200889,12 +201465,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/40.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200910,12 +201489,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/41.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200931,12 +201513,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/42.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200952,12 +201537,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/43.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200973,12 +201561,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/44.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -200994,12 +201585,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/45.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201015,12 +201609,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/46.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201036,12 +201633,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/47.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201057,12 +201657,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/48.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201078,12 +201681,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/49.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201099,12 +201705,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/50.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201120,12 +201729,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/51.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201141,12 +201753,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/52.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201162,12 +201777,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/53.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201183,12 +201801,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/54.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201204,12 +201825,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/55.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201225,12 +201849,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/56.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201246,12 +201873,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/57.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201267,12 +201897,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/58.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201288,12 +201921,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/59.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201309,12 +201945,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/60.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201330,12 +201969,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/61.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201351,12 +201993,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/62.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201372,12 +202017,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/63.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201393,12 +202041,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/64.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201414,12 +202065,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/65.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201435,12 +202089,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/67.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201456,12 +202113,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/68.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201477,12 +202137,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/69.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201498,12 +202161,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/70.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201519,12 +202185,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/71.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201540,12 +202209,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/72.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201561,12 +202233,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/73.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201582,12 +202257,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/74.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201603,12 +202281,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/75.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201624,12 +202305,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/76.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201645,12 +202329,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/77.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201666,12 +202353,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/78.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201687,12 +202377,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/79.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201708,12 +202401,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/80.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201729,12 +202425,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/81.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201750,12 +202449,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/82.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201771,12 +202473,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/83.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201792,12 +202497,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/84.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201813,12 +202521,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/85.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201834,12 +202545,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/86.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201855,12 +202569,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/87.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201876,12 +202593,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/88.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201897,12 +202617,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/89.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201918,12 +202641,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/90.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201939,12 +202665,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/91.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201960,12 +202689,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/92.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -201981,12 +202713,15 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/93.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   },
   {
@@ -202002,15 +202737,19 @@ const PREORDER_PRODUCTS = [
     "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/hoka/HOKA\u603b/94.png",
     "deliveryTime": "15 a 20 d\u00edas",
     "sizes": [
-      "24 MX",
-      "25 MX",
-      "26 MX",
-      "27 MX",
-      "28 MX",
-      "29 MX"
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
     ]
   }
 ];
+
 
 
 
