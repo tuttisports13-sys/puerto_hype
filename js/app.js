@@ -202747,8 +202747,104 @@ const PREORDER_PRODUCTS = [
       "29",
       "30"
     ]
+  },
+  {
+    "id": "po-maja-6000",
+    "name": "Maja maja-001",
+    "brand": "MAJA",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/Maja2/\u9ed1\u8272/1.jpg",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-maja-6001",
+    "name": "Maja maja-002",
+    "brand": "MAJA",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/Maja2/\u84dd\u8272/1.jpg",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-maja-6002",
+    "name": "Maja maja-003",
+    "brand": "MAJA",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/Maja2/\u7070\u8272/1.jpg",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-maja-6003",
+    "name": "Maja maja-004",
+    "brand": "MAJA",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/Maja2/\u5496\u5561\u8272/1.jpg",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "po-maja-6004",
+    "name": "Maja maja-005",
+    "brand": "MAJA",
+    "section": "preorder",
+    "category": "ropa",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "15-20 D\u00cdAS",
+    "badgeType": "badge-preorder",
+    "image": "https://chunchimayorista.com/wp-content/uploads/2026/10/Maja2/\u7ea2\u8272/1.jpg",
+    "deliveryTime": "15 a 20 d\u00edas",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   }
 ];
+
 
 
 
