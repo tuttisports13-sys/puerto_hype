@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791932775918",
+    "name": "Spikes Nike ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
     "id": "stock-1791932578190",
     "name": "Spikes Nike ",
     "category": "sneakers",
