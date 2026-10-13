@@ -1,5 +1,27 @@
 [
   {
+    "id": "stock-1791927882099",
+    "name": "Brooks Ghost ",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_6.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
     "id": "stock-1791927738749",
     "name": "Suéter american Eagle mujer ",
     "category": "sneakers",
