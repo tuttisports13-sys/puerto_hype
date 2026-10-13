@@ -9,11 +9,58 @@ document.addEventListener('DOMContentLoaded', () => {
   const fileInput = document.getElementById('product-image');
   const imagePlaceholder = document.getElementById('image-placeholder');
   
+  const tabBtnAdd = document.getElementById('tab-btn-add');
+  const tabBtnStock = document.getElementById('tab-btn-stock');
+  const tabContentAdd = document.getElementById('tab-content-add');
+  const tabContentStock = document.getElementById('tab-content-stock');
+  const btnLogout = document.getElementById('btn-logout');
+  const btnRefreshStock = document.getElementById('btn-refresh-stock');
+  const stockSearchInput = document.getElementById('stock-search');
+  const adminProductList = document.getElementById('admin-product-list');
+
   let currentToken = localStorage.getItem('admin_token');
-  let currentImagesBase64 = []; // Array of base64 strings
+  let currentImagesBase64 = [];
+  let loadedStockProducts = [];
 
   if (currentToken) {
     showAdmin();
+  }
+
+  // --- TABS LOGIC ---
+  tabBtnAdd.addEventListener('click', () => {
+    tabBtnAdd.classList.add('active');
+    tabBtnStock.classList.remove('active');
+    tabContentAdd.classList.remove('hidden');
+    tabContentStock.classList.add('hidden');
+  });
+
+  tabBtnStock.addEventListener('click', () => {
+    tabBtnStock.classList.add('active');
+    tabBtnAdd.classList.remove('active');
+    tabContentStock.classList.remove('hidden');
+    tabContentAdd.classList.add('hidden');
+    loadAdminProducts();
+  });
+
+  if (btnRefreshStock) {
+    btnRefreshStock.addEventListener('click', () => {
+      loadAdminProducts();
+    });
+  }
+
+  if (stockSearchInput) {
+    stockSearchInput.addEventListener('input', (e) => {
+      renderAdminProducts(e.target.value.toLowerCase().trim());
+    });
+  }
+
+  // --- LOGOUT ---
+  if (btnLogout) {
+    btnLogout.addEventListener('click', () => {
+      localStorage.removeItem('admin_token');
+      currentToken = null;
+      showLogin();
+    });
   }
 
   // --- LOGIN ---
@@ -21,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     const btn = document.getElementById('btn-login');
     const originalText = btn.textContent;
-    btn.innerHTML = '<span class="loader"></span>';
+    btn.innerHTML = '<span class="loader"></span> Entrando...';
     btn.disabled = true;
     loginAlert.classList.add('hidden');
 
@@ -41,11 +88,11 @@ document.addEventListener('DOMContentLoaded', () => {
         currentToken = data.token;
         showAdmin();
       } else {
-        loginAlert.textContent = data.error || 'Error al iniciar sesión';
+        loginAlert.textContent = data.error || 'Credenciales incorrectas';
         loginAlert.classList.remove('hidden');
       }
     } catch (err) {
-      loginAlert.textContent = 'Error de conexión';
+      loginAlert.textContent = 'Error de conexión con el servidor';
       loginAlert.classList.remove('hidden');
     } finally {
       btn.innerHTML = originalText;
@@ -53,11 +100,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // --- IMAGE UPLOAD PREVIEW ---
+  // --- IMAGE COMPRESSION & PREVIEW ---
   imagePreviewBox.addEventListener('click', () => {
     fileInput.click();
   });
-
 
   function compressImage(file, maxWidth = 800, maxHeight = 800, quality = 0.7) {
     return new Promise((resolve, reject) => {
@@ -85,7 +131,6 @@ document.addEventListener('DOMContentLoaded', () => {
           canvas.height = height;
           const ctx = canvas.getContext('2d');
           ctx.drawImage(img, 0, 0, width, height);
-          
           resolve(canvas.toDataURL('image/jpeg', quality));
         };
         img.onerror = reject;
@@ -101,7 +146,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const existingImgs = imagePreviewBox.querySelectorAll('img');
       existingImgs.forEach(img => img.remove());
       imagePlaceholder.style.display = 'none';
-      
       imagePreviewBox.style.opacity = '0.5';
 
       for (let i = 0; i < files.length; i++) {
@@ -115,7 +159,6 @@ document.addEventListener('DOMContentLoaded', () => {
           console.error("Error comprimiendo imagen", err);
         }
       }
-      
       imagePreviewBox.style.opacity = '1';
     } else {
       currentImagesBase64 = [];
@@ -125,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // --- ADD PRODUCT ---
+  // --- ADD PRODUCT TO STOCK ---
   productForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     
@@ -136,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const btn = document.getElementById('btn-save');
     const originalText = btn.textContent;
-    btn.innerHTML = '<span class="loader"></span> Guardando...';
+    btn.innerHTML = '<span class="loader"></span> Guardando en Stock...';
     btn.disabled = true;
     adminAlert.classList.add('hidden');
 
@@ -160,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = await res.json();
 
       if (res.ok && data.success) {
-        showAlert('¡Producto guardado exitosamente!', 'success');
+        showAlert('¡Producto guardado exitosamente en Stock!', 'success');
         productForm.reset();
         currentImagesBase64 = [];
         const existingImgs = imagePreviewBox.querySelectorAll('img');
@@ -171,15 +214,158 @@ document.addEventListener('DOMContentLoaded', () => {
           localStorage.removeItem('admin_token');
           showLogin();
         }
-        showAlert(data.error || 'Error al guardar', 'error');
+        showAlert(data.error || 'Error al guardar el producto', 'error');
       }
     } catch (err) {
-      showAlert('Error de conexión', 'error');
+      showAlert('Error de conexión al guardar', 'error');
     } finally {
       btn.innerHTML = originalText;
       btn.disabled = false;
     }
   });
+
+  // --- LOAD & MANAGE STOCK PRODUCTS ---
+  async function loadAdminProducts() {
+    if (!adminProductList) return;
+    adminProductList.innerHTML = '<p style="text-align: center; color: #888;">Cargando inventario...</p>';
+    
+    try {
+      const res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error('No se pudo descargar el inventario');
+      
+      loadedStockProducts = await res.json();
+      renderAdminProducts(stockSearchInput ? stockSearchInput.value.toLowerCase().trim() : '');
+    } catch (err) {
+      console.error(err);
+      adminProductList.innerHTML = '<p style="text-align: center; color: #ff5247;">Error al cargar productos de stock.</p>';
+    }
+  }
+
+  function renderAdminProducts(filterQuery = '') {
+    if (!adminProductList) return;
+
+    const filtered = loadedStockProducts.filter(p => {
+      if (!filterQuery) return true;
+      return p.name.toLowerCase().includes(filterQuery);
+    });
+
+    if (filtered.length === 0) {
+      adminProductList.innerHTML = '<p style="text-align: center; color: #888; padding: 20px;">No se encontraron productos en stock.</p>';
+      return;
+    }
+
+    adminProductList.innerHTML = '';
+
+    filtered.forEach(product => {
+      const item = document.createElement('div');
+      item.className = 'admin-product-item';
+      
+      let displayImg = product.image;
+      if (!displayImg.startsWith('http')) {
+        displayImg = `https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/${displayImg}`;
+      }
+
+      const sizesList = product.sizes || [];
+      const sizesHtml = sizesList.map(s => `
+        <span class="size-pill">
+          ${s}
+          <button type="button" class="btn-remove-size" data-id="${product.id}" data-size="${s}" title="Eliminar talla ${s}">✕</button>
+        </span>
+      `).join('');
+
+      item.innerHTML = `
+        <div class="admin-product-main">
+          <img src="${displayImg}" alt="${product.name}" class="admin-product-img">
+          <div class="admin-product-details">
+            <h4>${product.name}</h4>
+            <p class="product-price">$${product.price} MXN</p>
+          </div>
+        </div>
+
+        <div class="sizes-container">
+          <span class="sizes-label">Tallas:</span>
+          ${sizesHtml.length > 0 ? sizesHtml : '<span style="color: #666; font-size: 0.75rem;">Sin tallas</span>'}
+          <button type="button" class="btn-add-size" data-id="${product.id}">+ Agregar</button>
+        </div>
+
+        <button type="button" class="btn-delete-prod" data-id="${product.id}" data-name="${product.name}">
+          🗑️ Eliminar Producto
+        </button>
+      `;
+
+      adminProductList.appendChild(item);
+    });
+
+    // Add listeners for Delete Product
+    adminProductList.querySelectorAll('.btn-delete-prod').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        const id = e.currentTarget.getAttribute('data-id');
+        const name = e.currentTarget.getAttribute('data-name');
+        if (confirm(`¿Estás SEGURO de que deseas eliminar permanentemente "${name}" del stock?`)) {
+          await executeStockAction({ id, action: 'delete_product' }, e.currentTarget, 'Producto eliminado exitosamente');
+        }
+      });
+    });
+
+    // Add listeners for Remove Size
+    adminProductList.querySelectorAll('.btn-remove-size').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        const id = e.currentTarget.getAttribute('data-id');
+        const size = e.currentTarget.getAttribute('data-size');
+        if (confirm(`¿Eliminar la talla "${size}" de este producto?`)) {
+          await executeStockAction({ id, action: 'remove_size', size }, e.currentTarget, `Talla ${size} eliminada`);
+        }
+      });
+    });
+
+    // Add listeners for Add Size
+    adminProductList.querySelectorAll('.btn-add-size').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        const id = e.currentTarget.getAttribute('data-id');
+        const newSize = prompt('Ingresa la nueva talla para este producto (ej. 27 o 28 cm):');
+        if (newSize && newSize.trim().length > 0) {
+          await executeStockAction({ id, action: 'add_size', newSize: newSize.trim() }, e.currentTarget, `Talla ${newSize} agregada`);
+        }
+      });
+    });
+  }
+
+  async function executeStockAction(payload, btnElement, successMsg) {
+    const originalText = btnElement.textContent;
+    btnElement.textContent = '...';
+    btnElement.disabled = true;
+
+    try {
+      const res = await fetch('/api/delete-product', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          token: currentToken,
+          ...payload
+        })
+      });
+
+      const data = await res.json();
+
+      if (res.ok && data.success) {
+        showAlert(successMsg, 'success');
+        // Refresh local cache and list
+        setTimeout(() => loadAdminProducts(), 800);
+      } else {
+        if (res.status === 401) {
+          localStorage.removeItem('admin_token');
+          showLogin();
+        }
+        showAlert(data.error || 'Error al actualizar', 'error');
+        btnElement.textContent = originalText;
+        btnElement.disabled = false;
+      }
+    } catch (err) {
+      showAlert('Error de conexión con el servidor', 'error');
+      btnElement.textContent = originalText;
+      btnElement.disabled = false;
+    }
+  }
 
   function showAdmin() {
     loginContainer.classList.add('hidden');
@@ -195,92 +381,6 @@ document.addEventListener('DOMContentLoaded', () => {
     adminAlert.textContent = msg;
     adminAlert.className = `alert alert-${type}`;
     adminAlert.classList.remove('hidden');
-    if (type === 'success') {
-      setTimeout(() => adminAlert.classList.add('hidden'), 3000);
-    }
+    setTimeout(() => adminAlert.classList.add('hidden'), 3500);
   }
 });
-
-
-  async function loadAdminProducts() {
-    const listContainer = document.getElementById('admin-product-list');
-    if (!listContainer) return;
-    
-    try {
-      const res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
-      if (!res.ok) throw new Error('No se pudo cargar el inventario');
-      
-      const products = await res.json();
-      
-      if (products.length === 0) {
-        listContainer.innerHTML = '<p style="text-align: center; color: #999;">No hay productos en inventario.</p>';
-        return;
-      }
-      
-      listContainer.innerHTML = '';
-      
-      products.forEach(product => {
-        const item = document.createElement('div');
-        item.className = 'admin-product-item';
-        
-        let displayImg = product.image;
-        if (!displayImg.startsWith('http')) {
-            displayImg = `https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/${displayImg}`;
-        }
-        
-        item.innerHTML = `
-          <div class="admin-product-info">
-            <img src="${displayImg}" alt="${product.name}" class="admin-product-img">
-            <div class="admin-product-details">
-              <h4>${product.name}</h4>
-              <p>$${product.price} MXN</p>
-            </div>
-          </div>
-          <button class="btn-delete" data-id="${product.id}">Eliminar</button>
-        `;
-        listContainer.appendChild(item);
-      });
-      
-      // Add delete events
-      document.querySelectorAll('.btn-delete').forEach(btn => {
-        btn.addEventListener('click', async (e) => {
-          const productId = e.target.getAttribute('data-id');
-          if (confirm('¿Estás SEGURO de que deseas eliminar este producto permanentemente?')) {
-            await deleteProduct(productId, e.target);
-          }
-        });
-      });
-      
-    } catch (err) {
-      listContainer.innerHTML = '<p style="text-align: center; color: red;">Error al cargar productos.</p>';
-    }
-  }
-
-  async function deleteProduct(id, btnElement) {
-    const token = localStorage.getItem('adminToken');
-    btnElement.textContent = 'Borrando...';
-    btnElement.disabled = true;
-    
-    try {
-      const res = await fetch('/api/delete-product', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token, id })
-      });
-      
-      const data = await res.json();
-      
-      if (res.ok && data.success) {
-        showAlert('Producto eliminado exitosamente', 'success');
-        loadAdminProducts(); // Reload list
-      } else {
-        showAlert(data.error || 'Error al eliminar', 'error');
-        btnElement.textContent = 'Eliminar';
-        btnElement.disabled = false;
-      }
-    } catch (err) {
-      showAlert('Error de conexión al eliminar', 'error');
-      btnElement.textContent = 'Eliminar';
-      btnElement.disabled = false;
-    }
-  }
