@@ -1,5 +1,27 @@
 [
   {
+    "id": "stock-1791926295642",
+    "name": "Barcelona Visita “Kobe Bryant”",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
     "id": "stock-1791926192089",
     "name": "Toluca Local 26/27 ",
     "category": "sneakers",
