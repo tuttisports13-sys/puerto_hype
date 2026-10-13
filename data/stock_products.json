@@ -1,5 +1,25 @@
 [
   {
+    "id": "stock-1791932436969",
+    "name": "Jordan 1 mid alternate swooshes",
+    "category": "sneakers",
+    "price": 1000,
+    "retailPrice": 1500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_4.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
     "id": "stock-1791932319975",
     "name": "Saoucony Endorphin ",
     "category": "sneakers",
