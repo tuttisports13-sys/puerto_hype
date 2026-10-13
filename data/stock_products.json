@@ -304,25 +304,6 @@
     ]
   },
   {
-    "id": "stock-001",
-    "name": "On Cloud X",
-    "category": "sneakers",
-    "price": 1100,
-    "badge": "STOCK",
-    "badgeType": "badge-hot",
-    "image": "images/stock/IMG_2179.jpg",
-    "gallery": [
-      "images/stock/IMG_2179.jpg",
-      "images/stock/IMG_2180.jpg",
-      "images/stock/IMG_2181.jpg",
-      "images/stock/IMG_2182.jpg",
-      "images/stock/IMG_2183.jpg"
-    ],
-    "sizes": [
-      "28 cm"
-    ]
-  },
-  {
     "id": "stock-002",
     "name": "Puma",
     "category": "sneakers",
