@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791926042142",
+    "name": "“Ronaldo” Portugal 2026",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_5.jpg"
+    ],
+    "sizes": [
+      "XL"
+    ]
+  },
+  {
     "id": "stock-1791925972947",
     "name": "Leggins ALO “Acampanados” ",
     "category": "sneakers",
