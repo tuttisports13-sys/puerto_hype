@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791932201075",
+    "name": "Jordan series S ",
+    "category": "sneakers",
+    "price": 750,
+    "retailPrice": 1125,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_5.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
     "id": "stock-1791932133237",
     "name": "Nike Sacai ",
     "category": "sneakers",
