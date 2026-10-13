@@ -1,5 +1,23 @@
 [
   {
+    "id": "stock-1791927486262",
+    "name": "Suéter TOMMY HILFIGER OG",
+    "category": "sneakers",
+    "price": 500,
+    "retailPrice": 750,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_2.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
     "id": "stock-1791927341612",
     "name": "Hellstar ",
     "category": "sneakers",
