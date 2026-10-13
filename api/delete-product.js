@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { token, id } = req.body;
+    const { token, id, action, size, newSize } = req.body;
     
     if (token !== 'admin-authorized-token') {
       return res.status(401).json({ error: 'No autorizado' });
@@ -39,17 +39,32 @@ export default async function handler(req, res) {
       stockList = [];
     }
 
-    // 2. Filter out the deleted product
-    const originalLength = stockList.length;
-    stockList = stockList.filter(p => p.id !== id);
+    let commitMessage = '';
 
-    if (stockList.length === originalLength) {
+    if (action === 'remove_size') {
+      const prod = stockList.find(p => p.id === id);
+      if (!prod) return res.status(404).json({ error: 'Producto no encontrado' });
+      prod.sizes = (prod.sizes || []).filter(s => s !== size);
+      commitMessage = `Admin removed size ${size} from ${prod.name}`;
+    } else if (action === 'add_size') {
+      const prod = stockList.find(p => p.id === id);
+      if (!prod) return res.status(404).json({ error: 'Producto no encontrado' });
+      if (!prod.sizes) prod.sizes = [];
+      if (!prod.sizes.includes(newSize)) prod.sizes.push(newSize);
+      commitMessage = `Admin added size ${newSize} to ${prod.name}`;
+    } else {
+      // Delete whole product
+      const originalLength = stockList.length;
+      stockList = stockList.filter(p => p.id !== id);
+      if (stockList.length === originalLength) {
         return res.status(404).json({ error: 'Producto no encontrado' });
+      }
+      commitMessage = `Admin deleted product: ${id}`;
     }
 
     const updatedContentBase64 = Buffer.from(JSON.stringify(stockList, null, 2)).toString('base64');
 
-    // 3. Update stock_products.json
+    // 2. Update stock_products.json on GitHub
     const putStockResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/data/stock_products.json`, {
       method: 'PUT',
       headers: {
@@ -57,7 +72,7 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        message: `Admin deleted product: ${id}`,
+        message: commitMessage,
         content: updatedContentBase64,
         sha: currentSha,
         branch: branch
@@ -65,7 +80,7 @@ export default async function handler(req, res) {
     });
 
     if (!putStockResponse.ok) {
-      throw new Error('Error guardando el JSON actualizado');
+      throw new Error('Error guardando en GitHub');
     }
 
     return res.status(200).json({ success: true });
