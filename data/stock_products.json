@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791926423045",
+    "name": "Manchester City Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M"
+    ]
+  },
+  {
     "id": "stock-1791926341653",
     "name": "PSG Local 26/27",
     "category": "sneakers",
