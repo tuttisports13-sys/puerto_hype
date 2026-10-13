@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791933240115",
+    "name": "Nike Tiempo Legend X elite ",
+    "category": "sneakers",
+    "price": 3000,
+    "retailPrice": 4500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
     "id": "stock-1791933088249",
     "name": "Barbas hats B star",
     "category": "sneakers",
