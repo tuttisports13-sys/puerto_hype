@@ -1,5 +1,24 @@
 [
   {
+    "id": "stock-1791925150129",
+    "name": "Blusa DFYNE",
+    "category": "sneakers",
+    "price": 250,
+    "retailPrice": 375,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_3.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
     "id": "stock-1791925011726",
     "name": "Puma Palace",
     "category": "sneakers",
