@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791933021718",
+    "name": "Dandy hats x Fuerza Regida",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_5.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
     "id": "stock-1791932976360",
     "name": "Rude Awakenings x Tombochio",
     "category": "sneakers",
