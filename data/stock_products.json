@@ -1,5 +1,24 @@
 [
   {
+    "id": "stock-1791927527766",
+    "name": "Polo Náutica niño",
+    "category": "sneakers",
+    "price": 120,
+    "retailPrice": 180,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_3.jpg"
+    ],
+    "sizes": [
+      "14"
+    ]
+  },
+  {
     "id": "stock-1791927486262",
     "name": "Suéter TOMMY HILFIGER OG",
     "category": "sneakers",
