@@ -1,5 +1,25 @@
 [
   {
+    "id": "stock-1791924142152",
+    "name": "Crocs Kuromi",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_4.jpg"
+    ],
+    "sizes": [
+      "25 cm"
+    ]
+  },
+  {
     "id": "stock-1790655730802",
     "name": "Adidas Copa Mundial",
     "category": "sneakers",
