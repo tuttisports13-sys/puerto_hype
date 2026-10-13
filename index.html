@@ -1776,9 +1776,61 @@ h1, h2, h3, h4, .font-heading {
       </div>
 
       <div class="categories-list">
-        <!-- Cat 1 -->
-        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=sneakers]')?.click()">
+        <!-- Cat 1: LIGA MX -->
+        <a href="#modo-compra" class="category-card" onclick="goToTopCategory('LIGA MX'); return false;">
+          <div class="category-bg" style="background-image: url('images/stock/liga_mx_cover.png');"></div>
+          <div class="category-overlay"></div>
+          <div class="category-info">
+            <h3 class="category-name">LIGA MX</h3>
+            <span class="category-sub">Jerseys oficiales, retro y de temporada</span>
+          </div>
+          <span class="category-btn">VER MÁS &gt;</span>
+        </a>
+
+        <!-- Cat 2: MÁS VENDIDOS -->
+        <a href="javascript:void(0)" class="category-card" onclick="goToTopCategory('MAS VENDIDOS'); return false;">
           <div class="category-bg" style="background-image: url('https://images.unsplash.com/photo-1552346154-21d32810aba3?w=800&auto=format&fit=crop&q=80');"></div>
+          <div class="category-overlay"></div>
+          <div class="category-info">
+            <h3 class="category-name">MÁS VENDIDOS</h3>
+            <span class="category-sub">Los favoritos y más pedidos por la comunidad</span>
+          </div>
+          <span class="category-btn" style="color: var(--gold-amber); border-color: var(--gold-amber);">PRÓXIMAMENTE</span>
+        </a>
+
+        <!-- Cat 3: ON CLOUD -->
+        <a href="#modo-compra" class="category-card" onclick="goToTopCategory('ON CLOUD'); return false;">
+          <div class="category-bg" style="background-image: url('https://chunchimayorista.com/wp-content/uploads/2026/10/ON总1/1/1.jpg');"></div>
+          <div class="category-overlay"></div>
+          <div class="category-info">
+            <h3 class="category-name">ON CLOUD</h3>
+            <span class="category-sub">Tenis deportivos y running de máxima comodidad</span>
+          </div>
+          <span class="category-btn">VER MÁS &gt;</span>
+        </a>
+
+        <!-- Cat 4: BOSS -->
+        <a href="#modo-compra" class="category-card" onclick="goToTopCategory('BOSS'); return false;">
+          <div class="category-bg" style="background-image: url('https://yoo.fozogutruong.workers.dev/img?url=https%3A%2F%2Fphoto.yupoo.com%2Fsrzhao8888%2F181e79ab5f%2Fsmall.jpg');"></div>
+          <div class="category-overlay"></div>
+          <div class="category-info">
+            <h3 class="category-name">BOSS</h3>
+            <span class="category-sub">Playeras, polos y estilo casual premium</span>
+          </div>
+          <span class="category-btn">VER MÁS &gt;</span>
+        </a>
+
+        <!-- Cat 5: MAYOREO -->
+        <a href="javascript:void(0)" class="category-card" onclick="goToTopCategory('MAYOREO'); return false;">
+          <div class="category-bg" style="background-image: url('https://images.unsplash.com/photo-1544441893-675973e31985?w=800&auto=format&fit=crop&q=80');"></div>
+          <div class="category-overlay"></div>
+          <div class="category-info">
+            <h3 class="category-name">MAYOREO</h3>
+            <span class="category-sub">Lotes especiales y precios para revendedores</span>
+          </div>
+          <span class="category-btn" style="color: var(--gold-amber); border-color: var(--gold-amber);">PRÓXIMAMENTE</span>
+        </a>
+      </div>
           <div class="category-overlay"></div>
           <div class="category-info">
             <h3 class="category-name">Calzado &amp; Sneakers</h3>
@@ -2432,7 +2484,7 @@ h1, h2, h3, h4, .font-heading {
     </div>
   </aside>
 
-<script src="js/app.js?v=1791920523"></script>
+<script src="js/app.js?v=1791924010"></script>
 <!-- Quick View Modal -->
 <div id="quickview-modal" class="qv-modal" onclick="if(event.target===this) closeQuickView()">
   <div class="qv-content">
