@@ -1,5 +1,24 @@
 [
   {
+    "id": "stock-1791927654323",
+    "name": "Polo Fila OG",
+    "category": "sneakers",
+    "price": 300,
+    "retailPrice": 450,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_3.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
     "id": "stock-1791927615291",
     "name": "Sudadera Nike ",
     "category": "sneakers",
