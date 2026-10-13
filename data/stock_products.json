@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791927036773",
+    "name": "Hellstar",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_5.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
     "id": "stock-1791926979688",
     "name": "AMIRI ",
     "category": "sneakers",
