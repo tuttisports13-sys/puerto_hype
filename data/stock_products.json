@@ -1,5 +1,27 @@
 [
   {
+    "id": "stock-1791932133237",
+    "name": "Nike Sacai ",
+    "category": "sneakers",
+    "price": 1000,
+    "retailPrice": 1500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_6.jpg"
+    ],
+    "sizes": [
+      "25.5"
+    ]
+  },
+  {
     "id": "stock-1791928178026",
     "name": "Chamarra New Balance ",
     "category": "sneakers",
