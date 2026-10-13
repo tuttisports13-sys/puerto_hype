@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791924534698",
+    "name": "“Lamine Yamal” Barcelona Local 26/27",
+    "category": "sneakers",
+    "price": 700,
+    "retailPrice": 1050,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_5.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
     "id": "stock-1791924456623",
     "name": "Crocs Buzz Lightyear ",
     "category": "sneakers",
