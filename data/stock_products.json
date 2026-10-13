@@ -1,5 +1,27 @@
 [
   {
+    "id": "stock-1791926556795",
+    "name": "Real Madrid Visita 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_5.jpg"
+    ],
+    "sizes": [
+      "L",
+      "XL"
+    ]
+  },
+  {
     "id": "stock-1791926476601",
     "name": "Manchester United Local 26/27",
     "category": "sneakers",
