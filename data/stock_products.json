@@ -1,5 +1,24 @@
 [
   {
+    "id": "stock-1791927584699",
+    "name": "Pantalón Levi’s ",
+    "category": "sneakers",
+    "price": 350,
+    "retailPrice": 525,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_3.jpg"
+    ],
+    "sizes": [
+      "L"
+    ]
+  },
+  {
     "id": "stock-1791927527766",
     "name": "Polo Náutica niño",
     "category": "sneakers",
