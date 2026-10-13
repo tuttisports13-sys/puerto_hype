@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1791932528008",
+    "name": "Spikes Nike ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_5.jpg"
+    ],
+    "sizes": [
+      "25"
+    ]
+  },
+  {
     "id": "stock-1791932436969",
     "name": "Jordan 1 mid alternate swooshes",
     "category": "sneakers",
