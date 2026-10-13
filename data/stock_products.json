@@ -1,5 +1,24 @@
 [
   {
+    "id": "stock-1791927922757",
+    "name": "Conjunto DFYNE",
+    "category": "sneakers",
+    "price": 400,
+    "retailPrice": 600,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_3.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
     "id": "stock-1791927882099",
     "name": "Brooks Ghost ",
     "category": "sneakers",
