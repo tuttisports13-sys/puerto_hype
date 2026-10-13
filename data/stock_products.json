@@ -1,5 +1,24 @@
 [
   {
+    "id": "stock-1791933358391",
+    "name": "Polo Tommy Hilfiger OG",
+    "category": "sneakers",
+    "price": 500,
+    "retailPrice": 750,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_3.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
     "id": "stock-1791933297694",
     "name": "Nike Phantom Elite",
     "category": "sneakers",
