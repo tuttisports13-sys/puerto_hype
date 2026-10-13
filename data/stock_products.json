@@ -1,5 +1,25 @@
 [
   {
+    "id": "stock-1791928132942",
+    "name": "Adidas Ultraboost ",
+    "category": "sneakers",
+    "price": 500,
+    "retailPrice": 750,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_4.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
     "id": "stock-1791927984961",
     "name": "On cloud compresión ",
     "category": "sneakers",
