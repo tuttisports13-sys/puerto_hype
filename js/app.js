@@ -201298,3 +201298,46 @@ window.showCategory = function(mode, cat) {
     document.getElementById('productos')?.scrollIntoView({ behavior: 'smooth' });
   }
 };
+
+window.goToTopCategory = function(cat) {
+  if (cat === 'LIGA MX') {
+    const btnSports = document.getElementById('btn-preorder-sports');
+    if (btnSports) btnSports.click();
+    setTimeout(() => {
+      const pill = document.querySelector('#filters-sports .filter-pill[data-filter="liga_mx"]');
+      if (pill) pill.click();
+      const target = document.getElementById('modo-compra') || document.getElementById('productos');
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    }, 120);
+  } else if (cat === 'ON CLOUD') {
+    const btnPreorder = document.getElementById('btn-preorder');
+    if (btnPreorder) btnPreorder.click();
+    setTimeout(() => {
+      const pill = document.querySelector('#filters-preorder .filter-pill[data-filter="ON CLOUD"]');
+      if (pill) pill.click();
+      const target = document.getElementById('modo-compra') || document.getElementById('productos');
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    }, 120);
+  } else if (cat === 'BOSS') {
+    const btnPreorder = document.getElementById('btn-preorder');
+    if (btnPreorder) btnPreorder.click();
+    setTimeout(() => {
+      const pill = document.querySelector('#filters-preorder .filter-pill[data-filter="Boss"]');
+      if (pill) pill.click();
+      const target = document.getElementById('modo-compra') || document.getElementById('productos');
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    }, 120);
+  } else if (cat === 'MAS VENDIDOS') {
+    if (typeof showToast === 'function') {
+      showToast('🔥 MÁS VENDIDOS: Próximamente disponible');
+    } else {
+      alert('🔥 MÁS VENDIDOS: Próximamente disponible');
+    }
+  } else if (cat === 'MAYOREO') {
+    if (typeof showToast === 'function') {
+      showToast('📦 MAYOREO: Próximamente disponible');
+    } else {
+      alert('📦 MAYOREO: Próximamente disponible');
+    }
+  }
+};
