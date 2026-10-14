@@ -201768,10 +201768,14 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     return;
   }
 
-  container.innerHTML = filtered.map(product => `
+  container.innerHTML = filtered.map(product => {
+    const rawPrice = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 499;
+    const retailPrice = Math.round(rawPrice * 1.65);
+    const badgeText = product.badge || 'Lotes limitados';
+    return `
     <article class="product-card" data-id="${product.id}">
       <div class="product-thumb">
-        <span class="product-badge ${product.badgeType}">${product.badge}</span>
+        <span class="product-badge ${product.badgeType || ''}">${badgeText}</span>
         <img 
           class="product-img" onclick="openQuickView('${product.id}')" style="cursor: pointer;" 
           src="${product.image}" 
@@ -201782,14 +201786,20 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
       </div>
       <div class="product-body">
         <h3 class="product-name">${product.name}</h3>
-<div class="product-sizes" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
-  ${product.sizes && product.sizes.length > 0 ? 'Talla: ' + product.sizes.join(', ') : ''}
-  ${product.password ? '<span style="color:var(--neon-lime); display:block; margin-top:5px;">' + product.password + '</span>' : ''}
-</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span class="count">(42)</span>
+        </div>
+        <div class="product-sizes" style="font-size: 0.74rem; color: var(--text-muted); margin-bottom: 6px;">
+          ${product.sizes && product.sizes.length > 0 ? 'Tallas: ' + product.sizes.join(', ') : ''}
+          ${product.password ? '<span style="color:var(--text-primary); font-weight:700; display:block; margin-top:3px;">' + product.password + '</span>' : ''}
+        </div>
 
 ${product.isFolder || product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
 <div class="product-pricing">
   <span class="price-wholesale">${product.hasVersionSelector ? '$550 - $650 MXN' : '$' + product.price + ' MXN'}</span>
+  <span class="price-retail">$${retailPrice.toLocaleString()} MXN</span>
+  <span class="product-discount-badge">-40% OFF</span>
 </div>
 `}
 
@@ -201808,14 +201818,14 @@ ${product.isFolder || product.section === 'preorder' || (product.section === 'pr
         <circle cx="20" cy="21" r="1"></circle>
         <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
       </svg>
-      AGREGAR
+      AGREGAR AL CARRITO
     </button>
   `}
 </div>
 
       </div>
     </article>
-  `).join('');
+  `;}).join('');
 }
 
 // Configurar escuchadores de eventos interactivos
@@ -201845,14 +201855,13 @@ function setupEventListeners() {
       AppState.currentMode = 'stock';
       AppState.currentFilter = 'all';
       
-      btnStock.style.background = 'var(--neon-lime)';
-      if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#12141a'; document.getElementById('btn-preorder-sports').style.color = 'var(--text-secondary)'; document.getElementById('btn-preorder-sports').style.border = '2px solid var(--bg-card-border)'; }
-      btnStock.style.color = 'var(--text-dark)';
-      btnStock.style.border = '2px solid var(--neon-lime)';
-      
-      btnPreorder.style.background = '#12141a';
-      btnPreorder.style.color = 'var(--text-secondary)';
-      btnPreorder.style.border = '2px solid var(--bg-card-border)';
+      btnStock.style.background = '#000000';
+      btnStock.style.color = '#ffffff';
+      btnStock.style.border = '2px solid #000000';
+      if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#ffffff'; document.getElementById('btn-preorder-sports').style.color = '#4b5563'; document.getElementById('btn-preorder-sports').style.border = '1.5px solid var(--border-subtle)'; }
+      btnPreorder.style.background = '#ffffff';
+      btnPreorder.style.color = '#4b5563';
+      btnPreorder.style.border = '1.5px solid var(--border-subtle)';
       
       if (filtersStock) filtersStock.style.display = 'none';
       if (filtersPreorder) filtersPreorder.style.display = 'none';
@@ -201871,14 +201880,13 @@ function setupEventListeners() {
       AppState.currentMode = 'preorder';
       AppState.currentFilter = 'Hellstar';
       
-      btnPreorder.style.background = 'var(--neon-lime)';
-      if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#12141a'; document.getElementById('btn-preorder-sports').style.color = 'var(--text-secondary)'; document.getElementById('btn-preorder-sports').style.border = '2px solid var(--bg-card-border)'; }
-      btnPreorder.style.color = 'var(--text-dark)';
-      btnPreorder.style.border = '2px solid var(--neon-lime)';
-      
-      btnStock.style.background = '#12141a';
-      btnStock.style.color = 'var(--text-secondary)';
-      btnStock.style.border = '2px solid var(--bg-card-border)';
+      btnPreorder.style.background = '#000000';
+      btnPreorder.style.color = '#ffffff';
+      btnPreorder.style.border = '2px solid #000000';
+      if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#ffffff'; document.getElementById('btn-preorder-sports').style.color = '#4b5563'; document.getElementById('btn-preorder-sports').style.border = '1.5px solid var(--border-subtle)'; }
+      btnStock.style.background = '#ffffff';
+      btnStock.style.color = '#4b5563';
+      btnStock.style.border = '1.5px solid var(--border-subtle)';
       
       if (filtersStock) filtersStock.style.display = 'none';
       filtersPreorder.style.display = 'flex';
@@ -201918,17 +201926,15 @@ if (btnPreorderSports) {
     if(filtersSports) filtersSports.style.display = 'flex';
 
     
-    btnPreorderSports.style.background = 'var(--neon-lime)';
-    btnPreorderSports.style.color = 'var(--text-dark)';
-    btnPreorderSports.style.border = '2px solid var(--neon-lime)';
-    
-    btnStock.style.background = '#12141a';
-    btnStock.style.color = 'var(--text-secondary)';
-    btnStock.style.border = '2px solid var(--bg-card-border)';
-    
-    btnPreorder.style.background = '#12141a';
-    btnPreorder.style.color = 'var(--text-secondary)';
-    btnPreorder.style.border = '2px solid var(--bg-card-border)';
+    btnPreorderSports.style.background = '#000000';
+    btnPreorderSports.style.color = '#ffffff';
+    btnPreorderSports.style.border = '2px solid #000000';
+    btnStock.style.background = '#ffffff';
+    btnStock.style.color = '#4b5563';
+    btnStock.style.border = '1.5px solid var(--border-subtle)';
+    btnPreorder.style.background = '#ffffff';
+    btnPreorder.style.color = '#4b5563';
+    btnPreorder.style.border = '1.5px solid var(--border-subtle)';
     
     const preorderBanner = document.getElementById('preorder-banner');
         if (preorderBanner) preorderBanner.style.display = 'block';
@@ -202465,7 +202471,7 @@ function openQuickView(productId) {
   const sizeContainer = document.getElementById('qv-sizes');
   if (sizeContainer && product.sizes && product.sizes.length > 0) {
     sizeContainer.innerHTML = product.sizes.map((s, i) => `
-      <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1px solid ${i === 0 ? 'var(--neon-lime)' : 'var(--border-color)'}; background: ${i === 0 ? 'var(--neon-lime)' : 'transparent'}; color: ${i === 0 ? '#000' : 'white'}; font-weight: ${i === 0 ? 'bold' : 'normal'}; border-radius: 4px; cursor: pointer; font-size: 0.85rem;">
+      <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1.5px solid ${i === 0 ? '#000000' : 'var(--border-subtle)'}; background: ${i === 0 ? '#000000' : '#ffffff'}; color: ${i === 0 ? '#ffffff' : '#000000'}; font-weight: 800; border-radius: 6px; cursor: pointer; font-size: 0.85rem;">
         ${s}
       </button>
     `).join('');
@@ -202542,16 +202548,16 @@ function selectQvSize(btn) {
   btn.classList.add('active');
   
   // Make active button a solid green box
-  btn.style.backgroundColor = 'var(--neon-lime)';
-  btn.style.borderColor = 'var(--neon-lime)';
-  btn.style.color = '#000';
-  btn.style.fontWeight = 'bold';
+  btn.style.backgroundColor = '#000000';
+  btn.style.borderColor = '#000000';
+  btn.style.color = '#ffffff';
+  btn.style.fontWeight = '800';
   
   // reset others visually
   document.querySelectorAll('.qv-size-btn:not(.active)').forEach(b => {
-    b.style.backgroundColor = 'transparent';
-    b.style.borderColor = 'var(--border-color)';
-    b.style.color = 'white';
+    b.style.backgroundColor = '#ffffff';
+    b.style.borderColor = 'var(--border-subtle)';
+    b.style.color = '#000000';
     b.style.fontWeight = 'normal';
   });
 }
