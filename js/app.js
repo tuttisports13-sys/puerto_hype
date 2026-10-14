@@ -201718,6 +201718,9 @@ async function initApp() {
     renderProducts();
   }
   updateCartUI();
+  if (typeof window.updateUserUI === 'function') {
+    window.updateUserUI();
+  }
 }
 
 if (document.readyState === 'loading') {
@@ -202264,7 +202267,28 @@ function sendOrderViaWhatsApp() {
   const summary = calculateWholesaleSummary();
   if (AppState.cart.length === 0) return;
 
+  const currentUser = window.UserManager ? window.UserManager.getCurrentUser() : null;
+
+  // Registrar pedido en el historial de compras del usuario
+  let registeredOrder = null;
+  if (window.UserManager && typeof window.UserManager.saveOrder === 'function') {
+    registeredOrder = window.UserManager.saveOrder({
+      items: AppState.cart,
+      totalPieces: summary.totalPieces,
+      subtotal: summary.subtotal,
+      total: summary.total,
+      hasPreorderItems: summary.hasPreorderItems
+    });
+  }
+
+  const orderFolio = registeredOrder ? registeredOrder.folio : ('#PH-' + Math.floor(10000 + Math.random() * 90000));
+
   let message = `🔥 *NUEVO PEDIDO - PUERTO HYPE* 🔥\n`;
+  message += `━━━━━━━━━━━━━━━━━━━━━\n`;
+  message += `🔖 *FOLIO DE PEDIDO:* ${orderFolio}\n`;
+  if (currentUser) {
+    message += `👤 *CLIENTE REGISTRADO:* @${currentUser.username} (${currentUser.email})\n`;
+  }
   message += `━━━━━━━━━━━━━━━━━━━━━\n`;
   message += `Hola! Quiero cotizar y apartar las siguientes piezas:\n\n`;
 
@@ -202294,6 +202318,20 @@ function sendOrderViaWhatsApp() {
 
   const url = `https://wa.me/${AppState.whatsappNumber}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
+
+  // Notificar al usuario y limpiar carrito
+  if (currentUser) {
+    showToast(`¡Pedido ${orderFolio} guardado en tu historial!`);
+  } else {
+    showToast(`¡Pedido ${orderFolio} generado!`);
+  }
+  AppState.cart = [];
+  saveCart();
+  updateCartUI();
+  const cartDrawer = document.getElementById('cart-drawer');
+  const cartOverlay = document.getElementById('cart-overlay');
+  if (cartDrawer) cartDrawer.classList.remove('open');
+  if (cartOverlay) cartOverlay.classList.remove('open');
 }
 
 // Mostrar Toast
