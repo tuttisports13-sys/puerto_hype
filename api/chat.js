@@ -21,7 +21,7 @@ REGLAS ESTRICTAS DE PRECIOS Y PRODUCTOS (MAYOREO Y MENUDEO):
   * De 10 a 14 piezas: Precio menor (mayor descuento).
   * De 15 a 49 piezas: Precio aún menor.
   * De 50 piezas en adelante: El precio más bajo disponible.
-- Jerseys Versión Aficionado (Fútbol): $550 MXN.
+- Jerseys Versión Aficionado (Fútbol): $600 MXN.
 - Jerseys Versión Jugador (Fútbol): $650 MXN.
 - Conjuntos o Jerseys de fútbol para Niño: $650 MXN.
 - Jerseys de NBA, Fórmula 1 (F1), MLB y NFL: $750 MXN.
