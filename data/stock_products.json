@@ -1,5 +1,24 @@
 [
   {
+    "id": "stock-1791939276095",
+    "name": "Crocs Rayo Mcqueen ",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_3.jpg"
+    ],
+    "sizes": [
+      "26 cm"
+    ]
+  },
+  {
     "id": "stock-1791936761132",
     "name": "Liverpool Local 26/27",
     "category": "sneakers",
