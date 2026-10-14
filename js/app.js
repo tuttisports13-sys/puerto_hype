@@ -62804,7 +62804,1557 @@ const SPORTS_PRODUCTS = [
   }
 ];
 
-let STOCK_PRODUCTS = [];
+let STOCK_PRODUCTS = [
+  {
+    "id": "stock-1791939276095",
+    "name": "Crocs Rayo Mcqueen ",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791939270677_3.jpg"
+    ],
+    "sizes": [
+      "26 cm"
+    ]
+  },
+  {
+    "id": "stock-1791936761132",
+    "name": "Liverpool Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936753963_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936753963_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936753963_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936753963_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936753963_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936753963_4.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791936613067",
+    "name": "Chelsea Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936607146_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936607146_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936607146_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936607146_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936607146_3.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791936504576",
+    "name": "Psg visita 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936497577_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936497577_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936497577_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936497577_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936497577_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936497577_4.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791936413710",
+    "name": "Liverpool Visita ",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936408597_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936408597_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936408597_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936408597_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936408597_3.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791936278168",
+    "name": "Pumas Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936272781_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936272781_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936272781_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936272781_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936272781_3.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791936217794",
+    "name": "Pumas Visita 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936211619_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936211619_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936211619_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936211619_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936211619_3.jpg"
+    ],
+    "sizes": [
+      "XL"
+    ]
+  },
+  {
+    "id": "stock-1791936156978",
+    "name": "Chivas Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936151124_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936151124_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936151124_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936151124_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936151124_3.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791936058896",
+    "name": "Bayern Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936051467_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936051467_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936051467_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936051467_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936051467_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936051467_4.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791935998863",
+    "name": "Real Madrid Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791935852924",
+    "name": "América Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935847080_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935847080_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935847080_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935847080_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935847080_3.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "stock-1791935736730",
+    "name": "Cruz azul Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935730636_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935730636_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935730636_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935730636_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935730636_3.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791935648432",
+    "name": "Barcelona Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935642064_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935642064_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935642064_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935642064_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935642064_3.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791933358391",
+    "name": "Polo Tommy Hilfiger OG",
+    "category": "sneakers",
+    "price": 500,
+    "retailPrice": 750,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933351951_3.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791933297694",
+    "name": "Nike Phantom Elite",
+    "category": "sneakers",
+    "price": 3000,
+    "retailPrice": 4500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933290930_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933290930_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933290930_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933290930_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933290930_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933290930_4.jpg"
+    ],
+    "sizes": [
+      "27"
+    ]
+  },
+  {
+    "id": "stock-1791933240115",
+    "name": "Nike Tiempo Legend X elite ",
+    "category": "sneakers",
+    "price": 3000,
+    "retailPrice": 4500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933232210_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
+    "id": "stock-1791933088249",
+    "name": "Barbas hats B star",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933081827_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933081827_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933081827_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933081827_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933081827_3.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791933021718",
+    "name": "Dandy hats x Fuerza Regida",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791933014242_5.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791932976360",
+    "name": "Rude Awakenings x Tombochio",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932969682_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932969682_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932969682_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932969682_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932969682_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932969682_4.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791932904323",
+    "name": "Barbas hats x CT ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932898240_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932898240_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932898240_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932898240_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932898240_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932898240_4.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791932775918",
+    "name": "Spikes Nike ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932767464_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
+    "id": "stock-1791932578190",
+    "name": "Spikes Nike ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932570340_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932570340_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932570340_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932570340_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932570340_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932570340_4.jpg"
+    ],
+    "sizes": [
+      "25"
+    ]
+  },
+  {
+    "id": "stock-1791932528008",
+    "name": "Spikes Nike ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932518400_5.jpg"
+    ],
+    "sizes": [
+      "25"
+    ]
+  },
+  {
+    "id": "stock-1791932436969",
+    "name": "Jordan 1 mid alternate swooshes",
+    "category": "sneakers",
+    "price": 1000,
+    "retailPrice": 1500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932429420_4.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
+    "id": "stock-1791932319975",
+    "name": "Saoucony Endorphin ",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_6.jpg"
+    ],
+    "sizes": [
+      "24"
+    ]
+  },
+  {
+    "id": "stock-1791932236890",
+    "name": "Adidas ",
+    "category": "sneakers",
+    "price": 500,
+    "retailPrice": 750,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932227775_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932227775_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932227775_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932227775_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932227775_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932227775_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932227775_5.jpg"
+    ],
+    "sizes": [
+      "25"
+    ]
+  },
+  {
+    "id": "stock-1791932201075",
+    "name": "Jordan series S ",
+    "category": "sneakers",
+    "price": 750,
+    "retailPrice": 1125,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932190890_5.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
+    "id": "stock-1791932133237",
+    "name": "Nike Sacai ",
+    "category": "sneakers",
+    "price": 1000,
+    "retailPrice": 1500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932122319_6.jpg"
+    ],
+    "sizes": [
+      "25.5"
+    ]
+  },
+  {
+    "id": "stock-1791928178026",
+    "name": "Chamarra New Balance ",
+    "category": "sneakers",
+    "price": 350,
+    "retailPrice": 525,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928173220_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928173220_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928173220_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928173220_2.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791928132942",
+    "name": "Adidas Ultraboost ",
+    "category": "sneakers",
+    "price": 500,
+    "retailPrice": 750,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791928125359_4.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
+    "id": "stock-1791927984961",
+    "name": "On cloud compresión ",
+    "category": "sneakers",
+    "price": 350,
+    "retailPrice": 525,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927980803_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927980803_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927980803_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927980803_2.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791927922757",
+    "name": "Conjunto DFYNE",
+    "category": "sneakers",
+    "price": 400,
+    "retailPrice": 600,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927917429_3.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791927882099",
+    "name": "Brooks Ghost ",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927871310_6.jpg"
+    ],
+    "sizes": [
+      "26"
+    ]
+  },
+  {
+    "id": "stock-1791927738749",
+    "name": "Suéter american Eagle mujer ",
+    "category": "sneakers",
+    "price": 200,
+    "retailPrice": 300,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927734541_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927734541_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927734541_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927734541_2.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791927701508",
+    "name": "Rompevientos UNDER ARMOUR mujer ",
+    "category": "sneakers",
+    "price": 350,
+    "retailPrice": 525,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927697321_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927697321_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927697321_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927697321_2.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791927654323",
+    "name": "Polo Fila OG",
+    "category": "sneakers",
+    "price": 300,
+    "retailPrice": 450,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927646845_3.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791927615291",
+    "name": "Sudadera Nike ",
+    "category": "sneakers",
+    "price": 250,
+    "retailPrice": 375,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927610881_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927610881_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927610881_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927610881_2.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791927584699",
+    "name": "Pantalón Levi’s ",
+    "category": "sneakers",
+    "price": 350,
+    "retailPrice": 525,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927578559_3.jpg"
+    ],
+    "sizes": [
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791927527766",
+    "name": "Polo Náutica niño",
+    "category": "sneakers",
+    "price": 120,
+    "retailPrice": 180,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927522083_3.jpg"
+    ],
+    "sizes": [
+      "14"
+    ]
+  },
+  {
+    "id": "stock-1791927486262",
+    "name": "Suéter TOMMY HILFIGER OG",
+    "category": "sneakers",
+    "price": 500,
+    "retailPrice": 750,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927481216_2.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791927341612",
+    "name": "Hellstar ",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927331609_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927331609_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927331609_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927331609_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927331609_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927331609_4.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791927113356",
+    "name": "AMIRI ",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927107259_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927107259_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927107259_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927107259_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927107259_3.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791927080124",
+    "name": "AMIRI",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927074061_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927074061_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927074061_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927074061_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927074061_3.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791927036773",
+    "name": "Hellstar",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791927027177_5.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791926979688",
+    "name": "AMIRI ",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926971556_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926971556_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926971556_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926971556_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926971556_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926971556_4.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791926829458",
+    "name": "Chivas Visita 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926822345_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926822345_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926822345_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926822345_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926822345_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926822345_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791926696766",
+    "name": "América Visita 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_4.jpg"
+    ],
+    "sizes": [
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "stock-1791926556795",
+    "name": "Real Madrid Visita 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_5.jpg"
+    ],
+    "sizes": [
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "stock-1791926476601",
+    "name": "Manchester United Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926466834_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926466834_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926466834_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926466834_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926466834_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926466834_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926466834_5.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791926423045",
+    "name": "Manchester City Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926413727_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791926341653",
+    "name": "PSG Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926333925_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926333925_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926333925_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926333925_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926333925_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926333925_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791926295642",
+    "name": "Barcelona Visita “Kobe Bryant”",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926286401_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": "stock-1791926192089",
+    "name": "Toluca Local 26/27 ",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926184359_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926184359_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926184359_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926184359_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926184359_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926184359_4.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791926129522",
+    "name": "Francia Local 98 ",
+    "category": "sneakers",
+    "price": 750,
+    "retailPrice": 1125,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926122174_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926122174_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926122174_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926122174_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926122174_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926122174_4.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791926042142",
+    "name": "“Ronaldo” Portugal 2026",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926030982_5.jpg"
+    ],
+    "sizes": [
+      "XL"
+    ]
+  },
+  {
+    "id": "stock-1791925972947",
+    "name": "Leggins ALO “Acampanados” ",
+    "category": "sneakers",
+    "price": 300,
+    "retailPrice": 450,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925968522_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925968522_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925968522_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925968522_2.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791925827406",
+    "name": "Sudadera Lululemon ",
+    "category": "sneakers",
+    "price": 400,
+    "retailPrice": 600,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925818782_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925818782_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925818782_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925818782_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925818782_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925818782_4.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791925150129",
+    "name": "Blusa DFYNE",
+    "category": "sneakers",
+    "price": 250,
+    "retailPrice": 375,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925143839_3.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791925011726",
+    "name": "Puma Palace",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925004618_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925004618_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925004618_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925004618_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925004618_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791925004618_4.jpg"
+    ],
+    "sizes": [
+      "26.5 cm"
+    ]
+  },
+  {
+    "id": "stock-1791924886560",
+    "name": "Noruega Local 2026 ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924878284_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924878284_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924878284_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924878284_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924878284_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924878284_4.jpg"
+    ],
+    "sizes": [
+      "XL"
+    ]
+  },
+  {
+    "id": "stock-1791924779554",
+    "name": "Argentina Local 2006 OVERSIZE ",
+    "category": "sneakers",
+    "price": 750,
+    "retailPrice": 1125,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924771209_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924771209_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924771209_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924771209_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924771209_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924771209_4.jpg"
+    ],
+    "sizes": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-1791924692831",
+    "name": "Van Cleef ",
+    "category": "sneakers",
+    "price": 1000,
+    "retailPrice": 1500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924685324_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924685324_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924685324_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924685324_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924685324_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924685324_4.jpg"
+    ],
+    "sizes": [
+      "Unitalla"
+    ]
+  },
+  {
+    "id": "stock-1791924625466",
+    "name": "Gymshark compresión ",
+    "category": "sneakers",
+    "price": 600,
+    "retailPrice": 900,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924618842_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924618842_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924618842_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924618842_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924618842_3.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791924534698",
+    "name": "“Lamine Yamal” Barcelona Local 26/27",
+    "category": "sneakers",
+    "price": 700,
+    "retailPrice": 1050,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924524097_5.jpg"
+    ],
+    "sizes": [
+      "M"
+    ]
+  },
+  {
+    "id": "stock-1791924456623",
+    "name": "Crocs Buzz Lightyear ",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924450612_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924450612_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924450612_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924450612_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924450612_3.jpg"
+    ],
+    "sizes": [
+      "26 cm"
+    ]
+  },
+  {
+    "id": "stock-1791924277716",
+    "name": "Nike MIND ",
+    "category": "sneakers",
+    "price": 950,
+    "retailPrice": 1425,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924270032_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924270032_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924270032_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924270032_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924270032_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924270032_4.jpg"
+    ],
+    "sizes": [
+      "25 cm"
+    ]
+  },
+  {
+    "id": "stock-1791924201912",
+    "name": "Crocs Spiderman",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924195060_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924195060_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924195060_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924195060_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924195060_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924195060_4.jpg"
+    ],
+    "sizes": [
+      "26 cm"
+    ]
+  },
+  {
+    "id": "stock-1791924142152",
+    "name": "Crocs Kuromi",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791924135344_4.jpg"
+    ],
+    "sizes": [
+      "25 cm"
+    ]
+  },
+  {
+    "id": "stock-1790655730802",
+    "name": "Adidas Copa Mundial",
+    "category": "sneakers",
+    "price": 3000,
+    "retailPrice": 4500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655725133_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655725133_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655725133_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655725133_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655725133_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655725133_4.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
+    "id": "stock-1790655660577",
+    "name": "Mercurial Elite OG ",
+    "category": "sneakers",
+    "price": 3000,
+    "retailPrice": 4500,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655652915_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
+    "id": "stock-1790655236272",
+    "name": "Brooks adrenaline ",
+    "category": "sneakers",
+    "price": 800,
+    "retailPrice": 1200,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655228196_6.jpg"
+    ],
+    "sizes": [
+      "28"
+    ]
+  },
+  {
+    "id": "stock-1790655046040",
+    "name": "On cloud Rogers ",
+    "category": "sneakers",
+    "price": 1200,
+    "retailPrice": 1800,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655038494_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655038494_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655038494_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655038494_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655038494_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655038494_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1790655038494_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
+    "id": "stock-1790653306497",
+    "name": "Adidas supernova",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "images/stock/stock_1790653299977_0.jpg",
+    "gallery": [
+      "images/stock/stock_1790653299977_0.jpg",
+      "images/stock/stock_1790653299977_1.jpg",
+      "images/stock/stock_1790653299977_2.jpg",
+      "images/stock/stock_1790653299977_3.jpg",
+      "images/stock/stock_1790653299977_4.jpg",
+      "images/stock/stock_1790653299977_5.jpg"
+    ],
+    "sizes": [
+      "26.5"
+    ]
+  },
+  {
+    "id": "stock-002",
+    "name": "Puma",
+    "category": "sneakers",
+    "price": 650,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2244.jpg",
+    "gallery": [
+      "images/stock/IMG_2244.jpg",
+      "images/stock/IMG_2245.jpg",
+      "images/stock/IMG_2246.jpg",
+      "images/stock/IMG_2247.jpg",
+      "images/stock/IMG_2249.jpg",
+      "images/stock/IMG_2250.jpg"
+    ],
+    "sizes": [
+      "26.5 cm"
+    ]
+  },
+  {
+    "id": "stock-003",
+    "name": "Hoka Clifton",
+    "category": "sneakers",
+    "price": 1000,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2236.jpg",
+    "gallery": [
+      "images/stock/IMG_2236.jpg",
+      "images/stock/IMG_2237.jpg",
+      "images/stock/IMG_2238.jpg",
+      "images/stock/IMG_2240.jpg",
+      "images/stock/IMG_2242.jpg",
+      "images/stock/IMG_2243.jpg"
+    ],
+    "sizes": [
+      "26.5 cm"
+    ]
+  },
+  {
+    "id": "stock-004",
+    "name": "Jordan 1 Low",
+    "category": "sneakers",
+    "price": 1300,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2189.jpg",
+    "gallery": [
+      "images/stock/IMG_2189.jpg",
+      "images/stock/IMG_2190.jpg",
+      "images/stock/IMG_2191.jpg",
+      "images/stock/IMG_2192.jpg",
+      "images/stock/IMG_2193.jpg",
+      "images/stock/IMG_2194.jpg"
+    ],
+    "sizes": [
+      "7.5 MX"
+    ]
+  },
+  {
+    "id": "stock-005",
+    "name": "Reebok x Joker",
+    "category": "sneakers",
+    "price": 650,
+    "badge": "STOCK",
+    "badgeType": "badge-hot",
+    "image": "images/stock/IMG_2195.jpg",
+    "gallery": [
+      "images/stock/IMG_2195.jpg",
+      "images/stock/IMG_2196.jpg",
+      "images/stock/IMG_2197.jpg",
+      "images/stock/IMG_2198.jpg"
+    ],
+    "sizes": [
+      "6.5 MX"
+    ]
+  }
+];
 
 // Estado global de la aplicación
 // Catálogo de Pre-orden (Generado)
@@ -200094,9 +201644,9 @@ const PREORDER_PRODUCTS = [
 
 // Add mode to AppState
 const AppState = {
-  currentMode: 'none', // 'stock' or 'preorder'
+  currentMode: 'stock', // 'stock' or 'preorder'
   cart: JSON.parse(localStorage.getItem('puerto_hype_cart') || '[]').map(item => ({ ...item, cartItemId: item.cartItemId || Date.now().toString() + Math.random().toString() })),
-  currentFilter: 'none',
+  currentFilter: 'all',
   searchQuery: '',
   whatsappNumber: '5212294135613'
 };
@@ -200143,19 +201693,38 @@ PREORDER_PRODUCTS.forEach(p => {
 // ------------------------------------------------
 
 
-document.addEventListener('DOMContentLoaded', async () => {
+async function initApp() {
   try {
-    const res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
+    let res = await fetch(`data/stock_products.json?t=${Date.now()}`);
+    if (!res.ok) {
+      res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
+    }
     if (res.ok) {
       STOCK_PRODUCTS = await res.json();
     }
   } catch (e) {
-    console.error('Error fetching stock products:', e);
+    try {
+      const res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
+      if (res.ok) STOCK_PRODUCTS = await res.json();
+    } catch(err) {
+      console.error('Error fetching stock products:', err);
+    }
   }
-  renderProducts();
   setupEventListeners();
+  const btnStock = document.getElementById('btn-stock');
+  if (btnStock) {
+    btnStock.click();
+  } else {
+    renderProducts();
+  }
   updateCartUI();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}
 
 // Renderizar la cuadrícula de productos con filtrado
 function renderProducts() {
@@ -200169,8 +201738,8 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
 
   const filtered = currentProducts.filter(prod => {
     const isSearching = AppState.searchQuery.trim().length > 0;
-    // Si NO está buscando, ocultar productos individuales en la vista principal 'all'
-    if (!isSearching && AppState.currentFilter === 'all' && !prod.isFolder && !prod.category.endsWith('_folder')) return false;
+    // Si NO está buscando y estamos en deportes, ocultar productos individuales en la vista principal 'all'
+    if (AppState.currentMode === 'preorder-sports' && !isSearching && AppState.currentFilter === 'all' && !prod.isFolder && !prod.category?.endsWith('_folder')) return false;
     
     // Si ESTÁ buscando, ignoramos el filtro de categoría para buscar en TODO el catálogo
     const matchesCategory = isSearching || AppState.currentFilter === 'all' || 
@@ -200271,7 +201840,7 @@ function setupEventListeners() {
   if (btnStock && btnPreorder) {
     btnStock.addEventListener('click', () => {
       AppState.currentMode = 'stock';
-      AppState.currentFilter = 'sneakers';
+      AppState.currentFilter = 'all';
       
       btnStock.style.background = 'var(--neon-lime)';
       if(document.getElementById('btn-preorder-sports')){ document.getElementById('btn-preorder-sports').style.background = '#12141a'; document.getElementById('btn-preorder-sports').style.color = 'var(--text-secondary)'; document.getElementById('btn-preorder-sports').style.border = '2px solid var(--bg-card-border)'; }
@@ -200288,13 +201857,14 @@ function setupEventListeners() {
       const filtersSports = document.getElementById('filters-sports');
       if(filtersSports) filtersSports.style.display = 'none';
       
-      sectionTag.textContent = '🔥 HOT DE LA SEMANA';
+      sectionTag.textContent = '🔥 ENTREGA INMEDIATA';
       sectionTag.style.color = 'var(--neon-red)';
       sectionTitle.textContent = 'EN STOCK (ENVÍO HOY)';
       
       // Reset filters UI
       document.querySelectorAll('#filters-stock .filter-pill').forEach(b => b.classList.remove('active'));
-      document.querySelector('#filters-stock .filter-pill[data-filter="sneakers"]').classList.add('active');
+      const activePill = document.querySelector('#filters-stock .filter-pill[data-filter="all"]') || document.querySelector('#filters-stock .filter-pill[data-filter="sneakers"]');
+      if (activePill) activePill.classList.add('active');
       
       renderProducts();
     });
@@ -201252,22 +202822,18 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.resetView = function() {
-  AppState.currentMode = 'none';
-  AppState.currentFilter = 'none';
+  AppState.currentMode = 'stock';
+  AppState.currentFilter = 'all';
   AppState.searchQuery = '';
-  document.getElementById('search-input').value = '';
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) searchInput.value = '';
   
-  // Reset active button styles if any
-  ['btn-stock', 'btn-preorder', 'btn-preorder-sports'].forEach(id => {
-    const btn = document.getElementById(id);
-    if(btn) {
-      btn.style.background = '#12141a';
-      btn.style.color = 'var(--text-secondary)';
-      btn.style.border = '2px solid var(--bg-card-border)';
-    }
-  });
-  
-  renderProducts();
+  const btnStock = document.getElementById('btn-stock');
+  if (btnStock) {
+    btnStock.click();
+  } else {
+    renderProducts();
+  }
 };
 
 window.showCategory = function(mode, cat) {
@@ -201328,11 +202894,12 @@ window.goToTopCategory = function(cat) {
       if (target) target.scrollIntoView({ behavior: 'smooth' });
     }, 120);
   } else if (cat === 'MAS VENDIDOS') {
-    if (typeof showToast === 'function') {
-      showToast('🔥 MÁS VENDIDOS: Próximamente disponible');
-    } else {
-      alert('🔥 MÁS VENDIDOS: Próximamente disponible');
-    }
+    const btnStock = document.getElementById('btn-stock');
+    if (btnStock) btnStock.click();
+    setTimeout(() => {
+      const target = document.getElementById('modo-compra') || document.getElementById('productos');
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    }, 120);
   } else if (cat === 'MAYOREO') {
     if (typeof showToast === 'function') {
       showToast('📦 MAYOREO: Próximamente disponible');

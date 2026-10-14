@@ -1836,7 +1836,7 @@ h1, h2, h3, h4, .font-heading {
     <!-- Selector de Modo de Compra -->
 <section class="section" id="modo-compra">
   <div class="mode-switcher" style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <button id="btn-stock" class="btn" style="flex: 1; padding: 12px; font-size: 0.8rem; border: 2px solid var(--bg-card-border); color: var(--text-secondary); background: #12141a;">
+    <button id="btn-stock" class="btn" style="flex: 1; padding: 12px; font-size: 0.8rem; border: 2px solid var(--neon-lime); color: var(--text-dark); background: var(--neon-lime); font-weight: 700;">
       ⚡ EN STOCK (Envío Hoy)
     </button>
     <button id="btn-preorder" class="btn" style="flex: 1; padding: 12px; font-size: 0.8rem; background: #12141a; border: 2px solid var(--bg-card-border); color: var(--text-secondary);">
@@ -1853,8 +1853,8 @@ h1, h2, h3, h4, .font-heading {
 <section class="section" id="productos">
   <div class="section-header" id="productos-header">
     <div>
-      <span class="section-tag" id="section-tag-dynamic" style="color: var(--neon-red);">🔥 HOT DE LA SEMANA</span>
-      <h2 class="section-title" id="section-title-dynamic">MÁS VENDIDOS</h2>
+      <span class="section-tag" id="section-tag-dynamic" style="color: var(--neon-red);">🔥 ENTREGA INMEDIATA</span>
+      <h2 class="section-title" id="section-title-dynamic">EN STOCK (ENVÍO HOY)</h2>
     </div>
   </div>
 
@@ -1868,7 +1868,8 @@ h1, h2, h3, h4, .font-heading {
 
   <!-- Filtros de categoría para Stock -->
   <div id="filters-stock" class="filter-tabs">
-    <button class="filter-pill active" data-filter="sneakers">CALZADO</button>
+    <button class="filter-pill active" data-filter="all">TODOS</button>
+    <button class="filter-pill" data-filter="sneakers">CALZADO</button>
     <button class="filter-pill" data-filter="hoodies">HOODIES</button>
     <button class="filter-pill" data-filter="pants">PANTS</button>
     <button class="filter-pill" data-filter="chamarras">CHAMARRAS</button>
@@ -2443,7 +2444,7 @@ h1, h2, h3, h4, .font-heading {
     </div>
   </aside>
 
-<script src="js/app.js?v=1791924176"></script>
+<script src="js/app.js?v=1792025000"></script>
 <!-- Quick View Modal -->
 <div id="quickview-modal" class="qv-modal" onclick="if(event.target===this) closeQuickView()">
   <div class="qv-content">
