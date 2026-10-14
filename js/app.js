@@ -201851,20 +201851,15 @@ function setupEventListeners() {
       btnPreorder.style.color = 'var(--text-secondary)';
       btnPreorder.style.border = '2px solid var(--bg-card-border)';
       
-      filtersStock.style.display = 'flex';
-      filtersPreorder.style.display = 'none';
-      bannerPreorder.style.display = 'none';
+      if (filtersStock) filtersStock.style.display = 'none';
+      if (filtersPreorder) filtersPreorder.style.display = 'none';
+      if (bannerPreorder) bannerPreorder.style.display = 'none';
       const filtersSports = document.getElementById('filters-sports');
       if(filtersSports) filtersSports.style.display = 'none';
       
       sectionTag.textContent = '🔥 ENTREGA INMEDIATA';
       sectionTag.style.color = 'var(--neon-red)';
       sectionTitle.textContent = 'EN STOCK (ENVÍO HOY)';
-      
-      // Reset filters UI
-      document.querySelectorAll('#filters-stock .filter-pill').forEach(b => b.classList.remove('active'));
-      const activePill = document.querySelector('#filters-stock .filter-pill[data-filter="all"]') || document.querySelector('#filters-stock .filter-pill[data-filter="sneakers"]');
-      if (activePill) activePill.classList.add('active');
       
       renderProducts();
     });
@@ -201882,7 +201877,7 @@ function setupEventListeners() {
       btnStock.style.color = 'var(--text-secondary)';
       btnStock.style.border = '2px solid var(--bg-card-border)';
       
-      filtersStock.style.display = 'none';
+      if (filtersStock) filtersStock.style.display = 'none';
       filtersPreorder.style.display = 'flex';
       bannerPreorder.style.display = 'block';
       const filtersSports = document.getElementById('filters-sports');
