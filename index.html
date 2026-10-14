@@ -76,6 +76,8 @@ html {
   color: var(--text-primary);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
@@ -85,6 +87,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: visible;
   padding-bottom: 72px;
   width: 100%;
 }
@@ -1552,12 +1555,14 @@ h1, h2, h3, h4, .font-heading {
   background: rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(4px);
   z-index: 99;
+  display: none !important;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
 }
 
 .cart-overlay.open {
+  display: block !important;
   opacity: 1;
   pointer-events: auto;
 }
@@ -1577,10 +1582,12 @@ h1, h2, h3, h4, .font-heading {
   display: flex;
   flex-direction: column;
   color: #000000;
+  pointer-events: none;
 }
 
 .cart-drawer.open {
   transform: translateX(0);
+  pointer-events: auto;
 }
 
 .cart-header {
@@ -1818,7 +1825,7 @@ h1, h2, h3, h4, .font-heading {
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(8px);
   z-index: 1000;
-  display: flex;
+  display: none !important;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -1828,6 +1835,7 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .qv-modal.open {
+  display: flex !important;
   opacity: 1;
   pointer-events: auto;
 }
@@ -2025,7 +2033,7 @@ h1, h2, h3, h4, .font-heading {
   background: rgba(5, 6, 8, 0.97);
   backdrop-filter: blur(12px);
   z-index: 10001;
-  display: flex;
+  display: none !important;
   flex-direction: column;
   opacity: 0;
   pointer-events: none;
@@ -2035,6 +2043,7 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .lightbox-modal.open {
+  display: flex !important;
   opacity: 1;
   pointer-events: auto;
 }
@@ -2251,12 +2260,14 @@ h1, h2, h3, h4, .font-heading {
   background: rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(4px);
   z-index: 105;
+  display: none !important;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
 }
 
 .account-overlay.open {
+  display: block !important;
   opacity: 1;
   pointer-events: auto;
 }
@@ -2276,10 +2287,12 @@ h1, h2, h3, h4, .font-heading {
   display: flex;
   flex-direction: column;
   color: #000000;
+  pointer-events: none;
 }
 
 .account-drawer.open {
   transform: translateX(0);
+  pointer-events: auto;
 }
 
 .account-header {
@@ -2670,7 +2683,7 @@ h1, h2, h3, h4, .font-heading {
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(6px);
   z-index: 120;
-  display: flex;
+  display: none !important;
   align-items: center;
   justify-content: center;
   padding: 16px;
@@ -2680,6 +2693,7 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .auth-modal.open {
+  display: flex !important;
   opacity: 1;
   pointer-events: auto;
 }
@@ -4080,17 +4094,7 @@ h1, h2, h3, h4, .font-heading {
     }
   });
 
-  // 5. Bomba Anti-Inspectores (Debugger Freeze Loop)
-  // Congela la pestaña si abren las herramientas de desarrollador
-  setInterval(function() {
-    const start = new Date();
-    debugger; // Si la consola está abierta, el navegador se pausa aquí
-    // Si pasaron más de 100ms, significa que el debugger se activó y lo pausó el usuario
-    if (new Date() - start > 100) {
-       document.body.innerHTML = "<h1 style='color:red; text-align:center; margin-top:20vh; font-family:sans-serif;'>🛑 ACCESO DENEGADO.<br><br>Intento de robo de código detectado.</h1>";
-       window.location.href = "about:blank";
-    }
-  }, 1000);
+
 
   // 6. Alarma en Consola
   setInterval(() => {

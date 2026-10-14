@@ -202533,6 +202533,7 @@ if (versionContainer) {
   }
   
   modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
 }
 
 function setQVImage(index) {
@@ -202563,7 +202564,12 @@ function selectQvSize(btn) {
 }
 
 function closeQuickView() {
-  document.getElementById('quickview-modal').classList.remove('open');
+  const modal = document.getElementById('quickview-modal');
+  if (modal) modal.classList.remove('open');
+  const lb = document.getElementById('lightbox-modal');
+  if (!lb || !lb.classList.contains('open')) {
+    document.body.style.overflow = '';
+  }
 }
 
 // --- AI Chatbot Logic ---
@@ -202879,11 +202885,16 @@ function handleLightboxBackdropClick(event) {
 
 // Configurar listeners de arrastre (Pan), zoom con rueda y gestos táctiles
 document.addEventListener('DOMContentLoaded', () => {
+  // Asegurar que el body nunca inicie con overflow bloqueado
+  document.body.style.overflow = '';
+
   const stage = document.getElementById('lightbox-stage');
   if (!stage) return;
 
-  // Zoom con la rueda del ratón
+  // Zoom con la rueda del ratón (solo cuando el lightbox está abierto)
   stage.addEventListener('wheel', (e) => {
+    const modal = document.getElementById('lightbox-modal');
+    if (!modal || !modal.classList.contains('open')) return;
     e.preventDefault();
     const delta = e.deltaY < 0 ? 0.35 : -0.35;
     zoomLightbox(delta);
@@ -202891,6 +202902,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Arrastre con Mouse
   stage.addEventListener('mousedown', (e) => {
+    const modal = document.getElementById('lightbox-modal');
+    if (!modal || !modal.classList.contains('open')) return;
     if (lbZoom <= 1.05) return;
     lbIsDragging = true;
     lbStartX = e.clientX - lbPanX;
@@ -202918,6 +202931,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let lastTouchTime = 0;
 
   stage.addEventListener('touchstart', (e) => {
+    const modal = document.getElementById('lightbox-modal');
+    if (!modal || !modal.classList.contains('open')) return;
+
     if (e.touches.length === 2) {
       // Pinch to Zoom
       e.preventDefault();
@@ -202947,6 +202963,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { passive: false });
 
   stage.addEventListener('touchmove', (e) => {
+    const modal = document.getElementById('lightbox-modal');
+    if (!modal || !modal.classList.contains('open')) return;
+
     if (e.touches.length === 2 && lbInitialDistance !== null) {
       e.preventDefault();
       const currentDistance = Math.hypot(
@@ -202965,6 +202984,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { passive: false });
 
   stage.addEventListener('touchend', (e) => {
+    const modal = document.getElementById('lightbox-modal');
+    if (!modal || !modal.classList.contains('open')) return;
+
     if (e.touches.length < 2) {
       lbInitialDistance = null;
     }
