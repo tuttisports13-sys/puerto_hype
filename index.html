@@ -73,36 +73,42 @@ body {
   background-color: var(--bg-main);
   color: var(--text-primary);
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
-  padding-bottom: 72px; /* Space for mobile sticky bottom bar */
+  padding-bottom: 72px; /* Espacio para barra inferior en móvil */
+  width: 100%;
 }
 
-/* Main App Wrapper (Responsive Container) */
+/* Main App Wrapper (100% Fluido y Responsivo en PC y Móvil) */
 .app-container {
   width: 100%;
-  max-width: 1200px; /* Exact mobile look from mockup */
+  max-width: 100%;
   background-color: var(--bg-main);
   min-height: 100vh;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
   position: relative;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  border: none;
+  box-shadow: none;
 }
 
+/* En PC y pantallas amplias se adapta a pantalla completa sin marco cuadrado */
 @media (min-width: 1024px) {
-  /* On wide screens, give a sleek framed view with subtle neon background ambient */
   body {
-    background: radial-gradient(circle at 50% 20%, #151821 0%, #060709 100%);
-    padding-bottom: 40px;
-    padding-top: 20px;
+    padding-bottom: 0;
+    background: var(--bg-main);
   }
   .app-container {
-    border: 1px solid var(--bg-card-border);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    margin-bottom: 40px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    max-width: 100%;
+  }
+  .bottom-nav {
+    display: none !important;
   }
 }
 
@@ -177,7 +183,8 @@ h1, h2, h3, h4, .font-heading {
   background: rgba(10, 11, 14, 0.95);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--bg-card-border);
-  padding: 10px 14px;
+  padding: 10px 16px;
+  width: 100%;
 }
 
 .header-top {
@@ -185,6 +192,10 @@ h1, h2, h3, h4, .font-heading {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .brand-logo-link {
@@ -203,6 +214,24 @@ h1, h2, h3, h4, .font-heading {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .brand-logo-img {
+    height: 32px !important;
+    max-width: 135px !important;
+  }
+  .header-actions {
+    gap: 6px !important;
+  }
+  .header-btn {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .user-header-badge {
+    max-width: 70px !important;
+    font-size: 0.68rem !important;
+  }
 }
 
 .header-btn {
@@ -252,6 +281,10 @@ h1, h2, h3, h4, .font-heading {
   position: relative;
   display: flex;
   align-items: center;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .search-input {
@@ -305,6 +338,7 @@ h1, h2, h3, h4, .font-heading {
               url('images/hero-bg.jpg') center/cover no-repeat;
   border-bottom: 1px solid var(--bg-card-border);
   overflow: hidden;
+  width: 100%;
 }
 
 .hero-overlay {
@@ -318,6 +352,8 @@ h1, h2, h3, h4, .font-heading {
 .hero-content {
   position: relative;
   z-index: 2;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .badge-flag {
@@ -423,6 +459,10 @@ h1, h2, h3, h4, .font-heading {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
   background: #090a0d;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .prop-card {
@@ -476,6 +516,16 @@ h1, h2, h3, h4, .font-heading {
 /* Section Common Styling */
 .section {
   padding: 24px 14px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 32px 20px;
+  }
 }
 
 .section-header {
@@ -635,11 +685,32 @@ h1, h2, h3, h4, .font-heading {
   border-color: var(--neon-lime);
 }
 
-/* Products Grid (2 columns on mobile) */
+/* Products Grid (2 columnas en móvil, 3 en tablet, 4-5 en PC) */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .products-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+  }
 }
 
 .product-card {
@@ -1057,7 +1128,21 @@ h1, h2, h3, h4, .font-heading {
 .site-footer {
   background: #060709;
   border-top: 1px solid var(--bg-card-border);
-  padding: 28px 14px 20px;
+  padding: 32px 16px 24px;
+  width: 100%;
+}
+
+.site-footer > * {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .site-footer {
+    padding: 44px 24px 30px;
+  }
 }
 
 .footer-brand {
@@ -1145,14 +1230,13 @@ h1, h2, h3, h4, .font-heading {
   padding-top: 14px;
 }
 
-/* Sticky Bottom Navigation Bar (Mobile) */
+/* Sticky Bottom Navigation Bar (Solo en Móvil) */
 .bottom-nav {
   position: fixed;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
   width: 100%;
-  max-width: 1200px;
   background: rgba(10, 11, 14, 0.96);
   backdrop-filter: blur(16px);
   border-top: 1px solid var(--bg-card-border);
@@ -1160,6 +1244,12 @@ h1, h2, h3, h4, .font-heading {
   justify-content: space-around;
   padding: 8px 10px;
   z-index: 60;
+}
+
+@media (min-width: 1024px) {
+  .bottom-nav {
+    display: none !important;
+  }
 }
 
 .nav-item {
@@ -3274,8 +3364,8 @@ h1, h2, h3, h4, .font-heading {
     </div>
   </div>
 
-<script src="js/auth.js?v=1792030000"></script>
-<script src="js/app.js?v=1792030000"></script>
+<script src="js/auth.js?v=1792031000"></script>
+<script src="js/app.js?v=1792031000"></script>
 <!-- Quick View Modal -->
 <div id="quickview-modal" class="qv-modal" onclick="if(event.target===this) closeQuickView()">
   <div class="qv-content">
