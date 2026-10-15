@@ -2996,7 +2996,7 @@ h1, h2, h3, h4, .font-heading {
 <!-- Navegación Secundaria (Estilo Streetwear de Referencia) -->
 <nav class="secondary-nav">
   <ul class="nav-links">
-    <li><a href="#productos" class="active" onclick="resetView()">LOTES MAYOREO</a></li>
+    <li><a href="#productos" class="active" onclick="goToTopCategory('MAYOREO'); return false;">LOTES MAYOREO</a></li>
     <li><a href="#productos" onclick="showCategory('preorder-sports', 'all')">JERSEYS</a></li>
     <li><a href="#modo-compra" onclick="showCategory('preorder', 'all')">PAQUETES EMPRENDEDOR</a></li>
     <li><a href="#testimonios">RESEÑAS</a></li>
@@ -3027,7 +3027,7 @@ h1, h2, h3, h4, .font-heading {
           Lotes de jerseys premium de fútbol al mejor precio de mayoreo y entrega garantizada a todo México.
         </p>
         <div class="hero-buttons">
-          <a href="#productos" class="btn btn-primary">
+          <a href="#productos" onclick="goToTopCategory('MAYOREO'); return false;" class="btn btn-primary">
             VER LOTES MAYOREO
           </a>
           <a href="https://wa.me/5212294135613?text=Hola,%20quiero%20hacer%20un%20pedido%20de%20lotes%20en%20Puerto%20Hype" target="_blank" rel="noopener" class="btn btn-secondary">
@@ -3145,13 +3145,13 @@ h1, h2, h3, h4, .font-heading {
 
         <!-- Cat 5: MAYOREO -->
         <a href="javascript:void(0)" class="category-card" onclick="goToTopCategory('MAYOREO'); return false;">
-          <div class="category-bg" style="background-image: url('https://images.unsplash.com/photo-1544441893-675973e31985?w=800&auto=format&fit=crop&q=80');"></div>
+          <div class="category-bg" style="background-image: url('images/paquete_10_jerseys.jpg');"></div>
           <div class="category-overlay"></div>
           <div class="category-info">
             <h3 class="category-name">MAYOREO</h3>
-            <span class="category-sub">Lotes especiales y precios para revendedores</span>
+            <span class="category-sub">Paquetes especiales de 10 y 15 piezas</span>
           </div>
-          <span class="category-btn" style="color: var(--gold-amber); border-color: var(--gold-amber);">PRÓXIMAMENTE</span>
+          <span class="category-btn">VER LOTES &gt;</span>
         </a>
       </div>
     </section>
@@ -3199,7 +3199,12 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
   <!-- Filtros de categoría para Stock -->
-  <div id="filters-stock" class="filter-tabs" style="display: none;"></div>
+  <div id="filters-stock" class="filter-tabs" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 25px; flex-wrap: wrap;">
+    <button class="filter-btn filter-pill active" data-filter="all">TODOS</button>
+        <button class="filter-btn filter-pill" data-filter="mayoreo" style="font-weight: 800; border: 1.5px solid #000000;">📦 LOTES MAYOREO</button>
+    <button class="filter-btn filter-pill" data-filter="mayoreo" style="font-weight: 800; border: 1.5px solid #000000;">📦 LOTES MAYOREO</button>
+    <button class="filter-btn filter-pill" data-filter="sneakers">👟 CALZADO</button>
+  </div>
 
   <!-- Filtros de marcas para Pre-orden (oculto por defecto) -->
   <div id="filters-preorder" class="filter-tabs" style="display: none;">
@@ -3971,7 +3976,7 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
 <script src="js/auth.js?v=1792032000"></script>
-<script src="js/app.js?v=1792040002"></script>
+<script src="js/app.js?v=1792040003"></script>
 <!-- Quick View Modal -->
 <div id="quickview-modal" class="qv-modal" onclick="if(event.target===this) closeQuickView()">
   <div class="qv-content">

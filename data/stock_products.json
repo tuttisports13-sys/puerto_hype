@@ -2,7 +2,7 @@
   {
     "id": "lote-10-jerseys",
     "name": "Paquete 10 Jerseys (Mayoreo)",
-    "category": "jerseys",
+    "category": "mayoreo",
     "price": 2600,
     "retailPrice": 6000,
     "badge": "LOTE 10 PZAS",
@@ -25,7 +25,7 @@
   {
     "id": "lote-15-playeras",
     "name": "Paquete 15 Playeras (Mayoreo)",
-    "category": "jerseys",
+    "category": "mayoreo",
     "price": 3750,
     "retailPrice": 9000,
     "badge": "LOTE 15 PZAS",

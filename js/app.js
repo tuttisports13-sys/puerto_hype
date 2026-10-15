@@ -5,6 +5,52 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
+  {
+    "id": "lote-10-jerseys-sp",
+    "name": "Paquete 10 Jerseys (Mayoreo)",
+    "category": "mayoreo",
+    "price": 2600,
+    "retailPrice": 6000,
+    "badge": "LOTE 10 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_10_jerseys.jpg",
+    "gallery": [
+      "images/paquete_10_jerseys.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada jersey sale en $260 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Excelente margen de ganancia para revendedores y emprendedores!"
+  },
+  {
+    "id": "lote-15-playeras-sp",
+    "name": "Paquete 15 Playeras (Mayoreo)",
+    "category": "mayoreo",
+    "price": 3750,
+    "retailPrice": 9000,
+    "badge": "LOTE 15 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_15_playeras.jpg",
+    "gallery": [
+      "images/paquete_15_playeras.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada playera/jersey sale en $250 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Nuestro mejor precio por pieza para máxima ganancia en reventa!"
+  },
 {
   id: "sp-retro-folder",
   name: "Retro",
@@ -62808,7 +62854,7 @@ let STOCK_PRODUCTS = [
   {
     "id": "lote-10-jerseys",
     "name": "Paquete 10 Jerseys (Mayoreo)",
-    "category": "jerseys",
+    "category": "mayoreo",
     "price": 2600,
     "retailPrice": 6000,
     "badge": "LOTE 10 PZAS",
@@ -62831,7 +62877,7 @@ let STOCK_PRODUCTS = [
   {
     "id": "lote-15-playeras",
     "name": "Paquete 15 Playeras (Mayoreo)",
-    "category": "jerseys",
+    "category": "mayoreo",
     "price": 3750,
     "retailPrice": 9000,
     "badge": "LOTE 15 PZAS",
@@ -201793,7 +201839,8 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     // Si ESTÁ buscando, ignoramos el filtro de categoría para buscar en TODO el catálogo
     const matchesCategory = isSearching || AppState.currentFilter === 'all' || 
                             prod.category === AppState.currentFilter || 
-                            prod.brand === AppState.currentFilter;
+                            prod.brand === AppState.currentFilter ||
+                            (AppState.currentFilter === 'mayoreo' && (prod.category === 'mayoreo' || prod.id.startsWith('lote-')));
                             
     // Validar nombre
     const matchesSearch = prod.name.toLowerCase().includes(AppState.searchQuery.toLowerCase());
@@ -201897,6 +201944,14 @@ function setupEventListeners() {
   const btnPreorder = document.getElementById('btn-preorder');
   const filtersStock = document.getElementById('filters-stock');
   const filtersPreorder = document.getElementById('filters-preorder');
+  document.querySelectorAll('#filters-stock .filter-pill').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      document.querySelectorAll('#filters-stock .filter-pill').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      AppState.currentFilter = e.target.dataset.filter;
+      renderProducts();
+    });
+  });
   const bannerPreorder = document.getElementById('preorder-banner');
   const sectionTag = document.getElementById('section-tag-dynamic');
   const sectionTitle = document.getElementById('section-title-dynamic');
@@ -201914,7 +201969,10 @@ function setupEventListeners() {
       btnPreorder.style.color = '#4b5563';
       btnPreorder.style.border = '1.5px solid var(--border-subtle)';
       
-      if (filtersStock) filtersStock.style.display = 'none';
+      if (filtersStock) {
+        filtersStock.style.display = 'flex';
+        document.querySelectorAll('#filters-stock .filter-pill').forEach(b => b.classList.toggle('active', b.dataset.filter === 'all'));
+      }
       if (filtersPreorder) filtersPreorder.style.display = 'none';
       if (bannerPreorder) bannerPreorder.style.display = 'none';
       const filtersSports = document.getElementById('filters-sports');
@@ -203320,10 +203378,56 @@ window.goToTopCategory = function(cat) {
       if (target) target.scrollIntoView({ behavior: 'smooth' });
     }, 120);
   } else if (cat === 'MAYOREO') {
-    if (typeof showToast === 'function') {
-      showToast('📦 MAYOREO: Próximamente disponible');
-    } else {
-      alert('📦 MAYOREO: Próximamente disponible');
+    AppState.currentMode = 'stock';
+    AppState.currentFilter = 'mayoreo';
+    AppState.searchQuery = '';
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = '';
+
+    const btnStock = document.getElementById('btn-stock');
+    const btnPreorder = document.getElementById('btn-preorder');
+    const btnSports = document.getElementById('btn-preorder-sports');
+    if (btnStock) {
+      btnStock.style.background = '#000000';
+      btnStock.style.color = '#ffffff';
+      btnStock.style.border = '2px solid #000000';
     }
+    if (btnPreorder) {
+      btnPreorder.style.background = '#ffffff';
+      btnPreorder.style.color = '#4b5563';
+      btnPreorder.style.border = '1.5px solid var(--border-subtle)';
+    }
+    if (btnSports) {
+      btnSports.style.background = '#ffffff';
+      btnSports.style.color = '#4b5563';
+      btnSports.style.border = '1.5px solid var(--border-subtle)';
+    }
+
+    const filtersStock = document.getElementById('filters-stock');
+    const filtersPreorder = document.getElementById('filters-preorder');
+    const filtersSports = document.getElementById('filters-sports');
+    const bannerPreorder = document.getElementById('preorder-banner');
+    if (filtersStock) {
+      filtersStock.style.display = 'flex';
+      document.querySelectorAll('#filters-stock .filter-pill').forEach(b => {
+        b.classList.toggle('active', b.dataset.filter === 'mayoreo');
+      });
+    }
+    if (filtersPreorder) filtersPreorder.style.display = 'none';
+    if (filtersSports) filtersSports.style.display = 'none';
+    if (bannerPreorder) bannerPreorder.style.display = 'none';
+
+    const sectionTag = document.getElementById('section-tag-dynamic');
+    const sectionTitle = document.getElementById('section-title-dynamic');
+    if (sectionTag) {
+      sectionTag.textContent = '🔥 DIRECTO DE FÁBRICA';
+      sectionTag.style.color = 'var(--neon-red)';
+    }
+    if (sectionTitle) sectionTitle.textContent = 'LOTES MAYOREO DESTACADOS';
+
+    renderProducts();
+
+    const target = document.getElementById('modo-compra') || document.getElementById('productos');
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
   }
 };

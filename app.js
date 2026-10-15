@@ -5,6 +5,52 @@
 
 // Catálogo de Productos (Stock y Preorder)
 const SPORTS_PRODUCTS = [
+  {
+    "id": "lote-10-jerseys-sp",
+    "name": "Paquete 10 Jerseys (Mayoreo)",
+    "category": "mayoreo",
+    "price": 2600,
+    "retailPrice": 6000,
+    "badge": "LOTE 10 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_10_jerseys.jpg",
+    "gallery": [
+      "images/paquete_10_jerseys.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada jersey sale en $260 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Excelente margen de ganancia para revendedores y emprendedores!"
+  },
+  {
+    "id": "lote-15-playeras-sp",
+    "name": "Paquete 15 Playeras (Mayoreo)",
+    "category": "mayoreo",
+    "price": 3750,
+    "retailPrice": 9000,
+    "badge": "LOTE 15 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_15_playeras.jpg",
+    "gallery": [
+      "images/paquete_15_playeras.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada playera/jersey sale en $250 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Nuestro mejor precio por pieza para máxima ganancia en reventa!"
+  },
 {
   id: "sp-retro-folder",
   name: "Retro",
@@ -62808,7 +62854,7 @@ const STOCK_PRODUCTS = [
   {
     "id": "lote-10-jerseys",
     "name": "Paquete 10 Jerseys (Mayoreo)",
-    "category": "jerseys",
+    "category": "mayoreo",
     "price": 2600,
     "retailPrice": 6000,
     "badge": "LOTE 10 PZAS",
@@ -62831,7 +62877,7 @@ const STOCK_PRODUCTS = [
   {
     "id": "lote-15-playeras",
     "name": "Paquete 15 Playeras (Mayoreo)",
-    "category": "jerseys",
+    "category": "mayoreo",
     "price": 3750,
     "retailPrice": 9000,
     "badge": "LOTE 15 PZAS",
@@ -217721,7 +217767,8 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     // Si ESTÁ buscando, ignoramos el filtro de categoría para buscar en TODO el catálogo
     const matchesCategory = isSearching || AppState.currentFilter === 'all' || 
                             prod.category === AppState.currentFilter || 
-                            prod.brand === AppState.currentFilter;
+                            prod.brand === AppState.currentFilter ||
+                            (AppState.currentFilter === 'mayoreo' && (prod.category === 'mayoreo' || prod.id.startsWith('lote-')));
                             
     // Validar nombre
     const matchesSearch = prod.name.toLowerCase().includes(AppState.searchQuery.toLowerCase());
