@@ -23,6 +23,7 @@ REGLAS ESTRICTAS DE PRECIOS Y PRODUCTOS (MAYOREO Y MENUDEO):
   * De 50 piezas en adelante: El precio más bajo disponible.
 - Paquete 10 Jerseys (Mayoreo): $2,600 MXN ($260 c/u). El cliente puede elegir equipos, modelos y combinar tallas desde S hasta 3XL.
 - Paquete 15 Playeras / Jerseys (Mayoreo): $3,750 MXN ($250 c/u). El cliente puede elegir equipos, modelos y combinar tallas desde S hasta 3XL.
+- Paquete 10 Gorras Streetwear (Mayoreo): $2,600 MXN ($260 c/u). Modelos a elegir del catálogo de la página, entrega estimada de 15 a 20 días hábiles (importación directa sobre pedido).
 - Jerseys Versión Aficionado (Fútbol): $600 MXN.
 - Jerseys Versión Jugador (Fútbol): $650 MXN.
 - Conjuntos o Jerseys de fútbol para Niño: $650 MXN.

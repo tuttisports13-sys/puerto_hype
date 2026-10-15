@@ -51,6 +51,24 @@ const SPORTS_PRODUCTS = [
     ],
     "description": "🔥 Cada playera/jersey sale en $250 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Nuestro mejor precio por pieza para máxima ganancia en reventa!"
   },
+  {
+    "id": "lote-10-gorras-sp",
+    "name": "Paquete 10 Gorras Streetwear (Mayoreo)",
+    "category": "mayoreo",
+    "price": 2600,
+    "retailPrice": 5000,
+    "badge": "LOTE 10 GORRAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_10_gorras.png",
+    "gallery": [
+      "images/paquete_10_gorras.png"
+    ],
+    "sizes": [
+      "Unitalla Ajustable (Snapback)",
+      "Modelos a Elegir"
+    ],
+    "description": "🔥 Cada gorra sale en $260 MXN. Puedes elegir de todos los modelos disponibles en la página. Tiempo estimado de entrega: 15 a 20 días hábiles (importación directa sobre pedido). ¡Excelente margen para revendedores!"
+  },
 {
   id: "sp-retro-folder",
   name: "Retro",
@@ -62896,6 +62914,24 @@ let STOCK_PRODUCTS = [
       "3XL"
     ],
     "description": "🔥 Cada playera/jersey sale en $250 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Nuestro mejor precio por pieza para máxima ganancia en reventa!"
+  },
+  {
+    "id": "lote-10-gorras",
+    "name": "Paquete 10 Gorras Streetwear (Mayoreo)",
+    "category": "mayoreo",
+    "price": 2600,
+    "retailPrice": 5000,
+    "badge": "LOTE 10 GORRAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_10_gorras.png",
+    "gallery": [
+      "images/paquete_10_gorras.png"
+    ],
+    "sizes": [
+      "Unitalla Ajustable (Snapback)",
+      "Modelos a Elegir"
+    ],
+    "description": "🔥 Cada gorra sale en $260 MXN. Puedes elegir de todos los modelos disponibles en la página. Tiempo estimado de entrega: 15 a 20 días hábiles (importación directa sobre pedido). ¡Excelente margen para revendedores!"
   },
   {
     "id": "stock-1791939276095",
