@@ -62806,6 +62806,52 @@ const SPORTS_PRODUCTS = [
 
 let STOCK_PRODUCTS = [
   {
+    "id": "lote-10-jerseys",
+    "name": "Paquete 10 Jerseys (Mayoreo)",
+    "category": "jerseys",
+    "price": 2600,
+    "retailPrice": 6000,
+    "badge": "LOTE 10 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_10_jerseys.jpg",
+    "gallery": [
+      "images/paquete_10_jerseys.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada jersey sale en $260 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Excelente margen de ganancia para revendedores y emprendedores!"
+  },
+  {
+    "id": "lote-15-playeras",
+    "name": "Paquete 15 Playeras (Mayoreo)",
+    "category": "jerseys",
+    "price": 3750,
+    "retailPrice": 9000,
+    "badge": "LOTE 15 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_15_playeras.jpg",
+    "gallery": [
+      "images/paquete_15_playeras.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada playera/jersey sale en $250 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Nuestro mejor precio por pieza para máxima ganancia en reventa!"
+  },
+  {
     "id": "stock-1791939276095",
     "name": "Crocs Rayo Mcqueen ",
     "category": "sneakers",
@@ -201794,6 +201840,11 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
           ${product.sizes && product.sizes.length > 0 ? 'Tallas: ' + product.sizes.join(', ') : ''}
           ${product.password ? '<span style="color:var(--text-primary); font-weight:700; display:block; margin-top:3px;">' + product.password + '</span>' : ''}
         </div>
+        ${product.description ? `
+        <div class="product-description" style="font-size: 0.76rem; color: #4b5563; margin-bottom: 8px; line-height: 1.35; background: #f9fafb; padding: 6px 8px; border-radius: 6px; border-left: 2.5px solid #000000;">
+          ${product.description}
+        </div>
+        ` : ''}
 
 ${product.isFolder || product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
 <div class="product-pricing">
@@ -201869,9 +201920,9 @@ function setupEventListeners() {
       const filtersSports = document.getElementById('filters-sports');
       if(filtersSports) filtersSports.style.display = 'none';
       
-      sectionTag.textContent = '🔥 ENTREGA INMEDIATA';
+      sectionTag.textContent = '🔥 DIRECTO DE FÁBRICA';
       sectionTag.style.color = 'var(--neon-red)';
-      sectionTitle.textContent = 'EN STOCK (ENVÍO HOY)';
+      sectionTitle.textContent = 'LOTES MAYOREO DESTACADOS';
       
       renderProducts();
     });
@@ -202466,6 +202517,16 @@ function openQuickView(productId) {
   const thumbContainer = document.getElementById('qv-thumbnails');
   
   title.textContent = product.name;
+  
+  const descEl = document.getElementById('qv-description');
+  if (descEl) {
+    if (product.description) {
+      descEl.textContent = product.description;
+      descEl.style.display = 'block';
+    } else {
+      descEl.style.display = 'none';
+    }
+  }
   
   // Render Sizes
   const sizeContainer = document.getElementById('qv-sizes');

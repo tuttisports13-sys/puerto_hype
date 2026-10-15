@@ -62806,6 +62806,52 @@ const SPORTS_PRODUCTS = [
 
 const STOCK_PRODUCTS = [
   {
+    "id": "lote-10-jerseys",
+    "name": "Paquete 10 Jerseys (Mayoreo)",
+    "category": "jerseys",
+    "price": 2600,
+    "retailPrice": 6000,
+    "badge": "LOTE 10 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_10_jerseys.jpg",
+    "gallery": [
+      "images/paquete_10_jerseys.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada jersey sale en $260 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Excelente margen de ganancia para revendedores y emprendedores!"
+  },
+  {
+    "id": "lote-15-playeras",
+    "name": "Paquete 15 Playeras (Mayoreo)",
+    "category": "jerseys",
+    "price": 3750,
+    "retailPrice": 9000,
+    "badge": "LOTE 15 PZAS",
+    "badgeType": "badge-hot",
+    "image": "images/paquete_15_playeras.jpg",
+    "gallery": [
+      "images/paquete_15_playeras.jpg"
+    ],
+    "sizes": [
+      "Tallas Mixtas (S a 3XL)",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "description": "🔥 Cada playera/jersey sale en $250 MXN. Puedes elegir los equipos y modelos que quieras de nuestro catálogo y combinar tallas desde la S hasta la 3XL. ¡Nuestro mejor precio por pieza para máxima ganancia en reventa!"
+  },
+  {
     "id": "stock-001",
     "name": "On Cloud X",
     "category": "sneakers",
