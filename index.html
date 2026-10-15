@@ -912,17 +912,39 @@ h1, h2, h3, h4, .font-heading {
   background-color: #ffffff;
   overflow: hidden;
   border-bottom: 1px solid var(--border-subtle);
+  cursor: pointer;
 }
 
 .product-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: var(--transition);
+  display: block;
+  transition: transform 0.65s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.45s ease;
+  will-change: transform, opacity;
+}
+
+.product-img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s cubic-bezier(0.25, 1, 0.5, 1), transform 0.65s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform, opacity;
+  transform: scale(1);
 }
 
 .product-card:hover .product-img {
-  transform: scale(1.04);
+  transform: scale(1.05);
+}
+
+.product-card:hover .product-img-hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 .product-badge {
@@ -939,6 +961,7 @@ h1, h2, h3, h4, .font-heading {
   z-index: 2;
   background: #000000;
   color: #ffffff;
+  pointer-events: none;
 }
 
 .badge-hot, .badge-new, .badge-trend, .badge-exclusive, .badge-sale {
@@ -3110,17 +3133,6 @@ h1, h2, h3, h4, .font-heading {
           <span class="category-btn">VER MÁS &gt;</span>
         </a>
 
-        <!-- Cat 2: MÁS VENDIDOS -->
-        <a href="javascript:void(0)" class="category-card" onclick="goToTopCategory('MAS VENDIDOS'); return false;">
-          <div class="category-bg" style="background-image: url('https://images.unsplash.com/photo-1552346154-21d32810aba3?w=800&auto=format&fit=crop&q=80');"></div>
-          <div class="category-overlay"></div>
-          <div class="category-info">
-            <h3 class="category-name">MÁS VENDIDOS</h3>
-            <span class="category-sub">Los favoritos y más pedidos por la comunidad</span>
-          </div>
-          <span class="category-btn" style="color: var(--gold-amber); border-color: var(--gold-amber);">PRÓXIMAMENTE</span>
-        </a>
-
         <!-- Cat 3: ON CLOUD -->
         <a href="#modo-compra" class="category-card" onclick="goToTopCategory('ON CLOUD'); return false;">
           <div class="category-bg" style="background-image: url('https://chunchimayorista.com/wp-content/uploads/2026/10/ON总1/1/1.jpg');"></div>
@@ -3976,7 +3988,7 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
 <script src="js/auth.js?v=1792032000"></script>
-<script src="js/app.js?v=1792040004"></script>
+<script src="js/app.js?v=1792040005"></script>
 <!-- Quick View Modal -->
 <div id="quickview-modal" class="qv-modal" onclick="if(event.target===this) closeQuickView()">
   <div class="qv-content">

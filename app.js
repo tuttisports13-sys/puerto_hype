@@ -217825,28 +217825,60 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     return;
   }
 
-  container.innerHTML = filtered.map(product => `
+  container.innerHTML = filtered.map(product => {
+    const rawPrice = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 499;
+    const retailPrice = Math.round(rawPrice * 1.65);
+    const badgeText = product.badge || 'Lotes limitados';
+
+    // Animación de cambio de imagen al pasar el ratón (Estilo Gucci)
+    let hoverImgSrc = null;
+    if (Array.isArray(product.gallery) && product.gallery.length > 1) {
+      hoverImgSrc = product.gallery.find(img => img && img !== product.image) || product.gallery[1];
+    } else if (product.hoverImage && product.hoverImage !== product.image) {
+      hoverImgSrc = product.hoverImage;
+    }
+
+    return `
     <article class="product-card" data-id="${product.id}">
-      <div class="product-thumb">
-        <span class="product-badge ${product.badgeType}">${product.badge}</span>
+      <div class="product-thumb" onclick="openQuickView('${product.id}')" style="cursor: pointer;">
+        <span class="product-badge ${product.badgeType || ''}">${badgeText}</span>
         <img 
-          class="product-img" onclick="openQuickView('${product.id}')" style="cursor: pointer;" 
+          class="product-img" 
           src="${product.image}" 
           alt="${product.name}" 
           loading="lazy" 
           onerror="this.src='https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&auto=format&fit=crop&q=80'"
         />
+        ${hoverImgSrc ? `
+        <img 
+          class="product-img-hover" 
+          src="${hoverImgSrc}" 
+          alt="${product.name}" 
+          loading="lazy" 
+          onerror="this.style.display='none'"
+        />` : ''}
       </div>
       <div class="product-body">
         <h3 class="product-name">${product.name}</h3>
-<div class="product-sizes" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
-  ${product.sizes && product.sizes.length > 0 ? 'Talla: ' + product.sizes.join(', ') : ''}
-  ${product.password ? '<span style="color:var(--neon-lime); display:block; margin-top:5px;">' + product.password + '</span>' : ''}
-</div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span class="count">(42)</span>
+        </div>
+        <div class="product-sizes" style="font-size: 0.74rem; color: var(--text-muted); margin-bottom: 6px;">
+          ${product.sizes && product.sizes.length > 0 ? 'Tallas: ' + product.sizes.join(', ') : ''}
+          ${product.password ? '<span style="color:var(--text-primary); font-weight:700; display:block; margin-top:3px;">' + product.password + '</span>' : ''}
+        </div>
+        ${product.description ? `
+        <div class="product-description" style="font-size: 0.76rem; color: #4b5563; margin-bottom: 8px; line-height: 1.35; background: #f9fafb; padding: 6px 8px; border-radius: 6px; border-left: 2.5px solid #000000;">
+          ${product.description}
+        </div>
+        ` : ''}
 
 ${product.isFolder || product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
 <div class="product-pricing">
   <span class="price-wholesale">${product.hasVersionSelector ? '$600 - $650 MXN' : '$' + product.price + ' MXN'}</span>
+  <span class="price-retail">$${retailPrice.toLocaleString()} MXN</span>
+  <span class="product-discount-badge">-40% OFF</span>
 </div>
 `}
 
@@ -217865,14 +217897,14 @@ ${product.isFolder || product.section === 'preorder' || (product.section === 'pr
         <circle cx="20" cy="21" r="1"></circle>
         <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
       </svg>
-      AGREGAR
+      AGREGAR AL CARRITO
     </button>
   `}
 </div>
 
       </div>
     </article>
-  `).join('');
+  `;}).join('');
 }
 
 // Configurar escuchadores de eventos interactivos

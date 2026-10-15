@@ -201901,17 +201901,34 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     const rawPrice = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 499;
     const retailPrice = Math.round(rawPrice * 1.65);
     const badgeText = product.badge || 'Lotes limitados';
+
+    // Animación de cambio de imagen al pasar el ratón (Estilo Gucci)
+    let hoverImgSrc = null;
+    if (Array.isArray(product.gallery) && product.gallery.length > 1) {
+      hoverImgSrc = product.gallery.find(img => img && img !== product.image) || product.gallery[1];
+    } else if (product.hoverImage && product.hoverImage !== product.image) {
+      hoverImgSrc = product.hoverImage;
+    }
+
     return `
     <article class="product-card" data-id="${product.id}">
-      <div class="product-thumb">
+      <div class="product-thumb" onclick="openQuickView('${product.id}')" style="cursor: pointer;">
         <span class="product-badge ${product.badgeType || ''}">${badgeText}</span>
         <img 
-          class="product-img" onclick="openQuickView('${product.id}')" style="cursor: pointer;" 
+          class="product-img" 
           src="${product.image}" 
           alt="${product.name}" 
           loading="lazy" 
           onerror="this.src='https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&auto=format&fit=crop&q=80'"
         />
+        ${hoverImgSrc ? `
+        <img 
+          class="product-img-hover" 
+          src="${hoverImgSrc}" 
+          alt="${product.name}" 
+          loading="lazy" 
+          onerror="this.style.display='none'"
+        />` : ''}
       </div>
       <div class="product-body">
         <h3 class="product-name">${product.name}</h3>
@@ -203406,13 +203423,7 @@ window.goToTopCategory = function(cat) {
       const target = document.getElementById('modo-compra') || document.getElementById('productos');
       if (target) target.scrollIntoView({ behavior: 'smooth' });
     }, 120);
-  } else if (cat === 'MAS VENDIDOS') {
-    const btnStock = document.getElementById('btn-stock');
-    if (btnStock) btnStock.click();
-    setTimeout(() => {
-      const target = document.getElementById('modo-compra') || document.getElementById('productos');
-      if (target) target.scrollIntoView({ behavior: 'smooth' });
-    }, 120);
+
   } else if (cat === 'MAYOREO') {
     AppState.currentMode = 'stock';
     AppState.currentFilter = 'mayoreo';
