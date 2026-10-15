@@ -1060,6 +1060,45 @@ h1, h2, h3, h4, .font-heading {
   padding: 28px 14px 20px;
 }
 
+.footer-social-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 14px 20px;
+  background: #0d0f13;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-social-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  transition: all 0.2s;
+}
+
+.footer-social-item:hover {
+  color: var(--neon-lime, #ccff00);
+}
+
+.footer-social-item svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-social-divider {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 1.1rem;
+}
+
 .footer-brand {
   margin-bottom: 20px;
 }
@@ -2009,6 +2048,38 @@ h1, h2, h3, h4, .font-heading {
       <span style="font-family: var(--font-display); font-size: 0.72rem; font-weight: 800; color: #00f2fe; background: rgba(0, 242, 254, 0.1); border: 1px solid #00f2fe; padding: 6px 12px; border-radius: var(--radius-sm);">SEGUIR &gt;</span>
     </a>
 
+    <!-- Facebook Card -->
+    <a href="https://www.facebook.com/puertohype" target="_blank" rel="noopener" style="background: var(--bg-card); border: 1px solid var(--bg-card-border); border-radius: var(--radius-md); padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; text-decoration: none; transition: var(--transition);">
+      <div style="display: flex; align-items: center; gap: 14px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: #1877F2; display: flex; align-items: center; justify-content: center; color: #fff; flex-shrink: 0; box-shadow: 0 4px 12px rgba(24, 119, 242, 0.35);">
+          <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </div>
+        <div>
+          <div style="font-family: var(--font-display); font-size: 0.95rem; font-weight: 900; color: #fff;">Puerto Hype</div>
+          <div style="font-size: 0.72rem; color: #94a3b8; margin-top: 2px;">Facebook Oficial • Novedades & Comunidad</div>
+        </div>
+      </div>
+      <span style="font-family: var(--font-display); font-size: 0.72rem; font-weight: 800; color: #1877F2; background: rgba(24, 119, 242, 0.12); border: 1px solid #1877F2; padding: 6px 12px; border-radius: var(--radius-sm);">SEGUIR &gt;</span>
+    </a>
+
+    <!-- YouTube Card -->
+    <a href="https://www.youtube.com/@puertohype" target="_blank" rel="noopener" style="background: var(--bg-card); border: 1px solid var(--bg-card-border); border-radius: var(--radius-md); padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; text-decoration: none; transition: var(--transition);">
+      <div style="display: flex; align-items: center; gap: 14px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: #FF0000; display: flex; align-items: center; justify-content: center; color: #fff; flex-shrink: 0; box-shadow: 0 4px 12px rgba(255, 0, 0, 0.35);">
+          <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </div>
+        <div>
+          <div style="font-family: var(--font-display); font-size: 0.95rem; font-weight: 900; color: #fff;">@puertohype</div>
+          <div style="font-size: 0.72rem; color: #94a3b8; margin-top: 2px;">YouTube Oficial • Videos, Shorts & Reviews</div>
+        </div>
+      </div>
+      <span style="font-family: var(--font-display); font-size: 0.72rem; font-weight: 800; color: #FF0000; background: rgba(255, 0, 0, 0.12); border: 1px solid #FF0000; padding: 6px 12px; border-radius: var(--radius-sm);">SUSCRIBIRSE &gt;</span>
+    </a>
+
     <!-- WhatsApp Card -->
     <a href="https://wa.me/5212294135613" target="_blank" rel="noopener" style="background: var(--bg-card); border: 1px solid var(--bg-card-border); border-radius: var(--radius-md); padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; text-decoration: none; transition: var(--transition);">
       <div style="display: flex; align-items: center; gap: 14px;">
@@ -2029,6 +2100,46 @@ h1, h2, h3, h4, .font-heading {
 
     <!-- Footer -->
     <footer class="site-footer" id="contacto">
+      <!-- Barra Social & Contacto Superior -->
+      <div class="footer-social-bar">
+        <a href="https://wa.me/5212294135613" target="_blank" rel="noopener" class="footer-social-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--gold-amber, #f59e0b);">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          <span>2294135613</span>
+        </a>
+        <span class="footer-social-divider">|</span>
+        <a href="https://instagram.com/puerto_hype" target="_blank" rel="noopener" class="footer-social-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #E1306C;">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>@puerto_hype</span>
+        </a>
+        <span class="footer-social-divider">|</span>
+        <a href="https://tiktok.com/@puertohype2" target="_blank" rel="noopener" class="footer-social-item">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="color: #00f2fe;">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 1.86-4.49V8.69a8.18 8.18 0 0 0 4.91 1.63V6.87c-.338-.046-.673-.122-1-.23z"/>
+          </svg>
+          <span>@puertohype2</span>
+        </a>
+        <span class="footer-social-divider">|</span>
+        <a href="https://www.facebook.com/puertohype" target="_blank" rel="noopener" class="footer-social-item">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px; color: #1877F2;">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          <span>Puerto Hype</span>
+        </a>
+        <span class="footer-social-divider">|</span>
+        <a href="https://www.youtube.com/@puertohype" target="_blank" rel="noopener" class="footer-social-item">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px; color: #FF0000;">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+          <span>@puertohype</span>
+        </a>
+      </div>
+
       <div class="footer-brand">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnAAAAC2CAYAAABZPbAjAAATLElEQVR42u3dLVQbSxiA4RpUDCoGhcGgMCgMClNTVYOqQdXUoGpQGAwKg8KgYjAoDKoGVVODwqAwKMze5HTDzeVmk2yyP7Mzz3vOnttbtkvmm5/vzezO7KdPAAAAAAAAAAAAAAAAAIBQybJsSxQAAAC6IW6H2b+ciggAAEC44vY7+z8nIgMAABCeuA2yYi5ECAAAIBxxW4QrkQIAAOiGuI0ZiBgAAEA70tbPluNW9AAAAJoVt9tsNQgcAABAQ+J2llXDjWgCAADUK25VYxEDAABADdJWh7iNuRRhAACAauWtbszAAQAAVCBtX7PmuBZxAACA5cVtN2ueO5EHAAAoL27HWXv8UgMAAACLSVs/C4PfagMAAGAxgbsmcAAAAN2VubXhsVfBWxWW4UENAAAAVCt36zXL3b0oAwAANCN2o2foLioQOO9CBQAAaFHqRrdij0oK3EDkAAAAwhO70S3Yc29iAAAA6J7IfZ4icBciAwAAEK7AHRA4AACAbgncPoGrNqBnGT7yOLovP/q20GK9PAYUj+May/kcUDkv5nxWVMOROC++yenwOB0eOw2NO5tCXhuXfGPqDNxVwbmjVa67LM1gWRXrqdZL6uUseHYD1cf5VHTae3dkLozo2DjacYEbzMsNTI3AVc1TjXVC4MITiy+afCNxvhSd9vpmYDPi6qp7PjGewe2XELjbgnNvCTCBa4KtiutkncAFJxaHmnkjcb4RnaVZr6A/vggjgatgPO+VuJNxX3Bu0X5yR8yNwAXbObO/9/4JXFhi8U0LbyTOt6LTXl8d/vNXESRwS7ad63lfJoZ//3VKWO4Kzu2lLMMErh3eCByBw9JxvhedStg0A0fgWnSJrRLj6GCF/HBP4BDat+AegQtOLNxCJXBd42CJ/vgkbASugnF8p+C871POvVw1PxA41MGX2MWGwIHABc0JgSNwNTvEtIUvuyWeazurKD8cEThUzQ8CF4XAfdWUG4nznehUzj6BI3A1jd8bBUXdLjGOnlSZHwgcquaIwBE4ELgW2SBwBK7B8Xuj4Pxp24icVp0fCBxa67iZfeAIXLoC5xZqi304s4iBwFUzdq9XJHCrvJGoT+DQeOfNLGIgcGbgUD0P8gGBq2jcPphT1DL7wJ3P+D2rvupzl8ChKt4WrBPbiIQnFhYxNBNn+8C12I9FiMBVNG73SoyjVzV/cT4lcGisA2fFD4YSOAIXu8B5E0OLfVl0CFxFY/Z6iVWoNzN+12ZFoX8icGjqW7BXaYUnFm6hNhPngei0KnBvIkTgZrSP3QWLWrSI4ceUc28byhEDAofa+3HmGTgCl67AXYtO7fwpqoLMq7QIXDXjddE2It9aFLi5v4vAoYpvwVahEjgChzbibxUqgatirN4pMY4OGs4RPwkcau3IBI7AETi0EP9H0SFwU9rFfsmibpdYhXrZQo7YJnBYhUszcAROIiNwBE7cI/SErRLP0J21lCO2CBzqGETXCByBS7TtW8TQDOcEjsDVOEb3SwjcSVs5gsChjiRmFSqBS7Xt2weuxTrIvEqLwP23PSy7J2mRwO2FJHCdlzhdKsgkZiNfApdq2/cqrXYFziIGslDF+LzeFYEb8ovAYRl+m4EjcBIZgQtI4GwjQuCqGJurnIFrYkw4JHCoahC1DxyBI3BoY+wBgRu1g+0Vi7pRQuBO53yWn+qGwHVpELWIgcClKnBeZk/gCFz3vWCjxHYk8wTui/ohcF0aRG0jQuAIHNoYe9xCTVwQKipq0S3UgynnzttGZLvBKhoQOFSRyAgcgUux3dtGpF2BexaZdAUum77R7jL0Slx/nsD11BGBC5U+gSNwEtl7nK9Ep1WBsw9c2gJXFUUCdzjl3PPQ8gSBw6JsEzgCJ5G9x/lSdFoVuD8ik6YYVFzUIoH7PuXciwDzxAaBwyLsETgCJ5ERuEAE7rfIpCdww4+206LAXYWYJwgcFmGfwBE4X1oIXMOcEjhSUOM4vF5C4AaB5omfBC6goI2mRQMs74FVqAQu2m+I5dvDZYwxDq1Pz/icnoFLrM/WVNQigfsx5dzrUPMEgSvPcWJl3iVwBI7AhbmIIdb2TuD02by+92oqar+EwF0F3G+uCRyBm8XmlM9nI18Cl6rADWKOcdbQrvIrtHMvs0+kz9acZ4oE7njKuRch5wkCF57A3QRU3jUCR+AI3HucbyMXuK0AinVTVLTAxkYC193cX0bgzgPPE/cEbnGOGijzacgdOnMLlcB1n80l28NdzO0+C+A53AUlc3RsjhJxVrCi8MMXztFmq+v5+ev533Whzw8Kxt9PE2WaPHqzyjbrGcjA8v5OzXEtcws1dIHLCNzifG2gzNcdEAYCR+CSm21IQOD6qSejwJrp2acEaSCuRQJ3tEwdBNBOvhG4xThIqcwErjMCd0jJCFzAD413ZiaBwCUR/36JcfS0C22GwBE4AkfgCFx3nk+NbRXqg5zzPy4Tk7ejlgVu2p2MEwIXj8B9rrm8ISXiHQLXGYFzC7UZgYt2FWrW8Eu5Q01AgTXTQWIC1xRFAve5qwI35JXAtTgDl03fBTrIAZXAETgCF0+7H17qW8tF2ZRz0ha4huO6HqHAZQQOBI7AEbjiOF+JXOXsyjmF3CQib+cNx3UtRoEb8oPAYZ4sEDgCR+BQBfsmDWZya/atue4//PsvU84961Kb0Zkw0+Szv/sNETgCl6LAeZl9deyRCTNwIXX/AoG7mPP517o+rhG4hJIbgSNwBA7RJBnPwLUZ68OQmmCBwF3OKcNeYG3mu85kgJ1VJ/1UEgKBIxEErlK2zQgRuABiXUYo5wncD1+QCFxnBlkCR+AIHErylVQsxTV5q4WiRQzTVmPPu4V6E8PYRuASSWyZW6gEjsBhAfnIwr5bSuDai/FWy3Et2kZk2kbC5x10lG2dKU1uF6iTtdA+NIEjcA0JnFWos/lWNLtB4JbiKkJ56wUQ1yKBm7YX61kHHeVFZ5LUOi82BA4VC9y1yGVPo6SW/d0za8OtvVq5FN/WBe60i46istPjB4EjcASOwC06O5TV/GpBOScugcvav3W6jMCdEDgCF9PsW4j1sl5D27vuSh0ROAIXCKNXjW0SOAIXeGzXSyxiOOmoo+yrcMmsE8/A1fGNo0tlJHCNCZxn4BbnNevg83AELom49hIQuAeVLpFNq5N+DOWYU8YjArcyv4bH/fC4y/97n//dQ8nj18S1Jq9zP3H9u4nf82vK75k892aFdkHgluOUaKQrcNn0DXJDnIEr9Qzc8GcbsX1JJXDdYm2JOgm10e5H3u6euiRwnyKEwNWTOAlc9AIXGtsFn/N4yrnnHRJTAmfmbW6d9GJusKHOvmUz9oQicI2NR56Bi1xKAovVBXmrha8Fn/WkpMCdEDgC1wa9WOtlxXIdBFy0QwLX+ng0MHTE3T4CC9N5x/vLXqDN77jg8/4sKXB/dDMC1yT3idTL1hJlCn2X/R6BI3AkjsCZfVuZs4qegQudbxpAPGwkWC/fFyjLY9eTXRbnKtS3/Hj9cLyVuMbo/Ke8jh/zP78WnPecH/2uCNySz6++dbkMBK4z8vYS8NhyUfCZS61C7cAY+qgzdZ/v6iXu2YrMNiKNxDoL7Bm4FfrvVgzl8AxcsPLWC7yLn5d4/vlnl/OgztRd9tULgQOB60A//k7gohK40DkpcQv1hMARhaYY3eLpNVAvb0JN4BIUuE7fQg35Nhf5WHymiLzVJnA/FpXoLNAN7QlctxhtTrrTQr0cC32j3BC4IATuJjKB+9SVNk7gCFyFnJa4hXpVcO4pgetuYxh9cx09EP07+3e3+If8/0dLi8cPTL8UzFaNH85+mTg+Pqz9nF/vNhemzYA6aT9Dk2wTuCAE7ja2wVmycQu1wthtdbx/fy0hcJsdKOqrzvThG1HWgd3EfdNKQygInBm4yPrxoXGtuwIXQU6btg/opcjEIwknaoXAETgCR+DinIUjcEnntH11ELckHKuV97p5keob4Q+BC0bgolrEQOAIHMzApSRw39XKzMaO6llfoC4IHIGLZYzdlXMIXEt1v/AzcOjm4HKkVtxGDS1JE7jGBC6qfeAC7cNvxrR2Zn+Gv28n+7uzwUP+35v8S8tV9vdVgx+Pq/zno8U9kwv5xov7HiaudZcf9/m5vyZ+Pl78N7kocPxvbvPfMcj73/gY5J/v/sPvHV/rz4drPmTFCw7Hiw4L62GivNf57739cNxMfM7xZxufNy73tM/6MOXz3U2U/fZD7Mb/fvyZJ9808zhxzfsPn+12yvHxuuNr31fS9ggcgSMTBI7AJSVwmTGtNYG71vtRWT8kcMEL3L5mXit9AheUwMV4C/WtK/FPUOCuEi8/2mOdwJmFQwOJbHjqF9EicEv23ycCZwbOmI7K+2CA5bKI4f91dKe518IxgQtO4GLcRuQPgbOI4UMMfhkFjH8EziwcGuhEBI7AETgCZ0xHBfQJHIFDgzks8wxcUwIX4y3U3wQu2LHsTCzQIE+xNyACN72eetp+ewmMwBG4FfruA4ELNuectByLK6OBcY/ApSFxr7pAO51o+M8ORY7AETgCZxYOS7KZQuOxClVnr5OvBC5ogYtxH7h7AhfsGHYawJjeNyJEz20qQkDgSFxdDFaIOYEjcAQuvvHrPJAx/cSokN54R+DSFLhvukSznSjzDByBW77t3MXUFyLLOVcBjeuIkz6Bw8d6O9cvmktYBK4xgbuKqd2YgQs+5wwCG9cRF+epNRgCt3jd3eofjSVh+8AROAJXTTxeAgrFTWBj+rbRQe4hcOlI3EA3qb8DEbjGBO4yQoGzCvW/8Xg2A2cWLgHWCBx8a1uOzxXH+LOQErgIhCUEgQvp3bBXgY7p6DbfU20oBG65erQU/V96NcSXwBE4AhefwF0GOp6fGSXiG98IHObVZ8o7ex/UGFcC14zAXUQocG6hhiu0FwGP5SBvnWsk32jYynUa5Au0a+RnAzElcM0I3Hlsg3FoUhqAwIX0RpmLwMdydIt9Aoeq6nZteDxG3FkuG4ylRQzNCNxZFz5n1+WfwDU/hiwZq1Ojhdm3LgncV+pVSz1vRtRP1lqIH4FrRuB+xjggB1gFVy2ORSHdQr3uwNgN8taZxnFIt2qv850swL2p5vCl5VvSNvJtRuBOYxyUJZz/xCKkRQx3HRmzwd+mNozQ3sHWo1iNt4GNLLwHrb8FFqM1Y1Qzs+wBfc6DCtvPFxnnPRZ7AYVhp0NfuhEmHvtCkIPGaGuS3XxWpMrbHm/Z34fV94fHpkgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXSXLsoNsBitct/JrBhSzfjabmzri1vXYDT/+ebY6d8NjJ4F+uZ3ViJEPALqfKLKmBW7IXuQCN2Jries+RC5wRGTxWD0TOADArETxRuDqkZEarnlM4KbyM8J++ZvAAQBCE7idSGI3j90S13qJPelm9fIcWb/8Q+AAAASuntg9VZEoR6dVKYOJCtyIawJH4AAgFYF7JXC1Ssn3KsQmkVgRk39j9ShOAAACV1/89ldJlsMff04l32YNQeAIHACkIHAZgatdTB5X+LenCcVprQoJjCRWTwQMABCawO1GFsPPy8RxJGcpzZRUIXALXqcfQayeCRwAIDSB208tjtNimYKIlCxvVdf5EkGsXgkcACA0gTuIMI6LiMX6KsKnrb1f52zVhSMdiNUbgQMANCZwucispTYDl5f9dtF4VnU7Maa2VmIG7uec6/wgcAAAAlf+mhuxv4lhBUk5SmnhQsnYLPoM3LxXjh1FEKsXAgcAmJUoXrPmiVngDm3xsLTA9Sq6TgybHj/V0fGMeAAQT1J9aUHg9iOP6SpsJRyX/gLXuE9kG5E/BA4AEJrAfU4grhJs+ZgcFM3CjZ5rS2wj398EDgBA4DogcGJCUCZiZQYOABCcwB0kElvPBRK4ZWP1KD4AgFmJoo1FDPsJxHV0XEqszQlcZLEicACAlZLqY75tw32+z9n18LjK5eQy//Mg/9mv/NzX1AWupLT0xYKYfIjVvFuo9x/65SDvm9f5n+/yn//OrzU6BkY8AEgkqS55zb5bqO+x2DArUqvAHUYaqz/z2kzez9ZHCz9MrgEAgWviVVpfxJjArciPyGP1qM0AAEITuEMxJnDTNuDNZ5TW9EtvYgAANCwXeRImcASurMCt65HvsXrVZgAAsxLFWw0C13MLlcARuJViZQYOAND8N32rUAncEgLX1yPfY/WszQAAZiWKtxYEbi+xGBO4T9W9zJ7A2XYFACSKdhYxEDgCN401PfI9Vq8EDgAQmsC5hUrgeMVqsSJwACBRNC5wB2JM4EgFgQMAdEvgzMAROFJB4AAAHRO4bTEmcKSCwAEAlk8U4013J1ejPucvwj5f4bqP+V5Wr/l/H/MXb18mGONrMvve1kYvXv+Vt4fnif3OrvXG/8Rq3vuE3/Jj3L9eJv5uHq8iDAAAAAAAAAAAAAAAAAAA0H3+AWU2AOnUhpJSAAAAAElFTkSuQmCC" alt="Puerto Hype" class="footer-logo-img" style="height: 50px; width: auto; max-width: 220px; object-fit: contain; display: block; margin-bottom: 8px;">
         <div style="font-family: var(--font-display); font-size: 0.68rem; font-weight: 800; letter-spacing: 0.12em; color: var(--gold-amber); margin-bottom: 12px;">— LLEVA EL HYPE AL SIGUIENTE NIVEL —</div>
@@ -2059,20 +2170,32 @@ h1, h2, h3, h4, .font-heading {
   </svg>
   <a href="https://tiktok.com/@puertohype2" target="_blank" rel="noopener" style="color: #cbd5e1; text-decoration: none;">TikTok: <strong>@puertohype2</strong></a>
 </div>
+<div class="contact-row">
+  <svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px; color: #1877F2;">
+    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+  </svg>
+  <a href="https://www.facebook.com/puertohype" target="_blank" rel="noopener" style="color: #cbd5e1; text-decoration: none;">Facebook: <strong>Puerto Hype</strong></a>
+</div>
+<div class="contact-row">
+  <svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px; color: #FF0000;">
+    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+  </svg>
+  <a href="https://www.youtube.com/@puertohype" target="_blank" rel="noopener" style="color: #cbd5e1; text-decoration: none;">YouTube: <strong>@puertohype</strong></a>
+</div>
 
         <div class="contact-row">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
             <polyline points="22,6 12,13 2,6"></polyline>
           </svg>
-          <span>Correo: mayoristas@puertohype.mx</span>
+          <a href="mailto:tuttisports13@gmail.com" style="color: #cbd5e1; text-decoration: none;">Correo: <strong>tuttisports13@gmail.com</strong></a>
         </div>
         <div class="contact-row">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="12" cy="12" r="10"></circle>
             <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
-          <span>Horario: Lunes a Sábado 9:00 AM - 8:00 PM</span>
+          <span>Horario: <strong>24/7</strong></span>
         </div>
       </div>
 
