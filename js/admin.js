@@ -466,7 +466,7 @@
       <article class="review" data-id="${esc(r.id)}">
         <div class="review-head"><b>${esc(r.name)}</b><span class="review-stars">${'★'.repeat(stars)}${'☆'.repeat(5 - stars)}</span></div>
         <span class="review-date">${esc(r.date)}</span>
-        <span class="review-product">${r.product ? `Dice que compró: <b>${esc(r.product)}</b>` : 'No dijo qué compró'}</span>
+        ${r.product ? `<span class="review-product">Dice que compró: <b>${esc(r.product)}</b></span>` : ''}
         ${r.image ? `<img src="${esc(imgUrl(r.image))}" alt="Foto de ${esc(r.name)}" loading="lazy">` : ''}
         <p>${esc(r.text)}</p>
         <div class="review-actions">

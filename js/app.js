@@ -203264,12 +203264,6 @@ async function loadReviews() {
 function openReviewModal() {
   const modal = document.getElementById('review-modal');
   if (!modal) return;
-  // Lista de productos para "¿Qué compraste?"
-  const sel = document.getElementById('review-product');
-  if (sel && sel.options.length <= 1) {
-    const names = [...new Set((STOCK_PRODUCTS || []).map(p => String(p.name).trim()))].sort((a, b) => a.localeCompare(b, 'es'));
-    names.forEach(n => sel.add(new Option(n, n)));
-  }
   modal.classList.add('open');
 }
 
@@ -203341,7 +203335,7 @@ async function submitReview() {
     const res = await fetch('/api/submit-review', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, stars: currentReviewStars, text, imageBase64, product: document.getElementById('review-product').value, website: document.getElementById('review-website').value })
+      body: JSON.stringify({ name, stars: currentReviewStars, text, imageBase64, website: document.getElementById('review-website').value })
     });
     const result = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(result.error || 'Error en el servidor');
@@ -203350,7 +203344,6 @@ async function submitReview() {
     closeReviewModal();
     
     // Clear form
-    document.getElementById('review-product').value = '';
     document.getElementById('review-name').value = '';
     document.getElementById('review-text').value = '';
     fileInput.value = '';

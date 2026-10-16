@@ -3746,9 +3746,6 @@ h1, h2, h3, h4, .font-heading {
       <span class="star" data-val="5" style="color: #ffd700;">★</span>
     </div>
 
-    <label class="rv-label" for="review-product">¿Qué compraste? <span class="rv-optional">(opcional)</span></label>
-    <select id="review-product" class="rv-input"><option value="">Elige tu producto…</option></select>
-
     <label class="rv-label" for="review-text">Tu opinión</label>
     <textarea id="review-text" class="rv-input" rows="4" maxlength="600" placeholder="¿Qué te pareció tu pedido?"></textarea>
 
@@ -3766,7 +3763,6 @@ h1, h2, h3, h4, .font-heading {
   .rv-input { width: 100%; margin-top: 6px; padding: 11px 12px; border-radius: 10px; border: 1.5px solid var(--border-subtle); background: #fff; color: var(--text-primary); font-size: 16px; font-family: var(--font-body); }
   .rv-input:focus { outline: none; border-color: #000; }
   textarea.rv-input { resize: none; }
-  .rv-optional { text-transform: none; letter-spacing: 0; font-weight: 500; color: var(--text-muted); }
   .rv-content { position: relative; }
   .rv-stars { display: flex; gap: 10px; margin-top: 6px; font-size: 26px; cursor: pointer; }
   .rv-file { width: 100%; margin-top: 6px; font-size: 0.85rem; color: var(--text-secondary); }
@@ -4160,7 +4156,7 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
 <script src="js/auth.js?v=1792032000"></script>
-<script src="js/app.js?v=1792160000"></script>
+<script src="js/app.js?v=1792170000"></script>
 <script>
   // Textos editables desde el panel de admin (data/site_config.json)
   (async () => {
