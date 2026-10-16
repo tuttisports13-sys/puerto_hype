@@ -66,7 +66,9 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         system_instruction: { parts: { text: systemPrompt } },
         contents: history,
-        generationConfig: { temperature: 0.5, maxOutputTokens: 500 },
+        // El modelo "piensa" antes de contestar y eso gasta del límite y cortaba respuestas:
+        // se desactiva la pensada y se deja margen (las instrucciones ya piden respuestas cortas)
+        generationConfig: { temperature: 0.5, maxOutputTokens: 1500, thinkingConfig: { thinkingBudget: 0 } },
       }),
     });
 
@@ -76,6 +78,7 @@ export default async function handler(req, res) {
     }
 
     const data = await response.json();
+    if (data.candidates?.[0]?.finishReason === 'MAX_TOKENS') console.warn('Respuesta de Hypey cortada por límite');
     const reply = data.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || 'No pude generar una respuesta. Intenta de nuevo.';
     return res.status(200).json({ reply });
   } catch (error) {
