@@ -4137,7 +4137,29 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
 <script src="js/auth.js?v=1792032000"></script>
-<script src="js/app.js?v=1792130000"></script>
+<script src="js/app.js?v=1792140000"></script>
+<script>
+  // Textos editables desde el panel de admin (data/site_config.json)
+  (async () => {
+    try {
+      const res = await fetch(`data/site_config.json?t=${Date.now()}`);
+      if (!res.ok) return;
+      const c = await res.json();
+      const esc = (t) => String(t).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+      const track = document.querySelector('.ticker-track');
+      if (track && Array.isArray(c.ticker) && c.ticker.length) {
+        const items = c.ticker.map((t) => `<span class="ticker-item"><span class="dot"></span> ${esc(t)}</span>`).join('');
+        track.innerHTML = items + items; // repetido para el ciclo infinito
+      }
+      const badge = document.querySelector('.hero-section .badge-flag span');
+      if (badge && c.heroBadge) badge.textContent = c.heroBadge;
+      const title = document.querySelector('.hero-section .hero-title');
+      if (title && c.heroTitle) title.innerHTML = c.heroTitle.split('\n').map(esc).join('<br>');
+      const sub = document.querySelector('.hero-section .hero-subtitle');
+      if (sub && c.heroSubtitle) sub.textContent = c.heroSubtitle;
+    } catch (e) { /* si falla, se quedan los textos originales */ }
+  })();
+</script>
 <!-- Quick View Modal -->
 <div id="quickview-modal" class="qv-modal" onclick="if(event.target===this) closeQuickView()">
   <div class="qv-content">

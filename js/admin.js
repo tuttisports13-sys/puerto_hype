@@ -1,386 +1,505 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const loginContainer = document.getElementById('login-container');
-  const adminContainer = document.getElementById('admin-container');
-  const loginForm = document.getElementById('login-form');
-  const productForm = document.getElementById('product-form');
-  const loginAlert = document.getElementById('login-alert');
-  const adminAlert = document.getElementById('admin-alert');
-  const imagePreviewBox = document.getElementById('image-preview-box');
-  const fileInput = document.getElementById('product-image');
-  const imagePlaceholder = document.getElementById('image-placeholder');
-  
-  const tabBtnAdd = document.getElementById('tab-btn-add');
-  const tabBtnStock = document.getElementById('tab-btn-stock');
-  const tabContentAdd = document.getElementById('tab-content-add');
-  const tabContentStock = document.getElementById('tab-content-stock');
-  const btnLogout = document.getElementById('btn-logout');
-  const btnRefreshStock = document.getElementById('btn-refresh-stock');
-  const stockSearchInput = document.getElementById('stock-search');
-  const adminProductList = document.getElementById('admin-product-list');
+// Panel Admin Puerto Hype: productos, reseñas y textos de la página.
+// Todo se guarda en el repo de GitHub a través de /api/admin-*; Vercel publica solo en 1–2 min.
+(() => {
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
+  const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+  // Rutas como "images/x.jpg" están publicadas en la misma web; las URLs completas se usan tal cual
+  const imgUrl = (u) => (!u ? '' : /^(https?:|data:)/.test(u) ? u : '/' + u.replace(/^\//, ''));
+  const money = (n) => `$${Number(n || 0).toLocaleString('es-MX')} MXN`;
 
-  let currentToken = localStorage.getItem('admin_token');
-  let currentImagesBase64 = [];
-  let loadedStockProducts = [];
+  const state = {
+    token: localStorage.getItem('admin_token'),
+    products: [],
+    reviews: [],
+    filter: 'all',
+    query: '',
+    view: 'dashboard',
+    editingId: null,
+    gallery: [], // [{ url } | { pending: true, preview, key }]
+    sizes: [],
+  };
 
-  if (currentToken) {
-    showAdmin();
+  // ---------------- utilidades de UI ----------------
+  let toastTimer;
+  function toast(msg, type = 'ok') {
+    const t = $('#toast');
+    t.textContent = msg;
+    t.className = `toast ${type === 'error' ? 'error' : ''}`;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.add('hidden'), 3600);
+  }
+  function busy(on, text = 'Guardando…') {
+    $('#busy-text').textContent = text;
+    $('#busy').classList.toggle('hidden', !on);
   }
 
-  // --- TABS LOGIC ---
-  tabBtnAdd.addEventListener('click', () => {
-    tabBtnAdd.classList.add('active');
-    tabBtnStock.classList.remove('active');
-    tabContentAdd.classList.remove('hidden');
-    tabContentStock.classList.add('hidden');
-  });
-
-  tabBtnStock.addEventListener('click', () => {
-    tabBtnStock.classList.add('active');
-    tabBtnAdd.classList.remove('active');
-    tabContentStock.classList.remove('hidden');
-    tabContentAdd.classList.add('hidden');
-    loadAdminProducts();
-  });
-
-  if (btnRefreshStock) {
-    btnRefreshStock.addEventListener('click', () => {
-      loadAdminProducts();
+  async function api(path, payload = {}) {
+    const res = await fetch(`/api/${path}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ token: state.token, ...payload }),
     });
+    let data = {};
+    try { data = await res.json(); } catch (e) { /* respuesta vacía */ }
+    if (res.status === 401) {
+      logout('Tu sesión expiró. Vuelve a entrar.');
+      throw new Error('Sesión expirada');
+    }
+    if (!res.ok || data.success === false) throw new Error(data.error || `Error ${res.status}`);
+    return data;
   }
 
-  if (stockSearchInput) {
-    stockSearchInput.addEventListener('input', (e) => {
-      renderAdminProducts(e.target.value.toLowerCase().trim());
+  // ---------------- grupos (igual que la tienda) ----------------
+  function group(p) {
+    if (p.category === 'mayoreo' || String(p.id).startsWith('lote-')) return 'mayoreo';
+    if (/local|visita|jersey|portugal 20/i.test(p.name)) return 'jerseys';
+    const shoe = (p.sizes || []).some((sz) => {
+      const s = String(sz).trim(); const n = parseFloat(s);
+      return (/^\d{2}(\.5)?\s*(cm)?$/i.test(s) && n >= 21 && n <= 32) || /^\d{1,2}(\.5)?\s*(mx|us)$/i.test(s);
     });
+    return shoe ? 'calzado' : 'outlet';
   }
 
-  // --- LOGOUT ---
-  if (btnLogout) {
-    btnLogout.addEventListener('click', () => {
-      localStorage.removeItem('admin_token');
-      currentToken = null;
-      showLogin();
-    });
+  // ---------------- login / sesión ----------------
+  function showApp() {
+    $('#login-view').classList.add('hidden');
+    $('#app-view').classList.remove('hidden');
+    go(location.hash.replace('#', '') || 'dashboard');
+    loadProducts();
+  }
+  function logout(msg) {
+    localStorage.removeItem('admin_token');
+    state.token = null;
+    $('#app-view').classList.add('hidden');
+    $('#login-view').classList.remove('hidden');
+    if (msg) { $('#login-alert').textContent = msg; $('#login-alert').classList.remove('hidden'); }
   }
 
-  // --- LOGIN ---
-  loginForm.addEventListener('submit', async (e) => {
+  $('#login-form').addEventListener('submit', async (e) => {
     e.preventDefault();
-    const btn = document.getElementById('btn-login');
-    const originalText = btn.textContent;
-    btn.innerHTML = '<span class="loader"></span> Entrando...';
-    btn.disabled = true;
-    loginAlert.classList.add('hidden');
-
+    const btn = $('#btn-login');
+    btn.disabled = true; btn.textContent = 'ENTRANDO…';
+    $('#login-alert').classList.add('hidden');
     try {
-      const email = document.getElementById('email').value;
-      const password = document.getElementById('password').value;
-
       const res = await fetch('/api/auth', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password })
+        body: JSON.stringify({ email: $('#email').value, password: $('#password').value }),
       });
-      const data = await res.json();
-      
-      if (res.ok && data.success) {
-        localStorage.setItem('admin_token', data.token);
-        currentToken = data.token;
-        showAdmin();
-      } else {
-        loginAlert.textContent = data.error || 'Credenciales incorrectas';
-        loginAlert.classList.remove('hidden');
-      }
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.success) throw new Error(data.error || 'Correo o contraseña incorrectos');
+      state.token = data.token;
+      localStorage.setItem('admin_token', data.token);
+      $('#password').value = '';
+      showApp();
     } catch (err) {
-      loginAlert.textContent = 'Error de conexión con el servidor';
-      loginAlert.classList.remove('hidden');
+      $('#login-alert').textContent = err.message === 'Credenciales invalidas' ? 'Correo o contraseña incorrectos' : err.message;
+      $('#login-alert').classList.remove('hidden');
     } finally {
-      btn.innerHTML = originalText;
-      btn.disabled = false;
+      btn.disabled = false; btn.textContent = 'ENTRAR AL PANEL';
     }
   });
+  $('#btn-logout').addEventListener('click', () => logout());
 
-  // --- IMAGE COMPRESSION & PREVIEW ---
-  imagePreviewBox.addEventListener('click', () => {
-    fileInput.click();
-  });
-
-  function compressImage(file, maxWidth = 800, maxHeight = 800, quality = 0.7) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = event => {
-        const img = new Image();
-        img.src = event.target.result;
-        img.onload = () => {
-          let width = img.width;
-          let height = img.height;
-          
-          if (width > maxWidth || height > maxHeight) {
-            if (width > height) {
-              height = Math.round((height *= maxWidth / width));
-              width = maxWidth;
-            } else {
-              width = Math.round((width *= maxHeight / height));
-              height = maxHeight;
-            }
-          }
-          
-          const canvas = document.createElement('canvas');
-          canvas.width = width;
-          canvas.height = height;
-          const ctx = canvas.getContext('2d');
-          ctx.drawImage(img, 0, 0, width, height);
-          resolve(canvas.toDataURL('image/jpeg', quality));
-        };
-        img.onerror = reject;
-      };
-      reader.onerror = reject;
-    });
+  // ---------------- navegación ----------------
+  const VIEWS = ['dashboard', 'products', 'new', 'reviews', 'texts'];
+  function go(view) {
+    if (!VIEWS.includes(view)) view = 'dashboard';
+    // "Agregar" siempre abre el formulario vacío, salvo cuando venimos de "Editar"
+    if (view === 'new' && !state._openingEditor && uploading === 0) resetEditor();
+    state._openingEditor = false;
+    state.view = view;
+    VIEWS.forEach((v) => $(`#view-${v}`).classList.toggle('hidden', v !== view));
+    // Al editar un producto se marca "Productos" en el menú; "Agregar" solo para productos nuevos
+    const navView = view === 'new' && state.editingId ? 'products' : view;
+    $$('[data-view]').forEach((b) => b.classList.toggle('active', b.dataset.view === navView));
+    if (location.hash !== `#${view}`) history.replaceState(null, '', `#${view}`);
+    window.scrollTo({ top: 0 });
+    if (view === 'reviews') loadReviews();
+    if (view === 'texts') loadTexts();
   }
-
-  fileInput.addEventListener('change', async () => {
-    const files = Array.from(fileInput.files);
-    if (files.length > 0) {
-      currentImagesBase64 = [];
-      const existingImgs = imagePreviewBox.querySelectorAll('img');
-      existingImgs.forEach(img => img.remove());
-      imagePlaceholder.style.display = 'none';
-      imagePreviewBox.style.opacity = '0.5';
-
-      for (let i = 0; i < files.length; i++) {
-        try {
-          const compressed = await compressImage(files[i], 1000, 1000, 0.7);
-          currentImagesBase64.push(compressed);
-          const img = document.createElement('img');
-          img.src = compressed;
-          imagePreviewBox.appendChild(img);
-        } catch (err) {
-          console.error("Error comprimiendo imagen", err);
-        }
-      }
-      imagePreviewBox.style.opacity = '1';
-    } else {
-      currentImagesBase64 = [];
-      const existingImgs = imagePreviewBox.querySelectorAll('img');
-      existingImgs.forEach(img => img.remove());
-      imagePlaceholder.style.display = 'block';
-    }
+  $$('[data-view]').forEach((b) => b.addEventListener('click', () => go(b.dataset.view)));
+  document.addEventListener('click', (e) => {
+    const g = e.target.closest('[data-go]');
+    if (g) go(g.dataset.go);
   });
 
-  // --- ADD PRODUCT TO STOCK ---
-  productForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    
-    if (currentImagesBase64.length === 0) {
-      showAlert('Por favor, selecciona al menos una foto.', 'error');
-      return;
-    }
-
-    const btn = document.getElementById('btn-save');
-    const originalText = btn.textContent;
-    btn.innerHTML = '<span class="loader"></span> Guardando en Stock...';
-    btn.disabled = true;
-    adminAlert.classList.add('hidden');
-
+  // ---------------- productos ----------------
+  async function loadProducts() {
+    $('#product-grid').innerHTML = '<p class="empty">Cargando productos…</p>';
     try {
-      const name = document.getElementById('product-name').value;
-      const price = document.getElementById('product-price').value;
-      const sizes = document.getElementById('product-sizes').value;
-
-      const res = await fetch('/api/add-product', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          token: currentToken,
-          name,
-          price,
-          sizes,
-          imagesBase64: currentImagesBase64
-        })
-      });
-
-      const data = await res.json();
-
-      if (res.ok && data.success) {
-        showAlert('¡Producto guardado exitosamente en Stock!', 'success');
-        productForm.reset();
-        currentImagesBase64 = [];
-        const existingImgs = imagePreviewBox.querySelectorAll('img');
-        existingImgs.forEach(img => img.remove());
-        imagePlaceholder.style.display = 'block';
-      } else {
-        if (res.status === 401) {
-          localStorage.removeItem('admin_token');
-          showLogin();
-        }
-        showAlert(data.error || 'Error al guardar el producto', 'error');
-      }
+      const { products } = await api('admin-products', { action: 'list' });
+      state.products = products || [];
+      renderProducts();
+      renderStats();
     } catch (err) {
-      showAlert('Error de conexión al guardar', 'error');
-    } finally {
-      btn.innerHTML = originalText;
-      btn.disabled = false;
-    }
-  });
-
-  // --- LOAD & MANAGE STOCK PRODUCTS ---
-  async function loadAdminProducts() {
-    if (!adminProductList) return;
-    adminProductList.innerHTML = '<p style="text-align: center; color: #888;">Cargando inventario...</p>';
-    
-    try {
-      const res = await fetch(`https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/data/stock_products.json?t=${Date.now()}`);
-      if (!res.ok) throw new Error('No se pudo descargar el inventario');
-      
-      loadedStockProducts = await res.json();
-      renderAdminProducts(stockSearchInput ? stockSearchInput.value.toLowerCase().trim() : '');
-    } catch (err) {
-      console.error(err);
-      adminProductList.innerHTML = '<p style="text-align: center; color: #ff5247;">Error al cargar productos de stock.</p>';
+      $('#product-grid').innerHTML = `<p class="empty">No se pudieron cargar los productos: ${esc(err.message)}</p>`;
     }
   }
+  $('#btn-reload').addEventListener('click', loadProducts);
+  $('#product-search').addEventListener('input', (e) => { state.query = e.target.value.toLowerCase().trim(); renderProducts(); });
+  $$('#product-filters .filter-pill').forEach((b) => b.addEventListener('click', () => {
+    state.filter = b.dataset.filter;
+    $$('#product-filters .filter-pill').forEach((x) => x.classList.toggle('active', x === b));
+    renderProducts();
+  }));
 
-  function renderAdminProducts(filterQuery = '') {
-    if (!adminProductList) return;
+  function renderStats() {
+    const ps = state.products;
+    const count = (g) => ps.filter((p) => group(p) === g).length;
+    const stats = [
+      ['dark', ps.filter((p) => !p.hidden).length, 'En la tienda'],
+      ['', count('mayoreo'), 'Lotes mayoreo'],
+      ['', count('jerseys'), 'Jerseys'],
+      ['', count('calzado'), 'Calzado'],
+      ['', count('outlet'), 'Outlet'],
+      ['', ps.filter((p) => p.soldOut).length, 'Agotados'],
+      ['', ps.filter((p) => p.hidden).length, 'Ocultos'],
+    ];
+    $('#stats').innerHTML = stats.map(([cls, n, label]) => `<div class="stat ${cls}"><b>${n}</b><span>${label}</span></div>`).join('');
+  }
 
-    const filtered = loadedStockProducts.filter(p => {
-      if (!filterQuery) return true;
-      return p.name.toLowerCase().includes(filterQuery);
+  function renderProducts() {
+    const list = state.products.filter((p) => {
+      if (state.query && !p.name.toLowerCase().includes(state.query)) return false;
+      if (state.filter === 'all') return true;
+      if (state.filter === 'soldOut') return p.soldOut;
+      if (state.filter === 'hidden') return p.hidden;
+      return group(p) === state.filter;
     });
-
-    if (filtered.length === 0) {
-      adminProductList.innerHTML = '<p style="text-align: center; color: #888; padding: 20px;">No se encontraron productos en stock.</p>';
+    if (!list.length) {
+      $('#product-grid').innerHTML = '<p class="empty">No hay productos aquí.</p>';
       return;
     }
-
-    adminProductList.innerHTML = '';
-
-    filtered.forEach(product => {
-      const item = document.createElement('div');
-      item.className = 'admin-product-item';
-      
-      let displayImg = product.image;
-      if (!displayImg.startsWith('http')) {
-        displayImg = `https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/${displayImg}`;
-      }
-
-      const sizesList = product.sizes || [];
-      const sizesHtml = sizesList.map(s => `
-        <span class="size-pill">
-          ${s}
-          <button type="button" class="btn-remove-size" data-id="${product.id}" data-size="${s}" title="Eliminar talla ${s}">✕</button>
-        </span>
-      `).join('');
-
-      item.innerHTML = `
-        <div class="admin-product-main">
-          <img src="${displayImg}" alt="${product.name}" class="admin-product-img">
-          <div class="admin-product-details">
-            <h4>${product.name}</h4>
-            <p class="product-price">$${product.price} MXN</p>
+    $('#product-grid').innerHTML = list.map((p) => `
+      <article class="p-card ${p.hidden ? 'is-hidden' : ''}" data-id="${esc(p.id)}">
+        <div class="p-thumb" data-act="edit">
+          <img src="${esc(imgUrl(p.image))}" alt="${esc(p.name)}" loading="lazy">
+          <div class="p-badges">
+            ${p.soldOut ? '<span class="tag red">AGOTADO</span>' : ''}
+            ${p.hidden ? '<span class="tag gray">OCULTO</span>' : ''}
+            ${!p.soldOut && p.badge ? `<span class="tag">${esc(p.badge)}</span>` : ''}
           </div>
         </div>
-
-        <div class="sizes-container">
-          <span class="sizes-label">Tallas:</span>
-          ${sizesHtml.length > 0 ? sizesHtml : '<span style="color: #666; font-size: 0.75rem;">Sin tallas</span>'}
-          <button type="button" class="btn-add-size" data-id="${product.id}">+ Agregar</button>
+        <div class="p-body">
+          <div class="p-name">${esc(p.name)}</div>
+          <div class="p-price">${money(p.price)}</div>
+          <div class="p-sizes">${p.sizes && p.sizes.length ? 'Tallas: ' + esc(p.sizes.join(', ')) : 'Sin tallas'}</div>
+          <div class="p-actions">
+            <button type="button" class="btn btn-primary btn-edit" data-act="edit">✎ EDITAR</button>
+            <button type="button" class="btn btn-secondary" data-act="soldOut">${p.soldOut ? 'DISPONIBLE' : 'AGOTADO'}</button>
+            <button type="button" class="btn btn-ghost" data-act="hidden">${p.hidden ? 'MOSTRAR' : 'OCULTAR'}</button>
+          </div>
         </div>
+      </article>`).join('');
+  }
 
-        <button type="button" class="btn-delete-prod" data-id="${product.id}" data-name="${product.name}">
-          🗑️ Eliminar Producto
-        </button>
-      `;
+  $('#product-grid').addEventListener('click', async (e) => {
+    const btn = e.target.closest('[data-act]');
+    if (!btn) return;
+    const id = btn.closest('.p-card').dataset.id;
+    const p = state.products.find((x) => x.id === id);
+    if (!p) return;
+    const act = btn.dataset.act;
+    if (act === 'edit') return openEditor(p);
+    const value = !p[act];
+    busy(true, 'Actualizando…');
+    try {
+      await api('admin-products', { action: 'update', id, product: { [act]: value } });
+      p[act] = value;
+      renderProducts(); renderStats();
+      toast(act === 'soldOut' ? (value ? 'Marcado como agotado' : 'Disponible otra vez') : (value ? 'Oculto de la tienda' : 'Visible en la tienda'));
+    } catch (err) {
+      toast(err.message, 'error');
+    } finally { busy(false); }
+  });
 
-      adminProductList.appendChild(item);
-    });
+  // ---------------- editor ----------------
+  function resetEditor() {
+    state.editingId = null;
+    state.gallery = [];
+    state.sizes = [];
+    $('#product-form').reset();
+    $('#f-badge').value = 'NUEVO';
+    $('#editor-tag').textContent = 'NUEVO';
+    $('#editor-title').textContent = 'AGREGAR PRODUCTO';
+    $('#btn-save').textContent = 'GUARDAR PRODUCTO';
+    $('#btn-delete').classList.add('hidden');
+    $('#btn-cancel-edit').classList.add('hidden');
+    renderGallery(); renderSizes();
+  }
 
-    // Add listeners for Delete Product
-    adminProductList.querySelectorAll('.btn-delete-prod').forEach(btn => {
-      btn.addEventListener('click', async (e) => {
-        const id = e.currentTarget.getAttribute('data-id');
-        const name = e.currentTarget.getAttribute('data-name');
-        if (confirm(`¿Estás SEGURO de que deseas eliminar permanentemente "${name}" del stock?`)) {
-          await executeStockAction({ id, action: 'delete_product' }, e.currentTarget, 'Producto eliminado exitosamente');
-        }
-      });
-    });
+  function openEditor(p) {
+    state.editingId = p.id;
+    const gal = Array.isArray(p.gallery) && p.gallery.length ? p.gallery : [p.image].filter(Boolean);
+    state.gallery = gal.map((url) => ({ url }));
+    state.sizes = [...(p.sizes || [])];
+    $('#f-name').value = p.name || '';
+    $('#f-price').value = p.price || '';
+    $('#f-category').value = p.category === 'mayoreo' ? 'mayoreo' : 'sneakers';
+    $('#f-description').value = p.description || '';
+    const badge = p.badge || '';
+    if (![...$('#f-badge').options].some((o) => o.value === badge)) $('#f-badge').add(new Option(badge, badge));
+    $('#f-badge').value = badge;
+    $('#f-soldout').checked = !!p.soldOut;
+    $('#f-hidden').checked = !!p.hidden;
+    $('#editor-tag').textContent = 'EDITANDO';
+    $('#editor-title').textContent = p.name;
+    $('#btn-save').textContent = 'GUARDAR CAMBIOS';
+    $('#btn-delete').classList.remove('hidden');
+    $('#btn-cancel-edit').classList.remove('hidden');
+    renderGallery(); renderSizes();
+    state._openingEditor = true;
+    go('new');
+  }
+  $('#btn-cancel-edit').addEventListener('click', () => { resetEditor(); go('products'); });
 
-    // Add listeners for Remove Size
-    adminProductList.querySelectorAll('.btn-remove-size').forEach(btn => {
-      btn.addEventListener('click', async (e) => {
-        const id = e.currentTarget.getAttribute('data-id');
-        const size = e.currentTarget.getAttribute('data-size');
-        if (confirm(`¿Eliminar la talla "${size}" de este producto?`)) {
-          await executeStockAction({ id, action: 'remove_size', size }, e.currentTarget, `Talla ${size} eliminada`);
-        }
-      });
-    });
+  // Fotos
+  function renderGallery() {
+    $('#photo-grid').innerHTML = state.gallery.map((g, i) => `
+      <div class="photo ${i === 0 ? 'cover' : ''} ${g.pending ? 'uploading' : ''}">
+        <img src="${esc(g.pending ? g.preview : imgUrl(g.url))}" alt="Foto ${i + 1}">
+        ${i === 0 ? '<span class="tag cover-tag">PORTADA</span>' : ''}
+        ${g.pending ? '' : `<div class="photo-tools">
+          <button type="button" data-ph="left" data-i="${i}" ${i === 0 ? 'disabled' : ''} title="Mover a la izquierda">←</button>
+          ${i === 0 ? '' : `<button type="button" data-ph="cover" data-i="${i}" title="Hacer portada">★</button>`}
+          <button type="button" data-ph="right" data-i="${i}" ${i === state.gallery.length - 1 ? 'disabled' : ''} title="Mover a la derecha">→</button>
+          <button type="button" class="del" data-ph="del" data-i="${i}" title="Quitar foto">✕</button>
+        </div>`}
+      </div>`).join('');
+  }
+  $('#photo-grid').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-ph]');
+    if (!b) return;
+    const i = Number(b.dataset.i);
+    const g = state.gallery;
+    if (b.dataset.ph === 'del') g.splice(i, 1);
+    if (b.dataset.ph === 'left' && i > 0) [g[i - 1], g[i]] = [g[i], g[i - 1]];
+    if (b.dataset.ph === 'right' && i < g.length - 1) [g[i + 1], g[i]] = [g[i], g[i + 1]];
+    if (b.dataset.ph === 'cover') g.unshift(...g.splice(i, 1));
+    renderGallery();
+  });
 
-    // Add listeners for Add Size
-    adminProductList.querySelectorAll('.btn-add-size').forEach(btn => {
-      btn.addEventListener('click', async (e) => {
-        const id = e.currentTarget.getAttribute('data-id');
-        const newSize = prompt('Ingresa la nueva talla para este producto (ej. 27 o 28 cm):');
-        if (newSize && newSize.trim().length > 0) {
-          await executeStockAction({ id, action: 'add_size', newSize: newSize.trim() }, e.currentTarget, `Talla ${newSize} agregada`);
-        }
-      });
+  function compress(file, max = 1200, quality = 0.75) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => {
+        const scale = Math.min(1, max / Math.max(img.width, img.height));
+        const c = document.createElement('canvas');
+        c.width = Math.round(img.width * scale); c.height = Math.round(img.height * scale);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        URL.revokeObjectURL(img.src);
+        resolve(c.toDataURL('image/jpeg', quality));
+      };
+      img.onerror = reject;
+      img.src = URL.createObjectURL(file);
     });
   }
 
-  async function executeStockAction(payload, btnElement, successMsg) {
-    const originalText = btnElement.textContent;
-    btnElement.textContent = '...';
-    btnElement.disabled = true;
-
-    try {
-      const res = await fetch('/api/delete-product', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          token: currentToken,
-          ...payload
-        })
-      });
-
-      const data = await res.json();
-
-      if (res.ok && data.success) {
-        showAlert(successMsg, 'success');
-        // Refresh local cache and list
-        setTimeout(() => loadAdminProducts(), 800);
-      } else {
-        if (res.status === 401) {
-          localStorage.removeItem('admin_token');
-          showLogin();
-        }
-        showAlert(data.error || 'Error al actualizar', 'error');
-        btnElement.textContent = originalText;
-        btnElement.disabled = false;
+  let uploading = 0;
+  $('#photo-input').addEventListener('change', async (e) => {
+    const files = [...e.target.files];
+    e.target.value = '';
+    for (const file of files) {
+      const key = Math.random().toString(36).slice(2);
+      let data;
+      try { data = await compress(file); } catch (err) { toast('No se pudo leer una foto', 'error'); continue; }
+      state.gallery.push({ pending: true, preview: data, key });
+      renderGallery();
+      uploading++; updateSaveState();
+      try {
+        const { url } = await api('admin-upload', { imageBase64: data });
+        const g = state.gallery.find((x) => x.key === key);
+        if (g) { delete g.pending; delete g.preview; delete g.key; g.url = url; }
+      } catch (err) {
+        state.gallery = state.gallery.filter((x) => x.key !== key);
+        toast(`No se pudo subir una foto: ${err.message}`, 'error');
+      } finally {
+        uploading--; updateSaveState(); renderGallery();
       }
+    }
+  });
+  function updateSaveState() {
+    $('#btn-save').disabled = uploading > 0;
+    if (uploading > 0) $('#btn-save').textContent = `SUBIENDO FOTOS (${uploading})…`;
+    else $('#btn-save').textContent = state.editingId ? 'GUARDAR CAMBIOS' : 'GUARDAR PRODUCTO';
+  }
+
+  // Tallas
+  function renderSizes() {
+    $('#size-chips').innerHTML = state.sizes.map((s, i) => `<span class="chip">${esc(s)}<button type="button" data-size-del="${i}" aria-label="Quitar ${esc(s)}">✕</button></span>`).join('');
+  }
+  function addSizes(raw) {
+    String(raw).split(',').map((s) => s.trim()).filter(Boolean).forEach((s) => { if (!state.sizes.includes(s)) state.sizes.push(s); });
+    renderSizes();
+  }
+  $('#size-chips').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-size-del]');
+    if (b) { state.sizes.splice(Number(b.dataset.sizeDel), 1); renderSizes(); }
+  });
+  $('#btn-add-size').addEventListener('click', () => { addSizes($('#size-input').value); $('#size-input').value = ''; $('#size-input').focus(); });
+  $('#size-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); $('#btn-add-size').click(); } });
+  $$('.quick-sizes button').forEach((b) => b.addEventListener('click', () => addSizes(b.dataset.sizes)));
+
+  // Guardar / eliminar
+  $('#product-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (uploading > 0) return;
+    if ($('#size-input').value.trim()) { addSizes($('#size-input').value); $('#size-input').value = ''; }
+    const product = {
+      name: $('#f-name').value.trim(),
+      price: Number($('#f-price').value),
+      category: $('#f-category').value,
+      sizes: state.sizes,
+      description: $('#f-description').value.trim(),
+      badge: $('#f-badge').value,
+      soldOut: $('#f-soldout').checked,
+      hidden: $('#f-hidden').checked,
+      gallery: state.gallery.filter((g) => g.url).map((g) => g.url),
+    };
+    if (!product.gallery.length) return toast('Agrega al menos una foto', 'error');
+    if (!product.name) return toast('Ponle nombre al producto', 'error');
+    if (!(product.price > 0)) return toast('Escribe un precio válido', 'error');
+
+    busy(true, state.editingId ? 'Guardando cambios…' : 'Agregando producto…');
+    try {
+      if (state.editingId) {
+        await api('admin-products', { action: 'update', id: state.editingId, product });
+        toast('¡Cambios guardados! Se verán en la tienda en 1–2 min.');
+      } else {
+        await api('admin-products', { action: 'create', product });
+        toast('¡Producto agregado! Se verá en la tienda en 1–2 min.');
+      }
+      resetEditor();
+      await loadProducts();
+      go('products');
     } catch (err) {
-      showAlert('Error de conexión con el servidor', 'error');
-      btnElement.textContent = originalText;
-      btnElement.disabled = false;
+      toast(err.message, 'error');
+    } finally { busy(false); }
+  });
+
+  $('#btn-delete').addEventListener('click', async () => {
+    const p = state.products.find((x) => x.id === state.editingId);
+    if (!p || !confirm(`¿Eliminar "${p.name}" para siempre?\n\nSi solo no quieres que se vea, mejor usa "Oculto".`)) return;
+    busy(true, 'Eliminando…');
+    try {
+      await api('admin-products', { action: 'delete', id: p.id });
+      toast('Producto eliminado');
+      resetEditor();
+      await loadProducts();
+      go('products');
+    } catch (err) {
+      toast(err.message, 'error');
+    } finally { busy(false); }
+  });
+
+  // ---------------- reseñas ----------------
+  async function loadReviews() {
+    $('#review-list').innerHTML = '<p class="empty">Cargando reseñas…</p>';
+    try {
+      const res = await fetch(`/api/get-reviews?t=${Date.now()}`, { cache: 'no-store' });
+      state.reviews = res.ok ? await res.json() : [];
+      renderReviews();
+    } catch (err) {
+      $('#review-list').innerHTML = '<p class="empty">No se pudieron cargar las reseñas.</p>';
     }
   }
-
-  function showAdmin() {
-    loginContainer.classList.add('hidden');
-    adminContainer.classList.remove('hidden');
+  function renderReviews() {
+    const list = [...state.reviews].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    if (!list.length) { $('#review-list').innerHTML = '<p class="empty">Todavía no hay reseñas.</p>'; return; }
+    $('#review-list').innerHTML = list.map((r) => {
+      const stars = Math.max(0, Math.min(5, Number(r.stars) || 0));
+      return `
+      <article class="review" data-id="${esc(r.id)}">
+        <div class="review-head"><b>${esc(r.name)}</b><span class="review-stars">${'★'.repeat(stars)}${'☆'.repeat(5 - stars)}</span></div>
+        <span class="review-date">${esc(r.date)}</span>
+        ${r.image ? `<img src="${esc(imgUrl(r.image))}" alt="Foto de ${esc(r.name)}" loading="lazy">` : ''}
+        <p>${esc(r.text)}</p>
+        <button type="button" class="btn btn-danger btn-sm" data-review-del>ELIMINAR</button>
+      </article>`;
+    }).join('');
   }
+  $('#btn-reload-reviews').addEventListener('click', loadReviews);
+  $('#review-list').addEventListener('click', async (e) => {
+    if (!e.target.closest('[data-review-del]')) return;
+    const id = e.target.closest('.review').dataset.id;
+    const r = state.reviews.find((x) => String(x.id) === id);
+    if (!confirm(`¿Eliminar la reseña de ${r ? r.name : 'este cliente'}?`)) return;
+    busy(true, 'Eliminando reseña…');
+    try {
+      await api('admin-reviews', { action: 'delete', id });
+      state.reviews = state.reviews.filter((x) => String(x.id) !== id);
+      renderReviews();
+      toast('Reseña eliminada');
+    } catch (err) {
+      toast(err.message, 'error');
+    } finally { busy(false); }
+  });
 
-  function showLogin() {
-    adminContainer.classList.add('hidden');
-    loginContainer.classList.remove('hidden');
+  // ---------------- textos de la página ----------------
+  let textsLoaded = false;
+  async function loadTexts() {
+    if (textsLoaded) return;
+    try {
+      const { config } = await api('admin-config', { action: 'get' });
+      fillTexts(config || {});
+      textsLoaded = true;
+    } catch (err) {
+      toast(`No se pudieron cargar los textos: ${err.message}`, 'error');
+    }
   }
+  function tickerRow(value = '') {
+    const row = document.createElement('div');
+    row.className = 'ticker-row';
+    row.innerHTML = `<input type="text" maxlength="120" value="${esc(value)}" placeholder="Ej: ENVÍO GRATIS A TODO MÉXICO"><button type="button" title="Quitar">✕</button>`;
+    row.querySelector('button').addEventListener('click', () => { row.remove(); });
+    return row;
+  }
+  function fillTexts(c) {
+    const list = $('#ticker-list');
+    list.innerHTML = '';
+    (c.ticker && c.ticker.length ? c.ticker : ['']).forEach((t) => list.appendChild(tickerRow(t)));
+    $('#t-badge').value = c.heroBadge || '';
+    $('#t-title').value = c.heroTitle || '';
+    $('#t-subtitle').value = c.heroSubtitle || '';
+    renderHeroPreview();
+  }
+  function renderHeroPreview() {
+    $('#hero-preview').innerHTML = `
+      <div class="preview-label">VISTA PREVIA</div>
+      ${$('#t-badge').value ? `<span class="pv-badge">${esc($('#t-badge').value)}</span>` : ''}
+      <div class="pv-title">${$('#t-title').value.split('\n').map(esc).join('<br>')}</div>
+      <div class="pv-sub">${esc($('#t-subtitle').value)}</div>`;
+  }
+  ['#t-badge', '#t-title', '#t-subtitle'].forEach((s) => $(s).addEventListener('input', renderHeroPreview));
+  $('#btn-add-ticker').addEventListener('click', () => {
+    if ($$('#ticker-list .ticker-row').length >= 8) return toast('Máximo 8 anuncios', 'error');
+    const row = tickerRow();
+    $('#ticker-list').appendChild(row);
+    row.querySelector('input').focus();
+  });
+  $('#texts-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const config = {
+      ticker: $$('#ticker-list input').map((i) => i.value.trim()).filter(Boolean),
+      heroBadge: $('#t-badge').value.trim(),
+      heroTitle: $('#t-title').value.trim(),
+      heroSubtitle: $('#t-subtitle').value.trim(),
+    };
+    if (!config.ticker.length) return toast('Escribe al menos un anuncio', 'error');
+    if (!config.heroTitle) return toast('El título no puede ir vacío', 'error');
+    busy(true, 'Guardando textos…');
+    try {
+      const { config: saved } = await api('admin-config', { config });
+      fillTexts(saved);
+      toast('¡Textos guardados! Se verán en la tienda en 1–2 min.');
+    } catch (err) {
+      toast(err.message, 'error');
+    } finally { busy(false); }
+  });
 
-  function showAlert(msg, type) {
-    adminAlert.textContent = msg;
-    adminAlert.className = `alert alert-${type}`;
-    adminAlert.classList.remove('hidden');
-    setTimeout(() => adminAlert.classList.add('hidden'), 3500);
-  }
-});
+  // ---------------- inicio ----------------
+  resetEditor();
+  if (state.token) showApp();
+})();

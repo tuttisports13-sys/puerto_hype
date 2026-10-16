@@ -201838,6 +201838,8 @@ async function initApp() {
       console.error('Error fetching stock products:', err);
     }
   }
+  // Productos ocultos desde el panel de admin no se muestran en la tienda
+  STOCK_PRODUCTS = (STOCK_PRODUCTS || []).filter(p => !p.hidden);
   setupEventListeners();
   const btnStock = document.getElementById('btn-stock');
   if (btnStock) {
@@ -201912,7 +201914,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     // "NUEVO" solo en productos subidos en los últimos 14 días (el id del admin lleva la fecha: stock-<ms>)
     const addedAt = parseInt(String(product.id).replace(/^stock-/, ''), 10);
     const isRecent = addedAt > 1e12 && Date.now() - addedAt < 14 * 24 * 60 * 60 * 1000;
-    const badgeText = product.badge === 'NUEVO' ? (isRecent ? 'NUEVO' : '') : (product.badge || 'Lotes limitados');
+    const badgeText = product.soldOut ? 'AGOTADO' : product.badge === 'NUEVO' ? (isRecent ? 'NUEVO' : '') : (product.badge || 'Lotes limitados');
 
     // Animación de cambio de imagen al pasar el ratón (Estilo Gucci)
     let hoverImgSrc = null;
@@ -201968,6 +201970,8 @@ ${product.isFolder || product.section === 'preorder' || (product.section === 'pr
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
       VER CATÁLOGO
     </a>
+  ` : product.soldOut ? `
+    <button class="btn-add-cart" disabled style="opacity: 0.45; cursor: not-allowed;">AGOTADO</button>
   ` : `
     <button class="btn-add-cart" onclick="${product.customizable ? `openQuickView('${product.id}')` : `addToCart('${product.id}')`}">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -202248,7 +202252,7 @@ function toggleCart(isOpen) {
 function addToCart(productId, customization = null, customPriceAdd = 0, selectedSize = null) {
   const product = STOCK_PRODUCTS.find(p => p.id === productId) || PREORDER_PRODUCTS.find(p => p.id === productId) || SPORTS_PRODUCTS.find(p => p.id === productId);
 
-  if (!product) return;
+  if (!product || product.soldOut) return;
 
   let base = product.hasVersionSelector ? currentQvVersionBasePrice : product.price;
   let finalName = product.name;
