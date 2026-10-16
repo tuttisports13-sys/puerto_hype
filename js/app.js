@@ -63338,7 +63338,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791932775918",
-    "name": "Spikes Nike ",
+    "name": "Spikes Nike Negro/Naranja",
     "category": "sneakers",
     "price": 600,
     "retailPrice": 900,
@@ -63359,7 +63359,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791932578190",
-    "name": "Spikes Nike ",
+    "name": "Spikes Nike Negro/Blanco",
     "category": "sneakers",
     "price": 600,
     "retailPrice": 900,
@@ -63379,7 +63379,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791932528008",
-    "name": "Spikes Nike ",
+    "name": "Spikes Nike Verde Neón",
     "category": "sneakers",
     "price": 600,
     "retailPrice": 900,
@@ -63420,7 +63420,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791932319975",
-    "name": "Saoucony Endorphin ",
+    "name": "Saucony Endorphin",
     "category": "sneakers",
     "price": 800,
     "retailPrice": 1200,
@@ -63732,7 +63732,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791927341612",
-    "name": "Hellstar ",
+    "name": "Hellstar Flama Negra",
     "category": "sneakers",
     "price": 650,
     "retailPrice": 975,
@@ -63752,7 +63752,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791927113356",
-    "name": "AMIRI ",
+    "name": "Amiri Arts & Crafts Blanca",
     "category": "sneakers",
     "price": 650,
     "retailPrice": 975,
@@ -63771,7 +63771,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791927080124",
-    "name": "AMIRI",
+    "name": "Amiri Arts & Crafts Negra",
     "category": "sneakers",
     "price": 650,
     "retailPrice": 975,
@@ -63790,7 +63790,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791927036773",
-    "name": "Hellstar",
+    "name": "Hellstar Estrella Negra",
     "category": "sneakers",
     "price": 650,
     "retailPrice": 975,
@@ -63811,7 +63811,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791926979688",
-    "name": "AMIRI ",
+    "name": "Amiri Script Negra",
     "category": "sneakers",
     "price": 650,
     "retailPrice": 975,
@@ -64045,7 +64045,7 @@ let STOCK_PRODUCTS = [
   },
   {
     "id": "stock-1791925972947",
-    "name": "Leggins ALO “Acampanados” ",
+    "name": "Leggings ALO “Acampanados” ",
     "category": "sneakers",
     "price": 300,
     "retailPrice": 450,
@@ -201867,6 +201867,16 @@ if (AppState.currentMode === 'preorder') currentProducts = PREORDER_PRODUCTS;
 if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCTS;
 
 
+  // Grupos del catálogo en stock: los productos del admin vienen todos como "sneakers",
+  // así que se separan por nombre/talla para que Jerseys, Calzado y Outlet muestren lo correcto.
+  const stockGroup = (prod) => {
+    if (prod.category === 'mayoreo' || String(prod.id).startsWith('lote-')) return 'mayoreo';
+    if (/local|visita|jersey|portugal 20/i.test(prod.name)) return 'jerseys';
+    const shoeSize = (prod.sizes || []).some(sz => { const n = parseFloat(sz); return (/^\d{2}(\.5)?\s*(cm)?$/i.test(String(sz).trim()) && n >= 21 && n <= 32) || /^\d{1,2}(\.5)?\s*(mx|us)$/i.test(String(sz).trim()); });
+    if (shoeSize) return 'calzado';
+    return 'outlet';
+  };
+
   const filtered = currentProducts.filter(prod => {
     const isSearching = AppState.searchQuery.trim().length > 0;
     // Si NO está buscando y estamos en deportes, ocultar productos individuales en la vista principal 'all'
@@ -201876,7 +201886,8 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     const matchesCategory = isSearching || AppState.currentFilter === 'all' || 
                             prod.category === AppState.currentFilter || 
                             prod.brand === AppState.currentFilter ||
-                            (AppState.currentFilter === 'mayoreo' && (prod.category === 'mayoreo' || prod.id.startsWith('lote-')));
+                            (AppState.currentFilter === 'mayoreo' && (prod.category === 'mayoreo' || prod.id.startsWith('lote-'))) ||
+                            (['jerseys', 'calzado', 'outlet'].includes(AppState.currentFilter) && AppState.currentMode !== 'preorder' && AppState.currentMode !== 'preorder-sports' && stockGroup(prod) === AppState.currentFilter);
                             
     // Validar nombre
     const matchesSearch = prod.name.toLowerCase().includes(AppState.searchQuery.toLowerCase());
@@ -201898,9 +201909,10 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
   }
 
   container.innerHTML = filtered.map(product => {
-    const rawPrice = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 499;
-    const retailPrice = Math.round(rawPrice * 1.65);
-    const badgeText = product.badge || 'Lotes limitados';
+    // "NUEVO" solo en productos subidos en los últimos 14 días (el id del admin lleva la fecha: stock-<ms>)
+    const addedAt = parseInt(String(product.id).replace(/^stock-/, ''), 10);
+    const isRecent = addedAt > 1e12 && Date.now() - addedAt < 14 * 24 * 60 * 60 * 1000;
+    const badgeText = product.badge === 'NUEVO' ? (isRecent ? 'NUEVO' : '') : (product.badge || 'Lotes limitados');
 
     // Animación de cambio de imagen al pasar el ratón (Estilo Gucci)
     let hoverImgSrc = null;
@@ -201913,7 +201925,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     return `
     <article class="product-card" data-id="${product.id}">
       <div class="product-thumb" onclick="openQuickView('${product.id}')" style="cursor: pointer;">
-        <span class="product-badge ${product.badgeType || ''}">${badgeText}</span>
+        ${badgeText ? `<span class="product-badge ${product.badgeType || ''}">${badgeText}</span>` : ''}
         <img 
           class="product-img" 
           src="${product.image}" 
@@ -201932,10 +201944,6 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
       </div>
       <div class="product-body">
         <h3 class="product-name">${product.name}</h3>
-        <div class="product-rating">
-          <span class="stars">★★★★★</span>
-          <span class="count">(42)</span>
-        </div>
         <div class="product-sizes" style="font-size: 0.74rem; color: var(--text-muted); margin-bottom: 6px;">
           ${product.sizes && product.sizes.length > 0 ? 'Tallas: ' + product.sizes.join(', ') : ''}
           ${product.password ? '<span style="color:var(--text-primary); font-weight:700; display:block; margin-top:3px;">' + product.password + '</span>' : ''}
@@ -201949,8 +201957,6 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
 ${product.isFolder || product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
 <div class="product-pricing">
   <span class="price-wholesale">${product.hasVersionSelector ? '$600 - $650 MXN' : '$' + product.price + ' MXN'}</span>
-  <span class="price-retail">$${retailPrice.toLocaleString()} MXN</span>
-  <span class="product-discount-badge">-40% OFF</span>
 </div>
 `}
 

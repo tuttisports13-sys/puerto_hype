@@ -6,7 +6,7 @@
   
   <!-- SEO Básico -->
   <title>Puerto Hype | Streetwear, Sneakers & Moda Urbana Mayorista en México</title>
-  <meta name="description" content="Puerto Hype: Mayoristas líderes en moda streetwear, calzado sneakers, jerseys, gorras y accesorios exclusivos en México. Precios de fábrica y atención 24/7.">
+  <meta name="description" content="Puerto Hype: Mayoristas líderes en moda streetwear, calzado sneakers, jerseys, gorras y accesorios exclusivos en México. Precios de fábrica y respuesta rápida por WhatsApp.">
   <meta name="keywords" content="Puerto Hype, puerto hype, streetwear mexico, sneakers mayoreo, jerseys mayoreo, gorras mayoreo, ropa streetwear, moda urbana mexico, proveedores mayoreo ropa">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="author" content="Puerto Hype">
@@ -3108,7 +3108,7 @@ h1, h2, h3, h4, .font-heading {
         <h1 class="hero-title">
           LOS MEJORES LOTES<br>
           PARA REVENDER<br>
-          Y GENERAR
+          Y GENERAR GANANCIAS
         </h1>
         <p class="hero-subtitle">
           Lotes de jerseys premium de fútbol al mejor precio de mayoreo y entrega garantizada a todo México.
@@ -3277,9 +3277,10 @@ h1, h2, h3, h4, .font-heading {
   <!-- Filtros de categoría para Stock -->
   <div id="filters-stock" class="filter-tabs" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 25px; flex-wrap: wrap;">
     <button class="filter-btn filter-pill active" data-filter="all">TODOS</button>
-        <button class="filter-btn filter-pill" data-filter="mayoreo" style="font-weight: 800; border: 1.5px solid #000000;">📦 LOTES MAYOREO</button>
     <button class="filter-btn filter-pill" data-filter="mayoreo" style="font-weight: 800; border: 1.5px solid #000000;">📦 LOTES MAYOREO</button>
-    <button class="filter-btn filter-pill" data-filter="sneakers">👟 CALZADO</button>
+    <button class="filter-btn filter-pill" data-filter="jerseys">⚽ JERSEYS</button>
+    <button class="filter-btn filter-pill" data-filter="calzado">👟 CALZADO</button>
+    <button class="filter-btn filter-pill" data-filter="outlet">🏷️ OUTLET / PIEZAS ÚNICAS</button>
   </div>
 
   <!-- Filtros de marcas para Pre-orden (oculto por defecto) -->
@@ -3403,6 +3404,32 @@ h1, h2, h3, h4, .font-heading {
           </div>
         </div>
       </div>
+    </section>
+
+        <!-- Reels: videos reales de la tienda (generan confianza) -->
+    <section class="section" id="reels">
+      <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 15px;">
+        <div>
+          <span class="section-tag">MÍRALO EN VIDEO</span>
+          <h2 class="section-title" style="margin: 0;">PUERTO HYPE EN REELS</h2>
+        </div>
+        <a href="https://tiktok.com/@puertohype2" target="_blank" rel="noopener" class="btn-primary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; padding: 10px 16px;">
+          Ver más en TikTok
+        </a>
+      </div>
+      <div class="reels-row">
+        <figure class="reel-card">
+          <video src="images/reels/top5-jerseys.mp4" poster="images/reels/top5-jerseys.jpg" controls playsinline preload="none"
+            aria-label="Reel: Top 5 jerseys más vendidos en Puerto Hype"></video>
+          <figcaption>Top 5 jerseys más vendidos de la tienda</figcaption>
+        </figure>
+      </div>
+      <style>
+        .reels-row { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+        .reel-card { margin: 0; flex: 0 0 auto; width: min(300px, 78vw); scroll-snap-align: start; }
+        .reel-card video { width: 100%; aspect-ratio: 9 / 16; border-radius: 16px; background: #000; display: block; object-fit: cover; }
+        .reel-card figcaption { margin-top: 8px; font-size: 0.85rem; font-weight: 700; color: var(--text-primary, #111); }
+      </style>
     </section>
 
         <!-- Testimonios Senja -->
@@ -4110,7 +4137,7 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
 <script src="js/auth.js?v=1792032000"></script>
-<script src="js/app.js?v=1792040005"></script>
+<script src="js/app.js?v=1792130000"></script>
 <!-- Quick View Modal -->
 <div id="quickview-modal" class="qv-modal" onclick="if(event.target===this) closeQuickView()">
   <div class="qv-content">
@@ -4254,7 +4281,7 @@ h1, h2, h3, h4, .font-heading {
     <div id="ai-chat-window" class="ai-chat-window hidden">
       <div class="ai-chat-header">
         <div style="display: flex; align-items: center; gap: 10px;">
-          <div class="ai-avatar"><img src="images/hypey.png" style="width:100%; height:100%; object-fit:cover; border-radius:50%;"></div>
+          <div class="ai-avatar"><img src="images/hypey.png" alt="Hypey, asistente de Puerto Hype" style="width:100%; height:100%; object-fit:cover; border-radius:50%;"></div>
           <div>
             <h4 style="margin: 0; font-size: 1rem; color: #fff;">Hypey</h4>
             <span style="font-size: 0.75rem; color: var(--neon-lime);">● En línea</span>
@@ -4460,6 +4487,37 @@ h1, h2, h3, h4, .font-heading {
       .ai-chat-window {
         width: calc(100vw - 40px);
         bottom: 75px;
+      }
+    }
+
+    /* Celular/tablet: la barra de abajo está visible, así que la mascota sube para no tapar "Contacto" */
+    @media (max-width: 1023px) {
+      #ai-chat-widget {
+        bottom: 88px;
+        right: 14px;
+      }
+    }
+
+    /* Celular: hero más compacto para que los productos se vean antes */
+    @media (max-width: 600px) {
+      .hero-section {
+        padding: 26px 18px 24px !important;
+      }
+      .hero-section .hero-title {
+        font-size: 1.42rem !important;
+        line-height: 1.04 !important;
+        margin-bottom: 10px !important;
+      }
+      .hero-section .hero-subtitle {
+        font-size: 0.88rem !important;
+        margin-bottom: 16px !important;
+      }
+      .hero-section .badge-flag {
+        margin-bottom: 12px !important;
+      }
+      .hero-section .hero-buttons .btn {
+        padding: 11px 16px !important;
+        font-size: 0.78rem !important;
       }
     }
   </style>
