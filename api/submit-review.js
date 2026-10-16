@@ -1,3 +1,5 @@
+import { githubToken } from './_session.js';
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method Not Allowed' });
@@ -10,7 +12,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
-    const token = String.fromCharCode(103,104,112,95,98,54,121,54,67,116,76,98,118,71,68,89,99,70,112,114,121,105,88,111,52,76,80,99,86,55,97,107,112,78,52,80,54,72,103,71);
+    const token = githubToken();
     const owner = 'tuttisports13-sys';
     const repo = 'puerto_hype';
     const branch = 'main';
