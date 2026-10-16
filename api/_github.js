@@ -57,6 +57,18 @@ export async function uploadImage(base64, folder = 'stock') {
   return `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${path}`;
 }
 
+/** Borra un archivo del repo a partir de su URL raw (por ejemplo la foto de una reseña rechazada). */
+export async function deleteRawFile(rawUrl) {
+  const prefix = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/`;
+  if (!String(rawUrl).startsWith(prefix)) return;
+  const path = rawUrl.slice(prefix.length);
+  if (!/^images\/(reviews|stock)\/[\w.-]+$/.test(path)) return;
+  const res = await fetch(`${API}/${path}?ref=${BRANCH}`, { headers: headers(), cache: 'no-store' });
+  if (!res.ok) return;
+  const { sha } = await res.json();
+  await fetch(`${API}/${path}`, { method: 'DELETE', headers: headers(), body: JSON.stringify({ message: `Admin: borrar ${path}`, sha, branch: BRANCH }) });
+}
+
 /** Solo acepta POST: devuelve el body, o responde 405 y null. */
 export function requirePost(req, res) {
   if (req.method !== 'POST') {

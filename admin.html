@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/admin.css?v=4">
+  <link rel="stylesheet" href="css/admin.css?v=6">
 </head>
 <body>
   <div class="ticker-bar"><span>PANEL DE ADMINISTRACIÓN · PUERTO HYPE</span></div>
@@ -63,7 +63,7 @@
         <div class="quick-grid">
           <button type="button" class="quick-card" data-go="new"><span class="icon-box">＋</span><b>AGREGAR PRODUCTO</b><small>Sube fotos, precio y tallas</small></button>
           <button type="button" class="quick-card" data-go="products"><span class="icon-box">✎</span><b>EDITAR PRODUCTOS</b><small>Precios, tallas, agotados</small></button>
-          <button type="button" class="quick-card" data-go="reviews"><span class="icon-box">★</span><b>RESEÑAS</b><small>Revisa lo que dicen tus clientes</small></button>
+          <button type="button" class="quick-card" data-go="reviews"><span class="icon-box">★</span><b>RESEÑAS <span id="dash-pending" class="tag amber hidden"></span></b><small>Aprueba lo que dicen tus clientes</small></button>
           <button type="button" class="quick-card" data-go="texts"><span class="icon-box">Aa</span><b>TEXTOS</b><small>Barra de anuncios y portada</small></button>
         </div>
         <p class="hint">Cada cambio se publica solo en tu página en 1–2 minutos.</p>
@@ -195,6 +195,10 @@
           </div>
           <button type="button" id="btn-reload-reviews" class="btn btn-secondary btn-sm">↻</button>
         </div>
+        <div class="card-title">POR APROBAR <span id="pending-count" class="tag amber hidden"></span> <small>Reseñas que dejaron en la web. Solo se publican si tú las apruebas.</small></div>
+        <div id="pending-list" class="review-list pending-list"></div>
+
+        <div class="card-title" style="margin-top: 26px;">PUBLICADAS</div>
         <div id="review-list" class="review-list"></div>
       </section>
 
@@ -246,6 +250,6 @@
   <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
   <div id="busy" class="busy hidden"><div class="busy-box"><span class="loader"></span><span id="busy-text">Guardando…</span></div></div>
 
-  <script src="js/admin.js?v=4"></script>
+  <script src="js/admin.js?v=6"></script>
 </body>
 </html>

@@ -3724,33 +3724,56 @@ h1, h2, h3, h4, .font-heading {
   <div id="lightbox-thumbs" class="lightbox-thumbs"></div>
 </div>
 
-<!-- Review Modal -->
+<!-- Review Modal: cualquier cliente puede opinar; se publica cuando la tienda la aprueba -->
 <div id="review-modal" class="qv-modal" onclick="if(event.target===this) closeReviewModal()">
-  <div class="qv-content" style="max-height: 90vh; overflow-y: auto;">
-    <button class="qv-close" onclick="closeReviewModal()">&times;</button>
-    <h3 style="margin-top: 0; color: #fff; text-align: center;">Déjanos tu Reseña</h3>
-    
-    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Tu Nombre:</label>
-    <input type="text" id="review-name" placeholder="Ej. Juan Pérez" style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-body); color: #fff;">
-    
-    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Calificación:</label>
-    <div id="review-stars" style="display: flex; gap: 10px; margin-top: 5px; font-size: 24px; cursor: pointer;">
+  <div class="qv-content rv-content" style="max-height: 90vh; overflow-y: auto;">
+    <button class="qv-close" onclick="closeReviewModal()" aria-label="Cerrar">&times;</button>
+    <h3 class="rv-title">DEJA TU RESEÑA</h3>
+    <p class="rv-info">¿Ya nos compraste? Cuéntanos qué tal. Revisamos cada reseña antes de publicarla para que todas sean de clientes reales.</p>
+
+    <!-- campo trampa para bots: los humanos no lo ven -->
+    <input type="text" id="review-website" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0;">
+
+    <label class="rv-label" for="review-name">Tu nombre</label>
+    <input type="text" id="review-name" class="rv-input" placeholder="Ej. Juan Pérez" maxlength="40">
+
+    <label class="rv-label">Calificación</label>
+    <div id="review-stars" class="rv-stars">
       <span class="star" data-val="1" style="color: #ffd700;">★</span>
       <span class="star" data-val="2" style="color: #ffd700;">★</span>
       <span class="star" data-val="3" style="color: #ffd700;">★</span>
       <span class="star" data-val="4" style="color: #ffd700;">★</span>
       <span class="star" data-val="5" style="color: #ffd700;">★</span>
     </div>
-    
-    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Tu Opinión:</label>
-    <textarea id="review-text" rows="4" placeholder="¿Qué te pareció tu pedido?" style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-body); color: #fff; resize: none;"></textarea>
-    
-    <label style="color: #ccc; font-size: 0.9rem; margin-top: 15px; display: block;">Agregar una Foto (Opcional):</label>
-    <input type="file" id="review-image" accept="image/*" style="width: 100%; margin-top: 5px; color: #ccc;">
-    
-    <button id="btn-submit-review" class="btn btn-primary" style="width: 100%; margin-top: 25px; padding: 15px; font-weight: bold;" onclick="submitReview()">PUBLICAR RESEÑA</button>
+
+    <label class="rv-label" for="review-product">¿Qué compraste? <span class="rv-optional">(opcional)</span></label>
+    <select id="review-product" class="rv-input"><option value="">Elige tu producto…</option></select>
+
+    <label class="rv-label" for="review-text">Tu opinión</label>
+    <textarea id="review-text" class="rv-input" rows="4" maxlength="600" placeholder="¿Qué te pareció tu pedido?"></textarea>
+
+    <label class="rv-label" for="review-image">Foto de tu producto (opcional)</label>
+    <input type="file" id="review-image" accept="image/*" class="rv-file">
+
+    <button id="btn-submit-review" class="btn btn-primary rv-submit" onclick="submitReview()">PUBLICAR RESEÑA</button>
   </div>
 </div>
+<style>
+  .rv-content { color: var(--text-primary); }
+  .rv-title { margin: 0 0 6px; text-align: center; font-family: var(--font-display); font-weight: 800; font-size: 1.3rem; }
+  .rv-info { text-align: center; color: var(--text-secondary); font-size: 0.85rem; line-height: 1.4; margin: 0 0 6px; }
+  .rv-label { display: block; margin-top: 14px; font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-secondary); }
+  .rv-input { width: 100%; margin-top: 6px; padding: 11px 12px; border-radius: 10px; border: 1.5px solid var(--border-subtle); background: #fff; color: var(--text-primary); font-size: 16px; font-family: var(--font-body); }
+  .rv-input:focus { outline: none; border-color: #000; }
+  textarea.rv-input { resize: none; }
+  .rv-optional { text-transform: none; letter-spacing: 0; font-weight: 500; color: var(--text-muted); }
+  .rv-content { position: relative; }
+  .rv-stars { display: flex; gap: 10px; margin-top: 6px; font-size: 26px; cursor: pointer; }
+  .rv-file { width: 100%; margin-top: 6px; font-size: 0.85rem; color: var(--text-secondary); }
+  .rv-submit { width: 100%; margin-top: 22px; padding: 15px; }
+  .rv-verified { display: inline-block; line-height: 1.35; margin-top: 6px; padding: 3px 9px; border-radius: 999px; background: #ecfdf5; color: #047857; font-size: 0.7rem; font-weight: 800; }
+  .rv-verified b { font-weight: 700; color: #065f46; }
+</style>
 
 <!-- Footer -->
     <footer class="site-footer" id="contacto">
@@ -4137,7 +4160,7 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
 <script src="js/auth.js?v=1792032000"></script>
-<script src="js/app.js?v=1792140000"></script>
+<script src="js/app.js?v=1792160000"></script>
 <script>
   // Textos editables desde el panel de admin (data/site_config.json)
   (async () => {

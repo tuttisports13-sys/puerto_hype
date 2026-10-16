@@ -67,6 +67,7 @@
     $('#app-view').classList.remove('hidden');
     go(location.hash.replace('#', '') || 'dashboard');
     loadProducts();
+    loadPending();
   }
   function logout(msg) {
     localStorage.removeItem('admin_token');
@@ -116,7 +117,7 @@
     $$('[data-view]').forEach((b) => b.classList.toggle('active', b.dataset.view === navView));
     if (location.hash !== `#${view}`) history.replaceState(null, '', `#${view}`);
     window.scrollTo({ top: 0 });
-    if (view === 'reviews') loadReviews();
+    if (view === 'reviews') { loadPending(); loadReviews(); }
     if (view === 'texts') loadTexts();
   }
   $$('[data-view]').forEach((b) => b.addEventListener('click', () => go(b.dataset.view)));
@@ -414,6 +415,7 @@
       <article class="review" data-id="${esc(r.id)}">
         <div class="review-head"><b>${esc(r.name)}</b><span class="review-stars">${'★'.repeat(stars)}${'☆'.repeat(5 - stars)}</span></div>
         <span class="review-date">${esc(r.date)}</span>
+        ${r.verified ? `<span class="tag green verified">✓ COMPRA VERIFICADA${r.product ? ' · ' + esc(r.product) : ''}</span>` : '<span class="tag gray verified">SIN SELLO</span>'}
         ${r.image ? `<img src="${esc(imgUrl(r.image))}" alt="Foto de ${esc(r.name)}" loading="lazy">` : ''}
         <p>${esc(r.text)}</p>
         <button type="button" class="btn btn-danger btn-sm" data-review-del>ELIMINAR</button>
@@ -436,6 +438,63 @@
       toast(err.message, 'error');
     } finally { busy(false); }
   });
+
+  // ---------------- reseñas por aprobar ----------------
+  state.pending = [];
+  async function loadPending() {
+    if ($('#pending-list')) $('#pending-list').innerHTML = '<p class="empty">Cargando…</p>';
+    try {
+      const { reviews } = await api('admin-reviews', { action: 'pending' });
+      state.pending = reviews || [];
+    } catch (err) {
+      state.pending = [];
+      $('#pending-list').innerHTML = `<p class="empty">No se pudieron cargar: ${esc(err.message)}</p>`;
+      return;
+    }
+    renderPending();
+  }
+  function renderPending() {
+    const n = state.pending.length;
+    ['#pending-count', '#dash-pending'].forEach((sel) => {
+      $(sel).textContent = n ? `${n} NUEVA${n > 1 ? 'S' : ''}` : '';
+      $(sel).classList.toggle('hidden', !n);
+    });
+    if (!n) { $('#pending-list').innerHTML = '<p class="empty">No hay reseñas nuevas por revisar. 👌</p>'; return; }
+    $('#pending-list').innerHTML = state.pending.map((r) => {
+      const stars = Math.max(0, Math.min(5, Number(r.stars) || 0));
+      return `
+      <article class="review" data-id="${esc(r.id)}">
+        <div class="review-head"><b>${esc(r.name)}</b><span class="review-stars">${'★'.repeat(stars)}${'☆'.repeat(5 - stars)}</span></div>
+        <span class="review-date">${esc(r.date)}</span>
+        <span class="review-product">${r.product ? `Dice que compró: <b>${esc(r.product)}</b>` : 'No dijo qué compró'}</span>
+        ${r.image ? `<img src="${esc(imgUrl(r.image))}" alt="Foto de ${esc(r.name)}" loading="lazy">` : ''}
+        <p>${esc(r.text)}</p>
+        <div class="review-actions">
+          <button type="button" class="btn btn-ok btn-sm" data-pend="verified">✓ APROBAR · ES MI CLIENTE</button>
+          <button type="button" class="btn btn-secondary btn-sm" data-pend="plain">APROBAR SIN SELLO</button>
+          <button type="button" class="btn btn-danger btn-sm" data-pend="reject">RECHAZAR</button>
+        </div>
+      </article>`;
+    }).join('');
+  }
+  $('#pending-list').addEventListener('click', async (e) => {
+    const b = e.target.closest('[data-pend]');
+    if (!b) return;
+    const id = b.closest('.review').dataset.id;
+    const r = state.pending.find((x) => String(x.id) === id);
+    const act = b.dataset.pend;
+    if (act === 'reject' && !confirm(`¿Rechazar la reseña de ${r ? r.name : 'este cliente'}? Se borra junto con su foto.`)) return;
+    busy(true, act === 'reject' ? 'Rechazando…' : 'Publicando reseña…');
+    try {
+      if (act === 'reject') await api('admin-reviews', { action: 'reject', id });
+      else await api('admin-reviews', { action: 'approve', id, verified: act === 'verified' });
+      state.pending = state.pending.filter((x) => String(x.id) !== id);
+      renderPending();
+      if (act !== 'reject') loadReviews();
+      toast(act === 'reject' ? 'Reseña rechazada' : act === 'verified' ? '¡Publicada con sello de compra verificada!' : 'Reseña publicada');
+    } catch (err) { toast(err.message, 'error'); } finally { busy(false); }
+  });
+  $('#btn-reload-reviews').addEventListener('click', loadPending);
 
   // ---------------- textos de la página ----------------
   let textsLoaded = false;

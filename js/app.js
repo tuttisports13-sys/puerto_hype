@@ -203234,24 +203234,27 @@ async function loadReviews() {
     while(repeatedReviews.length < 12) { repeatedReviews = [...repeatedReviews, ...reviews]; }
     repeatedReviews = [...repeatedReviews, ...repeatedReviews]; // Ensure it doubles the full set for perfect seamless loop
     
-    container.innerHTML = repeatedReviews.map(r => `
-      <div class="review-card" style="background: var(--bg-card); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; flex-direction: column;">
-        <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 15px;">
-          <div style="width: 50px; height: 50px; background: var(--neon-lime); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #000; font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">
-            ${r.name.charAt(0).toUpperCase()}
+    const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+    container.innerHTML = repeatedReviews.map(r => {
+      const stars = Math.max(0, Math.min(5, Number(r.stars) || 0));
+      const img = /^https:\/\//.test(String(r.image || '')) ? r.image : '';
+      return `
+      <div class="review-card" style="background: var(--bg-card); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); display: flex; flex-direction: column;">
+        <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 12px;">
+          <div style="width: 46px; height: 46px; background: #000; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 1.1rem; flex-shrink: 0;">
+            ${esc(String(r.name || '?').charAt(0).toUpperCase())}
           </div>
-          <div>
-            <h4 style="margin: 0; color: #fff;">${r.name}</h4>
-            <div style="color: #ffd700; font-size: 0.8rem; margin-top: 4px;">${'★'.repeat(r.stars)}${'☆'.repeat(5 - r.stars)}</div>
+          <div style="min-width: 0;">
+            <h4 style="margin: 0; color: var(--text-primary); font-size: 0.95rem;">${esc(r.name)}</h4>
+            <div style="color: #f59e0b; font-size: 0.8rem; margin-top: 3px;">${'★'.repeat(stars)}${'☆'.repeat(5 - stars)}</div>
           </div>
-          <div style="margin-left: auto; color: var(--text-muted); font-size: 0.75rem;">
-            ${r.date}
-          </div>
+          <div style="margin-left: auto; color: var(--text-muted); font-size: 0.72rem; flex-shrink: 0;">${esc(r.date)}</div>
         </div>
-        <p style="color: #ccc; font-size: 0.9rem; line-height: 1.5; flex: 1;">"${r.text}"</p>
-        ${r.image ? `<img src="${r.image}" onclick="openLightbox(this.src)" style="margin-top: 15px; width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; cursor: pointer; border: 1px solid var(--border-color);">` : ''}
-      </div>
-    `).join('');
+        ${r.verified ? `<div><span class="rv-verified">✓ Compra verificada${r.product ? ` · <b>${esc(r.product)}</b>` : ''}</span></div>` : ''}
+        <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; flex: 1; margin-top: 10px;">"${esc(r.text)}"</p>
+        ${img ? `<img src="${esc(img)}" alt="Foto de ${esc(r.name)}" loading="lazy" onclick="openLightbox(this.src)" style="margin-top: 12px; width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; cursor: pointer; border: 1px solid var(--border-subtle);">` : ''}
+      </div>`;
+    }).join('');
   } catch (error) {
     console.error(error);
     container.innerHTML = '<p style="color: #ff6b6b; text-align: center; width: 100%;">Error al cargar las reseñas.</p>';
@@ -203260,7 +203263,14 @@ async function loadReviews() {
 
 function openReviewModal() {
   const modal = document.getElementById('review-modal');
-  if (modal) modal.classList.add('open');
+  if (!modal) return;
+  // Lista de productos para "¿Qué compraste?"
+  const sel = document.getElementById('review-product');
+  if (sel && sel.options.length <= 1) {
+    const names = [...new Set((STOCK_PRODUCTS || []).map(p => String(p.name).trim()))].sort((a, b) => a.localeCompare(b, 'es'));
+    names.forEach(n => sel.add(new Option(n, n)));
+  }
+  modal.classList.add('open');
 }
 
 function closeReviewModal() {
@@ -203331,26 +203341,25 @@ async function submitReview() {
     const res = await fetch('/api/submit-review', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, stars: currentReviewStars, text, imageBase64 })
+      body: JSON.stringify({ name, stars: currentReviewStars, text, imageBase64, product: document.getElementById('review-product').value, website: document.getElementById('review-website').value })
     });
+    const result = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(result.error || 'Error en el servidor');
     
-    if (!res.ok) throw new Error('Error en el servidor');
-    
-    showToast('¡Reseña publicada con éxito!');
+    showToast('¡Gracias! Tu reseña se publicará en cuanto la revisemos.');
     closeReviewModal();
     
     // Clear form
+    document.getElementById('review-product').value = '';
     document.getElementById('review-name').value = '';
     document.getElementById('review-text').value = '';
     fileInput.value = '';
     currentReviewStars = 5;
     
-    // Reload reviews
-    loadReviews();
     
   } catch(e) {
     console.error(e);
-    showToast('Hubo un error al publicar la reseña.');
+    showToast(e.message && e.message !== 'Error en el servidor' ? e.message : 'Hubo un error al publicar la reseña.');
   } finally {
     btn.disabled = false;
     btn.textContent = 'PUBLICAR RESEÑA';

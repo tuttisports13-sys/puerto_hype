@@ -1,113 +1,37 @@
-import { githubToken } from './_session.js';
+// Público: cualquier cliente puede dejar su reseña desde la web, pero NO se publica sola:
+// queda en data/reviews_pending.json hasta que el admin la apruebe (y confirme si es compra real).
+import { requirePost, updateJson, uploadImage } from './_github.js';
+
+const text = (v, max) => String(v ?? '').replace(/\s+/g, ' ').trim().slice(0, max);
+const MAX_PENDING = 100; // evita que alguien llene la lista con spam
 
 export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
-  }
+  const body = requirePost(req, res);
+  if (!body) return;
 
   try {
-    const { name, stars, text, imageBase64 } = req.body;
-    
-    if (!name || !stars || !text) {
-      return res.status(400).json({ error: 'Missing required fields' });
-    }
+    // Campo trampa: los humanos no lo ven; los bots de spam suelen llenarlo
+    if (body.website) return res.status(200).json({ success: true });
 
-    const token = githubToken();
-    const owner = 'tuttisports13-sys';
-    const repo = 'puerto_hype';
-    const branch = 'main';
+    const name = text(body.name, 40);
+    const opinion = String(body.text ?? '').trim().slice(0, 600);
+    const product = text(body.product, 120);
+    const stars = Math.round(Number(body.stars));
+    if (name.length < 2 || opinion.length < 5) return res.status(400).json({ error: 'Escribe tu nombre y tu opinión' });
+    if (!(stars >= 1 && stars <= 5)) return res.status(400).json({ error: 'Elige de 1 a 5 estrellas' });
 
-    let imageUrl = "";
+    let image = '';
+    if (body.imageBase64) image = await uploadImage(body.imageBase64, 'reviews');
 
-    // 1. Upload image if provided
-    if (imageBase64) {
-      const imgName = `review_${Date.now()}.jpg`;
-      const imgPath = `images/reviews/${imgName}`;
-      
-      // Clean base64 string
-      const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, "");
+    const review = { id: Date.now(), name, stars, text: opinion, image, product, date: new Date().toISOString().slice(0, 10) };
+    await updateJson('data/reviews_pending.json', (list) => {
+      if (list.length >= MAX_PENDING) throw Object.assign(new Error('Hay muchas reseñas por revisar. Intenta más tarde.'), { status: 429 });
+      return [review, ...list];
+    }, `Reseña por aprobar de ${name}`);
 
-      const imgPutResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${imgPath}`, {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          message: `Add review image ${imgName}`,
-          content: base64Data,
-          branch: branch
-        })
-      });
-
-      if (!imgPutResponse.ok) {
-        throw new Error('Failed to upload image to GitHub');
-      }
-      
-      // The raw URL for the image
-      imageUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${imgPath}`;
-    }
-
-    // 2. Fetch current reviews.json
-    const getReviewsResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/data/reviews.json`, {
-      headers: {
-        'Authorization': `Bearer ${token}`,
-      }
-    });
-
-    if (!getReviewsResponse.ok) {
-      throw new Error('Failed to fetch reviews.json');
-    }
-
-    const reviewsData = await getReviewsResponse.json();
-    const currentSha = reviewsData.sha;
-    
-    // Decode base64 content from GitHub
-    const decodedContent = Buffer.from(reviewsData.content, 'base64').toString('utf8');
-    let reviewsList = [];
-    try {
-      reviewsList = JSON.parse(decodedContent);
-    } catch(e) {
-      reviewsList = [];
-    }
-
-    // 3. Append new review
-    const newReview = {
-      id: Date.now(),
-      name,
-      stars: parseInt(stars),
-      text,
-      image: imageUrl,
-      date: new Date().toISOString().split('T')[0]
-    };
-
-    reviewsList.unshift(newReview); // Add to beginning
-
-    const updatedContentBase64 = Buffer.from(JSON.stringify(reviewsList, null, 2)).toString('base64');
-
-    // 4. Update reviews.json
-    const putReviewsResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/data/reviews.json`, {
-      method: 'PUT',
-      headers: {
-        'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        message: `Add new review from ${name}`,
-        content: updatedContentBase64,
-        sha: currentSha,
-        branch: branch
-      })
-    });
-
-    if (!putReviewsResponse.ok) {
-      throw new Error('Failed to update reviews.json');
-    }
-
-    return res.status(200).json({ success: true, review: newReview });
-
+    return res.status(200).json({ success: true, pending: true });
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ error: error.message });
+    return res.status(error.status || 500).json({ error: error.message });
   }
 }

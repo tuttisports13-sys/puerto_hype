@@ -85,7 +85,7 @@ img { display: block; max-width: 100%; }
 .field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
 .field > span { font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-secondary); }
 .field small { text-transform: none; letter-spacing: 0; font-weight: 500; color: var(--text-muted); }
-input[type=text], input[type=email], input[type=password], input[type=number], input[type=search], select, textarea {
+input[type=text], input[type=email], input[type=password], input[type=number], input[type=search], input[type=tel], select, textarea {
   width: 100%;
   background: #fff;
   border: 1.5px solid var(--border-subtle);
@@ -245,6 +245,19 @@ input:focus, select:focus, textarea:focus { border-color: var(--black); box-shad
 .review img { width: 100%; max-height: 220px; object-fit: cover; border-radius: var(--radius-md); }
 .review p { font-size: 0.9rem; color: var(--text-secondary); white-space: pre-wrap; word-break: break-word; }
 .review .btn { align-self: flex-start; }
+
+/* Reseñas por aprobar */
+.small { font-size: 0.85rem; margin-bottom: 14px; }
+.tag.green { background: var(--green); }
+.tag.amber { background: var(--amber); }
+.review .verified { align-self: flex-start; }
+.pending-list .review { border-color: var(--amber); }
+.review .review-product { font-size: 0.78rem; color: var(--text-secondary); }
+.review .review-product b { color: var(--text-primary); }
+.review-actions { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+.review-actions .btn { width: 100%; }
+.btn-ok { background: var(--green); border: 1.5px solid var(--green); color: #fff; }
+.btn-ok:hover { filter: brightness(0.95); }
 
 /* Textos */
 .ticker-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
