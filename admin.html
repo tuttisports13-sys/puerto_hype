@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/admin.css?v=6">
+  <link rel="stylesheet" href="css/admin.css?v=7">
 </head>
 <body>
   <div class="ticker-bar"><span>PANEL DE ADMINISTRACIÓN · PUERTO HYPE</span></div>
@@ -49,6 +49,7 @@
         <button type="button" class="nav-link" data-view="new">AGREGAR PRODUCTO</button>
         <button type="button" class="nav-link" data-view="reviews">RESEÑAS</button>
         <button type="button" class="nav-link" data-view="texts">TEXTOS DE LA PÁGINA</button>
+        <button type="button" class="nav-link" data-view="hype">ENTRENAR A HYPE</button>
       </nav>
     </header>
 
@@ -65,6 +66,7 @@
           <button type="button" class="quick-card" data-go="products"><span class="icon-box">✎</span><b>EDITAR PRODUCTOS</b><small>Precios, tallas, agotados</small></button>
           <button type="button" class="quick-card" data-go="reviews"><span class="icon-box">★</span><b>RESEÑAS <span id="dash-pending" class="tag amber hidden"></span></b><small>Aprueba lo que dicen tus clientes</small></button>
           <button type="button" class="quick-card" data-go="texts"><span class="icon-box">Aa</span><b>TEXTOS</b><small>Barra de anuncios y portada</small></button>
+          <button type="button" class="quick-card" data-go="hype"><span class="icon-box">🤖</span><b>ENTRENAR A HYPE</b><small>Lo que sabe y responde tu asistente</small></button>
         </div>
         <p class="hint">Cada cambio se publica solo en tu página en 1–2 minutos.</p>
       </section>
@@ -235,6 +237,40 @@
           </div>
         </form>
       </section>
+      <!-- HYPE (asistente de IA) -->
+      <section id="view-hype" class="view hidden">
+        <div class="section-head">
+          <span class="section-tag">ASISTENTE DE IA</span>
+          <h2 class="section-title">ENTRENAR A HYPE</h2>
+        </div>
+        <div class="hype-grid">
+          <form id="hype-form" class="card">
+            <div class="card-title">LO QUE SABE HYPE <small>Escríbelo como si le explicaras a un empleado nuevo</small></div>
+            <p class="muted small">Hype ya conoce tu <b>catálogo en tiempo real</b> (productos, precios, tallas y agotados del admin). Aquí van tus reglas: precios generales, envíos, pagos, entregas y cómo debe hablar.</p>
+            <textarea id="hype-instructions" rows="22" maxlength="12000" spellcheck="true"></textarea>
+            <div class="hype-meta"><span id="hype-count">0</span> / 12,000 caracteres</div>
+            <div class="editor-actions">
+              <button type="submit" id="btn-save-hype" class="btn btn-primary">GUARDAR ENTRENAMIENTO</button>
+            </div>
+          </form>
+          <div class="card hype-test">
+            <div class="card-title">PROBAR A HYPE <small>Usa lo que escribiste, aunque no lo hayas guardado</small></div>
+            <div id="hype-chat" class="hype-chat"></div>
+            <div class="hype-suggest">
+              <button type="button" data-q="¿Cuánto cuesta el envío a Monterrey?">Envío</button>
+              <button type="button" data-q="¿Aceptan tarjeta?">Pagos</button>
+              <button type="button" data-q="¿Tienes jersey del América?">Stock</button>
+              <button type="button" data-q="Si no me queda la talla, ¿la puedo cambiar?">Cambios</button>
+              <button type="button" data-q="¿Cuánto me sale el paquete de 10 jerseys?">Mayoreo</button>
+            </div>
+            <form id="hype-test-form" class="inline-add">
+              <input type="text" id="hype-q" maxlength="500" placeholder="Pregúntale algo como si fueras cliente…" autocomplete="off">
+              <button type="submit" class="btn btn-primary btn-sm">ENVIAR</button>
+            </form>
+            <button type="button" id="btn-hype-reset" class="btn btn-ghost btn-sm" style="margin-top: 8px;">NUEVA CONVERSACIÓN</button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Barra inferior en celular (igual que la tienda) -->
@@ -250,6 +286,6 @@
   <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
   <div id="busy" class="busy hidden"><div class="busy-box"><span class="loader"></span><span id="busy-text">Guardando…</span></div></div>
 
-  <script src="js/admin.js?v=7"></script>
+  <script src="js/admin.js?v=8"></script>
 </body>
 </html>

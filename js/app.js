@@ -202833,7 +202833,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let htmlText = text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
     htmlText = htmlText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     // Markdown link parsing
-    htmlText = htmlText.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" style="color:var(--neon-lime); text-decoration:underline; font-weight:bold;">$1</a>');
+    // Solo links https (evita links peligrosos si alguien manipula la respuesta)
+    htmlText = htmlText.replace(/\[([^\]]*?)\]\((https:\/\/[^\s"'()<>]+)\)/g, '<a href="$2" target="_blank" rel="noopener" style="color:var(--neon-lime); text-decoration:underline; font-weight:bold;">$1</a>');
     htmlText = htmlText.replace(/\n/g, '<br>');
     
     bubble.innerHTML = htmlText;

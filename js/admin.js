@@ -104,7 +104,7 @@
   $('#btn-logout').addEventListener('click', () => logout());
 
   // ---------------- navegación ----------------
-  const VIEWS = ['dashboard', 'products', 'new', 'reviews', 'texts'];
+  const VIEWS = ['dashboard', 'products', 'new', 'reviews', 'texts', 'hype'];
   function go(view) {
     if (!VIEWS.includes(view)) view = 'dashboard';
     // "Agregar" siempre abre el formulario vacío, salvo cuando venimos de "Editar"
@@ -119,6 +119,7 @@
     window.scrollTo({ top: 0 });
     if (view === 'reviews') { loadPending(); loadReviews(); }
     if (view === 'texts') loadTexts();
+    if (view === 'hype') loadHype();
   }
   $$('[data-view]').forEach((b) => b.addEventListener('click', () => go(b.dataset.view)));
   document.addEventListener('click', (e) => {
@@ -556,6 +557,67 @@
     } catch (err) {
       toast(err.message, 'error');
     } finally { busy(false); }
+  });
+
+  // ---------------- entrenar a Hype ----------------
+  let hypeLoaded = false;
+  let hypeHistory = [];
+  async function loadHype() {
+    if (hypeLoaded) return;
+    try {
+      const { instructions } = await api('admin-hype', { action: 'get' });
+      $('#hype-instructions').value = instructions || '';
+      updateHypeCount();
+      hypeLoaded = true;
+      if (!$('#hype-chat').children.length) hypeSay('bot', '¡Qué onda! Pregúntame algo como si fueras cliente y te contesto con lo que tengas escrito a la izquierda. 🤖');
+    } catch (err) { toast(`No se pudo cargar a Hype: ${err.message}`, 'error'); }
+  }
+  function updateHypeCount() { $('#hype-count').textContent = $('#hype-instructions').value.length.toLocaleString('es-MX'); }
+  $('#hype-instructions').addEventListener('input', updateHypeCount);
+
+  function hypeSay(role, text) {
+    const div = document.createElement('div');
+    div.className = `hype-msg ${role}`;
+    // mismo formato que el chat de la tienda: **negritas** y [texto](https://link)
+    div.innerHTML = esc(text)
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\[([^\]]*?)\]\((https:\/\/[^\s"'()<>]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    $('#hype-chat').appendChild(div);
+    $('#hype-chat').scrollTop = $('#hype-chat').scrollHeight;
+    return div;
+  }
+  async function askHype(q) {
+    q = q.trim();
+    if (!q) return;
+    hypeSay('user', q);
+    const typing = hypeSay('bot typing', 'Hype está escribiendo…');
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: q, history: hypeHistory, draft: $('#hype-instructions').value, token: state.token }),
+      });
+      const data = await res.json().catch(() => ({}));
+      typing.remove();
+      if (!res.ok) throw new Error(data.error || 'Hype no respondió');
+      hypeSay('bot', data.reply);
+      hypeHistory.push({ role: 'user', content: q }, { role: 'bot', content: data.reply });
+    } catch (err) {
+      typing.remove();
+      hypeSay('bot', `⚠️ ${err.message}`);
+    }
+  }
+  $('#hype-test-form').addEventListener('submit', (e) => { e.preventDefault(); const q = $('#hype-q').value; $('#hype-q').value = ''; askHype(q); });
+  $$('.hype-suggest button').forEach((b) => b.addEventListener('click', () => askHype(b.dataset.q)));
+  $('#btn-hype-reset').addEventListener('click', () => { hypeHistory = []; $('#hype-chat').innerHTML = ''; hypeSay('bot', 'Conversación nueva. ¡Pregúntame algo! 🤖'); });
+
+  $('#hype-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    busy(true, 'Guardando entrenamiento…');
+    try {
+      await api('admin-hype', { action: 'save', instructions: $('#hype-instructions').value });
+      toast('¡Hype ya aprendió! Los clientes lo verán en 1–2 min.');
+    } catch (err) { toast(err.message, 'error'); } finally { busy(false); }
   });
 
   // ---------------- inicio ----------------
