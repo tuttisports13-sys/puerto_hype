@@ -549,28 +549,6 @@
     ]
   },
   {
-    "id": "stock-1791932319975",
-    "name": "Saucony Endorphin",
-    "category": "sneakers",
-    "price": 800,
-    "retailPrice": 1200,
-    "badge": "NUEVO",
-    "badgeType": "badge-hot",
-    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_0.jpg",
-    "gallery": [
-      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_0.jpg",
-      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_1.jpg",
-      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_2.jpg",
-      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_3.jpg",
-      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_4.jpg",
-      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_5.jpg",
-      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791932309716_6.jpg"
-    ],
-    "sizes": [
-      "24"
-    ]
-  },
-  {
     "id": "stock-1791932236890",
     "name": "Adidas ",
     "category": "sneakers",
