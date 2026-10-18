@@ -8,7 +8,6 @@
 }
 .hero-track {
   display: flex;
-  transition: transform .7s cubic-bezier(.77, 0, .18, 1);
 }
 .hero-slide {
   flex: 0 0 100%;
@@ -16,28 +15,18 @@
 }
 .hero-slider .hero-section { border-bottom: 0; }
 
-/* puntitos */
-.hero-dots {
-  position: absolute;
-  left: 50%;
-  bottom: 12px;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 8px;
-  z-index: 5;
+/* se desliza sin parar (lo activa js/hype-slider.js) */
+.hero-slider.en-marcha .hero-track {
+  width: max-content;
+  animation: hero-desliza 18s linear infinite;
 }
-.hero-dots button {
-  width: 8px;
-  height: 8px;
-  padding: 0;
-  border: 0;
-  border-radius: 999px;
-  background: rgba(127, 127, 127, .45);
-  cursor: pointer;
-  transition: width .3s, background .3s;
+.hero-slider.en-marcha .hero-slide { flex: 0 0 var(--slide-w, 100vw); width: var(--slide-w, 100vw); }
+.hero-slider.en-marcha:hover .hero-track,
+.hero-slider.en-marcha.tocando .hero-track { animation-play-state: paused; }
+@keyframes hero-desliza {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
-.hero-dots button.activo { width: 24px; background: #000; }
-.hero-slider.en-negro .hero-dots button.activo { background: #fff; }
 
 /* ---------- Slide: ¿No encuentras tu jersey? ---------- */
 .slide-nojersey {
@@ -124,6 +113,5 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-track { transition: none; }
   .nojersey-preguntas span { animation: none; }
 }
