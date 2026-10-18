@@ -1,0 +1,129 @@
+/* Slider del panel principal: lotes de mayoreo + "¿No encuentras tu jersey?" */
+.hero-slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 1.5px solid var(--border-subtle);
+  touch-action: pan-y;
+}
+.hero-track {
+  display: flex;
+  transition: transform .7s cubic-bezier(.77, 0, .18, 1);
+}
+.hero-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+.hero-slider .hero-section { border-bottom: 0; }
+
+/* puntitos */
+.hero-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 5;
+}
+.hero-dots button {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(127, 127, 127, .45);
+  cursor: pointer;
+  transition: width .3s, background .3s;
+}
+.hero-dots button.activo { width: 24px; background: #000; }
+.hero-slider.en-negro .hero-dots button.activo { background: #fff; }
+
+/* ---------- Slide: ¿No encuentras tu jersey? ---------- */
+.slide-nojersey {
+  position: relative;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: stretch;
+}
+.nojersey-inner {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 34px 24px 0;
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  align-items: center;
+  gap: 24px;
+}
+.nojersey-hypey { position: relative; align-self: end; }
+.nojersey-hypey svg { display: block; width: 200px; height: auto; overflow: visible; }
+.nojersey-preguntas span {
+  position: absolute;
+  font: 900 34px var(--font-display);
+  color: #fff;
+  animation: nojersey-flota 1.8s ease-in-out infinite;
+}
+.nojersey-preguntas span:nth-child(1) { left: 150px; top: -6px; }
+.nojersey-preguntas span:nth-child(2) { left: 190px; top: 30px; font-size: 24px; animation-delay: -.6s; }
+.nojersey-preguntas span:nth-child(3) { left: 118px; top: -30px; font-size: 20px; animation-delay: -1.2s; }
+@keyframes nojersey-flota { 50% { transform: translateY(-8px) rotate(8deg); } }
+
+.nojersey-texto { padding-bottom: 40px; }
+.nojersey-tag {
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--gold-amber, #f59e0b);
+}
+.nojersey-titulo {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -.02em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 8px 0 14px;
+}
+.nojersey-sub {
+  font-size: clamp(.9rem, 2vw, 1.05rem);
+  color: #d1d5db;
+  line-height: 1.5;
+  margin: 0 0 24px;
+  max-width: 520px;
+}
+.btn.btn-wa-foto {
+  background: var(--whatsapp-green, #25d366);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, .35);
+}
+.btn.btn-wa-foto:hover { transform: translateY(-2px); filter: brightness(1.05); }
+.btn.btn-wa-foto svg { width: 18px; height: 18px; fill: #fff; flex: none; }
+
+@media (max-width: 600px) {
+  .slide-nojersey { align-items: center; }
+  .nojersey-solo-desk { display: none; }
+  .nojersey-inner {
+    display: block;
+    position: relative;
+    padding: 26px 18px 0;
+  }
+  .nojersey-hypey { position: absolute; top: 34px; right: 12px; }
+  .nojersey-hypey svg { width: 84px; }
+  .nojersey-preguntas span { font-size: 18px; }
+  .nojersey-preguntas span:nth-child(1) { left: 58px; top: -14px; }
+  .nojersey-preguntas span:nth-child(2) { left: 76px; top: 4px; font-size: 14px; }
+  .nojersey-preguntas span:nth-child(3) { left: 40px; top: -28px; font-size: 12px; }
+  .nojersey-texto { padding-bottom: 30px; }
+  .nojersey-titulo { font-size: 1.32rem; margin: 6px 96px 10px 0; }
+  .nojersey-sub { font-size: .88rem; margin-bottom: 16px; }
+  .btn.btn-wa-foto { padding: 11px 16px; font-size: .76rem; white-space: nowrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-track { transition: none; }
+  .nojersey-preguntas span { animation: none; }
+}
