@@ -112,6 +112,65 @@
   .btn.btn-wa-foto { padding: 11px 16px; font-size: .76rem; white-space: nowrap; }
 }
 
+/* ---------- Slide: promo de temporada (jerseys a $500) ---------- */
+.slide-promo {
+  position: relative;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+.promo-inner {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 34px 24px 40px;
+  display: grid;
+  grid-template-columns: 1fr 440px;
+  align-items: center;
+  gap: 24px;
+}
+.promo-precio {
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  padding: 0 .22em;
+  border-radius: 10px;
+  transform: rotate(-3deg);
+}
+.promo-antes {
+  font-size: .5em;
+  color: #9ca3af;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #fff;
+  vertical-align: middle;
+}
+.promo-jerseys { position: relative; height: 300px; }
+.promo-j {
+  position: absolute;
+  bottom: 0;
+  height: 250px;
+  width: auto;
+  filter: drop-shadow(0 18px 26px rgba(0, 0, 0, .7));
+  transition: transform .3s ease;
+}
+.promo-j1 { left: 0; transform: rotate(-12deg); }
+.promo-j3 { right: 0; height: 230px; transform: rotate(11deg); }
+.promo-j2 { left: 50%; height: 290px; transform: translateX(-50%) rotate(-2deg); z-index: 1; }
+.slide-promo:hover .promo-j1 { transform: rotate(-16deg) translateX(-10px); }
+.slide-promo:hover .promo-j3 { transform: rotate(15deg) translateX(10px); }
+
+@media (max-width: 600px) {
+  .promo-inner { display: block; position: relative; padding: 26px 18px 30px; }
+  .promo-jerseys { position: absolute; top: 22px; right: 10px; width: 112px; height: 96px; }
+  .promo-j { height: 68px; }
+  .promo-j3 { height: 64px; }
+  .promo-j2 { height: 86px; }
+  .slide-promo .nojersey-tag { display: block; margin-right: 124px; }
+  .slide-promo .nojersey-titulo { margin-right: 124px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nojersey-preguntas span { animation: none; }
 }

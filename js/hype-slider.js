@@ -5,6 +5,11 @@
   var slider = document.querySelector('.hero-slider');
   if (!slider) return;
   var track = slider.querySelector('.hero-track');
+
+  // las promos se quitan solas a partir de su fecha (data-hasta="AAAA-MM-DD")
+  Array.prototype.forEach.call(track.querySelectorAll('.hero-slide[data-hasta]'), function (s) {
+    if (new Date() >= new Date(s.getAttribute('data-hasta') + 'T00:00:00')) s.remove();
+  });
   var originales = Array.prototype.slice.call(track.querySelectorAll('.hero-slide'));
   if (originales.length < 2) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
