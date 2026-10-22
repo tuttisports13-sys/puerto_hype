@@ -140,11 +140,38 @@
   transform: rotate(-3deg);
 }
 .promo-antes {
-  font-size: .5em;
-  color: #9ca3af;
-  text-decoration-thickness: 4px;
-  text-decoration-color: #fff;
+  position: relative;
+  display: inline-block;
+  margin-left: .25em;
+  font-size: .6em;
+  color: #e5e7eb;
+  text-decoration: none;
   vertical-align: middle;
+}
+.promo-antes::after {
+  content: "";
+  position: absolute;
+  left: -6%;
+  right: -6%;
+  top: 50%;
+  height: .13em;
+  min-height: 4px;
+  border-radius: 99px;
+  background: var(--gold-amber, #f59e0b);
+  box-shadow: 0 0 10px rgba(245, 158, 11, .6);
+  transform: rotate(-14deg);
+}
+.promo-ahorro {
+  display: inline-block;
+  margin-left: .5em;
+  padding: .3em .7em;
+  border-radius: 99px;
+  background: var(--gold-amber, #f59e0b);
+  color: #000;
+  font: 800 .78rem var(--font-display);
+  letter-spacing: .04em;
+  vertical-align: middle;
+  transform: rotate(4deg);
 }
 .promo-jerseys { position: relative; height: 300px; }
 .promo-j {
@@ -169,6 +196,7 @@
   .promo-j2 { height: 86px; }
   .slide-promo .nojersey-tag { display: block; margin-right: 124px; }
   .slide-promo .nojersey-titulo { margin-right: 124px; }
+  .promo-ahorro { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
