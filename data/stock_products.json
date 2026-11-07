@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1794082799591",
+    "name": "América 110 aniversario Azul “Manga Larga”",
+    "category": "sneakers",
+    "price": 750,
+    "retailPrice": 1125,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082761416_rt0sk.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082761416_rt0sk.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082763716_7zjq5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082765535_1zje5.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082767501_uprci.jpg"
+    ],
+    "sizes": [
+      "S"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1794082745064",
     "name": "América Retro",
     "category": "sneakers",
