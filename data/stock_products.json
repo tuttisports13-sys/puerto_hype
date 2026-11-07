@@ -1110,7 +1110,9 @@
     ],
     "sizes": [
       "S",
-      "M"
+      "M",
+      "L",
+      "XL"
     ],
     "description": "",
     "soldOut": false,
