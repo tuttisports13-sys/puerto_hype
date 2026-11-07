@@ -149,7 +149,7 @@
   },
   {
     "id": "stock-1791936413710",
-    "name": "Liverpool Visita ",
+    "name": "Liverpool Visita",
     "category": "sneakers",
     "price": 650,
     "retailPrice": 975,
@@ -163,9 +163,11 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936408597_3.jpg"
     ],
     "sizes": [
-      "M",
-      "L"
-    ]
+      "M"
+    ],
+    "description": "",
+    "soldOut": false,
+    "hidden": false
   },
   {
     "id": "stock-1791936278168",
