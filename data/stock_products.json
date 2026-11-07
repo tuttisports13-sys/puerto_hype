@@ -259,8 +259,12 @@
     ],
     "sizes": [
       "M",
-      "L"
-    ]
+      "L",
+      "S"
+    ],
+    "description": "",
+    "soldOut": false,
+    "hidden": false
   },
   {
     "id": "stock-1791935998863",
