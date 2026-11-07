@@ -1,5 +1,30 @@
 [
   {
+    "id": "stock-1794082563641",
+    "name": "Cruz azul Alternativa 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082527412_upjyc.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082527412_upjyc.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082530168_enyy9.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082531944_o1qfh.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082533761_6q6ez.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082536085_6rtqj.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "lote-10-jerseys",
     "name": "Paquete 10 Jerseys (Mayoreo)",
     "category": "mayoreo",
