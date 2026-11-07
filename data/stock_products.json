@@ -1145,7 +1145,7 @@
   },
   {
     "id": "stock-1791926192089",
-    "name": "Toluca Local 26/27 ",
+    "name": "Toluca Local 26/27",
     "category": "sneakers",
     "price": 650,
     "retailPrice": 975,
@@ -1161,8 +1161,12 @@
     ],
     "sizes": [
       "S",
-      "M"
-    ]
+      "M",
+      "L"
+    ],
+    "description": "",
+    "soldOut": false,
+    "hidden": false
   },
   {
     "id": "stock-1791926129522",
