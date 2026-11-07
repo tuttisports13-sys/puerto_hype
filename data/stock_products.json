@@ -283,10 +283,13 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_4.jpg"
     ],
     "sizes": [
-      "S",
       "M",
-      "L"
-    ]
+      "L",
+      "XL"
+    ],
+    "description": "",
+    "soldOut": false,
+    "hidden": false
   },
   {
     "id": "stock-1791935852924",
