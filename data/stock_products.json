@@ -1,5 +1,28 @@
 [
   {
+    "id": "stock-1794082680266",
+    "name": "Chivas Entrenamiento 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082660844_uvcvp.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082660844_uvcvp.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082662523_67vht.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082664110_ug3e8.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794082665983_w8jyt.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1794082563641",
     "name": "Cruz azul Alternativa 26/27",
     "category": "sneakers",
