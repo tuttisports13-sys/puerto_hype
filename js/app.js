@@ -201857,6 +201857,7 @@ async function initApp() {
   if (typeof window.updateUserUI === 'function') {
     window.updateUserUI();
   }
+  openProductFromUrl();
 }
 
 if (document.readyState === 'loading') {
@@ -202636,6 +202637,7 @@ function openQuickView(productId) {
   if (!product) return;
   
   currentQvProductId = productId;
+  setProductUrl(productId);
   
   const modal = document.getElementById('quickview-modal');
   const title = document.getElementById('qv-title');
@@ -202751,9 +202753,55 @@ function selectQvSize(btn) {
   });
 }
 
+// --- Link directo a cada artículo (?p=ID) ---
+function getProductLink(productId) {
+  const url = new URL(window.location.href);
+  url.hash = '';
+  url.search = '';
+  url.searchParams.set('p', productId);
+  return url.toString();
+}
+
+function setProductUrl(productId) {
+  try {
+    const url = new URL(window.location.href);
+    if (productId) url.searchParams.set('p', productId);
+    else url.searchParams.delete('p');
+    history.replaceState(history.state, '', url.pathname + url.search + url.hash);
+  } catch (e) {}
+}
+
+async function copyProductLink(btn) {
+  if (!currentQvProductId) return;
+  const link = getProductLink(currentQvProductId);
+  const title = (document.getElementById('qv-title') || {}).textContent || 'Puerto Hype';
+  let ok = false;
+  if (navigator.share && /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+    try { await navigator.share({ title, url: link }); return; } catch (e) { if (e && e.name === 'AbortError') return; }
+  }
+  try { await navigator.clipboard.writeText(link); ok = true; } catch (e) {
+    const ta = document.createElement('textarea');
+    ta.value = link; document.body.appendChild(ta); ta.select();
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    ta.remove();
+  }
+  if (btn) {
+    const old = btn.dataset.label || btn.innerHTML;
+    btn.dataset.label = old;
+    btn.innerHTML = ok ? '✓ Link copiado' : link;
+    setTimeout(() => { btn.innerHTML = old; }, 2000);
+  }
+}
+
+function openProductFromUrl() {
+  const id = new URLSearchParams(window.location.search).get('p');
+  if (id) openQuickView(id);
+}
+
 function closeQuickView() {
   const modal = document.getElementById('quickview-modal');
   if (modal) modal.classList.remove('open');
+  setProductUrl(null);
   const lb = document.getElementById('lightbox-modal');
   if (!lb || !lb.classList.contains('open')) {
     document.body.style.overflow = '';
