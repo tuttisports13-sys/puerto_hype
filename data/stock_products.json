@@ -1,5 +1,29 @@
 [
   {
+    "id": "stock-1794083080030",
+    "name": "Bayern Visita 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_5.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1794082799591",
     "name": "América 110 aniversario Azul “Manga Larga”",
     "category": "sneakers",
