@@ -1,5 +1,27 @@
 [
   {
+    "id": "stock-1794288389893",
+    "name": "Argentina “Messi 10”",
+    "category": "sneakers",
+    "price": 700,
+    "retailPrice": 1050,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288364656_liuxk.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288364656_liuxk.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288367643_h6zun.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288372241_3se0c.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288375826_u9u1d.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288380003_faxl8.jpg"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1794288354033",
     "name": "Chivas Manga Larga",
     "category": "sneakers",
