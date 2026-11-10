@@ -1,5 +1,27 @@
 [
   {
+    "id": "stock-1794288458992",
+    "name": "Chivas Alternativa 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288431746_1sc0c.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288431746_1sc0c.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288434178_wo49b.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288436389_u8bko.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288438541_zgtap.jpg"
+    ],
+    "sizes": [
+      "S",
+      "L"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1794288420519",
     "name": "Tigres Local 26/27",
     "category": "sneakers",
