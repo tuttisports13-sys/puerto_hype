@@ -1,5 +1,26 @@
 [
   {
+    "id": "stock-1794288354033",
+    "name": "Chivas Manga Larga",
+    "category": "sneakers",
+    "price": 750,
+    "retailPrice": 1125,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288330662_c4r6k.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288330662_c4r6k.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288333343_rtqcu.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288336475_2cdvg.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794288339179_iv9e5.jpg"
+    ],
+    "sizes": [
+      "L"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1794083080030",
     "name": "Bayern Visita 26/27",
     "category": "sneakers",
