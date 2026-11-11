@@ -10,7 +10,10 @@
   try { yaVista = SOLO_UNA_VEZ && sessionStorage.getItem('hypeIntro') === '1'; } catch (e) {}
   var reducirMovimiento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  if (yaVista || reducirMovimiento) { intro.remove(); return; }
+  // si entran por el link de una carpeta o un producto, directo a la tienda
+  var linkDirecto = /[?&](carpeta|p)=/.test(location.search);
+
+  if (yaVista || reducirMovimiento || linkDirecto) { intro.remove(); return; }
 
   document.documentElement.classList.add('intro-activa');
   var runner = intro.querySelector('.runner');

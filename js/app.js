@@ -203006,40 +203006,69 @@ function openFolderTarget(mode, filter) {
   }, 30);
 }
 
-// --- Link directo a cada carpeta (?carpeta=liga_mx) ---
+// --- Link directo a cada carpeta (?carpeta=gymshark, ?carpeta=liga_mx, ?carpeta=mayoreo) ---
+// Sirve para todas las secciones: Deportes, Por pedido y Stock.
+const FOLDER_PILLS = { 'preorder-sports': '#filters-sports', 'preorder': '#filters-preorder', 'stock': '#filters-stock' };
+
+function folderSlug(text) {
+  return String(text || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().trim().replace(/\s+/g, '-');
+}
+
 function getCurrentFolder() {
-  if (AppState.currentMode !== 'preorder-sports') return null;
   if (!AppState.currentFilter || AppState.currentFilter === 'all') return null;
   if (AppState.searchQuery && AppState.searchQuery.trim()) return null;
-  return AppState.currentFilter;
+  if (!FOLDER_PILLS[AppState.currentMode]) return null;
+  return { mode: AppState.currentMode, filter: AppState.currentFilter };
 }
 
-function getFolderName(filter) {
-  const pill = document.querySelector(`#filters-sports .filter-pill[data-filter="${filter}"]`);
-  if (pill && pill.textContent.trim()) return pill.textContent.trim();
-  const folder = (typeof SPORTS_PRODUCTS !== 'undefined' ? SPORTS_PRODUCTS : []).find(p => p.isFolder && p.targetFilter === filter);
-  return folder ? folder.name : filter;
+function getFolderName(folder) {
+  const pill = document.querySelector(`${FOLDER_PILLS[folder.mode]} .filter-pill[data-filter="${folder.filter}"]`);
+  if (pill && pill.textContent.trim()) return pill.textContent.replace(/[^\p{L}\p{N}\s/&.-]/gu, '').trim();
+  const folderProd = (typeof SPORTS_PRODUCTS !== 'undefined' ? SPORTS_PRODUCTS : []).find(p => p.isFolder && p.targetFilter === folder.filter);
+  return folderProd ? folderProd.name : folder.filter;
 }
 
-function isValidFolder(filter) {
-  if (!filter) return false;
-  if (document.querySelector(`#filters-sports .filter-pill[data-filter="${filter}"]`)) return true;
-  return (typeof SPORTS_PRODUCTS !== 'undefined' ? SPORTS_PRODUCTS : []).some(p => p.isFolder && p.targetFilter === filter);
+// Lo que va en el link: Deportes deja su filtro igual (liga_mx) para que los links viejos sigan sirviendo;
+// lo demás va en minúsculas y con guiones (GymShark -> gymshark, ON CLOUD -> on-cloud)
+function folderUrlValue(folder) {
+  return folder.mode === 'preorder-sports' ? folder.filter : folderSlug(folder.filter);
 }
 
-function getFolderLink(filter) {
+// Busca a qué carpeta se refiere un link (?carpeta=gymshark -> Por pedido / GymShark)
+function findFolder(value) {
+  if (!value) return null;
+  const wanted = folderSlug(value);
+  const sports = typeof SPORTS_PRODUCTS !== 'undefined' ? SPORTS_PRODUCTS : [];
+  for (const mode of ['preorder-sports', 'preorder', 'stock']) {
+    const filters = [];
+    document.querySelectorAll(`${FOLDER_PILLS[mode]} .filter-pill`).forEach(b => filters.push(b.dataset.filter));
+    if (mode === 'preorder-sports') sports.filter(p => p.isFolder && p.targetFilter).forEach(p => filters.push(p.targetFilter));
+    const match = filters.find(f => f && f !== 'all' && f === value) ||
+                  filters.find(f => f && f !== 'all' && folderSlug(f) === wanted);
+    if (match) return { mode, filter: match };
+  }
+  return null;
+}
+
+function isValidFolder(value) {
+  return !!findFolder(value);
+}
+
+function getFolderLink(folder) {
   const url = new URL(window.location.href);
   url.hash = '';
   url.search = '';
-  url.searchParams.set('carpeta', filter);
+  url.searchParams.set('carpeta', folderUrlValue(folder));
   return url.toString();
 }
 
-function setFolderUrl(filter) {
+function setFolderUrl(folder) {
   try {
     const url = new URL(window.location.href);
-    if (url.searchParams.get('carpeta') === (filter || null)) return;
-    if (filter) url.searchParams.set('carpeta', filter);
+    const value = folder ? folderUrlValue(folder) : null;
+    if (url.searchParams.get('carpeta') === value) return;
+    if (value) url.searchParams.set('carpeta', value);
     else url.searchParams.delete('carpeta');
     history.replaceState(history.state, '', url.pathname + url.search + url.hash);
   } catch (e) {}
@@ -203061,7 +203090,7 @@ function updateFolderShareBar() {
   }
   const btn = document.getElementById('folder-share-btn');
   if (btn && !btn.dataset.busy) {
-    btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> COMPARTIR CARPETA ${getFolderName(folder)}`;
+    btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> COMPARTIR CARPETA ${getFolderName(folder).toUpperCase()}`;
   }
   bar.style.display = 'flex';
 }
@@ -203091,11 +203120,12 @@ function shareCurrentFolder(btn) {
   shareLink(getFolderLink(folder), `Puerto Hype - ${getFolderName(folder)}`, btn);
 }
 
-function openFolderFromUrl(filter) {
-  if (!isValidFolder(filter)) { setFolderUrl(null); return; }
-  if (typeof window.showCategory === 'function') window.showCategory('preorder-sports', filter);
-  // showCategory no marca la pastilla de la carpeta; se marca después de que termina
-  setTimeout(() => openSportsFolder(filter), 30);
+function openFolderFromUrl(value) {
+  if (!value) return;
+  const folder = findFolder(value);
+  if (!folder) { setFolderUrl(null); return; }
+  // openFolderTarget abre la sección, marca la pastilla y baja hasta los productos
+  openFolderTarget(folder.mode, folder.filter);
 }
 
 // --- Link directo a cada artículo (?p=ID) ---
