@@ -201828,6 +201828,8 @@ PREORDER_PRODUCTS.forEach(p => {
 
 
 async function initApp() {
+  // Se lee antes de pintar la tienda, porque el primer render limpia el link
+  const carpetaInicial = new URLSearchParams(window.location.search).get('carpeta');
   try {
     let res = await fetch(`data/stock_products.json?t=${Date.now()}`);
     if (!res.ok) {
@@ -201858,6 +201860,7 @@ async function initApp() {
   if (typeof window.updateUserUI === 'function') {
     window.updateUserUI();
   }
+  openFolderFromUrl(carpetaInicial);
   openProductFromUrl();
 }
 
@@ -201890,6 +201893,7 @@ if (document.readyState === 'loading') {
 function renderProducts() {
   const container = document.getElementById('products-grid');
   if (!container) return;
+  updateFolderShareBar();
 
 let currentProducts = STOCK_PRODUCTS;
 if (AppState.currentMode === 'preorder') currentProducts = PREORDER_PRODUCTS;
@@ -202001,7 +202005,7 @@ ${product.isFolder || product.section === 'preorder' || (product.section === 'pr
   ` : product.soldOut ? `
     <button class="btn-add-cart" disabled style="opacity: 0.45; cursor: not-allowed;">AGOTADO</button>
   ` : `
-    <button class="btn-add-cart" onclick="${product.customizable ? `openQuickView('${product.id}')` : `addToCart('${product.id}')`}">
+    <button class="btn-add-cart" onclick="${needsOptions(product) ? `openQuickView('${product.id}')` : `addToCart('${product.id}')`}">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="9" cy="21" r="1"></circle>
         <circle cx="20" cy="21" r="1"></circle>
@@ -202178,15 +202182,29 @@ function renderSearchDropdown(query) {
   }
 
   const allCatalogs = [...STOCK_PRODUCTS, ...PREORDER_PRODUCTS, ...SPORTS_PRODUCTS];
-  const matches = allCatalogs.filter(prod => prod.name.toLowerCase().includes(query.toLowerCase()));
+  const folderMatches = searchFolders(query).slice(0, 3);
+  const { results: matches, approximate } = smartSearchProducts(allCatalogs.filter(p => !p.isFolder), query);
 
-  if (matches.length === 0) {
+  const folderHtml = folderMatches.map(f => `
+      <div class="search-result-item" onclick="openFolderTarget('${f.mode}', '${f.filter.replace(/'/g, "\\'")}'); document.getElementById('search-results-dropdown').style.display='none';">
+        ${f.image
+          ? `<img class="search-result-img" src="${f.image}" onerror="this.onerror=null;this.src='/images/sin-foto.svg'" />`
+          : `<div class="search-result-img" style="display:flex;align-items:center;justify-content:center;background:#000;"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></div>`}
+        <div class="search-result-details">
+          <span class="search-result-title">📁 ${f.name}</span>
+          <span class="search-result-price">ABRIR CARPETA</span>
+        </div>
+      </div>
+    `).join('');
+
+  if (matches.length === 0 && folderMatches.length === 0) {
     searchDropdown.innerHTML = `<div style="padding: 15px; text-align: center; color: var(--text-muted); font-size: 0.9rem;">No se encontraron resultados</div>`;
     searchDropdown.style.display = 'flex';
     return;
   }
 
-  searchDropdown.innerHTML = matches.slice(0, 15).map(prod => {
+  const approxHtml = approximate && matches.length ? `<div style="padding: 8px 12px; font-size: 0.72rem; font-weight: 800; color: var(--text-muted); letter-spacing: 0.04em;">RESULTADOS PARECIDOS</div>` : '';
+  searchDropdown.innerHTML = folderHtml + approxHtml + matches.slice(0, 15).map(prod => {
     let priceStr = 'POR COTIZAR';
 if (prod.section !== 'preorder') {
   priceStr = prod.hasVersionSelector ? '$600 - $650 MXN' : (prod.price ? '$' + prod.price + ' MXN' : 'POR COTIZAR');
@@ -202195,7 +202213,7 @@ if (prod.section !== 'preorder') {
     let onClickAction = `openQuickView('${prod.id}')`;
     if (prod.isFolder) onClickAction = `openSportsFolder('${prod.targetFilter}')`;
     else if (prod.section === 'preorder-sports' && prod.link) onClickAction = `window.open('${prod.link}', '_blank')`;
-    else if (!prod.customizable) onClickAction = `addToCart('${prod.id}')`;
+    else if (!needsOptions(prod)) onClickAction = `addToCart('${prod.id}')`;
     
     return `
       <div class="search-result-item" onclick="${onClickAction}; document.getElementById('search-results-dropdown').style.display='none';">
@@ -202214,6 +202232,12 @@ if (prod.section !== 'preorder') {
 if (searchInput) {
   searchInput.addEventListener('input', (e) => {
     renderSearchDropdown(e.target.value.trim());
+  });
+  // Enter abre la primera opción (la carpeta, si hay una)
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' || !searchDropdown) return;
+    const first = searchDropdown.querySelector('.search-result-item');
+    if (first) { e.preventDefault(); first.click(); searchInput.blur(); }
   });
   
   document.addEventListener('click', (e) => {
@@ -202288,7 +202312,8 @@ function addToCart(productId, customization = null, customPriceAdd = 0, selected
     finalName += ` (Versión ${currentQvSelectedVersion})`;
   }
 
-  const existing = AppState.cart.find(item => item.id === productId && item.name === finalName && JSON.stringify(item.customization) === JSON.stringify(customization));
+  const size = selectedSize || (product.sizes ? (product.sizes[0] || 'Unitalla') : 'Unitalla');
+  const existing = AppState.cart.find(item => item.id === productId && item.name === finalName && item.size === size && JSON.stringify(item.customization) === JSON.stringify(customization));
   if (existing) {
     existing.quantity += 1;
   } else {
@@ -202299,7 +202324,7 @@ function addToCart(productId, customization = null, customPriceAdd = 0, selected
       price: base,
       retailPrice: product.retailPrice,
       image: product.image,
-      size: selectedSize || (product.sizes ? (product.sizes[0] || 'Unitalla') : 'Unitalla'),
+      size: size,
       quantity: 1,
       customization: customization,
       customPriceAdd: customPriceAdd,
@@ -202420,9 +202445,10 @@ function updateCartUI() {
             <div>
               <h4 class="cart-item-name">${item.name}</h4>
               <div style="font-size: 0.68rem; color: var(--text-muted); margin-top: 2px;">Talla: ${item.size}</div>
+              ${customizationLines(item).map(l => `<div style="font-size: 0.68rem; color: var(--text-muted); margin-top: 2px;">${l}</div>`).join('')}
             </div>
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 6px;">
-              <span class="cart-item-price">${item.id.startsWith('po-') ? '<span style="color:var(--neon-lime)">Cotizar</span>' : '$' + (item.price * item.quantity) + ' MXN'}</span>
+              <span class="cart-item-price">${item.id.startsWith('po-') ? '<span style="color:var(--neon-lime)">Cotizar</span>' : '$' + ((item.finalPrice || item.price) * item.quantity) + ' MXN'}</span>
               <div class="cart-item-qty">
                 <button class="qty-btn" onclick="updateQuantity('${item.cartItemId}', -1)">-</button>
                 <span class="qty-val">${item.quantity}</span>
@@ -202499,9 +202525,20 @@ function sendOrderViaWhatsApp() {
   message += `Hola! Quiero cotizar y apartar las siguientes piezas:\n\n`;
 
   AppState.cart.forEach((item, index) => {
-    const itemPrice = item.id.startsWith("po-") ? "Por cotizar" : ("$" + (item.price * item.quantity) + " MXN"); const finalItemPrice = item.id.startsWith("po-") ? "Por cotizar" : ("$" + ((item.finalPrice || item.price) * item.quantity) + " MXN");
-    message += `• *${item.quantity}x* ${item.name} ${item.sizes && item.sizes.length > 0 ? '(' + item.sizes[0] + ')' : ''} — *${finalItemPrice}*\n`;
-    if (item.customization) { message += `  > Personalizado: ${item.customization.name || ''} ${item.customization.patches ? '| Parches: ' + item.customization.patches : ''}\n`; }
+    const isQuote = item.id.startsWith("po-");
+    const unit = item.finalPrice || item.price;
+    const finalItemPrice = isQuote ? "Por cotizar" : ("$" + (unit * item.quantity) + " MXN");
+    message += `*${index + 1}. ${item.name}*\n`;
+    message += `   📏 Talla: *${item.size || 'No eligió'}*\n`;
+    message += `   🔢 Cantidad: ${item.quantity}\n`;
+    customizationLines(item).forEach(l => { message += `   ✍️ ${l}\n`; });
+    if (isQuote) {
+      message += `   💵 Precio: Por cotizar\n\n`;
+    } else if (item.customPriceAdd) {
+      message += `   💵 Precio: $${item.price} + $${item.customPriceAdd} personalizado = $${unit} c/u → *${finalItemPrice}*\n\n`;
+    } else {
+      message += `   💵 Precio: ${item.quantity > 1 ? '$' + unit + ' c/u → ' : ''}*${finalItemPrice}*\n\n`;
+    }
   });
 
   let totalTextWA = `$${summary.total.toLocaleString()} MXN`;
@@ -202623,14 +202660,34 @@ function togglePatchInput() {
 function addToCartFromModal() {
   if (!currentQvProductId) return;
   
-  const hasName = document.getElementById('qv-check-name').checked;
+  // Solo cuenta el personalizado si este producto lo tiene (si no, quedaba marcado del producto anterior)
+  const customBox = document.getElementById('qv-customization');
+  const canCustomize = !!customBox && customBox.style.display !== 'none';
+  const hasName = canCustomize && document.getElementById('qv-check-name').checked;
   const nameText = document.getElementById('qv-name-input').value;
-  const hasPatch = document.getElementById('qv-check-patch').checked;
+  const hasPatch = canCustomize && document.getElementById('qv-check-patch').checked;
   const patchCount = document.getElementById('qv-patch-select').value;
   
   let customization = null;
   let customPriceAdd = 0;
   
+  const sizeBox = document.getElementById('qv-size-container');
+  const sizeVisible = sizeBox && sizeBox.style.display !== 'none' && document.querySelector('.qv-size-btn');
+  const activeSizeBtn = document.querySelector('.qv-size-btn.active');
+  if (sizeVisible && !activeSizeBtn) {
+    showToast('Elige tu talla antes de agregar al carrito');
+    sizeBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    sizeBox.style.outline = '2px solid #e11d48';
+    sizeBox.style.borderRadius = '8px';
+    setTimeout(() => { sizeBox.style.outline = ''; }, 1800);
+    return;
+  }
+  if (hasName && nameText.trim() === '') {
+    showToast('Escribe el nombre y número que quieres en la playera');
+    document.getElementById('qv-name-input').focus();
+    return;
+  }
+
   if (hasName && nameText.trim() !== '') {
     customization = customization || {};
     customization.name = nameText.trim();
@@ -202644,7 +202701,6 @@ function addToCartFromModal() {
   }
   
   let selectedSize = 'Unitalla';
-const activeSizeBtn = document.querySelector('.qv-size-btn.active');
 if (activeSizeBtn) {
   selectedSize = activeSizeBtn.dataset.size;
 }
@@ -202681,8 +202737,10 @@ function openQuickView(productId) {
   // Render Sizes
   const sizeContainer = document.getElementById('qv-sizes');
   if (sizeContainer && product.sizes && product.sizes.length > 0) {
+    // Con una sola talla se marca sola; con varias el cliente tiene que escoger
+    const preselect = product.sizes.length === 1;
     sizeContainer.innerHTML = product.sizes.map((s, i) => `
-      <button class="qv-size-btn ${i === 0 ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1.5px solid ${i === 0 ? '#000000' : 'var(--border-subtle)'}; background: ${i === 0 ? '#000000' : '#ffffff'}; color: ${i === 0 ? '#ffffff' : '#000000'}; font-weight: 800; border-radius: 6px; cursor: pointer; font-size: 0.85rem;">
+      <button class="qv-size-btn ${preselect ? 'active' : ''}" data-size="${s}" onclick="selectQvSize(this)" style="padding: 8px 12px; border: 1.5px solid ${preselect ? '#000000' : 'var(--border-subtle)'}; background: ${preselect ? '#000000' : '#ffffff'}; color: ${preselect ? '#ffffff' : '#000000'}; font-weight: 800; border-radius: 6px; cursor: pointer; font-size: 0.85rem;">
         ${s}
       </button>
     `).join('');
@@ -202773,6 +202831,271 @@ function selectQvSize(btn) {
     b.style.color = '#000000';
     b.style.fontWeight = 'normal';
   });
+}
+
+// Productos con varias tallas o personalización: primero se abre la ventana para escoger
+function needsOptions(product) {
+  if (!product) return false;
+  if (product.customizable || product.hasVersionSelector) return true;
+  return Array.isArray(product.sizes) && product.sizes.length > 1;
+}
+
+// Renglones del personalizado para el carrito y el mensaje de WhatsApp
+function customizationLines(item) {
+  const c = item && item.customization;
+  if (!c) return [];
+  const lines = [];
+  if (c.name) lines.push(`Personalizado: "${c.name}" (+$50)`);
+  if (c.patches) lines.push(`Parches: ${c.patches} (+$${30 * c.patches})`);
+  return lines;
+}
+
+// --- Buscador flexible ---
+// Encuentra productos aunque no escriban el nombre exacto: sin acentos, en cualquier orden,
+// singular o plural, con sinónimos (niño = kids = infantil) y una letra de error.
+const SEARCH_STOPWORDS = new Set(['de','del','la','el','los','las','y','para','con','en','un','una','talla','jersey','jerseys','playera','playeras','camiseta','camisetas','camisa','camisas','uniforme','modelo','version']);
+const SEARCH_SYNONYMS = {
+  nino: 'nino', nina: 'nino', kid: 'nino', kids: 'nino', infantil: 'nino', infante: 'nino', bebe: 'nino', junior: 'nino', youth: 'nino',
+  mujer: 'mujer', dama: 'mujer', women: 'mujer', woman: 'mujer', femenil: 'mujer', femenino: 'mujer',
+  hombre: 'hombre', caballero: 'hombre', men: 'hombre', man: 'hombre', varonil: 'hombre',
+  visitante: 'visita', away: 'visita',
+  home: 'local',
+  alterna: 'alternativa', tercera: 'alternativa', third: 'alternativa',
+  vintage: 'retro',
+  barca: 'barcelona', guadalajara: 'chivas', aguila: 'america', unam: 'pumas',
+  tenis: 'teni', sneaker: 'teni', zapato: 'teni', zapatilla: 'teni',
+  gorra: 'gorra', cachucha: 'gorra', cap: 'gorra',
+  sudadera: 'sudadera', hoodie: 'sudadera', buzo: 'sudadera'
+};
+
+function searchNormalize(text) {
+  return String(text || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+function searchTokens(text, keepStopwords) {
+  return searchNormalize(text).split(' ').filter(Boolean).map(t => {
+    if (t.length > 3 && t.endsWith('s') && !/\d/.test(t)) t = t.slice(0, -1);
+    return SEARCH_SYNONYMS[t] || t;
+  }).filter(t => keepStopwords || !SEARCH_STOPWORDS.has(t));
+}
+
+function withinOneEdit(a, b) {
+  if (Math.abs(a.length - b.length) > 1) return false;
+  // Dos letras volteadas cuenta como un error: "madird" -> "madrid"
+  if (a.length === b.length) {
+    const diff = [];
+    for (let k = 0; k < a.length && diff.length <= 2; k++) if (a[k] !== b[k]) diff.push(k);
+    if (diff.length === 2 && diff[1] === diff[0] + 1 && a[diff[0]] === b[diff[1]] && a[diff[1]] === b[diff[0]]) return true;
+  }
+  let i = 0, j = 0, edits = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) { i++; j++; continue; }
+    if (++edits > 1) return false;
+    if (a.length > b.length) i++;
+    else if (b.length > a.length) j++;
+    else { i++; j++; }
+  }
+  return edits + (a.length - i) + (b.length - j) <= 1;
+}
+
+// 3 = palabra exacta, 2 = empieza igual, 1 = una letra de error, 0 = no está
+function tokenScore(q, nameTokens) {
+  let best = 0;
+  for (const t of nameTokens) {
+    if (t === q) return 3;
+    if (q.length >= 2 && t.startsWith(q)) best = Math.max(best, 2);
+    else if (q.length >= 5 && withinOneEdit(q, t)) best = Math.max(best, 1);
+  }
+  return best;
+}
+
+function productSearchTokens(prod) {
+  if (!prod._searchTokens || prod._searchName !== prod.name) {
+    prod._searchName = prod.name;
+    prod._searchTokens = searchTokens([prod.name, prod.brand].filter(Boolean).join(' '), true);
+  }
+  return prod._searchTokens;
+}
+
+function smartSearchProducts(products, query) {
+  let qTokens = searchTokens(query, false);
+  if (qTokens.length === 0) qTokens = searchTokens(query, true);
+  if (qTokens.length === 0) return { results: [], approximate: false };
+  const phrase = searchNormalize(query);
+  const full = [], partial = [];
+  for (const prod of products) {
+    const nameTokens = productSearchTokens(prod);
+    let score = 0, hits = 0;
+    for (const q of qTokens) {
+      const sc = tokenScore(q, nameTokens);
+      if (sc) { hits++; score += sc; }
+    }
+    if (!hits) continue;
+    if (phrase.length > 2 && searchNormalize(prod.name).includes(phrase)) score += 5;
+    if (prod.soldOut) score -= 1;
+    const item = { prod, score, hits };
+    if (hits === qTokens.length) full.push(item);
+    else if (qTokens.length >= 3 && hits >= Math.ceil(qTokens.length * 0.6)) partial.push(item);
+  }
+  const sorter = (a, b) => (b.hits - a.hits) || (b.score - a.score) || (a.prod.name.length - b.prod.name.length);
+  // El mismo producto puede venir en dos catálogos; se muestra una vez
+  const unique = list => {
+    const seen = new Set();
+    return list.sort(sorter).map(x => x.prod).filter(p => {
+      const key = searchNormalize(p.name) + '|' + (p.image || '');
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  };
+  if (full.length) return { results: unique(full), approximate: false };
+  return { results: unique(partial), approximate: true };
+}
+
+// Carpetas y categorías que se pueden abrir desde el buscador
+function getSearchFolders() {
+  const folders = [];
+  const seen = new Set();
+  const add = (mode, filter, name, image) => {
+    const key = mode + '|' + filter;
+    if (!filter || filter === 'all' || seen.has(key)) return;
+    seen.add(key);
+    folders.push({ mode, filter, name: String(name).trim(), image: image || null });
+  };
+  const sports = typeof SPORTS_PRODUCTS !== 'undefined' ? SPORTS_PRODUCTS : [];
+  document.querySelectorAll('#filters-sports .filter-pill').forEach(btn => {
+    const f = btn.dataset.filter;
+    const folderProd = sports.find(p => p.isFolder && p.targetFilter === f) || sports.find(p => p.category === f && p.image);
+    add('preorder-sports', f, btn.textContent, folderProd && folderProd.image);
+  });
+  sports.filter(p => p.isFolder && p.targetFilter).forEach(p => add('preorder-sports', p.targetFilter, p.name, p.image));
+  document.querySelectorAll('#filters-preorder .filter-pill').forEach(btn => {
+    const f = btn.dataset.filter;
+    add('preorder', f, btn.textContent, null);
+  });
+  document.querySelectorAll('#filters-stock .filter-pill').forEach(btn => {
+    add('stock', btn.dataset.filter, btn.textContent.replace(/[^\p{L}\p{N}\s/&]/gu, ''), null);
+  });
+  return folders;
+}
+
+function searchFolders(query) {
+  if (searchNormalize(query).length < 2) return [];
+  const qAll = searchTokens(query, true);
+  if (!qAll.length) return [];
+  const out = [];
+  for (const f of getSearchFolders()) {
+    const fTokens = searchTokens(f.name, true).filter(t => t !== 'y');
+    if (!fTokens.length) continue;
+    // Sale la carpeta cuando lo que escriben es el nombre de la carpeta: "croc" o "crocs" -> CROCS, "liga mx" -> LIGA MX
+    if (!qAll.every(q => tokenScore(q, fTokens) >= 2)) continue;
+    out.push({ ...f, exact: fTokens.every(t => qAll.includes(t)) });
+  }
+  return out.sort((a, b) => (b.exact - a.exact) || (a.name.length - b.name.length));
+}
+
+function openFolderTarget(mode, filter) {
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) searchInput.value = '';
+  if (typeof window.showCategory === 'function') window.showCategory(mode, filter);
+  setTimeout(() => {
+    const box = { 'preorder-sports': '#filters-sports', 'preorder': '#filters-preorder', 'stock': '#filters-stock' }[mode];
+    if (!box) return;
+    document.querySelectorAll(`${box} .filter-pill`).forEach(b => b.classList.toggle('active', b.dataset.filter === filter));
+    updateFolderShareBar();
+  }, 30);
+}
+
+// --- Link directo a cada carpeta (?carpeta=liga_mx) ---
+function getCurrentFolder() {
+  if (AppState.currentMode !== 'preorder-sports') return null;
+  if (!AppState.currentFilter || AppState.currentFilter === 'all') return null;
+  if (AppState.searchQuery && AppState.searchQuery.trim()) return null;
+  return AppState.currentFilter;
+}
+
+function getFolderName(filter) {
+  const pill = document.querySelector(`#filters-sports .filter-pill[data-filter="${filter}"]`);
+  if (pill && pill.textContent.trim()) return pill.textContent.trim();
+  const folder = (typeof SPORTS_PRODUCTS !== 'undefined' ? SPORTS_PRODUCTS : []).find(p => p.isFolder && p.targetFilter === filter);
+  return folder ? folder.name : filter;
+}
+
+function isValidFolder(filter) {
+  if (!filter) return false;
+  if (document.querySelector(`#filters-sports .filter-pill[data-filter="${filter}"]`)) return true;
+  return (typeof SPORTS_PRODUCTS !== 'undefined' ? SPORTS_PRODUCTS : []).some(p => p.isFolder && p.targetFilter === filter);
+}
+
+function getFolderLink(filter) {
+  const url = new URL(window.location.href);
+  url.hash = '';
+  url.search = '';
+  url.searchParams.set('carpeta', filter);
+  return url.toString();
+}
+
+function setFolderUrl(filter) {
+  try {
+    const url = new URL(window.location.href);
+    if (url.searchParams.get('carpeta') === (filter || null)) return;
+    if (filter) url.searchParams.set('carpeta', filter);
+    else url.searchParams.delete('carpeta');
+    history.replaceState(history.state, '', url.pathname + url.search + url.hash);
+  } catch (e) {}
+}
+
+function updateFolderShareBar() {
+  const grid = document.getElementById('products-grid');
+  if (!grid) return;
+  const folder = getCurrentFolder();
+  setFolderUrl(folder);
+  let bar = document.getElementById('folder-share-bar');
+  if (!folder) { if (bar) bar.style.display = 'none'; return; }
+  if (!bar) {
+    bar = document.createElement('div');
+    bar.id = 'folder-share-bar';
+    bar.style.cssText = 'display:flex;justify-content:center;margin:0 0 20px;';
+    bar.innerHTML = `<button type="button" id="folder-share-btn" onclick="shareCurrentFolder(this)" style="display:inline-flex;align-items:center;gap:8px;background:#000000;color:#ffffff;border:2px solid #000000;border-radius:999px;padding:10px 20px;font-weight:800;font-size:0.85rem;cursor:pointer;"></button>`;
+    grid.parentNode.insertBefore(bar, grid);
+  }
+  const btn = document.getElementById('folder-share-btn');
+  if (btn && !btn.dataset.busy) {
+    btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> COMPARTIR CARPETA ${getFolderName(folder)}`;
+  }
+  bar.style.display = 'flex';
+}
+
+async function shareLink(link, title, btn) {
+  if (navigator.share && /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+    try { await navigator.share({ title, url: link }); return; } catch (e) { if (e && e.name === 'AbortError') return; }
+  }
+  let ok = false;
+  try { await navigator.clipboard.writeText(link); ok = true; } catch (e) {
+    const ta = document.createElement('textarea');
+    ta.value = link; document.body.appendChild(ta); ta.select();
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    ta.remove();
+  }
+  if (btn) {
+    const old = btn.innerHTML;
+    btn.dataset.busy = '1';
+    btn.innerHTML = ok ? '✓ Link copiado' : link;
+    setTimeout(() => { btn.innerHTML = old; delete btn.dataset.busy; }, 2000);
+  }
+}
+
+function shareCurrentFolder(btn) {
+  const folder = getCurrentFolder();
+  if (!folder) return;
+  shareLink(getFolderLink(folder), `Puerto Hype - ${getFolderName(folder)}`, btn);
+}
+
+function openFolderFromUrl(filter) {
+  if (!isValidFolder(filter)) { setFolderUrl(null); return; }
+  if (typeof window.showCategory === 'function') window.showCategory('preorder-sports', filter);
+  // showCategory no marca la pastilla de la carpeta; se marca después de que termina
+  setTimeout(() => openSportsFolder(filter), 30);
 }
 
 // --- Link directo a cada artículo (?p=ID) ---
