@@ -201846,6 +201846,7 @@ async function initApp() {
   }
   // Productos ocultos desde el panel de admin no se muestran en la tienda
   STOCK_PRODUCTS = (STOCK_PRODUCTS || []).filter(p => !p.hidden);
+  applyPromos(STOCK_PRODUCTS);
   setupEventListeners();
   const btnStock = document.getElementById('btn-stock');
   if (btnStock) {
@@ -201858,6 +201859,25 @@ async function initApp() {
     window.updateUserUI();
   }
   openProductFromUrl();
+}
+
+// Ofertas con fecha limite: en el JSON, "promo": {"price": 500, "until": "2026-11-15"}.
+// Vale hasta las 23:59 (hora del centro de Mexico) del dia "until"; despues regresa solo al precio normal.
+const MESES = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
+function promoActive(p) {
+  if (!p || !p.promo || !p.promo.price || !p.promo.until) return false;
+  const end = new Date(p.promo.until + 'T23:59:59-06:00').getTime();
+  return Date.now() <= end && p.promo.price < p.price;
+}
+function applyPromos(list) {
+  (list || []).forEach(p => {
+    if (p.onSale || !promoActive(p)) return;
+    p.regularPrice = p.price;
+    p.price = p.promo.price;
+    p.onSale = true;
+    const [, m, d] = p.promo.until.split('-').map(Number);
+    p.promoLabel = `A $${p.price} HASTA ${d} ${MESES[m - 1]}`;
+  });
 }
 
 if (document.readyState === 'loading') {
@@ -201921,7 +201941,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     // "NUEVO" solo en productos subidos en los últimos 14 días (el id del admin lleva la fecha: stock-<ms>)
     const addedAt = parseInt(String(product.id).replace(/^stock-/, ''), 10);
     const isRecent = addedAt > 1e12 && Date.now() - addedAt < 14 * 24 * 60 * 60 * 1000;
-    const badgeText = product.soldOut ? 'AGOTADO' : product.badge === 'NUEVO' ? (isRecent ? 'NUEVO' : '') : (product.badge || 'Lotes limitados');
+    const badgeText = product.soldOut ? 'AGOTADO' : product.onSale ? product.promoLabel : product.badge === 'NUEVO' ? (isRecent ? 'NUEVO' : '') : (product.badge || 'Lotes limitados');
 
     // Animación de cambio de imagen al pasar el ratón (Estilo Gucci)
     let hoverImgSrc = null;
@@ -201934,7 +201954,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
     return `
     <article class="product-card" data-id="${product.id}">
       <div class="product-thumb" onclick="openQuickView('${product.id}')" style="cursor: pointer;">
-        ${badgeText ? `<span class="product-badge ${product.badgeType || ''}">${badgeText}</span>` : ''}
+        ${badgeText ? `<span class="product-badge ${product.onSale && !product.soldOut ? 'badge-sale' : (product.badgeType || '')}">${badgeText}</span>` : ''}
         <img 
           class="product-img" 
           src="${product.image}" 
@@ -201966,6 +201986,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
 ${product.isFolder || product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
 <div class="product-pricing">
   <span class="price-wholesale">${product.hasVersionSelector ? '$600 - $650 MXN' : '$' + product.price + ' MXN'}</span>
+  ${product.onSale ? `<span class="price-retail">$${product.regularPrice}</span>` : ''}
 </div>
 `}
 
@@ -202707,6 +202728,7 @@ if (versionContainer) {
   // Actually, I can just do it in JS: if not customizable, we still need a button to add to cart!
   
   price.textContent = product.section === 'preorder' ? 'Por cotizar' : `$${product.price} MXN`;
+  if (product.onSale) price.innerHTML = `$${product.price} MXN <span style="text-decoration:line-through;opacity:.55;font-size:.7em;margin-left:6px">$${product.regularPrice}</span>`;
   
   currentGallery = product.gallery && product.gallery.length > 0 ? product.gallery : [product.image];
   currentGalleryIndex = 0;

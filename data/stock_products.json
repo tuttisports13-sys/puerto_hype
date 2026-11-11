@@ -63,7 +63,11 @@
       "L"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1794288420519",
@@ -84,7 +88,11 @@
       "L"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1794288389893",
@@ -151,7 +159,11 @@
       "L"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1794082799591",
@@ -192,7 +204,11 @@
       "M"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1794082715903",
@@ -212,7 +228,11 @@
       "M"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1794082680266",
@@ -235,7 +255,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1794082563641",
@@ -260,7 +284,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "lote-10-jerseys",
@@ -367,7 +395,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791936613067",
@@ -387,7 +419,11 @@
     "sizes": [
       "M",
       "L"
-    ]
+    ],
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791936504576",
@@ -412,7 +448,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791936413710",
@@ -434,7 +474,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791936278168",
@@ -458,7 +502,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791936217794",
@@ -478,7 +526,11 @@
     "sizes": [
       "XL"
     ],
-    "soldOut": true
+    "soldOut": true,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791936156978",
@@ -502,7 +554,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791936058896",
@@ -527,7 +583,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791935998863",
@@ -552,7 +612,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791935852924",
@@ -576,7 +640,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791935736730",
@@ -596,7 +664,11 @@
     "sizes": [
       "M",
       "L"
-    ]
+    ],
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791935648432",
@@ -621,7 +693,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791933358391",
@@ -1233,7 +1309,11 @@
       "S",
       "L",
       "M"
-    ]
+    ],
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926696766",
@@ -1258,7 +1338,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926556795",
@@ -1284,7 +1368,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926476601",
@@ -1306,7 +1394,11 @@
     "sizes": [
       "S",
       "M"
-    ]
+    ],
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926423045",
@@ -1329,7 +1421,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926341653",
@@ -1353,7 +1449,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926295642",
@@ -1379,7 +1479,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926192089",
@@ -1404,7 +1508,11 @@
     ],
     "description": "",
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 500,
+      "until": "2026-11-15"
+    }
   },
   {
     "id": "stock-1791926129522",

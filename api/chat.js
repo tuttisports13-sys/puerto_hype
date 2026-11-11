@@ -25,7 +25,9 @@ function catalogText(products) {
   return visible.map((p) => {
     const sizes = Array.isArray(p.sizes) && p.sizes.length ? ` | tallas: ${p.sizes.join(', ')}` : '';
     const kind = p.category === 'mayoreo' ? ' | LOTE MAYOREO' : '';
-    return `- ${String(p.name).trim()} | $${p.price} MXN${sizes}${kind}${p.soldOut ? ' | AGOTADO' : ''}`;
+    const promoOn = p.promo && p.promo.price && p.promo.until && Date.now() <= new Date(p.promo.until + 'T23:59:59-06:00').getTime() && p.promo.price < p.price;
+    const price = promoOn ? `$${p.promo.price} MXN (OFERTA hasta el ${p.promo.until}, precio normal $${p.price})` : `$${p.price} MXN`;
+    return `- ${String(p.name).trim()} | ${price}${sizes}${kind}${p.soldOut ? ' | AGOTADO' : ''}`;
   }).join('\n');
 }
 
