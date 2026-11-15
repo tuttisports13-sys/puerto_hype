@@ -1,4 +1,5 @@
 /* Pago en línea: botón del carrito + ventana de pago (mismo estilo blanco y negro de la tienda) */
+.btn-card-checkout[hidden] { display: none !important; }
 .btn-card-checkout {
   width: 100%;
   margin-bottom: 10px;

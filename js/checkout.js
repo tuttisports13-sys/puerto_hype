@@ -16,6 +16,17 @@
 
   const state = { quote: null, rateId: null, areaKey: '' };
 
+  // Modo prueba: el botón de pago solo se ve con el link secreto ?probar=1 (o cuando CHECKOUT_ACTIVO=1 en Vercel).
+  // ?probar=0 lo vuelve a esconder en este navegador.
+  const TEST_KEY = 'ph_probar_pago';
+  const testMode = () => store.get(TEST_KEY) === 1;
+  (() => {
+    const p = new URLSearchParams(location.search).get('probar');
+    if (p === '1') store.set(TEST_KEY, 1);
+    if (p === '0') { try { localStorage.removeItem(TEST_KEY); } catch (e) { /* nada */ } }
+  })();
+  let checkoutActivo = false;
+
   async function api(payload) {
     const res = await fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
     const data = await res.json().catch(() => ({}));
@@ -202,7 +213,7 @@
       btn.textContent = 'COTIZANDO ENVÍO…';
       $('#ck-shipping').innerHTML = '<p class="ck-loading">Buscando las mejores paqueterías para tu código postal…</p>';
       try {
-        state.quote = await api({ action: 'quote', items: cartLines(), address: v });
+        state.quote = await api({ action: 'quote', items: cartLines(), address: v, prueba: testMode() });
         state.areaKey = areaKey(v);
         state.rateId = state.quote.rates[0].id;
         renderRates();
@@ -216,7 +227,7 @@
 
     btn.textContent = 'ABRIENDO MERCADO PAGO…';
     try {
-      const r = await api({ action: 'pay', items: cartLines(), address: v, quoteToken: state.quote.quoteToken, rateId: state.rateId });
+      const r = await api({ action: 'pay', items: cartLines(), address: v, quoteToken: state.quote.quoteToken, rateId: state.rateId, prueba: testMode() });
       store.set(LAST_KEY, { folio: r.folio, at: Date.now() });
       window.location.href = r.url;
     } catch (ex) {
@@ -329,6 +340,7 @@
   function syncButton() {
     const btn = $('#btn-card-checkout');
     if (!btn) return;
+    btn.hidden = !(checkoutActivo || testMode());
     const empty = cart().length === 0;
     btn.disabled = empty;
     btn.style.opacity = empty ? '0.5' : '1';
@@ -344,6 +356,8 @@
     }
     syncButton();
     checkReturn();
+    // ¿Ya está activo el pago para todos? (lo dice el servidor)
+    fetch('/api/checkout?stock=1').then((r) => r.json()).then((d) => { checkoutActivo = Boolean(d && d.checkout); syncButton(); }).catch(() => {});
   }
 
   window.PHCheckout = { open: openCheckout };

@@ -50,7 +50,11 @@ function siteUrl(req) {
   return `https://${host}`;
 }
 
+const checkoutOn = (body) => process.env.CHECKOUT_ACTIVO === '1' || body.prueba === true;
+const closed = () => bad('El pago en línea todavía no está disponible. Haz tu pedido por WhatsApp.');
+
 async function handleQuote(body) {
+  if (!checkoutOn(body)) throw closed();
   const area = cleanArea(body.address);
   const cart = await priceCart(body.items);
   const q = await quote(area, cart.pieces);
@@ -67,6 +71,7 @@ async function handleQuote(body) {
 }
 
 async function handlePay(body, req) {
+  if (!checkoutOn(body)) throw closed();
   const address = cleanAddress(body.address);
   const q = verify(body.quoteToken);
   if (!q || q.exp < Date.now()) throw bad('La cotización del envío venció. Vuelve a cotizar.');
@@ -136,7 +141,7 @@ export default async function handler(req, res) {
     // Stock en vivo del Panel de Jerseys para la tienda: { idDeLaWeb: { S, M, L, XL } }
     const stock = await stockForWeb().catch(() => null);
     if (typeof res.setHeader === 'function') res.setHeader('Cache-Control', 's-maxage=20, stale-while-revalidate=60');
-    return res.status(200).json({ success: true, stock });
+    return res.status(200).json({ success: true, stock, checkout: process.env.CHECKOUT_ACTIVO === '1' });
   }
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method Not Allowed' });
   const body = req.body || {};
