@@ -155,7 +155,6 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1794083080030_5.jpg"
     ],
     "sizes": [
-      "M",
       "L"
     ],
     "soldOut": false,
@@ -163,7 +162,8 @@
     "promo": {
       "price": 500,
       "until": "2026-11-15"
-    }
+    },
+    "description": ""
   },
   {
     "id": "stock-1794082799591",
