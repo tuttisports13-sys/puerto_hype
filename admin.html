@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/admin.css?v=7">
+  <link rel="stylesheet" href="css/admin.css?v=8">
 </head>
 <body>
   <div class="ticker-bar"><span>PANEL DE ADMINISTRACIÓN · PUERTO HYPE</span></div>
@@ -45,6 +45,7 @@
       </div>
       <nav class="top-nav" aria-label="Secciones">
         <button type="button" class="nav-link active" data-view="dashboard">RESUMEN</button>
+        <button type="button" class="nav-link" data-view="orders">PEDIDOS <span id="orders-badge" class="tag green hidden"></span></button>
         <button type="button" class="nav-link" data-view="products">PRODUCTOS</button>
         <button type="button" class="nav-link" data-view="new">AGREGAR PRODUCTO</button>
         <button type="button" class="nav-link" data-view="reviews">RESEÑAS</button>
@@ -62,6 +63,7 @@
         </div>
         <div id="stats" class="stats-grid"></div>
         <div class="quick-grid">
+          <button type="button" class="quick-card" data-go="orders"><span class="icon-box">📦</span><b>PEDIDOS <span id="dash-orders" class="tag green hidden"></span></b><small>Pagos en línea y guías</small></button>
           <button type="button" class="quick-card" data-go="new"><span class="icon-box">＋</span><b>AGREGAR PRODUCTO</b><small>Sube fotos, precio y tallas</small></button>
           <button type="button" class="quick-card" data-go="products"><span class="icon-box">✎</span><b>EDITAR PRODUCTOS</b><small>Precios, tallas, agotados</small></button>
           <button type="button" class="quick-card" data-go="reviews"><span class="icon-box">★</span><b>RESEÑAS <span id="dash-pending" class="tag amber hidden"></span></b><small>Aprueba lo que dicen tus clientes</small></button>
@@ -189,6 +191,24 @@
       </section>
 
       <!-- RESEÑAS -->
+      <!-- PEDIDOS (pago en línea) -->
+      <section id="view-orders" class="view hidden">
+        <div class="section-head row">
+          <div>
+            <span class="section-tag">PAGOS EN LÍNEA</span>
+            <h2 class="section-title">PEDIDOS</h2>
+          </div>
+          <button type="button" id="btn-reload-orders" class="btn btn-secondary btn-sm" title="Recargar">↻</button>
+        </div>
+        <div id="order-filters" class="filter-row">
+          <button type="button" class="filter-pill active" data-ofilter="todo">POR ATENDER</button>
+          <button type="button" class="filter-pill" data-ofilter="pendiente_pago">ESPERANDO PAGO</button>
+          <button type="button" class="filter-pill" data-ofilter="enviado">ENVIADOS</button>
+          <button type="button" class="filter-pill" data-ofilter="all">TODOS</button>
+        </div>
+        <div id="order-list" class="order-list"></div>
+      </section>
+
       <section id="view-reviews" class="view hidden">
         <div class="section-head row">
           <div>
@@ -286,6 +306,6 @@
   <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
   <div id="busy" class="busy hidden"><div class="busy-box"><span class="loader"></span><span id="busy-text">Guardando…</span></div></div>
 
-  <script src="js/admin.js?v=8"></script>
+  <script src="js/admin.js?v=9"></script>
 </body>
 </html>

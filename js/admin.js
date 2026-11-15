@@ -68,6 +68,7 @@
     go(location.hash.replace('#', '') || 'dashboard');
     loadProducts();
     loadPending();
+    loadOrders();
   }
   function logout(msg) {
     localStorage.removeItem('admin_token');
@@ -104,7 +105,7 @@
   $('#btn-logout').addEventListener('click', () => logout());
 
   // ---------------- navegación ----------------
-  const VIEWS = ['dashboard', 'products', 'new', 'reviews', 'texts', 'hype'];
+  const VIEWS = ['dashboard', 'orders', 'products', 'new', 'reviews', 'texts', 'hype'];
   function go(view) {
     if (!VIEWS.includes(view)) view = 'dashboard';
     // "Agregar" siempre abre el formulario vacío, salvo cuando venimos de "Editar"
@@ -117,6 +118,7 @@
     $$('[data-view]').forEach((b) => b.classList.toggle('active', b.dataset.view === navView));
     if (location.hash !== `#${view}`) history.replaceState(null, '', `#${view}`);
     window.scrollTo({ top: 0 });
+    if (view === 'orders') loadOrders();
     if (view === 'reviews') { loadPending(); loadReviews(); }
     if (view === 'texts') loadTexts();
     if (view === 'hype') loadHype();
@@ -391,6 +393,116 @@
       resetEditor();
       await loadProducts();
       go('products');
+    } catch (err) {
+      toast(err.message, 'error');
+    } finally { busy(false); }
+  });
+
+
+  // ---------------- pedidos (pago en línea) ----------------
+  state.orders = [];
+  state.ofilter = 'todo';
+  const ORDER_STATUS = {
+    pendiente_pago: ['ESPERANDO PAGO', 'gray'], pagado: ['PAGADO · SIN GUÍA', 'amber'], guia_lista: ['GUÍA LISTA', 'green'],
+    enviado: ['ENVIADO', ''], rechazado: ['PAGO RECHAZADO', 'red'], cancelado: ['CANCELADO', 'gray'],
+    revisar: ['REVISAR MONTO', 'red'], reembolsado: ['REEMBOLSADO', 'gray'], contracargo: ['CONTRACARGO', 'red'],
+  };
+  const fecha = (iso) => (iso ? new Date(iso).toLocaleString('es-MX', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '');
+
+  async function loadOrders() {
+    if (state.view === 'orders') $('#order-list').innerHTML = '<p class="empty">Cargando pedidos…</p>';
+    try {
+      const { orders } = await api('admin-orders', { action: 'list' });
+      state.orders = orders || [];
+    } catch (err) {
+      $('#order-list').innerHTML = `<p class="empty">No se pudieron cargar: ${esc(err.message)}</p>`;
+      return;
+    }
+    renderOrders();
+  }
+
+  function orderCard(o) {
+    const [label, color] = ORDER_STATUS[o.status] || [o.status, 'gray'];
+    const a = o.address || {};
+    const lb = o.label || {};
+    const ship = o.shipping || {};
+    const lines = (o.lines || []).map((l) => {
+      const c = l.customization || {};
+      return `<li>${l.quantity}× ${esc(l.name)} · <b>${esc(l.size)}</b>${c.name ? ` · Nombre: <b>${esc(c.name)}</b>` : ''}${c.patches ? ` · ${c.patches} parche(s)` : ''}${l.inStock ? '' : ' <span class="tag gray">SOBRE PEDIDO</span>'}</li>`;
+    }).join('');
+    const wa = `https://wa.me/52${encodeURIComponent(a.telefono || '')}?text=${encodeURIComponent(`Hola ${a.nombre || ''}! Te escribimos de Puerto Hype por tu pedido ${o.folio}.`)}`;
+    let labelHtml = '';
+    if (lb.state === 'lista') {
+      labelHtml = `<div class="order-label ok">📦 Guía ${esc(lb.carrier || ship.carrier || '')}: <b>${esc(lb.trackingNumber)}</b> ${lb.labelUrl ? `<a class="btn btn-primary btn-sm" href="${esc(lb.labelUrl)}" target="_blank" rel="noopener">DESCARGAR GUÍA (PDF)</a>` : ''}</div>`;
+    } else if (lb.state === 'generando') {
+      labelHtml = '<div class="order-label">⏳ Skydropx está generando la guía… <button type="button" class="btn btn-ghost btn-sm" data-oact="refresh">REVISAR</button></div>';
+    } else if (lb.state === 'error') {
+      labelHtml = `<div class="order-label bad">⚠️ No se pudo hacer la guía: ${esc(lb.error)} <button type="button" class="btn btn-secondary btn-sm" data-oact="label">REINTENTAR</button></div>`;
+    } else if (o.status === 'pagado') {
+      labelHtml = `<div class="order-label">${o.allInStock ? 'Sin guía todavía.' : 'Trae productos sobre pedido: genera la guía cuando ya tengas todo.'} <button type="button" class="btn btn-primary btn-sm" data-oact="label">GENERAR GUÍA</button></div>`;
+    }
+    const actions = [
+      o.status === 'guia_lista' ? '<button type="button" class="btn btn-primary btn-sm" data-oact="shipped">MARCAR ENVIADO</button>' : '',
+      o.status === 'pendiente_pago' ? '<button type="button" class="btn btn-ghost btn-sm" data-oact="refresh">REVISAR PAGO</button>' : '',
+      ['pendiente_pago', 'rechazado'].includes(o.status) ? '<button type="button" class="btn btn-danger btn-sm" data-oact="cancel">CANCELAR</button>' : '',
+    ].join('');
+    const pago = o.payment ? ` · ${esc(o.payment.type || o.payment.method || '')}` : '';
+    return `
+      <article class="order card" data-folio="${esc(o.folio)}">
+        <div class="order-head">
+          <div><b class="order-folio">${esc(o.folio)}</b><span class="order-date">${fecha(o.paidAt || o.createdAt)}</span></div>
+          <span class="tag ${color}">${label}</span>
+        </div>
+        <ul class="order-lines">${lines}</ul>
+        <div class="order-money">Productos ${money(o.subtotal)} · Envío ${esc(ship.carrier || '')} ${money(ship.total)} · <b>Total ${money(o.total)}</b>${pago}</div>
+        <div class="order-client">
+          <b>${esc(a.nombre)}</b> · <a href="${wa}" target="_blank" rel="noopener">WhatsApp ${esc(a.telefono)}</a> · ${esc(a.email)}<br>
+          ${esc(a.calle)}, Col. ${esc(a.colonia)}, ${esc(a.municipio)}, ${esc(a.estado)}, CP ${esc(a.cp)}${a.referencias ? `<br><small>Ref: ${esc(a.referencias)}</small>` : ''}
+        </div>
+        ${labelHtml}
+        ${actions ? `<div class="order-actions">${actions}</div>` : ''}
+      </article>`;
+  }
+
+  function renderOrders() {
+    const todo = state.orders.filter((o) => ['pagado', 'guia_lista', 'revisar'].includes(o.status));
+    ['#orders-badge', '#dash-orders'].forEach((sel) => {
+      const el = $(sel);
+      if (!el) return;
+      el.textContent = todo.length ? String(todo.length) : '';
+      el.classList.toggle('hidden', !todo.length);
+    });
+    const f = state.ofilter;
+    const list = f === 'all' ? state.orders : f === 'todo' ? todo : state.orders.filter((o) => o.status === f);
+    $('#order-list').innerHTML = list.length
+      ? list.map(orderCard).join('')
+      : `<p class="empty">${f === 'todo' ? 'No hay pedidos por atender. 🎉' : 'No hay pedidos aquí.'}</p>`;
+  }
+
+  $('#btn-reload-orders').addEventListener('click', loadOrders);
+  $('#order-filters').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-ofilter]');
+    if (!b) return;
+    state.ofilter = b.dataset.ofilter;
+    $$('#order-filters [data-ofilter]').forEach((x) => x.classList.toggle('active', x === b));
+    renderOrders();
+  });
+  $('#order-list').addEventListener('click', async (e) => {
+    const b = e.target.closest('[data-oact]');
+    if (!b) return;
+    const folio = b.closest('.order').dataset.folio;
+    const act = b.dataset.oact;
+    if (act === 'cancel' && !confirm(`¿Cancelar el pedido ${folio}? (Esto no reembolsa nada en Mercado Pago)`)) return;
+    if (act === 'shipped' && !confirm(`¿Marcar ${folio} como enviado?`)) return;
+    const o = state.orders.find((x) => x.folio === folio);
+    busy(true, act === 'label' ? 'Generando guía con Skydropx…' : 'Actualizando…');
+    try {
+      const force = act === 'label' && Boolean(o && o.label && o.label.state === 'error');
+      const { order } = await api('admin-orders', { action: act, folio, force });
+      if (order) state.orders = state.orders.map((x) => (x.folio === folio ? order : x));
+      renderOrders();
+      if (act === 'label') toast(order && order.label && order.label.state === 'lista' ? '¡Guía lista!' : 'Guía en proceso, revisa en un momento');
+      else toast('Listo');
     } catch (err) {
       toast(err.message, 'error');
     } finally { busy(false); }
