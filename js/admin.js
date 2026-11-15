@@ -133,8 +133,10 @@
   async function loadProducts() {
     $('#product-grid').innerHTML = '<p class="empty">Cargando productos…</p>';
     try {
-      const { products } = await api('admin-products', { action: 'list' });
+      const { products, links, panelModels } = await api('admin-products', { action: 'list' });
       state.products = products || [];
+      state.links = links || {};
+      $('#panel-models').innerHTML = (panelModels || []).map((m) => `<option value="${esc(m)}">`).join('');
       renderProducts();
       renderStats();
     } catch (err) {
@@ -248,6 +250,7 @@
     $('#f-badge').value = badge;
     $('#f-soldout').checked = !!p.soldOut;
     $('#f-hidden').checked = !!p.hidden;
+    $('#f-stockkey').value = (state.links || {})[p.id] || '';
     $('#editor-tag').textContent = 'EDITANDO';
     $('#editor-title').textContent = p.name;
     $('#btn-save').textContent = 'GUARDAR CAMBIOS';
@@ -360,6 +363,7 @@
       badge: $('#f-badge').value,
       soldOut: $('#f-soldout').checked,
       hidden: $('#f-hidden').checked,
+      stockKey: $('#f-stockkey').value.trim().toUpperCase(),
       gallery: state.gallery.filter((g) => g.url).map((g) => g.url),
     };
     if (!product.gallery.length) return toast('Agrega al menos una foto', 'error');
@@ -459,6 +463,8 @@
           <b>${esc(a.nombre)}</b> · <a href="${wa}" target="_blank" rel="noopener">WhatsApp ${esc(a.telefono)}</a> · ${esc(a.email)}<br>
           ${esc(a.calle)}, Col. ${esc(a.colonia)}, ${esc(a.municipio)}, ${esc(a.estado)}, CP ${esc(a.cp)}${a.referencias ? `<br><small>Ref: ${esc(a.referencias)}</small>` : ''}
         </div>
+        ${o.stockSync && o.stockSync.state === 'error' ? `<div class="order-label bad">⚠️ No se pasó al panel de stock: ${esc(o.stockSync.error)} <button type="button" class="btn btn-secondary btn-sm" data-oact="stocksync">REINTENTAR</button></div>` : ''}
+        ${o.stockSync && o.stockSync.state === 'ok' ? '<div class="order-money">✓ Descontado del Panel de Jerseys</div>' : ''}
         ${labelHtml}
         ${actions ? `<div class="order-actions">${actions}</div>` : ''}
       </article>`;

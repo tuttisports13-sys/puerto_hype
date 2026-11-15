@@ -3,6 +3,7 @@ import { getPayment } from './_mercadopago.js';
 import { updateOrder } from './_orders.js';
 import { createLabel, getShipment } from './_skydropx.js';
 import { updateJson } from './_github.js';
+import { getLinks, reportSale } from './_stocksync.js';
 
 const PAY_STATUS = {
   approved: 'pagado', pending: 'pendiente_pago', in_process: 'pendiente_pago', authorized: 'pendiente_pago',
@@ -48,6 +49,9 @@ export async function applyPayment(paymentId) {
 }
 
 async function afterPaid(order) {
+  // 1) Avisar la venta a la hoja STOCK → el Panel de Jerseys la registra y la web descuenta
+  await syncSale(order.folio, order);
+  // 2) Productos que NO están en el panel (tenis, gorras…): quitar la talla vendida, si está activado
   if (process.env.STOCK_AUTO_DESCUENTO === '1' && order.lines.some((l) => l.inStock)) {
     await discountStock(order).catch((err) => console.error('stock', order.folio, err));
   }
@@ -58,8 +62,9 @@ async function afterPaid(order) {
 
 /** Quita la talla vendida del producto; si ya no le quedan tallas, lo marca agotado. */
 async function discountStock(order) {
+  const links = await getLinks({ fresh: true }).catch(() => ({}));
   await updateJson('data/stock_products.json', (list) => {
-    for (const l of order.lines.filter((x) => x.inStock)) {
+    for (const l of order.lines.filter((x) => x.inStock && !links[x.id])) {
       const p = list.find((x) => x.id === l.id);
       if (!p || !Array.isArray(p.sizes)) continue;
       p.sizes = p.sizes.filter((s) => s !== l.size);
@@ -67,6 +72,23 @@ async function discountStock(order) {
     }
     return list;
   }, `Venta en línea ${order.folio}: descontar stock`);
+}
+
+/** Manda la venta a la hoja y deja anotado en el pedido si pasó (para reintentar desde el admin). */
+export async function syncSale(folio, order) {
+  let result;
+  try {
+    result = await reportSale(order);
+  } catch (err) {
+    console.error('stock-sync', folio, err);
+    result = { error: err.message.slice(0, 200) };
+  }
+  if (result.skipped === 'sin configurar') return result;
+  await updateOrder(folio, (o) => {
+    o.stockSync = result.error ? { state: 'error', error: result.error, at: new Date().toISOString() }
+      : { state: result.skipped ? 'no_aplica' : 'ok', at: new Date().toISOString() };
+  }, `Pedido ${folio}: stock ${result.error ? 'pendiente' : 'anotado'}`).catch(() => null);
+  return result;
 }
 
 /** Genera la guía una sola vez (aunque lleguen dos avisos juntos). */

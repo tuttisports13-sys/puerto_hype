@@ -157,6 +157,11 @@
               <textarea id="f-description" rows="3" maxlength="600" placeholder="Detalles, materiales, tiempo de entrega…"></textarea>
             </label>
             <label class="field">
+              <span>Modelo en el Panel de Jerseys <small>(para que el stock se descuente solo)</small></span>
+              <input type="text" id="f-stockkey" list="panel-models" maxlength="80" placeholder="Ej: CHIVAS - LOCAL (déjalo vacío si no es jersey del panel)" autocomplete="off">
+              <datalist id="panel-models"></datalist>
+            </label>
+            <label class="field">
               <span>Etiqueta</span>
               <select id="f-badge">
                 <option value="NUEVO">NUEVO (se quita sola a los 14 días)</option>
@@ -306,6 +311,6 @@
   <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
   <div id="busy" class="busy hidden"><div class="busy-box"><span class="loader"></span><span id="busy-text">Guardando…</span></div></div>
 
-  <script src="js/admin.js?v=9"></script>
+  <script src="js/admin.js?v=10"></script>
 </body>
 </html>

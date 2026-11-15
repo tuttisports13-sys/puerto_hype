@@ -201849,6 +201849,7 @@ async function initApp() {
   // Productos ocultos desde el panel de admin no se muestran en la tienda
   STOCK_PRODUCTS = (STOCK_PRODUCTS || []).filter(p => !p.hidden);
   applyPromos(STOCK_PRODUCTS);
+  await applyLiveStock(STOCK_PRODUCTS);
   setupEventListeners();
   const btnStock = document.getElementById('btn-stock');
   if (btnStock) {
@@ -201881,6 +201882,33 @@ function applyPromos(list) {
     const [, m, d] = p.promo.until.split('-').map(Number);
     p.promoLabel = `A $${p.price} HASTA ${d} ${MESES[m - 1]}`;
   });
+}
+
+// Stock en vivo del Panel de Jerseys (vía /api/checkout?stock=1): solo se muestran las tallas que hay
+// y se avisa cuando quedan pocas. Si no responde rápido, la tienda sigue con las tallas del catálogo.
+async function applyLiveStock(list) {
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 2500);
+    const res = await fetch('/api/checkout?stock=1', { signal: ctrl.signal });
+    clearTimeout(timer);
+    if (!res.ok) return;
+    const { stock } = await res.json();
+    if (!stock) return;
+    (list || []).forEach(p => {
+      const st = stock[p.id];
+      if (!st) return;
+      const avail = ['S', 'M', 'L', 'XL'].filter(t => (Number(st[t]) || 0) > 0);
+      p.sizes = avail;
+      p.soldOut = avail.length === 0;
+      p.stockBySize = st;
+      const total = avail.reduce((a, t) => a + Number(st[t]), 0);
+      if (total > 0 && total <= 2 && !p.onSale) {
+        p.badge = total === 1 ? '¡ÚLTIMA PIEZA!' : '¡ÚLTIMAS 2 PIEZAS!';
+        p.badgeType = 'badge-hot';
+      }
+    });
+  } catch (e) { /* sin stock en vivo: se usa el catálogo */ }
 }
 
 if (document.readyState === 'loading') {

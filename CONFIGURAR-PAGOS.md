@@ -33,7 +33,8 @@ Opcionales:
 | `SKYDROPX_TIPO_EMPAQUE` | 4G | Tipo de empaque (4G = caja de cartón) |
 | `SKYDROPX_FORMATO` | standard | `thermal` si imprimes en impresora térmica |
 | `AUTO_GUIA` | 1 | `0` = nunca hacer la guía sola |
-| `STOCK_AUTO_DESCUENTO` | (apagado) | `1` = al pagar, quita la talla vendida del stock y marca agotado si ya no hay tallas |
+| `STOCK_SYNC_URL` / `STOCK_SYNC_KEY` | — | Conecta el stock con el Panel de Jerseys. Ver `integraciones/README-stock.md` |
+| `STOCK_AUTO_DESCUENTO` | (apagado) | `1` = para productos que **no** están en el panel (tenis, gorras…), al pagar quita la talla vendida y marca agotado si ya no hay tallas |
 | `SITE_URL` | el dominio de la visita | Forzar `https://puertohype.mx` |
 
 ## Probar sin cobrar

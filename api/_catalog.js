@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import vm from 'vm';
 import { readJson } from './_github.js';
+import { getLinks, getStock } from './_stocksync.js';
 
 const NAME_PRICE = 50;   // nombre y número en la playera
 const PATCH_PRICE = 30;  // por parche, máximo 3
@@ -103,6 +104,27 @@ export async function priceCart(lines) {
       // Stock = está en mano y sale hoy. Sobre pedido = la guía se hace cuando llegue.
       inStock: Boolean(fromStock),
     });
+  }
+
+  // Stock real del Panel de Jerseys (a través de la hoja STOCK): no vender lo que ya no hay
+  const linked = out.filter((l) => l.inStock);
+  if (linked.length) {
+    const [links, stock] = await Promise.all([getLinks(), getStock()]);
+    if (stock) {
+      const want = {};
+      for (const l of linked) {
+        const k = links[l.id];
+        if (!k || !stock[k]) continue;
+        const key = `${l.id}|${l.size}`;
+        want[key] = (want[key] || 0) + l.quantity;
+        const have = Number(stock[k][l.size]) || 0;
+        if (want[key] > have) {
+          throw fail(have > 0
+            ? `Solo nos quedan ${have} de "${l.name}" en talla ${l.size}`
+            : `"${l.name}" en talla ${l.size} se acaba de agotar`);
+        }
+      }
+    }
   }
 
   const pieces = out.reduce((s, l) => s + l.quantity, 0);

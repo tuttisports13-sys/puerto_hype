@@ -9,6 +9,7 @@ import { addOrder, getOrder, newAccessToken, newFolio, publicView, sign, verify 
 import { quote } from './_skydropx.js';
 import { createPreference, validSignature } from './_mercadopago.js';
 import { applyPayment, refreshLabel } from './_fulfill.js';
+import { stockForWeb } from './_stocksync.js';
 
 const QUOTE_TTL_MS = 45 * 60 * 1000;
 const ESTADOS = ['Aguascalientes', 'Baja California', 'Baja California Sur', 'Campeche', 'Chiapas', 'Chihuahua', 'Ciudad de México', 'Coahuila', 'Colima', 'Durango', 'Estado de México', 'Guanajuato', 'Guerrero', 'Hidalgo', 'Jalisco', 'Michoacán', 'Morelos', 'Nayarit', 'Nuevo León', 'Oaxaca', 'Puebla', 'Querétaro', 'Quintana Roo', 'San Luis Potosí', 'Sinaloa', 'Sonora', 'Tabasco', 'Tamaulipas', 'Tlaxcala', 'Veracruz', 'Yucatán', 'Zacatecas'];
@@ -131,6 +132,12 @@ async function handleWebhook(req, res) {
 
 export default async function handler(req, res) {
   if (req.query && req.query.webhook === 'mp') return handleWebhook(req, res);
+  if (req.query && req.query.stock) {
+    // Stock en vivo del Panel de Jerseys para la tienda: { idDeLaWeb: { S, M, L, XL } }
+    const stock = await stockForWeb().catch(() => null);
+    if (typeof res.setHeader === 'function') res.setHeader('Cache-Control', 's-maxage=20, stale-while-revalidate=60');
+    return res.status(200).json({ success: true, stock });
+  }
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method Not Allowed' });
   const body = req.body || {};
   try {

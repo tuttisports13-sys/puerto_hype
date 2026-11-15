@@ -2,7 +2,7 @@
 import { isValidSession } from './_session.js';
 import { requirePost } from './_github.js';
 import { listOrders, updateOrder } from './_orders.js';
-import { makeLabel, refreshLabel, applyPayment } from './_fulfill.js';
+import { makeLabel, refreshLabel, applyPayment, syncSale } from './_fulfill.js';
 
 export default async function handler(req, res) {
   const body = requirePost(req, res);
@@ -32,6 +32,12 @@ export default async function handler(req, res) {
         order = await find();
       }
       order = await refreshLabel(order);
+    } else if (action === 'stocksync') {
+      // Reintentar pasar la venta al panel/hoja de stock
+      const current = await find();
+      if (!current) return res.status(404).json({ error: 'Pedido no encontrado' });
+      await syncSale(folio, current);
+      order = await find();
     } else if (action === 'shipped' || action === 'cancel') {
       ({ order } = await updateOrder(folio, (o) => {
         o.status = action === 'shipped' ? 'enviado' : 'cancelado';

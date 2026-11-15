@@ -1,6 +1,19 @@
 // Panel de admin: crear, editar y eliminar productos de data/stock_products.json.
 import { isValidSession } from './_session.js';
 import { readJson, requirePost, updateJson } from './_github.js';
+import { getStock } from './_stocksync.js';
+
+const LINKS = 'data/stock_links.json';
+
+/** Liga (o desliga) un producto de la web con su modelo del Panel de Jerseys. */
+async function setLink(id, stockKey) {
+  const key = String(stockKey ?? '').trim().toUpperCase().slice(0, 80);
+  await updateJson(LINKS, (links) => {
+    const next = links && typeof links === 'object' && !Array.isArray(links) ? links : {};
+    if (key) next[id] = key; else delete next[id];
+    return next;
+  }, key ? `Admin: ligar ${id} con ${key}` : `Admin: desligar ${id}`, {});
+}
 
 const FILE = 'data/stock_products.json';
 
@@ -40,8 +53,12 @@ export default async function handler(req, res) {
 
     if (action === 'list') {
       // Lectura directa de GitHub: siempre la versión más reciente (sin esperar al deploy)
-      const { data } = await readJson(FILE, []);
-      return res.status(200).json({ success: true, products: data });
+      const [{ data }, { data: links }, stock] = await Promise.all([
+        readJson(FILE, []),
+        readJson(LINKS, {}),
+        getStock().catch(() => null),
+      ]);
+      return res.status(200).json({ success: true, products: data, links: links || {}, panelModels: stock ? Object.keys(stock).sort() : [] });
     }
 
     if (action === 'create') {
@@ -63,6 +80,7 @@ export default async function handler(req, res) {
         hidden: Boolean(fields.hidden),
       };
       await updateJson(FILE, (list) => [saved, ...list], `Admin: agregar ${saved.name}`);
+      if (body.product && body.product.stockKey) await setLink(saved.id, body.product.stockKey);
     } else if (action === 'update') {
       if (!id) return res.status(400).json({ error: 'Falta el producto' });
       await updateJson(FILE, (list) => {
@@ -74,6 +92,7 @@ export default async function handler(req, res) {
         saved = p;
         return list;
       }, `Admin: editar ${fields.name || id}`);
+      if (body.product && 'stockKey' in body.product) await setLink(id, body.product.stockKey);
     } else if (action === 'delete') {
       if (!id) return res.status(400).json({ error: 'Falta el producto' });
       await updateJson(FILE, (list) => {
@@ -81,6 +100,7 @@ export default async function handler(req, res) {
         if (next.length === list.length) throw Object.assign(new Error('Producto no encontrado'), { status: 404 });
         return next;
       }, `Admin: eliminar ${id}`);
+      await setLink(id, '').catch(() => null);
     } else {
       return res.status(400).json({ error: 'Acción no válida' });
     }
