@@ -125,7 +125,7 @@
           </div>
           <div class="ck-row">
             ${field('municipio', 'Municipio o ciudad', 'autocomplete="address-level2" required maxlength="60"', d.municipio)}
-            ${field('colonia', 'Colonia', 'list="ck-colonias" autocomplete="address-level3" required maxlength="80"', d.colonia)}
+            ${field('colonia', 'Colonia (si no sale en la lista, escríbela)', 'list="ck-colonias" autocomplete="address-level3" required maxlength="80" placeholder="Escribe tu colonia"', d.colonia)}
           </div>
           <datalist id="ck-colonias"></datalist>
           ${field('calle', 'Calle y número (exterior e interior)', 'autocomplete="address-line1" required maxlength="80" placeholder="Ej. Av. Juárez 123 int. 4"', d.calle)}
@@ -180,7 +180,7 @@
       $('#ck-colonias').innerHTML = places.map((p) => `<option value="${esc(p)}">`).join('');
       const raw = norm(data.places && data.places[0] && data.places[0].state);
       const alias = { 'distrito federal': 'Ciudad de México', 'mexico': 'Estado de México', 'coahuila de zaragoza': 'Coahuila', 'michoacan de ocampo': 'Michoacán', 'veracruz de ignacio de la llave': 'Veracruz' };
-      const estado = alias[raw] || ESTADOS.find((e) => norm(e) === raw);
+      const estado = alias[raw] || ESTADOS.find((e) => norm(e) === raw) || ESTADOS.find((e) => raw.startsWith(norm(e) + ' '));
       const sel = $('#ck-form [name="estado"]');
       if (estado && sel && !sel.value) { sel.value = estado; sel.dispatchEvent(new Event('change', { bubbles: true })); }
       const col = $('#ck-form [name="colonia"]');
