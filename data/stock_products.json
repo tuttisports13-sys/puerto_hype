@@ -668,7 +668,8 @@
     "promo": {
       "price": 500,
       "until": "2026-11-15"
-    }
+    },
+    "soldOut": true
   },
   {
     "id": "stock-1791935648432",
