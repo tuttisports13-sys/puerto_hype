@@ -452,7 +452,22 @@
       const falta = state.skydropx && state.skydropx.balance < cost ? ` <b>Ojo: tu saldo de Skydropx (${money(state.skydropx.balance)}) no alcanza para esta guía (≈ ${money(cost)}).</b> <a href="${SKY_URL}" target="_blank" rel="noopener">Recargar ↗</a>` : '';
       labelHtml = `<div class="order-label">${o.allInStock ? 'Sin guía todavía.' : 'Trae productos sobre pedido: genera la guía cuando ya tengas todo.'}${falta} <button type="button" class="btn btn-primary btn-sm" data-oact="label">GENERAR GUÍA</button></div>`;
     }
+    // Avisos por WhatsApp con el mensaje ya escrito (se abre WhatsApp; tú decides si lo mandas)
+    const nombre = String(a.nombre || '').trim().split(/\s+/)[0] || '';
+    const waLink = (msg) => `https://wa.me/52${encodeURIComponent(a.telefono || '')}?text=${encodeURIComponent(msg)}`;
+    const sobrePedido = (o.lines || []).filter((l) => !l.inStock);
+    const pendientes = sobrePedido.map((l) => `${l.name} talla ${l.size}`).join(', ');
+    const avisos = [];
+    if (sobrePedido.length && o.status === 'pagado' && lb.state !== 'lista') {
+      avisos.push(`<a class="btn btn-secondary btn-sm" target="_blank" rel="noopener" href="${esc(waLink(`¡Hola ${nombre}! 👋 Soy de Puerto Hype. Ya recibimos tu pago del pedido ${o.folio} y ya pedimos tu ${pendientes}. Tarda de 15 a 20 días en llegarnos; te aviso en cuanto lo tenga. ¡Gracias por tu compra!`))}">📦 AVISAR: YA LO PEDÍ</a>`);
+      avisos.push(`<a class="btn btn-secondary btn-sm" target="_blank" rel="noopener" href="${esc(waLink(`¡Hola ${nombre}! 🙌 Ya llegó tu pedido ${o.folio}. Lo enviamos en las próximas horas y te paso tu número de guía para que lo rastrees.`))}">✅ AVISAR: YA LLEGÓ</a>`);
+    }
+    if (lb.state === 'lista' && lb.trackingNumber) {
+      const rastreo = lb.trackingUrl ? ` Rastréalo aquí: ${lb.trackingUrl}` : '';
+      avisos.push(`<a class="btn btn-secondary btn-sm" target="_blank" rel="noopener" href="${esc(waLink(`¡Hola ${nombre}! 🚚 Tu pedido ${o.folio} ya va en camino con ${lb.carrier || ship.carrier || 'la paquetería'}. Tu número de guía es ${lb.trackingNumber}.${rastreo} ¡Gracias por comprar en Puerto Hype!`))}">🚚 MANDAR GUÍA POR WHATSAPP</a>`);
+    }
     const actions = [
+      ...avisos,
       o.status === 'guia_lista' ? '<button type="button" class="btn btn-primary btn-sm" data-oact="shipped">MARCAR ENVIADO</button>' : '',
       o.status === 'pendiente_pago' ? '<button type="button" class="btn btn-ghost btn-sm" data-oact="refresh">REVISAR PAGO</button>' : '',
       ['pendiente_pago', 'rechazado'].includes(o.status) ? '<button type="button" class="btn btn-danger btn-sm" data-oact="cancel">CANCELAR</button>' : '',
