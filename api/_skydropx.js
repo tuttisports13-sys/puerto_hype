@@ -59,6 +59,14 @@ export function parcelFor(pieces) {
   return { length: 35, width: 28, height, weight };
 }
 
+// Paqueterías que SOLO entregan en sucursal. Se pueden agregar más en Vercel: SKYDROPX_SOLO_SUCURSAL="puntopost,otra"
+const soloSucursal = (provider) => {
+  const lista = ['puntopost', ...String(process.env.SKYDROPX_SOLO_SUCURSAL || '').split(',')]
+    .map((s) => s.trim().toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean);
+  const p = String(provider || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  return lista.includes(p);
+};
+
 const area = (a) => ({ country_code: 'MX', postal_code: a.cp, area_level1: a.estado, area_level2: a.municipio, area_level3: a.colonia });
 
 /** Cotiza y espera (máx ~9 s) a que lleguen las tarifas. Devuelve las mejores, de la más barata a la más cara. */
@@ -72,14 +80,16 @@ export async function quote(address, pieces) {
     },
   };
   let q = await sky('POST', '/api/v1/quotations', body);
-  for (let i = 0; i < 9 && !q.is_completed; i++) {
+  // Algunas paqueterías tardan en contestar: esperamos hasta ~15 s a que la cotización termine
+  for (let i = 0; i < 15 && !q.is_completed; i++) {
     await sleep(1000);
     q = await sky('GET', `/api/v1/quotations/${q.id}`);
   }
   const rates = (q.rates || [])
-    // Solo entrega a domicilio: las que dejan el paquete en una oficina (PuntoPost, ocurre…) piden
-    // escoger sucursal, y la tienda todavía no tiene esa opción.
-    .filter((r) => r.success && Number(r.total) > 0 && !r.office_delivery)
+    // `office_delivery: true` solo dice que la paquetería TAMBIÉN entrega en sucursal (Paquetexpress, Estafeta…),
+    // así que esas sí van. Fuera solo las que entregan ÚNICAMENTE en sucursal (PuntoPost…), que piden escoger
+    // sucursal y la tienda todavía no tiene esa opción.
+    .filter((r) => r.success && Number(r.total) > 0 && !soloSucursal(r.provider_name))
     .map((r) => ({
       id: r.id,
       carrier: r.provider_display_name || r.provider_name,
@@ -90,9 +100,9 @@ export async function quote(address, pieces) {
       days: r.days ?? null,
     }))
     .sort((a, b) => a.total - b.total);
-  // Una por paquetería (la más barata de cada una), máximo 5 opciones
+  // Una por paquetería (la más barata de cada una), máximo 6 opciones
   const seen = new Set();
-  const best = rates.filter((r) => (seen.has(r.provider) ? false : seen.add(r.provider))).slice(0, 5);
+  const best = rates.filter((r) => (seen.has(r.provider) ? false : seen.add(r.provider))).slice(0, 6);
   return { quotationId: q.id, rates: best, completed: Boolean(q.is_completed) };
 }
 
@@ -153,7 +163,10 @@ export async function createLabel(order) {
   } catch (err) {
     if (err.status !== 422 || /cr[eé]dito|fondos/i.test(err.message)) throw err;
     const fresh = await quote(a, order.pieces);
-    const same = fresh.rates.find((r) => r.provider === order.shipping?.provider) || fresh.rates[0];
+    // Si la paquetería elegida resultó ser "solo sucursal", se usa la más barata con domicilio
+    const soloOficina = /office_delivery/i.test(err.message);
+    const same = (!soloOficina && fresh.rates.find((r) => r.provider === order.shipping?.provider))
+      || fresh.rates.find((r) => r.provider !== order.shipping?.provider) || fresh.rates[0];
     if (!same) throw new Error('Skydropx no regresó tarifas para esa dirección');
     rateId = same.id;
     resp = await sky('POST', '/api/v1/shipments/', shipment(rateId));
