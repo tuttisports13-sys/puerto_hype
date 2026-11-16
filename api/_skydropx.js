@@ -4,6 +4,8 @@
 const BASE = () => (process.env.SKYDROPX_BASE_URL || 'https://api-pro.skydropx.com').replace(/\/$/, '');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const cut = (v, max) => String(v ?? '').trim().slice(0, max);
+// Skydropx solo acepta letras, números, espacios y apóstrofes en nombres (sin acentos ni puntos)
+const plainName = (v, max) => cut(String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9' ]+/g, ' ').replace(/\s+/g, ' '), max) || 'Cliente';
 
 let tokenCache = { value: null, exp: 0 };
 
@@ -44,7 +46,7 @@ export function origin() {
   if (missing.length) throw new Error(`Faltan datos de origen en Vercel: ${missing.join(', ')}`);
   return {
     postal_code: e.SHIP_FROM_CP, area_level1: e.SHIP_FROM_ESTADO, area_level2: e.SHIP_FROM_MUNICIPIO, area_level3: e.SHIP_FROM_COLONIA,
-    street1: cut(e.SHIP_FROM_CALLE, 45), name: cut(e.SHIP_FROM_NOMBRE, 30), company: cut(e.SHIP_FROM_EMPRESA || 'Puerto Hype', 60),
+    street1: cut(e.SHIP_FROM_CALLE, 45), name: plainName(e.SHIP_FROM_NOMBRE, 30), company: plainName(e.SHIP_FROM_EMPRESA || 'Puerto Hype', 60),
     phone: e.SHIP_FROM_TEL, email: e.SHIP_FROM_EMAIL, reference: cut(e.SHIP_FROM_REFERENCIA || 'Puerto Hype', 30),
   };
 }
@@ -123,7 +125,7 @@ export async function createLabel(order) {
       printing_format: process.env.SKYDROPX_FORMATO === 'thermal' ? 'thermal' : 'standard',
       address_from: { street1: o.street1, name: o.name, company: o.company, phone: o.phone, email: o.email, reference: o.reference },
       address_to: {
-        street1: cut(a.calle, 45), name: cut(a.nombre, 30), company: cut(a.nombre, 60),
+        street1: cut(a.calle, 45), name: plainName(a.nombre, 30), company: plainName(a.nombre, 60),
         phone: a.telefono, email: a.email, reference: cut(a.referencias || 'Sin referencias', 30),
       },
       packages: [{
