@@ -48,7 +48,8 @@ export async function createPreference(order, siteUrl) {
   const back = (estado) => `${siteUrl}/?pedido=${encodeURIComponent(order.folio)}&t=${order.accessToken}&pago=${estado}`;
   const pref = await mp('POST', '/checkout/preferences', {
     items,
-    payer: { name: order.address.nombre, email: order.address.email, phone: { number: order.address.telefono } },
+    // Sin datos del comprador: Mercado Pago los pide en su página. Mandar un correo real choca con
+    // las cuentas de prueba ("Uy, algo salió mal") y no hace falta para cobrar.
     external_reference: order.folio,
     notification_url: `${siteUrl}/api/mp-webhook`,
     back_urls: { success: back('ok'), pending: back('pendiente'), failure: back('error') },
