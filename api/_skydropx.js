@@ -75,7 +75,9 @@ export async function quote(address, pieces) {
     q = await sky('GET', `/api/v1/quotations/${q.id}`);
   }
   const rates = (q.rates || [])
-    .filter((r) => r.success && Number(r.total) > 0)
+    // Solo entrega a domicilio: las que dejan el paquete en una oficina (PuntoPost, ocurre…) piden
+    // escoger sucursal, y la tienda todavía no tiene esa opción.
+    .filter((r) => r.success && Number(r.total) > 0 && !r.office_delivery)
     .map((r) => ({
       id: r.id,
       carrier: r.provider_display_name || r.provider_name,
