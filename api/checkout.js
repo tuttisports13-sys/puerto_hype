@@ -60,32 +60,42 @@ const envioFijo = () => (process.env.ENVIO_FIJO === '0' ? null : Number(process.
 const envioTope = () => Number(process.env.ENVIO_TOPE) || 200;
 const envioCubrimos = () => Number(process.env.ENVIO_CUBRIMOS) || 100;
 
-function preciosCliente(rates) {
+// Envío GRATIS desde 2 piezas (ENVIO_GRATIS_DESDE; 0 lo apaga). En zona extendida la tienda cubre
+// hasta el tope ($200) y el cliente paga el resto.
+const envioGratisDesde = () => (process.env.ENVIO_GRATIS_DESDE === '0' ? Infinity : Number(process.env.ENVIO_GRATIS_DESDE) || 2);
+
+function preciosCliente(rates, piezas = 1) {
   const fijo = envioFijo();
   if (!fijo || !rates.length) return rates.map((r) => ({ ...r, costo: r.total }));
   const r = rates[0]; // ya vienen de la más barata a la más cara
   const extendida = r.total > envioTope();
+  if (piezas >= envioGratisDesde()) {
+    const total = extendida ? Math.ceil(r.total - envioTope()) : 0;
+    return [{ ...r, costo: r.total, total, fijo: true, gratis: total === 0, extendida }];
+  }
   const total = extendida ? Math.max(fijo, Math.ceil(r.total - envioCubrimos())) : fijo;
-  return [{ ...r, costo: r.total, total, fijo: true, extendida }];
+  return [{ ...r, costo: r.total, total, fijo: true, gratis: false, extendida }];
 }
 
 async function handleQuote(body) {
   if (!checkoutOn(body)) throw closed();
   const area = cleanArea(body.address);
   const cart = await priceCart(body.items);
-  const q = await quote(area, cart.pieces);
+  const q = await quote(area, cart.units || cart.pieces);
   if (!q.rates.length) throw bad('No encontramos paqueterías para ese código postal. Revisa tus datos o pídelo por WhatsApp.');
-  const rates = preciosCliente(q.rates);
+  const rates = preciosCliente(q.rates, cart.units || cart.pieces);
   const token = sign({ qid: q.quotationId, rates, area: areaHash(area), pieces: cart.pieces, exp: Date.now() + QUOTE_TTL_MS });
   return {
     subtotal: cart.subtotal,
     pieces: cart.pieces,
     allInStock: cart.allInStock,
     lines: cart.lines.map((l) => ({ id: l.id, name: l.name, size: l.size, quantity: l.quantity, unit: l.unit, total: l.total })),
-    rates: rates.map(({ id, carrier, service, total, days, fijo, extendida, costo }) => ({
+    rates: rates.map(({ id, carrier, service, total, days, fijo, gratis, extendida, costo }) => ({
       id, carrier, service, total, days,
-      ...(fijo ? { fijo: true, extendida, ...(extendida ? { costo, cubrimos: costo - total } : {}) } : {}),
+      ...(fijo ? { fijo: true, gratis: Boolean(gratis), extendida, ...(extendida ? { costo, cubrimos: costo - total } : {}) } : {}),
     })),
+    gratisDesde: Number.isFinite(envioGratisDesde()) ? envioGratisDesde() : null,
+    units: cart.units || cart.pieces,
     quoteToken: token,
   };
 }
@@ -147,6 +157,7 @@ async function handlePay(body, req) {
     status: 'pendiente_pago',
     lines: cart.lines,
     pieces: cart.pieces,
+    units: cart.units || cart.pieces,
     allInStock: cart.allInStock,
     subtotal: cart.subtotal,
     shipping: { quotationId: q.qid, rateId: rate.id, carrier: rate.carrier, provider: rate.provider, service: rate.service, total: rate.total, costo: rate.costo ?? rate.total, fijo: Boolean(rate.fijo), extendida: Boolean(rate.extendida), days: rate.days },

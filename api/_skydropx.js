@@ -165,7 +165,7 @@ export async function createLabel(order) {
     resp = await sky('POST', '/api/v1/shipments/', shipment(rateId));
   } catch (err) {
     if (err.status !== 422 || /cr[eé]dito|fondos/i.test(err.message)) throw err;
-    const fresh = await quote(a, order.pieces);
+    const fresh = await quote(a, order.units || order.pieces);
     // Si la paquetería elegida resultó ser "solo sucursal", se usa la más barata con domicilio
     const soloOficina = /office_delivery/i.test(err.message);
     const same = (!soloOficina && fresh.rates.find((r) => r.provider === order.shipping?.provider))

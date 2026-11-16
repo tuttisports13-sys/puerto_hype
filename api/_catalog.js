@@ -91,10 +91,13 @@ export async function priceCart(lines) {
     unit = Math.round(Number(unit) || 0) + extra;
     if (unit <= 0) throw fail(`"${product.name}" no tiene precio; pídelo por WhatsApp`);
 
+    // Paquetes de mayoreo: "Paquete 10 Jerseys" pesa como 10 piezas
+    const porPaquete = id.startsWith('lote-') ? (Number((product.name.match(/(\d+)\s*(jerseys?|playeras?|gorras?|pzas?|piezas?)/i) || [])[1]) || 1) : 1;
     out.push({
       id,
       name,
       size,
+      units: quantity * porPaquete,
       quantity,
       version,
       customization: Object.keys(customization).length ? customization : null,
@@ -130,7 +133,8 @@ export async function priceCart(lines) {
   const pieces = out.reduce((s, l) => s + l.quantity, 0);
   if (pieces > 100) throw fail('Para más de 100 piezas escríbenos por WhatsApp');
   const subtotal = out.reduce((s, l) => s + l.total, 0);
-  return { lines: out, pieces, subtotal, allInStock: out.every((l) => l.inStock) };
+  const units = out.reduce((s, l) => s + (l.units || l.quantity), 0);
+  return { lines: out, pieces, units, subtotal, allInStock: out.every((l) => l.inStock) };
 }
 
 /** Texto corto de una línea para Mercado Pago, la guía y el admin. */

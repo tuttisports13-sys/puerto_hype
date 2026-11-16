@@ -318,10 +318,11 @@
     const opciones = f ? `
             <label class="ck-rate">
               <input type="radio" name="rate" value="${esc(f.id)}" checked>
-              <span class="ck-rate-main"><b>🚚 Envío a domicilio${f.extendida ? '' : ' a todo México'}</b><small>Con ${esc(f.carrier)}${f.days ? ' · ' + days(f.days) : ''}</small></span>
-              <span class="ck-rate-price">${money(f.total)}</span>
+              <span class="ck-rate-main"><b>🚚 Envío ${f.gratis ? 'GRATIS' : 'a domicilio'}${f.extendida ? '' : ' a todo México'}</b><small>Con ${esc(f.carrier)}${f.days ? ' · ' + days(f.days) : ''}</small></span>
+              <span class="ck-rate-price">${f.gratis ? 'GRATIS' : money(f.total)}</span>
             </label>
-            ${f.extendida ? `<p class="ck-note">📍 Tu código postal es <b>zona extendida</b>: el envío cuesta ${money(f.costo)}. <b>Nosotros cubrimos ${money(f.cubrimos)}</b> y tú pagas ${money(f.total)}.</p>` : ''}`
+            ${f.extendida ? `<p class="ck-note">📍 Tu código postal es <b>zona extendida</b>: el envío cuesta ${money(f.costo)}. <b>Nosotros cubrimos ${money(f.cubrimos)}</b> y tú pagas ${money(f.total)}.</p>` : ''}
+            ${!f.gratis && !f.extendida && q.gratisDesde && q.units < q.gratisDesde ? `<p class="ck-note">🎁 Agrega ${q.gratisDesde - q.units} pieza${q.gratisDesde - q.units === 1 ? '' : 's'} más y tu envío es <b>GRATIS</b>.</p>` : ''}`
       : q.rates.map((r) => `
             <label class="ck-rate">
               <input type="radio" name="rate" value="${esc(r.id)}" ${r.id === state.rateId ? 'checked' : ''}>
@@ -349,7 +350,7 @@
     if (!q) return;
     const rate = q.rates.find((r) => r.id === state.rateId) || q.rates[0];
     const total = q.subtotal + rate.total;
-    $('#ck-ship-total').textContent = money(rate.total);
+    $('#ck-ship-total').textContent = rate.gratis ? 'GRATIS' : money(rate.total);
     $('#ck-grand-total').textContent = `${money(total)} MXN`;
     $('#ck-submit').textContent = `PAGAR ${money(total)} CON MERCADO PAGO`;
   }
@@ -424,7 +425,13 @@
     if (!btn) return;
     btn.hidden = !(checkoutActivo || testMode());
     const promo = $('#ck-promo');
-    if (promo) promo.hidden = btn.hidden;
+    if (promo) {
+      promo.hidden = btn.hidden;
+      // Cuántas piezas lleva (un paquete de mayoreo cuenta como sus piezas)
+      const piezas = cart().reduce((s, i) => s + i.quantity * (String(i.id).startsWith('lote-') ? (Number((String(i.name).match(/(\d+)\s*(jerseys?|playeras?|gorras?|pzas?|piezas?)/i) || [])[1]) || 1) : 1), 0);
+      const envio = piezas >= 2 ? '🎉 <b>¡Tu envío es GRATIS!</b>' : piezas === 1 ? '🚚 Envío <b>$99</b> · <b>agrega 1 pieza más y es GRATIS</b>' : '🚚 <b>Envío GRATIS</b> desde 2 piezas · 1 pieza: $99';
+      promo.innerHTML = `${envio}<br>🤝 En <b>Veracruz y Boca del Río</b>: entrega personal <b>gratis</b>`;
+    }
     const empty = cart().length === 0;
     btn.disabled = empty;
     btn.style.opacity = empty ? '0.5' : '1';
