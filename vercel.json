@@ -2,7 +2,7 @@
   "version": 2,
   "cleanUrls": false,
   "trailingSlash": false,
-  "ignoreCommand": "git diff --quiet ${VERCEL_GIT_PREVIOUS_SHA:-HEAD^} HEAD -- . ':(exclude)data/orders.enc.json'",
+  "ignoreCommand": "if [ -z \"$VERCEL_GIT_PREVIOUS_SHA\" ] || [ \"$VERCEL_GIT_PREVIOUS_SHA\" = \"$VERCEL_GIT_COMMIT_SHA\" ]; then exit 1; fi; git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" HEAD -- . ':(exclude)data/orders.enc.json'",
   "functions": {
     "api/checkout.js": {
       "maxDuration": 30,
