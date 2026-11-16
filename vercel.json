@@ -2,13 +2,24 @@
   "version": 2,
   "cleanUrls": false,
   "trailingSlash": false,
-  "ignoreCommand": "git diff HEAD^ HEAD --quiet -- . ':(exclude)data/orders.enc.json'",
+  "ignoreCommand": "git diff --quiet ${VERCEL_GIT_PREVIOUS_SHA:-HEAD^} HEAD -- . ':(exclude)data/orders.enc.json'",
   "functions": {
-    "api/checkout.js": { "maxDuration": 30, "includeFiles": "js/app.js" },
-    "api/admin-orders.js": { "maxDuration": 30 }
+    "api/checkout.js": {
+      "maxDuration": 30,
+      "includeFiles": "js/app.js"
+    },
+    "api/admin-orders.js": {
+      "maxDuration": 30
+    }
   },
   "rewrites": [
-    { "source": "/admin", "destination": "/admin.html" },
-    { "source": "/api/mp-webhook", "destination": "/api/checkout?webhook=mp" }
+    {
+      "source": "/admin",
+      "destination": "/admin.html"
+    },
+    {
+      "source": "/api/mp-webhook",
+      "destination": "/api/checkout?webhook=mp"
+    }
   ]
 }
