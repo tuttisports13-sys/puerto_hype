@@ -314,16 +314,24 @@
   function renderRates() {
     const q = state.quote;
     const days = (d) => (d ? `${d} día${d == 1 ? '' : 's'} hábil${d == 1 ? '' : 'es'}` : '');
-    $('#ck-shipping').innerHTML = `
-      <fieldset class="ck-group">
-        <legend>ELIGE TU ENVÍO</legend>
-        <div class="ck-rates">
-          ${q.rates.map((r) => `
+    const f = q.rates[0] && q.rates[0].fijo ? q.rates[0] : null;
+    const opciones = f ? `
+            <label class="ck-rate">
+              <input type="radio" name="rate" value="${esc(f.id)}" checked>
+              <span class="ck-rate-main"><b>🚚 Envío a domicilio${f.extendida ? '' : ' a todo México'}</b><small>Con ${esc(f.carrier)}${f.days ? ' · ' + days(f.days) : ''}</small></span>
+              <span class="ck-rate-price">${money(f.total)}</span>
+            </label>
+            ${f.extendida ? `<p class="ck-note">📍 Tu código postal es <b>zona extendida</b>: el envío cuesta ${money(f.costo)}. <b>Nosotros cubrimos ${money(f.cubrimos)}</b> y tú pagas ${money(f.total)}.</p>` : ''}`
+      : q.rates.map((r) => `
             <label class="ck-rate">
               <input type="radio" name="rate" value="${esc(r.id)}" ${r.id === state.rateId ? 'checked' : ''}>
               <span class="ck-rate-main"><b>${esc(r.carrier)}</b><small>${esc(r.service || '')}${r.days ? ' · ' + days(r.days) : ''}</small></span>
               <span class="ck-rate-price">${money(r.total)}</span>
-            </label>`).join('')}
+            </label>`).join('');
+    $('#ck-shipping').innerHTML = `
+      <fieldset class="ck-group">
+        <legend>${f ? 'TU ENVÍO' : 'ELIGE TU ENVÍO'}</legend>
+        <div class="ck-rates">${opciones}
         </div>
         ${q.allInStock ? '' : '<p class="ck-note">Tu pedido incluye jerseys <b>sobre pedido</b>: tardan unos días más en llegarnos. Te mandamos tu número de guía en cuanto salga.</p>'}
       </fieldset>

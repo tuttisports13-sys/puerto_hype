@@ -446,13 +446,13 @@
     } else if (lb.state === 'generando') {
       labelHtml = '<div class="order-label">⏳ Skydropx está generando la guía… <button type="button" class="btn btn-ghost btn-sm" data-oact="refresh">REVISAR</button></div>';
     } else if (lb.state === 'error' && sinSaldo(lb)) {
-      const cost = Number(ship.total || 0);
+      const cost = Number(ship.costo || ship.total || 0);
       const have = state.skydropx ? state.skydropx.balance : null;
       labelHtml = `<div class="order-label bad">💳 No te alcanza el saldo de Skydropx${have != null ? ` (tienes ${money(have)}, esta guía cuesta ≈ ${money(cost)})` : ''}. <a href="${SKY_URL}" target="_blank" rel="noopener">Recarga aquí ↗</a> y luego dale <button type="button" class="btn btn-secondary btn-sm" data-oact="label">REINTENTAR</button></div>`;
     } else if (lb.state === 'error') {
       labelHtml = `<div class="order-label bad">⚠️ No se pudo hacer la guía: ${esc(lb.error)} <button type="button" class="btn btn-secondary btn-sm" data-oact="label">REINTENTAR</button></div>`;
     } else if (o.status === 'pagado') {
-      const cost = Number(ship.total || 0);
+      const cost = Number(ship.costo || ship.total || 0);
       const falta = state.skydropx && state.skydropx.balance < cost ? ` <b>Ojo: tu saldo de Skydropx (${money(state.skydropx.balance)}) no alcanza para esta guía (≈ ${money(cost)}).</b> <a href="${SKY_URL}" target="_blank" rel="noopener">Recargar ↗</a>` : '';
       labelHtml = `<div class="order-label">${o.allInStock ? 'Sin guía todavía.' : 'Trae productos sobre pedido: genera la guía cuando ya tengas todo.'}${falta} <button type="button" class="btn btn-primary btn-sm" data-oact="label">GENERAR GUÍA</button></div>`;
     }
@@ -488,7 +488,7 @@
           <span class="tag ${color}">${label}</span>
         </div>
         <ul class="order-lines">${lines}</ul>
-        <div class="order-money">Productos ${money(o.subtotal)} · Envío ${esc(ship.carrier || '')} ${money(ship.total)} · <b>Total ${money(o.total)}</b>${pago}</div>
+        <div class="order-money">Productos ${money(o.subtotal)} · Envío ${esc(ship.carrier || '')} ${money(ship.total)}${ship.costo && ship.costo !== ship.total ? ` (guía ≈ ${money(ship.costo)})` : ''} · <b>Total ${money(o.total)}</b>${pago}</div>
         <div class="order-client">
           <b>${esc(a.nombre)}</b> · <a href="${wa}" target="_blank" rel="noopener">WhatsApp ${esc(a.telefono)}</a> · ${esc(a.email)}<br>
           ${ship.personal ? '🤝 <b>Entrega personal</b> en Veracruz / Boca del Río' : `${esc(a.calle)}, Col. ${esc(a.colonia)}, ${esc(a.municipio)}, ${esc(a.estado)}, CP ${esc(a.cp)}${a.referencias ? `<br><small>Ref: ${esc(a.referencias)}</small>` : ''}`}
@@ -507,7 +507,7 @@
     if (!el) return;
     const s = state.skydropx;
     const needs = state.orders.filter((o) => o.status === 'pagado' && !(o.shipping && o.shipping.personal) && (!o.label || o.label.state === 'error'));
-    const needed = needs.reduce((sum, o) => sum + Number((o.shipping && o.shipping.total) || 0), 0);
+    const needed = needs.reduce((sum, o) => sum + Number((o.shipping && (o.shipping.costo || o.shipping.total)) || 0), 0);
     el.classList.remove('hidden');
     if (!s) {
       el.className = 'sky-balance';

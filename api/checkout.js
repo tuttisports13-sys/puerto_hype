@@ -53,19 +53,39 @@ function siteUrl(req) {
 const checkoutOn = (body) => process.env.CHECKOUT_ACTIVO === '1' || body.prueba === true;
 const closed = () => bad('El pago en línea todavía no está disponible. Haz tu pedido por WhatsApp.');
 
+// Envío fijo: el cliente paga $99 (ENVIO_FIJO) y la tienda usa la paquetería más barata.
+// Si lo más barato pasa de $200 (ENVIO_TOPE, zona extendida), la tienda pone $100 (ENVIO_CUBRIMOS)
+// y el cliente paga el resto. ENVIO_FIJO=0 en Vercel apaga esto y el cliente elige paquetería.
+const envioFijo = () => (process.env.ENVIO_FIJO === '0' ? null : Number(process.env.ENVIO_FIJO) || 99);
+const envioTope = () => Number(process.env.ENVIO_TOPE) || 200;
+const envioCubrimos = () => Number(process.env.ENVIO_CUBRIMOS) || 100;
+
+function preciosCliente(rates) {
+  const fijo = envioFijo();
+  if (!fijo || !rates.length) return rates.map((r) => ({ ...r, costo: r.total }));
+  const r = rates[0]; // ya vienen de la más barata a la más cara
+  const extendida = r.total > envioTope();
+  const total = extendida ? Math.max(fijo, Math.ceil(r.total - envioCubrimos())) : fijo;
+  return [{ ...r, costo: r.total, total, fijo: true, extendida }];
+}
+
 async function handleQuote(body) {
   if (!checkoutOn(body)) throw closed();
   const area = cleanArea(body.address);
   const cart = await priceCart(body.items);
   const q = await quote(area, cart.pieces);
   if (!q.rates.length) throw bad('No encontramos paqueterías para ese código postal. Revisa tus datos o pídelo por WhatsApp.');
-  const token = sign({ qid: q.quotationId, rates: q.rates, area: areaHash(area), pieces: cart.pieces, exp: Date.now() + QUOTE_TTL_MS });
+  const rates = preciosCliente(q.rates);
+  const token = sign({ qid: q.quotationId, rates, area: areaHash(area), pieces: cart.pieces, exp: Date.now() + QUOTE_TTL_MS });
   return {
     subtotal: cart.subtotal,
     pieces: cart.pieces,
     allInStock: cart.allInStock,
     lines: cart.lines.map((l) => ({ id: l.id, name: l.name, size: l.size, quantity: l.quantity, unit: l.unit, total: l.total })),
-    rates: q.rates.map(({ id, carrier, service, total, days }) => ({ id, carrier, service, total, days })),
+    rates: rates.map(({ id, carrier, service, total, days, fijo, extendida, costo }) => ({
+      id, carrier, service, total, days,
+      ...(fijo ? { fijo: true, extendida, ...(extendida ? { costo, cubrimos: costo - total } : {}) } : {}),
+    })),
     quoteToken: token,
   };
 }
@@ -129,7 +149,7 @@ async function handlePay(body, req) {
     pieces: cart.pieces,
     allInStock: cart.allInStock,
     subtotal: cart.subtotal,
-    shipping: { quotationId: q.qid, rateId: rate.id, carrier: rate.carrier, provider: rate.provider, service: rate.service, total: rate.total, days: rate.days },
+    shipping: { quotationId: q.qid, rateId: rate.id, carrier: rate.carrier, provider: rate.provider, service: rate.service, total: rate.total, costo: rate.costo ?? rate.total, fijo: Boolean(rate.fijo), extendida: Boolean(rate.extendida), days: rate.days },
     total: cart.subtotal + rate.total,
     address,
     payment: null,

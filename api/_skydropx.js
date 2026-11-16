@@ -31,6 +31,9 @@ async function sky(method, path, body) {
     body: body ? JSON.stringify(body) : undefined,
   });
   const data = await res.json().catch(() => ({}));
+  if (res.status === 429) {
+    throw Object.assign(new Error('Hay muchas cotizaciones en este momento. Espera un minuto e intenta de nuevo.'), { status: 429 });
+  }
   if (!res.ok) {
     const detail = typeof data.errors === 'string' ? data.errors : JSON.stringify(data.errors || data.error || data.message || '');
     throw Object.assign(new Error(`Skydropx ${res.status}: ${detail.slice(0, 300)}`), { status: res.status, skydropx: data });
