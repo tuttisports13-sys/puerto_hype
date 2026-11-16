@@ -98,6 +98,7 @@ export async function priceCart(lines) {
       name,
       size,
       units: quantity * porPaquete,
+      mayoreo: id.startsWith('lote-') || product.category === 'mayoreo',
       quantity,
       version,
       customization: Object.keys(customization).length ? customization : null,
@@ -134,7 +135,7 @@ export async function priceCart(lines) {
   if (pieces > 100) throw fail('Para más de 100 piezas escríbenos por WhatsApp');
   const subtotal = out.reduce((s, l) => s + l.total, 0);
   const units = out.reduce((s, l) => s + (l.units || l.quantity), 0);
-  return { lines: out, pieces, units, subtotal, allInStock: out.every((l) => l.inStock) };
+  return { lines: out, pieces, units, subtotal, allInStock: out.every((l) => l.inStock), mayoreo: out.some((l) => l.mayoreo) };
 }
 
 /** Texto corto de una línea para Mercado Pago, la guía y el admin. */

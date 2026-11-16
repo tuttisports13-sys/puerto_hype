@@ -54,9 +54,9 @@ export function origin() {
   };
 }
 
-/** Caja según piezas. Por defecto 0.4 kg por prenda (configurable con SHIP_KG_POR_PIEZA). */
+/** Caja según piezas. Por defecto 0.2 kg por prenda (un jersey ≈ 200 g; configurable con SHIP_KG_POR_PIEZA). */
 export function parcelFor(pieces) {
-  const kg = Number(process.env.SHIP_KG_POR_PIEZA) || 0.4;
+  const kg = Number(process.env.SHIP_KG_POR_PIEZA) || 0.2;
   const weight = Math.max(1, Math.ceil(pieces * kg * 10) / 10);
   const height = Math.min(60, 8 + Math.ceil(pieces / 2) * 4);
   return { length: 35, width: 28, height, weight };

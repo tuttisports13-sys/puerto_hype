@@ -64,10 +64,18 @@ const envioCubrimos = () => Number(process.env.ENVIO_CUBRIMOS) || 100;
 // hasta el tope ($200) y el cliente paga el resto.
 const envioGratisDesde = () => (process.env.ENVIO_GRATIS_DESDE === '0' ? Infinity : Number(process.env.ENVIO_GRATIS_DESDE) || 2);
 
-function preciosCliente(rates, piezas = 1) {
+// Paquetes de mayoreo: el margen es chico, así que la tienda solo cubre $99 (ENVIO_CUBRIMOS_MAYOREO)
+// y el cliente paga el resto del envío. No cuentan para el envío gratis.
+const envioCubrimosMayoreo = () => (process.env.ENVIO_CUBRIMOS_MAYOREO === undefined ? 99 : Number(process.env.ENVIO_CUBRIMOS_MAYOREO) || 0);
+
+function preciosCliente(rates, piezas = 1, mayoreo = false) {
   const fijo = envioFijo();
   if (!fijo || !rates.length) return rates.map((r) => ({ ...r, costo: r.total }));
   const r = rates[0]; // ya vienen de la más barata a la más cara
+  if (mayoreo) {
+    const total = Math.max(0, Math.ceil(r.total - envioCubrimosMayoreo()));
+    return [{ ...r, costo: r.total, total, fijo: true, gratis: total === 0, extendida: false, mayoreo: true }];
+  }
   const extendida = r.total > envioTope();
   if (piezas >= envioGratisDesde()) {
     const total = extendida ? Math.ceil(r.total - envioTope()) : 0;
@@ -83,16 +91,16 @@ async function handleQuote(body) {
   const cart = await priceCart(body.items);
   const q = await quote(area, cart.units || cart.pieces);
   if (!q.rates.length) throw bad('No encontramos paqueterías para ese código postal. Revisa tus datos o pídelo por WhatsApp.');
-  const rates = preciosCliente(q.rates, cart.units || cart.pieces);
+  const rates = preciosCliente(q.rates, cart.units || cart.pieces, cart.mayoreo);
   const token = sign({ qid: q.quotationId, rates, area: areaHash(area), pieces: cart.pieces, exp: Date.now() + QUOTE_TTL_MS });
   return {
     subtotal: cart.subtotal,
     pieces: cart.pieces,
     allInStock: cart.allInStock,
     lines: cart.lines.map((l) => ({ id: l.id, name: l.name, size: l.size, quantity: l.quantity, unit: l.unit, total: l.total })),
-    rates: rates.map(({ id, carrier, service, total, days, fijo, gratis, extendida, costo }) => ({
+    rates: rates.map(({ id, carrier, service, total, days, fijo, gratis, extendida, mayoreo, costo }) => ({
       id, carrier, service, total, days,
-      ...(fijo ? { fijo: true, gratis: Boolean(gratis), extendida, ...(extendida ? { costo, cubrimos: costo - total } : {}) } : {}),
+      ...(fijo ? { fijo: true, gratis: Boolean(gratis), extendida, mayoreo: Boolean(mayoreo), ...(extendida || mayoreo ? { costo, cubrimos: costo - total } : {}) } : {}),
     })),
     gratisDesde: Number.isFinite(envioGratisDesde()) ? envioGratisDesde() : null,
     units: cart.units || cart.pieces,
