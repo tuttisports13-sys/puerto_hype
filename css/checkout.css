@@ -90,3 +90,13 @@
 
 /* Lo que se oculta dentro de la ventana de pago, se oculta de verdad */
 .ck-modal [hidden] { display: none !important; }
+
+/* Etiqueta en cada tarjeta de producto */
+.envio-tag {
+  display: flex; align-items: center; gap: 6px;
+  margin: 2px 0 8px; padding: 5px 9px;
+  font-size: 0.7rem; line-height: 1.2; color: #E10600;
+  background: #fef2f2; border: 1px solid #fecaca; border-radius: 999px; width: fit-content; max-width: 100%;
+}
+.envio-tag svg { width: 14px; height: 14px; flex: none; }
+.envio-tag b { font-weight: 800; }

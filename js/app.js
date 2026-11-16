@@ -202022,6 +202022,13 @@ ${product.isFolder || product.section === 'preorder' || (product.section === 'pr
 </div>
 `}
 
+${product.isFolder || product.soldOut || product.section === 'preorder' || (product.section === 'preorder-sports' && product.link) ? '' : `
+<div class="envio-tag">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+  ${String(product.id).startsWith('lote-') || product.category === 'mayoreo' ? '<span><b>-$99</b> en tu envío</span>' : '<span><b>Envío gratis</b> en 2 piezas o más</span>'}
+</div>
+`}
+
 <div class="product-actions">
   ${product.isFolder ? `
     <button class="btn-add-cart" onclick="openSportsFolder('${product.targetFilter}')" style="display: flex; justify-content: center; align-items: center; gap: 8px; width: 100%;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg> VER CATÁLOGO</button>

@@ -3019,8 +3019,8 @@ h1, h2, h3, h4, .font-heading {
 
 </style>
   <link rel="stylesheet" href="css/hype-intro.css?v=1">
-  <link rel="stylesheet" href="css/hype-slider.css?v=4">
-  <link rel="stylesheet" href="css/checkout.css?v=4">
+  <link rel="stylesheet" href="css/hype-slider.css?v=5">
+  <link rel="stylesheet" href="css/checkout.css?v=5">
 </head>
 <body>
 
@@ -3245,6 +3245,15 @@ h1, h2, h3, h4, .font-heading {
     <!-- Panel principal: slides que se deslizan solos (js/hype-slider.js) -->
     <div class="hero-slider">
       <div class="hero-track">
+      <!-- Envío gratis desde 2 piezas / 1 pieza $99 (las reglas viven en api/checkout.js) -->
+      <section class="hero-slide slide-envio">
+        <a href="#productos" class="envio-slide-link" aria-label="Envío gratis a todo México en la compra de 2 piezas o más. 1 pieza: envío por 99 pesos. Ver productos">
+          <picture>
+            <source media="(max-width: 600px)" srcset="images/promo/envio-gratis-cel.jpg">
+            <img src="images/promo/envio-gratis.jpg" alt="Envío gratis a todo México en la compra de 2 jerseys o más. 1 jersey: envío por solo $99" width="2000" height="732" fetchpriority="high">
+          </picture>
+        </a>
+      </section>
       <section class="hero-section hero-slide">
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -4373,7 +4382,7 @@ h1, h2, h3, h4, .font-heading {
   </div>
 
 <script src="js/auth.js?v=1792032000"></script>
-<script src="js/app.js?v=1794700000"></script>
+<script src="js/app.js?v=1794800000"></script>
 <script src="js/checkout.js?v=7"></script>
 <script>
   // Textos editables desde el panel de admin (data/site_config.json)
