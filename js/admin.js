@@ -416,8 +416,9 @@
   async function loadOrders() {
     if (state.view === 'orders') $('#order-list').innerHTML = '<p class="empty">Cargando pedidos…</p>';
     try {
-      const { orders } = await api('admin-orders', { action: 'list' });
+      const { orders, skydropx } = await api('admin-orders', { action: 'list' });
       state.orders = orders || [];
+      state.skydropx = skydropx || null;
     } catch (err) {
       $('#order-list').innerHTML = `<p class="empty">No se pudieron cargar: ${esc(err.message)}</p>`;
       return;
@@ -440,10 +441,16 @@
       labelHtml = `<div class="order-label ok">📦 Guía ${esc(lb.carrier || ship.carrier || '')}: <b>${esc(lb.trackingNumber)}</b> ${lb.labelUrl ? `<a class="btn btn-primary btn-sm" href="${esc(lb.labelUrl)}" target="_blank" rel="noopener">DESCARGAR GUÍA (PDF)</a>` : ''}</div>`;
     } else if (lb.state === 'generando') {
       labelHtml = '<div class="order-label">⏳ Skydropx está generando la guía… <button type="button" class="btn btn-ghost btn-sm" data-oact="refresh">REVISAR</button></div>';
+    } else if (lb.state === 'error' && sinSaldo(lb)) {
+      const cost = Number(ship.total || 0);
+      const have = state.skydropx ? state.skydropx.balance : null;
+      labelHtml = `<div class="order-label bad">💳 No te alcanza el saldo de Skydropx${have != null ? ` (tienes ${money(have)}, esta guía cuesta ≈ ${money(cost)})` : ''}. <a href="${SKY_URL}" target="_blank" rel="noopener">Recarga aquí ↗</a> y luego dale <button type="button" class="btn btn-secondary btn-sm" data-oact="label">REINTENTAR</button></div>`;
     } else if (lb.state === 'error') {
       labelHtml = `<div class="order-label bad">⚠️ No se pudo hacer la guía: ${esc(lb.error)} <button type="button" class="btn btn-secondary btn-sm" data-oact="label">REINTENTAR</button></div>`;
     } else if (o.status === 'pagado') {
-      labelHtml = `<div class="order-label">${o.allInStock ? 'Sin guía todavía.' : 'Trae productos sobre pedido: genera la guía cuando ya tengas todo.'} <button type="button" class="btn btn-primary btn-sm" data-oact="label">GENERAR GUÍA</button></div>`;
+      const cost = Number(ship.total || 0);
+      const falta = state.skydropx && state.skydropx.balance < cost ? ` <b>Ojo: tu saldo de Skydropx (${money(state.skydropx.balance)}) no alcanza para esta guía (≈ ${money(cost)}).</b> <a href="${SKY_URL}" target="_blank" rel="noopener">Recargar ↗</a>` : '';
+      labelHtml = `<div class="order-label">${o.allInStock ? 'Sin guía todavía.' : 'Trae productos sobre pedido: genera la guía cuando ya tengas todo.'}${falta} <button type="button" class="btn btn-primary btn-sm" data-oact="label">GENERAR GUÍA</button></div>`;
     }
     const actions = [
       o.status === 'guia_lista' ? '<button type="button" class="btn btn-primary btn-sm" data-oact="shipped">MARCAR ENVIADO</button>' : '',
@@ -470,7 +477,31 @@
       </article>`;
   }
 
+  // Saldo de Skydropx: las guías se pagan de ahí, así que avisamos cuánto falta antes de picarle
+  const SKY_URL = 'https://pro.skydropx.com';
+  function renderBalance() {
+    const el = $('#sky-balance');
+    if (!el) return;
+    const s = state.skydropx;
+    const needs = state.orders.filter((o) => o.status === 'pagado' && (!o.label || o.label.state === 'error'));
+    const needed = needs.reduce((sum, o) => sum + Number((o.shipping && o.shipping.total) || 0), 0);
+    el.classList.remove('hidden');
+    if (!s) {
+      el.className = 'sky-balance';
+      el.innerHTML = `No se pudo leer tu saldo de Skydropx. <a href="${SKY_URL}" target="_blank" rel="noopener">Abrir Skydropx ↗</a>`;
+      return;
+    }
+    const short = needed > s.balance;
+    el.className = `sky-balance ${short ? 'bad' : 'ok'}`;
+    el.innerHTML = `💰 Saldo en Skydropx: <b>${money(s.balance)}</b>`
+      + (needs.length ? ` · ${needs.length} guía${needs.length > 1 ? 's' : ''} por hacer ≈ <b>${money(needed)}</b>` : '')
+      + (short ? ` · <b>Te faltan ≈ ${money(Math.ceil(needed - s.balance))}</b>` : '')
+      + ` · <a href="${SKY_URL}" target="_blank" rel="noopener">Recargar ↗</a>`;
+  }
+  const sinSaldo = (lb) => /cr[eé]dito|fondos|saldo/i.test((lb && lb.error) || '');
+
   function renderOrders() {
+    renderBalance();
     const todo = state.orders.filter((o) => ['pagado', 'guia_lista', 'revisar'].includes(o.status));
     ['#orders-badge', '#dash-orders'].forEach((sel) => {
       const el = $(sel);
@@ -504,8 +535,9 @@
     busy(true, act === 'label' ? 'Generando guía con Skydropx…' : 'Actualizando…');
     try {
       const force = act === 'label' && Boolean(o && o.label && o.label.state === 'error');
-      const { order } = await api('admin-orders', { action: act, folio, force });
+      const { order, skydropx } = await api('admin-orders', { action: act, folio, force });
       if (order) state.orders = state.orders.map((x) => (x.folio === folio ? order : x));
+      if (skydropx !== undefined) state.skydropx = skydropx;
       renderOrders();
       if (act === 'label') toast(order && order.label && order.label.state === 'lista' ? '¡Guía lista!' : 'Guía en proceso, revisa en un momento');
       else toast('Listo');

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/admin.css?v=8">
+  <link rel="stylesheet" href="css/admin.css?v=9">
 </head>
 <body>
   <div class="ticker-bar"><span>PANEL DE ADMINISTRACIÓN · PUERTO HYPE</span></div>
@@ -205,6 +205,7 @@
           </div>
           <button type="button" id="btn-reload-orders" class="btn btn-secondary btn-sm" title="Recargar">↻</button>
         </div>
+        <div id="sky-balance" class="sky-balance hidden"></div>
         <div id="order-filters" class="filter-row">
           <button type="button" class="filter-pill active" data-ofilter="todo">POR ATENDER</button>
           <button type="button" class="filter-pill" data-ofilter="pendiente_pago">ESPERANDO PAGO</button>
@@ -311,6 +312,6 @@
   <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
   <div id="busy" class="busy hidden"><div class="busy-box"><span class="loader"></span><span id="busy-text">Guardando…</span></div></div>
 
-  <script src="js/admin.js?v=10"></script>
+  <script src="js/admin.js?v=11"></script>
 </body>
 </html>

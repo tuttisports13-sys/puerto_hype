@@ -110,6 +110,13 @@ function packageInfo(resp) {
   };
 }
 
+/** Saldo disponible en Skydropx para pagar guías. */
+export async function getBalance() {
+  const r = await sky('GET', '/api/v1/finance/credits');
+  const d = r.data || r;
+  return { balance: Number(d.balance) || 0, currency: d.currency || 'MXN' };
+}
+
 export async function getShipment(id) {
   return packageInfo(await sky('GET', `/api/v1/shipments/${id}`));
 }

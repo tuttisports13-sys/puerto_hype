@@ -3,6 +3,9 @@ import { isValidSession } from './_session.js';
 import { requirePost } from './_github.js';
 import { listOrders, updateOrder } from './_orders.js';
 import { makeLabel, refreshLabel, applyPayment, syncSale } from './_fulfill.js';
+import { getBalance } from './_skydropx.js';
+
+const balance = () => getBalance().catch(() => null);
 
 export default async function handler(req, res) {
   const body = requirePost(req, res);
@@ -12,8 +15,8 @@ export default async function handler(req, res) {
   try {
     const { action, folio } = body;
     if (action === 'list') {
-      const orders = await listOrders();
-      return res.status(200).json({ success: true, orders: orders.slice(0, 300) });
+      const [orders, skydropx] = await Promise.all([listOrders(), balance()]);
+      return res.status(200).json({ success: true, orders: orders.slice(0, 300), skydropx });
     }
     if (!folio) return res.status(400).json({ error: 'Falta el folio' });
     const find = async () => (await listOrders()).find((o) => o.folio === folio);
@@ -46,7 +49,8 @@ export default async function handler(req, res) {
     } else {
       return res.status(400).json({ error: 'Acción no válida' });
     }
-    return res.status(200).json({ success: true, order });
+    const skydropx = action === 'label' || action === 'refresh' ? await balance() : undefined;
+    return res.status(200).json({ success: true, order, ...(skydropx !== undefined ? { skydropx } : {}) });
   } catch (error) {
     console.error(error);
     return res.status(error.status || 500).json({ error: error.message });

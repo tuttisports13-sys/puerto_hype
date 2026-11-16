@@ -351,3 +351,9 @@ input:focus, select:focus, textarea:focus { border-color: var(--black); box-shad
 .order-label.ok { border-style: solid; border-color: var(--green); }
 .order-label.bad { border-style: solid; border-color: var(--red); }
 .order-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Saldo de Skydropx en Pedidos */
+.sky-balance { font-size: 0.85rem; padding: 10px 14px; border-radius: 10px; border: 1.5px solid var(--border-subtle); background: #fff; margin-bottom: 12px; line-height: 1.5; }
+.sky-balance.ok { border-color: var(--green); }
+.sky-balance.bad { border-color: var(--red); background: #fef2f2; }
+.sky-balance a, .order-label a { color: inherit; font-weight: 700; }
