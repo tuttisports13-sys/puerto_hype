@@ -101,7 +101,7 @@ export function publicView(o) {
     createdAt: o.createdAt,
     lines: o.lines.map((l) => ({ name: l.name, size: l.size, quantity: l.quantity, total: l.total, customization: l.customization })),
     subtotal: o.subtotal,
-    shipping: o.shipping ? { carrier: o.shipping.carrier, service: o.shipping.service, total: o.shipping.total, days: o.shipping.days } : null,
+    shipping: o.shipping ? { carrier: o.shipping.carrier, service: o.shipping.service, total: o.shipping.total, days: o.shipping.days, personal: Boolean(o.shipping.personal) } : null,
     total: o.total,
     tracking: o.label && o.label.trackingNumber ? { number: o.label.trackingNumber, url: o.label.trackingUrl || '' } : null,
     allInStock: o.allInStock,

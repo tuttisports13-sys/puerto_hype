@@ -99,20 +99,37 @@
     const d = store.get(FORM_KEY) || {};
     const pieces = cart().reduce((s, i) => s + i.quantity, 0);
     const subtotal = cart().reduce((s, i) => s + (i.finalPrice || i.price) * i.quantity, 0);
+    state.subtotal = subtotal;
+    const modo = d.modo === 'personal' ? 'personal' : 'envio';
     open(`
       <form id="ck-form" class="ck-form" novalidate>
         <div class="ck-summary"><span>${pieces} pieza${pieces === 1 ? '' : 's'}</span><b>${money(subtotal)} MXN</b></div>
 
         <fieldset class="ck-group">
-          <legend>¿A QUIÉN SE LO ENVIAMOS?</legend>
-          ${field('nombre', 'Nombre completo', 'autocomplete="name" required maxlength="60"', d.nombre)}
-          <div class="ck-row">
-            ${field('telefono', 'WhatsApp (10 números)', 'type="tel" inputmode="numeric" autocomplete="tel-national" required maxlength="14"', d.telefono)}
-            ${field('email', 'Correo', 'type="email" autocomplete="email" required maxlength="80"', d.email)}
+          <legend>¿CÓMO LO QUIERES RECIBIR?</legend>
+          <div class="ck-rates">
+            <label class="ck-rate">
+              <input type="radio" name="modo" value="envio" ${modo === 'envio' ? 'checked' : ''}>
+              <span class="ck-rate-main"><b>📦 Envío a domicilio</b><small>A todo México por paquetería</small></span>
+            </label>
+            <label class="ck-rate">
+              <input type="radio" name="modo" value="personal" ${modo === 'personal' ? 'checked' : ''}>
+              <span class="ck-rate-main"><b>🤝 Entrega personal</b><small>Solo Veracruz y Boca del Río · sin costo de envío</small></span>
+              <span class="ck-rate-price">GRATIS</span>
+            </label>
           </div>
         </fieldset>
 
         <fieldset class="ck-group">
+          <legend id="ck-datos-title">TUS DATOS</legend>
+          ${field('nombre', 'Nombre completo', 'autocomplete="name" required maxlength="60"', d.nombre)}
+          <div class="ck-row">
+            ${field('telefono', 'WhatsApp (10 números)', 'type="tel" inputmode="numeric" autocomplete="tel-national" required maxlength="14"', d.telefono)}
+            ${field('email', 'Correo', 'type="email" autocomplete="email" maxlength="80"', d.email)}
+          </div>
+        </fieldset>
+
+        <fieldset class="ck-group" id="ck-direccion">
           <legend>DIRECCIÓN DE ENVÍO</legend>
           <div class="ck-row">
             ${field('cp', 'Código postal', 'inputmode="numeric" autocomplete="postal-code" required maxlength="5" pattern="\\d{5}"', d.cp)}
@@ -132,9 +149,11 @@
           ${field('referencias', 'Referencias (opcional)', 'maxlength="120" placeholder="Entre calles, color de la casa…"', d.referencias)}
         </fieldset>
 
+        <div id="ck-personal" class="ck-note" hidden>Te escribimos por <b>WhatsApp</b> para quedar en el punto y la hora de entrega en <b>Veracruz o Boca del Río</b>. Puedes pagar ahora con tarjeta o al recibir.</div>
         <div id="ck-alert" class="ck-alert" hidden></div>
         <div id="ck-shipping"></div>
         <button type="submit" id="ck-submit" class="ck-btn">VER OPCIONES DE ENVÍO</button>
+        <button type="button" id="ck-wa-personal" class="ck-btn ck-btn-wa" hidden>PREFIERO PAGAR AL RECIBIR (WHATSAPP)</button>
         <p class="ck-fine">Pagas en la página segura de Mercado Pago: tarjeta de crédito o débito, OXXO o SPEI. Nosotros nunca vemos los datos de tu tarjeta.</p>
       </form>`);
 
@@ -142,7 +161,44 @@
     form.addEventListener('input', onInput);
     form.addEventListener('change', onInput);
     form.addEventListener('submit', onSubmit);
+    $('#ck-wa-personal').addEventListener('click', pedirPorWhatsApp);
     if (d.cp && !d.colonia) lookupCp(d.cp);
+    aplicarModo();
+  }
+
+  const modoActual = () => (($('#ck-form [name="modo"]:checked') || {}).value === 'personal' ? 'personal' : 'envio');
+
+  // Entrega personal: sin dirección ni paquetería; envío a domicilio: como siempre
+  function aplicarModo() {
+    const personal = modoActual() === 'personal';
+    $('#ck-direccion').hidden = personal;
+    $('#ck-personal').hidden = !personal;
+    $('#ck-wa-personal').hidden = !personal;
+    $('#ck-datos-title').textContent = personal ? 'TUS DATOS PARA QUEDAR' : '¿A QUIÉN SE LO ENVIAMOS?';
+    $('#ck-form [name="email"]').previousElementSibling.textContent = personal ? 'Correo (opcional)' : 'Correo';
+    if (personal) {
+      state.quote = null; state.rateId = null;
+      $('#ck-shipping').innerHTML = `<div class="ck-totals"><div><span>Productos</span><b>${money(state.subtotal)}</b></div><div><span>Entrega personal</span><b>GRATIS</b></div><div class="ck-grand"><span>TOTAL</span><b>${money(state.subtotal)} MXN</b></div></div>`;
+      $('#ck-submit').textContent = `PAGAR ${money(state.subtotal)} AHORA CON TARJETA`;
+    } else if (!state.quote) {
+      $('#ck-shipping').innerHTML = '';
+      $('#ck-submit').textContent = 'VER OPCIONES DE ENVÍO';
+    }
+  }
+
+  // Pagar al recibir: se manda el pedido por WhatsApp, igual que el botón del carrito
+  function pedirPorWhatsApp() {
+    const v = read();
+    const err = validate(v, 'personal');
+    if (err) return alertMsg(err);
+    alertMsg('');
+    const lineas = cart().map((i, n) => {
+      const extra = typeof customizationLines === 'function' ? customizationLines(i).map((l) => `\n   ✍️ ${l}`).join('') : '';
+      return `${n + 1}. ${i.name} · Talla ${i.size || 'Unitalla'} · x${i.quantity} → $${(i.finalPrice || i.price) * i.quantity}${extra}`;
+    }).join('\n');
+    const msg = `🤝 *ENTREGA PERSONAL - PUERTO HYPE*\n\nHola! Soy ${v.nombre.trim()} y quiero estos productos con entrega personal en Veracruz / Boca del Río, pagando al recibir:\n\n${lineas}\n\n💰 *Total: $${state.subtotal.toLocaleString('es-MX')} MXN* (sin envío)\n📱 Mi WhatsApp: ${v.telefono}\n\n¿Dónde y a qué hora nos vemos?`;
+    const num = (app() && app().whatsappNumber) || '5212294135613';
+    window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`, '_blank');
   }
 
   const read = () => Object.fromEntries(new FormData($('#ck-form')).entries());
@@ -158,6 +214,8 @@
   function onInput(e) {
     const v = read();
     store.set(FORM_KEY, v);
+    if (e.target.name === 'modo') { aplicarModo(); return; }
+    if (modoActual() === 'personal') return;
     if (e.target.name === 'cp' && /^\d{5}$/.test(v.cp)) lookupCp(v.cp);
     // Si cambia la dirección, la cotización anterior ya no sirve
     if (state.quote && areaKey(v) !== state.areaKey) {
@@ -188,9 +246,10 @@
     } catch (e) { /* se llena a mano */ }
   }
 
-  function validate(v) {
+  function validate(v, modo = 'envio') {
     if (v.nombre.trim().length < 3) return 'Escribe tu nombre completo';
     if (!/^\d{10}$/.test(v.telefono.replace(/\D/g, '').replace(/^52(?=\d{10}$)/, ''))) return 'Escribe tu WhatsApp a 10 números';
+    if (modo === 'personal') return v.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.email.trim()) ? 'Escribe un correo válido (o déjalo vacío)' : '';
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.email.trim())) return 'Escribe un correo válido';
     if (!/^\d{5}$/.test(v.cp)) return 'Escribe tu código postal (5 números)';
     if (!v.estado) return 'Elige tu estado';
@@ -203,11 +262,26 @@
   async function onSubmit(e) {
     e.preventDefault();
     const v = read();
-    const err = validate(v);
+    const modo = modoActual();
+    const err = validate(v, modo);
     if (err) return alertMsg(err);
     alertMsg('');
     const btn = $('#ck-submit');
     btn.disabled = true;
+
+    if (modo === 'personal') {
+      btn.textContent = 'ABRIENDO MERCADO PAGO…';
+      try {
+        const r = await api({ action: 'pay', entrega: 'personal', items: cartLines(), address: { nombre: v.nombre, telefono: v.telefono, email: v.email }, prueba: testMode() });
+        store.set(LAST_KEY, { folio: r.folio, at: Date.now() });
+        window.location.href = r.url;
+      } catch (ex) {
+        alertMsg(ex.message);
+        aplicarModo();
+        btn.disabled = false;
+      }
+      return;
+    }
 
     if (!state.quote) {
       btn.textContent = 'COTIZANDO ENVÍO…';
@@ -277,7 +351,7 @@
   function statusView(o) {
     const lines = o.lines.map((l) => `<li><span>${l.quantity}× ${esc(l.name)} · ${esc(l.size)}</span><b>${money(l.total)}</b></li>`).join('');
     const box = {
-      pagado: ['✅', '¡PAGO RECIBIDO!', o.allInStock ? 'Ya estamos preparando tu paquete. Aquí te aparece tu número de guía en cuanto esté lista.' : 'Ya quedó tu pedido. Los jerseys sobre pedido tardan unos días; te mandamos la guía en cuanto salgan.'],
+      pagado: ['✅', '¡PAGO RECIBIDO!', o.shipping && o.shipping.personal ? 'En un momento te escribimos por WhatsApp para quedar en el punto y la hora de entrega en Veracruz o Boca del Río.' : o.allInStock ? 'Ya estamos preparando tu paquete. Aquí te aparece tu número de guía en cuanto esté lista.' : 'Ya quedó tu pedido. Los jerseys sobre pedido tardan unos días; te mandamos la guía en cuanto salgan.'],
       guia_lista: ['📦', '¡TU GUÍA ESTÁ LISTA!', 'Tu paquete sale en cuanto la paquetería lo recoja.'],
       enviado: ['🚚', '¡TU PEDIDO VA EN CAMINO!', 'Puedes rastrearlo con tu número de guía.'],
       pendiente_pago: ['⏳', 'PAGO PENDIENTE', 'Si pagaste en OXXO o por SPEI, puede tardar en confirmarse. Esta página se actualiza sola.'],
@@ -296,7 +370,7 @@
         <ul class="ck-lines">${lines}</ul>
         <div class="ck-totals">
           <div><span>Productos</span><b>${money(o.subtotal)}</b></div>
-          ${o.shipping ? `<div><span>Envío ${esc(o.shipping.carrier)}</span><b>${money(o.shipping.total)}</b></div>` : ''}
+          ${o.shipping ? (o.shipping.personal ? '<div><span>Entrega personal</span><b>GRATIS</b></div>' : `<div><span>Envío ${esc(o.shipping.carrier)}</span><b>${money(o.shipping.total)}</b></div>`) : ''}
           <div class="ck-grand"><span>TOTAL</span><b>${money(o.total)} MXN</b></div>
         </div>
         ${o.status === 'rechazado' ? '<button type="button" class="ck-btn" id="ck-retry">INTENTAR DE NUEVO</button>' : ''}
@@ -341,6 +415,8 @@
     const btn = $('#btn-card-checkout');
     if (!btn) return;
     btn.hidden = !(checkoutActivo || testMode());
+    const promo = $('#ck-promo');
+    if (promo) promo.hidden = btn.hidden;
     const empty = cart().length === 0;
     btn.disabled = empty;
     btn.style.opacity = empty ? '0.5' : '1';

@@ -70,8 +70,46 @@ async function handleQuote(body) {
   };
 }
 
+// Entrega personal en Veracruz / Boca del Río: sin envío, solo nombre y WhatsApp para quedar
+function cleanContact(a = {}) {
+  const out = {
+    nombre: text(a.nombre, 60),
+    telefono: String(a.telefono ?? '').replace(/\D/g, '').replace(/^52(?=\d{10}$)/, ''),
+    email: text(a.email, 80).toLowerCase(),
+    entrega: 'personal',
+  };
+  if (out.nombre.length < 3) throw bad('Escribe tu nombre completo');
+  if (!/^\d{10}$/.test(out.telefono)) throw bad('Escribe tu WhatsApp a 10 números');
+  if (out.email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(out.email)) throw bad('Escribe un correo válido');
+  return out;
+}
+
+async function handlePayPersonal(body, req) {
+  const address = cleanContact(body.address);
+  const cart = await priceCart(body.items);
+  const order = {
+    folio: newFolio(),
+    accessToken: newAccessToken(),
+    createdAt: new Date().toISOString(),
+    status: 'pendiente_pago',
+    lines: cart.lines,
+    pieces: cart.pieces,
+    allInStock: cart.allInStock,
+    subtotal: cart.subtotal,
+    shipping: { personal: true, carrier: 'Entrega personal', provider: 'personal', service: 'Veracruz / Boca del Río', total: 0, days: null },
+    total: cart.subtotal,
+    address,
+    payment: null,
+    label: null,
+  };
+  await addOrder(order);
+  const pref = await createPreference(order, siteUrl(req));
+  return { folio: order.folio, url: pref.url };
+}
+
 async function handlePay(body, req) {
   if (!checkoutOn(body)) throw closed();
+  if (body.entrega === 'personal') return handlePayPersonal(body, req);
   const address = cleanAddress(body.address);
   const q = verify(body.quoteToken);
   if (!q || q.exp < Date.now()) throw bad('La cotización del envío venció. Vuelve a cotizar.');

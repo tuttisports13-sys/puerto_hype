@@ -55,7 +55,7 @@ async function afterPaid(order) {
   if (process.env.STOCK_AUTO_DESCUENTO === '1' && order.lines.some((l) => l.inStock)) {
     await discountStock(order).catch((err) => console.error('stock', order.folio, err));
   }
-  if (order.allInStock && process.env.AUTO_GUIA !== '0') {
+  if (order.allInStock && !order.shipping?.personal && process.env.AUTO_GUIA !== '0') {
     await makeLabel(order.folio).catch((err) => console.error('guia', order.folio, err));
   }
 }
@@ -94,6 +94,7 @@ export async function syncSale(folio, order) {
 /** Genera la guía una sola vez (aunque lleguen dos avisos juntos). */
 export async function makeLabel(folio, { force = false } = {}) {
   const claim = await updateOrder(folio, (o) => {
+    if (o.shipping && o.shipping.personal) throw Object.assign(new Error('Este pedido es de entrega personal: no lleva guía'), { status: 400 });
     if (!['pagado', 'guia_lista'].includes(o.status) && !force) return false;
     if (o.label && (o.label.state === 'generando' || o.label.state === 'lista') && !force) return false;
     o.label = { state: 'generando', at: new Date().toISOString() };

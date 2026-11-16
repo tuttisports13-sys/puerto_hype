@@ -37,7 +37,7 @@ export async function createPreference(order, siteUrl) {
     currency_id: 'MXN',
     ...(l.image && /^https:\/\//.test(l.image) ? { picture_url: l.image } : {}),
   }));
-  items.push({
+  if (order.shipping.total > 0) items.push({
     id: 'envio',
     title: `Envío ${order.shipping.carrier} ${order.shipping.service || ''}`.trim().slice(0, 250),
     quantity: 1,

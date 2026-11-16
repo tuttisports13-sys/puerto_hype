@@ -427,7 +427,9 @@
   }
 
   function orderCard(o) {
-    const [label, color] = ORDER_STATUS[o.status] || [o.status, 'gray'];
+    const personal = Boolean(o.shipping && o.shipping.personal);
+    const [label, color] = personal && o.status === 'pagado' ? ['PAGADO · ENTREGA PERSONAL', 'amber']
+      : personal && o.status === 'enviado' ? ['ENTREGADO', ''] : (ORDER_STATUS[o.status] || [o.status, 'gray']);
     const a = o.address || {};
     const lb = o.label || {};
     const ship = o.shipping || {};
@@ -437,7 +439,9 @@
     }).join('');
     const wa = `https://wa.me/52${encodeURIComponent(a.telefono || '')}?text=${encodeURIComponent(`Hola ${a.nombre || ''}! Te escribimos de Puerto Hype por tu pedido ${o.folio}.`)}`;
     let labelHtml = '';
-    if (lb.state === 'lista') {
+    if (ship.personal) {
+      labelHtml = `<div class="order-label ok">🤝 Entrega personal: no lleva guía. Quedan por WhatsApp en el punto y la hora.</div>`;
+    } else if (lb.state === 'lista') {
       labelHtml = `<div class="order-label ok">📦 Guía ${esc(lb.carrier || ship.carrier || '')}: <b>${esc(lb.trackingNumber)}</b> ${lb.labelUrl ? `<a class="btn btn-primary btn-sm" href="${esc(lb.labelUrl)}" target="_blank" rel="noopener">DESCARGAR GUÍA (PDF)</a>` : ''}</div>`;
     } else if (lb.state === 'generando') {
       labelHtml = '<div class="order-label">⏳ Skydropx está generando la guía… <button type="button" class="btn btn-ghost btn-sm" data-oact="refresh">REVISAR</button></div>';
@@ -458,7 +462,10 @@
     const sobrePedido = (o.lines || []).filter((l) => !l.inStock);
     const pendientes = sobrePedido.map((l) => `${l.name} talla ${l.size}`).join(', ');
     const avisos = [];
-    if (sobrePedido.length && o.status === 'pagado' && lb.state !== 'lista') {
+    if (ship.personal && o.status === 'pagado') {
+      avisos.push(`<a class="btn btn-secondary btn-sm" target="_blank" rel="noopener" href="${esc(waLink(`¡Hola ${nombre}! 👋 Soy de Puerto Hype. Ya recibimos tu pago del pedido ${o.folio}${sobrePedido.length ? ' y ya pedimos tu jersey (tarda de 15 a 20 días; te aviso en cuanto llegue)' : ''}. ¿En qué punto de Veracruz o Boca del Río y a qué hora te queda bien para la entrega?`))}">🤝 ACORDAR ENTREGA</a>`);
+    }
+    if (sobrePedido.length && o.status === 'pagado' && lb.state !== 'lista' && !ship.personal) {
       avisos.push(`<a class="btn btn-secondary btn-sm" target="_blank" rel="noopener" href="${esc(waLink(`¡Hola ${nombre}! 👋 Soy de Puerto Hype. Ya recibimos tu pago del pedido ${o.folio} y ya pedimos tu ${pendientes}. Tarda de 15 a 20 días en llegarnos; te aviso en cuanto lo tenga. ¡Gracias por tu compra!`))}">📦 AVISAR: YA LO PEDÍ</a>`);
       avisos.push(`<a class="btn btn-secondary btn-sm" target="_blank" rel="noopener" href="${esc(waLink(`¡Hola ${nombre}! 🙌 Ya llegó tu pedido ${o.folio}. Lo enviamos en las próximas horas y te paso tu número de guía para que lo rastrees.`))}">✅ AVISAR: YA LLEGÓ</a>`);
     }
@@ -469,6 +476,7 @@
     const actions = [
       ...avisos,
       o.status === 'guia_lista' ? '<button type="button" class="btn btn-primary btn-sm" data-oact="shipped">MARCAR ENVIADO</button>' : '',
+      ship.personal && o.status === 'pagado' ? '<button type="button" class="btn btn-primary btn-sm" data-oact="shipped">MARCAR ENTREGADO</button>' : '',
       o.status === 'pendiente_pago' ? '<button type="button" class="btn btn-ghost btn-sm" data-oact="refresh">REVISAR PAGO</button>' : '',
       ['pendiente_pago', 'rechazado'].includes(o.status) ? '<button type="button" class="btn btn-danger btn-sm" data-oact="cancel">CANCELAR</button>' : '',
     ].join('');
@@ -483,7 +491,7 @@
         <div class="order-money">Productos ${money(o.subtotal)} · Envío ${esc(ship.carrier || '')} ${money(ship.total)} · <b>Total ${money(o.total)}</b>${pago}</div>
         <div class="order-client">
           <b>${esc(a.nombre)}</b> · <a href="${wa}" target="_blank" rel="noopener">WhatsApp ${esc(a.telefono)}</a> · ${esc(a.email)}<br>
-          ${esc(a.calle)}, Col. ${esc(a.colonia)}, ${esc(a.municipio)}, ${esc(a.estado)}, CP ${esc(a.cp)}${a.referencias ? `<br><small>Ref: ${esc(a.referencias)}</small>` : ''}
+          ${ship.personal ? '🤝 <b>Entrega personal</b> en Veracruz / Boca del Río' : `${esc(a.calle)}, Col. ${esc(a.colonia)}, ${esc(a.municipio)}, ${esc(a.estado)}, CP ${esc(a.cp)}${a.referencias ? `<br><small>Ref: ${esc(a.referencias)}</small>` : ''}`}
         </div>
         ${o.stockSync && o.stockSync.state === 'error' ? `<div class="order-label bad">⚠️ No se pasó al panel de stock: ${esc(o.stockSync.error)} <button type="button" class="btn btn-secondary btn-sm" data-oact="stocksync">REINTENTAR</button></div>` : ''}
         ${o.stockSync && o.stockSync.state === 'ok' ? '<div class="order-money">✓ Descontado del Panel de Jerseys</div>' : ''}
@@ -498,7 +506,7 @@
     const el = $('#sky-balance');
     if (!el) return;
     const s = state.skydropx;
-    const needs = state.orders.filter((o) => o.status === 'pagado' && (!o.label || o.label.state === 'error'));
+    const needs = state.orders.filter((o) => o.status === 'pagado' && !(o.shipping && o.shipping.personal) && (!o.label || o.label.state === 'error'));
     const needed = needs.reduce((sum, o) => sum + Number((o.shipping && o.shipping.total) || 0), 0);
     el.classList.remove('hidden');
     if (!s) {
@@ -545,7 +553,7 @@
     const folio = b.closest('.order').dataset.folio;
     const act = b.dataset.oact;
     if (act === 'cancel' && !confirm(`¿Cancelar el pedido ${folio}? (Esto no reembolsa nada en Mercado Pago)`)) return;
-    if (act === 'shipped' && !confirm(`¿Marcar ${folio} como enviado?`)) return;
+    if (act === 'shipped' && !confirm(`¿Marcar ${folio} como ${state.orders.some((x) => x.folio === folio && x.shipping && x.shipping.personal) ? 'entregado' : 'enviado'}?`)) return;
     const o = state.orders.find((x) => x.folio === folio);
     busy(true, act === 'label' ? 'Generando guía con Skydropx…' : 'Actualizando…');
     try {
