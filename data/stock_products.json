@@ -60,7 +60,9 @@
     ],
     "sizes": [
       "S",
-      "L"
+      "M",
+      "L",
+      "XL"
     ],
     "soldOut": false,
     "hidden": false,
@@ -497,7 +499,6 @@
     ],
     "sizes": [
       "M",
-      "L",
       "XL"
     ],
     "description": "",
@@ -524,9 +525,10 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936211619_3.jpg"
     ],
     "sizes": [
-      "XL"
+      "M",
+      "L"
     ],
-    "soldOut": true,
+    "soldOut": false,
     "promo": {
       "price": 500,
       "until": "2026-11-15"
@@ -548,6 +550,7 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936151124_3.jpg"
     ],
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
@@ -606,6 +609,7 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935991291_4.jpg"
     ],
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
@@ -634,9 +638,9 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935847080_3.jpg"
     ],
     "sizes": [
+      "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": "",
     "soldOut": false,
@@ -662,14 +666,16 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935730636_3.jpg"
     ],
     "sizes": [
+      "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
     "promo": {
       "price": 500,
       "until": "2026-11-15"
     },
-    "soldOut": true
+    "soldOut": false
   },
   {
     "id": "stock-1791935648432",
@@ -687,8 +693,8 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791935642064_3.jpg"
     ],
     "sizes": [
-      "M",
       "S",
+      "M",
       "L",
       "XL"
     ],
@@ -1308,13 +1314,15 @@
     ],
     "sizes": [
       "S",
+      "M",
       "L",
-      "M"
+      "XL"
     ],
     "promo": {
       "price": 500,
       "until": "2026-11-15"
-    }
+    },
+    "soldOut": false
   },
   {
     "id": "stock-1791926696766",
@@ -1333,9 +1341,9 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_4.jpg"
     ],
     "sizes": [
+      "M",
       "L",
-      "XL",
-      "M"
+      "XL"
     ],
     "description": "",
     "soldOut": false,
@@ -1449,7 +1457,7 @@
       "L"
     ],
     "description": "",
-    "soldOut": false,
+    "soldOut": true,
     "hidden": false,
     "promo": {
       "price": 500,
@@ -1475,7 +1483,8 @@
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
     "description": "",
     "soldOut": false,
