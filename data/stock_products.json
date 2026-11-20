@@ -1,5 +1,29 @@
 [
   {
+    "id": "stock-1795140661934",
+    "name": "Cruz azul Visita",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795140324939_3n2gq.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795140324939_3n2gq.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795140331835_ilr3o.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795140334318_9avbg.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795140336752_oltnp.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1794288878001",
     "name": "Olympiacos Local “Hormiga” 34",
     "category": "sneakers",
