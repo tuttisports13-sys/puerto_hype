@@ -49,6 +49,9 @@ export async function priceCart(lines) {
   const { data: stockList } = await readJson('data/stock_products.json', []);
   const stock = new Map(stockList.map((p) => [p.id, p]));
   const sports = loadSports();
+  // Productos ligados al Panel de Jerseys: las tallas válidas son las del stock en vivo, no las del catálogo
+  const [links, live] = await Promise.all([getLinks(), getStock()]);
+  const liveRow = (id) => (live && links[id] && live[links[id]]) || null;
 
   const out = [];
   for (const raw of lines) {
@@ -57,12 +60,13 @@ export async function priceCart(lines) {
     const fromStock = stock.get(id);
     const product = fromStock || sports.get(id);
     if (!product) throw fail('Uno de tus productos ya no existe. Quítalo del carrito e intenta de nuevo.');
-    if (product.hidden || product.soldOut) throw fail(`"${product.name}" ya está agotado`);
+    if (product.hidden || (product.soldOut && !liveRow(id))) throw fail(`"${product.name}" ya está agotado`);
 
     const quantity = Math.floor(Number(raw.quantity));
     if (!(quantity >= 1 && quantity <= 50)) throw fail('Cantidad no válida');
 
-    const sizes = Array.isArray(product.sizes) ? product.sizes : [];
+    const row = fromStock ? liveRow(id) : null;
+    const sizes = row ? ['S', 'M', 'L', 'XL'] : (Array.isArray(product.sizes) ? product.sizes : []);
     const size = text(raw.size, 40) || 'Unitalla';
     if (sizes.length && !sizes.includes(size)) throw fail(`La talla ${size} de "${product.name}" ya no está disponible`);
 
@@ -113,7 +117,7 @@ export async function priceCart(lines) {
   // Stock real del Panel de Jerseys (a través de la hoja STOCK): no vender lo que ya no hay
   const linked = out.filter((l) => l.inStock);
   if (linked.length) {
-    const [links, stock] = await Promise.all([getLinks(), getStock()]);
+    const stock = live;
     if (stock) {
       const want = {};
       for (const l of linked) {

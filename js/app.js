@@ -201884,31 +201884,84 @@ function applyPromos(list) {
   });
 }
 
-// Stock en vivo del Panel de Jerseys (vía /api/checkout?stock=1): solo se muestran las tallas que hay
-// y se avisa cuando quedan pocas. Si no responde rápido, la tienda sigue con las tallas del catálogo.
+// Stock en vivo del Panel de Jerseys (vía /api/checkout?stock=1): solo se muestran las tallas que hay,
+// se marca AGOTADO cuando no queda ninguna y se avisa cuando quedan pocas.
+// - Pinta primero con la última foto guardada en este navegador (más fiel que el catálogo).
+// - Si la respuesta tarda, la tienda abre y se corrige sola en cuanto llega.
+// - Se vuelve a revisar cada 2 minutos y al regresar a la pestaña.
+const LIVE_STOCK_KEY = 'ph_live_stock_v1';
+const LIVE_STOCK_EVERY_MS = 2 * 60 * 1000;
+let liveStockSig = '';
+
+function stockSignature(list) {
+  return (list || []).map(p => `${p.id}:${(p.sizes || []).join(',')}:${p.soldOut ? 1 : 0}:${p.badge || ''}`).join('|');
+}
+
+function applyStockMap(list, stock) {
+  (list || []).forEach(p => {
+    const st = stock[p.id];
+    if (!st) return;
+    if (!('baseBadge' in p)) { p.baseBadge = p.badge; p.baseBadgeType = p.badgeType; }
+    const avail = ['S', 'M', 'L', 'XL'].filter(t => (Number(st[t]) || 0) > 0);
+    p.sizes = avail;
+    p.soldOut = avail.length === 0;
+    p.stockBySize = st;
+    const total = avail.reduce((a, t) => a + Number(st[t]), 0);
+    if (total > 0 && total <= 2 && !p.onSale) {
+      p.badge = total === 1 ? '¡ÚLTIMA PIEZA!' : '¡ÚLTIMAS 2 PIEZAS!';
+      p.badgeType = 'badge-hot';
+    } else {
+      p.badge = p.baseBadge;
+      p.badgeType = p.baseBadgeType;
+    }
+  });
+}
+
+async function fetchLiveStock() {
+  const res = await fetch('/api/checkout?stock=1', { cache: 'no-store' });
+  if (!res.ok) throw new Error('stock ' + res.status);
+  const { stock } = await res.json();
+  if (!stock) throw new Error('sin stock');
+  try { localStorage.setItem(LIVE_STOCK_KEY, JSON.stringify(stock)); } catch (e) { /* sin almacenamiento */ }
+  return stock;
+}
+
+// Vuelve a pintar la tienda (y la ficha abierta) solo si algo cambió de verdad
+function refreshAfterStock(list) {
+  const sig = stockSignature(list);
+  if (sig === liveStockSig) return;
+  liveStockSig = sig;
+  try {
+    renderProducts();
+    const modal = document.getElementById('quickview-modal');
+    if (currentQvProductId && modal && modal.classList.contains('open') && list.some(p => p.id === currentQvProductId)) {
+      openQuickView(currentQvProductId);
+    }
+  } catch (e) { console.error('stock en vivo', e); }
+}
+
+async function updateLiveStock(list) {
+  try {
+    applyStockMap(list, await fetchLiveStock());
+    refreshAfterStock(list);
+  } catch (e) { /* se queda con lo último que había */ }
+}
+
 async function applyLiveStock(list) {
   try {
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 2500);
-    const res = await fetch('/api/checkout?stock=1', { signal: ctrl.signal });
-    clearTimeout(timer);
-    if (!res.ok) return;
-    const { stock } = await res.json();
-    if (!stock) return;
-    (list || []).forEach(p => {
-      const st = stock[p.id];
-      if (!st) return;
-      const avail = ['S', 'M', 'L', 'XL'].filter(t => (Number(st[t]) || 0) > 0);
-      p.sizes = avail;
-      p.soldOut = avail.length === 0;
-      p.stockBySize = st;
-      const total = avail.reduce((a, t) => a + Number(st[t]), 0);
-      if (total > 0 && total <= 2 && !p.onSale) {
-        p.badge = total === 1 ? '¡ÚLTIMA PIEZA!' : '¡ÚLTIMAS 2 PIEZAS!';
-        p.badgeType = 'badge-hot';
-      }
-    });
-  } catch (e) { /* sin stock en vivo: se usa el catálogo */ }
+    const saved = JSON.parse(localStorage.getItem(LIVE_STOCK_KEY) || 'null');
+    if (saved) applyStockMap(list, saved);
+  } catch (e) { /* sin almacenamiento */ }
+
+  const first = fetchLiveStock().then(stock => { applyStockMap(list, stock); return true; });
+  const onTime = await Promise.race([first, new Promise(r => setTimeout(() => r(false), 2500))]).catch(() => false);
+  liveStockSig = stockSignature(list);
+  if (!onTime) {
+    // Llegó tarde (o falló): se corrige en cuanto responda, o se reintenta en 5 s
+    first.then(() => refreshAfterStock(list)).catch(() => setTimeout(() => updateLiveStock(list), 5000));
+  }
+  setInterval(() => { if (!document.hidden) updateLiveStock(list); }, LIVE_STOCK_EVERY_MS);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) updateLiveStock(list); });
 }
 
 if (document.readyState === 'loading') {
