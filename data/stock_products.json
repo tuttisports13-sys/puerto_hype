@@ -16,7 +16,8 @@
     ],
     "sizes": [
       "M",
-      "L"
+      "L",
+      "XL"
     ],
     "soldOut": false,
     "hidden": false
@@ -465,9 +466,9 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936497577_4.jpg"
     ],
     "sizes": [
+      "S",
       "M",
-      "L",
-      "S"
+      "L"
     ],
     "description": "",
     "soldOut": false,
@@ -519,6 +520,7 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936272781_3.jpg"
     ],
     "sizes": [
+      "S",
       "M",
       "XL"
     ],
@@ -546,6 +548,7 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936211619_3.jpg"
     ],
     "sizes": [
+      "S",
       "M",
       "L"
     ],
@@ -601,9 +604,9 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791936051467_4.jpg"
     ],
     "sizes": [
+      "S",
       "M",
-      "L",
-      "S"
+      "L"
     ],
     "description": "",
     "soldOut": false,
@@ -661,7 +664,8 @@
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
     "description": "",
     "soldOut": false,
@@ -1362,6 +1366,7 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926687588_4.jpg"
     ],
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
@@ -1392,9 +1397,10 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926547602_5.jpg"
     ],
     "sizes": [
+      "S",
+      "M",
       "L",
-      "XL",
-      "M"
+      "XL"
     ],
     "description": "",
     "soldOut": false,
@@ -1474,8 +1480,9 @@
       "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1791926333925_4.jpg"
     ],
     "sizes": [
-      "M",
-      "L"
+      "S",
+      "L",
+      "XL"
     ],
     "description": "",
     "soldOut": true,
@@ -1534,7 +1541,8 @@
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
     "description": "",
     "soldOut": false,
