@@ -201985,7 +201985,7 @@ if (AppState.currentMode === 'preorder-sports') currentProducts = SPORTS_PRODUCT
   // así que se separan por nombre/talla para que Jerseys, Calzado y Outlet muestren lo correcto.
   const stockGroup = (prod) => {
     if (prod.category === 'mayoreo' || String(prod.id).startsWith('lote-')) return 'mayoreo';
-    if (/local|visita|alternativ|entrenamiento|manga larga|retro|aniversario|jersey|messi|ronaldo|yamal|portugal 20|\b\d{2}\/\d{2}\b/i.test(prod.name)) return 'jerseys';
+    if (/local|visita|alternativ|centenario|entrenamiento|manga larga|retro|aniversario|jersey|messi|ronaldo|yamal|portugal 20|\b\d{2}\/\d{2}\b/i.test(prod.name)) return 'jerseys';
     const shoeSize = (prod.sizes || []).some(sz => { const n = parseFloat(sz); return (/^\d{2}(\.5)?\s*(cm)?$/i.test(String(sz).trim()) && n >= 21 && n <= 32) || /^\d{1,2}(\.5)?\s*(mx|us)$/i.test(String(sz).trim()); });
     if (shoeSize) return 'calzado';
     return 'outlet';
