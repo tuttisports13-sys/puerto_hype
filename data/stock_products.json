@@ -1,5 +1,29 @@
 [
   {
+    "id": "stock-1795408105004",
+    "name": "Arsenal Local 26/27",
+    "category": "sneakers",
+    "price": 650,
+    "retailPrice": 975,
+    "badge": "NUEVO",
+    "badgeType": "badge-hot",
+    "image": "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795408105004_0.jpg",
+    "gallery": [
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795408105004_0.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795408105004_1.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795408105004_2.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795408105004_3.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795408105004_4.jpg",
+      "https://raw.githubusercontent.com/tuttisports13-sys/puerto_hype/main/images/stock/stock_1795408105004_5.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "soldOut": false,
+    "hidden": false
+  },
+  {
     "id": "stock-1795403120196",
     "name": "Real Madrid Alternativa 26/27",
     "category": "sneakers",
