@@ -21,7 +21,11 @@
       "L"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 450,
+      "until": "2027-01-07"
+    }
   },
   {
     "id": "stock-1795403120196",
@@ -45,7 +49,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 450,
+      "until": "2027-01-07"
+    }
   },
   {
     "id": "stock-1795403120195",
@@ -69,7 +77,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 450,
+      "until": "2027-01-07"
+    }
   },
   {
     "id": "stock-1795403120194",
@@ -93,7 +105,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 450,
+      "until": "2027-01-07"
+    }
   },
   {
     "id": "stock-1795403120193",
@@ -115,7 +131,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 450,
+      "until": "2027-01-07"
+    }
   },
   {
     "id": "stock-1795403120192",
@@ -139,7 +159,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 450,
+      "until": "2027-01-07"
+    }
   },
   {
     "id": "stock-1795140661934",
@@ -162,7 +186,11 @@
       "XL"
     ],
     "soldOut": false,
-    "hidden": false
+    "hidden": false,
+    "promo": {
+      "price": 450,
+      "until": "2027-01-07"
+    }
   },
   {
     "id": "stock-1794288878001",
@@ -232,8 +260,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -257,8 +285,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -327,8 +355,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     },
     "description": ""
   },
@@ -373,8 +401,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -397,8 +425,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -424,8 +452,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -453,8 +481,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -564,8 +592,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -587,8 +615,8 @@
       "L"
     ],
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -616,8 +644,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -642,8 +670,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -670,8 +698,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -696,8 +724,8 @@
     ],
     "soldOut": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -725,8 +753,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -754,8 +782,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -784,8 +812,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -813,8 +841,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -839,8 +867,8 @@
       "XL"
     ],
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     },
     "soldOut": false
   },
@@ -869,8 +897,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -1486,8 +1514,8 @@
       "XL"
     ],
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     },
     "soldOut": false
   },
@@ -1517,8 +1545,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -1548,8 +1576,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -1574,8 +1602,8 @@
       "M"
     ],
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -1601,8 +1629,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -1630,8 +1658,8 @@
     "soldOut": true,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -1660,8 +1688,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
@@ -1690,8 +1718,8 @@
     "soldOut": false,
     "hidden": false,
     "promo": {
-      "price": 500,
-      "until": "2026-11-15"
+      "price": 450,
+      "until": "2027-01-07"
     }
   },
   {
